@@ -1,0 +1,24 @@
+,Approche .standard,Approche avancée.IRBF ,Approche avancée.IRBA
+Sûretés financières,,,
+•  Liquidités/DAT/OR ,√ ,√ ,√
+•  Titres de dettes ,,,
+-  Emprunteur souverain ayant une note  ≥ BB- ,√ ,√ ,√
+- Autres émetteurs ≥ BBB- ,√ ,√ ,√
+-  Autres (n’ayant pas de note externe mais  inclus dans les modèles de notation  interne) ,X ,X ,√
+•  Actions,,,
+- Indice principal ,√ ,√ ,√
+- Bourse reconnue ,√ ,√ ,√
+- Autres ,X ,X ,√
+•  OPCVM et Fonds d’investissement ,√ ,√ ,√
+Sûretés réelles,,,
+•  Hypothèque portant sur un prêt immobilier  Retail ,√ ,√ ,√
+•  Hypothèque sur un crédit-bail à usage  professionnel ,√ ,√ ,√
+•  Autres sûretés immobilières à condition  de : ,,,
+-  Existence d’un marché liquide pour la  cession de la sûreté -  Existence d’un prix de marché applicable ,X ,√ ,√
+à la sûreté Sûretés personnelles,,,
+•  Souverains banques et autres entités ≥ A- ,√ ,√ ,√
+•  Autres entités < A- ,X ,X ,√
+•  Entités non notées ,X ,X ,√
+Dérivés de crédit,,,
+"•  Emprunteurs souverains, BMD et les  institutions financières ou autre entité avec  une note ≥ A-",√ ,√ ,√
+•  Autres ,X ,√ ,√

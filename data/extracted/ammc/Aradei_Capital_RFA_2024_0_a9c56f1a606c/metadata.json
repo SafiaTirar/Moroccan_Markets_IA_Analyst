@@ -1,0 +1,6571 @@
+{
+  "source_pdf": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/raw/ammc/pdfs/annual/aradei_capital/2024/Aradei_Capital_RFA_2024_0.pdf",
+  "sha256": "a9c56f1a606c0f30802078ad4b5a5202c02506e3f8b0ae7353220c9070b09b13",
+  "parsed_at": "2026-10-25T14:53:44.063135+00:00",
+  "docling_version": "2.140.0",
+  "validation_schema_version": "2.0",
+  "backend": "docling.backend.pypdfium2_backend.PyPdfiumDocumentBackend",
+  "extraction_config": {
+    "backend": "docling.backend.pypdfium2_backend.PyPdfiumDocumentBackend",
+    "do_ocr": false,
+    "do_table_structure": true
+  },
+  "extraction_config_sha256": "0044bac57114245a5515c70b41b9fee3bd75c4fae1c4407b240fe37733aa54f4",
+  "conversion_seconds": 1118.04,
+  "page_count": 171,
+  "table_count": 176,
+  "table_pages": [
+    [
+      5
+    ],
+    [
+      5
+    ],
+    [
+      6
+    ],
+    [
+      6
+    ],
+    [
+      6
+    ],
+    [
+      6
+    ],
+    [
+      6
+    ],
+    [
+      7
+    ],
+    [
+      9
+    ],
+    [
+      9
+    ],
+    [
+      10
+    ],
+    [
+      10
+    ],
+    [
+      10
+    ],
+    [
+      10
+    ],
+    [
+      10
+    ],
+    [
+      10
+    ],
+    [
+      10
+    ],
+    [
+      10
+    ],
+    [
+      10
+    ],
+    [
+      10
+    ],
+    [
+      10
+    ],
+    [
+      10
+    ],
+    [
+      11
+    ],
+    [
+      11
+    ],
+    [
+      11
+    ],
+    [
+      11
+    ],
+    [
+      11
+    ],
+    [
+      11
+    ],
+    [
+      11
+    ],
+    [
+      11
+    ],
+    [
+      11
+    ],
+    [
+      11
+    ],
+    [
+      11
+    ],
+    [
+      11
+    ],
+    [
+      11
+    ],
+    [
+      11
+    ],
+    [
+      11
+    ],
+    [
+      12
+    ],
+    [
+      12
+    ],
+    [
+      12
+    ],
+    [
+      12
+    ],
+    [
+      12
+    ],
+    [
+      12
+    ],
+    [
+      12
+    ],
+    [
+      12
+    ],
+    [
+      13
+    ],
+    [
+      13
+    ],
+    [
+      13
+    ],
+    [
+      13
+    ],
+    [
+      13
+    ],
+    [
+      13
+    ],
+    [
+      13
+    ],
+    [
+      13
+    ],
+    [
+      14
+    ],
+    [
+      14
+    ],
+    [
+      14
+    ],
+    [
+      14
+    ],
+    [
+      14
+    ],
+    [
+      15
+    ],
+    [
+      15
+    ],
+    [
+      15
+    ],
+    [
+      15
+    ],
+    [
+      15
+    ],
+    [
+      15
+    ],
+    [
+      16
+    ],
+    [
+      16
+    ],
+    [
+      16
+    ],
+    [
+      16
+    ],
+    [
+      16
+    ],
+    [
+      16
+    ],
+    [
+      16
+    ],
+    [
+      17
+    ],
+    [
+      17
+    ],
+    [
+      17
+    ],
+    [
+      17
+    ],
+    [
+      18
+    ],
+    [
+      18
+    ],
+    [
+      18
+    ],
+    [
+      18
+    ],
+    [
+      18
+    ],
+    [
+      19
+    ],
+    [
+      19
+    ],
+    [
+      28
+    ],
+    [
+      29
+    ],
+    [
+      30
+    ],
+    [
+      31
+    ],
+    [
+      32
+    ],
+    [
+      33
+    ],
+    [
+      34
+    ],
+    [
+      39
+    ],
+    [
+      41
+    ],
+    [
+      41
+    ],
+    [
+      42
+    ],
+    [
+      42
+    ],
+    [
+      42
+    ],
+    [
+      42
+    ],
+    [
+      42
+    ],
+    [
+      43
+    ],
+    [
+      43
+    ],
+    [
+      43
+    ],
+    [
+      43
+    ],
+    [
+      44
+    ],
+    [
+      44
+    ],
+    [
+      44
+    ],
+    [
+      46
+    ],
+    [
+      47
+    ],
+    [
+      48
+    ],
+    [
+      48
+    ],
+    [
+      48
+    ],
+    [
+      48
+    ],
+    [
+      49
+    ],
+    [
+      49
+    ],
+    [
+      49
+    ],
+    [
+      50
+    ],
+    [
+      51
+    ],
+    [
+      51
+    ],
+    [
+      51
+    ],
+    [
+      52
+    ],
+    [
+      53
+    ],
+    [
+      54
+    ],
+    [
+      54
+    ],
+    [
+      54
+    ],
+    [
+      54
+    ],
+    [
+      55
+    ],
+    [
+      55
+    ],
+    [
+      55
+    ],
+    [
+      56
+    ],
+    [
+      63
+    ],
+    [
+      64
+    ],
+    [
+      65
+    ],
+    [
+      66
+    ],
+    [
+      66
+    ],
+    [
+      67
+    ],
+    [
+      67
+    ],
+    [
+      70
+    ],
+    [
+      71
+    ],
+    [
+      72
+    ],
+    [
+      73
+    ],
+    [
+      75
+    ],
+    [
+      76
+    ],
+    [
+      77
+    ],
+    [
+      78
+    ],
+    [
+      79
+    ],
+    [
+      80
+    ],
+    [
+      80
+    ],
+    [
+      81
+    ],
+    [
+      82
+    ],
+    [
+      83
+    ],
+    [
+      84
+    ],
+    [
+      85
+    ],
+    [
+      86
+    ],
+    [
+      88
+    ],
+    [
+      89
+    ],
+    [
+      90
+    ],
+    [
+      91
+    ],
+    [
+      109
+    ],
+    [
+      111
+    ],
+    [
+      114
+    ],
+    [
+      114
+    ],
+    [
+      114
+    ],
+    [
+      114
+    ],
+    [
+      115
+    ],
+    [
+      116
+    ],
+    [
+      122
+    ],
+    [
+      124
+    ],
+    [
+      129
+    ],
+    [
+      134
+    ],
+    [
+      138
+    ],
+    [
+      138
+    ],
+    [
+      139
+    ],
+    [
+      162
+    ],
+    [
+      162
+    ],
+    [
+      162
+    ],
+    [
+      162
+    ],
+    [
+      164
+    ],
+    [
+      166
+    ]
+  ],
+  "markdown_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/document.md",
+  "json_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/document.json",
+  "status": "PARTIAL",
+  "validation": {
+    "schema_version": "2.0",
+    "status": "PARTIAL",
+    "valid_table_count": 50,
+    "incomplete_table_count": 95,
+    "invalid_table_count": 31,
+    "issues": [
+      {
+        "code": "AUTOGENERATED_HEADER",
+        "message": "Les en-têtes de colonnes sont artificiels.",
+        "severity": "WARNING",
+        "table_index": 1,
+        "pages": [
+          5
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 1,
+        "pages": [
+          5
+        ]
+      },
+      {
+        "code": "AUTOGENERATED_HEADER",
+        "message": "Les en-têtes de colonnes sont artificiels.",
+        "severity": "WARNING",
+        "table_index": 2,
+        "pages": [
+          5
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 3,
+        "pages": [
+          6
+        ]
+      },
+      {
+        "code": "AUTOGENERATED_HEADER",
+        "message": "Les en-têtes de colonnes sont artificiels.",
+        "severity": "WARNING",
+        "table_index": 4,
+        "pages": [
+          6
+        ]
+      },
+      {
+        "code": "AUTOGENERATED_HEADER",
+        "message": "Les en-têtes de colonnes sont artificiels.",
+        "severity": "WARNING",
+        "table_index": 5,
+        "pages": [
+          6
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 5,
+        "pages": [
+          6
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 8,
+        "pages": [
+          7
+        ]
+      },
+      {
+        "code": "EMPTY_TABLE",
+        "message": "Le tableau ne contient aucune cellule exploitable.",
+        "severity": "ERROR",
+        "table_index": 9,
+        "pages": [
+          9
+        ]
+      },
+      {
+        "code": "IMAGE_TABLE_REQUIRES_OCR",
+        "message": "Le tableau vide doit être revu avec OCR.",
+        "severity": "WARNING",
+        "table_index": 9,
+        "pages": [
+          9
+        ]
+      },
+      {
+        "code": "CSV_UNREADABLE",
+        "message": "CSV illisible (table_009.csv) : No columns to parse from file",
+        "severity": "ERROR",
+        "table_index": 9,
+        "pages": [
+          9
+        ]
+      },
+      {
+        "code": "AUTOGENERATED_HEADER",
+        "message": "Les en-têtes de colonnes sont artificiels.",
+        "severity": "WARNING",
+        "table_index": 10,
+        "pages": [
+          9
+        ]
+      },
+      {
+        "code": "AUTOGENERATED_HEADER",
+        "message": "Les en-têtes de colonnes sont artificiels.",
+        "severity": "WARNING",
+        "table_index": 11,
+        "pages": [
+          10
+        ]
+      },
+      {
+        "code": "AUTOGENERATED_HEADER",
+        "message": "Les en-têtes de colonnes sont artificiels.",
+        "severity": "WARNING",
+        "table_index": 12,
+        "pages": [
+          10
+        ]
+      },
+      {
+        "code": "AUTOGENERATED_HEADER",
+        "message": "Les en-têtes de colonnes sont artificiels.",
+        "severity": "WARNING",
+        "table_index": 14,
+        "pages": [
+          10
+        ]
+      },
+      {
+        "code": "AUTOGENERATED_HEADER",
+        "message": "Les en-têtes de colonnes sont artificiels.",
+        "severity": "WARNING",
+        "table_index": 16,
+        "pages": [
+          10
+        ]
+      },
+      {
+        "code": "AUTOGENERATED_HEADER",
+        "message": "Les en-têtes de colonnes sont artificiels.",
+        "severity": "WARNING",
+        "table_index": 19,
+        "pages": [
+          10
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 20,
+        "pages": [
+          10
+        ]
+      },
+      {
+        "code": "AUTOGENERATED_HEADER",
+        "message": "Les en-têtes de colonnes sont artificiels.",
+        "severity": "WARNING",
+        "table_index": 21,
+        "pages": [
+          10
+        ]
+      },
+      {
+        "code": "AUTOGENERATED_HEADER",
+        "message": "Les en-têtes de colonnes sont artificiels.",
+        "severity": "WARNING",
+        "table_index": 22,
+        "pages": [
+          10
+        ]
+      },
+      {
+        "code": "AUTOGENERATED_HEADER",
+        "message": "Les en-têtes de colonnes sont artificiels.",
+        "severity": "WARNING",
+        "table_index": 23,
+        "pages": [
+          11
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 24,
+        "pages": [
+          11
+        ]
+      },
+      {
+        "code": "AUTOGENERATED_HEADER",
+        "message": "Les en-têtes de colonnes sont artificiels.",
+        "severity": "WARNING",
+        "table_index": 27,
+        "pages": [
+          11
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 32,
+        "pages": [
+          11
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 34,
+        "pages": [
+          11
+        ]
+      },
+      {
+        "code": "AUTOGENERATED_HEADER",
+        "message": "Les en-têtes de colonnes sont artificiels.",
+        "severity": "WARNING",
+        "table_index": 37,
+        "pages": [
+          11
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 38,
+        "pages": [
+          12
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 40,
+        "pages": [
+          12
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 41,
+        "pages": [
+          12
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 42,
+        "pages": [
+          12
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 43,
+        "pages": [
+          12
+        ]
+      },
+      {
+        "code": "AUTOGENERATED_HEADER",
+        "message": "Les en-têtes de colonnes sont artificiels.",
+        "severity": "WARNING",
+        "table_index": 44,
+        "pages": [
+          12
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 44,
+        "pages": [
+          12
+        ]
+      },
+      {
+        "code": "AUTOGENERATED_HEADER",
+        "message": "Les en-têtes de colonnes sont artificiels.",
+        "severity": "WARNING",
+        "table_index": 50,
+        "pages": [
+          13
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 54,
+        "pages": [
+          14
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 57,
+        "pages": [
+          14
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 58,
+        "pages": [
+          14
+        ]
+      },
+      {
+        "code": "SPLIT_WORD",
+        "message": "Un libellé contient une césure issue de la mise en page.",
+        "severity": "WARNING",
+        "table_index": 59,
+        "pages": [
+          15
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 60,
+        "pages": [
+          15
+        ]
+      },
+      {
+        "code": "AUTOGENERATED_HEADER",
+        "message": "Les en-têtes de colonnes sont artificiels.",
+        "severity": "WARNING",
+        "table_index": 61,
+        "pages": [
+          15
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 62,
+        "pages": [
+          15
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 63,
+        "pages": [
+          15
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 64,
+        "pages": [
+          15
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 65,
+        "pages": [
+          16
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 66,
+        "pages": [
+          16
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 67,
+        "pages": [
+          16
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 69,
+        "pages": [
+          16
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 70,
+        "pages": [
+          16
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 72,
+        "pages": [
+          17
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 73,
+        "pages": [
+          17
+        ]
+      },
+      {
+        "code": "AUTOGENERATED_HEADER",
+        "message": "Les en-têtes de colonnes sont artificiels.",
+        "severity": "WARNING",
+        "table_index": 74,
+        "pages": [
+          17
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 75,
+        "pages": [
+          17
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 78,
+        "pages": [
+          18
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 80,
+        "pages": [
+          18
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 81,
+        "pages": [
+          19
+        ]
+      },
+      {
+        "code": "AUTOGENERATED_HEADER",
+        "message": "Les en-têtes de colonnes sont artificiels.",
+        "severity": "WARNING",
+        "table_index": 82,
+        "pages": [
+          19
+        ]
+      },
+      {
+        "code": "AUTOGENERATED_HEADER",
+        "message": "Les en-têtes de colonnes sont artificiels.",
+        "severity": "WARNING",
+        "table_index": 84,
+        "pages": [
+          29
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 84,
+        "pages": [
+          29
+        ]
+      },
+      {
+        "code": "AUTOGENERATED_HEADER",
+        "message": "Les en-têtes de colonnes sont artificiels.",
+        "severity": "WARNING",
+        "table_index": 85,
+        "pages": [
+          30
+        ]
+      },
+      {
+        "code": "AUTOGENERATED_HEADER",
+        "message": "Les en-têtes de colonnes sont artificiels.",
+        "severity": "WARNING",
+        "table_index": 86,
+        "pages": [
+          31
+        ]
+      },
+      {
+        "code": "AUTOGENERATED_HEADER",
+        "message": "Les en-têtes de colonnes sont artificiels.",
+        "severity": "WARNING",
+        "table_index": 88,
+        "pages": [
+          33
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 89,
+        "pages": [
+          34
+        ]
+      },
+      {
+        "code": "EMPTY_TABLE",
+        "message": "Le tableau ne contient aucune cellule exploitable.",
+        "severity": "ERROR",
+        "table_index": 90,
+        "pages": [
+          39
+        ]
+      },
+      {
+        "code": "IMAGE_TABLE_REQUIRES_OCR",
+        "message": "Le tableau vide doit être revu avec OCR.",
+        "severity": "WARNING",
+        "table_index": 90,
+        "pages": [
+          39
+        ]
+      },
+      {
+        "code": "AUTOGENERATED_HEADER",
+        "message": "Les en-têtes de colonnes sont artificiels.",
+        "severity": "WARNING",
+        "table_index": 91,
+        "pages": [
+          41
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 92,
+        "pages": [
+          41
+        ]
+      },
+      {
+        "code": "AUTOGENERATED_HEADER",
+        "message": "Les en-têtes de colonnes sont artificiels.",
+        "severity": "WARNING",
+        "table_index": 93,
+        "pages": [
+          42
+        ]
+      },
+      {
+        "code": "AUTOGENERATED_HEADER",
+        "message": "Les en-têtes de colonnes sont artificiels.",
+        "severity": "WARNING",
+        "table_index": 94,
+        "pages": [
+          42
+        ]
+      },
+      {
+        "code": "AUTOGENERATED_HEADER",
+        "message": "Les en-têtes de colonnes sont artificiels.",
+        "severity": "WARNING",
+        "table_index": 95,
+        "pages": [
+          42
+        ]
+      },
+      {
+        "code": "AUTOGENERATED_HEADER",
+        "message": "Les en-têtes de colonnes sont artificiels.",
+        "severity": "WARNING",
+        "table_index": 96,
+        "pages": [
+          42
+        ]
+      },
+      {
+        "code": "AUTOGENERATED_HEADER",
+        "message": "Les en-têtes de colonnes sont artificiels.",
+        "severity": "WARNING",
+        "table_index": 97,
+        "pages": [
+          42
+        ]
+      },
+      {
+        "code": "AUTOGENERATED_HEADER",
+        "message": "Les en-têtes de colonnes sont artificiels.",
+        "severity": "WARNING",
+        "table_index": 99,
+        "pages": [
+          43
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 100,
+        "pages": [
+          43
+        ]
+      },
+      {
+        "code": "AUTOGENERATED_HEADER",
+        "message": "Les en-têtes de colonnes sont artificiels.",
+        "severity": "WARNING",
+        "table_index": 101,
+        "pages": [
+          43
+        ]
+      },
+      {
+        "code": "AUTOGENERATED_HEADER",
+        "message": "Les en-têtes de colonnes sont artificiels.",
+        "severity": "WARNING",
+        "table_index": 102,
+        "pages": [
+          44
+        ]
+      },
+      {
+        "code": "AUTOGENERATED_HEADER",
+        "message": "Les en-têtes de colonnes sont artificiels.",
+        "severity": "WARNING",
+        "table_index": 103,
+        "pages": [
+          44
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 104,
+        "pages": [
+          44
+        ]
+      },
+      {
+        "code": "AUTOGENERATED_HEADER",
+        "message": "Les en-têtes de colonnes sont artificiels.",
+        "severity": "WARNING",
+        "table_index": 105,
+        "pages": [
+          46
+        ]
+      },
+      {
+        "code": "AUTOGENERATED_HEADER",
+        "message": "Les en-têtes de colonnes sont artificiels.",
+        "severity": "WARNING",
+        "table_index": 106,
+        "pages": [
+          47
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 107,
+        "pages": [
+          48
+        ]
+      },
+      {
+        "code": "AUTOGENERATED_HEADER",
+        "message": "Les en-têtes de colonnes sont artificiels.",
+        "severity": "WARNING",
+        "table_index": 108,
+        "pages": [
+          48
+        ]
+      },
+      {
+        "code": "AUTOGENERATED_HEADER",
+        "message": "Les en-têtes de colonnes sont artificiels.",
+        "severity": "WARNING",
+        "table_index": 111,
+        "pages": [
+          49
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 112,
+        "pages": [
+          49
+        ]
+      },
+      {
+        "code": "AUTOGENERATED_HEADER",
+        "message": "Les en-têtes de colonnes sont artificiels.",
+        "severity": "WARNING",
+        "table_index": 114,
+        "pages": [
+          50
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 114,
+        "pages": [
+          50
+        ]
+      },
+      {
+        "code": "AUTOGENERATED_HEADER",
+        "message": "Les en-têtes de colonnes sont artificiels.",
+        "severity": "WARNING",
+        "table_index": 115,
+        "pages": [
+          51
+        ]
+      },
+      {
+        "code": "AUTOGENERATED_HEADER",
+        "message": "Les en-têtes de colonnes sont artificiels.",
+        "severity": "WARNING",
+        "table_index": 116,
+        "pages": [
+          51
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 116,
+        "pages": [
+          51
+        ]
+      },
+      {
+        "code": "AUTOGENERATED_HEADER",
+        "message": "Les en-têtes de colonnes sont artificiels.",
+        "severity": "WARNING",
+        "table_index": 117,
+        "pages": [
+          51
+        ]
+      },
+      {
+        "code": "AUTOGENERATED_HEADER",
+        "message": "Les en-têtes de colonnes sont artificiels.",
+        "severity": "WARNING",
+        "table_index": 118,
+        "pages": [
+          52
+        ]
+      },
+      {
+        "code": "AUTOGENERATED_HEADER",
+        "message": "Les en-têtes de colonnes sont artificiels.",
+        "severity": "WARNING",
+        "table_index": 119,
+        "pages": [
+          53
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 119,
+        "pages": [
+          53
+        ]
+      },
+      {
+        "code": "AUTOGENERATED_HEADER",
+        "message": "Les en-têtes de colonnes sont artificiels.",
+        "severity": "WARNING",
+        "table_index": 124,
+        "pages": [
+          55
+        ]
+      },
+      {
+        "code": "EMPTY_TABLE",
+        "message": "Le tableau ne contient aucune cellule exploitable.",
+        "severity": "ERROR",
+        "table_index": 128,
+        "pages": [
+          63
+        ]
+      },
+      {
+        "code": "IMAGE_TABLE_REQUIRES_OCR",
+        "message": "Le tableau vide doit être revu avec OCR.",
+        "severity": "WARNING",
+        "table_index": 128,
+        "pages": [
+          63
+        ]
+      },
+      {
+        "code": "CSV_UNREADABLE",
+        "message": "CSV illisible (table_128.csv) : No columns to parse from file",
+        "severity": "ERROR",
+        "table_index": 128,
+        "pages": [
+          63
+        ]
+      },
+      {
+        "code": "EMPTY_TABLE",
+        "message": "Le tableau ne contient aucune cellule exploitable.",
+        "severity": "ERROR",
+        "table_index": 129,
+        "pages": [
+          64
+        ]
+      },
+      {
+        "code": "IMAGE_TABLE_REQUIRES_OCR",
+        "message": "Le tableau vide doit être revu avec OCR.",
+        "severity": "WARNING",
+        "table_index": 129,
+        "pages": [
+          64
+        ]
+      },
+      {
+        "code": "CSV_UNREADABLE",
+        "message": "CSV illisible (table_129.csv) : No columns to parse from file",
+        "severity": "ERROR",
+        "table_index": 129,
+        "pages": [
+          64
+        ]
+      },
+      {
+        "code": "EMPTY_TABLE",
+        "message": "Le tableau ne contient aucune cellule exploitable.",
+        "severity": "ERROR",
+        "table_index": 130,
+        "pages": [
+          65
+        ]
+      },
+      {
+        "code": "IMAGE_TABLE_REQUIRES_OCR",
+        "message": "Le tableau vide doit être revu avec OCR.",
+        "severity": "WARNING",
+        "table_index": 130,
+        "pages": [
+          65
+        ]
+      },
+      {
+        "code": "CSV_UNREADABLE",
+        "message": "CSV illisible (table_130.csv) : No columns to parse from file",
+        "severity": "ERROR",
+        "table_index": 130,
+        "pages": [
+          65
+        ]
+      },
+      {
+        "code": "EMPTY_TABLE",
+        "message": "Le tableau ne contient aucune cellule exploitable.",
+        "severity": "ERROR",
+        "table_index": 131,
+        "pages": [
+          66
+        ]
+      },
+      {
+        "code": "IMAGE_TABLE_REQUIRES_OCR",
+        "message": "Le tableau vide doit être revu avec OCR.",
+        "severity": "WARNING",
+        "table_index": 131,
+        "pages": [
+          66
+        ]
+      },
+      {
+        "code": "CSV_UNREADABLE",
+        "message": "CSV illisible (table_131.csv) : No columns to parse from file",
+        "severity": "ERROR",
+        "table_index": 131,
+        "pages": [
+          66
+        ]
+      },
+      {
+        "code": "EMPTY_TABLE",
+        "message": "Le tableau ne contient aucune cellule exploitable.",
+        "severity": "ERROR",
+        "table_index": 132,
+        "pages": [
+          66
+        ]
+      },
+      {
+        "code": "IMAGE_TABLE_REQUIRES_OCR",
+        "message": "Le tableau vide doit être revu avec OCR.",
+        "severity": "WARNING",
+        "table_index": 132,
+        "pages": [
+          66
+        ]
+      },
+      {
+        "code": "CSV_UNREADABLE",
+        "message": "CSV illisible (table_132.csv) : No columns to parse from file",
+        "severity": "ERROR",
+        "table_index": 132,
+        "pages": [
+          66
+        ]
+      },
+      {
+        "code": "EMPTY_TABLE",
+        "message": "Le tableau ne contient aucune cellule exploitable.",
+        "severity": "ERROR",
+        "table_index": 133,
+        "pages": [
+          67
+        ]
+      },
+      {
+        "code": "IMAGE_TABLE_REQUIRES_OCR",
+        "message": "Le tableau vide doit être revu avec OCR.",
+        "severity": "WARNING",
+        "table_index": 133,
+        "pages": [
+          67
+        ]
+      },
+      {
+        "code": "CSV_UNREADABLE",
+        "message": "CSV illisible (table_133.csv) : No columns to parse from file",
+        "severity": "ERROR",
+        "table_index": 133,
+        "pages": [
+          67
+        ]
+      },
+      {
+        "code": "EMPTY_TABLE",
+        "message": "Le tableau ne contient aucune cellule exploitable.",
+        "severity": "ERROR",
+        "table_index": 134,
+        "pages": [
+          67
+        ]
+      },
+      {
+        "code": "IMAGE_TABLE_REQUIRES_OCR",
+        "message": "Le tableau vide doit être revu avec OCR.",
+        "severity": "WARNING",
+        "table_index": 134,
+        "pages": [
+          67
+        ]
+      },
+      {
+        "code": "CSV_UNREADABLE",
+        "message": "CSV illisible (table_134.csv) : No columns to parse from file",
+        "severity": "ERROR",
+        "table_index": 134,
+        "pages": [
+          67
+        ]
+      },
+      {
+        "code": "EMPTY_TABLE",
+        "message": "Le tableau ne contient aucune cellule exploitable.",
+        "severity": "ERROR",
+        "table_index": 135,
+        "pages": [
+          70
+        ]
+      },
+      {
+        "code": "IMAGE_TABLE_REQUIRES_OCR",
+        "message": "Le tableau vide doit être revu avec OCR.",
+        "severity": "WARNING",
+        "table_index": 135,
+        "pages": [
+          70
+        ]
+      },
+      {
+        "code": "CSV_UNREADABLE",
+        "message": "CSV illisible (table_135.csv) : No columns to parse from file",
+        "severity": "ERROR",
+        "table_index": 135,
+        "pages": [
+          70
+        ]
+      },
+      {
+        "code": "EMPTY_TABLE",
+        "message": "Le tableau ne contient aucune cellule exploitable.",
+        "severity": "ERROR",
+        "table_index": 136,
+        "pages": [
+          71
+        ]
+      },
+      {
+        "code": "IMAGE_TABLE_REQUIRES_OCR",
+        "message": "Le tableau vide doit être revu avec OCR.",
+        "severity": "WARNING",
+        "table_index": 136,
+        "pages": [
+          71
+        ]
+      },
+      {
+        "code": "CSV_UNREADABLE",
+        "message": "CSV illisible (table_136.csv) : No columns to parse from file",
+        "severity": "ERROR",
+        "table_index": 136,
+        "pages": [
+          71
+        ]
+      },
+      {
+        "code": "EMPTY_TABLE",
+        "message": "Le tableau ne contient aucune cellule exploitable.",
+        "severity": "ERROR",
+        "table_index": 137,
+        "pages": [
+          72
+        ]
+      },
+      {
+        "code": "IMAGE_TABLE_REQUIRES_OCR",
+        "message": "Le tableau vide doit être revu avec OCR.",
+        "severity": "WARNING",
+        "table_index": 137,
+        "pages": [
+          72
+        ]
+      },
+      {
+        "code": "CSV_UNREADABLE",
+        "message": "CSV illisible (table_137.csv) : No columns to parse from file",
+        "severity": "ERROR",
+        "table_index": 137,
+        "pages": [
+          72
+        ]
+      },
+      {
+        "code": "EMPTY_TABLE",
+        "message": "Le tableau ne contient aucune cellule exploitable.",
+        "severity": "ERROR",
+        "table_index": 138,
+        "pages": [
+          73
+        ]
+      },
+      {
+        "code": "IMAGE_TABLE_REQUIRES_OCR",
+        "message": "Le tableau vide doit être revu avec OCR.",
+        "severity": "WARNING",
+        "table_index": 138,
+        "pages": [
+          73
+        ]
+      },
+      {
+        "code": "CSV_UNREADABLE",
+        "message": "CSV illisible (table_138.csv) : No columns to parse from file",
+        "severity": "ERROR",
+        "table_index": 138,
+        "pages": [
+          73
+        ]
+      },
+      {
+        "code": "EMPTY_TABLE",
+        "message": "Le tableau ne contient aucune cellule exploitable.",
+        "severity": "ERROR",
+        "table_index": 139,
+        "pages": [
+          75
+        ]
+      },
+      {
+        "code": "IMAGE_TABLE_REQUIRES_OCR",
+        "message": "Le tableau vide doit être revu avec OCR.",
+        "severity": "WARNING",
+        "table_index": 139,
+        "pages": [
+          75
+        ]
+      },
+      {
+        "code": "CSV_UNREADABLE",
+        "message": "CSV illisible (table_139.csv) : No columns to parse from file",
+        "severity": "ERROR",
+        "table_index": 139,
+        "pages": [
+          75
+        ]
+      },
+      {
+        "code": "EMPTY_TABLE",
+        "message": "Le tableau ne contient aucune cellule exploitable.",
+        "severity": "ERROR",
+        "table_index": 140,
+        "pages": [
+          76
+        ]
+      },
+      {
+        "code": "IMAGE_TABLE_REQUIRES_OCR",
+        "message": "Le tableau vide doit être revu avec OCR.",
+        "severity": "WARNING",
+        "table_index": 140,
+        "pages": [
+          76
+        ]
+      },
+      {
+        "code": "CSV_UNREADABLE",
+        "message": "CSV illisible (table_140.csv) : No columns to parse from file",
+        "severity": "ERROR",
+        "table_index": 140,
+        "pages": [
+          76
+        ]
+      },
+      {
+        "code": "EMPTY_TABLE",
+        "message": "Le tableau ne contient aucune cellule exploitable.",
+        "severity": "ERROR",
+        "table_index": 141,
+        "pages": [
+          77
+        ]
+      },
+      {
+        "code": "IMAGE_TABLE_REQUIRES_OCR",
+        "message": "Le tableau vide doit être revu avec OCR.",
+        "severity": "WARNING",
+        "table_index": 141,
+        "pages": [
+          77
+        ]
+      },
+      {
+        "code": "CSV_UNREADABLE",
+        "message": "CSV illisible (table_141.csv) : No columns to parse from file",
+        "severity": "ERROR",
+        "table_index": 141,
+        "pages": [
+          77
+        ]
+      },
+      {
+        "code": "EMPTY_TABLE",
+        "message": "Le tableau ne contient aucune cellule exploitable.",
+        "severity": "ERROR",
+        "table_index": 142,
+        "pages": [
+          78
+        ]
+      },
+      {
+        "code": "IMAGE_TABLE_REQUIRES_OCR",
+        "message": "Le tableau vide doit être revu avec OCR.",
+        "severity": "WARNING",
+        "table_index": 142,
+        "pages": [
+          78
+        ]
+      },
+      {
+        "code": "CSV_UNREADABLE",
+        "message": "CSV illisible (table_142.csv) : No columns to parse from file",
+        "severity": "ERROR",
+        "table_index": 142,
+        "pages": [
+          78
+        ]
+      },
+      {
+        "code": "EMPTY_TABLE",
+        "message": "Le tableau ne contient aucune cellule exploitable.",
+        "severity": "ERROR",
+        "table_index": 143,
+        "pages": [
+          79
+        ]
+      },
+      {
+        "code": "IMAGE_TABLE_REQUIRES_OCR",
+        "message": "Le tableau vide doit être revu avec OCR.",
+        "severity": "WARNING",
+        "table_index": 143,
+        "pages": [
+          79
+        ]
+      },
+      {
+        "code": "CSV_UNREADABLE",
+        "message": "CSV illisible (table_143.csv) : No columns to parse from file",
+        "severity": "ERROR",
+        "table_index": 143,
+        "pages": [
+          79
+        ]
+      },
+      {
+        "code": "EMPTY_TABLE",
+        "message": "Le tableau ne contient aucune cellule exploitable.",
+        "severity": "ERROR",
+        "table_index": 144,
+        "pages": [
+          80
+        ]
+      },
+      {
+        "code": "IMAGE_TABLE_REQUIRES_OCR",
+        "message": "Le tableau vide doit être revu avec OCR.",
+        "severity": "WARNING",
+        "table_index": 144,
+        "pages": [
+          80
+        ]
+      },
+      {
+        "code": "CSV_UNREADABLE",
+        "message": "CSV illisible (table_144.csv) : No columns to parse from file",
+        "severity": "ERROR",
+        "table_index": 144,
+        "pages": [
+          80
+        ]
+      },
+      {
+        "code": "EMPTY_TABLE",
+        "message": "Le tableau ne contient aucune cellule exploitable.",
+        "severity": "ERROR",
+        "table_index": 145,
+        "pages": [
+          80
+        ]
+      },
+      {
+        "code": "IMAGE_TABLE_REQUIRES_OCR",
+        "message": "Le tableau vide doit être revu avec OCR.",
+        "severity": "WARNING",
+        "table_index": 145,
+        "pages": [
+          80
+        ]
+      },
+      {
+        "code": "CSV_UNREADABLE",
+        "message": "CSV illisible (table_145.csv) : No columns to parse from file",
+        "severity": "ERROR",
+        "table_index": 145,
+        "pages": [
+          80
+        ]
+      },
+      {
+        "code": "EMPTY_TABLE",
+        "message": "Le tableau ne contient aucune cellule exploitable.",
+        "severity": "ERROR",
+        "table_index": 146,
+        "pages": [
+          81
+        ]
+      },
+      {
+        "code": "IMAGE_TABLE_REQUIRES_OCR",
+        "message": "Le tableau vide doit être revu avec OCR.",
+        "severity": "WARNING",
+        "table_index": 146,
+        "pages": [
+          81
+        ]
+      },
+      {
+        "code": "CSV_UNREADABLE",
+        "message": "CSV illisible (table_146.csv) : No columns to parse from file",
+        "severity": "ERROR",
+        "table_index": 146,
+        "pages": [
+          81
+        ]
+      },
+      {
+        "code": "EMPTY_TABLE",
+        "message": "Le tableau ne contient aucune cellule exploitable.",
+        "severity": "ERROR",
+        "table_index": 147,
+        "pages": [
+          82
+        ]
+      },
+      {
+        "code": "IMAGE_TABLE_REQUIRES_OCR",
+        "message": "Le tableau vide doit être revu avec OCR.",
+        "severity": "WARNING",
+        "table_index": 147,
+        "pages": [
+          82
+        ]
+      },
+      {
+        "code": "CSV_UNREADABLE",
+        "message": "CSV illisible (table_147.csv) : No columns to parse from file",
+        "severity": "ERROR",
+        "table_index": 147,
+        "pages": [
+          82
+        ]
+      },
+      {
+        "code": "EMPTY_TABLE",
+        "message": "Le tableau ne contient aucune cellule exploitable.",
+        "severity": "ERROR",
+        "table_index": 148,
+        "pages": [
+          83
+        ]
+      },
+      {
+        "code": "IMAGE_TABLE_REQUIRES_OCR",
+        "message": "Le tableau vide doit être revu avec OCR.",
+        "severity": "WARNING",
+        "table_index": 148,
+        "pages": [
+          83
+        ]
+      },
+      {
+        "code": "CSV_UNREADABLE",
+        "message": "CSV illisible (table_148.csv) : No columns to parse from file",
+        "severity": "ERROR",
+        "table_index": 148,
+        "pages": [
+          83
+        ]
+      },
+      {
+        "code": "EMPTY_TABLE",
+        "message": "Le tableau ne contient aucune cellule exploitable.",
+        "severity": "ERROR",
+        "table_index": 149,
+        "pages": [
+          84
+        ]
+      },
+      {
+        "code": "IMAGE_TABLE_REQUIRES_OCR",
+        "message": "Le tableau vide doit être revu avec OCR.",
+        "severity": "WARNING",
+        "table_index": 149,
+        "pages": [
+          84
+        ]
+      },
+      {
+        "code": "CSV_UNREADABLE",
+        "message": "CSV illisible (table_149.csv) : No columns to parse from file",
+        "severity": "ERROR",
+        "table_index": 149,
+        "pages": [
+          84
+        ]
+      },
+      {
+        "code": "EMPTY_TABLE",
+        "message": "Le tableau ne contient aucune cellule exploitable.",
+        "severity": "ERROR",
+        "table_index": 150,
+        "pages": [
+          85
+        ]
+      },
+      {
+        "code": "IMAGE_TABLE_REQUIRES_OCR",
+        "message": "Le tableau vide doit être revu avec OCR.",
+        "severity": "WARNING",
+        "table_index": 150,
+        "pages": [
+          85
+        ]
+      },
+      {
+        "code": "CSV_UNREADABLE",
+        "message": "CSV illisible (table_150.csv) : No columns to parse from file",
+        "severity": "ERROR",
+        "table_index": 150,
+        "pages": [
+          85
+        ]
+      },
+      {
+        "code": "EMPTY_TABLE",
+        "message": "Le tableau ne contient aucune cellule exploitable.",
+        "severity": "ERROR",
+        "table_index": 151,
+        "pages": [
+          86
+        ]
+      },
+      {
+        "code": "IMAGE_TABLE_REQUIRES_OCR",
+        "message": "Le tableau vide doit être revu avec OCR.",
+        "severity": "WARNING",
+        "table_index": 151,
+        "pages": [
+          86
+        ]
+      },
+      {
+        "code": "CSV_UNREADABLE",
+        "message": "CSV illisible (table_151.csv) : No columns to parse from file",
+        "severity": "ERROR",
+        "table_index": 151,
+        "pages": [
+          86
+        ]
+      },
+      {
+        "code": "EMPTY_TABLE",
+        "message": "Le tableau ne contient aucune cellule exploitable.",
+        "severity": "ERROR",
+        "table_index": 152,
+        "pages": [
+          88
+        ]
+      },
+      {
+        "code": "IMAGE_TABLE_REQUIRES_OCR",
+        "message": "Le tableau vide doit être revu avec OCR.",
+        "severity": "WARNING",
+        "table_index": 152,
+        "pages": [
+          88
+        ]
+      },
+      {
+        "code": "CSV_UNREADABLE",
+        "message": "CSV illisible (table_152.csv) : No columns to parse from file",
+        "severity": "ERROR",
+        "table_index": 152,
+        "pages": [
+          88
+        ]
+      },
+      {
+        "code": "EMPTY_TABLE",
+        "message": "Le tableau ne contient aucune cellule exploitable.",
+        "severity": "ERROR",
+        "table_index": 153,
+        "pages": [
+          89
+        ]
+      },
+      {
+        "code": "IMAGE_TABLE_REQUIRES_OCR",
+        "message": "Le tableau vide doit être revu avec OCR.",
+        "severity": "WARNING",
+        "table_index": 153,
+        "pages": [
+          89
+        ]
+      },
+      {
+        "code": "CSV_UNREADABLE",
+        "message": "CSV illisible (table_153.csv) : No columns to parse from file",
+        "severity": "ERROR",
+        "table_index": 153,
+        "pages": [
+          89
+        ]
+      },
+      {
+        "code": "EMPTY_TABLE",
+        "message": "Le tableau ne contient aucune cellule exploitable.",
+        "severity": "ERROR",
+        "table_index": 154,
+        "pages": [
+          90
+        ]
+      },
+      {
+        "code": "IMAGE_TABLE_REQUIRES_OCR",
+        "message": "Le tableau vide doit être revu avec OCR.",
+        "severity": "WARNING",
+        "table_index": 154,
+        "pages": [
+          90
+        ]
+      },
+      {
+        "code": "CSV_UNREADABLE",
+        "message": "CSV illisible (table_154.csv) : No columns to parse from file",
+        "severity": "ERROR",
+        "table_index": 154,
+        "pages": [
+          90
+        ]
+      },
+      {
+        "code": "EMPTY_TABLE",
+        "message": "Le tableau ne contient aucune cellule exploitable.",
+        "severity": "ERROR",
+        "table_index": 155,
+        "pages": [
+          91
+        ]
+      },
+      {
+        "code": "IMAGE_TABLE_REQUIRES_OCR",
+        "message": "Le tableau vide doit être revu avec OCR.",
+        "severity": "WARNING",
+        "table_index": 155,
+        "pages": [
+          91
+        ]
+      },
+      {
+        "code": "CSV_UNREADABLE",
+        "message": "CSV illisible (table_155.csv) : No columns to parse from file",
+        "severity": "ERROR",
+        "table_index": 155,
+        "pages": [
+          91
+        ]
+      },
+      {
+        "code": "AUTOGENERATED_HEADER",
+        "message": "Les en-têtes de colonnes sont artificiels.",
+        "severity": "WARNING",
+        "table_index": 156,
+        "pages": [
+          109
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 156,
+        "pages": [
+          109
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 157,
+        "pages": [
+          111
+        ]
+      },
+      {
+        "code": "AUTOGENERATED_HEADER",
+        "message": "Les en-têtes de colonnes sont artificiels.",
+        "severity": "WARNING",
+        "table_index": 158,
+        "pages": [
+          114
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 158,
+        "pages": [
+          114
+        ]
+      },
+      {
+        "code": "AUTOGENERATED_HEADER",
+        "message": "Les en-têtes de colonnes sont artificiels.",
+        "severity": "WARNING",
+        "table_index": 159,
+        "pages": [
+          114
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 160,
+        "pages": [
+          114
+        ]
+      },
+      {
+        "code": "AUTOGENERATED_HEADER",
+        "message": "Les en-têtes de colonnes sont artificiels.",
+        "severity": "WARNING",
+        "table_index": 162,
+        "pages": [
+          115
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 163,
+        "pages": [
+          116
+        ]
+      },
+      {
+        "code": "AUTOGENERATED_HEADER",
+        "message": "Les en-têtes de colonnes sont artificiels.",
+        "severity": "WARNING",
+        "table_index": 164,
+        "pages": [
+          122
+        ]
+      },
+      {
+        "code": "AUTOGENERATED_HEADER",
+        "message": "Les en-têtes de colonnes sont artificiels.",
+        "severity": "WARNING",
+        "table_index": 165,
+        "pages": [
+          124
+        ]
+      },
+      {
+        "code": "EMPTY_TABLE",
+        "message": "Le tableau ne contient aucune cellule exploitable.",
+        "severity": "ERROR",
+        "table_index": 166,
+        "pages": [
+          129
+        ]
+      },
+      {
+        "code": "IMAGE_TABLE_REQUIRES_OCR",
+        "message": "Le tableau vide doit être revu avec OCR.",
+        "severity": "WARNING",
+        "table_index": 166,
+        "pages": [
+          129
+        ]
+      },
+      {
+        "code": "CSV_UNREADABLE",
+        "message": "CSV illisible (table_166.csv) : No columns to parse from file",
+        "severity": "ERROR",
+        "table_index": 166,
+        "pages": [
+          129
+        ]
+      },
+      {
+        "code": "AUTOGENERATED_HEADER",
+        "message": "Les en-têtes de colonnes sont artificiels.",
+        "severity": "WARNING",
+        "table_index": 171,
+        "pages": [
+          162
+        ]
+      },
+      {
+        "code": "AUTOGENERATED_HEADER",
+        "message": "Les en-têtes de colonnes sont artificiels.",
+        "severity": "WARNING",
+        "table_index": 172,
+        "pages": [
+          162
+        ]
+      },
+      {
+        "code": "AUTOGENERATED_HEADER",
+        "message": "Les en-têtes de colonnes sont artificiels.",
+        "severity": "WARNING",
+        "table_index": 173,
+        "pages": [
+          162
+        ]
+      },
+      {
+        "code": "AUTOGENERATED_HEADER",
+        "message": "Les en-têtes de colonnes sont artificiels.",
+        "severity": "WARNING",
+        "table_index": 174,
+        "pages": [
+          162
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 175,
+        "pages": [
+          164
+        ]
+      }
+    ],
+    "tables": [
+      {
+        "table_index": 1,
+        "pages": [
+          5
+        ],
+        "row_count": 8,
+        "column_count": 2,
+        "non_empty_cell_count": 8,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_001.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "AUTOGENERATED_HEADER",
+            "message": "Les en-têtes de colonnes sont artificiels.",
+            "severity": "WARNING",
+            "table_index": 1,
+            "pages": [
+              5
+            ]
+          },
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 1,
+            "pages": [
+              5
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 2,
+        "pages": [
+          5
+        ],
+        "row_count": 8,
+        "column_count": 1,
+        "non_empty_cell_count": 8,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_002.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "AUTOGENERATED_HEADER",
+            "message": "Les en-têtes de colonnes sont artificiels.",
+            "severity": "WARNING",
+            "table_index": 2,
+            "pages": [
+              5
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 3,
+        "pages": [
+          6
+        ],
+        "row_count": 32,
+        "column_count": 2,
+        "non_empty_cell_count": 34,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_003.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 3,
+            "pages": [
+              6
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 4,
+        "pages": [
+          6
+        ],
+        "row_count": 41,
+        "column_count": 2,
+        "non_empty_cell_count": 44,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_004.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "AUTOGENERATED_HEADER",
+            "message": "Les en-têtes de colonnes sont artificiels.",
+            "severity": "WARNING",
+            "table_index": 4,
+            "pages": [
+              6
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 5,
+        "pages": [
+          6
+        ],
+        "row_count": 38,
+        "column_count": 2,
+        "non_empty_cell_count": 39,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_005.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "AUTOGENERATED_HEADER",
+            "message": "Les en-têtes de colonnes sont artificiels.",
+            "severity": "WARNING",
+            "table_index": 5,
+            "pages": [
+              6
+            ]
+          },
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 5,
+            "pages": [
+              6
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 6,
+        "pages": [
+          6
+        ],
+        "row_count": 13,
+        "column_count": 3,
+        "non_empty_cell_count": 19,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_006.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 7,
+        "pages": [
+          6
+        ],
+        "row_count": 11,
+        "column_count": 1,
+        "non_empty_cell_count": 11,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_007.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 8,
+        "pages": [
+          7
+        ],
+        "row_count": 38,
+        "column_count": 2,
+        "non_empty_cell_count": 38,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_008.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 8,
+            "pages": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 9,
+        "pages": [
+          9
+        ],
+        "row_count": 0,
+        "column_count": 0,
+        "non_empty_cell_count": 0,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_009.csv",
+        "status": "INVALID",
+        "issues": [
+          {
+            "code": "EMPTY_TABLE",
+            "message": "Le tableau ne contient aucune cellule exploitable.",
+            "severity": "ERROR",
+            "table_index": 9,
+            "pages": [
+              9
+            ]
+          },
+          {
+            "code": "IMAGE_TABLE_REQUIRES_OCR",
+            "message": "Le tableau vide doit être revu avec OCR.",
+            "severity": "WARNING",
+            "table_index": 9,
+            "pages": [
+              9
+            ]
+          },
+          {
+            "code": "CSV_UNREADABLE",
+            "message": "CSV illisible (table_009.csv) : No columns to parse from file",
+            "severity": "ERROR",
+            "table_index": 9,
+            "pages": [
+              9
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 10,
+        "pages": [
+          9
+        ],
+        "row_count": 4,
+        "column_count": 1,
+        "non_empty_cell_count": 4,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_010.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "AUTOGENERATED_HEADER",
+            "message": "Les en-têtes de colonnes sont artificiels.",
+            "severity": "WARNING",
+            "table_index": 10,
+            "pages": [
+              9
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 11,
+        "pages": [
+          10
+        ],
+        "row_count": 6,
+        "column_count": 1,
+        "non_empty_cell_count": 6,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_011.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "AUTOGENERATED_HEADER",
+            "message": "Les en-têtes de colonnes sont artificiels.",
+            "severity": "WARNING",
+            "table_index": 11,
+            "pages": [
+              10
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 12,
+        "pages": [
+          10
+        ],
+        "row_count": 10,
+        "column_count": 1,
+        "non_empty_cell_count": 10,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_012.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "AUTOGENERATED_HEADER",
+            "message": "Les en-têtes de colonnes sont artificiels.",
+            "severity": "WARNING",
+            "table_index": 12,
+            "pages": [
+              10
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 13,
+        "pages": [
+          10
+        ],
+        "row_count": 3,
+        "column_count": 2,
+        "non_empty_cell_count": 4,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_013.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 14,
+        "pages": [
+          10
+        ],
+        "row_count": 3,
+        "column_count": 1,
+        "non_empty_cell_count": 3,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_014.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "AUTOGENERATED_HEADER",
+            "message": "Les en-têtes de colonnes sont artificiels.",
+            "severity": "WARNING",
+            "table_index": 14,
+            "pages": [
+              10
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 15,
+        "pages": [
+          10
+        ],
+        "row_count": 5,
+        "column_count": 2,
+        "non_empty_cell_count": 5,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_015.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 16,
+        "pages": [
+          10
+        ],
+        "row_count": 5,
+        "column_count": 1,
+        "non_empty_cell_count": 5,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_016.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "AUTOGENERATED_HEADER",
+            "message": "Les en-têtes de colonnes sont artificiels.",
+            "severity": "WARNING",
+            "table_index": 16,
+            "pages": [
+              10
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 17,
+        "pages": [
+          10
+        ],
+        "row_count": 1,
+        "column_count": 2,
+        "non_empty_cell_count": 1,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_017.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 18,
+        "pages": [
+          10
+        ],
+        "row_count": 7,
+        "column_count": 2,
+        "non_empty_cell_count": 8,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_018.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 19,
+        "pages": [
+          10
+        ],
+        "row_count": 4,
+        "column_count": 1,
+        "non_empty_cell_count": 4,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_019.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "AUTOGENERATED_HEADER",
+            "message": "Les en-têtes de colonnes sont artificiels.",
+            "severity": "WARNING",
+            "table_index": 19,
+            "pages": [
+              10
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 20,
+        "pages": [
+          10
+        ],
+        "row_count": 7,
+        "column_count": 2,
+        "non_empty_cell_count": 8,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_020.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 20,
+            "pages": [
+              10
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 21,
+        "pages": [
+          10
+        ],
+        "row_count": 9,
+        "column_count": 1,
+        "non_empty_cell_count": 9,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_021.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "AUTOGENERATED_HEADER",
+            "message": "Les en-têtes de colonnes sont artificiels.",
+            "severity": "WARNING",
+            "table_index": 21,
+            "pages": [
+              10
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 22,
+        "pages": [
+          10
+        ],
+        "row_count": 12,
+        "column_count": 1,
+        "non_empty_cell_count": 12,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_022.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "AUTOGENERATED_HEADER",
+            "message": "Les en-têtes de colonnes sont artificiels.",
+            "severity": "WARNING",
+            "table_index": 22,
+            "pages": [
+              10
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 23,
+        "pages": [
+          11
+        ],
+        "row_count": 6,
+        "column_count": 1,
+        "non_empty_cell_count": 6,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_023.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "AUTOGENERATED_HEADER",
+            "message": "Les en-têtes de colonnes sont artificiels.",
+            "severity": "WARNING",
+            "table_index": 23,
+            "pages": [
+              11
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 24,
+        "pages": [
+          11
+        ],
+        "row_count": 5,
+        "column_count": 4,
+        "non_empty_cell_count": 6,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_024.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 24,
+            "pages": [
+              11
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 25,
+        "pages": [
+          11
+        ],
+        "row_count": 2,
+        "column_count": 7,
+        "non_empty_cell_count": 8,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_025.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 26,
+        "pages": [
+          11
+        ],
+        "row_count": 2,
+        "column_count": 5,
+        "non_empty_cell_count": 4,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_026.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 27,
+        "pages": [
+          11
+        ],
+        "row_count": 1,
+        "column_count": 2,
+        "non_empty_cell_count": 2,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_027.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "AUTOGENERATED_HEADER",
+            "message": "Les en-têtes de colonnes sont artificiels.",
+            "severity": "WARNING",
+            "table_index": 27,
+            "pages": [
+              11
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 28,
+        "pages": [
+          11
+        ],
+        "row_count": 3,
+        "column_count": 7,
+        "non_empty_cell_count": 13,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_028.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 29,
+        "pages": [
+          11
+        ],
+        "row_count": 3,
+        "column_count": 7,
+        "non_empty_cell_count": 8,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_029.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 30,
+        "pages": [
+          11
+        ],
+        "row_count": 3,
+        "column_count": 5,
+        "non_empty_cell_count": 6,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_030.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 31,
+        "pages": [
+          11
+        ],
+        "row_count": 3,
+        "column_count": 6,
+        "non_empty_cell_count": 8,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_031.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 32,
+        "pages": [
+          11
+        ],
+        "row_count": 4,
+        "column_count": 2,
+        "non_empty_cell_count": 5,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_032.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 32,
+            "pages": [
+              11
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 33,
+        "pages": [
+          11
+        ],
+        "row_count": 2,
+        "column_count": 2,
+        "non_empty_cell_count": 2,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_033.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 34,
+        "pages": [
+          11
+        ],
+        "row_count": 3,
+        "column_count": 2,
+        "non_empty_cell_count": 3,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_034.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 34,
+            "pages": [
+              11
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 35,
+        "pages": [
+          11
+        ],
+        "row_count": 2,
+        "column_count": 1,
+        "non_empty_cell_count": 2,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_035.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 36,
+        "pages": [
+          11
+        ],
+        "row_count": 3,
+        "column_count": 2,
+        "non_empty_cell_count": 3,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_036.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 37,
+        "pages": [
+          11
+        ],
+        "row_count": 9,
+        "column_count": 1,
+        "non_empty_cell_count": 9,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_037.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "AUTOGENERATED_HEADER",
+            "message": "Les en-têtes de colonnes sont artificiels.",
+            "severity": "WARNING",
+            "table_index": 37,
+            "pages": [
+              11
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 38,
+        "pages": [
+          12
+        ],
+        "row_count": 6,
+        "column_count": 2,
+        "non_empty_cell_count": 6,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_038.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 38,
+            "pages": [
+              12
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 39,
+        "pages": [
+          12
+        ],
+        "row_count": 9,
+        "column_count": 3,
+        "non_empty_cell_count": 20,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_039.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 40,
+        "pages": [
+          12
+        ],
+        "row_count": 3,
+        "column_count": 6,
+        "non_empty_cell_count": 5,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_040.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 40,
+            "pages": [
+              12
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 41,
+        "pages": [
+          12
+        ],
+        "row_count": 3,
+        "column_count": 6,
+        "non_empty_cell_count": 3,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_041.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 41,
+            "pages": [
+              12
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 42,
+        "pages": [
+          12
+        ],
+        "row_count": 5,
+        "column_count": 4,
+        "non_empty_cell_count": 5,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_042.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 42,
+            "pages": [
+              12
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 43,
+        "pages": [
+          12
+        ],
+        "row_count": 25,
+        "column_count": 3,
+        "non_empty_cell_count": 35,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_043.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 43,
+            "pages": [
+              12
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 44,
+        "pages": [
+          12
+        ],
+        "row_count": 4,
+        "column_count": 2,
+        "non_empty_cell_count": 4,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_044.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "AUTOGENERATED_HEADER",
+            "message": "Les en-têtes de colonnes sont artificiels.",
+            "severity": "WARNING",
+            "table_index": 44,
+            "pages": [
+              12
+            ]
+          },
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 44,
+            "pages": [
+              12
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 45,
+        "pages": [
+          12
+        ],
+        "row_count": 3,
+        "column_count": 2,
+        "non_empty_cell_count": 3,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_045.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 46,
+        "pages": [
+          13
+        ],
+        "row_count": 4,
+        "column_count": 2,
+        "non_empty_cell_count": 6,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_046.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 47,
+        "pages": [
+          13
+        ],
+        "row_count": 4,
+        "column_count": 2,
+        "non_empty_cell_count": 5,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_047.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 48,
+        "pages": [
+          13
+        ],
+        "row_count": 2,
+        "column_count": 7,
+        "non_empty_cell_count": 7,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_048.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 49,
+        "pages": [
+          13
+        ],
+        "row_count": 2,
+        "column_count": 2,
+        "non_empty_cell_count": 2,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_049.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 50,
+        "pages": [
+          13
+        ],
+        "row_count": 6,
+        "column_count": 2,
+        "non_empty_cell_count": 7,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_050.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "AUTOGENERATED_HEADER",
+            "message": "Les en-têtes de colonnes sont artificiels.",
+            "severity": "WARNING",
+            "table_index": 50,
+            "pages": [
+              13
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 51,
+        "pages": [
+          13
+        ],
+        "row_count": 2,
+        "column_count": 2,
+        "non_empty_cell_count": 2,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_051.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 52,
+        "pages": [
+          13
+        ],
+        "row_count": 18,
+        "column_count": 2,
+        "non_empty_cell_count": 18,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_052.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 53,
+        "pages": [
+          13
+        ],
+        "row_count": 7,
+        "column_count": 8,
+        "non_empty_cell_count": 28,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_053.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 54,
+        "pages": [
+          14
+        ],
+        "row_count": 24,
+        "column_count": 3,
+        "non_empty_cell_count": 33,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_054.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 54,
+            "pages": [
+              14
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 55,
+        "pages": [
+          14
+        ],
+        "row_count": 49,
+        "column_count": 1,
+        "non_empty_cell_count": 49,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_055.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 56,
+        "pages": [
+          14
+        ],
+        "row_count": 38,
+        "column_count": 3,
+        "non_empty_cell_count": 45,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_056.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 57,
+        "pages": [
+          14
+        ],
+        "row_count": 6,
+        "column_count": 2,
+        "non_empty_cell_count": 6,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_057.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 57,
+            "pages": [
+              14
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 58,
+        "pages": [
+          14
+        ],
+        "row_count": 41,
+        "column_count": 2,
+        "non_empty_cell_count": 43,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_058.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 58,
+            "pages": [
+              14
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 59,
+        "pages": [
+          15
+        ],
+        "row_count": 7,
+        "column_count": 2,
+        "non_empty_cell_count": 7,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_059.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "SPLIT_WORD",
+            "message": "Un libellé contient une césure issue de la mise en page.",
+            "severity": "WARNING",
+            "table_index": 59,
+            "pages": [
+              15
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 60,
+        "pages": [
+          15
+        ],
+        "row_count": 26,
+        "column_count": 3,
+        "non_empty_cell_count": 31,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_060.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 60,
+            "pages": [
+              15
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 61,
+        "pages": [
+          15
+        ],
+        "row_count": 5,
+        "column_count": 1,
+        "non_empty_cell_count": 5,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_061.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "AUTOGENERATED_HEADER",
+            "message": "Les en-têtes de colonnes sont artificiels.",
+            "severity": "WARNING",
+            "table_index": 61,
+            "pages": [
+              15
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 62,
+        "pages": [
+          15
+        ],
+        "row_count": 12,
+        "column_count": 2,
+        "non_empty_cell_count": 12,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_062.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 62,
+            "pages": [
+              15
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 63,
+        "pages": [
+          15
+        ],
+        "row_count": 17,
+        "column_count": 3,
+        "non_empty_cell_count": 17,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_063.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 63,
+            "pages": [
+              15
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 64,
+        "pages": [
+          15
+        ],
+        "row_count": 23,
+        "column_count": 4,
+        "non_empty_cell_count": 23,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_064.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 64,
+            "pages": [
+              15
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 65,
+        "pages": [
+          16
+        ],
+        "row_count": 9,
+        "column_count": 4,
+        "non_empty_cell_count": 9,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_065.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 65,
+            "pages": [
+              16
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 66,
+        "pages": [
+          16
+        ],
+        "row_count": 12,
+        "column_count": 4,
+        "non_empty_cell_count": 12,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_066.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 66,
+            "pages": [
+              16
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 67,
+        "pages": [
+          16
+        ],
+        "row_count": 13,
+        "column_count": 3,
+        "non_empty_cell_count": 13,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_067.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 67,
+            "pages": [
+              16
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 68,
+        "pages": [
+          16
+        ],
+        "row_count": 6,
+        "column_count": 5,
+        "non_empty_cell_count": 18,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_068.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 69,
+        "pages": [
+          16
+        ],
+        "row_count": 5,
+        "column_count": 3,
+        "non_empty_cell_count": 6,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_069.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 69,
+            "pages": [
+              16
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 70,
+        "pages": [
+          16
+        ],
+        "row_count": 10,
+        "column_count": 2,
+        "non_empty_cell_count": 10,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_070.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 70,
+            "pages": [
+              16
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 71,
+        "pages": [
+          16
+        ],
+        "row_count": 4,
+        "column_count": 2,
+        "non_empty_cell_count": 5,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_071.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 72,
+        "pages": [
+          17
+        ],
+        "row_count": 4,
+        "column_count": 9,
+        "non_empty_cell_count": 13,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_072.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 72,
+            "pages": [
+              17
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 73,
+        "pages": [
+          17
+        ],
+        "row_count": 36,
+        "column_count": 2,
+        "non_empty_cell_count": 36,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_073.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 73,
+            "pages": [
+              17
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 74,
+        "pages": [
+          17
+        ],
+        "row_count": 7,
+        "column_count": 1,
+        "non_empty_cell_count": 7,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_074.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "AUTOGENERATED_HEADER",
+            "message": "Les en-têtes de colonnes sont artificiels.",
+            "severity": "WARNING",
+            "table_index": 74,
+            "pages": [
+              17
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 75,
+        "pages": [
+          17
+        ],
+        "row_count": 37,
+        "column_count": 3,
+        "non_empty_cell_count": 68,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_075.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 75,
+            "pages": [
+              17
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 76,
+        "pages": [
+          18
+        ],
+        "row_count": 1,
+        "column_count": 2,
+        "non_empty_cell_count": 2,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_076.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 77,
+        "pages": [
+          18
+        ],
+        "row_count": 1,
+        "column_count": 3,
+        "non_empty_cell_count": 2,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_077.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 78,
+        "pages": [
+          18
+        ],
+        "row_count": 8,
+        "column_count": 2,
+        "non_empty_cell_count": 8,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_078.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 78,
+            "pages": [
+              18
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 79,
+        "pages": [
+          18
+        ],
+        "row_count": 14,
+        "column_count": 2,
+        "non_empty_cell_count": 17,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_079.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 80,
+        "pages": [
+          18
+        ],
+        "row_count": 25,
+        "column_count": 4,
+        "non_empty_cell_count": 46,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_080.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 80,
+            "pages": [
+              18
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 81,
+        "pages": [
+          19
+        ],
+        "row_count": 6,
+        "column_count": 2,
+        "non_empty_cell_count": 6,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_081.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 81,
+            "pages": [
+              19
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 82,
+        "pages": [
+          19
+        ],
+        "row_count": 4,
+        "column_count": 1,
+        "non_empty_cell_count": 4,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_082.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "AUTOGENERATED_HEADER",
+            "message": "Les en-têtes de colonnes sont artificiels.",
+            "severity": "WARNING",
+            "table_index": 82,
+            "pages": [
+              19
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 83,
+        "pages": [
+          28
+        ],
+        "row_count": 31,
+        "column_count": 2,
+        "non_empty_cell_count": 35,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_083.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 84,
+        "pages": [
+          29
+        ],
+        "row_count": 38,
+        "column_count": 2,
+        "non_empty_cell_count": 42,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_084.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "AUTOGENERATED_HEADER",
+            "message": "Les en-têtes de colonnes sont artificiels.",
+            "severity": "WARNING",
+            "table_index": 84,
+            "pages": [
+              29
+            ]
+          },
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 84,
+            "pages": [
+              29
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 85,
+        "pages": [
+          30
+        ],
+        "row_count": 41,
+        "column_count": 3,
+        "non_empty_cell_count": 46,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_085.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "AUTOGENERATED_HEADER",
+            "message": "Les en-têtes de colonnes sont artificiels.",
+            "severity": "WARNING",
+            "table_index": 85,
+            "pages": [
+              30
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 86,
+        "pages": [
+          31
+        ],
+        "row_count": 8,
+        "column_count": 11,
+        "non_empty_cell_count": 70,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_086.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "AUTOGENERATED_HEADER",
+            "message": "Les en-têtes de colonnes sont artificiels.",
+            "severity": "WARNING",
+            "table_index": 86,
+            "pages": [
+              31
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 87,
+        "pages": [
+          32
+        ],
+        "row_count": 11,
+        "column_count": 1,
+        "non_empty_cell_count": 11,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_087.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 88,
+        "pages": [
+          33
+        ],
+        "row_count": 1,
+        "column_count": 1,
+        "non_empty_cell_count": 1,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_088.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "AUTOGENERATED_HEADER",
+            "message": "Les en-têtes de colonnes sont artificiels.",
+            "severity": "WARNING",
+            "table_index": 88,
+            "pages": [
+              33
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 89,
+        "pages": [
+          34
+        ],
+        "row_count": 37,
+        "column_count": 2,
+        "non_empty_cell_count": 38,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_089.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 89,
+            "pages": [
+              34
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 90,
+        "pages": [
+          39
+        ],
+        "row_count": 0,
+        "column_count": 1,
+        "non_empty_cell_count": 0,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_090.csv",
+        "status": "INVALID",
+        "issues": [
+          {
+            "code": "EMPTY_TABLE",
+            "message": "Le tableau ne contient aucune cellule exploitable.",
+            "severity": "ERROR",
+            "table_index": 90,
+            "pages": [
+              39
+            ]
+          },
+          {
+            "code": "IMAGE_TABLE_REQUIRES_OCR",
+            "message": "Le tableau vide doit être revu avec OCR.",
+            "severity": "WARNING",
+            "table_index": 90,
+            "pages": [
+              39
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 91,
+        "pages": [
+          41
+        ],
+        "row_count": 6,
+        "column_count": 1,
+        "non_empty_cell_count": 6,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_091.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "AUTOGENERATED_HEADER",
+            "message": "Les en-têtes de colonnes sont artificiels.",
+            "severity": "WARNING",
+            "table_index": 91,
+            "pages": [
+              41
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 92,
+        "pages": [
+          41
+        ],
+        "row_count": 9,
+        "column_count": 2,
+        "non_empty_cell_count": 10,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_092.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 92,
+            "pages": [
+              41
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 93,
+        "pages": [
+          42
+        ],
+        "row_count": 3,
+        "column_count": 1,
+        "non_empty_cell_count": 3,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_093.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "AUTOGENERATED_HEADER",
+            "message": "Les en-têtes de colonnes sont artificiels.",
+            "severity": "WARNING",
+            "table_index": 93,
+            "pages": [
+              42
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 94,
+        "pages": [
+          42
+        ],
+        "row_count": 3,
+        "column_count": 1,
+        "non_empty_cell_count": 3,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_094.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "AUTOGENERATED_HEADER",
+            "message": "Les en-têtes de colonnes sont artificiels.",
+            "severity": "WARNING",
+            "table_index": 94,
+            "pages": [
+              42
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 95,
+        "pages": [
+          42
+        ],
+        "row_count": 5,
+        "column_count": 1,
+        "non_empty_cell_count": 5,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_095.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "AUTOGENERATED_HEADER",
+            "message": "Les en-têtes de colonnes sont artificiels.",
+            "severity": "WARNING",
+            "table_index": 95,
+            "pages": [
+              42
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 96,
+        "pages": [
+          42
+        ],
+        "row_count": 5,
+        "column_count": 1,
+        "non_empty_cell_count": 5,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_096.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "AUTOGENERATED_HEADER",
+            "message": "Les en-têtes de colonnes sont artificiels.",
+            "severity": "WARNING",
+            "table_index": 96,
+            "pages": [
+              42
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 97,
+        "pages": [
+          42
+        ],
+        "row_count": 2,
+        "column_count": 1,
+        "non_empty_cell_count": 2,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_097.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "AUTOGENERATED_HEADER",
+            "message": "Les en-têtes de colonnes sont artificiels.",
+            "severity": "WARNING",
+            "table_index": 97,
+            "pages": [
+              42
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 98,
+        "pages": [
+          43
+        ],
+        "row_count": 7,
+        "column_count": 2,
+        "non_empty_cell_count": 8,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_098.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 99,
+        "pages": [
+          43
+        ],
+        "row_count": 4,
+        "column_count": 1,
+        "non_empty_cell_count": 4,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_099.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "AUTOGENERATED_HEADER",
+            "message": "Les en-têtes de colonnes sont artificiels.",
+            "severity": "WARNING",
+            "table_index": 99,
+            "pages": [
+              43
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 100,
+        "pages": [
+          43
+        ],
+        "row_count": 7,
+        "column_count": 2,
+        "non_empty_cell_count": 7,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_100.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 100,
+            "pages": [
+              43
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 101,
+        "pages": [
+          43
+        ],
+        "row_count": 8,
+        "column_count": 1,
+        "non_empty_cell_count": 8,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_101.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "AUTOGENERATED_HEADER",
+            "message": "Les en-têtes de colonnes sont artificiels.",
+            "severity": "WARNING",
+            "table_index": 101,
+            "pages": [
+              43
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 102,
+        "pages": [
+          44
+        ],
+        "row_count": 12,
+        "column_count": 1,
+        "non_empty_cell_count": 12,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_102.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "AUTOGENERATED_HEADER",
+            "message": "Les en-têtes de colonnes sont artificiels.",
+            "severity": "WARNING",
+            "table_index": 102,
+            "pages": [
+              44
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 103,
+        "pages": [
+          44
+        ],
+        "row_count": 7,
+        "column_count": 2,
+        "non_empty_cell_count": 10,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_103.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "AUTOGENERATED_HEADER",
+            "message": "Les en-têtes de colonnes sont artificiels.",
+            "severity": "WARNING",
+            "table_index": 103,
+            "pages": [
+              44
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 104,
+        "pages": [
+          44
+        ],
+        "row_count": 5,
+        "column_count": 3,
+        "non_empty_cell_count": 5,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_104.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 104,
+            "pages": [
+              44
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 105,
+        "pages": [
+          46
+        ],
+        "row_count": 7,
+        "column_count": 11,
+        "non_empty_cell_count": 72,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_105.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "AUTOGENERATED_HEADER",
+            "message": "Les en-têtes de colonnes sont artificiels.",
+            "severity": "WARNING",
+            "table_index": 105,
+            "pages": [
+              46
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 106,
+        "pages": [
+          47
+        ],
+        "row_count": 7,
+        "column_count": 11,
+        "non_empty_cell_count": 77,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_106.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "AUTOGENERATED_HEADER",
+            "message": "Les en-têtes de colonnes sont artificiels.",
+            "severity": "WARNING",
+            "table_index": 106,
+            "pages": [
+              47
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 107,
+        "pages": [
+          48
+        ],
+        "row_count": 4,
+        "column_count": 2,
+        "non_empty_cell_count": 5,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_107.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 107,
+            "pages": [
+              48
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 108,
+        "pages": [
+          48
+        ],
+        "row_count": 8,
+        "column_count": 1,
+        "non_empty_cell_count": 8,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_108.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "AUTOGENERATED_HEADER",
+            "message": "Les en-têtes de colonnes sont artificiels.",
+            "severity": "WARNING",
+            "table_index": 108,
+            "pages": [
+              48
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 109,
+        "pages": [
+          48
+        ],
+        "row_count": 2,
+        "column_count": 1,
+        "non_empty_cell_count": 2,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_109.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 110,
+        "pages": [
+          48
+        ],
+        "row_count": 3,
+        "column_count": 2,
+        "non_empty_cell_count": 3,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_110.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 111,
+        "pages": [
+          49
+        ],
+        "row_count": 9,
+        "column_count": 1,
+        "non_empty_cell_count": 9,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_111.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "AUTOGENERATED_HEADER",
+            "message": "Les en-têtes de colonnes sont artificiels.",
+            "severity": "WARNING",
+            "table_index": 111,
+            "pages": [
+              49
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 112,
+        "pages": [
+          49
+        ],
+        "row_count": 6,
+        "column_count": 2,
+        "non_empty_cell_count": 6,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_112.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 112,
+            "pages": [
+              49
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 113,
+        "pages": [
+          49
+        ],
+        "row_count": 3,
+        "column_count": 2,
+        "non_empty_cell_count": 3,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_113.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 114,
+        "pages": [
+          50
+        ],
+        "row_count": 10,
+        "column_count": 6,
+        "non_empty_cell_count": 47,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_114.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "AUTOGENERATED_HEADER",
+            "message": "Les en-têtes de colonnes sont artificiels.",
+            "severity": "WARNING",
+            "table_index": 114,
+            "pages": [
+              50
+            ]
+          },
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 114,
+            "pages": [
+              50
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 115,
+        "pages": [
+          51
+        ],
+        "row_count": 7,
+        "column_count": 2,
+        "non_empty_cell_count": 14,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_115.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "AUTOGENERATED_HEADER",
+            "message": "Les en-têtes de colonnes sont artificiels.",
+            "severity": "WARNING",
+            "table_index": 115,
+            "pages": [
+              51
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 116,
+        "pages": [
+          51
+        ],
+        "row_count": 10,
+        "column_count": 4,
+        "non_empty_cell_count": 24,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_116.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "AUTOGENERATED_HEADER",
+            "message": "Les en-têtes de colonnes sont artificiels.",
+            "severity": "WARNING",
+            "table_index": 116,
+            "pages": [
+              51
+            ]
+          },
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 116,
+            "pages": [
+              51
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 117,
+        "pages": [
+          51
+        ],
+        "row_count": 8,
+        "column_count": 4,
+        "non_empty_cell_count": 32,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_117.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "AUTOGENERATED_HEADER",
+            "message": "Les en-têtes de colonnes sont artificiels.",
+            "severity": "WARNING",
+            "table_index": 117,
+            "pages": [
+              51
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 118,
+        "pages": [
+          52
+        ],
+        "row_count": 8,
+        "column_count": 21,
+        "non_empty_cell_count": 158,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_118.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "AUTOGENERATED_HEADER",
+            "message": "Les en-têtes de colonnes sont artificiels.",
+            "severity": "WARNING",
+            "table_index": 118,
+            "pages": [
+              52
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 119,
+        "pages": [
+          53
+        ],
+        "row_count": 11,
+        "column_count": 4,
+        "non_empty_cell_count": 40,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_119.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "AUTOGENERATED_HEADER",
+            "message": "Les en-têtes de colonnes sont artificiels.",
+            "severity": "WARNING",
+            "table_index": 119,
+            "pages": [
+              53
+            ]
+          },
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 119,
+            "pages": [
+              53
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 120,
+        "pages": [
+          54
+        ],
+        "row_count": 4,
+        "column_count": 2,
+        "non_empty_cell_count": 5,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_120.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 121,
+        "pages": [
+          54
+        ],
+        "row_count": 4,
+        "column_count": 2,
+        "non_empty_cell_count": 4,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_121.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 122,
+        "pages": [
+          54
+        ],
+        "row_count": 2,
+        "column_count": 5,
+        "non_empty_cell_count": 4,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_122.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 123,
+        "pages": [
+          54
+        ],
+        "row_count": 2,
+        "column_count": 2,
+        "non_empty_cell_count": 2,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_123.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 124,
+        "pages": [
+          55
+        ],
+        "row_count": 6,
+        "column_count": 1,
+        "non_empty_cell_count": 6,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_124.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "AUTOGENERATED_HEADER",
+            "message": "Les en-têtes de colonnes sont artificiels.",
+            "severity": "WARNING",
+            "table_index": 124,
+            "pages": [
+              55
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 125,
+        "pages": [
+          55
+        ],
+        "row_count": 3,
+        "column_count": 2,
+        "non_empty_cell_count": 3,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_125.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 126,
+        "pages": [
+          55
+        ],
+        "row_count": 18,
+        "column_count": 2,
+        "non_empty_cell_count": 18,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_126.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 127,
+        "pages": [
+          56
+        ],
+        "row_count": 7,
+        "column_count": 6,
+        "non_empty_cell_count": 17,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_127.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 128,
+        "pages": [
+          63
+        ],
+        "row_count": 0,
+        "column_count": 0,
+        "non_empty_cell_count": 0,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_128.csv",
+        "status": "INVALID",
+        "issues": [
+          {
+            "code": "EMPTY_TABLE",
+            "message": "Le tableau ne contient aucune cellule exploitable.",
+            "severity": "ERROR",
+            "table_index": 128,
+            "pages": [
+              63
+            ]
+          },
+          {
+            "code": "IMAGE_TABLE_REQUIRES_OCR",
+            "message": "Le tableau vide doit être revu avec OCR.",
+            "severity": "WARNING",
+            "table_index": 128,
+            "pages": [
+              63
+            ]
+          },
+          {
+            "code": "CSV_UNREADABLE",
+            "message": "CSV illisible (table_128.csv) : No columns to parse from file",
+            "severity": "ERROR",
+            "table_index": 128,
+            "pages": [
+              63
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 129,
+        "pages": [
+          64
+        ],
+        "row_count": 0,
+        "column_count": 0,
+        "non_empty_cell_count": 0,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_129.csv",
+        "status": "INVALID",
+        "issues": [
+          {
+            "code": "EMPTY_TABLE",
+            "message": "Le tableau ne contient aucune cellule exploitable.",
+            "severity": "ERROR",
+            "table_index": 129,
+            "pages": [
+              64
+            ]
+          },
+          {
+            "code": "IMAGE_TABLE_REQUIRES_OCR",
+            "message": "Le tableau vide doit être revu avec OCR.",
+            "severity": "WARNING",
+            "table_index": 129,
+            "pages": [
+              64
+            ]
+          },
+          {
+            "code": "CSV_UNREADABLE",
+            "message": "CSV illisible (table_129.csv) : No columns to parse from file",
+            "severity": "ERROR",
+            "table_index": 129,
+            "pages": [
+              64
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 130,
+        "pages": [
+          65
+        ],
+        "row_count": 0,
+        "column_count": 0,
+        "non_empty_cell_count": 0,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_130.csv",
+        "status": "INVALID",
+        "issues": [
+          {
+            "code": "EMPTY_TABLE",
+            "message": "Le tableau ne contient aucune cellule exploitable.",
+            "severity": "ERROR",
+            "table_index": 130,
+            "pages": [
+              65
+            ]
+          },
+          {
+            "code": "IMAGE_TABLE_REQUIRES_OCR",
+            "message": "Le tableau vide doit être revu avec OCR.",
+            "severity": "WARNING",
+            "table_index": 130,
+            "pages": [
+              65
+            ]
+          },
+          {
+            "code": "CSV_UNREADABLE",
+            "message": "CSV illisible (table_130.csv) : No columns to parse from file",
+            "severity": "ERROR",
+            "table_index": 130,
+            "pages": [
+              65
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 131,
+        "pages": [
+          66
+        ],
+        "row_count": 0,
+        "column_count": 0,
+        "non_empty_cell_count": 0,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_131.csv",
+        "status": "INVALID",
+        "issues": [
+          {
+            "code": "EMPTY_TABLE",
+            "message": "Le tableau ne contient aucune cellule exploitable.",
+            "severity": "ERROR",
+            "table_index": 131,
+            "pages": [
+              66
+            ]
+          },
+          {
+            "code": "IMAGE_TABLE_REQUIRES_OCR",
+            "message": "Le tableau vide doit être revu avec OCR.",
+            "severity": "WARNING",
+            "table_index": 131,
+            "pages": [
+              66
+            ]
+          },
+          {
+            "code": "CSV_UNREADABLE",
+            "message": "CSV illisible (table_131.csv) : No columns to parse from file",
+            "severity": "ERROR",
+            "table_index": 131,
+            "pages": [
+              66
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 132,
+        "pages": [
+          66
+        ],
+        "row_count": 0,
+        "column_count": 0,
+        "non_empty_cell_count": 0,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_132.csv",
+        "status": "INVALID",
+        "issues": [
+          {
+            "code": "EMPTY_TABLE",
+            "message": "Le tableau ne contient aucune cellule exploitable.",
+            "severity": "ERROR",
+            "table_index": 132,
+            "pages": [
+              66
+            ]
+          },
+          {
+            "code": "IMAGE_TABLE_REQUIRES_OCR",
+            "message": "Le tableau vide doit être revu avec OCR.",
+            "severity": "WARNING",
+            "table_index": 132,
+            "pages": [
+              66
+            ]
+          },
+          {
+            "code": "CSV_UNREADABLE",
+            "message": "CSV illisible (table_132.csv) : No columns to parse from file",
+            "severity": "ERROR",
+            "table_index": 132,
+            "pages": [
+              66
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 133,
+        "pages": [
+          67
+        ],
+        "row_count": 0,
+        "column_count": 0,
+        "non_empty_cell_count": 0,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_133.csv",
+        "status": "INVALID",
+        "issues": [
+          {
+            "code": "EMPTY_TABLE",
+            "message": "Le tableau ne contient aucune cellule exploitable.",
+            "severity": "ERROR",
+            "table_index": 133,
+            "pages": [
+              67
+            ]
+          },
+          {
+            "code": "IMAGE_TABLE_REQUIRES_OCR",
+            "message": "Le tableau vide doit être revu avec OCR.",
+            "severity": "WARNING",
+            "table_index": 133,
+            "pages": [
+              67
+            ]
+          },
+          {
+            "code": "CSV_UNREADABLE",
+            "message": "CSV illisible (table_133.csv) : No columns to parse from file",
+            "severity": "ERROR",
+            "table_index": 133,
+            "pages": [
+              67
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 134,
+        "pages": [
+          67
+        ],
+        "row_count": 0,
+        "column_count": 0,
+        "non_empty_cell_count": 0,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_134.csv",
+        "status": "INVALID",
+        "issues": [
+          {
+            "code": "EMPTY_TABLE",
+            "message": "Le tableau ne contient aucune cellule exploitable.",
+            "severity": "ERROR",
+            "table_index": 134,
+            "pages": [
+              67
+            ]
+          },
+          {
+            "code": "IMAGE_TABLE_REQUIRES_OCR",
+            "message": "Le tableau vide doit être revu avec OCR.",
+            "severity": "WARNING",
+            "table_index": 134,
+            "pages": [
+              67
+            ]
+          },
+          {
+            "code": "CSV_UNREADABLE",
+            "message": "CSV illisible (table_134.csv) : No columns to parse from file",
+            "severity": "ERROR",
+            "table_index": 134,
+            "pages": [
+              67
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 135,
+        "pages": [
+          70
+        ],
+        "row_count": 0,
+        "column_count": 0,
+        "non_empty_cell_count": 0,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_135.csv",
+        "status": "INVALID",
+        "issues": [
+          {
+            "code": "EMPTY_TABLE",
+            "message": "Le tableau ne contient aucune cellule exploitable.",
+            "severity": "ERROR",
+            "table_index": 135,
+            "pages": [
+              70
+            ]
+          },
+          {
+            "code": "IMAGE_TABLE_REQUIRES_OCR",
+            "message": "Le tableau vide doit être revu avec OCR.",
+            "severity": "WARNING",
+            "table_index": 135,
+            "pages": [
+              70
+            ]
+          },
+          {
+            "code": "CSV_UNREADABLE",
+            "message": "CSV illisible (table_135.csv) : No columns to parse from file",
+            "severity": "ERROR",
+            "table_index": 135,
+            "pages": [
+              70
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 136,
+        "pages": [
+          71
+        ],
+        "row_count": 0,
+        "column_count": 0,
+        "non_empty_cell_count": 0,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_136.csv",
+        "status": "INVALID",
+        "issues": [
+          {
+            "code": "EMPTY_TABLE",
+            "message": "Le tableau ne contient aucune cellule exploitable.",
+            "severity": "ERROR",
+            "table_index": 136,
+            "pages": [
+              71
+            ]
+          },
+          {
+            "code": "IMAGE_TABLE_REQUIRES_OCR",
+            "message": "Le tableau vide doit être revu avec OCR.",
+            "severity": "WARNING",
+            "table_index": 136,
+            "pages": [
+              71
+            ]
+          },
+          {
+            "code": "CSV_UNREADABLE",
+            "message": "CSV illisible (table_136.csv) : No columns to parse from file",
+            "severity": "ERROR",
+            "table_index": 136,
+            "pages": [
+              71
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 137,
+        "pages": [
+          72
+        ],
+        "row_count": 0,
+        "column_count": 0,
+        "non_empty_cell_count": 0,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_137.csv",
+        "status": "INVALID",
+        "issues": [
+          {
+            "code": "EMPTY_TABLE",
+            "message": "Le tableau ne contient aucune cellule exploitable.",
+            "severity": "ERROR",
+            "table_index": 137,
+            "pages": [
+              72
+            ]
+          },
+          {
+            "code": "IMAGE_TABLE_REQUIRES_OCR",
+            "message": "Le tableau vide doit être revu avec OCR.",
+            "severity": "WARNING",
+            "table_index": 137,
+            "pages": [
+              72
+            ]
+          },
+          {
+            "code": "CSV_UNREADABLE",
+            "message": "CSV illisible (table_137.csv) : No columns to parse from file",
+            "severity": "ERROR",
+            "table_index": 137,
+            "pages": [
+              72
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 138,
+        "pages": [
+          73
+        ],
+        "row_count": 0,
+        "column_count": 0,
+        "non_empty_cell_count": 0,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_138.csv",
+        "status": "INVALID",
+        "issues": [
+          {
+            "code": "EMPTY_TABLE",
+            "message": "Le tableau ne contient aucune cellule exploitable.",
+            "severity": "ERROR",
+            "table_index": 138,
+            "pages": [
+              73
+            ]
+          },
+          {
+            "code": "IMAGE_TABLE_REQUIRES_OCR",
+            "message": "Le tableau vide doit être revu avec OCR.",
+            "severity": "WARNING",
+            "table_index": 138,
+            "pages": [
+              73
+            ]
+          },
+          {
+            "code": "CSV_UNREADABLE",
+            "message": "CSV illisible (table_138.csv) : No columns to parse from file",
+            "severity": "ERROR",
+            "table_index": 138,
+            "pages": [
+              73
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 139,
+        "pages": [
+          75
+        ],
+        "row_count": 0,
+        "column_count": 0,
+        "non_empty_cell_count": 0,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_139.csv",
+        "status": "INVALID",
+        "issues": [
+          {
+            "code": "EMPTY_TABLE",
+            "message": "Le tableau ne contient aucune cellule exploitable.",
+            "severity": "ERROR",
+            "table_index": 139,
+            "pages": [
+              75
+            ]
+          },
+          {
+            "code": "IMAGE_TABLE_REQUIRES_OCR",
+            "message": "Le tableau vide doit être revu avec OCR.",
+            "severity": "WARNING",
+            "table_index": 139,
+            "pages": [
+              75
+            ]
+          },
+          {
+            "code": "CSV_UNREADABLE",
+            "message": "CSV illisible (table_139.csv) : No columns to parse from file",
+            "severity": "ERROR",
+            "table_index": 139,
+            "pages": [
+              75
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 140,
+        "pages": [
+          76
+        ],
+        "row_count": 0,
+        "column_count": 0,
+        "non_empty_cell_count": 0,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_140.csv",
+        "status": "INVALID",
+        "issues": [
+          {
+            "code": "EMPTY_TABLE",
+            "message": "Le tableau ne contient aucune cellule exploitable.",
+            "severity": "ERROR",
+            "table_index": 140,
+            "pages": [
+              76
+            ]
+          },
+          {
+            "code": "IMAGE_TABLE_REQUIRES_OCR",
+            "message": "Le tableau vide doit être revu avec OCR.",
+            "severity": "WARNING",
+            "table_index": 140,
+            "pages": [
+              76
+            ]
+          },
+          {
+            "code": "CSV_UNREADABLE",
+            "message": "CSV illisible (table_140.csv) : No columns to parse from file",
+            "severity": "ERROR",
+            "table_index": 140,
+            "pages": [
+              76
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 141,
+        "pages": [
+          77
+        ],
+        "row_count": 0,
+        "column_count": 0,
+        "non_empty_cell_count": 0,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_141.csv",
+        "status": "INVALID",
+        "issues": [
+          {
+            "code": "EMPTY_TABLE",
+            "message": "Le tableau ne contient aucune cellule exploitable.",
+            "severity": "ERROR",
+            "table_index": 141,
+            "pages": [
+              77
+            ]
+          },
+          {
+            "code": "IMAGE_TABLE_REQUIRES_OCR",
+            "message": "Le tableau vide doit être revu avec OCR.",
+            "severity": "WARNING",
+            "table_index": 141,
+            "pages": [
+              77
+            ]
+          },
+          {
+            "code": "CSV_UNREADABLE",
+            "message": "CSV illisible (table_141.csv) : No columns to parse from file",
+            "severity": "ERROR",
+            "table_index": 141,
+            "pages": [
+              77
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 142,
+        "pages": [
+          78
+        ],
+        "row_count": 0,
+        "column_count": 0,
+        "non_empty_cell_count": 0,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_142.csv",
+        "status": "INVALID",
+        "issues": [
+          {
+            "code": "EMPTY_TABLE",
+            "message": "Le tableau ne contient aucune cellule exploitable.",
+            "severity": "ERROR",
+            "table_index": 142,
+            "pages": [
+              78
+            ]
+          },
+          {
+            "code": "IMAGE_TABLE_REQUIRES_OCR",
+            "message": "Le tableau vide doit être revu avec OCR.",
+            "severity": "WARNING",
+            "table_index": 142,
+            "pages": [
+              78
+            ]
+          },
+          {
+            "code": "CSV_UNREADABLE",
+            "message": "CSV illisible (table_142.csv) : No columns to parse from file",
+            "severity": "ERROR",
+            "table_index": 142,
+            "pages": [
+              78
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 143,
+        "pages": [
+          79
+        ],
+        "row_count": 0,
+        "column_count": 0,
+        "non_empty_cell_count": 0,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_143.csv",
+        "status": "INVALID",
+        "issues": [
+          {
+            "code": "EMPTY_TABLE",
+            "message": "Le tableau ne contient aucune cellule exploitable.",
+            "severity": "ERROR",
+            "table_index": 143,
+            "pages": [
+              79
+            ]
+          },
+          {
+            "code": "IMAGE_TABLE_REQUIRES_OCR",
+            "message": "Le tableau vide doit être revu avec OCR.",
+            "severity": "WARNING",
+            "table_index": 143,
+            "pages": [
+              79
+            ]
+          },
+          {
+            "code": "CSV_UNREADABLE",
+            "message": "CSV illisible (table_143.csv) : No columns to parse from file",
+            "severity": "ERROR",
+            "table_index": 143,
+            "pages": [
+              79
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 144,
+        "pages": [
+          80
+        ],
+        "row_count": 0,
+        "column_count": 0,
+        "non_empty_cell_count": 0,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_144.csv",
+        "status": "INVALID",
+        "issues": [
+          {
+            "code": "EMPTY_TABLE",
+            "message": "Le tableau ne contient aucune cellule exploitable.",
+            "severity": "ERROR",
+            "table_index": 144,
+            "pages": [
+              80
+            ]
+          },
+          {
+            "code": "IMAGE_TABLE_REQUIRES_OCR",
+            "message": "Le tableau vide doit être revu avec OCR.",
+            "severity": "WARNING",
+            "table_index": 144,
+            "pages": [
+              80
+            ]
+          },
+          {
+            "code": "CSV_UNREADABLE",
+            "message": "CSV illisible (table_144.csv) : No columns to parse from file",
+            "severity": "ERROR",
+            "table_index": 144,
+            "pages": [
+              80
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 145,
+        "pages": [
+          80
+        ],
+        "row_count": 0,
+        "column_count": 0,
+        "non_empty_cell_count": 0,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_145.csv",
+        "status": "INVALID",
+        "issues": [
+          {
+            "code": "EMPTY_TABLE",
+            "message": "Le tableau ne contient aucune cellule exploitable.",
+            "severity": "ERROR",
+            "table_index": 145,
+            "pages": [
+              80
+            ]
+          },
+          {
+            "code": "IMAGE_TABLE_REQUIRES_OCR",
+            "message": "Le tableau vide doit être revu avec OCR.",
+            "severity": "WARNING",
+            "table_index": 145,
+            "pages": [
+              80
+            ]
+          },
+          {
+            "code": "CSV_UNREADABLE",
+            "message": "CSV illisible (table_145.csv) : No columns to parse from file",
+            "severity": "ERROR",
+            "table_index": 145,
+            "pages": [
+              80
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 146,
+        "pages": [
+          81
+        ],
+        "row_count": 0,
+        "column_count": 0,
+        "non_empty_cell_count": 0,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_146.csv",
+        "status": "INVALID",
+        "issues": [
+          {
+            "code": "EMPTY_TABLE",
+            "message": "Le tableau ne contient aucune cellule exploitable.",
+            "severity": "ERROR",
+            "table_index": 146,
+            "pages": [
+              81
+            ]
+          },
+          {
+            "code": "IMAGE_TABLE_REQUIRES_OCR",
+            "message": "Le tableau vide doit être revu avec OCR.",
+            "severity": "WARNING",
+            "table_index": 146,
+            "pages": [
+              81
+            ]
+          },
+          {
+            "code": "CSV_UNREADABLE",
+            "message": "CSV illisible (table_146.csv) : No columns to parse from file",
+            "severity": "ERROR",
+            "table_index": 146,
+            "pages": [
+              81
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 147,
+        "pages": [
+          82
+        ],
+        "row_count": 0,
+        "column_count": 0,
+        "non_empty_cell_count": 0,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_147.csv",
+        "status": "INVALID",
+        "issues": [
+          {
+            "code": "EMPTY_TABLE",
+            "message": "Le tableau ne contient aucune cellule exploitable.",
+            "severity": "ERROR",
+            "table_index": 147,
+            "pages": [
+              82
+            ]
+          },
+          {
+            "code": "IMAGE_TABLE_REQUIRES_OCR",
+            "message": "Le tableau vide doit être revu avec OCR.",
+            "severity": "WARNING",
+            "table_index": 147,
+            "pages": [
+              82
+            ]
+          },
+          {
+            "code": "CSV_UNREADABLE",
+            "message": "CSV illisible (table_147.csv) : No columns to parse from file",
+            "severity": "ERROR",
+            "table_index": 147,
+            "pages": [
+              82
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 148,
+        "pages": [
+          83
+        ],
+        "row_count": 0,
+        "column_count": 0,
+        "non_empty_cell_count": 0,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_148.csv",
+        "status": "INVALID",
+        "issues": [
+          {
+            "code": "EMPTY_TABLE",
+            "message": "Le tableau ne contient aucune cellule exploitable.",
+            "severity": "ERROR",
+            "table_index": 148,
+            "pages": [
+              83
+            ]
+          },
+          {
+            "code": "IMAGE_TABLE_REQUIRES_OCR",
+            "message": "Le tableau vide doit être revu avec OCR.",
+            "severity": "WARNING",
+            "table_index": 148,
+            "pages": [
+              83
+            ]
+          },
+          {
+            "code": "CSV_UNREADABLE",
+            "message": "CSV illisible (table_148.csv) : No columns to parse from file",
+            "severity": "ERROR",
+            "table_index": 148,
+            "pages": [
+              83
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 149,
+        "pages": [
+          84
+        ],
+        "row_count": 0,
+        "column_count": 0,
+        "non_empty_cell_count": 0,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_149.csv",
+        "status": "INVALID",
+        "issues": [
+          {
+            "code": "EMPTY_TABLE",
+            "message": "Le tableau ne contient aucune cellule exploitable.",
+            "severity": "ERROR",
+            "table_index": 149,
+            "pages": [
+              84
+            ]
+          },
+          {
+            "code": "IMAGE_TABLE_REQUIRES_OCR",
+            "message": "Le tableau vide doit être revu avec OCR.",
+            "severity": "WARNING",
+            "table_index": 149,
+            "pages": [
+              84
+            ]
+          },
+          {
+            "code": "CSV_UNREADABLE",
+            "message": "CSV illisible (table_149.csv) : No columns to parse from file",
+            "severity": "ERROR",
+            "table_index": 149,
+            "pages": [
+              84
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 150,
+        "pages": [
+          85
+        ],
+        "row_count": 0,
+        "column_count": 0,
+        "non_empty_cell_count": 0,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_150.csv",
+        "status": "INVALID",
+        "issues": [
+          {
+            "code": "EMPTY_TABLE",
+            "message": "Le tableau ne contient aucune cellule exploitable.",
+            "severity": "ERROR",
+            "table_index": 150,
+            "pages": [
+              85
+            ]
+          },
+          {
+            "code": "IMAGE_TABLE_REQUIRES_OCR",
+            "message": "Le tableau vide doit être revu avec OCR.",
+            "severity": "WARNING",
+            "table_index": 150,
+            "pages": [
+              85
+            ]
+          },
+          {
+            "code": "CSV_UNREADABLE",
+            "message": "CSV illisible (table_150.csv) : No columns to parse from file",
+            "severity": "ERROR",
+            "table_index": 150,
+            "pages": [
+              85
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 151,
+        "pages": [
+          86
+        ],
+        "row_count": 0,
+        "column_count": 0,
+        "non_empty_cell_count": 0,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_151.csv",
+        "status": "INVALID",
+        "issues": [
+          {
+            "code": "EMPTY_TABLE",
+            "message": "Le tableau ne contient aucune cellule exploitable.",
+            "severity": "ERROR",
+            "table_index": 151,
+            "pages": [
+              86
+            ]
+          },
+          {
+            "code": "IMAGE_TABLE_REQUIRES_OCR",
+            "message": "Le tableau vide doit être revu avec OCR.",
+            "severity": "WARNING",
+            "table_index": 151,
+            "pages": [
+              86
+            ]
+          },
+          {
+            "code": "CSV_UNREADABLE",
+            "message": "CSV illisible (table_151.csv) : No columns to parse from file",
+            "severity": "ERROR",
+            "table_index": 151,
+            "pages": [
+              86
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 152,
+        "pages": [
+          88
+        ],
+        "row_count": 0,
+        "column_count": 0,
+        "non_empty_cell_count": 0,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_152.csv",
+        "status": "INVALID",
+        "issues": [
+          {
+            "code": "EMPTY_TABLE",
+            "message": "Le tableau ne contient aucune cellule exploitable.",
+            "severity": "ERROR",
+            "table_index": 152,
+            "pages": [
+              88
+            ]
+          },
+          {
+            "code": "IMAGE_TABLE_REQUIRES_OCR",
+            "message": "Le tableau vide doit être revu avec OCR.",
+            "severity": "WARNING",
+            "table_index": 152,
+            "pages": [
+              88
+            ]
+          },
+          {
+            "code": "CSV_UNREADABLE",
+            "message": "CSV illisible (table_152.csv) : No columns to parse from file",
+            "severity": "ERROR",
+            "table_index": 152,
+            "pages": [
+              88
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 153,
+        "pages": [
+          89
+        ],
+        "row_count": 0,
+        "column_count": 0,
+        "non_empty_cell_count": 0,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_153.csv",
+        "status": "INVALID",
+        "issues": [
+          {
+            "code": "EMPTY_TABLE",
+            "message": "Le tableau ne contient aucune cellule exploitable.",
+            "severity": "ERROR",
+            "table_index": 153,
+            "pages": [
+              89
+            ]
+          },
+          {
+            "code": "IMAGE_TABLE_REQUIRES_OCR",
+            "message": "Le tableau vide doit être revu avec OCR.",
+            "severity": "WARNING",
+            "table_index": 153,
+            "pages": [
+              89
+            ]
+          },
+          {
+            "code": "CSV_UNREADABLE",
+            "message": "CSV illisible (table_153.csv) : No columns to parse from file",
+            "severity": "ERROR",
+            "table_index": 153,
+            "pages": [
+              89
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 154,
+        "pages": [
+          90
+        ],
+        "row_count": 0,
+        "column_count": 0,
+        "non_empty_cell_count": 0,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_154.csv",
+        "status": "INVALID",
+        "issues": [
+          {
+            "code": "EMPTY_TABLE",
+            "message": "Le tableau ne contient aucune cellule exploitable.",
+            "severity": "ERROR",
+            "table_index": 154,
+            "pages": [
+              90
+            ]
+          },
+          {
+            "code": "IMAGE_TABLE_REQUIRES_OCR",
+            "message": "Le tableau vide doit être revu avec OCR.",
+            "severity": "WARNING",
+            "table_index": 154,
+            "pages": [
+              90
+            ]
+          },
+          {
+            "code": "CSV_UNREADABLE",
+            "message": "CSV illisible (table_154.csv) : No columns to parse from file",
+            "severity": "ERROR",
+            "table_index": 154,
+            "pages": [
+              90
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 155,
+        "pages": [
+          91
+        ],
+        "row_count": 0,
+        "column_count": 0,
+        "non_empty_cell_count": 0,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_155.csv",
+        "status": "INVALID",
+        "issues": [
+          {
+            "code": "EMPTY_TABLE",
+            "message": "Le tableau ne contient aucune cellule exploitable.",
+            "severity": "ERROR",
+            "table_index": 155,
+            "pages": [
+              91
+            ]
+          },
+          {
+            "code": "IMAGE_TABLE_REQUIRES_OCR",
+            "message": "Le tableau vide doit être revu avec OCR.",
+            "severity": "WARNING",
+            "table_index": 155,
+            "pages": [
+              91
+            ]
+          },
+          {
+            "code": "CSV_UNREADABLE",
+            "message": "CSV illisible (table_155.csv) : No columns to parse from file",
+            "severity": "ERROR",
+            "table_index": 155,
+            "pages": [
+              91
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 156,
+        "pages": [
+          109
+        ],
+        "row_count": 12,
+        "column_count": 2,
+        "non_empty_cell_count": 20,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_156.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "AUTOGENERATED_HEADER",
+            "message": "Les en-têtes de colonnes sont artificiels.",
+            "severity": "WARNING",
+            "table_index": 156,
+            "pages": [
+              109
+            ]
+          },
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 156,
+            "pages": [
+              109
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 157,
+        "pages": [
+          111
+        ],
+        "row_count": 11,
+        "column_count": 6,
+        "non_empty_cell_count": 15,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_157.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 157,
+            "pages": [
+              111
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 158,
+        "pages": [
+          114
+        ],
+        "row_count": 8,
+        "column_count": 2,
+        "non_empty_cell_count": 8,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_158.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "AUTOGENERATED_HEADER",
+            "message": "Les en-têtes de colonnes sont artificiels.",
+            "severity": "WARNING",
+            "table_index": 158,
+            "pages": [
+              114
+            ]
+          },
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 158,
+            "pages": [
+              114
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 159,
+        "pages": [
+          114
+        ],
+        "row_count": 8,
+        "column_count": 1,
+        "non_empty_cell_count": 8,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_159.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "AUTOGENERATED_HEADER",
+            "message": "Les en-têtes de colonnes sont artificiels.",
+            "severity": "WARNING",
+            "table_index": 159,
+            "pages": [
+              114
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 160,
+        "pages": [
+          114
+        ],
+        "row_count": 24,
+        "column_count": 2,
+        "non_empty_cell_count": 24,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_160.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 160,
+            "pages": [
+              114
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 161,
+        "pages": [
+          114
+        ],
+        "row_count": 2,
+        "column_count": 5,
+        "non_empty_cell_count": 2,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_161.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 162,
+        "pages": [
+          115
+        ],
+        "row_count": 13,
+        "column_count": 1,
+        "non_empty_cell_count": 13,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_162.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "AUTOGENERATED_HEADER",
+            "message": "Les en-têtes de colonnes sont artificiels.",
+            "severity": "WARNING",
+            "table_index": 162,
+            "pages": [
+              115
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 163,
+        "pages": [
+          116
+        ],
+        "row_count": 10,
+        "column_count": 3,
+        "non_empty_cell_count": 29,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_163.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 163,
+            "pages": [
+              116
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 164,
+        "pages": [
+          122
+        ],
+        "row_count": 24,
+        "column_count": 1,
+        "non_empty_cell_count": 24,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_164.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "AUTOGENERATED_HEADER",
+            "message": "Les en-têtes de colonnes sont artificiels.",
+            "severity": "WARNING",
+            "table_index": 164,
+            "pages": [
+              122
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 165,
+        "pages": [
+          124
+        ],
+        "row_count": 12,
+        "column_count": 1,
+        "non_empty_cell_count": 12,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_165.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "AUTOGENERATED_HEADER",
+            "message": "Les en-têtes de colonnes sont artificiels.",
+            "severity": "WARNING",
+            "table_index": 165,
+            "pages": [
+              124
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 166,
+        "pages": [
+          129
+        ],
+        "row_count": 0,
+        "column_count": 0,
+        "non_empty_cell_count": 0,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_166.csv",
+        "status": "INVALID",
+        "issues": [
+          {
+            "code": "EMPTY_TABLE",
+            "message": "Le tableau ne contient aucune cellule exploitable.",
+            "severity": "ERROR",
+            "table_index": 166,
+            "pages": [
+              129
+            ]
+          },
+          {
+            "code": "IMAGE_TABLE_REQUIRES_OCR",
+            "message": "Le tableau vide doit être revu avec OCR.",
+            "severity": "WARNING",
+            "table_index": 166,
+            "pages": [
+              129
+            ]
+          },
+          {
+            "code": "CSV_UNREADABLE",
+            "message": "CSV illisible (table_166.csv) : No columns to parse from file",
+            "severity": "ERROR",
+            "table_index": 166,
+            "pages": [
+              129
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 167,
+        "pages": [
+          134
+        ],
+        "row_count": 4,
+        "column_count": 2,
+        "non_empty_cell_count": 8,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_167.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 168,
+        "pages": [
+          138
+        ],
+        "row_count": 8,
+        "column_count": 3,
+        "non_empty_cell_count": 24,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_168.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 169,
+        "pages": [
+          138
+        ],
+        "row_count": 6,
+        "column_count": 3,
+        "non_empty_cell_count": 18,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_169.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 170,
+        "pages": [
+          139
+        ],
+        "row_count": 3,
+        "column_count": 3,
+        "non_empty_cell_count": 9,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_170.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 171,
+        "pages": [
+          162
+        ],
+        "row_count": 11,
+        "column_count": 1,
+        "non_empty_cell_count": 11,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_171.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "AUTOGENERATED_HEADER",
+            "message": "Les en-têtes de colonnes sont artificiels.",
+            "severity": "WARNING",
+            "table_index": 171,
+            "pages": [
+              162
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 172,
+        "pages": [
+          162
+        ],
+        "row_count": 8,
+        "column_count": 1,
+        "non_empty_cell_count": 8,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_172.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "AUTOGENERATED_HEADER",
+            "message": "Les en-têtes de colonnes sont artificiels.",
+            "severity": "WARNING",
+            "table_index": 172,
+            "pages": [
+              162
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 173,
+        "pages": [
+          162
+        ],
+        "row_count": 4,
+        "column_count": 1,
+        "non_empty_cell_count": 4,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_173.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "AUTOGENERATED_HEADER",
+            "message": "Les en-têtes de colonnes sont artificiels.",
+            "severity": "WARNING",
+            "table_index": 173,
+            "pages": [
+              162
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 174,
+        "pages": [
+          162
+        ],
+        "row_count": 9,
+        "column_count": 1,
+        "non_empty_cell_count": 9,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_174.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "AUTOGENERATED_HEADER",
+            "message": "Les en-têtes de colonnes sont artificiels.",
+            "severity": "WARNING",
+            "table_index": 174,
+            "pages": [
+              162
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 175,
+        "pages": [
+          164
+        ],
+        "row_count": 10,
+        "column_count": 4,
+        "non_empty_cell_count": 30,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_175.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 175,
+            "pages": [
+              164
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 176,
+        "pages": [
+          166
+        ],
+        "row_count": 5,
+        "column_count": 1,
+        "non_empty_cell_count": 5,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2024_0_a9c56f1a606c/tables/table_176.csv",
+        "status": "VALID",
+        "issues": []
+      }
+    ],
+    "artifact_sha256": {
+      "document.md": "2752475d91c54127dd008c05ac2ad4a31849fcf424926c82f40680d18c27e9c9",
+      "document.json": "dfdd9678f90a6e6ff0260398aa2c6979da4f295c88d8163579b13af448855a61",
+      "tables/table_001.csv": "3a679b00a765ca129c5d3840f5820588d38aacbc8b2dc104453191164be4117b",
+      "tables/table_002.csv": "5a4fbed20bb61da68e824c90fcefb7c6c60077e327835d856d3bde00dd5a8bc1",
+      "tables/table_003.csv": "e590015595edf4689af943bbd4104829aeb0873fb47768ae2f8bb21e2fc3fba2",
+      "tables/table_004.csv": "2b0a9d8c9a6e3caabc2f3095946183b69882555945868b36d615f1b01c048587",
+      "tables/table_005.csv": "9486d21914c7d0b3866aadd6dabded702b7c4e9124c3549478a74e2a5252e921",
+      "tables/table_006.csv": "b9f42e69cb9a4bcae0d07afe046bb4a960955544c53cc8b8578a88c9a0bdcb41",
+      "tables/table_007.csv": "14adaf057a703f59a203cd3a082fc0d41b34229954b240c7262f8d4eedb31d21",
+      "tables/table_008.csv": "c843b5cb99c7eab90bf0a6f8f6ea97cc64efc30d7009f26f661b49e9966ee5bd",
+      "tables/table_009.csv": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "tables/table_010.csv": "7e318f096885a07dcb2af372480bcdba84bd00ee37b6480e08065645a60d7779",
+      "tables/table_011.csv": "9a5ebea5bbbd3dd5a094e83a728e48fa35c135d0d0480d672898645cf6a4ac48",
+      "tables/table_012.csv": "0f2a2767776e18f287c1034142917fa06bf9a9550fa926ca7fd091727e7d7b81",
+      "tables/table_013.csv": "09d580cd08c447ee77b08c9a0d8caff25c4c5e2aa0e5dd860e6c38d8ad0a7128",
+      "tables/table_014.csv": "9a2414f4422f39f3b291de861e06fa6573719296b2d378aed77b47f1ed165266",
+      "tables/table_015.csv": "39dea912fba7eecba43d9895dd4f2866885a1ed33d7fa50602294c2b07b44f33",
+      "tables/table_016.csv": "9a6ba1b4896399479c6f25c5a0566cfd0e0540296d1345f720eefb5b47468cb6",
+      "tables/table_017.csv": "08f19f1ccad91add3b101ae13f6d5cbc5de4790948fe29995adfa08e8af9322e",
+      "tables/table_018.csv": "c5fb6937910d9780db39e55950faeee3077c9a1087a7e9f9a232a101f1f22c7c",
+      "tables/table_019.csv": "ce1fe08095664075a0310958b1d031133ce30757e9821355c7de88f1bec66ec9",
+      "tables/table_020.csv": "359d337066c257010c8e4301acd5da53fc0bfbc326e4e8fcccbab720d121008f",
+      "tables/table_021.csv": "8592a4a954c0254d7ff16ef0ec01edf89092fd41e59cdad6893683df390d4c41",
+      "tables/table_022.csv": "23eeec6186e4a990cf2830b479ea1c6284f762dfa7ea8983a1a0d0feaeb33a0f",
+      "tables/table_023.csv": "844527957647cb74286f11d8635ead179bc70372521dfecd59cb3055b2eba920",
+      "tables/table_024.csv": "ced1ada416334f7ace8c34bc7426e43d76b0dd9b3e02a9165535e7a26717872f",
+      "tables/table_025.csv": "ec9bde149a5adcf47dd50361808105c2eea67ae3394b4f964784c22b707794d6",
+      "tables/table_026.csv": "4a0f344d081cbb48a7a05c6f94b5943d0b47235c23bb5104f4d28c01ccaa91d4",
+      "tables/table_027.csv": "c298c75dafcaa71cd4a579eb018ca08376f1e4453ef2727c73f738c97c3ad8d8",
+      "tables/table_028.csv": "52ed4aac00d864b0dfbed68ae31dbaae89cec23b5b4f3e5aeea4a7748aab822d",
+      "tables/table_029.csv": "35abf916dcb14a0ef0481e2d3817014fefcf24c2a2fcb04e0a9a5670e06f22f5",
+      "tables/table_030.csv": "17891b72a43775e08f0f8b9231089bf5f79bf66baaeecc54e589012645c05762",
+      "tables/table_031.csv": "07a7022afad87e999f4c625b79653d060565c3588d0a9a520bf58cb24a225664",
+      "tables/table_032.csv": "b04e5adc410dc57ffcfb280012aa71b0af72c0e6516bfcdb956abf097fd54684",
+      "tables/table_033.csv": "f291789436b78ff9fb0de684666a5f4ce3fd46e24ee4a0ea2387d086b3a7d6fe",
+      "tables/table_034.csv": "45c212fcd1577c86d4b9bb302b004c69fab47c6c3fccf4e518630398cec38ed4",
+      "tables/table_035.csv": "0a3465f26c0a7cba691eb143212373d39aa824918e91bf6e125d706c5f27ed15",
+      "tables/table_036.csv": "721c13c138bca07c6f6755d30ebe9307184608b9609a72b08debddba59ba7d79",
+      "tables/table_037.csv": "9ffcdf85d1d26d27a002f07d5910cd31fa352d8f13fdb6d69517f4876cc5827d",
+      "tables/table_038.csv": "42c67af410c09e1d02faf18247b650d50011e0dceff0a362faa2b00a580f8346",
+      "tables/table_039.csv": "1e61ee9c4bcf64097250c3b9661639631bfab4256420714adc41a1f750920fe5",
+      "tables/table_040.csv": "91774ca0412b1e14afd8e7e180585d6a6f1cbb73b6ac2d8a7da69ab669a99f6f",
+      "tables/table_041.csv": "4eb83673e62c7a0e72bf0ab44de9d28e1a2574fd2c6d4e9a2c5f7a918b692902",
+      "tables/table_042.csv": "91f90c5379cda91e2a619f988adad63d832d896d72a9ce5c1c3210c191447b02",
+      "tables/table_043.csv": "6da15a52f07a7f03b8c2e362963983108e88a22063051dca2615e8a3bed6b394",
+      "tables/table_044.csv": "69d5696a88654fa0e95baec521bd2683b2ed62f1034e1fe2f76c84b96fbe8b57",
+      "tables/table_045.csv": "daea4a42a8ebf2826af62a847a8072571669b498506e038ae9de7addd0eb5d01",
+      "tables/table_046.csv": "e52a184b78f843b8ca758a95b8a11ef0e4896ee9ebbe180a8f88812440e3371b",
+      "tables/table_047.csv": "f59762ba1090a3319a9bb9d0a8315fce0068c7f4bd4d432ba7a4880b9431e4db",
+      "tables/table_048.csv": "857c2e5deafa38d4124bdeaa3952b2ed116b18b4843e2dd2beca11f3ca6ac8d0",
+      "tables/table_049.csv": "653ebafc3bafda60ce4f74cbdfa05c7ab9f9e54f46937737ece08df7c88eabed",
+      "tables/table_050.csv": "0d916815885557446b41e254fd64747738a663a6554673d6fbfbe0f280f0727d",
+      "tables/table_051.csv": "6a66c3acebf3c5aaa1caeb9e0203cf623891c7f2a87415278ef67ecdf02dca00",
+      "tables/table_052.csv": "c8751ad9b1ffd605a9ad85419ac23bff1d8ff54fd89f4dd516d16abae5f67f89",
+      "tables/table_053.csv": "e14bd08f7027e7c5d70be8417c743500745beafd7681ce54ba5c3eb9d9dfbe38",
+      "tables/table_054.csv": "7ba0eb219c4d2d47feb55e808ab7a07f2143a54488dce3c8fdb7a681ae5e1c8d",
+      "tables/table_055.csv": "99bcfa5cc416862bb04c09652452929c6689ad1a068c4b12c0abfee4cfc628f8",
+      "tables/table_056.csv": "bc6f978b2bf4cde0e3e7c68c77d0f47392f33532d55acc088f6a23d84cd4507a",
+      "tables/table_057.csv": "4ee069a07d78189d819ddabd53d4ab66fea5709f1daa9b2da488f9017c8c0133",
+      "tables/table_058.csv": "6260045ed1d45ab655faf31306c75f65032e8f37444557c72b2c23a43549dc00",
+      "tables/table_059.csv": "bba8bae6d863b86a3343f59a183348ab7eba8c07c78f129925c05317ca322aad",
+      "tables/table_060.csv": "8c42430e5f9f1d693308a16a1bfcd7a613d3afbda558fc5c30dea254bc228db2",
+      "tables/table_061.csv": "deded4f0063db5292dd4fd8d87cb90dc106642aa10f09b1b944ca3ece10a6f3f",
+      "tables/table_062.csv": "9263d510eb95ae622f70143d544306e48e8fe31674bea6af05de5e1fd1234c13",
+      "tables/table_063.csv": "67a17fc5813e66c5f552b9272a37b8e54d3d32535199a5ac175cb8aa0f978cf4",
+      "tables/table_064.csv": "494b1e30a2ea3444d37c9bf3f75f8290f6b4f7c302ccbafb23b4edddd8f42741",
+      "tables/table_065.csv": "55c466ed0d94d104b9dd4315289af669bf4d19e1e4d175d638bda1cad16c16de",
+      "tables/table_066.csv": "1d654865f28b276b7c391f57d51495e2eb2c002902e7cf4019ae8295160b3121",
+      "tables/table_067.csv": "d1f2afed9f53348321e02d6b2e1b0ad5a5f49179cbf608f896178355c9c7e803",
+      "tables/table_068.csv": "6537c002f2b4f434eda133619fcefed65e49d45c3b384d0f8824cb9f8baceee2",
+      "tables/table_069.csv": "916c16d322a2cbcb29f6eb3990798cd9b5f5f0d78f996c0ed718395b429010e8",
+      "tables/table_070.csv": "a3d1efb7a3abe0588d0558dda8fb17414877542550858b2c51c1903a9a6ae46f",
+      "tables/table_071.csv": "bff8c0e8a02f27788f9bcc83210189f8c5c1e2f19a39cd95c67372d90262d727",
+      "tables/table_072.csv": "9ffb198554e2a533fd8d466301e8548f0efb00ec76a2e4068281823b427e3b46",
+      "tables/table_073.csv": "a437af6c676ac8525b501b93270468d15d41bd1b7a67d09b526adffb95146293",
+      "tables/table_074.csv": "d009dbd2df23a9c220c64be01fb9ff5a6482c3847b552e99334cfcae7f23a771",
+      "tables/table_075.csv": "48af8d6ee48c2202dc13ec45e31f52c2ac7759ca998b07a2e0d285e65764c7fe",
+      "tables/table_076.csv": "1ac936dd61dfa722da9aa2a535d22ad2fcd996a0e0e8eab16a38180403944890",
+      "tables/table_077.csv": "6858790d6f0cdb76d3f0e469ce703afeb441a6a5676d96e2b35d966dd5c63f11",
+      "tables/table_078.csv": "92831c8b4257e81ac921747613027e8059eda97cb27a42ed7e21e07f9b4439a1",
+      "tables/table_079.csv": "62da4f35ced7dd818636ee44283a5490c91bcbfe8be6dde50b8339f058fed7bf",
+      "tables/table_080.csv": "04415037430c0a72a84c77ef07dd61744cd5f281cf9a68b8e3a2724d92fb2d35",
+      "tables/table_081.csv": "057626d9ae724198d1c6215b51d44c18bd9243eff7d40a039c01c62f4ee7ef62",
+      "tables/table_082.csv": "163895da2f0c78519aa27b8e8c0be99c79d4d17d44187593709db099e08aa51f",
+      "tables/table_083.csv": "6ff3d7367bd35560e0f8700d06f7f12053b26e316c177b71f37b72bdc0f9d4f4",
+      "tables/table_084.csv": "8d3e6cb979a173fdd3f1fbd7bb73fdc2328152588e44bfab008ac4cc723473a5",
+      "tables/table_085.csv": "60d24ed169529c313c6a5b171350080f2923e401c8aa63ba65c1f1a271379726",
+      "tables/table_086.csv": "a801a879fd2929cdc4683f2b87e1b4b06b2a67cffa9bea88881fa475ccacc027",
+      "tables/table_087.csv": "a72ab690ab73ea1a800c5d26cb1ce01e2e02655612b17433fff8f39ca2a0dbdb",
+      "tables/table_088.csv": "b99ef0f450ba04f47ce9efbda4165bba4c5a1d1052428a1ba84d72773a57120a",
+      "tables/table_089.csv": "7925170d22993a41996d53b003a4f94d23e9d01128eef1cd93e4e3a663c35b3d",
+      "tables/table_090.csv": "b70a952b29dcf36b6219982f2586201975980cc9dde1c4700bcaba65b42c2574",
+      "tables/table_091.csv": "c2a43f8ab4cfc55e834d50be112fbd903fbbaf0217dee57647e8178839ea8799",
+      "tables/table_092.csv": "4887c8224bfa8a23b6c0a7474ce657f02c7ea7f6773f503c29a454df5bb74d0e",
+      "tables/table_093.csv": "69eb2adc057806a0f2318db431a0619eeea395177a7dcead706d69f481a1a4df",
+      "tables/table_094.csv": "9a2414f4422f39f3b291de861e06fa6573719296b2d378aed77b47f1ed165266",
+      "tables/table_095.csv": "6aa0d67e45ff9f3a7bb28704156486542282ea38c34be94304165bb96ed22efd",
+      "tables/table_096.csv": "3bf97a0ebc1b8ff90ca0780e7bc6c588f2cf84071368c83d37de0ae46f85cb2d",
+      "tables/table_097.csv": "41be48b2c59105b0bb65e4c040997a0def88b6f0a7d4da5d9e5434d54e4078da",
+      "tables/table_098.csv": "8118c6965f47147a802a8e12674cf83bc18bf8a042932b6a7832a3fd20b54b4e",
+      "tables/table_099.csv": "ce1fe08095664075a0310958b1d031133ce30757e9821355c7de88f1bec66ec9",
+      "tables/table_100.csv": "cf5571fc6de38b07c07db1afc5b65362fbfec110fa83dec3e0b220de5cdaa190",
+      "tables/table_101.csv": "95dce3bf69146b79f2410ff6cd87c8136374fffa0b6cef12dacad14bea9773d9",
+      "tables/table_102.csv": "4d4a5e87842bb8a078dd534949405f2503c2a71683d321c61ecf7f1c985235c6",
+      "tables/table_103.csv": "f9dd5ea307a0b039f0e50ead91d97d6ad9193759dffb30e4d86e85eb522f1f8b",
+      "tables/table_104.csv": "339a5437941f19d6269398cf4cf621f814fc0a93fd1542d0fc488eaf0522f799",
+      "tables/table_105.csv": "b9a0295a448811f9f438c39e579622b1f69dea32e077ae6e14b28723ea638058",
+      "tables/table_106.csv": "ccba93479d531c4ba89f8c673709bd1b80ad24cfa759e336d26e8fdae7ad865a",
+      "tables/table_107.csv": "b04e5adc410dc57ffcfb280012aa71b0af72c0e6516bfcdb956abf097fd54684",
+      "tables/table_108.csv": "85a6a3f00b865f56cb0c3b65dc669346940d05b5797bc44ed270b4fc0a53c1fa",
+      "tables/table_109.csv": "61e63cb2c4a14612bf572b829ff9d4d17547485d168ca6903c5b5076071fffb5",
+      "tables/table_110.csv": "ccae656fdf6aa6958750321179162d9af940c7cfbc9668e858420a71c87105ac",
+      "tables/table_111.csv": "368035445b1fbd8b7682707f8733df36b75e128afed030757ae588a9d5909bc9",
+      "tables/table_112.csv": "42c67af410c09e1d02faf18247b650d50011e0dceff0a362faa2b00a580f8346",
+      "tables/table_113.csv": "daea4a42a8ebf2826af62a847a8072571669b498506e038ae9de7addd0eb5d01",
+      "tables/table_114.csv": "7c58545d49c5f03f903dfb91e12d564e4de7c0b44f7b955bdc587839eb6dcfe1",
+      "tables/table_115.csv": "8513c3a21bfaa23d5a3733fa52dd254e9ad91a67bad50bccc703cabfe90caf5b",
+      "tables/table_116.csv": "d65d66d11566df7f86e7fae29178fc922802e807350e593842e68fee00e44d09",
+      "tables/table_117.csv": "0ac55db970f52196d181a6dc03d047abafc4bb0014ae8fd339d8881f58a4f644",
+      "tables/table_118.csv": "31e83ffa7fe5e143bfa3c0c36e01a42ee863248817c4c3b4384918458c09eb00",
+      "tables/table_119.csv": "6ba388cb1c97c8c775bc77df34643f64a37399c5affd0deb2559a38e7b1b1026",
+      "tables/table_120.csv": "cde433573d47e0e69aacb3c682f624bf6ce6933cf464eba332ec46d185bdad4a",
+      "tables/table_121.csv": "a9f77ff1c4b9ef8aad4aa4ef847de80ca16ba5e8e4a35bf21c3c95bc5c5ef60d",
+      "tables/table_122.csv": "e2bfe8b16cdd3b12c7a9124b34cc7ae793c3dc2acba83993f215aab11f0935ac",
+      "tables/table_123.csv": "339bc4eb7f457913a9d879d64426d0244553bd6c2e873ecfdd438d9ea1dd3577",
+      "tables/table_124.csv": "a7c12440294fec624d63796352912e3508c2337f4baa21dc342e567ce5eadf81",
+      "tables/table_125.csv": "1a9494bb9573651a3e36d21c4af3aa59435b5fb62c048bb43ef34f1b3c1030b2",
+      "tables/table_126.csv": "766ceacdc2fdbc45cb94e0e2414c94678a6a290f8bf763b7378ebe8511e1a246",
+      "tables/table_127.csv": "12a34d66abb69c6949b090e1cb006c7e47defb4ff9efd0220ec2fbbe8ea5c679",
+      "tables/table_128.csv": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "tables/table_129.csv": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "tables/table_130.csv": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "tables/table_131.csv": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "tables/table_132.csv": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "tables/table_133.csv": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "tables/table_134.csv": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "tables/table_135.csv": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "tables/table_136.csv": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "tables/table_137.csv": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "tables/table_138.csv": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "tables/table_139.csv": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "tables/table_140.csv": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "tables/table_141.csv": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "tables/table_142.csv": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "tables/table_143.csv": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "tables/table_144.csv": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "tables/table_145.csv": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "tables/table_146.csv": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "tables/table_147.csv": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "tables/table_148.csv": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "tables/table_149.csv": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "tables/table_150.csv": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "tables/table_151.csv": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "tables/table_152.csv": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "tables/table_153.csv": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "tables/table_154.csv": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "tables/table_155.csv": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "tables/table_156.csv": "f1419c23e288c20b0ee3b4e54ddb841ddae6da9d4289d4dc3249510c8ad3b561",
+      "tables/table_157.csv": "31fa248999d6682b9dca699c405cf1bd81bf1982d8770cec92ad5523e3e3e530",
+      "tables/table_158.csv": "2b8be5a76943dcc14f89aa1fe594862d07cc2e6438006cf3fbfe3759ab1826d4",
+      "tables/table_159.csv": "4698059fc91b5256c775bc759870d498125608e7e0fc9e4de83b0e9c9339f208",
+      "tables/table_160.csv": "534c3bc8c4e8812c38b5065635abceb7193a66db64b3c7d8ab444a11f1cd1cf2",
+      "tables/table_161.csv": "02403451936b39efcb6b914bdb01447723827e70dda09058752743fd7f4cc068",
+      "tables/table_162.csv": "828c413e7b8cb62c8cfd2b0c8c14c8a7a50eb5271ce97f08b0bd8c6d5ab3bf34",
+      "tables/table_163.csv": "e63d88c4c7d9b74497d79e2fdadd32aae58c2000fcb7a8280cb4e41f21f66af9",
+      "tables/table_164.csv": "20663476d659c4f723e3569f2f86b287a447f4ffd14216858040305654ef75d4",
+      "tables/table_165.csv": "ebf1c3ab6099136885435054a463553f5f513d1e9142d03a1fc81621d565b213",
+      "tables/table_166.csv": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "tables/table_167.csv": "a16e8d11236f6ff26cab9db52b1865d73171d7620ee87c74ccd7ac5c8977c347",
+      "tables/table_168.csv": "0985008aa63d4bdfe3cc6d705aba4066d4537e77edb7115f322827eb4713c999",
+      "tables/table_169.csv": "68d62acd68027437a40635861fad0aca869dfe0701a05fbc4c419ac43dfa6e52",
+      "tables/table_170.csv": "fcc54124816d0aa882b4fd26aae412422509f702ac23ff0d84830f27eab7dbac",
+      "tables/table_171.csv": "f67f1b55c8590283c54d7e8df3a9b0ec39c0028813ed2b5f117db3ad50419265",
+      "tables/table_172.csv": "a0b25babde9916597be212ca31160dca565cd84553bee762dd045eae1abad626",
+      "tables/table_173.csv": "238a94367c0aff4d40d007e904f4746cfb894c280206ccae88e550b512862e21",
+      "tables/table_174.csv": "d6bc470d740de3a20159f60aea01285478bb279b55221788498a33c0913bbdf8",
+      "tables/table_175.csv": "c9fa7431ab460617e418f91f02216fceb3acbbd11892ce5cec418f8f0ab8599b",
+      "tables/table_176.csv": "e646a0cee84d59358b84655d695c78018ff695929e39b645e9422a723e559c52"
+    },
+    "ocr_required_pages": [
+      9,
+      39,
+      63,
+      64,
+      65,
+      66,
+      67,
+      70,
+      71,
+      72,
+      73,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      88,
+      89,
+      90,
+      91,
+      129
+    ],
+    "ocr_required_table_indexes": [
+      9,
+      90,
+      128,
+      129,
+      130,
+      131,
+      132,
+      133,
+      134,
+      135,
+      136,
+      137,
+      138,
+      139,
+      140,
+      141,
+      142,
+      143,
+      144,
+      145,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      166
+    ]
+  },
+  "error": null
+}

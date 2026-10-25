@@ -1,0 +1,338 @@
+{
+  "schema_version": "2.5",
+  "source_pdf": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/raw/ammc/pdfs/RCI_Finance_Maroc_RFS_S1_26.pdf",
+  "source_sha256": "111bfde579001b4de546648bbc8e167b19a3220aba3139fa886d55798dd41f5f",
+  "parser_metadata": null,
+  "config": {
+    "languages": [
+      "fra",
+      "eng"
+    ],
+    "psms": [
+      6,
+      11
+    ],
+    "render_dpi": 300,
+    "minimum_image_width": 400,
+    "minimum_image_height": 250,
+    "minimum_region_area_ratio": 0.03,
+    "minimum_amount_count": 5,
+    "column_tolerance": 0.045
+  },
+  "config_sha256": "a6968385b726fcb86e8df47a13ec679cbb2036aefccc4c49845561dd7ddd32cb",
+  "ocr_engine": "tesseract-cli",
+  "tesseract_version": "tesseract 5.5.3",
+  "selected_pages": [
+    4,
+    5,
+    6,
+    8,
+    9,
+    10,
+    11
+  ],
+  "regions_examined": 7,
+  "tables_detected": 6,
+  "tables": [
+    {
+      "table_id": "OCR_001",
+      "page": 4,
+      "bbox": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "source": "rendered_page",
+      "source_id": "page:4",
+      "name": null,
+      "image_size": [
+        2550,
+        3300
+      ],
+      "attempts": [
+        {
+          "psm": 6,
+          "score": 1309,
+          "amount_count": 123,
+          "keyword_count": 10,
+          "rows": 90
+        },
+        {
+          "psm": 11,
+          "score": 486,
+          "amount_count": 223,
+          "keyword_count": 10,
+          "rows": 223
+        }
+      ],
+      "selected_psm": 6,
+      "rows": 90,
+      "columns": 5,
+      "amount_count": 123,
+      "csv": "tables/ocr_table_001.csv",
+      "coordinates": "coordinates/ocr_table_001.json",
+      "quality_status": "TECHNICALLY_RECOVERED",
+      "financial_validation": "NOT_PERFORMED"
+    },
+    {
+      "table_id": "OCR_002",
+      "page": 5,
+      "bbox": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "source": "rendered_page",
+      "source_id": "page:5",
+      "name": null,
+      "image_size": [
+        2550,
+        3300
+      ],
+      "attempts": [
+        {
+          "psm": 6,
+          "score": 1653,
+          "amount_count": 122,
+          "keyword_count": 8,
+          "rows": 59
+        },
+        {
+          "psm": 11,
+          "score": 515,
+          "amount_count": 202,
+          "keyword_count": 10,
+          "rows": 195
+        }
+      ],
+      "selected_psm": 6,
+      "rows": 59,
+      "columns": 11,
+      "amount_count": 122,
+      "csv": "tables/ocr_table_002.csv",
+      "coordinates": "coordinates/ocr_table_002.json",
+      "quality_status": "TECHNICALLY_RECOVERED",
+      "financial_validation": "NOT_PERFORMED"
+    },
+    {
+      "table_id": "OCR_003",
+      "page": 6,
+      "bbox": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "source": "rendered_page",
+      "source_id": "page:6",
+      "name": null,
+      "image_size": [
+        2550,
+        3300
+      ],
+      "attempts": [
+        {
+          "psm": 6,
+          "score": 1438,
+          "amount_count": 127,
+          "keyword_count": 8,
+          "rows": 62
+        },
+        {
+          "psm": 11,
+          "score": 458,
+          "amount_count": 229,
+          "keyword_count": 8,
+          "rows": 228
+        }
+      ],
+      "selected_psm": 6,
+      "rows": 62,
+      "columns": 11,
+      "amount_count": 127,
+      "csv": "tables/ocr_table_003.csv",
+      "coordinates": "coordinates/ocr_table_003.json",
+      "quality_status": "TECHNICALLY_RECOVERED",
+      "financial_validation": "NOT_PERFORMED"
+    },
+    {
+      "table_id": "OCR_004",
+      "page": 8,
+      "bbox": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "source": "rendered_page",
+      "source_id": "page:8",
+      "name": null,
+      "image_size": [
+        2550,
+        3300
+      ],
+      "attempts": [
+        {
+          "psm": 6,
+          "score": 2401,
+          "amount_count": 162,
+          "keyword_count": 10,
+          "rows": 77
+        },
+        {
+          "psm": 11,
+          "score": 385,
+          "amount_count": 183,
+          "keyword_count": 10,
+          "rows": 183
+        }
+      ],
+      "selected_psm": 6,
+      "rows": 77,
+      "columns": 5,
+      "amount_count": 162,
+      "csv": "tables/ocr_table_004.csv",
+      "coordinates": "coordinates/ocr_table_004.json",
+      "quality_status": "TECHNICALLY_RECOVERED",
+      "financial_validation": "NOT_PERFORMED"
+    },
+    {
+      "table_id": "OCR_005",
+      "page": 9,
+      "bbox": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "source": "rendered_page",
+      "source_id": "page:9",
+      "name": null,
+      "image_size": [
+        2550,
+        3300
+      ],
+      "attempts": [
+        {
+          "psm": 6,
+          "score": 878,
+          "amount_count": 59,
+          "keyword_count": 4,
+          "rows": 27
+        },
+        {
+          "psm": 11,
+          "score": 54,
+          "amount_count": 87,
+          "keyword_count": 7,
+          "rows": 85
+        }
+      ],
+      "selected_psm": 6,
+      "rows": 27,
+      "columns": 10,
+      "amount_count": 59,
+      "csv": "tables/ocr_table_005.csv",
+      "coordinates": "coordinates/ocr_table_005.json",
+      "quality_status": "TECHNICALLY_RECOVERED",
+      "financial_validation": "NOT_PERFORMED"
+    },
+    {
+      "table_id": "OCR_006",
+      "page": 11,
+      "bbox": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "source": "rendered_page",
+      "source_id": "page:11",
+      "name": null,
+      "image_size": [
+        2550,
+        3300
+      ],
+      "attempts": [
+        {
+          "psm": 6,
+          "score": 112,
+          "amount_count": 12,
+          "keyword_count": 2,
+          "rows": 8
+        },
+        {
+          "psm": 11,
+          "score": 50,
+          "amount_count": 17,
+          "keyword_count": 2,
+          "rows": 16
+        }
+      ],
+      "selected_psm": 6,
+      "rows": 8,
+      "columns": 6,
+      "amount_count": 12,
+      "csv": "tables/ocr_table_006.csv",
+      "coordinates": "coordinates/ocr_table_006.json",
+      "quality_status": "TECHNICALLY_RECOVERED",
+      "financial_validation": "NOT_PERFORMED"
+    }
+  ],
+  "rejected_regions": [
+    {
+      "page": 10,
+      "bbox": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "source": "rendered_page",
+      "source_id": "page:10",
+      "name": null,
+      "image_size": [
+        2550,
+        3300
+      ],
+      "attempts": [
+        {
+          "psm": 6,
+          "score": -1,
+          "amount_count": 0,
+          "keyword_count": 0,
+          "rows": 0
+        },
+        {
+          "psm": 11,
+          "score": -1,
+          "amount_count": 0,
+          "keyword_count": 0,
+          "rows": 0
+        }
+      ],
+      "selected_psm": 6,
+      "reason": "NOT_FINANCIAL_TABLE"
+    }
+  ],
+  "duration_seconds": 119.992,
+  "financial_validation": "NOT_PERFORMED",
+  "status": "PARSED",
+  "cache_used": false,
+  "artifact_sha256": {
+    "tables/ocr_table_001.csv": "81300eeaf9de6f7600674407fd24695c9afe0e918a8796e1154efe9a5d556072",
+    "coordinates/ocr_table_001.json": "8a72cc5e8daa4bfa6ce415b38d1fb7d1347155a7aa4ba33e95131de3e6cd1311",
+    "tables/ocr_table_002.csv": "7d74fc5ca3381faec4adca5916e07819afe460ebe73d63ab5787f9dfde1a0ee0",
+    "coordinates/ocr_table_002.json": "2ecaa434e2f49361ac64963323f55d32833f5f713054f9da258bec7b3e989455",
+    "tables/ocr_table_003.csv": "cb4df8037d87af6d6662a3f0bcacce89dbb3723990ef1172b1fa882dce3333a9",
+    "coordinates/ocr_table_003.json": "80d860171a52ff0277b4668e3fe9aa8141b4fe6c3a031df38d0f6b2b2a74e0e4",
+    "tables/ocr_table_004.csv": "bd95c4e9e89b0b47b67cb3d2b6b07404e99a9936bccaa62ed2c627a8b7369304",
+    "coordinates/ocr_table_004.json": "202aa376459b0416ffedeee4e5b4a7ecad5c941b8abff1aaf9087fa5dd87c4b3",
+    "tables/ocr_table_005.csv": "6ddab4ce37e918fb089e8697325fcc6d6aed0b1b8bf6653b9f73fbfb156576fc",
+    "coordinates/ocr_table_005.json": "4d8e62d8356f79e4757d75e1278bcec1587ecc09570951b9c6dbcd5d4e0d6e56",
+    "tables/ocr_table_006.csv": "2577838ea781c92be4de882e1a74c0bb190f059c7dc0d9228398b84ce2501eaf",
+    "coordinates/ocr_table_006.json": "164da85b1e4ae3fecf5f1521d4ec7b521071fb46569320080f154274fff57b07"
+  }
+}

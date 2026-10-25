@@ -1,0 +1,4194 @@
+{
+  "schema_version": "1.0",
+  "mission": "DATA-04.15",
+  "recommendation": "GO AVEC RÉSERVES",
+  "selection": {
+    "new_documents": [
+      [
+        "attijariwafa_bank",
+        2023
+      ],
+      [
+        "cosumar",
+        2023
+      ],
+      [
+        "cosumar",
+        2024
+      ],
+      [
+        "lafargeholcim_maroc",
+        2023
+      ],
+      [
+        "lafargeholcim_maroc",
+        2024
+      ],
+      [
+        "lafargeholcim_maroc",
+        2025
+      ],
+      [
+        "managem",
+        2023
+      ],
+      [
+        "managem",
+        2024
+      ],
+      [
+        "marsa_maroc",
+        2024
+      ],
+      [
+        "sonasid",
+        2025
+      ]
+    ],
+    "prior_documents": 18,
+    "overlap_count": 0
+  },
+  "processing": {
+    "sequential": true,
+    "max_parallel_documents": 1,
+    "documents_processed": 10,
+    "pages": 1190,
+    "elapsed_seconds": 6720.339,
+    "peak_rss_bytes": 3110928384,
+    "docling_tables": 1260,
+    "ocr_tables": 10,
+    "ocr_outcomes": {
+      "parsed": 5,
+      "failed_no_usable_table": 5,
+      "not_run": 0
+    },
+    "documents": [
+      {
+        "schema_version": "1.1",
+        "pilot_fingerprint": "3c1b617f713c2980a96162f96ecfb2d3243045b1a25f6fe79a743bfbafce0f7f",
+        "company_id": "lafargeholcim_maroc",
+        "issuer": "HOLCIM MAROC",
+        "exercise_year": 2023,
+        "audit_classification": "TEXT",
+        "source_pdf": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/raw/ammc/pdfs/annual/lafargeholcim_maroc/2023/LafargeHolcim_RFA_2023.pdf",
+        "source_sha256": "315ac8f1631a43cb30ad92bc1cd27172752b158bec144a66c1457fbfd7ae0896",
+        "source_url": "https://www.ammc.ma/sites/default/files/LafargeHolcim_RFA_2023.pdf",
+        "detail_url": "https://www.ammc.ma/fr/espace-emetteurs/etats-financiers/lafargeholcim-maroc-rfa-2023",
+        "expected_pages": 93,
+        "audit_ocr_pages": [
+          1
+        ],
+        "selection_score": 97,
+        "pipeline_status": "PARTIAL",
+        "error": null,
+        "stages": {
+          "docling": {
+            "status": "PARTIAL",
+            "elapsed_seconds": 537.247,
+            "conversion_seconds": 537.196,
+            "metadata": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/LafargeHolcim_RFA_2023_315ac8f1631a/metadata.json"
+          },
+          "ocr": {
+            "status": "PARSED",
+            "cache_used": false,
+            "elapsed_seconds": 14.363,
+            "duration_seconds": 14.344,
+            "metadata": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/ocr_generic/LafargeHolcim_RFA_2023_315ac8f1631a/e0ca308dea6d/ocr_metadata.json",
+            "audit_requested_pages": [
+              1
+            ],
+            "parser_requested_pages": [
+              91
+            ],
+            "effective_requested_pages": [
+              1,
+              91
+            ]
+          },
+          "integration": {
+            "status": "PARTIAL",
+            "cache_used": false,
+            "elapsed_seconds": 0.248,
+            "artifact": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/integrated/ammc/LafargeHolcim_RFA_2023_315ac8f1631a/unified_document.json"
+          },
+          "quality_gate": {
+            "status": "REVIEW_REQUIRED",
+            "cache_used": false,
+            "elapsed_seconds": 0.146,
+            "strict_verified_only": true,
+            "report": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/quality/ammc/pilot_strict/LafargeHolcim_RFA_2023_315ac8f1631a/quality_report.json"
+          }
+        },
+        "metrics": {
+          "pages_processed": 93,
+          "pages_failed": 0,
+          "docling_tables_detected": 113,
+          "docling_tables_non_empty": 112,
+          "docling_invalid_tables": 1,
+          "audit_ocr_pages_requested": 1,
+          "parser_ocr_pages_requested": 1,
+          "ocr_pages_requested": 2,
+          "ocr_pages_processed": 2,
+          "ocr_pages_failed": 0,
+          "ocr_tables_detected": 1,
+          "ocr_tables_non_empty": 1,
+          "integrated_active_tables": 113,
+          "ambiguous_pages": [
+            1,
+            24,
+            41,
+            48,
+            51,
+            52,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63,
+            64,
+            66,
+            67,
+            68,
+            72,
+            73,
+            74,
+            75,
+            76,
+            77,
+            78,
+            79,
+            80,
+            81,
+            91
+          ],
+          "ocr_ambiguous_pages": [
+            1
+          ],
+          "financially_unverified_pages": [
+            24,
+            41,
+            48,
+            51,
+            52,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63,
+            64,
+            66,
+            67,
+            68,
+            72,
+            73,
+            74,
+            75,
+            76,
+            77,
+            78,
+            79,
+            80,
+            81,
+            91
+          ],
+          "table_page_references": 113,
+          "tables_missing_page_reference": 0,
+          "ocr_coordinate_references": 1,
+          "quality_values_total": 2297,
+          "quality_values_verified": 0,
+          "quality_values_review_required": 865,
+          "quality_values_rejected": 3,
+          "quality_values_not_checked": 1429,
+          "data05_admissible_values": 0
+        },
+        "reporting_scope": {
+          "classification": "MIXED",
+          "confidence": "HIGH",
+          "evidence": [
+            {
+              "scope": "SOCIAL",
+              "page": 2,
+              "matched_phrase": "comptes sociaux",
+              "text": "Comptes sociaux \b"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 2,
+              "matched_phrase": "comptes consolides",
+              "text": "Comptes consolidés \b"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 2,
+              "matched_phrase": "comptes consolides",
+              "text": "Résumé des notes aux comptes consolidés\b"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 24,
+              "matched_phrase": "comptes consolides",
+              "text": "COMPTES CONSOLIDÉS IFRS"
+            },
+            {
+              "scope": "SOCIAL",
+              "page": 24,
+              "matched_phrase": "comptes sociaux",
+              "text": "COMPTES SOCIAUX"
+            },
+            {
+              "scope": "SOCIAL",
+              "page": 49,
+              "matched_phrase": "comptes sociaux",
+              "text": "Comptes sociaux \b"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 49,
+              "matched_phrase": "comptes consolides",
+              "text": "Comptes consolidés \b"
+            },
+            {
+              "scope": "SOCIAL",
+              "page": 51,
+              "matched_phrase": "etats de synthese sociaux",
+              "text": "Nous allons maintenant vous présenter en détail les états de synthèse sociaux de l’exercice clos au 31 décembre 2023."
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 68,
+              "matched_phrase": "perimetre de consolidation",
+              "text": "NOTE 4. ÉVOLUTION DU PÉRIMETRE DE CONSOLIDATION AU COURS DE LA PÉRIODE\b"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 69,
+              "matched_phrase": "etats financiers consolides",
+              "text": "2009, les états financiers consolidés du Groupe LafargeHolcim Maroc sont préparés en conformité avec les normes"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 69,
+              "matched_phrase": "comptes consolides",
+              "text": "Les comptes consolidés sont établis selon la convention du coût historique conformément aux principes édictés par les"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 69,
+              "matched_phrase": "etats financiers consolides",
+              "text": "L’établissement des états financiers consolidés, en conformité avec les normes comptables internationales en vigueur, a"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 69,
+              "matched_phrase": "etats financiers consolides",
+              "text": "Les montants qui figurent dans ses futurs états financiers consolidés sont susceptibles de différer de ces estimations en"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 70,
+              "matched_phrase": "perimetre de consolidation",
+              "text": "3.4.3. Exclusions du périmètre de consolidation"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 70,
+              "matched_phrase": "perimetre de consolidation",
+              "text": "Conformément aux dispositions des IFRS, il n’y a pas d’exemption au périmètre de consolidation du Groupe."
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 70,
+              "matched_phrase": "comptes consolides",
+              "text": "des comptes consolidés du Groupe. Les transactions en monnaies étrangères sont converties au cours de change en"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 72,
+              "matched_phrase": "perimetre de consolidation",
+              "text": "NOTE 4. ÉVOLUTION DU PERIMÈTRE DE CONSOLIDATION AU COURS DE LA PÉRIODE"
+            },
+            {
+              "scope": "SOCIAL",
+              "page": 77,
+              "matched_phrase": "comptes sociaux",
+              "text": "Valeur des titres dans les comptes sociaux"
+            },
+            {
+              "scope": "SOCIAL",
+              "page": 78,
+              "matched_phrase": "comptes sociaux",
+              "text": "Valeur des titres dans les comptes sociaux"
+            },
+            {
+              "scope": "SOCIAL",
+              "page": 78,
+              "matched_phrase": "comptes sociaux",
+              "text": "Valeur des titres dans les comptes sociaux"
+            },
+            {
+              "scope": "SOCIAL",
+              "page": 78,
+              "matched_phrase": "comptes sociaux",
+              "text": "Valeur des titres dans les comptes sociaux"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 85,
+              "matched_phrase": "etats financiers consolides",
+              "text": "RAPPORT D’AUDIT SUR LES ETATS FINANCIERS CONSOLIDES"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 85,
+              "matched_phrase": "etats financiers consolides",
+              "text": "Nous avons effectué l'audit des états financiers consolidés de LafargeHolcim Maroc S.A. et de ses"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 85,
+              "matched_phrase": "etats financiers consolides",
+              "text": "Nous certifions que les états financiers consolidés cités au premier paragraphe ci-dessus, sont réguliers"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 85,
+              "matched_phrase": "etats financiers consolides",
+              "text": "de l’auditeur à l’égard de l’audit des états financiers consolidés » du présent rapport. Nous sommes"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 85,
+              "matched_phrase": "etats financiers consolides",
+              "text": "importantes dans l’audit des états financiers consolidés de la période considérée. Ces questions ont été"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 85,
+              "matched_phrase": "etats financiers consolides",
+              "text": "traitées dans le contexte de notre audit des états financiers consolidés pris dans leur ensemble et aux"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 85,
+              "matched_phrase": "etats financiers consolides",
+              "text": "l’annexe aux états financiers consolidés. Une"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 85,
+              "matched_phrase": "etats financiers consolides",
+              "text": "La direction est responsable de la préparation et de la présentation fidèle des états financiers consolidés"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 85,
+              "matched_phrase": "etats financiers consolides",
+              "text": "permettre la préparation d'états financiers consolidés exempts d'anomalies significatives, que celles-ci"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 85,
+              "matched_phrase": "etats financiers consolides",
+              "text": "Lors de la préparation des états financiers consolidés, c’est à la direction qu’il incombe d’évaluer la"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 86,
+              "matched_phrase": "etats financiers consolides",
+              "text": "Responsabilités de l’auditeur à l’égard de l’audit des états financiers consolidés"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 86,
+              "matched_phrase": "etats financiers consolides",
+              "text": "Nos objectifs sont d’obtenir l’assurance raisonnable que les états financiers consolidés pris dans leur"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 86,
+              "matched_phrase": "etats financiers consolides",
+              "text": "sur les décisions économiques que les utilisateurs des états financiers consolidés prennent en se fondant"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 86,
+              "matched_phrase": "etats financiers consolides",
+              "text": "nous identifions et évaluons les risques que les états financiers consolidés comportent des"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 86,
+              "matched_phrase": "etats financiers consolides",
+              "text": "états financiers consolidés, y compris les informations fournies dans les notes, et apprécions"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 86,
+              "matched_phrase": "etats financiers consolides",
+              "text": "si les états financiers consolidés représentent les opérations et événements sous-jacents"
+            }
+          ],
+          "caution": "Le périmètre est attaché aux indices et pages; il ne doit pas être appliqué automatiquement à toutes les observations."
+        },
+        "peak_rss_bytes": 2463223808,
+        "peak_rss_measurement": "current isolated worker",
+        "elapsed_seconds": 553.442,
+        "measured_component_seconds": 551.934,
+        "artifacts_sha256": {
+          "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/LafargeHolcim_RFA_2023_315ac8f1631a/metadata.json": "e8551ba5567abb9ffcce347d40607565648069734a1311268653953670ad8926",
+          "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/ocr_generic/LafargeHolcim_RFA_2023_315ac8f1631a/e0ca308dea6d/ocr_metadata.json": "7ea9b3847bc758cca722c5d6d5cee5266dcbd28c9bb373ff2560af005981dcc1",
+          "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/integrated/ammc/LafargeHolcim_RFA_2023_315ac8f1631a/unified_document.json": "c167266d3d31964c90d720a5a9347282c1dd03db03a12fbccd04ca1de65a9203",
+          "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/quality/ammc/pilot_strict/LafargeHolcim_RFA_2023_315ac8f1631a/quality_report.json": "e528e0497f68f775ae9ac95e4134af812721c45451a3f50af83d3aac57009b53"
+        },
+        "pilot_cache_used": true
+      },
+      {
+        "schema_version": "1.1",
+        "pilot_fingerprint": "80aa1080d41f6f6d2d50ae3a14c5cb2bc5e89d065678e6e7042123d105e18dba",
+        "company_id": "lafargeholcim_maroc",
+        "issuer": "HOLCIM MAROC",
+        "exercise_year": 2024,
+        "audit_classification": "TEXT",
+        "source_pdf": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/raw/ammc/pdfs/annual/lafargeholcim_maroc/2024/LafargeHolcim_Maroc_RFA_2024.pdf",
+        "source_sha256": "f246c5d9357d6962afafbdeaf94c18b2329b20f5d2d4f8eca63de6ba7a4c6c1c",
+        "source_url": "https://www.ammc.ma/sites/default/files/LafargeHolcim_Maroc_RFA_2024.pdf",
+        "detail_url": "https://www.ammc.ma/fr/espace-emetteurs/etats-financiers/lafargeholcim-maroc-rfa-2024",
+        "expected_pages": 92,
+        "audit_ocr_pages": [
+          1,
+          11,
+          23,
+          34
+        ],
+        "selection_score": 108,
+        "pipeline_status": "PARTIAL",
+        "error": null,
+        "stages": {
+          "docling": {
+            "status": "PARTIAL",
+            "elapsed_seconds": 658.918,
+            "conversion_seconds": 658.837,
+            "metadata": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/LafargeHolcim_Maroc_RFA_2024_f246c5d9357d/metadata.json"
+          },
+          "ocr": {
+            "status": "FAILED",
+            "cache_used": false,
+            "elapsed_seconds": 46.177,
+            "duration_seconds": 46.139,
+            "metadata": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/ocr_generic/LafargeHolcim_Maroc_RFA_2024_f246c5d9357d/e0ca308dea6d/ocr_metadata.json",
+            "audit_requested_pages": [
+              1,
+              11,
+              23,
+              34
+            ],
+            "parser_requested_pages": [
+              91
+            ],
+            "effective_requested_pages": [
+              1,
+              11,
+              23,
+              34,
+              91
+            ]
+          },
+          "integration": {
+            "status": "PARTIAL",
+            "cache_used": false,
+            "elapsed_seconds": 0.275,
+            "artifact": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/integrated/ammc/LafargeHolcim_Maroc_RFA_2024_f246c5d9357d/unified_document.json"
+          },
+          "quality_gate": {
+            "status": "REVIEW_REQUIRED",
+            "cache_used": false,
+            "elapsed_seconds": 0.161,
+            "strict_verified_only": true,
+            "report": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/quality/ammc/pilot_strict/LafargeHolcim_Maroc_RFA_2024_f246c5d9357d/quality_report.json"
+          }
+        },
+        "metrics": {
+          "pages_processed": 92,
+          "pages_failed": 0,
+          "docling_tables_detected": 115,
+          "docling_tables_non_empty": 114,
+          "docling_invalid_tables": 1,
+          "audit_ocr_pages_requested": 4,
+          "parser_ocr_pages_requested": 1,
+          "ocr_pages_requested": 5,
+          "ocr_pages_processed": 5,
+          "ocr_pages_failed": 0,
+          "ocr_tables_detected": 0,
+          "ocr_tables_non_empty": 0,
+          "integrated_active_tables": 114,
+          "ambiguous_pages": [
+            1,
+            11,
+            23,
+            27,
+            34,
+            46,
+            48,
+            50,
+            51,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63,
+            65,
+            66,
+            67,
+            71,
+            72,
+            73,
+            74,
+            75,
+            76,
+            77,
+            78,
+            79,
+            80,
+            91
+          ],
+          "ocr_ambiguous_pages": [
+            1,
+            11,
+            23,
+            34,
+            91
+          ],
+          "financially_unverified_pages": [
+            27,
+            46,
+            48,
+            50,
+            51,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63,
+            65,
+            66,
+            67,
+            71,
+            72,
+            73,
+            74,
+            75,
+            76,
+            77,
+            78,
+            79,
+            80
+          ],
+          "table_page_references": 114,
+          "tables_missing_page_reference": 0,
+          "ocr_coordinate_references": 0,
+          "quality_values_total": 2328,
+          "quality_values_verified": 0,
+          "quality_values_review_required": 486,
+          "quality_values_rejected": 3,
+          "quality_values_not_checked": 1839,
+          "data05_admissible_values": 0
+        },
+        "reporting_scope": {
+          "classification": "MIXED",
+          "confidence": "HIGH",
+          "evidence": [
+            {
+              "scope": "SOCIAL",
+              "page": 2,
+              "matched_phrase": "comptes sociaux",
+              "text": "COMPTES SOCIAUX"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 2,
+              "matched_phrase": "comptes consolides",
+              "text": "COMPTES CONSOLIDÉS"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 2,
+              "matched_phrase": "comptes consolides",
+              "text": "RÉSUMÉ DES NOTES AUX COMPTES CONSOLIDÉS"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 38,
+              "matched_phrase": "comptes consolides",
+              "text": "majoritairement et ayant des comptes consolidés selon"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 48,
+              "matched_phrase": "comptes consolides",
+              "text": "Comptes consolidés IFRS"
+            },
+            {
+              "scope": "SOCIAL",
+              "page": 48,
+              "matched_phrase": "comptes sociaux",
+              "text": "Comptes sociaux"
+            },
+            {
+              "scope": "SOCIAL",
+              "page": 50,
+              "matched_phrase": "etats de synthese sociaux",
+              "text": "Nous allons maintenant vous présenter en détail les états de synthèse sociaux de l’exercice clos au 31 décembre 2024."
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 67,
+              "matched_phrase": "perimetre de consolidation",
+              "text": "NOTE 4. ÉVOLUTION DU PÉRIMETRE DE CONSOLIDATION AU COURS DE LA PÉRIODE\b"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 68,
+              "matched_phrase": "etats financiers consolides",
+              "text": "2009, les états financiers consolidés du Groupe LafargeHolcim Maroc sont préparés en conformité avec les normes"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 68,
+              "matched_phrase": "comptes consolides",
+              "text": "Les comptes consolidés sont établis selon la convention du coût historique conformément aux principes édictés par"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 68,
+              "matched_phrase": "etats financiers consolides",
+              "text": "L’établissement des états financiers consolidés, en conformité avec les normes comptables internationales en vigueur,"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 68,
+              "matched_phrase": "etats financiers consolides",
+              "text": "Les montants qui figurent dans ses futurs états financiers consolidés sont susceptibles de différer de ces estimations"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 69,
+              "matched_phrase": "perimetre de consolidation",
+              "text": "3.4.3. Exclusions du périmètre de consolidation"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 69,
+              "matched_phrase": "perimetre de consolidation",
+              "text": "Conformément aux dispositions des IFRS, il n’y a pas d’exemption au périmètre de consolidation du Groupe."
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 69,
+              "matched_phrase": "comptes consolides",
+              "text": "des comptes consolidés du Groupe. Les transactions en monnaies étrangères sont converties au cours de change en"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 71,
+              "matched_phrase": "perimetre de consolidation",
+              "text": "NOTE 4. ÉVOLUTION DU PERIMÈTRE DE CONSOLIDATION AU COURS DE LA PÉRIODE"
+            },
+            {
+              "scope": "SOCIAL",
+              "page": 76,
+              "matched_phrase": "comptes sociaux",
+              "text": "Valeur des titres dans les comptes sociaux"
+            },
+            {
+              "scope": "SOCIAL",
+              "page": 77,
+              "matched_phrase": "comptes sociaux",
+              "text": "Valeur des titres dans les comptes sociaux"
+            },
+            {
+              "scope": "SOCIAL",
+              "page": 77,
+              "matched_phrase": "comptes sociaux",
+              "text": "Valeur des titres dans les comptes sociaux"
+            },
+            {
+              "scope": "SOCIAL",
+              "page": 77,
+              "matched_phrase": "comptes sociaux",
+              "text": "Valeur des titres dans les comptes sociaux"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 84,
+              "matched_phrase": "etats financiers consolides",
+              "text": "RAPPORT D’AUDIT SUR LES ETATS FINANCIERS CONSOLIDES"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 84,
+              "matched_phrase": "etats financiers consolides",
+              "text": "Nous avons effectué l'audit des états financiers consolidés de LafargeHolcim Maroc S.A. et de ses"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 84,
+              "matched_phrase": "etats financiers consolides",
+              "text": "Nous certifions que les états financiers consolidés cités au premier paragraphe ci-dessus, sont réguliers"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 84,
+              "matched_phrase": "etats financiers consolides",
+              "text": "de l’auditeur à l’égard de l’audit des états financiers consolidés » du présent rapport. Nous sommes"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 84,
+              "matched_phrase": "etats financiers consolides",
+              "text": "importantes dans l’audit des états financiers consolidés de la période considérée. Ces questions ont été"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 84,
+              "matched_phrase": "etats financiers consolides",
+              "text": "traitées dans le contexte de notre audit des états financiers consolidés pris dans leur ensemble et aux"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 84,
+              "matched_phrase": "etats financiers consolides",
+              "text": "l’annexe aux états financiers consolidés. Une"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 84,
+              "matched_phrase": "etats financiers consolides",
+              "text": "La direction est responsable de la préparation et de la présentation fidèle des états financiers consolidés"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 84,
+              "matched_phrase": "etats financiers consolides",
+              "text": "permettre la préparation d'états financiers consolidés exempts d'anomalies significatives, que celles-ci"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 85,
+              "matched_phrase": "etats financiers consolides",
+              "text": "Lors de la préparation des états financiers consolidés, c’est à la direction qu’il incombe d’évaluer la"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 85,
+              "matched_phrase": "etats financiers consolides",
+              "text": "Responsabilités de l’auditeur à l’égard de l’audit des états financiers consolidés"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 85,
+              "matched_phrase": "etats financiers consolides",
+              "text": "Nos objectifs sont d’obtenir l’assurance raisonnable que les états financiers consolidés pris dans leur"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 85,
+              "matched_phrase": "etats financiers consolides",
+              "text": "sur les décisions économiques que les utilisateurs des états financiers consolidés prennent en se fondant"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 85,
+              "matched_phrase": "etats financiers consolides",
+              "text": "nous identifions et évaluons les risques que les états financiers consolidés comportent des"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 85,
+              "matched_phrase": "etats financiers consolides",
+              "text": "états financiers consolidés, y compris les informations fournies dans les notes, et apprécions"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 85,
+              "matched_phrase": "etats financiers consolides",
+              "text": "si les états financiers consolidés représentent les opérations et événements sous-jacents"
+            }
+          ],
+          "caution": "Le périmètre est attaché aux indices et pages; il ne doit pas être appliqué automatiquement à toutes les observations."
+        },
+        "peak_rss_bytes": 2494304256,
+        "peak_rss_measurement": "current isolated worker",
+        "elapsed_seconds": 707.018,
+        "measured_component_seconds": 705.412,
+        "artifacts_sha256": {
+          "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/LafargeHolcim_Maroc_RFA_2024_f246c5d9357d/metadata.json": "ee69204ea6c1671c7954f84b2b33031520260fcb886fdb606dc77facca32da7b",
+          "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/ocr_generic/LafargeHolcim_Maroc_RFA_2024_f246c5d9357d/e0ca308dea6d/ocr_metadata.json": "45882e4fea4b84ceabd09dfddcdddd5e769f848565a03886cd33fbd8b5d545b0",
+          "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/integrated/ammc/LafargeHolcim_Maroc_RFA_2024_f246c5d9357d/unified_document.json": "b2f183f5d170aee6161d379d573a2515c2172aef72f109c38bb20377f5a4553c",
+          "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/quality/ammc/pilot_strict/LafargeHolcim_Maroc_RFA_2024_f246c5d9357d/quality_report.json": "f2ada21ba3876578b781ecdb01e606c8a97d8e595f31c97f2bdb3efb64f6a23a"
+        },
+        "pilot_cache_used": true
+      },
+      {
+        "schema_version": "1.1",
+        "pilot_fingerprint": "b0ceae65397156e80f1ef6342f854f9ddedd8c24e3db8e16c28efcc027030f33",
+        "company_id": "cosumar",
+        "issuer": "COSUMAR",
+        "exercise_year": 2023,
+        "audit_classification": "TEXT",
+        "source_pdf": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/raw/ammc/pdfs/annual/cosumar/2023/COSUMAR_RFA_2023.pdf",
+        "source_sha256": "37da671b9191eef4d5feeb6b8a47825e83ebe927e0988745eef8c2f157efaf20",
+        "source_url": "https://www.ammc.ma/sites/default/files/COSUMAR%20RFA%202023.pdf",
+        "detail_url": "https://www.ammc.ma/fr/espace-emetteurs/etats-financiers/cosumar-rfa-2023",
+        "expected_pages": 121,
+        "audit_ocr_pages": [
+          1,
+          4,
+          15,
+          21
+        ],
+        "selection_score": 137,
+        "pipeline_status": "PARTIAL",
+        "error": null,
+        "stages": {
+          "docling": {
+            "status": "PARTIAL",
+            "elapsed_seconds": 794.31,
+            "conversion_seconds": 794.233,
+            "metadata": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/COSUMAR_RFA_2023_37da671b9191/metadata.json"
+          },
+          "ocr": {
+            "status": "FAILED",
+            "cache_used": false,
+            "elapsed_seconds": 24.741,
+            "duration_seconds": 24.717,
+            "metadata": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/ocr_generic/COSUMAR_RFA_2023_37da671b9191/e0ca308dea6d/ocr_metadata.json",
+            "audit_requested_pages": [
+              1,
+              4,
+              15,
+              21
+            ],
+            "parser_requested_pages": [],
+            "effective_requested_pages": [
+              1,
+              4,
+              15,
+              21
+            ]
+          },
+          "integration": {
+            "status": "PARTIAL",
+            "cache_used": false,
+            "elapsed_seconds": 0.267,
+            "artifact": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/integrated/ammc/COSUMAR_RFA_2023_37da671b9191/unified_document.json"
+          },
+          "quality_gate": {
+            "status": "REVIEW_REQUIRED",
+            "cache_used": false,
+            "elapsed_seconds": 0.172,
+            "strict_verified_only": true,
+            "report": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/quality/ammc/pilot_strict/COSUMAR_RFA_2023_37da671b9191/quality_report.json"
+          }
+        },
+        "metrics": {
+          "pages_processed": 121,
+          "pages_failed": 0,
+          "docling_tables_detected": 108,
+          "docling_tables_non_empty": 108,
+          "docling_invalid_tables": 0,
+          "audit_ocr_pages_requested": 4,
+          "parser_ocr_pages_requested": 0,
+          "ocr_pages_requested": 4,
+          "ocr_pages_processed": 4,
+          "ocr_pages_failed": 0,
+          "ocr_tables_detected": 0,
+          "ocr_tables_non_empty": 0,
+          "integrated_active_tables": 108,
+          "ambiguous_pages": [
+            1,
+            4,
+            15,
+            21,
+            42,
+            61,
+            62,
+            63,
+            64,
+            65,
+            68,
+            69,
+            70,
+            71,
+            74,
+            76,
+            77,
+            78,
+            79,
+            85,
+            88,
+            89,
+            90,
+            91,
+            92,
+            97,
+            98,
+            99,
+            100,
+            101,
+            102,
+            103,
+            104,
+            105,
+            106,
+            107,
+            108,
+            109,
+            110,
+            111,
+            112,
+            118
+          ],
+          "ocr_ambiguous_pages": [
+            1,
+            4,
+            15,
+            21
+          ],
+          "financially_unverified_pages": [
+            42,
+            61,
+            62,
+            63,
+            64,
+            65,
+            68,
+            69,
+            70,
+            71,
+            74,
+            76,
+            77,
+            78,
+            79,
+            85,
+            88,
+            89,
+            90,
+            91,
+            92,
+            97,
+            98,
+            99,
+            100,
+            101,
+            102,
+            103,
+            104,
+            105,
+            106,
+            107,
+            108,
+            109,
+            110,
+            111,
+            112,
+            118
+          ],
+          "table_page_references": 108,
+          "tables_missing_page_reference": 0,
+          "ocr_coordinate_references": 0,
+          "quality_values_total": 2378,
+          "quality_values_verified": 0,
+          "quality_values_review_required": 1153,
+          "quality_values_rejected": 77,
+          "quality_values_not_checked": 1148,
+          "data05_admissible_values": 0
+        },
+        "reporting_scope": {
+          "classification": "MIXED",
+          "confidence": "HIGH",
+          "evidence": [
+            {
+              "scope": "SOCIAL",
+              "page": 2,
+              "matched_phrase": "comptes sociaux",
+              "text": "Comptes sociaux"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 2,
+              "matched_phrase": "comptes consolides",
+              "text": "Comptes consolidés"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 20,
+              "matched_phrase": "comptes consolides",
+              "text": "COMPTES CONSOLIDÉS"
+            },
+            {
+              "scope": "SOCIAL",
+              "page": 71,
+              "matched_phrase": "etats financiers sociaux",
+              "text": "formulation d’avis sur les projets d’états financiers sociaux et consolidés annuels et intermédiaires établis par la"
+            },
+            {
+              "scope": "SOCIAL",
+              "page": 89,
+              "matched_phrase": "comptes sociaux",
+              "text": "4- COMPTES SOCIAUX"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 91,
+              "matched_phrase": "comptes consolides",
+              "text": "6-2 COMPTES CONSOLIDÉS"
+            },
+            {
+              "scope": "SOCIAL",
+              "page": 96,
+              "matched_phrase": "comptes sociaux",
+              "text": "Comptes sociaux"
+            },
+            {
+              "scope": "SOCIAL",
+              "page": 97,
+              "matched_phrase": "comptes sociaux",
+              "text": "Comptes sociaux"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 109,
+              "matched_phrase": "comptes consolides",
+              "text": "Comptes consolidés"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 109,
+              "matched_phrase": "comptes consolides",
+              "text": "Comptes consolidés"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 112,
+              "matched_phrase": "perimetre de consolidation",
+              "text": "NOTE 2. PÉRIMÈTRE DE CONSOLIDATION AU 31 DÉCEMBRE 2023"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 112,
+              "matched_phrase": "etats financiers consolides",
+              "text": "2009, les états financiers consolidés du Groupe COSUMAR sont préparés en conformité avec les normes comptables"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 112,
+              "matched_phrase": "comptes consolides",
+              "text": "Les comptes consolidés sont établis selon la convention du coût historique à l’exception de certaines catégories d’actifs"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 112,
+              "matched_phrase": "perimetre de consolidation",
+              "text": "Conformément aux dispositions des IFRS, il n’y a pas d’exemption au périmètre de consolidation du Groupe. Les participations"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 115,
+              "matched_phrase": "etats financiers consolides",
+              "text": "RAPPORT D’AUDIT SUR LES ETATS FINANCIERS CONSOLIDES"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 115,
+              "matched_phrase": "etats financiers consolides",
+              "text": "Nous avons effectué l'audit des états financiers consolidés de la société Cosumar S.A. et de ses filiales"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 115,
+              "matched_phrase": "etats financiers consolides",
+              "text": "résumé des principales méthodes comptables. Ces états financiers consolidés font ressortir un montant de"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 115,
+              "matched_phrase": "etats financiers consolides",
+              "text": "Nous certifions que les états financiers consolidés cités au premier paragraphe ci-dessus, sont réguliers et"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 115,
+              "matched_phrase": "etats financiers consolides",
+              "text": "l’auditeur à l’égard de l’audit des états financiers consolidés » du présent rapport. Nous sommes indépendants"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 115,
+              "matched_phrase": "etats financiers consolides",
+              "text": "du groupe conformément aux règles de déontologie qui s’appliquent à l’audit des états financiers consolidés"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 115,
+              "matched_phrase": "etats de synthese consolides",
+              "text": "importantes dans l’audit des états de synthèse consolidés de la période considérée."
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 115,
+              "matched_phrase": "etats financiers consolides",
+              "text": "La direction est responsable de la préparation et de la présentation fidèle des états financiers consolidés"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 115,
+              "matched_phrase": "etats financiers consolides",
+              "text": "la préparation d'états financiers consolidés exempts d'anomalies significatives, que celles-ci résultent de"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 115,
+              "matched_phrase": "etats financiers consolides",
+              "text": "Lors de la préparation des états financiers consolidés, c’est à la direction qu’il incombe d’évaluer la capacité"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 115,
+              "matched_phrase": "etats financiers consolides",
+              "text": "Responsabilités de l’auditeur à l’égard de l’audit des états financiers consolidés"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 115,
+              "matched_phrase": "etats financiers consolides",
+              "text": "Nos objectifs sont d’obtenir l’assurance raisonnable que les états financiers consolidés pris dans leur"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 115,
+              "matched_phrase": "etats financiers consolides",
+              "text": "décisions économiques que les utilisateurs des états financiers consolidés prennent en se fondant sur ceux-"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 115,
+              "matched_phrase": "etats financiers consolides",
+              "text": "Nous identifions et évaluons les risques que les états financiers consolidés comportent des"
+            }
+          ],
+          "caution": "Le périmètre est attaché aux indices et pages; il ne doit pas être appliqué automatiquement à toutes les observations."
+        },
+        "peak_rss_bytes": 2639917056,
+        "peak_rss_measurement": "current isolated worker",
+        "elapsed_seconds": 821.46,
+        "measured_component_seconds": 819.389,
+        "artifacts_sha256": {
+          "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/COSUMAR_RFA_2023_37da671b9191/metadata.json": "2af714bd94399c6675f585dfe84c80b8e551ee5761974aa37f193f62ca47d18b",
+          "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/ocr_generic/COSUMAR_RFA_2023_37da671b9191/e0ca308dea6d/ocr_metadata.json": "63a6d4e076bc270d7d948b980040bcba113c4e6071c0a0a9bf42be0c6b37fe13",
+          "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/integrated/ammc/COSUMAR_RFA_2023_37da671b9191/unified_document.json": "c89baf9fd5cc526a76c918fef3c091aa88ed2636617abd481368182f33dfe5e8",
+          "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/quality/ammc/pilot_strict/COSUMAR_RFA_2023_37da671b9191/quality_report.json": "84d058dde3415fb2f8a56e88eda24b37d2cb2833e4ea71857aedf01e333766d5"
+        },
+        "pilot_cache_used": true
+      },
+      {
+        "schema_version": "1.1",
+        "pilot_fingerprint": "fa05aa110598f372db83806883fceda2cc7c65ba867148026cd4ffe71d0b157f",
+        "company_id": "sonasid",
+        "issuer": "SONASID",
+        "exercise_year": 2025,
+        "audit_classification": "TEXT",
+        "source_pdf": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/raw/ammc/pdfs/annual/sonasid/2025/Sonasid_RFA_2025.pdf",
+        "source_sha256": "10fa0d509660825664a52775b36512640e24f9e7b7f2ac84d4fe51ceaaa6ed47",
+        "source_url": "https://www.ammc.ma/sites/default/files/Sonasid_RFA_2025.pdf",
+        "detail_url": "https://www.ammc.ma/fr/espace-emetteurs/etats-financiers/sonasid-rfa-2025",
+        "expected_pages": 100,
+        "audit_ocr_pages": [
+          1,
+          4,
+          17,
+          22,
+          51,
+          69,
+          71,
+          72,
+          95,
+          96
+        ],
+        "selection_score": 140,
+        "pipeline_status": "PARTIAL",
+        "error": null,
+        "stages": {
+          "docling": {
+            "status": "PARTIAL",
+            "elapsed_seconds": 383.098,
+            "conversion_seconds": 383.076,
+            "metadata": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Sonasid_RFA_2025_10fa0d509660/metadata.json"
+          },
+          "ocr": {
+            "status": "FAILED",
+            "cache_used": false,
+            "elapsed_seconds": 102.144,
+            "duration_seconds": 102.129,
+            "metadata": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/ocr_generic/Sonasid_RFA_2025_10fa0d509660/e0ca308dea6d/ocr_metadata.json",
+            "audit_requested_pages": [
+              1,
+              4,
+              17,
+              22,
+              51,
+              69,
+              71,
+              72,
+              95,
+              96
+            ],
+            "parser_requested_pages": [
+              2,
+              28,
+              36
+            ],
+            "effective_requested_pages": [
+              1,
+              2,
+              4,
+              17,
+              22,
+              28,
+              36,
+              51,
+              69,
+              71,
+              72,
+              95,
+              96
+            ]
+          },
+          "integration": {
+            "status": "PARTIAL",
+            "cache_used": false,
+            "elapsed_seconds": 0.24,
+            "artifact": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/integrated/ammc/Sonasid_RFA_2025_10fa0d509660/unified_document.json"
+          },
+          "quality_gate": {
+            "status": "REVIEW_REQUIRED",
+            "cache_used": false,
+            "elapsed_seconds": 0.145,
+            "strict_verified_only": true,
+            "report": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/quality/ammc/pilot_strict/Sonasid_RFA_2025_10fa0d509660/quality_report.json"
+          }
+        },
+        "metrics": {
+          "pages_processed": 100,
+          "pages_failed": 0,
+          "docling_tables_detected": 104,
+          "docling_tables_non_empty": 104,
+          "docling_invalid_tables": 0,
+          "audit_ocr_pages_requested": 10,
+          "parser_ocr_pages_requested": 3,
+          "ocr_pages_requested": 13,
+          "ocr_pages_processed": 13,
+          "ocr_pages_failed": 0,
+          "ocr_tables_detected": 0,
+          "ocr_tables_non_empty": 0,
+          "integrated_active_tables": 104,
+          "ambiguous_pages": [
+            1,
+            2,
+            4,
+            17,
+            22,
+            26,
+            28,
+            36,
+            38,
+            51,
+            52,
+            56,
+            57,
+            58,
+            59,
+            61,
+            62,
+            63,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            71,
+            72,
+            74,
+            75,
+            76,
+            78,
+            84,
+            85,
+            86,
+            87,
+            88,
+            89,
+            90,
+            91,
+            92,
+            93,
+            94,
+            95,
+            96,
+            98
+          ],
+          "ocr_ambiguous_pages": [
+            1,
+            2,
+            4,
+            17,
+            22,
+            28,
+            36,
+            51,
+            69,
+            71,
+            72,
+            95,
+            96
+          ],
+          "financially_unverified_pages": [
+            26,
+            38,
+            52,
+            56,
+            57,
+            58,
+            59,
+            61,
+            62,
+            63,
+            64,
+            65,
+            66,
+            67,
+            68,
+            74,
+            75,
+            76,
+            78,
+            84,
+            85,
+            86,
+            87,
+            88,
+            89,
+            90,
+            91,
+            92,
+            93,
+            94,
+            98
+          ],
+          "table_page_references": 104,
+          "tables_missing_page_reference": 0,
+          "ocr_coordinate_references": 0,
+          "quality_values_total": 2201,
+          "quality_values_verified": 0,
+          "quality_values_review_required": 340,
+          "quality_values_rejected": 5,
+          "quality_values_not_checked": 1856,
+          "data05_admissible_values": 0
+        },
+        "reporting_scope": {
+          "classification": "MIXED",
+          "confidence": "HIGH",
+          "evidence": [
+            {
+              "scope": "SOCIAL",
+              "page": 2,
+              "matched_phrase": "comptes sociaux",
+              "text": "Comptes sociaux"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 2,
+              "matched_phrase": "comptes consolides",
+              "text": "Comptes consolidés"
+            },
+            {
+              "scope": "SOCIAL",
+              "page": 49,
+              "matched_phrase": "comptes sociaux",
+              "text": "aux actionnaires, au public et à l’AMMC, en examinant semestriellement les comptes sociaux et consolidés et en veillant"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 54,
+              "matched_phrase": "perimetre de consolidation",
+              "text": "Les investissements au niveau du périmètre de consolidation s’établissent à 277 MDH à fin décembre 2025 et s’inscrivent"
+            },
+            {
+              "scope": "SOCIAL",
+              "page": 55,
+              "matched_phrase": "comptes sociaux",
+              "text": "LES COMPTES SOCIAUX"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 55,
+              "matched_phrase": "comptes consolides",
+              "text": "LES COMPTES CONSOLIDÉS"
+            },
+            {
+              "scope": "SOCIAL",
+              "page": 57,
+              "matched_phrase": "comptes sociaux",
+              "text": "COMPTES SOCIAUX"
+            },
+            {
+              "scope": "SOCIAL",
+              "page": 69,
+              "matched_phrase": "comptes sociaux",
+              "text": "SUR LES COMPTES SOCIAUX"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 74,
+              "matched_phrase": "comptes consolides",
+              "text": "COMPTES CONSOLIDÉS"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 77,
+              "matched_phrase": "perimetre de consolidation",
+              "text": "NOTE 4. ÉVOLUTION DU PÉRIMÈTRE DE CONSOLIDATION AU COURS DE LA PÉRIODE"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 77,
+              "matched_phrase": "perimetre de consolidation",
+              "text": "NOTE 32. PÉRIMÈTRE DE CONSOLIDATION AU 31 DÉCEMBRE 2025"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 78,
+              "matched_phrase": "etats financiers consolides",
+              "text": "(l’Autorité Marocaine du Marché des Capitaux), version du 20 février 2019, les états financiers consolidés"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 78,
+              "matched_phrase": "etats financiers consolides",
+              "text": "Ainsi, les états financiers consolidés du Groupe Sonasid donnent une image fidèle de sa situation"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 78,
+              "matched_phrase": "comptes consolides",
+              "text": "Les comptes consolidés du Groupe ont été arrêtés le 12 mars 2026 par le Conseil d’Administration."
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 78,
+              "matched_phrase": "etats financiers consolides",
+              "text": "Les états financiers consolidés sont présentés en millions de dirhams (MDH), arrondis au million le plus"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 78,
+              "matched_phrase": "etats financiers consolides",
+              "text": "L’établissement des états financiers consolidés, en conformité avec les normes comptables internationales"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 78,
+              "matched_phrase": "etats financiers consolides",
+              "text": "Les montants qui figurent dans ses futurs états financiers consolidés sont susceptibles de différer de ces"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 79,
+              "matched_phrase": "perimetre de consolidation",
+              "text": "Le Groupe ne dispose pas actuellement dans son périmètre de consolidation d’entreprise associée ou"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 79,
+              "matched_phrase": "perimetre de consolidation",
+              "text": "3.4.3. Exclusions du périmètre de consolidation"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 79,
+              "matched_phrase": "perimetre de consolidation",
+              "text": "Conformément aux dispositions des IFRS, il n’y a pas d’exemption au périmètre de consolidation du Groupe."
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 79,
+              "matched_phrase": "comptes consolides",
+              "text": "de présentation des comptes consolidés du Groupe."
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 83,
+              "matched_phrase": "comptes consolides",
+              "text": "monnaie. Cet amendement n’a pas d’incidence sur les comptes consolidés du Groupe Sonasid au 31"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 84,
+              "matched_phrase": "perimetre de consolidation",
+              "text": "NOTE 4. ÉVOLUTION DU PÉRIMÈTRE DE CONSOLIDATIONAU COURS"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 94,
+              "matched_phrase": "perimetre de consolidation",
+              "text": "NOTE 32. PÉRIMETRE DE CONSOLIDATION AU 31 DÉCEMBRE 2025"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 95,
+              "matched_phrase": "comptes consolides",
+              "text": "SUR LES COMPTES CONSOLIDÉS"
+            },
+            {
+              "scope": "SOCIAL",
+              "page": 98,
+              "matched_phrase": "comptes individuels",
+              "text": "Examen des comptes individuels et consolidés"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 98,
+              "matched_phrase": "comptes individuels et consolides",
+              "text": "Examen des comptes individuels et consolidés"
+            }
+          ],
+          "caution": "Le périmètre est attaché aux indices et pages; il ne doit pas être appliqué automatiquement à toutes les observations."
+        },
+        "peak_rss_bytes": 2485870592,
+        "peak_rss_measurement": "current isolated worker",
+        "elapsed_seconds": 486.857,
+        "measured_component_seconds": 485.59,
+        "artifacts_sha256": {
+          "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Sonasid_RFA_2025_10fa0d509660/metadata.json": "12b79e970b4f3bd7b74056818c688f33a5054a59aba042ea42d4f0471111ed09",
+          "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/ocr_generic/Sonasid_RFA_2025_10fa0d509660/e0ca308dea6d/ocr_metadata.json": "3a05eca6e9d68034315096d711528c16cf2afe54f77b3dbcf55731ab312d292b",
+          "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/integrated/ammc/Sonasid_RFA_2025_10fa0d509660/unified_document.json": "08b3f43e44621ea176396a836593a2a2cf5c86c7fc18ea647612245b494ddaa0",
+          "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/quality/ammc/pilot_strict/Sonasid_RFA_2025_10fa0d509660/quality_report.json": "4d4d09922cb8351ff150e36d1176dfe4ddd7c6c18e199954ee3d62f1e7687b88"
+        },
+        "pilot_cache_used": true
+      },
+      {
+        "schema_version": "1.1",
+        "pilot_fingerprint": "575aff7a10b8ac6a1fde6f71bbbc2e34fb97979a9d4a8a7a6d8115510e9d335c",
+        "company_id": "lafargeholcim_maroc",
+        "issuer": "HOLCIM MAROC",
+        "exercise_year": 2025,
+        "audit_classification": "TEXT",
+        "source_pdf": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/raw/ammc/pdfs/annual/lafargeholcim_maroc/2025/LafargeHolcim_RFA_2025.pdf",
+        "source_sha256": "889b39eaaa0a56050017a0c391395b991a9f7fcc330c579a4d598cd656b790bd",
+        "source_url": "https://www.ammc.ma/sites/default/files/LafargeHolcim_RFA_2025.pdf",
+        "detail_url": "https://www.ammc.ma/fr/espace-emetteurs/etats-financiers/lafargeholcim-maroc-rfa-2025",
+        "expected_pages": 100,
+        "audit_ocr_pages": [
+          1,
+          6,
+          90,
+          91,
+          92,
+          93,
+          94,
+          95,
+          96,
+          97,
+          98,
+          99
+        ],
+        "selection_score": 148,
+        "pipeline_status": "PARTIAL",
+        "error": null,
+        "stages": {
+          "docling": {
+            "status": "PARTIAL",
+            "elapsed_seconds": 436.496,
+            "conversion_seconds": 436.443,
+            "metadata": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/LafargeHolcim_RFA_2025_889b39eaaa0a/metadata.json"
+          },
+          "ocr": {
+            "status": "PARSED",
+            "cache_used": false,
+            "elapsed_seconds": 129.807,
+            "duration_seconds": 129.788,
+            "metadata": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/ocr_generic/LafargeHolcim_RFA_2025_889b39eaaa0a/e0ca308dea6d/ocr_metadata.json",
+            "audit_requested_pages": [
+              1,
+              6,
+              90,
+              91,
+              92,
+              93,
+              94,
+              95,
+              96,
+              97,
+              98,
+              99
+            ],
+            "parser_requested_pages": [
+              90,
+              92,
+              99
+            ],
+            "effective_requested_pages": [
+              1,
+              6,
+              90,
+              91,
+              92,
+              93,
+              94,
+              95,
+              96,
+              97,
+              98,
+              99
+            ]
+          },
+          "integration": {
+            "status": "PARTIAL",
+            "cache_used": false,
+            "elapsed_seconds": 0.268,
+            "artifact": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/integrated/ammc/LafargeHolcim_RFA_2025_889b39eaaa0a/unified_document.json"
+          },
+          "quality_gate": {
+            "status": "REVIEW_REQUIRED",
+            "cache_used": false,
+            "elapsed_seconds": 0.171,
+            "strict_verified_only": true,
+            "report": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/quality/ammc/pilot_strict/LafargeHolcim_RFA_2025_889b39eaaa0a/quality_report.json"
+          }
+        },
+        "metrics": {
+          "pages_processed": 100,
+          "pages_failed": 0,
+          "docling_tables_detected": 109,
+          "docling_tables_non_empty": 106,
+          "docling_invalid_tables": 3,
+          "audit_ocr_pages_requested": 12,
+          "parser_ocr_pages_requested": 3,
+          "ocr_pages_requested": 12,
+          "ocr_pages_processed": 12,
+          "ocr_pages_failed": 0,
+          "ocr_tables_detected": 1,
+          "ocr_tables_non_empty": 1,
+          "integrated_active_tables": 107,
+          "ambiguous_pages": [
+            1,
+            6,
+            33,
+            54,
+            55,
+            57,
+            58,
+            61,
+            62,
+            63,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            73,
+            74,
+            75,
+            80,
+            81,
+            82,
+            83,
+            84,
+            85,
+            86,
+            87,
+            88,
+            90,
+            91,
+            92,
+            93,
+            94,
+            95,
+            96,
+            97,
+            98,
+            99
+          ],
+          "ocr_ambiguous_pages": [
+            1,
+            6,
+            90,
+            91,
+            92,
+            93,
+            94,
+            95,
+            96,
+            97,
+            98,
+            99
+          ],
+          "financially_unverified_pages": [
+            33,
+            54,
+            55,
+            57,
+            58,
+            61,
+            62,
+            63,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            73,
+            74,
+            75,
+            80,
+            81,
+            82,
+            83,
+            84,
+            85,
+            86,
+            87,
+            88,
+            99
+          ],
+          "table_page_references": 107,
+          "tables_missing_page_reference": 0,
+          "ocr_coordinate_references": 1,
+          "quality_values_total": 2190,
+          "quality_values_verified": 0,
+          "quality_values_review_required": 432,
+          "quality_values_rejected": 21,
+          "quality_values_not_checked": 1737,
+          "data05_admissible_values": 0
+        },
+        "reporting_scope": {
+          "classification": "MIXED",
+          "confidence": "HIGH",
+          "evidence": [
+            {
+              "scope": "CONSOLIDATED",
+              "page": 54,
+              "matched_phrase": "comptes consolides",
+              "text": "COMPTES CONSOLIDÉS IFRS"
+            },
+            {
+              "scope": "SOCIAL",
+              "page": 54,
+              "matched_phrase": "comptes sociaux",
+              "text": "COMPTES SOCIAUX"
+            },
+            {
+              "scope": "SOCIAL",
+              "page": 55,
+              "matched_phrase": "comptes individuels",
+              "text": "comptes individuels et"
+            },
+            {
+              "scope": "SOCIAL",
+              "page": 57,
+              "matched_phrase": "etats de synthese sociaux",
+              "text": "Nous allons maintenant vous présenter en détail les états de synthèse sociaux de l’exercice clos au 31 décembre"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 75,
+              "matched_phrase": "perimetre de consolidation",
+              "text": "NOTE 4. EVOLUTION DU PERIMETRE DE CONSOLIDATION AU COURS DE LA PERIODE"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 76,
+              "matched_phrase": "etats financiers consolides",
+              "text": "juin 2009, les états financiers consolidés du Groupe LafargeHolcim Maroc sont préparés en conformité avec les"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 76,
+              "matched_phrase": "comptes consolides",
+              "text": "Les comptes consolidés sont établis selon la convention du coût historique conformément aux principes édictés"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 76,
+              "matched_phrase": "etats financiers consolides",
+              "text": "L’établissement des états financiers consolidés, en conformité avec les normes comptables internationales en"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 76,
+              "matched_phrase": "etats financiers consolides",
+              "text": "Les montants qui figurent dans ses futurs états financiers consolidés sont susceptibles de différer de ces estimations"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 77,
+              "matched_phrase": "perimetre de consolidation",
+              "text": "3.4.3. Exclusions du périmètre de consolidation"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 77,
+              "matched_phrase": "perimetre de consolidation",
+              "text": "Conformément aux dispositions des IFRS, il n’y a pas d’exemption au périmètre de consolidation du Groupe."
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 77,
+              "matched_phrase": "comptes consolides",
+              "text": "présentation des comptes consolidés du Groupe. Les transactions en monnaies étrangères sont converties au"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 79,
+              "matched_phrase": "perimetre de consolidation",
+              "text": "NOTE 4. ÉVOLUTION DU PERIMÈTRE DE CONSOLIDATION AU COURS DE LA PÉRIODE"
+            }
+          ],
+          "caution": "Le périmètre est attaché aux indices et pages; il ne doit pas être appliqué automatiquement à toutes les observations."
+        },
+        "peak_rss_bytes": 2731794432,
+        "peak_rss_measurement": "current isolated worker",
+        "elapsed_seconds": 568.114,
+        "measured_component_seconds": 566.671,
+        "artifacts_sha256": {
+          "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/LafargeHolcim_RFA_2025_889b39eaaa0a/metadata.json": "f1f999d9759f5a3e2219426620712c152b211091ecba48044ff211f64b189040",
+          "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/ocr_generic/LafargeHolcim_RFA_2025_889b39eaaa0a/e0ca308dea6d/ocr_metadata.json": "f5b462c808809f2325bf8a95bf192bb040833fa00f28e8672f7bd88c1d2a18c7",
+          "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/integrated/ammc/LafargeHolcim_RFA_2025_889b39eaaa0a/unified_document.json": "c2390370e28ced6488711acd257414fd03e2c7ab643c9f3b753a4296750a6d8c",
+          "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/quality/ammc/pilot_strict/LafargeHolcim_RFA_2025_889b39eaaa0a/quality_report.json": "0f5bc14dfa86f93f9187eb5fd06f97cb7b36222611adb23c6c8a34bae0bebf19"
+        },
+        "pilot_cache_used": true
+      },
+      {
+        "schema_version": "1.1",
+        "pilot_fingerprint": "22b12b3217b5b59fd2319eefbbf39cc8b7995c7774e757df707b8de99ac48cdf",
+        "company_id": "attijariwafa_bank",
+        "issuer": "ATTIJARIWAFA BANK",
+        "exercise_year": 2023,
+        "audit_classification": "TEXT",
+        "source_pdf": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/raw/ammc/pdfs/annual/attijariwafa_bank/2023/AWB_RFA_2023.pdf",
+        "source_sha256": "f0d3f35ca055722d3c33cabc473b34b8d40b0c6d788214fc1bafd474bbc0d3d8",
+        "source_url": "https://www.ammc.ma/sites/default/files/AWB_RFA_2023.pdf",
+        "detail_url": "https://www.ammc.ma/fr/espace-emetteurs/etats-financiers/attijariwafa-bank-rfa-2023",
+        "expected_pages": 149,
+        "audit_ocr_pages": [
+          5
+        ],
+        "selection_score": 153,
+        "pipeline_status": "PARTIAL",
+        "error": null,
+        "stages": {
+          "docling": {
+            "status": "PARTIAL",
+            "elapsed_seconds": 815.947,
+            "conversion_seconds": 815.873,
+            "metadata": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/AWB_RFA_2023_f0d3f35ca055/metadata.json"
+          },
+          "ocr": {
+            "status": "FAILED",
+            "cache_used": false,
+            "elapsed_seconds": 4.516,
+            "duration_seconds": 4.509,
+            "metadata": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/ocr_generic/AWB_RFA_2023_f0d3f35ca055/e0ca308dea6d/ocr_metadata.json",
+            "audit_requested_pages": [
+              5
+            ],
+            "parser_requested_pages": [
+              78
+            ],
+            "effective_requested_pages": [
+              5,
+              78
+            ]
+          },
+          "integration": {
+            "status": "PARTIAL",
+            "cache_used": false,
+            "elapsed_seconds": 0.415,
+            "artifact": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/integrated/ammc/AWB_RFA_2023_f0d3f35ca055/unified_document.json"
+          },
+          "quality_gate": {
+            "status": "REVIEW_REQUIRED",
+            "cache_used": false,
+            "elapsed_seconds": 0.26,
+            "strict_verified_only": true,
+            "report": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/quality/ammc/pilot_strict/AWB_RFA_2023_f0d3f35ca055/quality_report.json"
+          }
+        },
+        "metrics": {
+          "pages_processed": 149,
+          "pages_failed": 0,
+          "docling_tables_detected": 225,
+          "docling_tables_non_empty": 225,
+          "docling_invalid_tables": 0,
+          "audit_ocr_pages_requested": 1,
+          "parser_ocr_pages_requested": 1,
+          "ocr_pages_requested": 2,
+          "ocr_pages_processed": 2,
+          "ocr_pages_failed": 0,
+          "ocr_tables_detected": 0,
+          "ocr_tables_non_empty": 0,
+          "integrated_active_tables": 225,
+          "ambiguous_pages": [
+            5,
+            8,
+            9,
+            10,
+            11,
+            14,
+            15,
+            16,
+            19,
+            20,
+            21,
+            22,
+            23,
+            27,
+            28,
+            29,
+            30,
+            31,
+            52,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            77,
+            78,
+            94,
+            95,
+            96,
+            97,
+            98,
+            99,
+            100,
+            101,
+            102,
+            103,
+            104,
+            105,
+            106,
+            107,
+            108,
+            109,
+            110,
+            111,
+            112,
+            113,
+            119,
+            120,
+            121,
+            122,
+            123,
+            124,
+            125,
+            126,
+            127,
+            128,
+            129,
+            130,
+            131,
+            132,
+            133,
+            134,
+            135,
+            146
+          ],
+          "ocr_ambiguous_pages": [
+            5,
+            78
+          ],
+          "financially_unverified_pages": [
+            8,
+            9,
+            10,
+            11,
+            14,
+            15,
+            16,
+            19,
+            20,
+            21,
+            22,
+            23,
+            27,
+            28,
+            29,
+            30,
+            31,
+            52,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            77,
+            94,
+            95,
+            96,
+            97,
+            98,
+            99,
+            100,
+            101,
+            102,
+            103,
+            104,
+            105,
+            106,
+            107,
+            108,
+            109,
+            110,
+            111,
+            112,
+            113,
+            119,
+            120,
+            121,
+            122,
+            123,
+            124,
+            125,
+            126,
+            127,
+            128,
+            129,
+            130,
+            131,
+            132,
+            133,
+            134,
+            135,
+            146
+          ],
+          "table_page_references": 225,
+          "tables_missing_page_reference": 0,
+          "ocr_coordinate_references": 0,
+          "quality_values_total": 4916,
+          "quality_values_verified": 0,
+          "quality_values_review_required": 1826,
+          "quality_values_rejected": 38,
+          "quality_values_not_checked": 3052,
+          "data05_admissible_values": 0
+        },
+        "reporting_scope": {
+          "classification": "MIXED",
+          "confidence": "HIGH",
+          "evidence": [
+            {
+              "scope": "CONSOLIDATED",
+              "page": 26,
+              "matched_phrase": "comptes consolides",
+              "text": "marchés financiers sur les comptes consolidés."
+            },
+            {
+              "scope": "SOCIAL",
+              "page": 27,
+              "matched_phrase": "comptes sociaux",
+              "text": "COMPTES SOCIAUX"
+            },
+            {
+              "scope": "SOCIAL",
+              "page": 28,
+              "matched_phrase": "comptes sociaux",
+              "text": "PNB (comptes sociaux)"
+            },
+            {
+              "scope": "SOCIAL",
+              "page": 28,
+              "matched_phrase": "comptes sociaux",
+              "text": "RN (comptes sociaux)"
+            },
+            {
+              "scope": "SOCIAL",
+              "page": 29,
+              "matched_phrase": "comptes sociaux",
+              "text": "PNB (comptes sociaux)"
+            },
+            {
+              "scope": "SOCIAL",
+              "page": 29,
+              "matched_phrase": "comptes sociaux",
+              "text": "RN (comptes sociaux)"
+            },
+            {
+              "scope": "SOCIAL",
+              "page": 30,
+              "matched_phrase": "comptes sociaux",
+              "text": "PNB (comptes sociaux)"
+            },
+            {
+              "scope": "SOCIAL",
+              "page": 30,
+              "matched_phrase": "comptes sociaux",
+              "text": "RN (comptes sociaux)"
+            },
+            {
+              "scope": "SOCIAL",
+              "page": 31,
+              "matched_phrase": "comptes sociaux",
+              "text": "PNB (comptes sociaux)"
+            },
+            {
+              "scope": "SOCIAL",
+              "page": 31,
+              "matched_phrase": "comptes sociaux",
+              "text": "RN (comptes sociaux)"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 32,
+              "matched_phrase": "perimetre de consolidation",
+              "text": "dans le périmètre de consolidation la Banque Internationale"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 32,
+              "matched_phrase": "perimetre de consolidation",
+              "text": "Principales filiales du périmètre de consolidation"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 68,
+              "matched_phrase": "perimetre de consolidation",
+              "text": "pas dans le périmètre de consolidation et détenues dans le"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 78,
+              "matched_phrase": "comptes consolides",
+              "text": "COMPTES CONSOLIDÉS"
+            },
+            {
+              "scope": "SOCIAL",
+              "page": 78,
+              "matched_phrase": "comptes sociaux",
+              "text": "COMPTES SOCIAUX"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 80,
+              "matched_phrase": "comptes consolides",
+              "text": "Comptes Consolidés au 31 décembre 2023"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 80,
+              "matched_phrase": "etats financiers consolides",
+              "text": "RAPPORT DES COMMISSAIRES AUX COMPTES SUR LES ETATS FINANCIERS CONSOLIDES"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 80,
+              "matched_phrase": "etats financiers consolides",
+              "text": "Nous avons effectué l’audit des états financiers consolidés de la société ATTIJARIWAFA BANK et de ses filiales (le « groupe »), qui"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 80,
+              "matched_phrase": "etats financiers consolides",
+              "text": "que les notes annexes, y compris un résumé des principales méthodes comptables. Ces états financiers consolidés font ressortir"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 80,
+              "matched_phrase": "etats financiers consolides",
+              "text": "Nous certifions que les états financiers consolidés cités au premier paragraphe ci-dessus, sont réguliers et sincères et donnent"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 80,
+              "matched_phrase": "etats financiers consolides",
+              "text": "à l’audit des états financiers consolidés au Maroc et nous nous sommes acquittés des autres responsabilités déontologiques qui"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 81,
+              "matched_phrase": "etats financiers consolides",
+              "text": "de l’annexe aux états financiers consolidés relatives au risque de crédit."
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 81,
+              "matched_phrase": "comptes consolides",
+              "text": "aux comptes consolidés."
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 81,
+              "matched_phrase": "etats financiers consolides",
+              "text": "annexes aux états financiers consolidés."
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 82,
+              "matched_phrase": "etats financiers consolides",
+              "text": "Responsabilités de la direction et des responsables de la gouvernance à l’égard des états financiers consolidés"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 82,
+              "matched_phrase": "etats financiers consolides",
+              "text": "La direction est responsable de la préparation et de la présentation fidèle des états financiers consolidés conformément aux IFRS,"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 82,
+              "matched_phrase": "etats financiers consolides",
+              "text": "ainsi que du contrôle interne qu'elle considère comme nécessaire pour permettre la préparation d'états financiers consolidés"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 82,
+              "matched_phrase": "etats financiers consolides",
+              "text": "Lors de la préparation des états financiers consolidés, c’est à la direction qu’il incombe d’évaluer la capacité du groupe à poursuivre"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 82,
+              "matched_phrase": "etats financiers consolides",
+              "text": "Responsabilités de l’auditeur à l’égard de l’audit des états financiers consolidés"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 82,
+              "matched_phrase": "etats financiers consolides",
+              "text": "Nos objectifs sont d’obtenir l’assurance raisonnable que les états financiers consolidés pris dans leur ensemble sont exempts"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 82,
+              "matched_phrase": "etats financiers consolides",
+              "text": "des états financiers consolidés prennent en se fondant sur ceux-ci."
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 82,
+              "matched_phrase": "etats financiers consolides",
+              "text": "• \u0007nous identifions et évaluons les risques que les états financiers consolidés comportent des anomalies significatives, que celles-ci"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 82,
+              "matched_phrase": "etats financiers consolides",
+              "text": "• \u0007nous évaluons la présentation d’ensemble, la structure et le contenu des états financiers consolidés, y compris les informations"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 82,
+              "matched_phrase": "etats financiers consolides",
+              "text": "fournies dans les notes, et apprécions si les états financiers consolidés représentent les opérations et événements sous-jacents"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 82,
+              "matched_phrase": "etats financiers consolides",
+              "text": "groupe pour exprimer une opinion sur les états financiers consolidés. Nous sommes responsables de la direction, de la supervision"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 83,
+              "matched_phrase": "comptes consolides",
+              "text": "Comptes consolidés au 31 décembre 2023"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 83,
+              "matched_phrase": "comptes consolides",
+              "text": "Standards -IFRS-) ont été appliquées aux comptes consolidés du groupe"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 83,
+              "matched_phrase": "comptes consolides",
+              "text": "Dans les comptes consolidés présentés au 31 décembre 2023, le groupe"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 83,
+              "matched_phrase": "perimetre de consolidation",
+              "text": "Le périmètre de consolidation est déterminé sur la base de la nature"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 83,
+              "matched_phrase": "etats financiers consolides",
+              "text": "norme IFRS 10 « Etats financiers consolidés » et la mise en équivalence"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 83,
+              "matched_phrase": "perimetre de consolidation",
+              "text": "Le groupe Attijariwafa bank intègre dans son périmètre de consolidation"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 83,
+              "matched_phrase": "perimetre de consolidation",
+              "text": "Enfin, sont exclues du périmètre de consolidation, les entités contrôlées"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 83,
+              "matched_phrase": "comptes consolides",
+              "text": "dans les comptes consolidés en normes IFRS."
+            },
+            {
+              "scope": "SOCIAL",
+              "page": 84,
+              "matched_phrase": "comptes sociaux",
+              "text": "Les droits au bail comptabilisés en comptes sociaux ne sont pas amortis."
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 84,
+              "matched_phrase": "comptes consolides",
+              "text": "En comptes consolidés, ils font l’objet d’un plan amortissement selon"
+            },
+            {
+              "scope": "SOCIAL",
+              "page": 84,
+              "matched_phrase": "comptes sociaux",
+              "text": "Les fonds de commerce comptabilisés au niveau des comptes sociaux"
+            },
+            {
+              "scope": "SOCIAL",
+              "page": 84,
+              "matched_phrase": "comptes sociaux",
+              "text": "Le suivi de plans d’amortissement distincts entre les comptes sociaux"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 96,
+              "matched_phrase": "comptes consolides",
+              "text": "Comptes consolidés au 31 décembre 2023"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 112,
+              "matched_phrase": "perimetre de consolidation",
+              "text": "Acquisition, cession (modification du périmètre de consolidation)"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 113,
+              "matched_phrase": "perimetre de consolidation",
+              "text": "7.5 Périmètre de consolidation"
+            },
+            {
+              "scope": "SOCIAL",
+              "page": 115,
+              "matched_phrase": "comptes sociaux",
+              "text": "Comptes Sociaux au 31 décembre 2023"
+            },
+            {
+              "scope": "SOCIAL",
+              "page": 118,
+              "matched_phrase": "comptes sociaux",
+              "text": "Comptes sociaux au 31 décembre 2023"
+            },
+            {
+              "scope": "SOCIAL",
+              "page": 120,
+              "matched_phrase": "comptes sociaux",
+              "text": "Comptes sociaux au 31 décembre 2023"
+            },
+            {
+              "scope": "SOCIAL",
+              "page": 135,
+              "matched_phrase": "comptes individuels",
+              "text": "comptes individuels et consolidés"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 135,
+              "matched_phrase": "comptes individuels et consolides",
+              "text": "comptes individuels et consolidés"
+            }
+          ],
+          "caution": "Le périmètre est attaché aux indices et pages; il ne doit pas être appliqué automatiquement à toutes les observations."
+        },
+        "peak_rss_bytes": 2210553856,
+        "peak_rss_measurement": "current isolated worker",
+        "elapsed_seconds": 823.218,
+        "measured_component_seconds": 821.057,
+        "artifacts_sha256": {
+          "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/AWB_RFA_2023_f0d3f35ca055/metadata.json": "2f3c7c8de871da474f7fd91927d84bbcf18275a8bc98e4b546afd4677e8922df",
+          "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/ocr_generic/AWB_RFA_2023_f0d3f35ca055/e0ca308dea6d/ocr_metadata.json": "e44a1e5510e6960c53ae1ba2c8fd9a43207a9643d025a9bab0ef62bda028ccbd",
+          "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/integrated/ammc/AWB_RFA_2023_f0d3f35ca055/unified_document.json": "9be545ef7b498c2d80ddc129383ddbd3eb297584ea3372ce97bac10c0a10336e",
+          "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/quality/ammc/pilot_strict/AWB_RFA_2023_f0d3f35ca055/quality_report.json": "7fd853be3dc90da6251fd44bcf6431efa89225a4e6f9af6bd952c50c21bd0682"
+        },
+        "pilot_cache_used": true
+      },
+      {
+        "schema_version": "1.1",
+        "pilot_fingerprint": "c196265899be7821bfdb0404abd10b47a5ca6ed1cb9973a6123b58c73004df32",
+        "company_id": "cosumar",
+        "issuer": "COSUMAR",
+        "exercise_year": 2024,
+        "audit_classification": "TEXT",
+        "source_pdf": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/raw/ammc/pdfs/annual/cosumar/2024/COSUMAR_RFA_2024.pdf",
+        "source_sha256": "43a21829124fad0aa6e0fcd979cc5aa339104fa38161e9fcb356930574d8c0a9",
+        "source_url": "https://www.ammc.ma/sites/default/files/COSUMAR_RFA_2024.pdf",
+        "detail_url": "https://www.ammc.ma/fr/espace-emetteurs/etats-financiers/cosumar-rfa-2024",
+        "expected_pages": 136,
+        "audit_ocr_pages": [
+          1,
+          4,
+          17,
+          25,
+          101
+        ],
+        "selection_score": 156,
+        "pipeline_status": "PARTIAL",
+        "error": null,
+        "stages": {
+          "docling": {
+            "status": "PARTIAL",
+            "elapsed_seconds": 469.101,
+            "conversion_seconds": 469.005,
+            "metadata": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/COSUMAR_RFA_2024_43a21829124f/metadata.json"
+          },
+          "ocr": {
+            "status": "FAILED",
+            "cache_used": false,
+            "elapsed_seconds": 23.304,
+            "duration_seconds": 23.281,
+            "metadata": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/ocr_generic/COSUMAR_RFA_2024_43a21829124f/e0ca308dea6d/ocr_metadata.json",
+            "audit_requested_pages": [
+              1,
+              4,
+              17,
+              25,
+              101
+            ],
+            "parser_requested_pages": [
+              30,
+              59,
+              64
+            ],
+            "effective_requested_pages": [
+              1,
+              4,
+              17,
+              25,
+              30,
+              59,
+              64,
+              101
+            ]
+          },
+          "integration": {
+            "status": "PARTIAL",
+            "cache_used": false,
+            "elapsed_seconds": 0.213,
+            "artifact": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/integrated/ammc/COSUMAR_RFA_2024_43a21829124f/unified_document.json"
+          },
+          "quality_gate": {
+            "status": "REVIEW_REQUIRED",
+            "cache_used": false,
+            "elapsed_seconds": 0.151,
+            "strict_verified_only": true,
+            "report": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/quality/ammc/pilot_strict/COSUMAR_RFA_2024_43a21829124f/quality_report.json"
+          }
+        },
+        "metrics": {
+          "pages_processed": 136,
+          "pages_failed": 0,
+          "docling_tables_detected": 107,
+          "docling_tables_non_empty": 107,
+          "docling_invalid_tables": 0,
+          "audit_ocr_pages_requested": 5,
+          "parser_ocr_pages_requested": 3,
+          "ocr_pages_requested": 8,
+          "ocr_pages_processed": 8,
+          "ocr_pages_failed": 0,
+          "ocr_tables_detected": 0,
+          "ocr_tables_non_empty": 0,
+          "integrated_active_tables": 107,
+          "ambiguous_pages": [
+            1,
+            4,
+            17,
+            25,
+            29,
+            30,
+            52,
+            59,
+            64,
+            72,
+            73,
+            74,
+            80,
+            81,
+            84,
+            90,
+            93,
+            94,
+            95,
+            96,
+            97,
+            98,
+            100,
+            101,
+            103,
+            104,
+            105,
+            106,
+            107,
+            112,
+            113,
+            114,
+            115,
+            116,
+            117,
+            118,
+            119,
+            120,
+            121,
+            122,
+            123,
+            124,
+            125,
+            126,
+            127,
+            133
+          ],
+          "ocr_ambiguous_pages": [
+            1,
+            4,
+            17,
+            25,
+            30,
+            59,
+            64,
+            101
+          ],
+          "financially_unverified_pages": [
+            29,
+            52,
+            72,
+            73,
+            74,
+            80,
+            81,
+            84,
+            90,
+            93,
+            94,
+            95,
+            96,
+            97,
+            98,
+            100,
+            103,
+            104,
+            105,
+            106,
+            107,
+            112,
+            113,
+            114,
+            115,
+            116,
+            117,
+            118,
+            119,
+            120,
+            121,
+            122,
+            123,
+            124,
+            125,
+            126,
+            127,
+            133
+          ],
+          "table_page_references": 107,
+          "tables_missing_page_reference": 0,
+          "ocr_coordinate_references": 0,
+          "quality_values_total": 2256,
+          "quality_values_verified": 0,
+          "quality_values_review_required": 1032,
+          "quality_values_rejected": 61,
+          "quality_values_not_checked": 1163,
+          "data05_admissible_values": 0
+        },
+        "reporting_scope": {
+          "classification": "MIXED",
+          "confidence": "HIGH",
+          "evidence": [
+            {
+              "scope": "SOCIAL",
+              "page": 2,
+              "matched_phrase": "comptes sociaux",
+              "text": "Comptes sociaux"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 2,
+              "matched_phrase": "comptes consolides",
+              "text": "Comptes consolidés"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 24,
+              "matched_phrase": "comptes consolides",
+              "text": "Comptes consolidés en norme IFRS"
+            },
+            {
+              "scope": "SOCIAL",
+              "page": 24,
+              "matched_phrase": "comptes sociaux",
+              "text": "Comptes sociaux"
+            },
+            {
+              "scope": "SOCIAL",
+              "page": 100,
+              "matched_phrase": "comptes individuels",
+              "text": "comptes individuels et"
+            },
+            {
+              "scope": "SOCIAL",
+              "page": 105,
+              "matched_phrase": "comptes sociaux",
+              "text": "4 - Comptes Sociaux"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 106,
+              "matched_phrase": "comptes consolides",
+              "text": "6.2 - Comptes consolidés"
+            },
+            {
+              "scope": "SOCIAL",
+              "page": 112,
+              "matched_phrase": "comptes sociaux",
+              "text": "Comptes sociaux"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 124,
+              "matched_phrase": "comptes consolides",
+              "text": "Comptes consolidés"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 127,
+              "matched_phrase": "etats financiers consolides",
+              "text": "2009, les états financiers consolidés du Groupe Cosumar sont préparés en conformité avec les normes comptables"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 127,
+              "matched_phrase": "comptes consolides",
+              "text": "Les comptes consolidés sont établis selon la convention du coût historique à l’exception de certaines catégories d’actifs"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 127,
+              "matched_phrase": "perimetre de consolidation",
+              "text": "Conformément aux dispositions des IFRS, il n’y a pas d’exemption au périmètre de consolidation du Groupe. Les participations"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 127,
+              "matched_phrase": "perimetre de consolidation",
+              "text": "NOTE 2. PÉRIMÈTRE DE CONSOLIDATION AU 31 DÉCEMBRE 2024"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 130,
+              "matched_phrase": "etats financiers consolides",
+              "text": "RAPPORT D’AUDIT SUR LES ETATS FINANCIERS CONSOLIDES"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 130,
+              "matched_phrase": "etats financiers consolides",
+              "text": "Nous avons effectué l'audit des états financiers consolidés de la société Cosumar S.A. et de ses"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 130,
+              "matched_phrase": "etats financiers consolides",
+              "text": "Nous certifions que les états financiers consolidés cités au premier paragraphe ci-dessus, sont"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 130,
+              "matched_phrase": "etats financiers consolides",
+              "text": "Responsabilités de l’auditeur à l’égard de l’audit des états financiers consolidés » du présent rapport."
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 130,
+              "matched_phrase": "etats financiers consolides",
+              "text": "l’audit des états financiers consolidés au Maroc et nous nous sommes acquittés des autres"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 130,
+              "matched_phrase": "etats de synthese consolides",
+              "text": "plus importantes dans l’audit des états de synthèse consolidés de la période considérée."
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 130,
+              "matched_phrase": "etats financiers consolides",
+              "text": "nécessaire pour permettre la préparation d'états financiers consolidés exempts d'anomalies"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 130,
+              "matched_phrase": "etats financiers consolides",
+              "text": "Lors de la préparation des états financiers consolidés, c’est à la direction qu’il incombe d’évaluer la"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 130,
+              "matched_phrase": "etats financiers consolides",
+              "text": "Responsabilités de l’auditeur à l’égard de l’audit des états financiers consolidés"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 130,
+              "matched_phrase": "etats financiers consolides",
+              "text": "Nos objectifs sont d’obtenir l’assurance raisonnable que les états financiers consolidés pris dans leur"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 130,
+              "matched_phrase": "etats financiers consolides",
+              "text": "Nous identifions et évaluons les risques que les états financiers consolidés comportent"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 130,
+              "matched_phrase": "etats financiers consolides",
+              "text": "états financiers consolidés, y compris les informations fournies dans les notes, et"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 130,
+              "matched_phrase": "etats financiers consolides",
+              "text": "apprécions si les états financiers consolidés représentent les opérations et événements"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 130,
+              "matched_phrase": "etats financiers consolides",
+              "text": "les états financiers consolidés. Nous sommes responsables de la direction, de la"
+            }
+          ],
+          "caution": "Le périmètre est attaché aux indices et pages; il ne doit pas être appliqué automatiquement à toutes les observations."
+        },
+        "peak_rss_bytes": 2885091328,
+        "peak_rss_measurement": "current isolated worker",
+        "elapsed_seconds": 495.164,
+        "measured_component_seconds": 492.651,
+        "artifacts_sha256": {
+          "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/COSUMAR_RFA_2024_43a21829124f/metadata.json": "e08d489800ae6a2c94d2ca15f5332deeac8bcae7bd274a57ca6560a34d719a7f",
+          "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/ocr_generic/COSUMAR_RFA_2024_43a21829124f/e0ca308dea6d/ocr_metadata.json": "37252b46678a895edc76604686dce93ab1362f950a4c7796030d50b3fe3c43c2",
+          "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/integrated/ammc/COSUMAR_RFA_2024_43a21829124f/unified_document.json": "62f558f7ec26581d0b78d5271b91fa1c3eacf59abc88836eb8270f463ea51e60",
+          "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/quality/ammc/pilot_strict/COSUMAR_RFA_2024_43a21829124f/quality_report.json": "278da7736f1f74f691600ec19e11a3e5e8402ded18e83a53e05a8fdc7d105090"
+        },
+        "pilot_cache_used": true
+      },
+      {
+        "schema_version": "1.1",
+        "pilot_fingerprint": "532fe92b9d0f27b66bb708c9eb5e3c7ede2548642a77fc33f3648576f22031ff",
+        "company_id": "managem",
+        "issuer": "MANAGEM",
+        "exercise_year": 2023,
+        "audit_classification": "TEXT",
+        "source_pdf": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/raw/ammc/pdfs/annual/managem/2023/Managem_RFA_2023.pdf",
+        "source_sha256": "0a1db645858d0c22ecf11467816d15c257b520f13e9f7a44aff0f32b1f035c56",
+        "source_url": "https://www.ammc.ma/sites/default/files/Managem_RFA_2023.pdf",
+        "detail_url": "https://www.ammc.ma/fr/espace-emetteurs/etats-financiers/managem-rfa-2023",
+        "expected_pages": 123,
+        "audit_ocr_pages": [
+          1,
+          112,
+          113,
+          114,
+          115,
+          116,
+          117,
+          118,
+          119,
+          120,
+          121,
+          122
+        ],
+        "selection_score": 171,
+        "pipeline_status": "PARTIAL",
+        "error": null,
+        "stages": {
+          "docling": {
+            "status": "PARTIAL",
+            "elapsed_seconds": 657.319,
+            "conversion_seconds": 657.27,
+            "metadata": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Managem_RFA_2023_0a1db645858d/metadata.json"
+          },
+          "ocr": {
+            "status": "PARSED",
+            "cache_used": false,
+            "elapsed_seconds": 178.73,
+            "duration_seconds": 178.709,
+            "metadata": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/ocr_generic/Managem_RFA_2023_0a1db645858d/e0ca308dea6d/ocr_metadata.json",
+            "audit_requested_pages": [
+              1,
+              112,
+              113,
+              114,
+              115,
+              116,
+              117,
+              118,
+              119,
+              120,
+              121,
+              122
+            ],
+            "parser_requested_pages": [
+              112,
+              114,
+              117,
+              118,
+              119
+            ],
+            "effective_requested_pages": [
+              1,
+              112,
+              113,
+              114,
+              115,
+              116,
+              117,
+              118,
+              119,
+              120,
+              121,
+              122
+            ]
+          },
+          "integration": {
+            "status": "PARTIAL",
+            "cache_used": false,
+            "elapsed_seconds": 0.275,
+            "artifact": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/integrated/ammc/Managem_RFA_2023_0a1db645858d/unified_document.json"
+          },
+          "quality_gate": {
+            "status": "REVIEW_REQUIRED",
+            "cache_used": false,
+            "elapsed_seconds": 0.207,
+            "strict_verified_only": true,
+            "report": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/quality/ammc/pilot_strict/Managem_RFA_2023_0a1db645858d/quality_report.json"
+          }
+        },
+        "metrics": {
+          "pages_processed": 123,
+          "pages_failed": 0,
+          "docling_tables_detected": 139,
+          "docling_tables_non_empty": 127,
+          "docling_invalid_tables": 12,
+          "audit_ocr_pages_requested": 12,
+          "parser_ocr_pages_requested": 5,
+          "ocr_pages_requested": 12,
+          "ocr_pages_processed": 12,
+          "ocr_pages_failed": 0,
+          "ocr_tables_detected": 6,
+          "ocr_tables_non_empty": 6,
+          "integrated_active_tables": 133,
+          "ambiguous_pages": [
+            1,
+            25,
+            26,
+            37,
+            40,
+            49,
+            50,
+            52,
+            62,
+            63,
+            64,
+            65,
+            66,
+            68,
+            69,
+            70,
+            73,
+            74,
+            75,
+            76,
+            77,
+            78,
+            79,
+            80,
+            81,
+            82,
+            84,
+            85,
+            86,
+            96,
+            97,
+            98,
+            99,
+            100,
+            101,
+            102,
+            103,
+            104,
+            105,
+            106,
+            107,
+            108,
+            109,
+            110,
+            112,
+            113,
+            114,
+            115,
+            116,
+            117,
+            118,
+            119,
+            120,
+            121,
+            122
+          ],
+          "ocr_ambiguous_pages": [
+            1,
+            112,
+            113,
+            114,
+            115,
+            116,
+            117,
+            118,
+            119,
+            120,
+            121,
+            122
+          ],
+          "financially_unverified_pages": [
+            25,
+            26,
+            37,
+            40,
+            49,
+            50,
+            52,
+            62,
+            63,
+            64,
+            65,
+            66,
+            68,
+            69,
+            70,
+            73,
+            74,
+            75,
+            76,
+            77,
+            78,
+            79,
+            80,
+            81,
+            82,
+            84,
+            85,
+            86,
+            96,
+            97,
+            98,
+            99,
+            100,
+            101,
+            102,
+            103,
+            104,
+            105,
+            106,
+            107,
+            108,
+            109,
+            110,
+            117,
+            118,
+            119,
+            121
+          ],
+          "table_page_references": 133,
+          "tables_missing_page_reference": 0,
+          "ocr_coordinate_references": 6,
+          "quality_values_total": 3974,
+          "quality_values_verified": 0,
+          "quality_values_review_required": 1306,
+          "quality_values_rejected": 44,
+          "quality_values_not_checked": 2624,
+          "data05_admissible_values": 0
+        },
+        "reporting_scope": {
+          "classification": "MIXED",
+          "confidence": "HIGH",
+          "evidence": [
+            {
+              "scope": "SOCIAL",
+              "page": 2,
+              "matched_phrase": "comptes sociaux",
+              "text": "• Comptes sociaux"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 2,
+              "matched_phrase": "comptes consolides",
+              "text": "• Comptes consolidés"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 2,
+              "matched_phrase": "comptes consolides",
+              "text": "• Résumé des notes aux comptes consolidés"
+            },
+            {
+              "scope": "SOCIAL",
+              "page": 44,
+              "matched_phrase": "comptes sociaux",
+              "text": "- \u0007La méthode d’élaboration des comptes sociaux et consolidés ;"
+            },
+            {
+              "scope": "SOCIAL",
+              "page": 47,
+              "matched_phrase": "comptes sociaux",
+              "text": "Managem - Avis de réunion AGM et comptes sociaux"
+            },
+            {
+              "scope": "SOCIAL",
+              "page": 47,
+              "matched_phrase": "etats financiers sociaux",
+              "text": "Managem - Etats financiers sociaux et consolidés au 30 juin"
+            },
+            {
+              "scope": "SOCIAL",
+              "page": 52,
+              "matched_phrase": "comptes individuels",
+              "text": "comptes individuels et"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 64,
+              "matched_phrase": "perimetre de consolidation",
+              "text": "dans le périmètre de consolidation"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 65,
+              "matched_phrase": "perimetre de consolidation",
+              "text": "globalement dans le périmètre de consolidation"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 66,
+              "matched_phrase": "perimetre de consolidation",
+              "text": "Périmètre de consolidation"
+            },
+            {
+              "scope": "SOCIAL",
+              "page": 68,
+              "matched_phrase": "comptes sociaux",
+              "text": "Comptes sociaux"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 84,
+              "matched_phrase": "comptes consolides",
+              "text": "Comptes consolidés"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 87,
+              "matched_phrase": "perimetre de consolidation",
+              "text": "NOTE 32 : PERIMETRE DE CONSOLIDATION AU 31 DECEMBRE 2023"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 88,
+              "matched_phrase": "etats financiers consolides",
+              "text": "Mobilières (CDVM) du 26 juin 2009, les états financiers consolidés du Groupe sont établis en conformité avec"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 88,
+              "matched_phrase": "comptes consolides",
+              "text": "Les comptes consolidés du groupe ont été arrêtés le 20 Mars 2024 par le conseil d’administration."
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 88,
+              "matched_phrase": "etats financiers consolides",
+              "text": "Le Groupe prend en compte ces amendements pour la présentation de ses états financiers consolidés."
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 88,
+              "matched_phrase": "etats financiers consolides",
+              "text": "ses états financiers consolidés."
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 88,
+              "matched_phrase": "etats financiers consolides",
+              "text": "Cet amendement n’a donc aucun effet sur les états financiers consolidés du Groupe."
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 88,
+              "matched_phrase": "etats financiers consolides",
+              "text": "Les états financiers consolidés sont présentés en millions de dirhams (MDH), arrondis au million le plus proche."
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 88,
+              "matched_phrase": "etats financiers consolides",
+              "text": "L’établissement des états financiers consolidés, en conformité avec les normes comptables internationales en"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 89,
+              "matched_phrase": "perimetre de consolidation",
+              "text": "Groupe en obtient le contrôle, et sont exclues du périmètre de consolidation dès la date à laquelle elles cessent"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 89,
+              "matched_phrase": "perimetre de consolidation",
+              "text": "3.5.3. Exclusions du périmètre de consolidation"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 89,
+              "matched_phrase": "perimetre de consolidation",
+              "text": "Conformément aux dispositions des IFRS, il n’y a pas d’exemption au périmètre de consolidation du Groupe. Les"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 89,
+              "matched_phrase": "comptes consolides",
+              "text": "présentation des comptes consolidés du Groupe."
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 110,
+              "matched_phrase": "perimetre de consolidation",
+              "text": "NOTE 32. PÉRIMÈTRE DE CONSOLIDATION AU 31 DÉCEMBRE 2023"
+            }
+          ],
+          "caution": "Le périmètre est attaché aux indices et pages; il ne doit pas être appliqué automatiquement à toutes les observations."
+        },
+        "peak_rss_bytes": 3110928384,
+        "peak_rss_measurement": "current isolated worker",
+        "elapsed_seconds": 837.879,
+        "measured_component_seconds": 836.461,
+        "artifacts_sha256": {
+          "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Managem_RFA_2023_0a1db645858d/metadata.json": "c767230279402384e52c2387df0e502cc1466b30a643f2bf86910f9ba7abc6e4",
+          "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/ocr_generic/Managem_RFA_2023_0a1db645858d/e0ca308dea6d/ocr_metadata.json": "f90cbf3f63154e947040ad694c10f48026f486357ae483460ad86019f4989cc6",
+          "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/integrated/ammc/Managem_RFA_2023_0a1db645858d/unified_document.json": "787dd408896b2aa874d2e97bc9fb8ec3f6adbea0985dfb2d047dc888e5d8fc7d",
+          "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/quality/ammc/pilot_strict/Managem_RFA_2023_0a1db645858d/quality_report.json": "a5a501af2e7e4055664a452b5e3c65f82397abff4b4b5bf386d41916ed423dc5"
+        },
+        "pilot_cache_used": true
+      },
+      {
+        "schema_version": "1.1",
+        "pilot_fingerprint": "095bd845b191099aecc6401e01202161fa317855bebfa80d0ca686b807631173",
+        "company_id": "marsa_maroc",
+        "issuer": "MARSA MAROC",
+        "exercise_year": 2024,
+        "audit_classification": "TEXT",
+        "source_pdf": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/raw/ammc/pdfs/annual/marsa_maroc/2024/Marsa_Maroc_RFA_2024.pdf",
+        "source_sha256": "544ce1f6baeeb02c3ca69fcaa273bcaf365a78cab2a4f14e8aa45ff256adc4f3",
+        "source_url": "https://www.ammc.ma/sites/default/files/Marsa_Maroc_RFA_2024.pdf",
+        "detail_url": "https://www.ammc.ma/fr/espace-emetteurs/etats-financiers/marsa-maroc-rfa-2024",
+        "expected_pages": 159,
+        "audit_ocr_pages": [
+          1,
+          80,
+          103
+        ],
+        "selection_score": 171,
+        "pipeline_status": "PARTIAL",
+        "error": null,
+        "stages": {
+          "docling": {
+            "status": "PARTIAL",
+            "elapsed_seconds": 528.492,
+            "conversion_seconds": 528.385,
+            "metadata": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Marsa_Maroc_RFA_2024_544ce1f6baee/metadata.json"
+          },
+          "ocr": {
+            "status": "PARSED",
+            "cache_used": false,
+            "elapsed_seconds": 45.05,
+            "duration_seconds": 45.025,
+            "metadata": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/ocr_generic/Marsa_Maroc_RFA_2024_544ce1f6baee/e0ca308dea6d/ocr_metadata.json",
+            "audit_requested_pages": [
+              1,
+              80,
+              103
+            ],
+            "parser_requested_pages": [
+              27,
+              31,
+              39,
+              49,
+              56,
+              64,
+              105,
+              106,
+              107,
+              134
+            ],
+            "effective_requested_pages": [
+              1,
+              27,
+              31,
+              39,
+              49,
+              56,
+              64,
+              80,
+              103,
+              105,
+              106,
+              107,
+              134
+            ]
+          },
+          "integration": {
+            "status": "PARTIAL",
+            "cache_used": false,
+            "elapsed_seconds": 0.25,
+            "artifact": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/integrated/ammc/Marsa_Maroc_RFA_2024_544ce1f6baee/unified_document.json"
+          },
+          "quality_gate": {
+            "status": "REVIEW_REQUIRED",
+            "cache_used": false,
+            "elapsed_seconds": 0.18,
+            "strict_verified_only": true,
+            "report": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/quality/ammc/pilot_strict/Marsa_Maroc_RFA_2024_544ce1f6baee/quality_report.json"
+          }
+        },
+        "metrics": {
+          "pages_processed": 159,
+          "pages_failed": 0,
+          "docling_tables_detected": 100,
+          "docling_tables_non_empty": 99,
+          "docling_invalid_tables": 1,
+          "audit_ocr_pages_requested": 3,
+          "parser_ocr_pages_requested": 10,
+          "ocr_pages_requested": 13,
+          "ocr_pages_processed": 13,
+          "ocr_pages_failed": 0,
+          "ocr_tables_detected": 1,
+          "ocr_tables_non_empty": 1,
+          "integrated_active_tables": 100,
+          "ambiguous_pages": [
+            1,
+            24,
+            27,
+            31,
+            39,
+            49,
+            55,
+            56,
+            64,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74,
+            75,
+            76,
+            77,
+            78,
+            79,
+            80,
+            88,
+            89,
+            90,
+            91,
+            92,
+            95,
+            96,
+            103,
+            104,
+            105,
+            106,
+            107,
+            110,
+            111,
+            112,
+            113,
+            114,
+            115,
+            116,
+            117,
+            118,
+            119,
+            120,
+            124,
+            125,
+            126,
+            127,
+            128,
+            129,
+            130,
+            131,
+            132,
+            133,
+            134,
+            135,
+            136,
+            137,
+            138,
+            139,
+            140,
+            141,
+            155
+          ],
+          "ocr_ambiguous_pages": [
+            1,
+            27,
+            31,
+            39,
+            49,
+            56,
+            64,
+            80,
+            103,
+            105,
+            106,
+            107
+          ],
+          "financially_unverified_pages": [
+            24,
+            55,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74,
+            75,
+            76,
+            77,
+            78,
+            79,
+            88,
+            89,
+            90,
+            91,
+            92,
+            95,
+            96,
+            104,
+            110,
+            111,
+            112,
+            113,
+            114,
+            115,
+            116,
+            117,
+            118,
+            119,
+            120,
+            124,
+            125,
+            126,
+            127,
+            128,
+            129,
+            130,
+            131,
+            132,
+            133,
+            134,
+            135,
+            136,
+            137,
+            138,
+            139,
+            140,
+            141,
+            155
+          ],
+          "table_page_references": 100,
+          "tables_missing_page_reference": 0,
+          "ocr_coordinate_references": 1,
+          "quality_values_total": 2753,
+          "quality_values_verified": 0,
+          "quality_values_review_required": 965,
+          "quality_values_rejected": 62,
+          "quality_values_not_checked": 1726,
+          "data05_admissible_values": 0
+        },
+        "reporting_scope": {
+          "classification": "MIXED",
+          "confidence": "HIGH",
+          "evidence": [
+            {
+              "scope": "CONSOLIDATED",
+              "page": 2,
+              "matched_phrase": "comptes consolides",
+              "text": "109. Comptes consolidés et sociaux"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 54,
+              "matched_phrase": "comptes consolides",
+              "text": "comptes consolidés et le rapport de gestion à"
+            },
+            {
+              "scope": "SOCIAL",
+              "page": 56,
+              "matched_phrase": "comptes sociaux",
+              "text": "Commissaires aux Comptes et il est chargé du suivi du contrôle légal des comptes sociaux et des comptes"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 98,
+              "matched_phrase": "comptes consolides",
+              "text": "arrête les comptes annuels, les comptes consolidés et le"
+            },
+            {
+              "scope": "SOCIAL",
+              "page": 99,
+              "matched_phrase": "comptes sociaux",
+              "text": "contrôle légal des comptes sociaux et des comptes"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 104,
+              "matched_phrase": "perimetre de consolidation",
+              "text": "L’évolution du périmètre de consolidation du groupe Marsa Maroc se présente de la manière suivante :"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 104,
+              "matched_phrase": "perimetre de consolidation",
+              "text": "Périmètre de consolidation"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 109,
+              "matched_phrase": "etats financiers consolides",
+              "text": "1.1. ÉTATS FINANCIERS CONSOLIDÉS DU GROUPE MARSA MAROC"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 109,
+              "matched_phrase": "etats financiers consolides",
+              "text": "ÉTATS FINANCIERS CONSOLIDÉS"
+            },
+            {
+              "scope": "SOCIAL",
+              "page": 109,
+              "matched_phrase": "etats financiers sociaux",
+              "text": "1.3. ÉTATS FINANCIERS SOCIAUX DE SODEP S.A"
+            },
+            {
+              "scope": "SOCIAL",
+              "page": 109,
+              "matched_phrase": "etats financiers sociaux",
+              "text": "ÉTATS FINANCIERS SOCIAUX"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 110,
+              "matched_phrase": "etats financiers consolides",
+              "text": "ÉTATS FINANCIERS CONSOLIDÉS DU GROUPE MARSA MAROC"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 114,
+              "matched_phrase": "comptes consolides",
+              "text": "La monnaie de présentation des comptes consolidés est"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 114,
+              "matched_phrase": "perimetre de consolidation",
+              "text": "Note 2 : Périmètre de consolidation"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 122,
+              "matched_phrase": "etats de synthese consolides",
+              "text": "Nous avons effectué l'audit des états de synthèse consolidés de la SOCIETE D’EXPLOITATION DES"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 122,
+              "matched_phrase": "etats de synthese consolides",
+              "text": "résumé des principales méthodes comptables. Ces états de synthèse consolidés font ressortir un montant"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 122,
+              "matched_phrase": "etats de synthese consolides",
+              "text": "Nous certifions que les états de synthèse consolidés cités au premier paragraphe ci-dessus, sont"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 122,
+              "matched_phrase": "etats de synthese consolides",
+              "text": "de l’auditeur à l’égard de l’audit des états de synthèse consolidés » du présent rapport. Nous sommes"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 122,
+              "matched_phrase": "etats de synthese consolides",
+              "text": "importantes dans l’audit des états de synthèse consolidés de la période considérée. Ces questions ont"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 122,
+              "matched_phrase": "etats de synthese consolides",
+              "text": "été traitées dans le contexte de notre audit des états de synthèse consolidés pris dans leur ensemble et"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 122,
+              "matched_phrase": "etats de synthese consolides",
+              "text": "qu'elle considère comme nécessaire pour permettre la préparation d'états de synthèse consolidés"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 122,
+              "matched_phrase": "etats de synthese consolides",
+              "text": "Lors de la préparation des états de synthèse consolidés, c’est à la direction qu’il incombe d’évaluer la"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 123,
+              "matched_phrase": "etats de synthese consolides",
+              "text": "Responsabilités de l’auditeur à l’égard de l’audit des états de synthèse consolidés"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 123,
+              "matched_phrase": "etats de synthese consolides",
+              "text": "Nos objectifs sont d’obtenir l’assurance raisonnable que les états de synthèse consolidés pris dans leur"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 123,
+              "matched_phrase": "etats de synthese consolides",
+              "text": "sur les décisions économiques que les utilisateurs des états de synthèse consolidés prennent en se"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 123,
+              "matched_phrase": "etats de synthese consolides",
+              "text": "états de synthèse consolidés, y compris les informations fournies dans les notes, et apprécions si"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 123,
+              "matched_phrase": "etats de synthese consolides",
+              "text": "les états de synthèse consolidés représentent les opérations et événements sous-jacents d’une"
+            },
+            {
+              "scope": "SOCIAL",
+              "page": 124,
+              "matched_phrase": "etats financiers sociaux",
+              "text": "ÉTATS FINANCIERS SOCIAUX DE LA SOCIÉTÉ MARSA MAROC"
+            },
+            {
+              "scope": "SOCIAL",
+              "page": 142,
+              "matched_phrase": "etats financiers sociaux",
+              "text": "SUR LES ÉTATS FINANCIERS SOCIAUX"
+            }
+          ],
+          "caution": "Le périmètre est attaché aux indices et pages; il ne doit pas être appliqué automatiquement à toutes les observations."
+        },
+        "peak_rss_bytes": 2534154240,
+        "peak_rss_measurement": "current isolated worker",
+        "elapsed_seconds": 575.96,
+        "measured_component_seconds": 573.84,
+        "artifacts_sha256": {
+          "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Marsa_Maroc_RFA_2024_544ce1f6baee/metadata.json": "bab6b53b0335160693ec3ada008a4ca604e64f0804494afce167b6e94fd37112",
+          "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/ocr_generic/Marsa_Maroc_RFA_2024_544ce1f6baee/e0ca308dea6d/ocr_metadata.json": "efa71e4e9d92149b427ca984896511e15fcd4db00cb717e7d9c6cfc064ad1596",
+          "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/integrated/ammc/Marsa_Maroc_RFA_2024_544ce1f6baee/unified_document.json": "ffd28e306c4d32a4b3e2f83051f0e0f6db53f4306548d32a6d0231f275d60d0b",
+          "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/quality/ammc/pilot_strict/Marsa_Maroc_RFA_2024_544ce1f6baee/quality_report.json": "60b00facdaec67c5977a53d365c2210b7678a40a0130ae3ac5be941dc80f441e"
+        },
+        "pilot_cache_used": true
+      },
+      {
+        "schema_version": "1.1",
+        "pilot_fingerprint": "b65590ef7f1c9ae58ac509197acf67ef8bd0669f5b6e275c8a8fae3add9efaf1",
+        "company_id": "managem",
+        "issuer": "MANAGEM",
+        "exercise_year": 2024,
+        "audit_classification": "TEXT",
+        "source_pdf": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/raw/ammc/pdfs/annual/managem/2024/Managem_RFA_2024.pdf",
+        "source_sha256": "66faa7db8f82d5bd2f03f8fa1e7dcd2a841c7384e9897fbbdec6caa12779e6b9",
+        "source_url": "https://www.ammc.ma/sites/default/files/Managem_RFA_2024.pdf",
+        "detail_url": "https://www.ammc.ma/fr/espace-emetteurs/etats-financiers/managem-rfa-2024",
+        "expected_pages": 117,
+        "audit_ocr_pages": [
+          1,
+          6,
+          13,
+          21,
+          23,
+          25,
+          36,
+          39,
+          43,
+          51,
+          52,
+          66,
+          81,
+          105
+        ],
+        "selection_score": 173,
+        "pipeline_status": "PARTIAL",
+        "error": null,
+        "stages": {
+          "docling": {
+            "status": "PARTIAL",
+            "elapsed_seconds": 694.393,
+            "conversion_seconds": 694.321,
+            "metadata": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Managem_RFA_2024_66faa7db8f82/metadata.json"
+          },
+          "ocr": {
+            "status": "PARSED",
+            "cache_used": false,
+            "elapsed_seconds": 154.304,
+            "duration_seconds": 154.286,
+            "metadata": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/ocr_generic/Managem_RFA_2024_66faa7db8f82/e0ca308dea6d/ocr_metadata.json",
+            "audit_requested_pages": [
+              1,
+              6,
+              13,
+              21,
+              23,
+              25,
+              36,
+              39,
+              43,
+              51,
+              52,
+              66,
+              81,
+              105
+            ],
+            "parser_requested_pages": [
+              3,
+              14,
+              66,
+              106,
+              108,
+              111,
+              112,
+              113
+            ],
+            "effective_requested_pages": [
+              1,
+              3,
+              6,
+              13,
+              14,
+              21,
+              23,
+              25,
+              36,
+              39,
+              43,
+              51,
+              52,
+              66,
+              81,
+              105,
+              106,
+              108,
+              111,
+              112,
+              113
+            ]
+          },
+          "integration": {
+            "status": "PARTIAL",
+            "cache_used": false,
+            "elapsed_seconds": 0.308,
+            "artifact": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/integrated/ammc/Managem_RFA_2024_66faa7db8f82/unified_document.json"
+          },
+          "quality_gate": {
+            "status": "REVIEW_REQUIRED",
+            "cache_used": false,
+            "elapsed_seconds": 0.221,
+            "strict_verified_only": true,
+            "report": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/quality/ammc/pilot_strict/Managem_RFA_2024_66faa7db8f82/quality_report.json"
+          }
+        },
+        "metrics": {
+          "pages_processed": 117,
+          "pages_failed": 0,
+          "docling_tables_detected": 140,
+          "docling_tables_non_empty": 128,
+          "docling_invalid_tables": 12,
+          "audit_ocr_pages_requested": 14,
+          "parser_ocr_pages_requested": 8,
+          "ocr_pages_requested": 21,
+          "ocr_pages_processed": 21,
+          "ocr_pages_failed": 0,
+          "ocr_tables_detected": 1,
+          "ocr_tables_non_empty": 1,
+          "integrated_active_tables": 129,
+          "ambiguous_pages": [
+            1,
+            3,
+            6,
+            13,
+            14,
+            21,
+            23,
+            25,
+            33,
+            34,
+            36,
+            39,
+            42,
+            43,
+            44,
+            45,
+            49,
+            50,
+            51,
+            52,
+            56,
+            60,
+            61,
+            62,
+            63,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            71,
+            72,
+            73,
+            74,
+            75,
+            76,
+            77,
+            78,
+            79,
+            80,
+            81,
+            82,
+            83,
+            84,
+            92,
+            93,
+            94,
+            95,
+            96,
+            97,
+            98,
+            99,
+            100,
+            101,
+            102,
+            103,
+            104,
+            105,
+            106,
+            108,
+            111,
+            112,
+            113
+          ],
+          "ocr_ambiguous_pages": [
+            1,
+            3,
+            6,
+            13,
+            14,
+            21,
+            23,
+            25,
+            36,
+            39,
+            43,
+            51,
+            52,
+            66,
+            81,
+            105,
+            106,
+            108,
+            111,
+            112,
+            113
+          ],
+          "financially_unverified_pages": [
+            33,
+            34,
+            42,
+            44,
+            45,
+            49,
+            50,
+            56,
+            60,
+            61,
+            62,
+            63,
+            64,
+            65,
+            67,
+            68,
+            69,
+            71,
+            72,
+            73,
+            74,
+            75,
+            76,
+            77,
+            78,
+            79,
+            80,
+            82,
+            83,
+            84,
+            92,
+            93,
+            94,
+            95,
+            96,
+            97,
+            98,
+            99,
+            100,
+            101,
+            102,
+            103,
+            104,
+            111
+          ],
+          "table_page_references": 129,
+          "tables_missing_page_reference": 0,
+          "ocr_coordinate_references": 1,
+          "quality_values_total": 3809,
+          "quality_values_verified": 0,
+          "quality_values_review_required": 924,
+          "quality_values_rejected": 61,
+          "quality_values_not_checked": 2824,
+          "data05_admissible_values": 0
+        },
+        "reporting_scope": {
+          "classification": "MIXED",
+          "confidence": "HIGH",
+          "evidence": [
+            {
+              "scope": "SOCIAL",
+              "page": 3,
+              "matched_phrase": "comptes sociaux",
+              "text": "Comptes sociaux"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 3,
+              "matched_phrase": "comptes consolides",
+              "text": "Comptes consolidés"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 3,
+              "matched_phrase": "comptes consolides",
+              "text": "Résumé des notes aux comptes consolidés"
+            },
+            {
+              "scope": "SOCIAL",
+              "page": 46,
+              "matched_phrase": "comptes sociaux",
+              "text": "• \u0007La méthode d’élaboration des comptes sociaux et consolidés ;"
+            },
+            {
+              "scope": "SOCIAL",
+              "page": 48,
+              "matched_phrase": "comptes sociaux",
+              "text": "Managem - Comptes sociaux et comptes consolidés 2023"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 48,
+              "matched_phrase": "comptes consolides",
+              "text": "Managem - Comptes sociaux et comptes consolidés 2023"
+            },
+            {
+              "scope": "SOCIAL",
+              "page": 50,
+              "matched_phrase": "comptes individuels",
+              "text": "Certification, Examen des comptes individuels"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 64,
+              "matched_phrase": "perimetre de consolidation",
+              "text": "le périmètre de consolidation"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 65,
+              "matched_phrase": "perimetre de consolidation",
+              "text": "Périmètre de consolidation"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 85,
+              "matched_phrase": "etats financiers consolides",
+              "text": "Marocaine du Marché des Capitaux), version du 20 février 2019, les états financiers consolidés du Groupe MANAGEM"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 85,
+              "matched_phrase": "comptes consolides",
+              "text": "Les comptes consolidés du groupe ont été arrêtés le 26 Mars 2024 par le conseil d’administration."
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 85,
+              "matched_phrase": "perimetre de consolidation",
+              "text": "NOTE 33 : PÉRIMETRE DE CONSOLIDATION AU 31 DECEMBRE 2024"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 86,
+              "matched_phrase": "perimetre de consolidation",
+              "text": "Groupe en obtient le contrôle, et sont exclues du périmètre de consolidation dès la date à laquelle elles cessent"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 86,
+              "matched_phrase": "etats financiers consolides",
+              "text": "Les états financiers consolidés sont présentés en millions de dirhams (MDH), arrondis au million le plus proche."
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 86,
+              "matched_phrase": "etats financiers consolides",
+              "text": "L’établissement des états financiers consolidés, en conformité avec les normes comptables internationales en"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 87,
+              "matched_phrase": "perimetre de consolidation",
+              "text": "3.5.3. Exclusions du périmètre de consolidation"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 87,
+              "matched_phrase": "perimetre de consolidation",
+              "text": "Conformément aux dispositions des IFRS, il n’y a pas d’exemption au périmètre de consolidation du Groupe. Les"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 87,
+              "matched_phrase": "comptes consolides",
+              "text": "présentation des comptes consolidés du Groupe."
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 93,
+              "matched_phrase": "comptes consolides",
+              "text": "Cette transaction s’est traduite dans les comptes consolidés à fin décembre 2024 par un écart d’acquisition"
+            },
+            {
+              "scope": "CONSOLIDATED",
+              "page": 104,
+              "matched_phrase": "perimetre de consolidation",
+              "text": "NOTE 33 : PERIMETRE DE CONSOLIDATION"
+            }
+          ],
+          "caution": "Le périmètre est attaché aux indices et pages; il ne doit pas être appliqué automatiquement à toutes les observations."
+        },
+        "peak_rss_bytes": 3001921536,
+        "peak_rss_measurement": "current isolated worker",
+        "elapsed_seconds": 851.227,
+        "measured_component_seconds": 849.136,
+        "artifacts_sha256": {
+          "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Managem_RFA_2024_66faa7db8f82/metadata.json": "bc3fc83a24225e2ab2d61747b574f1a50dc19daee42600356caf9e77398adccf",
+          "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/ocr_generic/Managem_RFA_2024_66faa7db8f82/e0ca308dea6d/ocr_metadata.json": "47a91c3833d4dc7e14e2107316a07f7e566543f01a721cd936c94485c27e6280",
+          "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/integrated/ammc/Managem_RFA_2024_66faa7db8f82/unified_document.json": "e8cd1da632fd24a66b0afc65b2708bb4c4e87324da0f03f88fc8e509613eeb01",
+          "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/quality/ammc/pilot_strict/Managem_RFA_2024_66faa7db8f82/quality_report.json": "e6d5983e6b9bcfd8e6944d993a06e914af40d20a7b5dff5d71620c602f0f325e"
+        },
+        "pilot_cache_used": true
+      }
+    ]
+  },
+  "quality_gate": {
+    "candidate_values": 29102,
+    "candidate_statuses": {
+      "VERIFIED": 21,
+      "REVIEW_REQUIRED": 9330,
+      "REJECTED": 375,
+      "NOT_CHECKED": 19376
+    },
+    "sample_candidates_examined": 22,
+    "reliable_references": 21,
+    "new_verified": 21,
+    "verified_period_roles": {
+      "CURRENT": 21
+    },
+    "manual_review_dossiers": 10,
+    "downstream_allowed_statuses": [
+      "VERIFIED"
+    ],
+    "non_verified_leak_count": 0
+  },
+  "corpus_coverage": {
+    "before": {
+      "documents": 18,
+      "companies": 8,
+      "verified_observations": 55
+    },
+    "after": {
+      "documents": 28,
+      "companies": 13,
+      "verified_observations": 76
+    },
+    "annual_corpus_documents": 45,
+    "document_coverage_percent": 62.2
+  },
+  "cache": {
+    "resume_requested": true,
+    "all_ten_pipeline_results_reused": true,
+    "artifact_hashes_validated_by_resume": true
+  },
+  "integrity": {
+    "manifest_unchanged": true,
+    "source_pdfs_unchanged": true,
+    "warehouse_unchanged": true,
+    "streamlit_unchanged": true,
+    "macro_and_warehouse_sources_unchanged": true,
+    "prior_mission_artifacts_unchanged": true,
+    "warehouse_sha256": "c94ed17ec6e65196c53127ea8e904dfbb5ef3d5d17f8a659d341e5f7bd4a0089"
+  },
+  "open_issues": [
+    "Les dix statuts documentaires restent PARTIAL.",
+    "Cinq OCR ciblés n'ont produit aucune table exploitable; les tables Docling n'ont pas été remplacées.",
+    "L'unité du bilan Marsa Maroc page 110 reste à confirmer avant toute admission downstream.",
+    "Les valeurs non comparées directement au PDF restent exclues de l'export VERIFIED."
+  ],
+  "next_batch_proposal": [
+    [
+      "sonasid",
+      2024
+    ],
+    [
+      "managem",
+      2025
+    ],
+    [
+      "sonasid",
+      2023
+    ],
+    [
+      "cosumar",
+      2025
+    ],
+    [
+      "marsa_maroc",
+      2025
+    ],
+    [
+      "marsa_maroc",
+      2023
+    ],
+    [
+      "sothema",
+      2023
+    ],
+    [
+      "stroc",
+      2023
+    ],
+    [
+      "stroc",
+      2024
+    ],
+    [
+      "stroc",
+      2025
+    ]
+  ],
+  "outputs": {
+    "candidates": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/quality/ammc/data_04_15/candidate_observations.jsonl",
+    "verified_csv": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/quality/ammc/data_04_15/verified_financial_observations.csv",
+    "verified_jsonl": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/quality/ammc/data_04_15/verified_financial_observations.jsonl",
+    "reviews": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/quality/ammc/data_04_15/review_dossiers/review_dossiers.json",
+    "errors": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/quality/ammc/data_04_15/error_summary.csv",
+    "coverage_extension": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/quality/ammc/data_04_15/financial_coverage_extension.csv",
+    "coverage_after": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/quality/ammc/data_04_15/financial_coverage_after.csv"
+  },
+  "duckdb_ingestion_performed": false,
+  "qwen_integration_performed": false,
+  "remaining_corpus_processed": false
+}

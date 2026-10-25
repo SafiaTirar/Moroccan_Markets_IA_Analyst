@@ -1,0 +1,730 @@
+{
+  "page": 112,
+  "bbox": [
+    0.0,
+    0.0,
+    595.4400024414062,
+    842.0399780273438
+  ],
+  "source": "embedded_image",
+  "source_id": "xref:346:1",
+  "name": null,
+  "image_size": [
+    2481,
+    3509
+  ],
+  "attempts": [
+    {
+      "psm": 6,
+      "score": 234,
+      "amount_count": 23,
+      "keyword_count": 2,
+      "rows": 18,
+      "multi_value_rows": 5,
+      "labeled_rows": 18
+    },
+    {
+      "psm": 11,
+      "score": 53,
+      "amount_count": 23,
+      "keyword_count": 2,
+      "rows": 23,
+      "multi_value_rows": 0,
+      "labeled_rows": 13
+    }
+  ],
+  "selected_psm": 6,
+  "column_right_ratios": [
+    0.48603673633903377,
+    0.6066908504635229,
+    0.7377065699314792,
+    0.86062071745264
+  ],
+  "rows": [
+    {
+      "label": "Gazber % Intégration globale",
+      "cells": [
+        {
+          "column": "value_1",
+          "value": "100,00",
+          "bbox": [
+            260.64000106866877,
+            133.1810167583858,
+            289.2000011857696,
+            142.53968280086696
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Ouargaz % Intégration globale",
+      "cells": [
+        {
+          "column": "value_1",
+          "value": "100,00",
+          "bbox": [
+            260.8800010696528,
+            145.65923814836069,
+            289.2000011857696,
+            155.25786998680292
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Mahatta % Intégration globale",
+      "cells": [
+        {
+          "column": "value_1",
+          "value": "100,00",
+          "bbox": [
+            260.8800010696528,
+            158.37742533429662,
+            289.4400011867537,
+            167.73609137677778
+          ]
+        }
+      ]
+    },
+    {
+      "label": "SEJ % Mise en équivalence",
+      "cells": [
+        {
+          "column": "value_1",
+          "value": "50,00",
+          "bbox": [
+            265.6800010893336,
+            170.8556467242715,
+            289.4400011867537,
+            180.45427856271374
+          ]
+        }
+      ]
+    },
+    {
+      "label": "SDH % Mise en équivalence",
+      "cells": [
+        {
+          "column": "value_1",
+          "value": "33,33",
+          "bbox": [
+            265.6800010893336,
+            183.57383391020744,
+            288.72000118380157,
+            192.93249995268863
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Salam Gaz % Mise en équivalence",
+      "cells": [
+        {
+          "column": "value_1",
+          "value": "20,00",
+          "bbox": [
+            265.6800010893336,
+            196.05205530018233,
+            289.92000118872176,
+            205.65068713862456
+          ]
+        }
+      ]
+    },
+    {
+      "label": "TEMRDA % Intégration globale",
+      "cells": [
+        {
+          "column": "value_1",
+          "value": "100,00",
+          "bbox": [
+            261.36000107162084,
+            208.7702424861183,
+            289.92000118872176,
+            218.12890852859945
+          ]
+        }
+      ]
+    },
+    {
+      "label": "L'activité du centre emplisseur de Gazber a généré un résultat net bénéficiaire de k MAD.",
+      "cells": [
+        {
+          "column": "value_3",
+          "value": "6 980",
+          "bbox": [
+            421.92000172994443,
+            276.2006311511749,
+            445.6800018273645,
+            284.1195024178897
+          ]
+        }
+      ]
+    },
+    {
+      "label": "L'activité du centre emplisseur d’Ouargaz a généré un résultat net bénéficiaire de k MAD.",
+      "cells": [
+        {
+          "column": "value_3",
+          "value": "2 456",
+          "bbox": [
+            423.3600017358487,
+            294.4380316442151,
+            447.60000183523687,
+            302.35690291092993
+          ]
+        }
+      ]
+    },
+    {
+      "label": "L'activité du dépôt de stockage de SEJ a généré un résultat net bénéficiaire de k MAD.",
+      "cells": [
+        {
+          "column": "value_3",
+          "value": "12 624",
+          "bbox": [
+            410.1600016817264,
+            344.5908830000757,
+            438.4800017978433,
+            352.50975426679054
+          ]
+        }
+      ]
+    },
+    {
+      "label": "L'activité du dépôt de stockage de SDH a généré un résultat net bénéficiaire k MAD.",
+      "cells": [
+        {
+          "column": "value_3",
+          "value": "2 200",
+          "bbox": [
+            401.04000164433285,
+            363.308215085038,
+            425.280001743721,
+            371.22708635175286
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Salam Gaz ont généré un résultat net bénéficiaire de k MAD.",
+      "cells": [
+        {
+          "column": "value_2",
+          "value": "242 471",
+          "bbox": [
+            295.9200012133228,
+            395.94356333574154,
+            329.7600013520726,
+            403.62246880649536
+          ]
+        }
+      ]
+    },
+    {
+      "label": "La société TEMRDA n’a pas eu d’activité en 2024. Son résultat net déficitaire s’élève à k MAD",
+      "cells": [
+        {
+          "column": "value_4",
+          "value": "-2 994",
+          "bbox": [
+            452.16000185393364,
+            412.5012032570544,
+            480.0000019680824,
+            420.42007452376924
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Total du bilan",
+      "cells": [
+        {
+          "column": "value_2",
+          "value": "8 626 380",
+          "bbox": [
+            318.24000130483864,
+            573.0383207550005,
+            361.200001480982,
+            581.1971578176764
+          ]
+        },
+        {
+          "column": "value_4",
+          "value": "9 273 203",
+          "bbox": [
+            468.9600019228165,
+            571.5985259792342,
+            511.92000209895986,
+            579.75736304191
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Capitaux propres - part du",
+      "cells": [
+        {
+          "column": "value_2",
+          "value": "2 745 769",
+          "bbox": [
+            317.76000130287053,
+            585.7565079409364,
+            361.200001480982,
+            593.6753792076513
+          ]
+        },
+        {
+          "column": "value_4",
+          "value": "2 315 933",
+          "bbox": [
+            468.7200019218325,
+            584.3167131651701,
+            511.92000209895986,
+            592.235584431885
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Chiffre d’affaires",
+      "cells": [
+        {
+          "column": "value_2",
+          "value": "16 751 842",
+          "bbox": [
+            313.6800012861419,
+            611.1928823128084,
+            361.200001480982,
+            619.1117535795232
+          ]
+        },
+        {
+          "column": "value_4",
+          "value": "16 933 420",
+          "bbox": [
+            464.8800019060878,
+            609.753087537042,
+            512.640002101912,
+            617.6719588037569
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Résultat opérationnel courant",
+      "cells": [
+        {
+          "column": "value_2",
+          "value": "1 340 300",
+          "bbox": [
+            319.4400013097588,
+            623.4311379068222,
+            361.440001481966,
+            631.589974969498
+          ]
+        },
+        {
+          "column": "value_4",
+          "value": "419 295",
+          "bbox": [
+            477.36000195725796,
+            621.9913431310558,
+            512.640002101912,
+            630.1501801937318
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Résultat net (part du groupe)",
+      "cells": [
+        {
+          "column": "value_2",
+          "value": "934 195",
+          "bbox": [
+            326.400001338296,
+            636.1493250927581,
+            361.200001480982,
+            644.068196359473
+          ]
+        },
+        {
+          "column": "value_4",
+          "value": "50 250",
+          "bbox": [
+            483.600001982843,
+            634.7095303169917,
+            513.1200021038801,
+            642.6284015837066
+          ]
+        }
+      ]
+    }
+  ],
+  "raw_lines": [
+    {
+      "text": "Annexe HI",
+      "bbox": [
+        261.36000107162084,
+        51.11271453970482,
+        311.7600012782695,
+        59.03158580641965
+      ]
+    },
+    {
+      "text": "Rapport de gestion Groupe",
+      "bbox": [
+        222.9600009141743,
+        63.35097013371865,
+        350.40000143670017,
+        74.62936254388826
+      ]
+    },
+    {
+      "text": "Le périmétre de consolidation est le suivant au 31 décembre 2024 :",
+      "bbox": [
+        59.76000024502626,
+        101.50553169152647,
+        354.0000014514608,
+        114.46368467342347
+      ]
+    },
+    {
+      "text": "Société % de contrôle Méthode de consolidation",
+      "bbox": [
+        60.24000024699434,
+        118.30313740880035,
+        478.0800019602101,
+        130.78135879877524
+      ]
+    },
+    {
+      "text": "Gazber 100,00 % Intégration globale",
+      "bbox": [
+        60.48000024797838,
+        131.0213245947363,
+        462.24000189526333,
+        146.85906712816598
+      ]
+    },
+    {
+      "text": "Ouargaz 100,00 % Intégration globale",
+      "bbox": [
+        60.48000024797838,
+        143.49954598471118,
+        462.24000189526333,
+        159.5772543141019
+      ]
+    },
+    {
+      "text": "Mahatta 100,00 % Intégration globale",
+      "bbox": [
+        60.48000024797838,
+        156.21773317064714,
+        462.72000189723144,
+        172.0554757040768
+      ]
+    },
+    {
+      "text": "SEJ 50,00 % Mise en équivalence",
+      "bbox": [
+        61.20000025093051,
+        169.17588615254414,
+        469.92000192675266,
+        181.41414174655796
+      ]
+    },
+    {
+      "text": "SDH 33,33 % Mise en équivalence",
+      "bbox": [
+        61.20000025093051,
+        181.41414174655796,
+        469.92000192675266,
+        194.1323289324939
+      ]
+    },
+    {
+      "text": "Salam Gaz 20,00 % Mise en équivalence",
+      "bbox": [
+        61.20000025093051,
+        194.1323289324939,
+        469.92000192675266,
+        206.61055032246878
+      ]
+    },
+    {
+      "text": "TEMRDA 100,00 % Intégration globale",
+      "bbox": [
+        60.72000024896242,
+        206.61055032246878,
+        462.96000189821547,
+        222.20832705993737
+      ]
+    },
+    {
+      "text": "1. Activités et résultats des sociétés consolidées",
+      "bbox": [
+        79.92000032768571,
+        246.68483824796505,
+        304.0800012467802,
+        256.7634016783294
+      ]
+    },
+    {
+      "text": "L'activité du centre emplisseur de Gazber a généré un résultat net bénéficiaire de 6 980 k MAD.",
+      "bbox": [
+        61.92000025388263,
+        275.72069955925275,
+        485.2800019897313,
+        289.39874992903293
+      ]
+    },
+    {
+      "text": "L'activité du centre emplisseur d’Ouargaz a généré un résultat net bénéficiaire de 2 456 k MAD.",
+      "bbox": [
+        61.92000025388263,
+        294.19806584825403,
+        486.7200019956355,
+        307.8761162180342
+      ]
+    },
+    {
+      "text": "L'activité de gestion directe des stations-services de la Société par Mahatta a généré un résultat net",
+      "bbox": [
+        62.160000254866674,
+        312.4354663412943,
+        516.2400021166726,
+        326.8334140989576
+      ]
+    },
+    {
+      "text": "bénéficiaire de 996 k MAD.",
+      "bbox": [
+        62.40000025585071,
+        328.99310626260706,
+        185.52000076066386,
+        337.6318749172051
+      ]
+    },
+    {
+      "text": "L'activité du dépôt de stockage de SEJ a généré un résultat net bénéficiaire de 12 624 k MAD.",
+      "bbox": [
+        62.64000025683475,
+        344.1109514081536,
+        478.0800019602101,
+        358.26893336985586
+      ]
+    },
+    {
+      "text": "L'activité du dépôt de stockage de SDH a généré un résultat net bénéficiaire 2 200 k MAD.",
+      "bbox": [
+        62.64000025683475,
+        362.8282834931159,
+        464.40000190411973,
+        377.4661970467403
+      ]
+    },
+    {
+      "text": "Les activités d’approvisionnement, logistique, stockage et transport, emplissage de gaz conditionné de",
+      "bbox": [
+        62.64000025683475,
+        380.585752394234,
+        516.7200021186407,
+        394.9837001518973
+      ]
+    },
+    {
+      "text": "Salam Gaz ont généré un résultat net bénéficiaire de 242 471 k MAD.",
+      "bbox": [
+        63.36000025978688,
+        395.2236659478584,
+        369.8400015164075,
+        407.9418531337943
+      ]
+    },
+    {
+      "text": "La société TEMRDA n’a pas eu d’activité en 2024. Son résultat net déficitaire s’élève à -2 994 k MAD",
+      "bbox": [
+        62.88000025781879,
+        412.26123746109334,
+        516.7200021186407,
+        425.4593562389514
+      ]
+    },
+    {
+      "text": "2. Résultats consolidés",
+      "bbox": [
+        81.36000033358997,
+        452.57549118255065,
+        192.96000079116914,
+        461.2142598371487
+      ]
+    },
+    {
+      "text": "Les comptes consolidés annuels de l’exercice clos le 31 décembre 2024, établis conformément à la",
+      "bbox": [
+        63.36000025978688,
+        474.41237861500673,
+        518.1600021245449,
+        488.81032637267003
+      ]
+    },
+    {
+      "text": "réglementation en vigueur, ne comportent aucune modification, que ce soit au niveau de la présentation",
+      "bbox": [
+        63.60000026077092,
+        487.13056580094263,
+        517.4400021215928,
+        501.528513558606
+      ]
+    },
+    {
+      "text": "des comptes ou à celui des méthodes d’évaluation, par rapport à ceux de l’exercice précédent.",
+      "bbox": [
+        63.60000026077092,
+        500.32868457880073,
+        475.6800019503697,
+        514.0067349485809
+      ]
+    },
+    {
+      "text": "Les chiffres significatifs de l’exercice en normes IFRS pour la Compagnie TotalEnergies Marketing",
+      "bbox": [
+        63.60000026077092,
+        518.3261192758798,
+        518.1600021245449,
+        532.00416964566
+      ]
+    },
+    {
+      "text": "Maroc sont les suivants :",
+      "bbox": [
+        64.080000262739,
+        534.6437934012316,
+        172.80000070850966,
+        542.8026304639076
+      ]
+    },
+    {
+      "text": "En k MAD Au 31/12/2024 Au 31/12/2023",
+      "bbox": [
+        114.00000046741957,
+        555.7607834458046,
+        511.92000209895986,
+        567.0391758559741
+      ]
+    },
+    {
+      "text": "Total du bilan 8 626 380 9 273 203",
+      "bbox": [
+        69.36000028438791,
+        571.5985259792342,
+        511.92000209895986,
+        583.3568499813259
+      ]
+    },
+    {
+      "text": "Capitaux propres - part du 2 745 769 2 315 933",
+      "bbox": [
+        69.84000028635599,
+        584.3167131651701,
+        511.92000209895986,
+        598.4746951268723
+      ]
+    },
+    {
+      "text": "groupe (Résultat inclus)",
+      "bbox": [
+        69.84000028635599,
+        600.1544556985998,
+        175.4400007193341,
+        610.9529165168473
+      ]
+    },
+    {
+      "text": "Chiffre d’affaires 16 751 842 16 933 420",
+      "bbox": [
+        69.84000028635599,
+        609.753087537042,
+        512.640002101912,
+        621.0314799472117
+      ]
+    },
+    {
+      "text": "Résultat opérationnel courant 1 340 300 419 295",
+      "bbox": [
+        70.08000028734003,
+        621.9913431310558,
+        512.640002101912,
+        635.9093592967971
+      ]
+    },
+    {
+      "text": "Résultat net (part du groupe) 934 195 50 250",
+      "bbox": [
+        69.84000028635599,
+        634.7095303169917,
+        513.1200021038801,
+        648.1476148908109
+      ]
+    },
+    {
+      "text": "a. Quargaz S.A.",
+      "bbox": [
+        119.04000048808443,
+        675.7436814263323,
+        192.00000078723295,
+        683.6625526930471
+      ]
+    },
+    {
+      "text": "Les comptes annuels de l’exercice clos le 31 décembre 2024, établis conformément à la réglementation",
+      "bbox": [
+        65.2800002676592,
+        697.5805688587883,
+        519.1200021284811,
+        711.7385508204906
+      ]
+    },
+    {
+      "text": "en vigueur, ne comportent aucune modification, que ce soit au niveau de la présentation des comptes ou",
+      "bbox": [
+        65.52000026864324,
+        711.0186534326074,
+        519.1200021284811,
+        724.4567380064266
+      ]
+    },
+    {
+      "text": "à celui des méthodes d’évaluation, par rapport à ceux de l’exercice précédent.",
+      "bbox": [
+        65.52000026864324,
+        724.4567380064266,
+        406.5600016669658,
+        736.2150620085182
+      ]
+    },
+    {
+      "text": "Les chiffres significatifs de l’exercice sont les suivants :",
+      "bbox": [
+        65.76000026962728,
+        744.1339332752331,
+        311.5200012772855,
+        755.4123256854027
+      ]
+    },
+    {
+      "text": "13",
+      "bbox": [
+        289.2000011857696,
+        783.9682554047683,
+        296.6400012162749,
+        790.9272634876389
+      ]
+    }
+  ],
+  "amount_count": 23,
+  "multi_value_row_count": 5,
+  "labeled_row_count": 18
+}

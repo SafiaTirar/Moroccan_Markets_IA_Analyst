@@ -1,0 +1,415 @@
+{
+  "schema_version": "1.0",
+  "documents": [
+    {
+      "company_id": "auto_hall",
+      "issuer": "AUTO HALL",
+      "exercise_year": 2024,
+      "source_pdf": "data/raw/ammc/pdfs/annual/auto_hall/2024/AutoHall_RFA_2024.pdf",
+      "source_pdf_sha256": "8607fb17c773ba52dab858b20a2c1f62ae28d1393ba8c53195d39083d9ff5f6c",
+      "integrated_document": "data/integrated/ammc/AutoHall_RFA_2024_8607fb17c773/unified_document.json",
+      "document_evidence": {
+        "identity": {"mode": "TEXT_SEARCH", "page_number": 55, "quote": "Présentation d'AUTO HALL"},
+        "exercise": {"mode": "TEXT_SEARCH", "page_number": 55, "quote": "31 décembre 2024"},
+        "scope": {"mode": "TEXT_SEARCH", "page_number": 55, "quote": "Comptes consolidés"},
+        "unit": {"mode": "TEXT_SEARCH", "page_number": 55, "quote": "ACTIF (En dirhams)"}
+      },
+      "observations": [
+        {
+          "reference_id": "auto-hall-rfa-2024-consolidated-total-assets",
+          "indicator": "TOTAL_ASSETS",
+          "table_id": "DOCLING_079",
+          "selector": {"table_id": "DOCLING_079", "label": "TOTAL ACTIF", "column": "", "page": [55]},
+          "source_label": "TOTAL ACTIF",
+          "reference_value": "6313507887.33",
+          "normalized_value": "6313507887.33",
+          "currency": "MAD",
+          "unit": "MAD",
+          "scale": 1,
+          "accounting_perimeter": "CONSOLIDATED",
+          "period": "2024",
+          "page_number": 55,
+          "reliable": true,
+          "expected_status": "VERIFIED",
+          "verification_method": "DIRECT_PDF_TEXT_AND_VISUAL_COMPARISON",
+          "verification_evidence": [
+            {"mode": "TEXT_SEARCH", "page_number": 55, "quote": "TOTAL ACTIF"},
+            {"mode": "VISUAL_REGION", "page_number": 55, "bbox": [40, 100, 580, 430]}
+          ]
+        },
+        {
+          "reference_id": "auto-hall-rfa-2024-consolidated-equity",
+          "indicator": "EQUITY",
+          "table_id": "DOCLING_080",
+          "selector": {"table_id": "DOCLING_080", "label": "Capitaux propres", "column": "1", "page": [55]},
+          "source_label": "Capitaux propres",
+          "reference_value": "1458514079.08",
+          "normalized_value": "1458514079.08",
+          "currency": "MAD",
+          "unit": "MAD",
+          "scale": 1,
+          "accounting_perimeter": "CONSOLIDATED",
+          "period": "2024",
+          "page_number": 55,
+          "reliable": true,
+          "expected_status": "VERIFIED",
+          "verification_method": "DIRECT_PDF_TEXT_AND_VISUAL_COMPARISON",
+          "verification_evidence": [
+            {"mode": "TEXT_SEARCH", "page_number": 55, "quote": "Capitaux propres"},
+            {"mode": "VISUAL_REGION", "page_number": 55, "bbox": [40, 390, 580, 790]}
+          ]
+        },
+        {
+          "reference_id": "auto-hall-rfa-2024-consolidated-net-income",
+          "indicator": "NET_INCOME",
+          "table_id": "DOCLING_081",
+          "selector": {"table_id": "DOCLING_081", "label": "RÉSULTAT NET CONSOLIDÉ", "column": "", "page": [55]},
+          "source_label": "RÉSULTAT NET CONSOLIDÉ",
+          "reference_value": "17092037.28",
+          "normalized_value": "17092037.28",
+          "currency": "MAD",
+          "unit": "MAD",
+          "scale": 1,
+          "accounting_perimeter": "CONSOLIDATED",
+          "period": "2024",
+          "page_number": 55,
+          "reliable": true,
+          "expected_status": "VERIFIED",
+          "verification_method": "DIRECT_PDF_TEXT_AND_VISUAL_COMPARISON",
+          "verification_evidence": [
+            {"mode": "TEXT_SEARCH", "page_number": 55, "quote": "RÉSULTAT NET CONSOLIDÉ"},
+            {"mode": "VISUAL_REGION", "page_number": 55, "bbox": [640, 100, 1150, 570]}
+          ]
+        }
+      ]
+    },
+    {
+      "company_id": "s2m",
+      "issuer": "S2M",
+      "exercise_year": 2023,
+      "source_pdf": "data/raw/ammc/pdfs/annual/s2m/2023/S2M_RFA_2023.pdf",
+      "source_pdf_sha256": "68e56d7ffffb013dd7bdb8269f0a091c29c46fb5ee7036154824c0aba300c78b",
+      "integrated_document": "data/integrated/ammc/S2M_RFA_2023_68e56d7ffffb/unified_document.json",
+      "document_evidence": {
+        "identity": {"mode": "TEXT_SEARCH", "page_number": 2, "quote": "Société Maghrébine de Monétique (S2M)"},
+        "exercise": {"mode": "TEXT_SEARCH", "page_number": 38, "quote": "31 décembre 2023"},
+        "scope": {"mode": "TEXT_SEARCH", "page_number": 47, "quote": "Compte de résultat consolidé"},
+        "unit": {"mode": "TEXT_SEARCH", "page_number": 47, "quote": "En MAD"}
+      },
+      "observations": [
+        {
+          "reference_id": "s2m-rfa-2023-consolidated-revenue",
+          "indicator": "REVENUE",
+          "table_id": "DOCLING_059",
+          "selector": {"table_id": "DOCLING_059", "label": "Chiffre d'affaires", "column": "31-déc.-23 ", "page": [47]},
+          "source_label": "Chiffre d'affaires",
+          "reference_value": "279980937",
+          "normalized_value": "279980937",
+          "currency": "MAD",
+          "unit": "MAD",
+          "scale": 1,
+          "accounting_perimeter": "CONSOLIDATED",
+          "period": "2023",
+          "page_number": 47,
+          "reliable": true,
+          "expected_status": "VERIFIED",
+          "verification_method": "DIRECT_PDF_TEXT_AND_VISUAL_COMPARISON",
+          "verification_evidence": [
+            {"mode": "TEXT_SEARCH", "page_number": 47, "quote": "Chiffre d'affaires"},
+            {"mode": "VISUAL_REGION", "page_number": 47, "bbox": [65, 120, 535, 665]}
+          ]
+        },
+        {
+          "reference_id": "s2m-rfa-2023-consolidated-net-income",
+          "indicator": "NET_INCOME",
+          "table_id": "DOCLING_059",
+          "selector": {"table_id": "DOCLING_059", "label": "Résultat net de l'ensemble consolidé", "column": "31-déc.-23 ", "page": [47]},
+          "source_label": "Résultat net de l'ensemble consolidé",
+          "reference_value": "19394165",
+          "normalized_value": "19394165",
+          "currency": "MAD",
+          "unit": "MAD",
+          "scale": 1,
+          "accounting_perimeter": "CONSOLIDATED",
+          "period": "2023",
+          "page_number": 47,
+          "reliable": true,
+          "expected_status": "VERIFIED",
+          "verification_method": "DIRECT_PDF_TEXT_AND_VISUAL_COMPARISON",
+          "verification_evidence": [
+            {"mode": "TEXT_SEARCH", "page_number": 47, "quote": "Résultat net de l'ensemble consolidé"},
+            {"mode": "VISUAL_REGION", "page_number": 47, "bbox": [65, 120, 535, 665]}
+          ]
+        },
+        {
+          "reference_id": "s2m-rfa-2023-consolidated-net-income-group-share",
+          "indicator": "NET_INCOME_GROUP_SHARE",
+          "table_id": "DOCLING_059",
+          "selector": {"table_id": "DOCLING_059", "label": "Résultat net part du Groupe", "column": "31-déc.-23 ", "page": [47]},
+          "source_label": "Résultat net part du Groupe",
+          "reference_value": "21551405",
+          "normalized_value": "21551405",
+          "currency": "MAD",
+          "unit": "MAD",
+          "scale": 1,
+          "accounting_perimeter": "CONSOLIDATED",
+          "period": "2023",
+          "page_number": 47,
+          "reliable": true,
+          "expected_status": "VERIFIED",
+          "verification_method": "DIRECT_PDF_TEXT_AND_VISUAL_COMPARISON",
+          "verification_evidence": [
+            {"mode": "TEXT_SEARCH", "page_number": 47, "quote": "Résultat net part du Groupe"},
+            {"mode": "VISUAL_REGION", "page_number": 47, "bbox": [65, 120, 535, 665]}
+          ]
+        }
+      ]
+    },
+    {
+      "company_id": "sothema",
+      "issuer": "Sothema",
+      "exercise_year": 2025,
+      "source_pdf": "data/raw/ammc/pdfs/annual/sothema/2025/Sothema_RFA_2025.pdf",
+      "source_pdf_sha256": "80fe4f4e33994e623ea6e46680bec33b6dc8f183ef3724b13923af71b698dbc6",
+      "integrated_document": "data/integrated/ammc/Sothema_RFA_2025_80fe4f4e3399/unified_document.json",
+      "document_evidence": {
+        "identity": {"mode": "TEXT_SEARCH", "page_number": 52, "quote": "Sothema"},
+        "exercise": {"mode": "TEXT_SEARCH", "page_number": 63, "quote": "31/12/2025"},
+        "scope": {"mode": "TEXT_SEARCH", "page_number": 63, "quote": "COMPTES CONSOLIDÉS"},
+        "unit": {"mode": "TEXT_SEARCH", "page_number": 63, "quote": "(EN MILLIERS DE DIRHAMS)"}
+      },
+      "observations": [
+        {
+          "reference_id": "sothema-rfa-2025-consolidated-total-assets",
+          "indicator": "TOTAL_ASSETS",
+          "table_id": "DOCLING_052",
+          "selector": {"table_id": "DOCLING_052", "label": "TOTAL ACTIF", "column": "31/12/2025 ", "page": [63]},
+          "source_label": "TOTAL ACTIF",
+          "reference_value": "4607253",
+          "normalized_value": "4607253000",
+          "currency": "MAD",
+          "unit": "KDH",
+          "scale": 1000,
+          "accounting_perimeter": "CONSOLIDATED",
+          "period": "2025",
+          "page_number": 63,
+          "reliable": true,
+          "expected_status": "VERIFIED",
+          "verification_method": "DIRECT_PDF_TEXT_AND_VISUAL_COMPARISON",
+          "verification_evidence": [
+            {"mode": "TEXT_SEARCH", "page_number": 63, "quote": "TOTAL ACTIF"},
+            {"mode": "VISUAL_REGION", "page_number": 63, "bbox": [40, 100, 585, 440]}
+          ]
+        },
+        {
+          "reference_id": "sothema-rfa-2025-consolidated-revenue",
+          "indicator": "REVENUE",
+          "table_id": "DOCLING_054",
+          "selector": {"table_id": "DOCLING_054", "label": "CHIFFRE D'AFFAIRES", "column": "31/12/2025 ", "page": [63]},
+          "source_label": "CHIFFRE D'AFFAIRES",
+          "reference_value": "3225670",
+          "normalized_value": "3225670000",
+          "currency": "MAD",
+          "unit": "KDH",
+          "scale": 1000,
+          "accounting_perimeter": "CONSOLIDATED",
+          "period": "2025",
+          "page_number": 63,
+          "reliable": true,
+          "expected_status": "VERIFIED",
+          "verification_method": "DIRECT_PDF_TEXT_AND_VISUAL_COMPARISON",
+          "verification_evidence": [
+            {"mode": "TEXT_SEARCH", "page_number": 63, "quote": "CHIFFRE D'AFFAIRES"},
+            {"mode": "VISUAL_REGION", "page_number": 63, "bbox": [620, 100, 1160, 790]}
+          ]
+        },
+        {
+          "reference_id": "sothema-rfa-2025-consolidated-net-income-group-share",
+          "indicator": "NET_INCOME_GROUP_SHARE",
+          "table_id": "DOCLING_054",
+          "selector": {"table_id": "DOCLING_054", "label": "PART DU GROUPE", "column": "31/12/2025 ", "page": [63]},
+          "source_label": "PART DU GROUPE",
+          "reference_value": "385526",
+          "normalized_value": "385526000",
+          "currency": "MAD",
+          "unit": "KDH",
+          "scale": 1000,
+          "accounting_perimeter": "CONSOLIDATED",
+          "period": "2025",
+          "page_number": 63,
+          "reliable": true,
+          "expected_status": "VERIFIED",
+          "verification_method": "DIRECT_PDF_TEXT_AND_VISUAL_COMPARISON",
+          "verification_evidence": [
+            {"mode": "TEXT_SEARCH", "page_number": 63, "quote": "PART DU GROUPE"},
+            {"mode": "VISUAL_REGION", "page_number": 63, "bbox": [620, 100, 1160, 790]}
+          ]
+        }
+      ]
+    },
+    {
+      "company_id": "wafa_assurance",
+      "issuer": "Wafa Assurance",
+      "exercise_year": 2024,
+      "source_pdf": "data/raw/ammc/pdfs/annual/wafa_assurance/2024/Wafa_Assurance_RFA_2024.pdf",
+      "source_pdf_sha256": "bf88ab2b2e9e199120f59dadf2f786ddbd8abf5f6b37b05052ec40bc5574d30a",
+      "integrated_document": "data/integrated/ammc/Wafa_Assurance_RFA_2024_bf88ab2b2e9e/unified_document.json",
+      "document_evidence": {
+        "identity": {"mode": "TEXT_SEARCH", "page_number": 20, "quote": "Wafa Assurance SA"},
+        "exercise": {"mode": "TEXT_SEARCH", "page_number": 16, "quote": "AU 31 DECEMBRE 2024"},
+        "scope": {"mode": "TEXT_SEARCH", "page_number": 16, "quote": "COMPTES CONSOLIDES"},
+        "unit": {"mode": "TEXT_SEARCH", "page_number": 16, "quote": "ACTIF ( en KDH )"}
+      },
+      "observations": [
+        {
+          "reference_id": "wafa-assurance-rfa-2024-consolidated-total-assets",
+          "indicator": "TOTAL_ASSETS",
+          "table_id": "DOCLING_024",
+          "selector": {"table_id": "DOCLING_024", "label": "Total Actif", "column": "31/12/2024 ", "page": [16]},
+          "source_label": "Total Actif",
+          "reference_value": "72216572",
+          "normalized_value": "72216572000",
+          "currency": "MAD",
+          "unit": "KDH",
+          "scale": 1000,
+          "accounting_perimeter": "CONSOLIDATED",
+          "period": "2024",
+          "page_number": 16,
+          "reliable": true,
+          "expected_status": "VERIFIED",
+          "verification_method": "DIRECT_PDF_TEXT_AND_VISUAL_COMPARISON",
+          "verification_evidence": [
+            {"mode": "TEXT_SEARCH", "page_number": 16, "quote": "Total Actif"},
+            {"mode": "VISUAL_REGION", "page_number": 16, "bbox": [40, 120, 570, 470]}
+          ]
+        },
+        {
+          "reference_id": "wafa-assurance-rfa-2024-consolidated-net-income-group-share",
+          "indicator": "NET_INCOME_GROUP_SHARE",
+          "table_id": "DOCLING_025",
+          "selector": {"table_id": "DOCLING_025", "label": "Résultat net consolidé - Part Du Groupe", "column": "31/12/2024 ", "page": [16]},
+          "source_label": "Résultat net consolidé - Part Du Groupe",
+          "reference_value": "853761",
+          "normalized_value": "853761000",
+          "currency": "MAD",
+          "unit": "KDH",
+          "scale": 1000,
+          "accounting_perimeter": "CONSOLIDATED",
+          "period": "2024",
+          "page_number": 16,
+          "reliable": true,
+          "expected_status": "VERIFIED",
+          "verification_method": "DIRECT_PDF_TEXT_AND_VISUAL_COMPARISON",
+          "verification_evidence": [
+            {"mode": "TEXT_SEARCH", "page_number": 16, "quote": "Résultat net consolidé - Part Du Groupe"},
+            {"mode": "VISUAL_REGION", "page_number": 16, "bbox": [40, 440, 570, 790]}
+          ]
+        },
+        {
+          "reference_id": "wafa-assurance-rfa-2024-consolidated-equity",
+          "indicator": "EQUITY",
+          "table_id": "DOCLING_025",
+          "selector": {"table_id": "DOCLING_025", "label": "Capitaux propres", "column": "31/12/2024 ", "page": [16]},
+          "source_label": "Capitaux propres",
+          "reference_value": "11277518",
+          "normalized_value": "11277518000",
+          "currency": "MAD",
+          "unit": "KDH",
+          "scale": 1000,
+          "accounting_perimeter": "CONSOLIDATED",
+          "period": "2024",
+          "page_number": 16,
+          "reliable": true,
+          "expected_status": "VERIFIED",
+          "verification_method": "DIRECT_PDF_TEXT_AND_VISUAL_COMPARISON",
+          "verification_evidence": [
+            {"mode": "TEXT_SEARCH", "page_number": 16, "quote": "Capitaux propres"},
+            {"mode": "VISUAL_REGION", "page_number": 16, "bbox": [40, 440, 570, 790]}
+          ]
+        }
+      ]
+    },
+    {
+      "company_id": "attijariwafa_bank",
+      "issuer": "Attijariwafa bank",
+      "exercise_year": 2024,
+      "source_pdf": "data/raw/ammc/pdfs/annual/attijariwafa_bank/2024/AWB_RFA_2024_1.pdf",
+      "source_pdf_sha256": "8ffe034d37ebfaab5a7c7171318f9e84aff8c383db97babb04b4274d7a78efe8",
+      "integrated_document": "data/integrated/ammc/AWB_RFA_2024_1_8ffe034d37eb/unified_document.json",
+      "document_evidence": {
+        "identity": {"mode": "TEXT_SEARCH", "page_number": 95, "quote": "Attijariwafa bank"},
+        "exercise": {"mode": "TEXT_SEARCH", "page_number": 95, "quote": "Bilan consolidé au 31 décembre 2024"},
+        "scope": {"mode": "TEXT_SEARCH", "page_number": 95, "quote": "Comptes consolidés au 31 décembre 2024"},
+        "unit": {"mode": "TEXT_SEARCH", "page_number": 95, "quote": "(en milliers de dirhams)"}
+      },
+      "observations": [
+        {
+          "reference_id": "attijariwafa-bank-rfa-2024-consolidated-total-assets",
+          "indicator": "TOTAL_ASSETS",
+          "table_id": "DOCLING_097",
+          "selector": {"table_id": "DOCLING_097", "label": "TOTAL ACTIF", "column": "", "page": [95]},
+          "source_label": "TOTAL ACTIF",
+          "reference_value": "726492948",
+          "normalized_value": "726492948000",
+          "currency": "MAD",
+          "unit": "KDH",
+          "scale": 1000,
+          "accounting_perimeter": "CONSOLIDATED",
+          "period": "2024",
+          "page_number": 95,
+          "reliable": true,
+          "expected_status": "VERIFIED",
+          "verification_method": "DIRECT_PDF_TEXT_AND_VISUAL_COMPARISON",
+          "verification_evidence": [
+            {"mode": "TEXT_SEARCH", "page_number": 95, "quote": "TOTAL ACTIF"},
+            {"mode": "VISUAL_REGION", "page_number": 95, "bbox": [25, 100, 570, 430]}
+          ]
+        },
+        {
+          "reference_id": "attijariwafa-bank-rfa-2024-consolidated-banking-net-revenue",
+          "indicator": "BANKING_NET_REVENUE",
+          "table_id": "DOCLING_099",
+          "selector": {"table_id": "DOCLING_099", "label": "PRODUIT NET BANCAIRE", "column": "", "page": [96]},
+          "source_label": "PRODUIT NET BANCAIRE",
+          "reference_value": "34507117",
+          "normalized_value": "34507117000",
+          "currency": "MAD",
+          "unit": "KDH",
+          "scale": 1000,
+          "accounting_perimeter": "CONSOLIDATED",
+          "period": "2024",
+          "page_number": 96,
+          "reliable": true,
+          "expected_status": "VERIFIED",
+          "verification_method": "DIRECT_PDF_TEXT_AND_VISUAL_COMPARISON",
+          "verification_evidence": [
+            {"mode": "TEXT_SEARCH", "page_number": 96, "quote": "PRODUIT NET BANCAIRE"},
+            {"mode": "VISUAL_REGION", "page_number": 96, "bbox": [25, 90, 570, 500]}
+          ]
+        },
+        {
+          "reference_id": "attijariwafa-bank-rfa-2024-consolidated-net-income-group-share",
+          "indicator": "NET_INCOME_GROUP_SHARE",
+          "table_id": "DOCLING_099",
+          "selector": {"table_id": "DOCLING_099", "label": "RESULTAT NET PART DU GROUPE (ou des propriétaires de la société mère)", "column": "", "page": [96]},
+          "source_label": "RESULTAT NET PART DU GROUPE (ou des propriétaires de la société mère)",
+          "reference_value": "9504486",
+          "normalized_value": "9504486000",
+          "currency": "MAD",
+          "unit": "KDH",
+          "scale": 1000,
+          "accounting_perimeter": "CONSOLIDATED",
+          "period": "2024",
+          "page_number": 96,
+          "reliable": true,
+          "expected_status": "VERIFIED",
+          "verification_method": "DIRECT_PDF_TEXT_AND_VISUAL_COMPARISON",
+          "verification_evidence": [
+            {"mode": "TEXT_SEARCH", "page_number": 96, "quote": "RESULTAT NET PART DU GROUPE (ou des propriétaires de la société mère)"},
+            {"mode": "VISUAL_REGION", "page_number": 96, "bbox": [25, 90, 570, 500]}
+          ]
+        }
+      ]
+    }
+  ]
+}

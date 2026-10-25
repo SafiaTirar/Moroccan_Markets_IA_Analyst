@@ -1,0 +1,16 @@
+label,value_1,value_2
+F | Capital social ou personnel (1),"29 837 500,00","29 837 500,00"
+N Capital appelé,"29 837 500,00","29 837 500,00"
+Dont versé,"29 837 500,00","29 837 500,00"
+"à Prime d'émission, de fusion, d'apport","21 520 000,00","21 520 000,00"
+C | Réserve légale,"2 983 750,00","2 983 750,00"
+M | Report à nouveau (2),"258 510 588,80","263 997 436,67"
+Résultat net de l'exercice (2),"35 228 715,28","19 875 027,13"
+Subvention d'investissement,"5 344 095,90","7 008 000,00"
+Provisions pour charges,"32 190 000,00","32 940 000,00"
+A | Fournisseurs et comptes rattachés,"278 460 786,72","174 136 912,14"
+"8 Clients créditeurs, avances et acomptes","4 038 420,40",
+| | Personnel,"1 139 334,16","4 730 466,48"
+F | Organismes sociaux,"562 391,79","1 549 099,69"
+c | Etat,"1 024 317,24","2 425 054,12"
+|_| Comptes d'associés,"154 430,63","153 580,63"

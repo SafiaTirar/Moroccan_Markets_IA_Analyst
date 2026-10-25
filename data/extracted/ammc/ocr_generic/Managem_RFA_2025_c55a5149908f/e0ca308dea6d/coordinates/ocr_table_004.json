@@ -1,0 +1,533 @@
+{
+  "page": 115,
+  "bbox": [
+    652.9732666015625,
+    77.33721923828125,
+    1148.333251953125,
+    712.377197265625
+  ],
+  "source": "embedded_image",
+  "source_id": "xref:784:9",
+  "name": null,
+  "image_size": [
+    2065,
+    2647
+  ],
+  "attempts": [
+    {
+      "psm": 6,
+      "score": 18,
+      "amount_count": 9,
+      "keyword_count": 3,
+      "rows": 9,
+      "multi_value_rows": 0,
+      "labeled_rows": 9
+    },
+    {
+      "psm": 11,
+      "score": -1,
+      "amount_count": 10,
+      "keyword_count": 2,
+      "rows": 10,
+      "multi_value_rows": 0,
+      "labeled_rows": 1
+    }
+  ],
+  "selected_psm": 6,
+  "column_right_ratios": [
+    0.6160411622276029
+  ],
+  "rows": [
+    {
+      "label": "AGM",
+      "cells": [
+        {
+          "column": "value_1",
+          "value": "32 629",
+          "bbox": [
+            930.9985562008171,
+            129.8773609791155,
+            958.3453059974652,
+            139.95355254585084
+          ]
+        }
+      ]
+    },
+    {
+      "label": "| CTT |",
+      "cells": [
+        {
+          "column": "value_1",
+          "value": "37 634",
+          "bbox": [
+            930.9985562008171,
+            156.50729583405888,
+            957.625654687027,
+            165.8637594317417
+          ]
+        }
+      ]
+    },
+    {
+      "label": "| REMINEX | |",
+      "cells": [
+        {
+          "column": "value_1",
+          "value": "14 064",
+          "bbox": [
+            889.018896425261,
+            169.46239927700435,
+            957.625654687027,
+            179.53859084373966
+          ]
+        }
+      ]
+    },
+    {
+      "label": "| SM) |",
+      "cells": [
+        {
+          "column": "value_1",
+          "value": "48 501",
+          "bbox": [
+            930.9985562008171,
+            182.41750271994977,
+            956.906003376589,
+            188.89505444142247
+          ]
+        }
+      ]
+    },
+    {
+      "label": "SOMIFER | |",
+      "cells": [
+        {
+          "column": "value_1",
+          "value": "15 211",
+          "bbox": [
+            931.7182075112553,
+            195.37260616289518,
+            958.1054222273192,
+            205.44879772963054
+          ]
+        }
+      ]
+    },
+    {
+      "label": "TECHSUB _|",
+      "cells": [
+        {
+          "column": "value_1",
+          "value": "21 987",
+          "bbox": [
+            930.9985562008171,
+            208.32770960584062,
+            957.625654687027,
+            215.52498929636587
+          ]
+        }
+      ]
+    },
+    {
+      "label": "MAA _|",
+      "cells": [
+        {
+          "column": "value_1",
+          "value": "19 489",
+          "bbox": [
+            931.7182075112553,
+            234.2379164917315,
+            958.3453059974652,
+            241.43519618225673
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Total 7 |",
+      "cells": [
+        {
+          "column": "value_1",
+          "value": "245 002",
+          "bbox": [
+            928.8396022695028,
+            260.14812337762237,
+            960.5042599287794,
+            267.3454030681476
+          ]
+        }
+      ]
+    },
+    {
+      "label": "de cette convention, s'élève à KMAD Hors taxes détaillé comme suit par filiale at par prestation :",
+      "cells": [
+        {
+          "column": "value_1",
+          "value": "189 395",
+          "bbox": [
+            808.4179496561933,
+            701.5812777298371,
+            842.9612125572223,
+            708.7785574203624
+          ]
+        }
+      ]
+    }
+  ],
+  "raw_lines": [
+    {
+      "text": ". Montant encaissé ou décaissé : le montant encaissé au titre de cette convention courant l'exercice 2625",
+      "bbox": [
+        656.331639383607,
+        80.21613111449135,
+        1144.0153440904965,
+        92.45150658838426
+      ]
+    },
+    {
+      "text": "est détaillé comme suit :",
+      "bbox": [
+        672.4038519833913,
+        94.61069049554183,
+        779.392013468523,
+        102.5276981551196
+      ]
+    },
+    {
+      "text": "| Fittale Encaissements {En KMAD) |",
+      "bbox": [
+        794.7445747578693,
+        113.32361769090745,
+        1006.3220600266723,
+        125.55899316480037
+      ]
+    },
+    {
+      "text": "AGM 32 629",
+      "bbox": [
+        794.7445747578693,
+        129.8773609791155,
+        958.3453059974652,
+        139.95355254585084
+      ]
+    },
+    {
+      "text": "| CMG 43 A",
+      "bbox": [
+        794.7445747578693,
+        142.83246442206092,
+        958.3453059974652,
+        155.06783989595385
+      ]
+    },
+    {
+      "text": "| CTT 37 634 |",
+      "bbox": [
+        794.7445747578693,
+        154.3481119269013,
+        1006.3220600266723,
+        168.02294333889927
+      ]
+    },
+    {
+      "text": "| REMINEX | 14064 |",
+      "bbox": [
+        794.7445747578693,
+        169.46239927700435,
+        1006.3220600266723,
+        180.97804678184474
+      ]
+    },
+    {
+      "text": "| SM) 48 501 |",
+      "bbox": [
+        794.7445747578693,
+        180.2583188127922,
+        1006.3220600266723,
+        193.93315022479015
+      ]
+    },
+    {
+      "text": "SOMIFER | 15211 |",
+      "bbox": [
+        796.1838773787455,
+        193.2134222557376,
+        1007.0417113371103,
+        206.8882536677356
+      ]
+    },
+    {
+      "text": "TECHSUB 21 987 _|",
+      "bbox": [
+        796.1838773787455,
+        206.16852569868306,
+        1007.0417113371103,
+        220.80299440275104
+      ]
+    },
+    {
+      "text": "GGM 8273 |",
+      "bbox": [
+        796.1838773787455,
+        220.32317575671604,
+        1007.0417113371103,
+        233.75809784569648
+      ]
+    },
+    {
+      "text": "MAA 19.489 _|",
+      "bbox": [
+        796.1838773787455,
+        231.5989139385389,
+        1007.0417113371103,
+        246.95311061165944
+      ]
+    },
+    {
+      "text": "DADES 4025 |",
+      "bbox": [
+        799.0624826204978,
+        245.99347331958938,
+        1007.0417113371103,
+        259.66830473158734
+      ]
+    },
+    {
+      "text": "Total 7 245 002 |",
+      "bbox": [
+        798.3428313100598,
+        257.9889394704648,
+        1007.0417113371103,
+        271.18395223642773
+      ]
+    },
+    {
+      "text": "212 Convention d'assistance conclue antre MANAGEM §.A et ses filiales étrangères",
+      "bbox": [
+        656.571523153753,
+        294.69506589214353,
+        1071.3305617362478,
+        305.4909854279314
+      ]
+    },
+    {
+      "text": "« Nature et chlet des prestations :",
+      "bbox": [
+        656.331639383607,
+        320.6052727780344,
+        813.45550882926,
+        330.20164569873475
+      ]
+    },
+    {
+      "text": "a} Administration des affaires : Ce volet porte sur tes grestalions fournies par MANAGEM SA. à ses",
+      "bbox": [
+        674.5628059147057,
+        340.7576559115051,
+        1144.0153440904965,
+        353.7127593544505
+      ]
+    },
+    {
+      "text": "filiales, dans les domaines de ta Direction Générale, de la gestion courante des operations de",
+      "bbox": [
+        692.5540886756582,
+        352.27330341634547,
+        1144.0153440904965,
+        364.0288602442034
+      ]
+    },
+    {
+      "text": "irésorerie. du contrôle de gestion, de l'assistance financière, juridique, fiscale, du développement et",
+      "bbox": [
+        693.2737399860964,
+        364.0288602442034,
+        1144.0153440904965,
+        375.54450774904376
+      ]
+    },
+    {
+      "text": "de l'administration des systèmes d'information, de la commercialisation et de administration des",
+      "bbox": [
+        692.5540886756582,
+        375.54450774904376,
+        1144.7349954009344,
+        387.0601552538841
+      ]
+    },
+    {
+      "text": "ventes.",
+      "bbox": [
+        693.2737399860964,
+        390.65879509914674,
+        724.218746334935,
+        397.856074789672
+      ]
+    },
+    {
+      "text": "b} Gestion et de suivi des approvisionnements : MANAGEM SA assure les approvisionnements én",
+      "bbox": [
+        674.5628059147057,
+        410.09145026356487,
+        1144.0153440904965,
+        423.04655370651034
+      ]
+    },
+    {
+      "text": "consommables et pièces de rechange pour les besoins de l'exploitation et de la maintenance de ses",
+      "bbox": [
+        692.5540886756582,
+        421.60709776840525,
+        1144.0153440904965,
+        433.12274527324564
+      ]
+    },
+    {
+      "text": "flliates.",
+      "bbox": [
+        692.5540886756582,
+        436.00165714945575,
+        722.7794437140587,
+        443.91866480903354
+      ]
+    },
+    {
+      "text": "c} Administration du personnel: MANAGEM SA assure la gestion de la paie, le recrutemert des",
+      "bbox": [
+        675.2824572251437,
+        456.1540402829264,
+        1144.7349954009344,
+        469.1091437258719
+      ]
+    },
+    {
+      "text": "agents de maîtrise et des ouvriers, la formation, la communication et la mise en place de la démarche",
+      "bbox": [
+        693.2737399860964,
+        466.9499598187143,
+        1144.7349954009344,
+        479.90506326165973
+      ]
+    },
+    {
+      "text": "qualité.",
+      "bbox": [
+        693.2737399860964,
+        482.0642471688173,
+        724.938397645373,
+        491.4207107665001
+      ]
+    },
+    {
+      "text": "- Mocalités essentielles :",
+      "bbox": [
+        657.0512906940451,
+        505.0955421784981,
+        776.0336406864785,
+        514.4520057761808
+      ]
+    },
+    {
+      "text": "En contrepartie des prestations d'assistance fournies dans le cadre de la présente convention, les filiales",
+      "bbox": [
+        673.1235032938295,
+        524.5281973429162,
+        1144.7349954009344,
+        537.4833007858617
+      ]
+    },
+    {
+      "text": "procéderont au versement d'une rémunération définie comme suit :",
+      "bbox": [
+        673.1235032938295,
+        537.4833007858617,
+        969.8597269644749,
+        548.9989482907021
+      ]
+    },
+    {
+      "text": "« Pour les prestations d'administration des affaires : La rémunération est fixée à 24% du chiffre",
+      "bbox": [
+        681.7593190190867,
+        559.79486782649,
+        1144.7349954009344,
+        572.7499712694353
+      ]
+    },
+    {
+      "text": "d'affaires hors taxes.",
+      "bbox": [
+        699.7506017800393,
+        574.1894272075403,
+        791.1463182056787,
+        582.1064348671182
+      ]
+    },
+    {
+      "text": "« Pour les prestations de gestion et de suivi des approvisionnements : La rémunération est fixée a 5%",
+      "bbox": [
+        681.7593190190867,
+        595.0615383100636,
+        1144.7349954009344,
+        607.2969137839565
+      ]
+    },
+    {
+      "text": "des achats stockés,",
+      "bbox": [
+        699.7506017800393,
+        608.7363697220616,
+        786.8284103430501,
+        617.3731053506918
+      ]
+    },
+    {
+      "text": "+ Pour les prestations d'administration du personnel : La rémunération est fixée a 5% de la masse",
+      "bbox": [
+        681.7593190190867,
+        630.3282087936373,
+        1145.4546467113726,
+        642.5635842675301
+      ]
+    },
+    {
+      "text": "salariale pour l'ensemblé des filiates,",
+      "bbox": [
+        700.4702530904774,
+        644.0030402056352,
+        861.192379088321,
+        654.0792317723706
+      ]
+    },
+    {
+      "text": "- Mortanl comptabilisé :",
+      "bbox": [
+        657.2911744641912,
+        667.034335215316,
+        772.4353841342879,
+        677.1105267820514
+      ]
+    },
+    {
+      "text": "Au fitre de l'exercice 2025, le montant total des produits comptabilisés par MANAGEM S.A., dans le cadre",
+      "bbox": [
+        673.1235032938295,
+        687.1867183487867,
+        1145.4546467113726,
+        698.702365853627
+      ]
+    },
+    {
+      "text": "de cette convention, s'élève à 189 395 KMAD Hors taxes détaillé comme suit par filiale at par prestation :",
+      "bbox": [
+        673.1235032938295,
+        699.4220938226796,
+        1136.3390634458233,
+        710.9377413275199
+      ]
+    }
+  ],
+  "amount_count": 9,
+  "multi_value_row_count": 0,
+  "labeled_row_count": 9
+}

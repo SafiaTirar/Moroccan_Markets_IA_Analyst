@@ -1,0 +1,6 @@
+NATURE,Solde au début  de l’exercice  1,Opérations  comptables de  l’exercice  2,Déclarations TVA  de l’exercice  3,Solde  fin d’exercice  (1+2-3=4)
+A- TVA Facturée ,"0,00 ","1 969 597 398,00 ","1 969 597 398,00 ","0,00"
+B- TVA Récupérable ,"104 465 081,33 ","747 391 024,92 ","749 661 506,00 ","102 194 600,25"
+sur charges ,"83 532 197,77 ","669 019 897,53 ","687 493 131,00 ","65 058 964,30"
+sur immobilisations ,"20 932 883,56 ","78 371 127,39 ","62 168 375,00 ","37 135 635,95"
+C- TVA dûe ou crédit de TVA = (A - B) ,"-104 465 081,33 ","1 222 206 373,08 ","1 219 935 892,00 ","-102 194 600,25"

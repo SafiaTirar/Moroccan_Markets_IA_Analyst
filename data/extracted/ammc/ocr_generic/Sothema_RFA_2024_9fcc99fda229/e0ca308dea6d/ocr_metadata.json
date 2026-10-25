@@ -1,0 +1,361 @@
+{
+  "schema_version": "3.0",
+  "source_pdf": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/raw/ammc/pdfs/annual/sothema/2024/Sothema_RFA_2024.pdf",
+  "source_sha256": "9fcc99fda229b8a47c7fa58f9bc916dbb5893c5771a7c96d9433a4aae7337613",
+  "parser_metadata": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Sothema_RFA_2024_9fcc99fda229/metadata.json",
+  "config": {
+    "languages": [
+      "fra",
+      "eng"
+    ],
+    "psms": [
+      6,
+      11
+    ],
+    "render_dpi": 300,
+    "minimum_image_width": 400,
+    "minimum_image_height": 250,
+    "minimum_region_area_ratio": 0.03,
+    "minimum_amount_count": 5,
+    "column_tolerance": 0.045
+  },
+  "config_sha256": "e0ca308dea6d26eb838790781b5dfac293390b6ff28071a1ba75c2148bb02d4e",
+  "selection": {
+    "selected_pages": [
+      1,
+      5,
+      7,
+      19,
+      23,
+      32,
+      50
+    ],
+    "regions_json_sha256": null
+  },
+  "selection_sha256": "a81810e9fb03a119bd5e09c01c121d68f574101c07843b98d57a89ce071edc4e",
+  "ocr_engine": "tesseract-cli",
+  "tesseract_version": "tesseract 5.5.3",
+  "selected_pages": [
+    1,
+    5,
+    7,
+    19,
+    23,
+    32,
+    50
+  ],
+  "regions_examined": 8,
+  "tables_detected": 0,
+  "tables": [],
+  "rejected_regions": [
+    {
+      "page": 1,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        841.8900146484375
+      ],
+      "source": "embedded_image",
+      "source_id": "xref:4055:1",
+      "name": null,
+      "image_size": [
+        2481,
+        3508
+      ],
+      "attempts": [
+        {
+          "psm": 6,
+          "score": -3,
+          "amount_count": 0,
+          "keyword_count": 0,
+          "rows": 0,
+          "multi_value_rows": 0,
+          "labeled_rows": 0
+        },
+        {
+          "psm": 11,
+          "score": -9,
+          "amount_count": 0,
+          "keyword_count": 0,
+          "rows": 0,
+          "multi_value_rows": 0,
+          "labeled_rows": 0
+        }
+      ],
+      "selected_psm": 6,
+      "reason": "NOT_FINANCIAL_TABLE"
+    },
+    {
+      "page": 5,
+      "bbox": [
+        0.0,
+        0.0,
+        1190.550048828125,
+        841.8900146484375
+      ],
+      "source": "embedded_image",
+      "source_id": "xref:139:1",
+      "name": null,
+      "image_size": [
+        4961,
+        3508
+      ],
+      "attempts": [
+        {
+          "psm": 6,
+          "score": -4,
+          "amount_count": 0,
+          "keyword_count": 0,
+          "rows": 0,
+          "multi_value_rows": 0,
+          "labeled_rows": 0
+        },
+        {
+          "psm": 11,
+          "score": -7,
+          "amount_count": 0,
+          "keyword_count": 0,
+          "rows": 0,
+          "multi_value_rows": 0,
+          "labeled_rows": 0
+        }
+      ],
+      "selected_psm": 6,
+      "reason": "NOT_FINANCIAL_TABLE"
+    },
+    {
+      "page": 7,
+      "bbox": [
+        0.0,
+        0.0,
+        1190.550048828125,
+        841.8900146484375
+      ],
+      "source": "embedded_image",
+      "source_id": "xref:199:1",
+      "name": null,
+      "image_size": [
+        4961,
+        3508
+      ],
+      "attempts": [
+        {
+          "psm": 6,
+          "score": 39,
+          "amount_count": 3,
+          "keyword_count": 0,
+          "rows": 2,
+          "multi_value_rows": 1,
+          "labeled_rows": 2
+        },
+        {
+          "psm": 11,
+          "score": -48,
+          "amount_count": 3,
+          "keyword_count": 0,
+          "rows": 3,
+          "multi_value_rows": 0,
+          "labeled_rows": 3
+        }
+      ],
+      "selected_psm": 6,
+      "reason": "NOT_FINANCIAL_TABLE"
+    },
+    {
+      "page": 19,
+      "bbox": [
+        0.0,
+        0.0,
+        1190.550048828125,
+        841.8900146484375
+      ],
+      "source": "embedded_image",
+      "source_id": "xref:917:1",
+      "name": null,
+      "image_size": [
+        4961,
+        3508
+      ],
+      "attempts": [
+        {
+          "psm": 6,
+          "score": -2,
+          "amount_count": 0,
+          "keyword_count": 0,
+          "rows": 0,
+          "multi_value_rows": 0,
+          "labeled_rows": 0
+        },
+        {
+          "psm": 11,
+          "score": -8,
+          "amount_count": 0,
+          "keyword_count": 0,
+          "rows": 0,
+          "multi_value_rows": 0,
+          "labeled_rows": 0
+        }
+      ],
+      "selected_psm": 6,
+      "reason": "NOT_FINANCIAL_TABLE"
+    },
+    {
+      "page": 23,
+      "bbox": [
+        0.0,
+        548.4327392578125,
+        1190.550048828125,
+        841.8900146484375
+      ],
+      "source": "embedded_image",
+      "source_id": "xref:1029:1",
+      "name": null,
+      "image_size": [
+        4961,
+        1223
+      ],
+      "attempts": [
+        {
+          "psm": 6,
+          "score": -2,
+          "amount_count": 0,
+          "keyword_count": 2,
+          "rows": 0,
+          "multi_value_rows": 0,
+          "labeled_rows": 0
+        },
+        {
+          "psm": 11,
+          "score": -25,
+          "amount_count": 0,
+          "keyword_count": 2,
+          "rows": 0,
+          "multi_value_rows": 0,
+          "labeled_rows": 0
+        }
+      ],
+      "selected_psm": 6,
+      "reason": "NOT_FINANCIAL_TABLE"
+    },
+    {
+      "page": 23,
+      "bbox": [
+        320.3148193359375,
+        79.44204711914062,
+        1190.550048828125,
+        550.5715942382812
+      ],
+      "source": "embedded_image",
+      "source_id": "xref:1040:3",
+      "name": null,
+      "image_size": [
+        3627,
+        1964
+      ],
+      "attempts": [
+        {
+          "psm": 6,
+          "score": -11,
+          "amount_count": 0,
+          "keyword_count": 0,
+          "rows": 0,
+          "multi_value_rows": 0,
+          "labeled_rows": 0
+        },
+        {
+          "psm": 11,
+          "score": -89,
+          "amount_count": 0,
+          "keyword_count": 0,
+          "rows": 0,
+          "multi_value_rows": 0,
+          "labeled_rows": 0
+        }
+      ],
+      "selected_psm": 6,
+      "reason": "NOT_FINANCIAL_TABLE"
+    },
+    {
+      "page": 32,
+      "bbox": [
+        0.0,
+        0.0,
+        1190.550048828125,
+        841.8900146484375
+      ],
+      "source": "embedded_image",
+      "source_id": "xref:1284:1",
+      "name": null,
+      "image_size": [
+        4961,
+        3508
+      ],
+      "attempts": [
+        {
+          "psm": 6,
+          "score": -3,
+          "amount_count": 0,
+          "keyword_count": 0,
+          "rows": 0,
+          "multi_value_rows": 0,
+          "labeled_rows": 0
+        },
+        {
+          "psm": 11,
+          "score": -9,
+          "amount_count": 0,
+          "keyword_count": 0,
+          "rows": 0,
+          "multi_value_rows": 0,
+          "labeled_rows": 0
+        }
+      ],
+      "selected_psm": 6,
+      "reason": "NOT_FINANCIAL_TABLE"
+    },
+    {
+      "page": 50,
+      "bbox": [
+        0.0,
+        0.0,
+        1190.550048828125,
+        841.8900146484375
+      ],
+      "source": "embedded_image",
+      "source_id": "xref:1704:1",
+      "name": null,
+      "image_size": [
+        4961,
+        3508
+      ],
+      "attempts": [
+        {
+          "psm": 6,
+          "score": -1,
+          "amount_count": 0,
+          "keyword_count": 0,
+          "rows": 0,
+          "multi_value_rows": 0,
+          "labeled_rows": 0
+        },
+        {
+          "psm": 11,
+          "score": -12,
+          "amount_count": 0,
+          "keyword_count": 0,
+          "rows": 0,
+          "multi_value_rows": 0,
+          "labeled_rows": 0
+        }
+      ],
+      "selected_psm": 6,
+      "reason": "NOT_FINANCIAL_TABLE"
+    }
+  ],
+  "duration_seconds": 31.67,
+  "financial_validation": "NOT_PERFORMED",
+  "status": "FAILED",
+  "cache_used": false,
+  "artifact_sha256": {}
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "measurement": "cold controlled sequential execution before resume validation",
+  "documents": [
+    {
+      "company_id": "s2m",
+      "exercise_year": 2024,
+      "elapsed_seconds": 1029.324,
+      "peak_rss_bytes": 3005546496
+    },
+    {
+      "company_id": "wafa_assurance",
+      "exercise_year": 2023,
+      "elapsed_seconds": 375.645,
+      "peak_rss_bytes": 2274344960
+    },
+    {
+      "company_id": "auto_hall",
+      "exercise_year": 2025,
+      "elapsed_seconds": 411.113,
+      "peak_rss_bytes": 2180972544
+    }
+  ],
+  "totals": {
+    "elapsed_seconds": 1816.082,
+    "peak_rss_bytes": 3005546496
+  }
+}

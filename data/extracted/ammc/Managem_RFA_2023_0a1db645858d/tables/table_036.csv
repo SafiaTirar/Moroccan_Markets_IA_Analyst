@@ -1,0 +1,27 @@
+,,I - TABLEAU DE FORMATION DU RÉSULTAT ( T.F.R ) .ÉLÉMENTS ,Exercice Clos le 31.12.2023.EXERCICE ,Exercice Clos le 31.12.2023.EXERCICE PRÉCÉDENT
+1 ,,Ventes de marchandises (en l’état),,
+2 ,- ,Achats revendus de marchandises,,
+I ,= ,MARGES BRUTES SUR VENTES EN L’ÉTAT,,
+II ,+ ,PRODUCTION DE L’EXERCICE (3+4+5) ,"371 284 219,69 ","382 334 807,39"
+3 ,,Ventes de biens et services produits ,"368 232 379,69 ","380 161 593,39"
+4 ,,Variation de stocks de produits,,
+5 ,,Immobilisations produites par l’entreprise pour elle même ,"3 051 840,00 ","2 173 214,00"
+III ,- ,CONSOMMATION DE L’EXERCICE (6+7) ,"104 683 517,33 ","102 667 521,94"
+6 ,,Achats consommes de matieres et fournitures ,"34 857 906,13 ","32 459 074,72"
+7 ,,Autres charges externes ,"69 825 611,20 ","70 208 447,22"
+IV ,= ,VALEUR AJOUTÉE ( I+II+III ) ,"266 600 702,36 ","279 667 285,45"
+8 ,+ ,Subventions d’exploitation,,
+V  9 ,- ,Impôts et taxes ,"16 562 645,11 ","17 961 432,94"
+10 ,- ,Charges de personnel ,"106 703 507,32 ","97 086 862,93"
+,= ,EXCÉDENT BRUT D’EXPLOITATION ( E.B.E ) ,"143 334 549,93 ","164 618 989,58"
+,= ,INSUFFISANCE BRUT D’EXPLOITATION ( I.B.E ),,
+11 ,+ ,Autres produits d’exploitation ,"300 000,00 ","2 664 141,28"
+12 ,- ,Autres charges d’exploitation ,"1 577 000,00 ","1 622 000,00"
+13 ,+ ,Reprises d’exploitation: transfert de charges ,,"8 603 834,40"
+14 ,- ,Dotations d’exploitation ,"11 643 504,08 ","51 815 050,28"
+VI ,= ,RÉSULTAT D’EXPLOITATION ( + ou - ) ,"130 414 045,85 ","122 449 914,98"
+VII ,,RÉSULTAT FINANCIER ,"204 281 978,29 ","740 025 348,19"
+VIII ,= ,RÉSULTAT COURANT ( + ou - ) ,"334 696 024,14 ","862 475 263,17"
+IX ,,RÉSULTAT NON COURANT ( + ou - ) ,"-16 572 390,61 ","88 818 780,16"
+15 ,- ,Impôts sur les resultats ,"2 844 213,00 ","6 146 040,00"
+X ,= ,RÉSULTAT NET DE L’EXERCICE ( + ou - ) ,"315 279 420,53 ","945 148 003,33"

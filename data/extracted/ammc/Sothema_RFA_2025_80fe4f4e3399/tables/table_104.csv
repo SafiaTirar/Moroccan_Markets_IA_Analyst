@@ -1,0 +1,22 @@
+EN KMAD ,CLÔTURE ,N+1 ,N+2 ,N+3 ,N+4 ,>=N+5
+P14810 Emprunts auprès des établissements de  crédit ,297 315 ,- ,198 552 ,,743 ,98 020
+P14830 Emprunts auprèsétabliss.decrédit - part  < 1 an ,309 510 ,309 510,,,,
+P14880 Autres emprunts et dettes assimilées ,98 096 ,,98 096,,,
+P16880 Intérêts courus sur emprunts ,- ,-,,,,
+P44100 Dettes fournisseurs ,562 005 ,562 005,,,,
+P44210 Clients avances et acomptes à + 1 an ,4 375 ,,4 375,,,
+P44300 Rémunération de personnel ,47 893 ,47 893,,,,
+P44400 Organismes sociaux ,34 101 ,34 101,,,,
+P44520 Dettes fiscales ,51 386 ,51 386,,,,
+"P44530 Etat, impôts sur Résultats ",63 856 ,63 856,,,,
+P44620 Comptes courants groupe - part à plus  d'un an ,-,,,,,
+P44630 Comptes courants des associés  créditeurs ,4 640 ,4 640,,,,
+P44810 Dettes /acquisitd'immob ,468 ,468,,,,
+P44880  Divers créanciers ,28 353 ,28 353,,,,
+P44930  Intérêts courus et non echusà payer ,855 ,855,,,,
+P46700  Autres dettes ,,,,,,
+P46880  Intérêts courus et non echusà payer  sur dettes,,,,,,
+P55200  Crédits d'escompte ,61 655 ,61 655,,,,
+P55300  Crédits de trésorerie ,198 429 ,198 429,,,,
+P55400  Banques ( soldecréditeurs) ,10 940 ,10 940,,,,
+TOTAL[DETTES PAR ÉCHÉANCE ] ,1 773 877 ,1 374 091 ,301 023 ,- ,743 ,98 020

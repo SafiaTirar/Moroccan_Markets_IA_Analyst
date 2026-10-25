@@ -1,0 +1,3122 @@
+{
+  "schema_version": "2.2",
+  "source_pdf": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/raw/ammc/pdfs/annual/cosumar/2025/Cosumar_RFA_2025.pdf",
+  "source_sha256": "7da285e005cb965a42fbb8302087b277787015172a33aa1b70d48d9f4d415d90",
+  "docling_status": "PARTIAL",
+  "ocr_status": "NOT_RUN",
+  "integration_status": "PARTIAL",
+  "integration_fingerprint": "d02c8bb31bbd10894c308852a135a6a28dbf66583905c3d96722e721e1e1fff1",
+  "cache_used": false,
+  "active_table_count": 149,
+  "tables": [
+    {
+      "table_id": "DOCLING_001",
+      "source": "DOCLING",
+      "page": [
+        2
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_001.csv",
+      "coordinates_path": null,
+      "rows": 9,
+      "columns": 2,
+      "quality_status": "INCOMPLETE",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "6703d7e73269e782a08a4635f261053dc45499c66045928252882d73d23ddb88"
+    },
+    {
+      "table_id": "DOCLING_002",
+      "source": "DOCLING",
+      "page": [
+        2
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_002.csv",
+      "coordinates_path": null,
+      "rows": 16,
+      "columns": 2,
+      "quality_status": "INCOMPLETE",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "1439b9547b8a61063a3092f42959de3a1259cd14d37d734a0a24b954aa1b8719"
+    },
+    {
+      "table_id": "DOCLING_003",
+      "source": "DOCLING",
+      "page": [
+        6
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_003.csv",
+      "coordinates_path": null,
+      "rows": 6,
+      "columns": 2,
+      "quality_status": "INCOMPLETE",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "c518e7150fceeb8fcea079a1f714e57c6acce44f90b4e0943e4bff1a4a2f6e9e"
+    },
+    {
+      "table_id": "DOCLING_004",
+      "source": "DOCLING",
+      "page": [
+        15
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_004.csv",
+      "coordinates_path": null,
+      "rows": 11,
+      "columns": 2,
+      "quality_status": "INCOMPLETE",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "576da29a74818d7545b7fa7d3fe8667229e2bfa789286b7530e931a05ddf85c5"
+    },
+    {
+      "table_id": "DOCLING_005",
+      "source": "DOCLING",
+      "page": [
+        26
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_005.csv",
+      "coordinates_path": null,
+      "rows": 5,
+      "columns": 4,
+      "quality_status": "INCOMPLETE",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "8ea5bd063e8f37b5d1ecac4f9cee458d5af1928793eeaa69860db457b4ef00bc"
+    },
+    {
+      "table_id": "DOCLING_006",
+      "source": "DOCLING",
+      "page": [
+        29
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_006.csv",
+      "coordinates_path": null,
+      "rows": 5,
+      "columns": 4,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "15af1f4f86d7102cf52a474ca613eb25dc9fc2a2e60d5e7f1e8dc3a94197e68a"
+    },
+    {
+      "table_id": "DOCLING_007",
+      "source": "DOCLING",
+      "page": [
+        32
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_007.csv",
+      "coordinates_path": null,
+      "rows": 2,
+      "columns": 5,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "b95767f6403e11797d96929d51332ef1a6a17aa5f26f515d2ab8b495837c11b0"
+    },
+    {
+      "table_id": "DOCLING_008",
+      "source": "DOCLING",
+      "page": [
+        44
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_008.csv",
+      "coordinates_path": null,
+      "rows": 5,
+      "columns": 4,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "9d1d1aaceab34f6b5a3c139ef978d26e2e0a1dd140acab4d521a91d5b4304703"
+    },
+    {
+      "table_id": "DOCLING_009",
+      "source": "DOCLING",
+      "page": [
+        49
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_009.csv",
+      "coordinates_path": null,
+      "rows": 6,
+      "columns": 4,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "995f505ddbc43800b251d15323cbf3e45f0fa2dc6026d06405e2c54b4101f5c6"
+    },
+    {
+      "table_id": "DOCLING_010",
+      "source": "DOCLING",
+      "page": [
+        49
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_010.csv",
+      "coordinates_path": null,
+      "rows": 11,
+      "columns": 4,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "47ed34bc9fb3ec6ca39da56faf802f6f43d56dc16cf1d3a3d1bdec7bbaea216d"
+    },
+    {
+      "table_id": "DOCLING_011",
+      "source": "DOCLING",
+      "page": [
+        50
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_011.csv",
+      "coordinates_path": null,
+      "rows": 7,
+      "columns": 5,
+      "quality_status": "INCOMPLETE",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "8fbf2171c708bd11038c4358a32c143ab11ff5b7d9791cb4cfac72993edd5ae4"
+    },
+    {
+      "table_id": "DOCLING_012",
+      "source": "DOCLING",
+      "page": [
+        55
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_012.csv",
+      "coordinates_path": null,
+      "rows": 3,
+      "columns": 3,
+      "quality_status": "INCOMPLETE",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "7e0b861d091a51ed3b7ddb5e2965dfae040cf250f1553882d79343251cce8ee5"
+    },
+    {
+      "table_id": "DOCLING_013",
+      "source": "DOCLING",
+      "page": [
+        59
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_013.csv",
+      "coordinates_path": null,
+      "rows": 4,
+      "columns": 3,
+      "quality_status": "INCOMPLETE",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "3f5c89ec63790898738646722b9f788fea113d80a3b6a29a7da0f727da0ff4a1"
+    },
+    {
+      "table_id": "DOCLING_014",
+      "source": "DOCLING",
+      "page": [
+        61
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_014.csv",
+      "coordinates_path": null,
+      "rows": 2,
+      "columns": 6,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "4884099dee940d4b9b83d1616618a389dbd53d131943512f2c66f57e0274eea1"
+    },
+    {
+      "table_id": "DOCLING_015",
+      "source": "DOCLING",
+      "page": [
+        61
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_015.csv",
+      "coordinates_path": null,
+      "rows": 6,
+      "columns": 5,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "77eaae64ebfd985de58f64d39996ad9dc9b99611463e26ca97c5390b09be7904"
+    },
+    {
+      "table_id": "DOCLING_016",
+      "source": "DOCLING",
+      "page": [
+        61
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_016.csv",
+      "coordinates_path": null,
+      "rows": 10,
+      "columns": 5,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "baea407e6d2a07f8c457ee799b8e3cc5383c870e2b5e3cdf40a08cd2528f088f"
+    },
+    {
+      "table_id": "DOCLING_018",
+      "source": "DOCLING",
+      "page": [
+        79
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_018.csv",
+      "coordinates_path": null,
+      "rows": 3,
+      "columns": 5,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "38714f081ee7e9bd5d6bb4514722247e977b1ba862993f3229471d48e19078f9"
+    },
+    {
+      "table_id": "DOCLING_019",
+      "source": "DOCLING",
+      "page": [
+        80
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_019.csv",
+      "coordinates_path": null,
+      "rows": 7,
+      "columns": 4,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "69d34c3a115ccc1add7974ef147c03131ca1db6960cffcd95dc0e6efcb25f998"
+    },
+    {
+      "table_id": "DOCLING_020",
+      "source": "DOCLING",
+      "page": [
+        80
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_020.csv",
+      "coordinates_path": null,
+      "rows": 5,
+      "columns": 3,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "6296424f9ed86b59751fb9ed6ee773b5a87a9f0b09ea21c8db0d434ba9b24242"
+    },
+    {
+      "table_id": "DOCLING_021",
+      "source": "DOCLING",
+      "page": [
+        80
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_021.csv",
+      "coordinates_path": null,
+      "rows": 8,
+      "columns": 4,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "bfbeeb2139e9f046a38bcdffeed678fed108fe6200f945325eff353bdb20944a"
+    },
+    {
+      "table_id": "DOCLING_022",
+      "source": "DOCLING",
+      "page": [
+        81
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_022.csv",
+      "coordinates_path": null,
+      "rows": 4,
+      "columns": 4,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "5af0d722d6d856b100fe22af33429a066cd0caf45b29ba8cc56df6a11d3aa8f9"
+    },
+    {
+      "table_id": "DOCLING_023",
+      "source": "DOCLING",
+      "page": [
+        82
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_023.csv",
+      "coordinates_path": null,
+      "rows": 6,
+      "columns": 5,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "75a8757833b86dd4eb0d68580aef11a632554c9ddd251c32474a3ea78b749bfc"
+    },
+    {
+      "table_id": "DOCLING_024",
+      "source": "DOCLING",
+      "page": [
+        82
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_024.csv",
+      "coordinates_path": null,
+      "rows": 9,
+      "columns": 5,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "27d76a09f8137e401d583a79e0a0e488bf78aa5e66960f82eb13512cdb8596ce"
+    },
+    {
+      "table_id": "DOCLING_025",
+      "source": "DOCLING",
+      "page": [
+        84
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_025.csv",
+      "coordinates_path": null,
+      "rows": 4,
+      "columns": 4,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "35703fa006333b792d9c2b300cf9c6039bf209a195203a25beb0501e72b8c0c4"
+    },
+    {
+      "table_id": "DOCLING_026",
+      "source": "DOCLING",
+      "page": [
+        86
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_026.csv",
+      "coordinates_path": null,
+      "rows": 6,
+      "columns": 2,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "d4358ca1c188fcc0f7944de91be80fc838b1d149b6ecec2a30d93478e7ea7f42"
+    },
+    {
+      "table_id": "DOCLING_027",
+      "source": "DOCLING",
+      "page": [
+        87
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_027.csv",
+      "coordinates_path": null,
+      "rows": 7,
+      "columns": 4,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "b2e2d9ae94213e637097d4c57c25987bcc6789b4b7cfc160a9128a20f9af0032"
+    },
+    {
+      "table_id": "DOCLING_028",
+      "source": "DOCLING",
+      "page": [
+        88
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_028.csv",
+      "coordinates_path": null,
+      "rows": 5,
+      "columns": 4,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "dd683250bd8c5847641d4201a76a70d9d30c19ba448ab95a034c7ba53b63e561"
+    },
+    {
+      "table_id": "DOCLING_029",
+      "source": "DOCLING",
+      "page": [
+        89
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_029.csv",
+      "coordinates_path": null,
+      "rows": 3,
+      "columns": 4,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "c50eeb7477c53525c029b43cc3a472060f9aed3be6037c39d9b42888c8eb233d"
+    },
+    {
+      "table_id": "DOCLING_030",
+      "source": "DOCLING",
+      "page": [
+        89
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_030.csv",
+      "coordinates_path": null,
+      "rows": 3,
+      "columns": 4,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "b9c5957b1bc2fabe3f0cfd0adceaef7f0842a10902715e2ab36562bd58b4815f"
+    },
+    {
+      "table_id": "DOCLING_031",
+      "source": "DOCLING",
+      "page": [
+        89
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_031.csv",
+      "coordinates_path": null,
+      "rows": 3,
+      "columns": 5,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "2a73fedfc6e5b5b68cb6bc469d2269407d2dab9876173422b8398b10ebb57115"
+    },
+    {
+      "table_id": "DOCLING_032",
+      "source": "DOCLING",
+      "page": [
+        89
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_032.csv",
+      "coordinates_path": null,
+      "rows": 8,
+      "columns": 4,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "c3e42e30adee91b3b5e99c05b2c6713beb0e09c305e375dc8f75ef46fbc32802"
+    },
+    {
+      "table_id": "DOCLING_033",
+      "source": "DOCLING",
+      "page": [
+        89
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_033.csv",
+      "coordinates_path": null,
+      "rows": 4,
+      "columns": 4,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "02bc38e5abed949d0b5e891f170de7784f62d142262a4bad4f46fd0715059e36"
+    },
+    {
+      "table_id": "DOCLING_034",
+      "source": "DOCLING",
+      "page": [
+        89
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_034.csv",
+      "coordinates_path": null,
+      "rows": 16,
+      "columns": 4,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "33aed1e0e3d9f161b237b11a773d8bdef8d9cdc5124ec90ea05acbabd89fe226"
+    },
+    {
+      "table_id": "DOCLING_035",
+      "source": "DOCLING",
+      "page": [
+        90
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_035.csv",
+      "coordinates_path": null,
+      "rows": 11,
+      "columns": 2,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "3db279bab33106af60ff71ee43a9f07da02f35dc4a8ac3cbb13d1b96d6a84dcd"
+    },
+    {
+      "table_id": "DOCLING_036",
+      "source": "DOCLING",
+      "page": [
+        91
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_036.csv",
+      "coordinates_path": null,
+      "rows": 11,
+      "columns": 11,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "a6bd3d5ba144fc1769ef8aa9dfb628861469ce8d9dca1ddb8deb6f3aefa9aeca"
+    },
+    {
+      "table_id": "DOCLING_037",
+      "source": "DOCLING",
+      "page": [
+        93
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_037.csv",
+      "coordinates_path": null,
+      "rows": 5,
+      "columns": 2,
+      "quality_status": "INCOMPLETE",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "186514a06cd68f5816788ab9c53eaf0c617da2b04837a1f0dc30b371e414f89e"
+    },
+    {
+      "table_id": "DOCLING_038",
+      "source": "DOCLING",
+      "page": [
+        93
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_038.csv",
+      "coordinates_path": null,
+      "rows": 4,
+      "columns": 2,
+      "quality_status": "INCOMPLETE",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "623c6abaffab83d79200c32a758b0af84ed8fb6fce424f2aa509b09f62954386"
+    },
+    {
+      "table_id": "DOCLING_039",
+      "source": "DOCLING",
+      "page": [
+        93
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_039.csv",
+      "coordinates_path": null,
+      "rows": 2,
+      "columns": 2,
+      "quality_status": "INCOMPLETE",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "ca1ec308140abaaedc012a188ecd008e3b18993a16743bca0b78ca03a8a863ec"
+    },
+    {
+      "table_id": "DOCLING_040",
+      "source": "DOCLING",
+      "page": [
+        93
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_040.csv",
+      "coordinates_path": null,
+      "rows": 3,
+      "columns": 2,
+      "quality_status": "INCOMPLETE",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "b7d9cbb9b2045c61cf78bde13b73de09300b219243ed209c4473a327f60106b9"
+    },
+    {
+      "table_id": "DOCLING_041",
+      "source": "DOCLING",
+      "page": [
+        93
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_041.csv",
+      "coordinates_path": null,
+      "rows": 11,
+      "columns": 2,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "9e1124c447cf40fb5b3506b8cbdbbcb48a55df4216d82622c3085c19ff0ea33e"
+    },
+    {
+      "table_id": "DOCLING_042",
+      "source": "DOCLING",
+      "page": [
+        94
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_042.csv",
+      "coordinates_path": null,
+      "rows": 22,
+      "columns": 3,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "eaad1501e84f0e269338986f107e283727b31157b883b79e21f1176d235a051b"
+    },
+    {
+      "table_id": "DOCLING_043",
+      "source": "DOCLING",
+      "page": [
+        95
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_043.csv",
+      "coordinates_path": null,
+      "rows": 6,
+      "columns": 3,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "38fda0659ea9ab9c6832168a21925daeb06370e84698e91c8affce946ef9831c"
+    },
+    {
+      "table_id": "DOCLING_044",
+      "source": "DOCLING",
+      "page": [
+        96
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_044.csv",
+      "coordinates_path": null,
+      "rows": 5,
+      "columns": 3,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "e1c92a855fc283fa1743023246080bca1d6704793fc2ff1053e0c19aeccac99c"
+    },
+    {
+      "table_id": "DOCLING_045",
+      "source": "DOCLING",
+      "page": [
+        98
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_045.csv",
+      "coordinates_path": null,
+      "rows": 4,
+      "columns": 5,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "c1952e54cb0820d8687c42107ca490bda80ab652375acb9f4907b43312a930dc"
+    },
+    {
+      "table_id": "DOCLING_046",
+      "source": "DOCLING",
+      "page": [
+        99
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_046.csv",
+      "coordinates_path": null,
+      "rows": 2,
+      "columns": 5,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "b3136a2cd6d7bfb8632f41d185aa410500227d17eecb3440fe4bc5d7c7dbe113"
+    },
+    {
+      "table_id": "DOCLING_047",
+      "source": "DOCLING",
+      "page": [
+        99
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_047.csv",
+      "coordinates_path": null,
+      "rows": 5,
+      "columns": 2,
+      "quality_status": "INCOMPLETE",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "545e574d7ff34cdd34794f904141eb8e28f731809908e9a04c7f58edad7a9158"
+    },
+    {
+      "table_id": "DOCLING_048",
+      "source": "DOCLING",
+      "page": [
+        99
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_048.csv",
+      "coordinates_path": null,
+      "rows": 3,
+      "columns": 3,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "ad7a74230debadc6c62fb10e4093c2b7c3e4f95a9a6fb77b1d43e1d034172841"
+    },
+    {
+      "table_id": "DOCLING_049",
+      "source": "DOCLING",
+      "page": [
+        101
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_049.csv",
+      "coordinates_path": null,
+      "rows": 10,
+      "columns": 10,
+      "quality_status": "INCOMPLETE",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "648acfb904881c6f656a10b5d39b3d937071dc9b26e7d35ec1e9b3242c934de6"
+    },
+    {
+      "table_id": "DOCLING_050",
+      "source": "DOCLING",
+      "page": [
+        101
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_050.csv",
+      "coordinates_path": null,
+      "rows": 10,
+      "columns": 5,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "afd02d430361598c39cdea6992e540a10ab67f8055fe377fcf3a27f16a603856"
+    },
+    {
+      "table_id": "DOCLING_051",
+      "source": "DOCLING",
+      "page": [
+        104
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_051.csv",
+      "coordinates_path": null,
+      "rows": 19,
+      "columns": 4,
+      "quality_status": "INCOMPLETE",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "e5cdc5d2b1fe0d3dd014b5886c8755a629d064e57c4f5cabb2f65294e9c7ecf0"
+    },
+    {
+      "table_id": "DOCLING_052",
+      "source": "DOCLING",
+      "page": [
+        105
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_052.csv",
+      "coordinates_path": null,
+      "rows": 8,
+      "columns": 3,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "d359de80236518a8af69a77b2a70aa51b6283be6448215d397e750855b3f1881"
+    },
+    {
+      "table_id": "DOCLING_053",
+      "source": "DOCLING",
+      "page": [
+        105
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_053.csv",
+      "coordinates_path": null,
+      "rows": 6,
+      "columns": 4,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "2fa3cf32a4347460251e7fe19638c645099a3a4d6e60248b86f102920cf4a9ff"
+    },
+    {
+      "table_id": "DOCLING_054",
+      "source": "DOCLING",
+      "page": [
+        106
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_054.csv",
+      "coordinates_path": null,
+      "rows": 3,
+      "columns": 3,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "ce7d348fd2e00ba88d3d1dff360da630e0c92edc7b85dcf68d5db2ffdf9870bc"
+    },
+    {
+      "table_id": "DOCLING_055",
+      "source": "DOCLING",
+      "page": [
+        106
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_055.csv",
+      "coordinates_path": null,
+      "rows": 3,
+      "columns": 4,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "372440ee69868a72bf145f995686b82ca1c8d6973e324dccc2f539909767c6cb"
+    },
+    {
+      "table_id": "DOCLING_056",
+      "source": "DOCLING",
+      "page": [
+        107
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_056.csv",
+      "coordinates_path": null,
+      "rows": 6,
+      "columns": 4,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "0512d667a0f9bdf60bca4ab84e2e046869632e8b0f5913c3df8cbe948832977c"
+    },
+    {
+      "table_id": "DOCLING_057",
+      "source": "DOCLING",
+      "page": [
+        109
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_057.csv",
+      "coordinates_path": null,
+      "rows": 10,
+      "columns": 7,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "0a4f8feb61591629722ec0cab1655c722516fe60235bfb29b88875504409e2d1"
+    },
+    {
+      "table_id": "DOCLING_058",
+      "source": "DOCLING",
+      "page": [
+        110
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_058.csv",
+      "coordinates_path": null,
+      "rows": 19,
+      "columns": 7,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "a7686952dc3bd9265bd419b367a7808c8910d71032005a1ae2e2b630d82bbab2"
+    },
+    {
+      "table_id": "DOCLING_059",
+      "source": "DOCLING",
+      "page": [
+        111
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_059.csv",
+      "coordinates_path": null,
+      "rows": 35,
+      "columns": 7,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "9a06251a929a2ee54b6023e947fa36678a25eed2d482f7ec3da4f404d69fb158"
+    },
+    {
+      "table_id": "DOCLING_060",
+      "source": "DOCLING",
+      "page": [
+        112
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_060.csv",
+      "coordinates_path": null,
+      "rows": 14,
+      "columns": 7,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "df54dd682cea8bfb15720e6c48530288440bc5a17c245ff4957a34108fc0df87"
+    },
+    {
+      "table_id": "DOCLING_061",
+      "source": "DOCLING",
+      "page": [
+        113
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_061.csv",
+      "coordinates_path": null,
+      "rows": 15,
+      "columns": 7,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "6b6cf883afa3699ec146446710502820c3e8762d298b0f2eaa029a2e814a2ca5"
+    },
+    {
+      "table_id": "DOCLING_062",
+      "source": "DOCLING",
+      "page": [
+        114
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_062.csv",
+      "coordinates_path": null,
+      "rows": 15,
+      "columns": 7,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "9042ea76b03e43a7976997d76e9be1dbf5f041cd6e8f228bbc8c2a28fc737611"
+    },
+    {
+      "table_id": "DOCLING_063",
+      "source": "DOCLING",
+      "page": [
+        115
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_063.csv",
+      "coordinates_path": null,
+      "rows": 15,
+      "columns": 4,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "a1cafa9df7b872057ed51ba98bcd3064f17871f3f0b067fcb6b606c289712458"
+    },
+    {
+      "table_id": "DOCLING_064",
+      "source": "DOCLING",
+      "page": [
+        115
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_064.csv",
+      "coordinates_path": null,
+      "rows": 15,
+      "columns": 4,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "5778dfd70f34e2eb1f50389d12efb6da06f9a54a0e03c3fbfa26e729055702c0"
+    },
+    {
+      "table_id": "DOCLING_065",
+      "source": "DOCLING",
+      "page": [
+        116
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_065.csv",
+      "coordinates_path": null,
+      "rows": 3,
+      "columns": 4,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "338b868ffffd946d7801752ea417aafd8fad75f002d873338fd48bc95646548f"
+    },
+    {
+      "table_id": "DOCLING_066",
+      "source": "DOCLING",
+      "page": [
+        116
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_066.csv",
+      "coordinates_path": null,
+      "rows": 12,
+      "columns": 4,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "4fb0e8ee284f4d253b1d44ef51022ef93e866d5e77a542b87154692b2323aec6"
+    },
+    {
+      "table_id": "DOCLING_067",
+      "source": "DOCLING",
+      "page": [
+        116
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_067.csv",
+      "coordinates_path": null,
+      "rows": 5,
+      "columns": 4,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "cc895acd40cbd00f71b48099cf55f24f54977bf4dc40d7bbfdd8749acad73478"
+    },
+    {
+      "table_id": "DOCLING_068",
+      "source": "DOCLING",
+      "page": [
+        117
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_068.csv",
+      "coordinates_path": null,
+      "rows": 9,
+      "columns": 6,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "b7846c1daca8c215d6f35a70857e150ac2fc0b077cfea012ffeb2f10b9820b0c"
+    },
+    {
+      "table_id": "DOCLING_069",
+      "source": "DOCLING",
+      "page": [
+        118
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_069.csv",
+      "coordinates_path": null,
+      "rows": 8,
+      "columns": 8,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "df4ec8e1d88146a6140a46ac16421e47b0ae6c2298b7f8ee31a4b09ac2186249"
+    },
+    {
+      "table_id": "DOCLING_070",
+      "source": "DOCLING",
+      "page": [
+        119
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_070.csv",
+      "coordinates_path": null,
+      "rows": 11,
+      "columns": 8,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "9128aec55cebaad6cf3a7adc3fb5751bd2a8ffab097f48b9ba6f50a7540ebeeb"
+    },
+    {
+      "table_id": "DOCLING_071",
+      "source": "DOCLING",
+      "page": [
+        120
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_071.csv",
+      "coordinates_path": null,
+      "rows": 8,
+      "columns": 8,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "54268506ab56cc31d5d03558da94e8f66b16975b8098416bcf4f39e1af877faf"
+    },
+    {
+      "table_id": "DOCLING_072",
+      "source": "DOCLING",
+      "page": [
+        121
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_072.csv",
+      "coordinates_path": null,
+      "rows": 8,
+      "columns": 8,
+      "quality_status": "INCOMPLETE",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "d377a109619ee54dfdb1b1842bfba2372d04cfec56937335bb23ca02c266fd85"
+    },
+    {
+      "table_id": "DOCLING_073",
+      "source": "DOCLING",
+      "page": [
+        122
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_073.csv",
+      "coordinates_path": null,
+      "rows": 10,
+      "columns": 8,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "d00034fb36f3797a3ebe327b82725e1a56831c8722205de151dfeddf3d51b5c4"
+    },
+    {
+      "table_id": "DOCLING_074",
+      "source": "DOCLING",
+      "page": [
+        123
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_074.csv",
+      "coordinates_path": null,
+      "rows": 4,
+      "columns": 8,
+      "quality_status": "INCOMPLETE",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "829bb8c86b311c8dcd5556ffbd53d17e05667b5d537e67b14ed55688159529dd"
+    },
+    {
+      "table_id": "DOCLING_075",
+      "source": "DOCLING",
+      "page": [
+        124
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_075.csv",
+      "coordinates_path": null,
+      "rows": 6,
+      "columns": 3,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "3d4a0e9b87974fb7a3ec270c195d81de5114aadf325e0ff535bea9f78bdb52ff"
+    },
+    {
+      "table_id": "DOCLING_076",
+      "source": "DOCLING",
+      "page": [
+        124
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_076.csv",
+      "coordinates_path": null,
+      "rows": 9,
+      "columns": 3,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "89f34e60f40d75d952644aaba8623d80b8b0f1ccf3d25e406b1580a1670afc7d"
+    },
+    {
+      "table_id": "DOCLING_077",
+      "source": "DOCLING",
+      "page": [
+        124
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_077.csv",
+      "coordinates_path": null,
+      "rows": 6,
+      "columns": 3,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "8abb54d9d6675dd3ff988ef274177ff224b8f81cbd7a3809a9c140321530db36"
+    },
+    {
+      "table_id": "DOCLING_078",
+      "source": "DOCLING",
+      "page": [
+        125
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_078.csv",
+      "coordinates_path": null,
+      "rows": 11,
+      "columns": 21,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "13eda81403e91e4eb2c93c921940f4f769970c85c254fc53e8cb02605dc77ee7"
+    },
+    {
+      "table_id": "DOCLING_079",
+      "source": "DOCLING",
+      "page": [
+        128
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_079.csv",
+      "coordinates_path": null,
+      "rows": 4,
+      "columns": 7,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "01534abe736f936cc4d8299a310b86f36b24cfb1db2d6f2e60561787c97f7fc3"
+    },
+    {
+      "table_id": "DOCLING_080",
+      "source": "DOCLING",
+      "page": [
+        128
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_080.csv",
+      "coordinates_path": null,
+      "rows": 5,
+      "columns": 7,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "ec06d7ee64cfb81ec0070ebf6f10fe8fd255e1259c018ac960d7a18961aa35ff"
+    },
+    {
+      "table_id": "DOCLING_081",
+      "source": "DOCLING",
+      "page": [
+        128
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_081.csv",
+      "coordinates_path": null,
+      "rows": 5,
+      "columns": 3,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "c17fd8c3f0a01086f5a30d863423b9fdd3051cd5d21675c99edf8fd453e0ac6b"
+    },
+    {
+      "table_id": "DOCLING_082",
+      "source": "DOCLING",
+      "page": [
+        129
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_082.csv",
+      "coordinates_path": null,
+      "rows": 3,
+      "columns": 3,
+      "quality_status": "INCOMPLETE",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "d1cca140f2ffbdea75ca627a7bf5677ba807c97d56b4c37345563ffadcae759c"
+    },
+    {
+      "table_id": "DOCLING_083",
+      "source": "DOCLING",
+      "page": [
+        129
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_083.csv",
+      "coordinates_path": null,
+      "rows": 5,
+      "columns": 5,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "b78ba4947ec03af7438c087fc4cc7142b2b092f48670f02b554c773a64335561"
+    },
+    {
+      "table_id": "DOCLING_084",
+      "source": "DOCLING",
+      "page": [
+        129
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_084.csv",
+      "coordinates_path": null,
+      "rows": 6,
+      "columns": 5,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "3cc673fb5504675c5afaa6e75758bbdacd2a9358d07e372986cd5ceddf78a180"
+    },
+    {
+      "table_id": "DOCLING_085",
+      "source": "DOCLING",
+      "page": [
+        129
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_085.csv",
+      "coordinates_path": null,
+      "rows": 5,
+      "columns": 5,
+      "quality_status": "INCOMPLETE",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "92a2bbdbc0e2840ca2e9daa52b9439081d86d02f64569421bda6c4487167e6d9"
+    },
+    {
+      "table_id": "DOCLING_086",
+      "source": "DOCLING",
+      "page": [
+        129
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_086.csv",
+      "coordinates_path": null,
+      "rows": 8,
+      "columns": 3,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "23fecdbed170b8f5760ed2177b876ed95bcaa5234295da4dc41152f6eaf6610f"
+    },
+    {
+      "table_id": "DOCLING_087",
+      "source": "DOCLING",
+      "page": [
+        130
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_087.csv",
+      "coordinates_path": null,
+      "rows": 8,
+      "columns": 3,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "70baf6c09185658786cf87e669c33f4d6edab3d0948bf66b9ae7bda9faca2b51"
+    },
+    {
+      "table_id": "DOCLING_088",
+      "source": "DOCLING",
+      "page": [
+        130
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_088.csv",
+      "coordinates_path": null,
+      "rows": 9,
+      "columns": 3,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "8338d3024082e252b0def81765e867089bddc8349109e30b6e9beac71f0d61a2"
+    },
+    {
+      "table_id": "DOCLING_089",
+      "source": "DOCLING",
+      "page": [
+        130
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_089.csv",
+      "coordinates_path": null,
+      "rows": 4,
+      "columns": 3,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "bfd3899cad80ff581f437743ad2c847f3886241e3f88afe1f9d51a1dbce81abc"
+    },
+    {
+      "table_id": "DOCLING_090",
+      "source": "DOCLING",
+      "page": [
+        130
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_090.csv",
+      "coordinates_path": null,
+      "rows": 9,
+      "columns": 5,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "47cfa147eb620233b2e18928c680d25d6662ccc211800e0fbd1195ae3391a914"
+    },
+    {
+      "table_id": "DOCLING_091",
+      "source": "DOCLING",
+      "page": [
+        130
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_091.csv",
+      "coordinates_path": null,
+      "rows": 4,
+      "columns": 6,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "4852b9d3efdbb5f3c7c2b6b071bbd34c318c0457c1145d80448c6dbf2eff9f18"
+    },
+    {
+      "table_id": "DOCLING_092",
+      "source": "DOCLING",
+      "page": [
+        130
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_092.csv",
+      "coordinates_path": null,
+      "rows": 6,
+      "columns": 6,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "e215337e591bf78cf62c3df3c14430465f96f39d888ba1b0e95a150bc2184708"
+    },
+    {
+      "table_id": "DOCLING_093",
+      "source": "DOCLING",
+      "page": [
+        131
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_093.csv",
+      "coordinates_path": null,
+      "rows": 8,
+      "columns": 5,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "c52744d665212c9cbb8166642f42909e8ea7dd10166aee155d5ef6f71481fd41"
+    },
+    {
+      "table_id": "DOCLING_094",
+      "source": "DOCLING",
+      "page": [
+        131
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_094.csv",
+      "coordinates_path": null,
+      "rows": 8,
+      "columns": 8,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "e6ae06b70011263b5f82b9b628747ef154540c804e588b55873a42edbd8a8b70"
+    },
+    {
+      "table_id": "DOCLING_095",
+      "source": "DOCLING",
+      "page": [
+        131
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_095.csv",
+      "coordinates_path": null,
+      "rows": 1,
+      "columns": 7,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "5007848a85d88d9f7be0bb130ba5179abed432545fa3467ab1f07169404b99d7"
+    },
+    {
+      "table_id": "DOCLING_096",
+      "source": "DOCLING",
+      "page": [
+        131
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_096.csv",
+      "coordinates_path": null,
+      "rows": 12,
+      "columns": 5,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "60da85ed89a68997d2c307c9076e93574a81a9435055e53f1e866e1d6edc1d9a"
+    },
+    {
+      "table_id": "DOCLING_097",
+      "source": "DOCLING",
+      "page": [
+        131
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_097.csv",
+      "coordinates_path": null,
+      "rows": 4,
+      "columns": 5,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "0e9eba2ed98675707b1e1d224263ce6219e9b14e189a65dd677ca3ba4e956b6c"
+    },
+    {
+      "table_id": "DOCLING_098",
+      "source": "DOCLING",
+      "page": [
+        132
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_098.csv",
+      "coordinates_path": null,
+      "rows": 20,
+      "columns": 8,
+      "quality_status": "INCOMPLETE",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "3a260268409047845b1473593f782fa3426db5545692cd32bb9ee11ac8a5e057"
+    },
+    {
+      "table_id": "DOCLING_099",
+      "source": "DOCLING",
+      "page": [
+        132
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_099.csv",
+      "coordinates_path": null,
+      "rows": 23,
+      "columns": 7,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "7fa768b66d9986474c0cd0cf6d539d4f693e159580b8e6f491eeba80d78f29fb"
+    },
+    {
+      "table_id": "DOCLING_100",
+      "source": "DOCLING",
+      "page": [
+        133
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_100.csv",
+      "coordinates_path": null,
+      "rows": 5,
+      "columns": 2,
+      "quality_status": "INCOMPLETE",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "e93cd6ae59aaf873eea6147a500d1feec4165f67cb254082ce75caeb00a5ce2f"
+    },
+    {
+      "table_id": "DOCLING_101",
+      "source": "DOCLING",
+      "page": [
+        133
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_101.csv",
+      "coordinates_path": null,
+      "rows": 35,
+      "columns": 2,
+      "quality_status": "INCOMPLETE",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "1f7f3e83a19568038585895781b9617dd51f721990f2c6d325ee86c063aa480f"
+    },
+    {
+      "table_id": "DOCLING_102",
+      "source": "DOCLING",
+      "page": [
+        134
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_102.csv",
+      "coordinates_path": null,
+      "rows": 30,
+      "columns": 2,
+      "quality_status": "INCOMPLETE",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "6ce149912fc2c6ad11f9ccb3cba67027870ac34207c934e043addccecd9e0a03"
+    },
+    {
+      "table_id": "DOCLING_103",
+      "source": "DOCLING",
+      "page": [
+        134
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_103.csv",
+      "coordinates_path": null,
+      "rows": 6,
+      "columns": 2,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "a774eb8f00f22701c410b8c8fb059a017f6f4529625bdbff5b1b90ed53e7fa37"
+    },
+    {
+      "table_id": "DOCLING_104",
+      "source": "DOCLING",
+      "page": [
+        134
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_104.csv",
+      "coordinates_path": null,
+      "rows": 1,
+      "columns": 1,
+      "quality_status": "INCOMPLETE",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "05a52314397a194bbbc12d3dcda9fe765ecac2e9e6c3a89ba0b0f7636e4394c3"
+    },
+    {
+      "table_id": "DOCLING_105",
+      "source": "DOCLING",
+      "page": [
+        134
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_105.csv",
+      "coordinates_path": null,
+      "rows": 1,
+      "columns": 1,
+      "quality_status": "INCOMPLETE",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "05a52314397a194bbbc12d3dcda9fe765ecac2e9e6c3a89ba0b0f7636e4394c3"
+    },
+    {
+      "table_id": "DOCLING_106",
+      "source": "DOCLING",
+      "page": [
+        134
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_106.csv",
+      "coordinates_path": null,
+      "rows": 2,
+      "columns": 2,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "cf312a9da006da9da3e06a7cd6714f16ba285d28a2161c5900dd95abcd2003cc"
+    },
+    {
+      "table_id": "DOCLING_107",
+      "source": "DOCLING",
+      "page": [
+        134
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_107.csv",
+      "coordinates_path": null,
+      "rows": 36,
+      "columns": 2,
+      "quality_status": "INCOMPLETE",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "04e3f0dc2b23ba8235632c7448b00967dcd867d586de7b6130cacd90b08bb9c8"
+    },
+    {
+      "table_id": "DOCLING_108",
+      "source": "DOCLING",
+      "page": [
+        135
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_108.csv",
+      "coordinates_path": null,
+      "rows": 10,
+      "columns": 2,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "5a4984b5f3225bfdcaecd70414b9f23e5aa0598176f46119ae0ff9e100cb9810"
+    },
+    {
+      "table_id": "DOCLING_109",
+      "source": "DOCLING",
+      "page": [
+        135
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_109.csv",
+      "coordinates_path": null,
+      "rows": 15,
+      "columns": 2,
+      "quality_status": "INCOMPLETE",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "cf6dea518c2ed9c456c4ce93bf00877da361ef43471a2594184c18d57028d5ce"
+    },
+    {
+      "table_id": "DOCLING_110",
+      "source": "DOCLING",
+      "page": [
+        135
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_110.csv",
+      "coordinates_path": null,
+      "rows": 16,
+      "columns": 2,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "2f7bd2fa44d2830b5ada3e27223f208ef1f0ecc05dc3ee906f4c7fef10398050"
+    },
+    {
+      "table_id": "DOCLING_111",
+      "source": "DOCLING",
+      "page": [
+        135
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_111.csv",
+      "coordinates_path": null,
+      "rows": 10,
+      "columns": 2,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "c30598613d28a8ab085d5d980bec20d020e33a8454266e6aec24029ea7b7b64c"
+    },
+    {
+      "table_id": "DOCLING_112",
+      "source": "DOCLING",
+      "page": [
+        137
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_112.csv",
+      "coordinates_path": null,
+      "rows": 49,
+      "columns": 5,
+      "quality_status": "INCOMPLETE",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "cac6f277ceceb7f2a636d3d95bab3b052d4b1c4774cc9d4c39e96c273ef2b87a"
+    },
+    {
+      "table_id": "DOCLING_113",
+      "source": "DOCLING",
+      "page": [
+        137
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_113.csv",
+      "coordinates_path": null,
+      "rows": 44,
+      "columns": 4,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "d8d7ab6e30e0bfad59608509b840ed4ff94f20cb8eb68552ff88595951a4784b"
+    },
+    {
+      "table_id": "DOCLING_114",
+      "source": "DOCLING",
+      "page": [
+        138
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_114.csv",
+      "coordinates_path": null,
+      "rows": 56,
+      "columns": 5,
+      "quality_status": "INCOMPLETE",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "e49a491818d1124448094f5691b6a1168b510264a2b7281d6495b668fbab94be"
+    },
+    {
+      "table_id": "DOCLING_115",
+      "source": "DOCLING",
+      "page": [
+        138
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_115.csv",
+      "coordinates_path": null,
+      "rows": 8,
+      "columns": 5,
+      "quality_status": "INCOMPLETE",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "7bb3338a356d948f5f5b21a84e62c056f88b2f81c75407d63991dffb225a7f7a"
+    },
+    {
+      "table_id": "DOCLING_116",
+      "source": "DOCLING",
+      "page": [
+        138
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_116.csv",
+      "coordinates_path": null,
+      "rows": 30,
+      "columns": 6,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "ba5a4597115267a0266f099ee621d76a2d47f3f3a2b8a84ce219db3295cbeb92"
+    },
+    {
+      "table_id": "DOCLING_117",
+      "source": "DOCLING",
+      "page": [
+        139
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_117.csv",
+      "coordinates_path": null,
+      "rows": 37,
+      "columns": 6,
+      "quality_status": "INCOMPLETE",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "140753b2d284b57a8253e1b8522d7e974c95f0dd0777e47b659ef968f2bec958"
+    },
+    {
+      "table_id": "DOCLING_118",
+      "source": "DOCLING",
+      "page": [
+        140
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_118.csv",
+      "coordinates_path": null,
+      "rows": 3,
+      "columns": 3,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "17cf4b5bb05c4262bf880c922138890b935edb427266af3a294c61ee03b0132f"
+    },
+    {
+      "table_id": "DOCLING_119",
+      "source": "DOCLING",
+      "page": [
+        140
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_119.csv",
+      "coordinates_path": null,
+      "rows": 2,
+      "columns": 3,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "10a15dabb23a1df6eda4c6f3f0b197acd27f5b4d08cbf56aebc301498d7b9b13"
+    },
+    {
+      "table_id": "DOCLING_120",
+      "source": "DOCLING",
+      "page": [
+        140
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_120.csv",
+      "coordinates_path": null,
+      "rows": 3,
+      "columns": 3,
+      "quality_status": "INCOMPLETE",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "08f05fbb884426dc42bf7c8f64423608bd372135fee7f0ed0f5004e037fc5ae0"
+    },
+    {
+      "table_id": "DOCLING_121",
+      "source": "DOCLING",
+      "page": [
+        141
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_121.csv",
+      "coordinates_path": null,
+      "rows": 17,
+      "columns": 9,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "b1ebe8623556f565ecbc69dde45522a8d59ba5848b8e38e58aed21a3c01325be"
+    },
+    {
+      "table_id": "DOCLING_122",
+      "source": "DOCLING",
+      "page": [
+        141
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_122.csv",
+      "coordinates_path": null,
+      "rows": 17,
+      "columns": 5,
+      "quality_status": "INCOMPLETE",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "861ad0fe87eec1360d3a1f1c471fe73aa53d464bfab351dda1404f33b750c7b1"
+    },
+    {
+      "table_id": "DOCLING_123",
+      "source": "DOCLING",
+      "page": [
+        142
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_123.csv",
+      "coordinates_path": null,
+      "rows": 4,
+      "columns": 8,
+      "quality_status": "INCOMPLETE",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "4f4ede5da37e6234b48eb479fea25ba4127b0a9d386e00c0e537058b5f06b4a7"
+    },
+    {
+      "table_id": "DOCLING_124",
+      "source": "DOCLING",
+      "page": [
+        142
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_124.csv",
+      "coordinates_path": null,
+      "rows": 12,
+      "columns": 11,
+      "quality_status": "INCOMPLETE",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "07344f1a98383ccac7be5a7e3235d23cf6502f7171def58b90f32b1ccbf08c92"
+    },
+    {
+      "table_id": "DOCLING_125",
+      "source": "DOCLING",
+      "page": [
+        143
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_125.csv",
+      "coordinates_path": null,
+      "rows": 9,
+      "columns": 9,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "40030486bf22dbb0062eac29c5fe50affe259ec172a91351b5e574374c48501d"
+    },
+    {
+      "table_id": "DOCLING_126",
+      "source": "DOCLING",
+      "page": [
+        143
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_126.csv",
+      "coordinates_path": null,
+      "rows": 13,
+      "columns": 9,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "89b320277e440d4d15b7f2e047d97c37601a83110821c46cce5933776c94e0ad"
+    },
+    {
+      "table_id": "DOCLING_127",
+      "source": "DOCLING",
+      "page": [
+        143
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_127.csv",
+      "coordinates_path": null,
+      "rows": 14,
+      "columns": 9,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "aebc2ce9e48ede3b277661261ffe6fff180264d257eecd180fccb99e84ea4bd5"
+    },
+    {
+      "table_id": "DOCLING_128",
+      "source": "DOCLING",
+      "page": [
+        144
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_128.csv",
+      "coordinates_path": null,
+      "rows": 2,
+      "columns": 6,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "66668548f8a83e31a8172194c141381dbea851378bbbb44ff398725d72ff657f"
+    },
+    {
+      "table_id": "DOCLING_129",
+      "source": "DOCLING",
+      "page": [
+        144
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_129.csv",
+      "coordinates_path": null,
+      "rows": 9,
+      "columns": 3,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "682f74204cc521c11aa5d396cccce48400d235d600f1471b346d2ca3018ebcb5"
+    },
+    {
+      "table_id": "DOCLING_130",
+      "source": "DOCLING",
+      "page": [
+        144
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_130.csv",
+      "coordinates_path": null,
+      "rows": 3,
+      "columns": 11,
+      "quality_status": "INCOMPLETE",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "3b849e7ff72d9880f800601878ce98d0eaf455950d1db6f93dcdd9171300b39b"
+    },
+    {
+      "table_id": "DOCLING_131",
+      "source": "DOCLING",
+      "page": [
+        145
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_131.csv",
+      "coordinates_path": null,
+      "rows": 40,
+      "columns": 4,
+      "quality_status": "INCOMPLETE",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "0846f68861b26b4d4622feb298fd84a7f0d91a1db98c95dc63888107700dc4e7"
+    },
+    {
+      "table_id": "DOCLING_132",
+      "source": "DOCLING",
+      "page": [
+        145
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_132.csv",
+      "coordinates_path": null,
+      "rows": 40,
+      "columns": 4,
+      "quality_status": "INCOMPLETE",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "b798a3c4f2f33969a96224a77115f5d2445cfad9e6fde24ab9c0f39dc35634f0"
+    },
+    {
+      "table_id": "DOCLING_133",
+      "source": "DOCLING",
+      "page": [
+        146
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_133.csv",
+      "coordinates_path": null,
+      "rows": 51,
+      "columns": 3,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "ade30d8d4824cf488b54cbce823052da69317dd495e817d7ad133d8f49ffceab"
+    },
+    {
+      "table_id": "DOCLING_134",
+      "source": "DOCLING",
+      "page": [
+        146
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_134.csv",
+      "coordinates_path": null,
+      "rows": 7,
+      "columns": 4,
+      "quality_status": "INCOMPLETE",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "bf0de9e126c86b03a5430ac970684f0ef9c380ca1473a9eb25ad32a0bf515d75"
+    },
+    {
+      "table_id": "DOCLING_135",
+      "source": "DOCLING",
+      "page": [
+        146
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_135.csv",
+      "coordinates_path": null,
+      "rows": 5,
+      "columns": 5,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "fcdd3402b8e45558ce91cd59e6629308ba5a34fcac1785f05ffcec85772d2fe9"
+    },
+    {
+      "table_id": "DOCLING_136",
+      "source": "DOCLING",
+      "page": [
+        147
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_136.csv",
+      "coordinates_path": null,
+      "rows": 12,
+      "columns": 12,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "cad6b227007bbc23e191405193f6b96c486584ea6c29fef7f76c0011bd8e41c2"
+    },
+    {
+      "table_id": "DOCLING_137",
+      "source": "DOCLING",
+      "page": [
+        147
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_137.csv",
+      "coordinates_path": null,
+      "rows": 9,
+      "columns": 4,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "c220427f04690a7450c976de99769e0e793bb7196622589ad91c7a8644565fe4"
+    },
+    {
+      "table_id": "DOCLING_138",
+      "source": "DOCLING",
+      "page": [
+        148
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_138.csv",
+      "coordinates_path": null,
+      "rows": 14,
+      "columns": 4,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "c0a40c0b1c984a8bc77e565c493c9678d2c2e89dbec7c313fef5c6ec55b3e1e3"
+    },
+    {
+      "table_id": "DOCLING_139",
+      "source": "DOCLING",
+      "page": [
+        148
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_139.csv",
+      "coordinates_path": null,
+      "rows": 10,
+      "columns": 3,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "03138063708ab6e2eacd56346437c818c354e3e38e9d24d0e408da12daabbaa5"
+    },
+    {
+      "table_id": "DOCLING_140",
+      "source": "DOCLING",
+      "page": [
+        148
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_140.csv",
+      "coordinates_path": null,
+      "rows": 9,
+      "columns": 3,
+      "quality_status": "INCOMPLETE",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "68c49915fc754d11be9da01afb703b09d16e37ad46d18d02ed405de32b1127d0"
+    },
+    {
+      "table_id": "DOCLING_141",
+      "source": "DOCLING",
+      "page": [
+        149
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_141.csv",
+      "coordinates_path": null,
+      "rows": 27,
+      "columns": 3,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "23f4f262e488bfee378358a7e438b767b30221b28275694e84afca4227602720"
+    },
+    {
+      "table_id": "DOCLING_142",
+      "source": "DOCLING",
+      "page": [
+        149
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_142.csv",
+      "coordinates_path": null,
+      "rows": 6,
+      "columns": 3,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "846827d761156521dd35def50cb0e4cffef25a13f8209e57e0c866e664795f66"
+    },
+    {
+      "table_id": "DOCLING_143",
+      "source": "DOCLING",
+      "page": [
+        150
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_143.csv",
+      "coordinates_path": null,
+      "rows": 26,
+      "columns": 9,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "1f4160da33bfd3105127325f754bdc658bd71bfba65874cbc375895846f9cd10"
+    },
+    {
+      "table_id": "DOCLING_144",
+      "source": "DOCLING",
+      "page": [
+        151
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_144.csv",
+      "coordinates_path": null,
+      "rows": 18,
+      "columns": 3,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "3bde7fb0b0cf36fdd6f455da7886393bed268695b71a3cfd8b9653dd28d2f9d7"
+    },
+    {
+      "table_id": "DOCLING_145",
+      "source": "DOCLING",
+      "page": [
+        151
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_145.csv",
+      "coordinates_path": null,
+      "rows": 21,
+      "columns": 3,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "1baca028d063bd751b4ae05a95c036cc36820104b4a835104fc0083669b64871"
+    },
+    {
+      "table_id": "DOCLING_146",
+      "source": "DOCLING",
+      "page": [
+        151
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_146.csv",
+      "coordinates_path": null,
+      "rows": 26,
+      "columns": 3,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "bd0efa9b5eca844df51f4d02e38a7db0ec09e1e762827a933bb31ed7ae5cda91"
+    },
+    {
+      "table_id": "DOCLING_147",
+      "source": "DOCLING",
+      "page": [
+        152
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_147.csv",
+      "coordinates_path": null,
+      "rows": 4,
+      "columns": 4,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "094267437956752caeb7f01a7b096574b28fa19d7c4c177556ec69fd0e41aad8"
+    },
+    {
+      "table_id": "DOCLING_148",
+      "source": "DOCLING",
+      "page": [
+        154
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_148.csv",
+      "coordinates_path": null,
+      "rows": 1,
+      "columns": 2,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "29a76dc6514d8cf515f59ca5ac7ab6026359c2b61bcbd3fce5e56dc861cae03b"
+    },
+    {
+      "table_id": "DOCLING_149",
+      "source": "DOCLING",
+      "page": [
+        159
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_149.csv",
+      "coordinates_path": null,
+      "rows": 4,
+      "columns": 4,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "d363e170ab366a3f9efe6887f6510880ed131c0ad89fb45c3f55e49e94f92cf1"
+    },
+    {
+      "table_id": "DOCLING_150",
+      "source": "DOCLING",
+      "page": [
+        159
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_150.csv",
+      "coordinates_path": null,
+      "rows": 4,
+      "columns": 4,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "e1d2b1c8b7fcafea1352d11e75eb883415394a47caacc0448585ba6990cf4c04"
+    }
+  ],
+  "replacements": [
+    {
+      "docling_table": 17,
+      "pages": [
+        78
+      ],
+      "ocr_candidates": [],
+      "status": "UNRESOLVED"
+    }
+  ],
+  "remaining_docling_issues": [
+    {
+      "code": "AUTOGENERATED_HEADER",
+      "message": "Les en-têtes de colonnes sont artificiels.",
+      "severity": "WARNING",
+      "table_index": 1,
+      "pages": [
+        2
+      ]
+    },
+    {
+      "code": "AUTOGENERATED_HEADER",
+      "message": "Les en-têtes de colonnes sont artificiels.",
+      "severity": "WARNING",
+      "table_index": 2,
+      "pages": [
+        2
+      ]
+    },
+    {
+      "code": "AUTOGENERATED_HEADER",
+      "message": "Les en-têtes de colonnes sont artificiels.",
+      "severity": "WARNING",
+      "table_index": 3,
+      "pages": [
+        6
+      ]
+    },
+    {
+      "code": "AUTOGENERATED_HEADER",
+      "message": "Les en-têtes de colonnes sont artificiels.",
+      "severity": "WARNING",
+      "table_index": 4,
+      "pages": [
+        15
+      ]
+    },
+    {
+      "code": "MISSING_ROW_LABEL",
+      "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+      "severity": "WARNING",
+      "table_index": 5,
+      "pages": [
+        26
+      ]
+    },
+    {
+      "code": "AUTOGENERATED_HEADER",
+      "message": "Les en-têtes de colonnes sont artificiels.",
+      "severity": "WARNING",
+      "table_index": 11,
+      "pages": [
+        50
+      ]
+    },
+    {
+      "code": "MISSING_ROW_LABEL",
+      "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+      "severity": "WARNING",
+      "table_index": 11,
+      "pages": [
+        50
+      ]
+    },
+    {
+      "code": "AUTOGENERATED_HEADER",
+      "message": "Les en-têtes de colonnes sont artificiels.",
+      "severity": "WARNING",
+      "table_index": 12,
+      "pages": [
+        55
+      ]
+    },
+    {
+      "code": "AUTOGENERATED_HEADER",
+      "message": "Les en-têtes de colonnes sont artificiels.",
+      "severity": "WARNING",
+      "table_index": 13,
+      "pages": [
+        59
+      ]
+    },
+    {
+      "code": "MISSING_ROW_LABEL",
+      "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+      "severity": "WARNING",
+      "table_index": 13,
+      "pages": [
+        59
+      ]
+    },
+    {
+      "code": "AUTOGENERATED_HEADER",
+      "message": "Les en-têtes de colonnes sont artificiels.",
+      "severity": "WARNING",
+      "table_index": 37,
+      "pages": [
+        93
+      ]
+    },
+    {
+      "code": "AUTOGENERATED_HEADER",
+      "message": "Les en-têtes de colonnes sont artificiels.",
+      "severity": "WARNING",
+      "table_index": 38,
+      "pages": [
+        93
+      ]
+    },
+    {
+      "code": "AUTOGENERATED_HEADER",
+      "message": "Les en-têtes de colonnes sont artificiels.",
+      "severity": "WARNING",
+      "table_index": 39,
+      "pages": [
+        93
+      ]
+    },
+    {
+      "code": "AUTOGENERATED_HEADER",
+      "message": "Les en-têtes de colonnes sont artificiels.",
+      "severity": "WARNING",
+      "table_index": 40,
+      "pages": [
+        93
+      ]
+    },
+    {
+      "code": "AUTOGENERATED_HEADER",
+      "message": "Les en-têtes de colonnes sont artificiels.",
+      "severity": "WARNING",
+      "table_index": 47,
+      "pages": [
+        99
+      ]
+    },
+    {
+      "code": "MISSING_ROW_LABEL",
+      "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+      "severity": "WARNING",
+      "table_index": 49,
+      "pages": [
+        101
+      ]
+    },
+    {
+      "code": "MISSING_ROW_LABEL",
+      "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+      "severity": "WARNING",
+      "table_index": 51,
+      "pages": [
+        104
+      ]
+    },
+    {
+      "code": "SPLIT_WORD",
+      "message": "Un libellé contient une césure issue de la mise en page.",
+      "severity": "WARNING",
+      "table_index": 72,
+      "pages": [
+        121
+      ]
+    },
+    {
+      "code": "SPLIT_WORD",
+      "message": "Un libellé contient une césure issue de la mise en page.",
+      "severity": "WARNING",
+      "table_index": 74,
+      "pages": [
+        123
+      ]
+    },
+    {
+      "code": "MISSING_ROW_LABEL",
+      "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+      "severity": "WARNING",
+      "table_index": 82,
+      "pages": [
+        129
+      ]
+    },
+    {
+      "code": "MISSING_ROW_LABEL",
+      "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+      "severity": "WARNING",
+      "table_index": 85,
+      "pages": [
+        129
+      ]
+    },
+    {
+      "code": "MISSING_ROW_LABEL",
+      "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+      "severity": "WARNING",
+      "table_index": 98,
+      "pages": [
+        132
+      ]
+    },
+    {
+      "code": "AUTOGENERATED_HEADER",
+      "message": "Les en-têtes de colonnes sont artificiels.",
+      "severity": "WARNING",
+      "table_index": 100,
+      "pages": [
+        133
+      ]
+    },
+    {
+      "code": "AUTOGENERATED_HEADER",
+      "message": "Les en-têtes de colonnes sont artificiels.",
+      "severity": "WARNING",
+      "table_index": 101,
+      "pages": [
+        133
+      ]
+    },
+    {
+      "code": "AUTOGENERATED_HEADER",
+      "message": "Les en-têtes de colonnes sont artificiels.",
+      "severity": "WARNING",
+      "table_index": 102,
+      "pages": [
+        134
+      ]
+    },
+    {
+      "code": "AUTOGENERATED_HEADER",
+      "message": "Les en-têtes de colonnes sont artificiels.",
+      "severity": "WARNING",
+      "table_index": 104,
+      "pages": [
+        134
+      ]
+    },
+    {
+      "code": "AUTOGENERATED_HEADER",
+      "message": "Les en-têtes de colonnes sont artificiels.",
+      "severity": "WARNING",
+      "table_index": 105,
+      "pages": [
+        134
+      ]
+    },
+    {
+      "code": "AUTOGENERATED_HEADER",
+      "message": "Les en-têtes de colonnes sont artificiels.",
+      "severity": "WARNING",
+      "table_index": 107,
+      "pages": [
+        134
+      ]
+    },
+    {
+      "code": "AUTOGENERATED_HEADER",
+      "message": "Les en-têtes de colonnes sont artificiels.",
+      "severity": "WARNING",
+      "table_index": 109,
+      "pages": [
+        135
+      ]
+    },
+    {
+      "code": "MISSING_ROW_LABEL",
+      "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+      "severity": "WARNING",
+      "table_index": 112,
+      "pages": [
+        137
+      ]
+    },
+    {
+      "code": "MISSING_ROW_LABEL",
+      "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+      "severity": "WARNING",
+      "table_index": 114,
+      "pages": [
+        138
+      ]
+    },
+    {
+      "code": "MISSING_ROW_LABEL",
+      "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+      "severity": "WARNING",
+      "table_index": 115,
+      "pages": [
+        138
+      ]
+    },
+    {
+      "code": "MISSING_ROW_LABEL",
+      "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+      "severity": "WARNING",
+      "table_index": 117,
+      "pages": [
+        139
+      ]
+    },
+    {
+      "code": "MISSING_ROW_LABEL",
+      "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+      "severity": "WARNING",
+      "table_index": 120,
+      "pages": [
+        140
+      ]
+    },
+    {
+      "code": "MISSING_ROW_LABEL",
+      "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+      "severity": "WARNING",
+      "table_index": 122,
+      "pages": [
+        141
+      ]
+    },
+    {
+      "code": "MISSING_ROW_LABEL",
+      "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+      "severity": "WARNING",
+      "table_index": 123,
+      "pages": [
+        142
+      ]
+    },
+    {
+      "code": "MISSING_ROW_LABEL",
+      "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+      "severity": "WARNING",
+      "table_index": 124,
+      "pages": [
+        142
+      ]
+    },
+    {
+      "code": "MISSING_ROW_LABEL",
+      "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+      "severity": "WARNING",
+      "table_index": 130,
+      "pages": [
+        144
+      ]
+    },
+    {
+      "code": "MISSING_ROW_LABEL",
+      "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+      "severity": "WARNING",
+      "table_index": 131,
+      "pages": [
+        145
+      ]
+    },
+    {
+      "code": "MISSING_ROW_LABEL",
+      "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+      "severity": "WARNING",
+      "table_index": 132,
+      "pages": [
+        145
+      ]
+    },
+    {
+      "code": "MISSING_ROW_LABEL",
+      "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+      "severity": "WARNING",
+      "table_index": 134,
+      "pages": [
+        146
+      ]
+    },
+    {
+      "code": "AUTOGENERATED_HEADER",
+      "message": "Les en-têtes de colonnes sont artificiels.",
+      "severity": "WARNING",
+      "table_index": 140,
+      "pages": [
+        148
+      ]
+    },
+    {
+      "code": "MISSING_ROW_LABEL",
+      "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+      "severity": "WARNING",
+      "table_index": 140,
+      "pages": [
+        148
+      ]
+    },
+    {
+      "code": "FINANCIAL_IMAGE_REQUIRES_OCR",
+      "message": "Une grande image financière ne possède aucun tableau Docling associé.",
+      "severity": "WARNING",
+      "table_index": null,
+      "pages": [
+        60
+      ]
+    },
+    {
+      "code": "FINANCIAL_IMAGE_REQUIRES_OCR",
+      "message": "Une grande image financière ne possède aucun tableau Docling associé.",
+      "severity": "WARNING",
+      "table_index": null,
+      "pages": [
+        83
+      ]
+    },
+    {
+      "code": "FINANCIAL_IMAGE_REQUIRES_OCR",
+      "message": "Une grande image financière ne possède aucun tableau Docling associé.",
+      "severity": "WARNING",
+      "table_index": null,
+      "pages": [
+        136
+      ]
+    }
+  ],
+  "financial_validation": "NOT_PERFORMED"
+}

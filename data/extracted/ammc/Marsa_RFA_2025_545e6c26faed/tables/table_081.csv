@@ -1,0 +1,41 @@
+PASSIF (en MAD),EXERCICE 31/12/2025,EXERCICE PRECEDENT 31/12/2025
+CAPITAUX PROPRES ,"2.793.112.625,99 ","2.096.667.337,54 "
+* Capital social ou personnel (1) ,"733.956.000,00 ","733.956.000,00 "
+"* Moins : actionnaires, capital souscrit non appelé ",,
+"* Prime d'émission, de fusion, d'apport",,
+* Ecart de réévaluation,,
+* Réserve légale ,"73.395.600,00 ","73.395.600,00 "
+* Autres réserves (2) ,"206.331.958,64 ","206.331.958,64 "
+* Report à nouveau ,"385.725.578,90 ","143.284.057,51 "
+* Résultats nets en instance d'affectation (2) ,"0,00 ",
+* Résultat net de l'exercice (2) ,"1.393.703.488,45 ","939.699.721,39 "
+TOTAL DES CAPITAUX PROPRES (A)  FINANCEMENT PERMANENT ,"2.793.112.625,99 ","2.096.667.337,54 "
+CAPITAUX PROPRES ASSIMILES (B) ,"119.037.908,71 ","115.559.882,36 "
+* Subvention d'investissement ,"626.000,00 ","1.878.000,00 "
+* Provisions réglementées ,"118.411.908,71 ","113.681.882,36 "
+DETTES DE FINANCEMENT (C) ,"129.244.048,00 ","0,00 "
+* Emprunts obligatoires ,"0,00 ",
+* Autres dettes de financement ,"129.244.048,00 ",
+PROVISIONS DURABLES POUR RISQUES ET CHARGES (D) ,"1.813.864.813,80 ","1.747.770.056,24 "
+* Provisions pour risques ,"149.949.683,43 ","133.964.870,85"
+* Provisions pour charges ,"1.663.915.130,37 ","1.613.805.185,39 "
+ECART DE CONVERSION PASSIF (E) ,"11.113.706,49 ","0,00 "
+* Dimunition des dettes de financement ,"11.113.706,49 ",
+TOTAL I (A+B+C+D+E) ,"4.866.373.102,99 ","3.959.997.276,14 "
+DETTES DU PASSIF CIRCULANT (F) ,"1.009.822.603,15 ","837.715.747,96 "
+* Fournisseurs et comptes rattachés ,"356.918.627,68 ","249.759.786,63 "
+"* Clients créditeurs, avances et acomptes ","23.353.332,55 ","60.410.643,42 "
+* Personnel ,"55.993.765,44 ","76.969.222,78 "
+* Organismes sociaux ,"45.226.480,93 ","36.774.790,51 "
+* Etat  PASSIF CIRCULANT ,"328.725.036,01 ","218.442.637,48 "
+* Comptes d'associés ,"3.857,00 ","3.573,42 "
+* Autres créanciers ,"198.787.265,54 ","195.355.093,72 "
+* Comptes de régularisation passif ,"814.238,00 ","0,00 "
+AUTRES PROVISIONS POUR RISQUES ET CHARGES (G) ,"6.828,36 ","267.872,91 "
+,"21.112,32 ","737.237,40 "
+Ecart de conversion Passif (H)  TOTAL II (F + G + H) ,,
+,"1.009.850.543,83 ","838.720.858,27 "
+TRESORERIE - PASSIF ,- ,- 
+* Banques (soldes créditeurs) TRESORERIE,,
+TOTAL III ,- ,- 
+TOTAL GENERAL I + II + III ,"5.876.223.646,82 ","4.798.718.134,41 "

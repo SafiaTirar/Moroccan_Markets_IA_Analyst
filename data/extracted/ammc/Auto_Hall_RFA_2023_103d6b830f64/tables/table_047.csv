@@ -1,0 +1,44 @@
+0,1,2,3,4
+ ÉTAT DES SOLDES DE GESTION ( E S G ) , ÉTAT DES SOLDES DE GESTION ( E S G ) , ÉTAT DES SOLDES DE GESTION ( E S G ) , ÉTAT DES SOLDES DE GESTION ( E S G ) , ÉTAT DES SOLDES DE GESTION ( E S G ) 
+I TABLEAU DE FORMATION DES RÉSULTATS ( T F R ) ,I TABLEAU DE FORMATION DES RÉSULTATS ( T F R ) ,I TABLEAU DE FORMATION DES RÉSULTATS ( T F R ) ,Exercice du 1 janvier 2023  au 31 décembre 2023 ,Exercice du 1 janvier 2023  au 31 décembre 2023 
+,,(Montants en dhs) ,EXERCICE ,EXERCICE  PRÉCÉDENT 
+,1 ,Ventes de marchandises (en l’état ) ,"3 374 495 801,21 ","3 353 625 966,75"
+,2  - ,Achats revendus de marchandises ,"2 969 142 792,05 ","2 889 599 035,35"
+I ,= ,MARGE BRUTE SUR VENTES EN L’ÉTAT ,"405 353 009,16 ","464 026 931,40"
+,+ ,PRODUCTION DE L’ EXERCICE : ( 3 + 4 + 5 ) ,"179 198 634,16 ","183 217 687,26"
+II ,3 ,Ventes de biens et services produits ,"179 198 634,16 ","183 217 687,26"
+,4 ,Variation de stocks de produits ,,
+,5 ,Immobilisations produites par l’entreprise pour elle-même ,,
+,- ,CONSOMMATION DE L’EXERCICE : ( 6 + 7 ) ,"278 255 842,28 ","255 682 922,13"
+III ,6 ,Achats consommés de matières et fournitures ,"41 217 129,35 ","38 045 422,65"
+,7 ,Autres charges externes ,"237 038 712,93 ","217 637 499,48"
+IV ,= ,VALEUR AJOUTÉE : ( I + II + III ) ,"306 295 801,04 ","391 561 696,53"
+,8  + ,Subventions d’exploitation ,,
+V ,9  - ,Impôts et taxes ,"12 089 218,54 ","13 112 044,43"
+,10  - ,Charges de personnel ,"195 730 673,66 ","196 855 953,50"
+,=  = ,EXCÉDENT BRUT D’EXPLOITATION ( E B E )  OU INSUFFISANCE BRUTE D’EXPLOITATION ( I B E) ,"98 475 908,84 ","181 593 698,60 "
+,11  + ,Autres produits d’exploitation ,"2 289 600,00 ","2 776 800,00"
+,12  - ,Autres charges d’exploitation ,"5 198 337,14 ","5 195 829,78"
+,13  + ,Reprises d’exploitation : transferts de charges ,"1 869 417,59 ","3 627 604,05"
+,14  - ,Dotations d’exploitation ,"75 444 067,06 ","66 983 884,78"
+VI ,= ,RÉSULTAT D’EXPLOITATION ( + ou - ) ,"21 992 522,23 ","115 818 388,09"
+VII ,,RÉSULTAT FINANCIER ,"24 264 007,04 ","26 298 738,85"
+VIII ,= ,RÉSULTAT COURANT ( + ou - ) ,"46 256 529,27 ","142 117 126,94"
+IX ,,RÉSULTAT NON COURANT ,"157 760 796,72 ","163 777 529,88"
+,15  - ,Impôts sur les résultats ,"34 366 808,00 ","40 198 653,00"
+X ,= ,RÉSULTAT NET DE L’EXERCICE ( + ou - ) ,"169 650 517,99 ","265 696 003,82"
+II CAPACITÉ D’AUTOFINANCEMENT ( C A F ) - AUTOFINANCEMENT ,II CAPACITÉ D’AUTOFINANCEMENT ( C A F ) - AUTOFINANCEMENT ,II CAPACITÉ D’AUTOFINANCEMENT ( C A F ) - AUTOFINANCEMENT ,II CAPACITÉ D’AUTOFINANCEMENT ( C A F ) - AUTOFINANCEMENT ,II CAPACITÉ D’AUTOFINANCEMENT ( C A F ) - AUTOFINANCEMENT 
+,,Résultat de l’exercice ,,
+,1 ,* Bénéfice ,"169 650 517,99 ","265 696 003,82"
+,,* Perte ,,
+2 ,+ ,Dotations d’exploitation (1) ,"73 257 113,19 ","64 525 287,19"
+,3  + ,Dotations financières (1) ,,
+,4  + ,Dotations non courantes (1) ,,
+,5  - ,Reprises d’exploitation (2) ,,
+,6  - ,Reprises financières (2) ,,
+,7  - ,Reprises non courantes (2) (3) ,,
+,8  - ,Produits des cessions des immobilisations ,"279 475 296,03 ","247 371 586,94"
+,9  + ,Valeurs nettes des immobilisations cédées ,"119 941 126,85 ","70 237 799,07"
+I ,,CAPACITÉ D’AUTOFINANCEMENT ( C A F ) ,"83 373 462,00 ","153 087 503,14"
+,10  - ,Distributions de bénéfices ,"176 030 848,00 ","176 030 848,00"
+II ,,AUTOFINANCEMENT ,"-92 657 386,00 ","-22 943 344,86"

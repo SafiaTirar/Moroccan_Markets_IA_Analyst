@@ -1,0 +1,51 @@
+Bilan Actif .ACTIF,Exercice clos le: 31/12/2024.Brut ,Exercice clos le: 31/12/2024.Exercice  Amortissements et provisions ,Exercice clos le: 31/12/2024.Net ,Exercice clos le: 31/12/2024.Exercice precedent Net
+ACTIF IMMOBILISE,,,,
+IMMOBILISATIONS EN NON VALEURS (A) ,"66 442 445,86 ","51 188 619,03 ","15 253 826,83 ","1 658 424,70"
+Frais préliminaires ,"49 096 145,75 ","34 755 271,37 ","14 340 874,38",
+Charges à répartir sur plusieurs exercices ,"17 346 300,11 ","16 433 347,66 ","912 952,45 ","1 658 424,70"
+Primes de remboursement des obligations ,,,,"0,00 "
+IMMOBILISATIONS INCORPORELLES (B) ,"236 456 843,21 ","203 472 577,15 ","32 984 266,06 ","34 657 321,22"
+Immobilisation en recherche et développement ,"160 660 693,87 ","160 660 693,87 ",,"0,00 "
+"Brevets, marques, droits et valeurs similaires ","45 006 031,47 ","42 811 883,28 ","2 194 148,19 ","3 867 203,35"
+Fonds commercial ,,,,"0,00 "
+Autres immobilisations incorporelles ,"30 790 117,87 ",,"30 790 117,87 ","30 790 117,87"
+IMMOBILISATIONS CORPORELLES (C) ,"190 616 506,41 ","126 594 019,04 ","64 022 487,37 ","69 214 794,49"
+Terrains ,"12 787 930,78 ",,"12 787 930,78 ","12 787 930,78"
+Constructions ,"70 455 790,63 ","29 273 599,86 ","41 182 190,77 ","44 310 112,92"
+"Installations techniques, matériel et outillage ","5 947 374,35 ","5 239 828,18 ","707 546,17 ","1 179 786,95"
+Matériel de transport ,"2 336 897,74 ","2 115 162,29 ","221 735,45 ","613 806,39"
+"Mobilier, matériel de bureau et aménagements divers ","95 728 134,56 ","89 965 428,71 ","5 762 705,85 ","4 278 076,89"
+Autres immobilisations corporelles ,,,,"0,00 "
+Immobilisations corporelles en cours ,"3 360 378,35 ",,"3 360 378,35 ","6 045 080,56"
+IMMOBILISATIONS FINANCIERES (D) ,"8 858 875 823,34 ","684 929 700,00 ","8 173 946 123,34 ","7 397 114 524,76"
+Prêts immobilisés ,"3 458 166 751,49 ",,"3 458 166 751,49 ","3 066 565 075,10"
+Autres créances financières ,"10 000,00 ",,"10 000,00 ","10 000,00"
+Titres de participation ,"5 400 699 071,85 ","684 929 700,00 ","4 715 769 371,85 ","4 330 539 449,66"
+Autres titres immobilisés ,,,,"0,00 "
+ECARTS DE CONVERSION - ACTIF (E) ,"13 222 902,27 ",,"13 222 902,27 ","54 431 726,08"
+Diminution des créances immobilisées ,"13 222 902,27 ",,"13 222 902,27 ","54 431 726,08"
+Augmentation des dettes de financement ,,,,"0,00 "
+TOTAL I (A + B + C + D + E) ,"9 365 614 521,09 ",,"1 066 184 915,22 8 299 429 605,87 ","7 557 076 791,25"
+ACTIF CIRCULANT,,,,
+STOCKS (F),,,,
+Marchandises,,,,
+Matières et fournitures consommables Produits en cours,,,,
+Produits intermédiaires et produits résiduels,,,,
+Produits finis,,,,
+CREANCES DE L’ACTIF CIRCULANT (G) ,"7 518 472 785,98 ",,"7 518 472 785,98 ","5 707 490 281,41"
+"Fournisseurs débiteurs, avances et acomptes ","29 167 413,77 ",,"29 167 413,77 ","29 167 413,77"
+Clients et comptes rattachés ,"1 554 813 353,85 ",,"1 554 813 353,85 ","1 008 084 851,36"
+Personnel - Débiteur ,"78 179,22 ",,"78 179,22 ","214 268,36"
+Etat - Débiteur ,"127 128 791,69 ",,"127 128 791,69 ","95 296 823,18"
+Comptes d’associés ,"5 779 752 689,60 ",,"5 779 752 689,60 ","4 571 966 689,31"
+Autres débiteurs ,"26 949 635,32 ",,"26 949 635,32",
+Comptes de régularisation-Actif ,"582 722,53 ",,"582 722,53 ","2 760 235,43"
+TITRES ET VALEURS DE PLACEMENT (H),,,,
+ECART DE CONVERSION - ACTIF (éléments circulants) (I) ,"11 992 270,61 ",,"11 992 270,61 ","2 179 175,04"
+TOTAL II (F + G + H + I) ,"7 530 465 056,59 ",,"7 530 465 056,59 ","5 709 669 456,45"
+TRESORERIE,,,,
+TRESORERIE - ACTIF ,"120 025 251,64 ",,"120 025 251,64 ","27 449 262,72"
+"Chèques et valeurs à encaisser  Banques, T G et C C P débiteurs ","119 853 505,82  171 745,82 ",,"119 853 505,82  171 745,82 ","0,00  27 364 556,76 84 705,96"
+"Caisses, Régies d’avances et accréditifs ",,,"120 025 251,64 ",
+TOTAL III ,"120 025 251,64 ",,,"27 449 262,72"
+TOTAL GENERAL I + II + III ,"17 016 104 829,32 ","1 066 184 915,22 15 949 919 914,10 ",,"13 294 195 510,42"

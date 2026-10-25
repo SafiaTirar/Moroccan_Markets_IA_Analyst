@@ -1,0 +1,135 @@
+{
+  "schema_version": "1.0",
+  "dossiers": [
+    {
+      "company_id": "attijariwafa_bank",
+      "exercise_year": 2024,
+      "status": "REVIEW_REQUIRED",
+      "source_pdf": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/raw/ammc/pdfs/annual/attijariwafa_bank/2024/AWB_RFA_2024_1.pdf",
+      "page": [
+        10
+      ],
+      "table_id": "DOCLING_006",
+      "label": "",
+      "column": "PIB .2024E ",
+      "raw_value": "3,7 ",
+      "unit": null,
+      "period": "2024",
+      "accounting_perimeter": "UNKNOWN",
+      "bbox": null,
+      "reasons": [
+        {
+          "code": "MISSING_ROW_LABEL",
+          "message": "La valeur chiffrée ne possède aucun libellé de ligne.",
+          "severity": "ERROR"
+        }
+      ],
+      "decision": "Aucune validation humaine simulée; contrôle PDF requis."
+    },
+    {
+      "company_id": "auto_hall",
+      "exercise_year": 2024,
+      "status": "REVIEW_REQUIRED",
+      "source_pdf": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/raw/ammc/pdfs/annual/auto_hall/2024/AutoHall_RFA_2024.pdf",
+      "page": [
+        20
+      ],
+      "table_id": "DOCLING_001",
+      "label": "",
+      "column": "31 décembre 2023 ",
+      "raw_value": "19 949 ",
+      "unit": null,
+      "period": "2023",
+      "accounting_perimeter": "UNKNOWN",
+      "bbox": null,
+      "reasons": [
+        {
+          "code": "MISSING_ROW_LABEL",
+          "message": "La valeur chiffrée ne possède aucun libellé de ligne.",
+          "severity": "ERROR"
+        }
+      ],
+      "decision": "Aucune validation humaine simulée; contrôle PDF requis."
+    },
+    {
+      "company_id": "s2m",
+      "exercise_year": 2023,
+      "status": "REVIEW_REQUIRED",
+      "source_pdf": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/raw/ammc/pdfs/annual/s2m/2023/S2M_RFA_2023.pdf",
+      "page": [
+        15
+      ],
+      "table_id": "OCR_001",
+      "label": "de capitaux propres et assimilés de MAD dont un bénéfice net de MAD.",
+      "column": "value_2_extra",
+      "raw_value": "10 926 833,98",
+      "unit": "MAD",
+      "period": null,
+      "accounting_perimeter": "UNKNOWN",
+      "bbox": [
+        359.0764710966241,
+        320.39998535156246,
+        399.62753134429767,
+        326.39998535156246
+      ],
+      "reasons": [
+        {
+          "code": "UNEXPECTED_EXTRA_COLUMN",
+          "message": "La valeur a été placée dans une colonne supplémentaire non justifiée par la structure détectée.",
+          "severity": "ERROR"
+        }
+      ],
+      "decision": "Aucune validation humaine simulée; contrôle PDF requis."
+    },
+    {
+      "company_id": "sothema",
+      "exercise_year": 2025,
+      "status": "REVIEW_REQUIRED",
+      "source_pdf": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/raw/ammc/pdfs/annual/sothema/2025/Sothema_RFA_2025.pdf",
+      "page": [
+        39
+      ],
+      "table_id": "DOCLING_004",
+      "label": "",
+      "column": "2023 ",
+      "raw_value": "551 ",
+      "unit": null,
+      "period": "2023",
+      "accounting_perimeter": "UNKNOWN",
+      "bbox": null,
+      "reasons": [
+        {
+          "code": "MISSING_ROW_LABEL",
+          "message": "La valeur chiffrée ne possède aucun libellé de ligne.",
+          "severity": "ERROR"
+        }
+      ],
+      "decision": "Aucune validation humaine simulée; contrôle PDF requis."
+    },
+    {
+      "company_id": "wafa_assurance",
+      "exercise_year": 2024,
+      "status": "REVIEW_REQUIRED",
+      "source_pdf": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/raw/ammc/pdfs/annual/wafa_assurance/2024/Wafa_Assurance_RFA_2024.pdf",
+      "page": [
+        7
+      ],
+      "table_id": "DOCLING_006",
+      "label": "",
+      "column": "31/12/2024 ",
+      "raw_value": "559 484 379,61 ",
+      "unit": null,
+      "period": "31/12/2024",
+      "accounting_perimeter": "UNKNOWN",
+      "bbox": null,
+      "reasons": [
+        {
+          "code": "MISSING_ROW_LABEL",
+          "message": "La valeur chiffrée ne possède aucun libellé de ligne.",
+          "severity": "ERROR"
+        }
+      ],
+      "decision": "Aucune validation humaine simulée; contrôle PDF requis."
+    }
+  ]
+}

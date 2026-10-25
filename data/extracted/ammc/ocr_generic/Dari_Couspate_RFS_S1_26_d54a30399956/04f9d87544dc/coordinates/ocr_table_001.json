@@ -1,0 +1,570 @@
+{
+  "page": 4,
+  "bbox": [
+    0.0,
+    0.0,
+    595.6799926757812,
+    841.9199829101562
+  ],
+  "source": "embedded_image",
+  "source_id": "xref:81:1",
+  "name": null,
+  "image_size": [
+    2482,
+    3508
+  ],
+  "attempts": [
+    {
+      "psm": 6,
+      "score": 73,
+      "amount_count": 7,
+      "keyword_count": 5,
+      "rows": 5
+    },
+    {
+      "psm": 11,
+      "score": 32,
+      "amount_count": 8,
+      "keyword_count": 5,
+      "rows": 6
+    }
+  ],
+  "selected_psm": 6,
+  "column_right_ratios": [
+    0.5547945205479452,
+    0.6351732473811442,
+    0.7385173247381145
+  ],
+  "rows": [
+    {
+      "label": "DARI COUSPATE dispose de trois sites de production MDH, contre MDH à fin juin 2025, soit un",
+      "cells": [
+        {
+          "column": "value_1",
+          "value": "375,97",
+          "bbox": [
+            303.5999962670682,
+            454.79999076817165,
+            333.83999589525047,
+            461.9999906220213
+          ]
+        },
+        {
+          "column": "value_3",
+          "value": "377,35",
+          "bbox": [
+            401.51999506308704,
+            454.79999076817165,
+            430.7999947030731,
+            461.9999906220213
+          ]
+        }
+      ]
+    },
+    {
+      "label": "situés à Salé et équipés de lignes de production et recul limité à %.",
+      "cells": [
+        {
+          "column": "value_2",
+          "value": "0,36",
+          "bbox": [
+            369.11999546146313,
+            465.35999055381785,
+            388.79999521948656,
+            473.9999903784375
+          ]
+        }
+      ]
+    },
+    {
+      "label": "périmètre de ses activités industrielles à l'international setablit à MDH contre MDH pour la même",
+      "cells": [
+        {
+          "column": "value_2",
+          "value": "35,77",
+          "bbox": [
+            345.5999957506547,
+            520.7999894284604,
+            367.9199954762178,
+            527.99998928231
+          ]
+        },
+        {
+          "column": "value_3",
+          "value": "34,08",
+          "bbox": [
+            425.51999476799364,
+            519.3599894576904,
+            449.03999447880204,
+            532.0799891994916
+          ]
+        }
+      ]
+    },
+    {
+      "label": "première filiale DARI FOODS INTERNATIONAL. au cours de ce 1er semestre sétablit à MDH, contre",
+      "cells": [
+        {
+          "column": "value_3",
+          "value": "27,94",
+          "bbox": [
+            481.679994077475,
+            593.7599879474706,
+            504.7199937941853,
+            601.1999877964486
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Celle-ci a acquis en Belgique une usine de production MDH à la même période en 2025.",
+      "cells": [
+        {
+          "column": "value_1",
+          "value": "25,93",
+          "bbox": [
+            303.5999962670682,
+            605.7599877038866,
+            327.11999597787667,
+            613.1999875528646
+          ]
+        }
+      ]
+    }
+  ],
+  "raw_lines": [
+    {
+      "text": "LA",
+      "bbox": [
+        461.9999943194516,
+        43.91999910848307,
+        491.5199939564867,
+        56.879998845412494
+      ]
+    },
+    {
+      "text": "= A taal y) L-",
+      "bbox": [
+        23.27999971375938,
+        72.47999852875347,
+        551.9999932128512,
+        81.35999834850142
+      ]
+    },
+    {
+      "text": "Thil °",
+      "bbox": [
+        150.23999815271517,
+        79.67999838260316,
+        576.479992911856,
+        86.87999823645283
+      ]
+    },
+    {
+      "text": "i Mr LE re a A",
+      "bbox": [
+        20.639999746219658,
+        121.43999753493132,
+        552.9599932010475,
+        134.63999726698907
+      ]
+    },
+    {
+      "text": "PEUR LLELLELL A | || — 1 )",
+      "bbox": [
+        0.23999999704906577,
+        128.8799973839093,
+        412.319994930295,
+        146.87999701853354
+      ]
+    },
+    {
+      "text": "= | ) | À",
+      "bbox": [
+        57.83999928882485,
+        141.59999712571042,
+        557.7599931420289,
+        154.07999687238322
+      ]
+    },
+    {
+      "text": "| lPrésentationdelasociété = portuaires exceptionnelles, affectant l'approvisionnement",
+      "bbox": [
+        34.55999957506547,
+        220.55999552292863,
+        562.5599930830101,
+        239.2799951429378
+      ]
+    },
+    {
+      "text": "en blé dur importé ainsi que les expéditions de produits",
+      "bbox": [
+        303.5999962670682,
+        233.51999525985804,
+        559.1999931243232,
+        243.11999506499095
+      ]
+    },
+    {
+      "text": "Fondée en 1995, DARI COUSPATE est le leader dansle finis à l'export.",
+      "bbox": [
+        34.31999957801641,
+        245.51999501627418,
+        366.23999549687437,
+        255.83999480679208
+      ]
+    },
+    {
+      "text": "secteur du Couscous et des pâtes alimentaires au La normalisation progressive des flux logistiques au",
+      "bbox": [
+        33.83999958391827,
+        257.5199947726903,
+        540.9599933485943,
+        268.5599945485932
+      ]
+    },
+    {
+      "text": "Maroc. deuxième trimestre a permis une reprise de l'activité et",
+      "bbox": [
+        34.31999957801641,
+        269.03999453884984,
+        555.8399931656363,
+        280.5599943050093
+      ]
+    },
+    {
+      "text": "une amélioration du rythme des ventes.",
+      "bbox": [
+        304.07999626116634,
+        281.5199942855226,
+        485.5199940302601,
+        291.1199940906555
+      ]
+    },
+    {
+      "text": "Ses produits de qualité premium sont commercialisés",
+      "bbox": [
+        33.83999958391827,
+        294.95999401270865,
+        281.51999653855415,
+        304.5599938178416
+      ]
+    },
+    {
+      "text": "au Maroc ainsi qu'à l'international avec une présence ® Finalisation de l'acquisition des actifs des Grandes",
+      "bbox": [
+        33.83999958391827,
+        306.9599937691248,
+        540.9599933485943,
+        320.15999350118256
+      ]
+    },
+    {
+      "text": "dans plus de 60 pays à travers les 5 continents Semouleries du Maroc (GSM). Cette opération renforce",
+      "bbox": [
+        33.83999958391827,
+        318.95999352554094,
+        554.87999317744,
+        331.91999326247037
+      ]
+    },
+    {
+      "text": "ou . | : les capacités industrielles et l'intégration verticale du",
+      "bbox": [
+        69.59999914422907,
+        334.3199932137536,
+        545.7599932895756,
+        345.11999299452816
+      ]
+    },
+    {
+      "text": "DARI a été l'une des premières entreprises familiales Groupe.",
+      "bbox": [
+        34.31999957801641,
+        342.23999305298827,
+        339.1199958303299,
+        356.879992755816
+      ]
+    },
+    {
+      "text": "cotées à la Bourse de Casablanca.",
+      "bbox": [
+        33.83999958391827,
+        354.95999279478934,
+        191.27999764810542,
+        362.6399926388957
+      ]
+    },
+    {
+      "text": ". | — 2.2. Commentaires sur l'activité du 12\" semestre 2026",
+      "bbox": [
+        38.399999527850525,
+        370.0799924878737,
+        546.2399932836737,
+        381.11999226377657
+      ]
+    },
+    {
+      "text": "L'introduction en bourse en 2005 a permis a DARI de | | a",
+      "bbox": [
+        34.31999957801641,
+        378.95999230762163,
+        465.83999427223665,
+        390.47999207378115
+      ]
+    },
+    {
+      "text": "financer ses projets de croissance organique et parti- a. Evolution du chiffre daffaires",
+      "bbox": [
+        33.83999958391827,
+        388.3199921176262,
+        480.23999409518063,
+        400.799991864299
+      ]
+    },
+    {
+      "text": "culièrement la construction d'un nouveau site de Malgré des perturbations d'approvisionnement liées à",
+      "bbox": [
+        33.83999958391827,
+        402.9599918204539,
+        565.4399930475989,
+        417.119991533025
+      ]
+    },
+    {
+      "text": "production à Salé et l'acquisition de nouvelles lignes des contraintes logistiques et portuaires, l'activité de",
+      "bbox": [
+        34.31999957801641,
+        413.9999915963568,
+        565.679993044648,
+        429.1199912894411
+      ]
+    },
+    {
+      "text": "de production de couscous et de pâtes. DARI COUSPATE a fait preuve de résilience au premier",
+      "bbox": [
+        33.83999958391827,
+        426.71999133815785,
+        565.9199930416971,
+        440.15999106534395
+      ]
+    },
+    {
+      "text": "| oe semestre 2026. Le chiffre d'affaires consolidé atteint",
+      "bbox": [
+        120.23999852158195,
+        441.11999104585726,
+        565.9199930416971,
+        451.91999082663176
+      ]
+    },
+    {
+      "text": "DARI COUSPATE dispose de trois sites de production 375,97 MDH, contre 377,35 MDH à fin juin 2025, soit un",
+      "bbox": [
+        34.31999957801641,
+        449.9999908656052,
+        565.4399930475989,
+        463.4399905927913
+      ]
+    },
+    {
+      "text": "situés à Salé et équipés de lignes de production et recul limité à 0,36 %.",
+      "bbox": [
+        33.83999958391827,
+        462.9599906025346,
+        401.0399950689889,
+        476.15999033459235
+      ]
+    },
+    {
+      "text": "d'équipement industriels de dernière génération et",
+      "bbox": [
+        33.83999958391827,
+        474.95999035895073,
+        267.35999671265927,
+        484.799990159212
+      ]
+    },
+    {
+      "text": "emploie 175 personnes. b. Résultat d'exploitation",
+      "bbox": [
+        33.83999958391827,
+        486.9599901153669,
+        450.7199944581455,
+        498.7199898766547
+      ]
+    },
+    {
+      "text": "A travers cette acquisition, DARI COUSPATE étend le Le résultat d'exploitation consolidé du 1er semestre 2026",
+      "bbox": [
+        33.59999958686921,
+        507.119989706146,
+        550.5599932305569,
+        520.559989433332
+      ]
+    },
+    {
+      "text": "périmètre de ses activités industrielles à l'international setablit à 35,77 MDH contre 34,08 MDH pour la même",
+      "bbox": [
+        34.31999957801641,
+        518.1599894820489,
+        538.3199933810545,
+        533.2799891751332
+      ]
+    },
+    {
+      "text": "et ouvre la voie à de nouvelles perspectives de crois- période de 2025. Cette evolution reflète la maîtrise des",
+      "bbox": [
+        33.83999958391827,
+        531.1199892189783,
+        541.1999933456433,
+        544.5599889461644
+      ]
+    },
+    {
+      "text": "sance complémentaires à l'activité d'exportation de la principaux postes de charges d'exploitation.",
+      "bbox": [
+        33.83999958391827,
+        543.1199889753944,
+        493.19999393583015,
+        556.5599887025805
+      ]
+    },
+    {
+      "text": "societe, c. Résultat net",
+      "bbox": [
+        33.83999958391827,
+        559.4399886441204,
+        404.6399950247249,
+        570.9599884102798
+      ]
+    },
+    {
+      "text": "En 2022, DARI COUSPATE a créé en Belgique sa Compte tenu de ce qui précède, le résultat net consolidé",
+      "bbox": [
+        34.31999957801641,
+        579.5999882348995,
+        565.679993044648,
+        593.7599879474706
+      ]
+    },
+    {
+      "text": "première filiale DARI FOODS INTERNATIONAL. au cours de ce 1er semestre sétablit à 27,94 MDH, contre",
+      "bbox": [
+        34.31999957801641,
+        592.3199879767005,
+        565.679993044648,
+        604.559987728245
+      ]
+    },
+    {
+      "text": "Celle-ci a acquis en Belgique une usine de production 25.93 MDH à la même période en 2025.",
+      "bbox": [
+        33.83999958391827,
+        604.3199877331167,
+        483.35999405681844,
+        616.7999874797895
+      ]
+    },
+    {
+      "text": "de couscous en Belgique donnant une nouvelle d. Perspectives",
+      "bbox": [
+        33.83999958391827,
+        617.9999874554311,
+        408.95999497160807,
+        634.0799871290287
+      ]
+    },
+    {
+      "text": "impulsion à sa stratégie de développement à l'interna-",
+      "bbox": [
+        34.31999957801641,
+        630.9599871923606,
+        283.67999651199574,
+        640.7999869926218
+      ]
+    },
+    {
+      "text": "tional. DARI COUSPATE entend poursuivre au deuxième",
+      "bbox": [
+        33.83999958391827,
+        640.7999869926218,
+        532.0799934577789,
+        651.5999867733963
+      ]
+    },
+    {
+      "text": "semestre sa bonne dynamique commerciale initiée au",
+      "bbox": [
+        303.5999962670682,
+        653.2799867392946,
+        549.1199932482625,
+        662.8799865444274
+      ]
+    },
+    {
+      "text": "2.1. Faits marquants Le management de DARI COUSPATE reste pleinement",
+      "bbox": [
+        33.35999958982014,
+        689.279986008543,
+        557.5199931449798,
+        700.5599857795742
+      ]
+    },
+    {
+      "text": "L'activité au premier semestre 2026 a été marquée par ineBtlEs CRIE lnnélerenen ce l els ss erste elie its",
+      "bbox": [
+        34.31999957801641,
+        700.3199857844459,
+        562.079993088912,
+        717.3599854385567
+      ]
+    },
+    {
+      "text": ". et le déploiement de sa strategie d'innovation et de",
+      "bbox": [
+        111.83999862486465,
+        713.2799855213752,
+        539.7599933633489,
+        723.1199853216365
+      ]
+    },
+    {
+      "text": "les faits suivants : , Ke",
+      "bbox": [
+        34.31999957801641,
+        719.039985404455,
+        450.2399944640474,
+        727.4399852339463
+      ]
+    },
+    {
+      "text": "développement au Maroc et à l'international.",
+      "bbox": [
+        303.5999962670682,
+        725.2799852777914,
+        507.59999375877413,
+        734.8799850829243
+      ]
+    },
+    {
+      "text": "® Des conditions météorologiques particulièrement",
+      "bbox": [
+        34.07999958096734,
+        744.7199848831856,
+        270.95999666839526,
+        754.5599846834467
+      ]
+    },
+    {
+      "text": "défavorables ayant entraîné des congestions",
+      "bbox": [
+        33.83999958391827,
+        756.7199846396016,
+        239.99999704906577,
+        766.5599844398629
+      ]
+    }
+  ],
+  "amount_count": 7
+}

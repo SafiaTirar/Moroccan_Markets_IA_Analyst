@@ -1,0 +1,27 @@
+label,value_1,value_2
+fit [+ [PRODUCTION DE L'EXERCICE : (3+4+5) | |,"202 612 587,58","171 037 905,34"
+P [3] | Ventes de biens et services produits |,"202 512 587,58","171 037 905,31"
+[nr] | - [CONSOMMATION DE L'EXERCICE : (6+7) |,"132 468 246,69","128 127 844,92"
+L_ [ST Achats consommés de matières etfoumiures | |,8 638 740 686,"61 747 443,54"
+| [7] | Autres charges extemes |,4 408 074 083,4 638 040 138
+fw] [= [VALEUR AOUTEE : I+ | |,"70 044 340,80","42 910 060,39"
+P [ol Impôtsettaxes | |,364 618 819,"4 016 096,43"
+[V| [= JEXEDENT BRUT D'EXPLOITATION (EBE) | |,"66 308 162,70","38 803 063,96"
+| [ai] + | Autres produits d'exploitation |,40 000 000,
+P [a2] =| Autres charges d'exploitation |,"1 293 482,42",76 866 374
+| [13[ +] Reprise d'exploitation ; transfert de charges | |,"11 907 405,86",2 325 470 746
+| [a4] - | Dotations d'exploitation |,"56 208 120,07",5 136 250 786
+TT EÎRESULTAT D'EXPLOITATION (ou-) |,2 220 308 617,"10 017 699,82"
+[vil [+ [RESULTAT FINANCIER |,6 548 170 780,6 474 980 406
+Mif_| = [RESULTAT COURANT (tou) | |,"87 685 693,97","74 767 504,78"
+fx[ [+ [RESULTAT NON couRANT | | |,"-10 885 276,10","-6 400 467,06"
+[15 - lImpôtsurles résuitats |S | |,"4 182 540,00","4 447 176,00"
+| CT Bénéfice |  Gsorwesir2|,72 617 877,
+P [2] +] Dotations d'exploitation | |,4 071 061 622,"40 746 701,32"
+| | [3] +[ Dotations financières |,25 500 000,
+| TP Reprisesdexploitation,511,
+| [8 [| Produits des cession dimmobiisation | | |,,"188 500 000,00"
+| [9] +| Valeurnette d'amortissement des immo.cedées | | |,,"131 320 280,76"
+: [1] [=|CAPACITE D'AUTOFINANCEMENT | | |,"116 283 493,00","102 486 852,80"
+| | [io] =| Distibution des bénéfices |,"215 107 201,14","193 066 166,26"
+hit [=|AUTOFINANCEMENT | 7 -s1479 |,"8 813 708,14","313,46"

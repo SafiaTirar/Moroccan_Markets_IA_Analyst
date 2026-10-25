@@ -1,0 +1,706 @@
+{
+  "page": 11,
+  "bbox": [
+    0.0,
+    0.0,
+    612.0,
+    792.0
+  ],
+  "source": "rendered_page",
+  "source_id": "page:11",
+  "name": null,
+  "image_size": [
+    2550,
+    3300
+  ],
+  "attempts": [
+    {
+      "psm": 6,
+      "score": 112,
+      "amount_count": 12,
+      "keyword_count": 2,
+      "rows": 8,
+      "multi_value_rows": 3,
+      "labeled_rows": 7
+    },
+    {
+      "psm": 11,
+      "score": 50,
+      "amount_count": 17,
+      "keyword_count": 2,
+      "rows": 16,
+      "multi_value_rows": 1,
+      "labeled_rows": 6
+    }
+  ],
+  "selected_psm": 6,
+  "column_right_ratios": [
+    0.28366013071895424,
+    0.4096078431372549,
+    0.5649019607843138,
+    0.6686274509803921,
+    0.847843137254902
+  ],
+  "rows": [
+    {
+      "label": "l'activité Clientèle (Particuliers et Entreprises) est de MMAD en hausse de 16,9%. L’encours lié à l’activité de financement Réseau s'établit quant",
+      "cells": [
+        {
+          "column": "value_2",
+          "value": "7 030",
+          "bbox": [
+            230.88,
+            362.4,
+            251.28,
+            367.44
+          ]
+        }
+      ]
+    },
+    {
+      "label": "à lui à MMAD, en hausse de +30,5% par rapport à la même période de 2025 en conséquence de l'augmentation du niveau de stockage pour",
+      "cells": [
+        {
+          "column": "value_1",
+          "value": "3 870",
+          "bbox": [
+            77.03999999999999,
+            371.28,
+            97.67999999999999,
+            376.32
+          ]
+        }
+      ]
+    },
+    {
+      "label": "L'endettement financier à fin Juin 2026 représente milliards de Dirhams soit une hausse de milliards de Dirhams par rapport à la même",
+      "cells": [
+        {
+          "column": "value_2",
+          "value": "8,52",
+          "bbox": [
+            234.23999999999998,
+            388.8,
+            250.07999999999998,
+            394.8
+          ]
+        },
+        {
+          "column": "value_4",
+          "value": "1,65",
+          "bbox": [
+            391.68,
+            388.8,
+            407.03999999999996,
+            394.8
+          ]
+        }
+      ]
+    },
+    {
+      "label": "période de 2025, pour accompagner la croissance de l'activité et de l'encours de financier en plus de milliards de Dirhams.",
+      "cells": [
+        {
+          "column": "value_4",
+          "value": "1,92",
+          "bbox": [
+            396.47999999999996,
+            397.68,
+            411.35999999999996,
+            403.68
+          ]
+        }
+      ]
+    },
+    {
+      "label": "La dette bancaire s'élève à MMAD à fin Juin 2026 est en baisse de 6,4% par rapport à la même période 2025, quand l'endettement lié aux",
+      "cells": [
+        {
+          "column": "value_1",
+          "value": "3 700",
+          "bbox": [
+            149.76,
+            406.56,
+            170.4,
+            411.59999999999997
+          ]
+        }
+      ]
+    },
+    {
+      "label": "émissions de Bons de Société de Financement (BSF) et obligataires, que représente 56,6% de l'endettement financier global, atteint MMAD en",
+      "cells": [
+        {
+          "column": "value_5",
+          "value": "4 820",
+          "bbox": [
+            504.71999999999997,
+            415.2,
+            523.1999999999999,
+            420.47999999999996
+          ]
+        }
+      ]
+    },
+    {
+      "label": "",
+      "cells": [
+        {
+          "column": "value_1",
+          "value": "62 025 062 026",
+          "bbox": [
+            97.92,
+            602.64,
+            175.2,
+            607.68
+          ]
+        },
+        {
+          "column": "value_3",
+          "value": "62 025 062 026",
+          "bbox": [
+            267.84,
+            602.64,
+            344.88,
+            607.68
+          ]
+        },
+        {
+          "column": "value_5",
+          "value": "62 025 062 026",
+          "bbox": [
+            436.8,
+            605.28,
+            514.56,
+            610.0799999999999
+          ]
+        }
+      ]
+    },
+    {
+      "label": "J",
+      "cells": [
+        {
+          "column": "value_1",
+          "value": "62 025 062 026",
+          "bbox": [
+            97.44,
+            738.48,
+            175.2,
+            743.28
+          ]
+        },
+        {
+          "column": "value_3",
+          "value": "62 025 062 026",
+          "bbox": [
+            267.36,
+            738.48,
+            346.56,
+            743.28
+          ]
+        }
+      ]
+    }
+  ],
+  "raw_lines": [
+    {
+      "text": "COMMUNICATION FINANCIÈRE - RAPPORT FINANCIER ANNUEL",
+      "bbox": [
+        192.0,
+        1.68,
+        420.0,
+        8.16
+      ]
+    },
+    {
+      "text": "RCI Finance Maroc M D IB | L | Z E",
+      "bbox": [
+        53.519999999999996,
+        14.399999999999999,
+        369.59999999999997,
+        33.12
+      ]
+    },
+    {
+      "text": "OPERANT SOUS LA MARQUE COMMERCIALE og",
+      "bbox": [
+        53.28,
+        20.64,
+        283.68,
+        34.8
+      ]
+    },
+    {
+      "text": "PRESENTATION DE RCI FINANCE MAROC",
+      "bbox": [
+        53.519999999999996,
+        76.8,
+        204.23999999999998,
+        83.75999999999999
+      ]
+    },
+    {
+      "text": "Créée en 2005, RCI Finance Maroc est une filiale à 100% du groupe RCI Banque SA (filiale à 100% de Renault opérant sous la marque commerciale",
+      "bbox": [
+        54.48,
+        91.92,
+        560.4,
+        98.64
+      ]
+    },
+    {
+      "text": "Mobilize Financial Service). Présent dans 35 pays, Mobilize Financial Services est la marque de référence pour tous les besoins de mobilité liés à l'usage",
+      "bbox": [
+        54.72,
+        100.8,
+        560.4,
+        107.52
+      ]
+    },
+    {
+      "text": "de la voiture. A l'écoute de tous ses clients, Mobilize Financial Services crée des services de financement innovants pour construire une mobilité durable",
+      "bbox": [
+        54.48,
+        109.44,
+        560.4,
+        116.16
+      ]
+    },
+    {
+      "text": "pour tous.",
+      "bbox": [
+        54.72,
+        119.28,
+        87.84,
+        125.03999999999999
+      ]
+    },
+    {
+      "text": "La mission principale de RCI Finance Maroc est de contribuer à conquérir et à fidéliser les clients des marques Renault et Dacia dans le Royaume tout",
+      "bbox": [
+        54.72,
+        127.19999999999999,
+        560.4,
+        133.92
+      ]
+    },
+    {
+      "text": "en contribuant au développement de la chaine de valeur des services de mobilité. Au travers d'une offre intégrée de financements et de services, la",
+      "bbox": [
+        54.48,
+        136.07999999999998,
+        560.16,
+        142.79999999999998
+      ]
+    },
+    {
+      "text": "Société veille à maximiser sa rentabilité, tout en maintenant un haut niveau de sécurité financière.",
+      "bbox": [
+        54.48,
+        144.72,
+        382.8,
+        150.96
+      ]
+    },
+    {
+      "text": "RCI Finance Maroc assure ses missions au travers de deux activités principales",
+      "bbox": [
+        53.76,
+        156.72,
+        316.8,
+        163.44
+      ]
+    },
+    {
+      "text": "e le financement des clients particuliers et entreprises, via les réseaux de distribution des marques Renault, Dacia et Alpine.",
+      "bbox": [
+        53.519999999999996,
+        166.07999999999998,
+        465.84,
+        172.79999999999998
+      ]
+    },
+    {
+      "text": "° le financement des stocks de véhicules et de pièces de rechange du réseau de concessionnaires.",
+      "bbox": [
+        53.519999999999996,
+        175.2,
+        379.68,
+        182.16
+      ]
+    },
+    {
+      "text": "INFORMATIONS GENERALES",
+      "bbox": [
+        53.519999999999996,
+        188.88,
+        159.84,
+        196.07999999999998
+      ]
+    },
+    {
+      "text": "Ce communiqué fait suite à la tenue du Conseil d'Administration du 25 Septembre 2026, qui a approuvé les comptes sociaux et consolidés annuels",
+      "bbox": [
+        54.48,
+        205.67999999999998,
+        560.4,
+        212.4
+      ]
+    },
+    {
+      "text": "arrétés au 30 Juin 2026.",
+      "bbox": [
+        54.48,
+        214.56,
+        138.96,
+        219.84
+      ]
+    },
+    {
+      "text": "En tant que société de financement faisant appel public à l'épargne, RCI Finance Maroc tient son rapport financier annuel à disposition du public sur son",
+      "bbox": [
+        54.72,
+        223.44,
+        560.16,
+        230.16
+      ]
+    },
+    {
+      "text": "site Internet, à l'adresse suivante : https://www.mobilize-fs.ma/rapports-financiers/",
+      "bbox": [
+        54.48,
+        232.07999999999998,
+        335.76,
+        238.79999999999998
+      ]
+    },
+    {
+      "text": "COMMENTAIRE SUR L'ACTIVITÉ ET LES RÉSULTATS SEMESTRIELS 2026",
+      "bbox": [
+        53.28,
+        248.88,
+        318.96,
+        256.08
+      ]
+    },
+    {
+      "text": "Sur un secteur automobile souffrant d'un dispositif normatif mondial toujours contraignant (normes environnementales, prix des véhicules en hausse...),",
+      "bbox": [
+        54.48,
+        265.2,
+        560.16,
+        271.92
+      ]
+    },
+    {
+      "text": "le marché marocain reste en contre-cycle avec une hausse de +17,6% par rapport à la même période de l'an passé en bénéficiant de la dynamique de",
+      "bbox": [
+        54.72,
+        273.84,
+        560.4,
+        280.56
+      ]
+    },
+    {
+      "text": "l'économie marocaine (prévisions de croissance PIB autour de 4,4% pour 2026). RCI Finance Maroc continue d'appuyer sa performance sur une offre",
+      "bbox": [
+        54.72,
+        282.71999999999997,
+        560.4,
+        289.44
+      ]
+    },
+    {
+      "text": "compétitive adaptée à la demande locale et sur une gouvernance stricte et prudente en matière d'acceptation et de gestion du risque. En 2026, les",
+      "bbox": [
+        54.48,
+        291.59999999999997,
+        560.4,
+        298.32
+      ]
+    },
+    {
+      "text": "nouveaux financements affichent, avec 2,1 milliards de Dirhams, une hausse de 3,1% comparativement à l'an passé, boosté par une augmentation de",
+      "bbox": [
+        54.72,
+        300.47999999999996,
+        560.4,
+        307.2
+      ]
+    },
+    {
+      "text": "12,3% du volume de contrats de financement.",
+      "bbox": [
+        55.199999999999996,
+        309.12,
+        209.76,
+        315.36
+      ]
+    },
+    {
+      "text": "Soutenu d'une part par la hausse de l’'Encours Crédit Réseau (+30,5%) et d'autre part par une offre de financements et de services adaptée aux enjeux",
+      "bbox": [
+        54.48,
+        318.0,
+        560.4,
+        324.71999999999997
+      ]
+    },
+    {
+      "text": "du marché marocain, le Produit Net Bancaire (PNB) consolidé (*) progresse et s'établit à 385 MMAD. Ce dernier affiche ainsi une progression de 21,3%",
+      "bbox": [
+        54.48,
+        326.88,
+        560.4,
+        333.59999999999997
+      ]
+    },
+    {
+      "text": "par rapport à l'an passé sous les effets conjugués du dynamisme commercial, d'une maîtrise des coûts de refinancement et enfin d'une activité de finan-",
+      "bbox": [
+        54.72,
+        335.52,
+        560.4,
+        342.47999999999996
+      ]
+    },
+    {
+      "text": "cement des stocks du réseau en hausse.",
+      "bbox": [
+        54.48,
+        344.4,
+        188.16,
+        349.91999999999996
+      ]
+    },
+    {
+      "text": "L’encours financier a ainsi atteint près de 10,9 milliards de Dirhams en hausse de 21,4% par rapport à la même période de l'an passé. L’encours lié à",
+      "bbox": [
+        54.72,
+        353.28,
+        560.16,
+        360.0
+      ]
+    },
+    {
+      "text": "l'activité Clientèle (Particuliers et Entreprises) est de 7 030 MMAD en hausse de 16,9%. L’encours lié à l’activité de financement Réseau s'établit quant",
+      "bbox": [
+        54.72,
+        362.15999999999997,
+        560.4,
+        368.88
+      ]
+    },
+    {
+      "text": "à lui à 3 870 MMAD, en hausse de +30,5% par rapport à la même période de 2025 en conséquence de l'augmentation du niveau de stockage pour",
+      "bbox": [
+        54.48,
+        371.03999999999996,
+        560.4,
+        377.76
+      ]
+    },
+    {
+      "text": "suivre la dynamique commerciale du marché automobile marocain.",
+      "bbox": [
+        54.48,
+        379.68,
+        280.08,
+        386.4
+      ]
+    },
+    {
+      "text": "L'endettement financier à fin Juin 2026 représente 8,52 milliards de Dirhams soit une hausse de 1,65 milliards de Dirhams par rapport à la même",
+      "bbox": [
+        54.72,
+        388.56,
+        560.4,
+        395.28
+      ]
+    },
+    {
+      "text": "période de 2025, pour accompagner la croissance de l'activité et de l'encours de financier en plus de 1,92 milliards de Dirhams.",
+      "bbox": [
+        54.72,
+        397.44,
+        483.59999999999997,
+        404.15999999999997
+      ]
+    },
+    {
+      "text": "La dette bancaire s'élève à 3 700 MMAD à fin Juin 2026 est en baisse de 6,4% par rapport à la même période 2025, quand l'endettement lié aux",
+      "bbox": [
+        54.72,
+        405.12,
+        560.4,
+        413.76
+      ]
+    },
+    {
+      "text": "émissions de Bons de Société de Financement (BSF) et obligataires, que représente 56,6% de l'endettement financier global, atteint 4 820 MMAD en",
+      "bbox": [
+        54.48,
+        414.96,
+        560.16,
+        421.91999999999996
+      ]
+    },
+    {
+      "text": "hausse de 65% par rapport à la même période de l'an passé. RCI Finance Maroc continue à renforcer sa stratégie de diversification de son refinance-",
+      "bbox": [
+        54.72,
+        423.84,
+        560.4,
+        430.56
+      ]
+    },
+    {
+      "text": "ment tout en optimisant le coût de son passif.",
+      "bbox": [
+        54.72,
+        432.71999999999997,
+        206.16,
+        439.44
+      ]
+    },
+    {
+      "text": "AUTRES FAITS MARQUANTS EN 2026",
+      "bbox": [
+        53.28,
+        450.47999999999996,
+        192.48,
+        456.47999999999996
+      ]
+    },
+    {
+      "text": "Dans un objectif de diversification de ses ressources de refinancement et d'optimisation de son coût de refinancement, RCI Finance Maroc a réalisé avec",
+      "bbox": [
+        54.72,
+        463.68,
+        560.16,
+        470.64
+      ]
+    },
+    {
+      "text": "succès, a fin juin 2026, deux opérations sur le marché des capitaux. Ces opérations incluent une émission obligataire d'un montant de 300 MMAD a",
+      "bbox": [
+        54.48,
+        472.56,
+        560.16,
+        479.28
+      ]
+    },
+    {
+      "text": "2ans de maturité, ainsi qu’une émission de BSF à double tranche, pour un montant total de 500 MMAD, dont 330 MMAD sur une maturité de 2 ans et",
+      "bbox": [
+        54.96,
+        481.44,
+        560.4,
+        488.15999999999997
+      ]
+    },
+    {
+      "text": "170 MMAD sur une maturité de 4 ans. Ces levées ont été très favorablement accueillies par les investisseurs, témoignant de leur confiance et confir-",
+      "bbox": [
+        55.199999999999996,
+        490.08,
+        560.4,
+        497.03999999999996
+      ]
+    },
+    {
+      "text": "mont la solidité de la signature de RCI Finance Maroc.",
+      "bbox": [
+        54.72,
+        498.96,
+        235.44,
+        505.91999999999996
+      ]
+    },
+    {
+      "text": "2053 = 8980 - 6870 E",
+      "bbox": [
+        102.72,
+        534.48,
+        513.6,
+        597.36
+      ]
+    },
+    {
+      "text": "06.2025 06.2026 06.2025 06.2026 06.2025 06.2026",
+      "bbox": [
+        97.92,
+        602.64,
+        514.56,
+        610.0799999999999
+      ]
+    },
+    {
+      "text": "Nouveaux financements (MMAD) Encours net à fin (MMAD) Endettement financier (MMAD)",
+      "bbox": [
+        82.8,
+        616.8,
+        525.12,
+        622.8
+      ]
+    },
+    {
+      "text": "321 - 317 - /",
+      "bbox": [
+        104.88,
+        656.88,
+        514.56,
+        741.36
+      ]
+    },
+    {
+      "text": "06.2025 06.2026 06.2025 06.2026 J",
+      "bbox": [
+        97.44,
+        695.28,
+        516.48,
+        747.12
+      ]
+    },
+    {
+      "text": "Produit Net Bancaire (MMAD) Produit Net Bancaire (MMAD)",
+      "bbox": [
+        85.92,
+        750.72,
+        353.28,
+        756.24
+      ]
+    },
+    {
+      "text": "(*) Consolidation de RDFM Consolidé (*)",
+      "bbox": [
+        55.919999999999995,
+        758.88,
+        325.2,
+        764.88
+      ]
+    },
+    {
+      "text": "entité d'intermédiation en assurances détenue à 100% par RCI Finance Maroc",
+      "bbox": [
+        55.44,
+        766.3199999999999,
+        242.16,
+        770.16
+      ]
+    },
+    {
+      "text": "www.mobilize-fs.ma",
+      "bbox": [
+        271.68,
+        773.28,
+        340.32,
+        778.8
+      ]
+    }
+  ],
+  "amount_count": 12,
+  "multi_value_row_count": 3,
+  "labeled_row_count": 7
+}

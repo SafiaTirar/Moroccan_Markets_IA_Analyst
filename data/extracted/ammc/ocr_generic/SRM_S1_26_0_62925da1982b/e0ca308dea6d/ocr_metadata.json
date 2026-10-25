@@ -1,0 +1,302 @@
+{
+  "schema_version": "3.0",
+  "source_pdf": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/raw/ammc/pdfs/SRM_S1_26_0.pdf",
+  "source_sha256": "62925da1982b3d3d03991e469a5fffc3cf706613caaeb6b6b8aad9406381a20c",
+  "parser_metadata": null,
+  "config": {
+    "languages": [
+      "fra",
+      "eng"
+    ],
+    "psms": [
+      6,
+      11
+    ],
+    "render_dpi": 300,
+    "minimum_image_width": 400,
+    "minimum_image_height": 250,
+    "minimum_region_area_ratio": 0.03,
+    "minimum_amount_count": 5,
+    "column_tolerance": 0.045
+  },
+  "config_sha256": "e0ca308dea6d26eb838790781b5dfac293390b6ff28071a1ba75c2148bb02d4e",
+  "ocr_engine": "tesseract-cli",
+  "tesseract_version": "tesseract 5.5.3",
+  "selected_pages": [
+    1
+  ],
+  "regions_examined": 6,
+  "tables_detected": 3,
+  "tables": [
+    {
+      "table_id": "OCR_001",
+      "page": 1,
+      "bbox": [
+        0.0,
+        0.0,
+        420.94500732421875,
+        948.0111694335938
+      ],
+      "source": "automatic_split",
+      "source_id": "xref:11:1:left",
+      "name": "xref:11:1:left",
+      "image_size": [
+        1754,
+        3951
+      ],
+      "attempts": [
+        {
+          "psm": 6,
+          "score": 2198,
+          "amount_count": 170,
+          "keyword_count": 7,
+          "rows": 66,
+          "multi_value_rows": 46,
+          "labeled_rows": 64
+        },
+        {
+          "psm": 11,
+          "score": 845,
+          "amount_count": 204,
+          "keyword_count": 8,
+          "rows": 190,
+          "multi_value_rows": 11,
+          "labeled_rows": 5
+        }
+      ],
+      "selected_psm": 6,
+      "rows": 66,
+      "columns": 7,
+      "amount_count": 170,
+      "csv": "tables/ocr_table_001.csv",
+      "coordinates": "coordinates/ocr_table_001.json",
+      "quality_status": "TECHNICALLY_RECOVERED",
+      "financial_validation": "NOT_PERFORMED"
+    },
+    {
+      "table_id": "OCR_002",
+      "page": 1,
+      "bbox": [
+        420.94500732421875,
+        0.0,
+        841.8900146484375,
+        948.0111694335938
+      ],
+      "source": "automatic_split",
+      "source_id": "xref:11:1:right",
+      "name": "xref:11:1:right",
+      "image_size": [
+        1755,
+        3951
+      ],
+      "attempts": [
+        {
+          "psm": 6,
+          "score": 1232,
+          "amount_count": 80,
+          "keyword_count": 7,
+          "rows": 51,
+          "multi_value_rows": 29,
+          "labeled_rows": 51
+        },
+        {
+          "psm": 11,
+          "score": 224,
+          "amount_count": 80,
+          "keyword_count": 7,
+          "rows": 79,
+          "multi_value_rows": 1,
+          "labeled_rows": 5
+        }
+      ],
+      "selected_psm": 6,
+      "rows": 51,
+      "columns": 4,
+      "amount_count": 80,
+      "csv": "tables/ocr_table_002.csv",
+      "coordinates": "coordinates/ocr_table_002.json",
+      "quality_status": "TECHNICALLY_RECOVERED",
+      "financial_validation": "NOT_PERFORMED"
+    },
+    {
+      "table_id": "OCR_003",
+      "page": 1,
+      "bbox": [
+        0.0,
+        948.0111694335938,
+        420.94500732421875,
+        1190.2491455078125
+      ],
+      "source": "automatic_split",
+      "source_id": "xref:12:2:left",
+      "name": "xref:12:2:left",
+      "image_size": [
+        1754,
+        1010
+      ],
+      "attempts": [
+        {
+          "psm": 6,
+          "score": 400,
+          "amount_count": 32,
+          "keyword_count": 3,
+          "rows": 12,
+          "multi_value_rows": 8,
+          "labeled_rows": 11
+        },
+        {
+          "psm": 11,
+          "score": 266,
+          "amount_count": 52,
+          "keyword_count": 3,
+          "rows": 46,
+          "multi_value_rows": 4,
+          "labeled_rows": 2
+        }
+      ],
+      "selected_psm": 6,
+      "rows": 12,
+      "columns": 5,
+      "amount_count": 32,
+      "csv": "tables/ocr_table_003.csv",
+      "coordinates": "coordinates/ocr_table_003.json",
+      "quality_status": "TECHNICALLY_RECOVERED",
+      "financial_validation": "NOT_PERFORMED"
+    }
+  ],
+  "rejected_regions": [
+    {
+      "page": 1,
+      "bbox": [
+        0.0,
+        0.0,
+        841.8900146484375,
+        948.0111694335938
+      ],
+      "source": "embedded_image",
+      "source_id": "xref:11:1",
+      "name": null,
+      "image_size": [
+        3508,
+        3951
+      ],
+      "attempts": [
+        {
+          "psm": 6,
+          "score": 3718,
+          "amount_count": 288,
+          "keyword_count": 10,
+          "rows": 79,
+          "multi_value_rows": 75,
+          "labeled_rows": 79
+        },
+        {
+          "psm": 11,
+          "score": 1045,
+          "amount_count": 282,
+          "keyword_count": 10,
+          "rows": 267,
+          "multi_value_rows": 12,
+          "labeled_rows": 10
+        }
+      ],
+      "selected_psm": 6,
+      "reason": "AUTOMATIC_LAYOUT_SPLIT"
+    },
+    {
+      "page": 1,
+      "bbox": [
+        0.0,
+        948.0111694335938,
+        841.8900146484375,
+        1190.2491455078125
+      ],
+      "source": "embedded_image",
+      "source_id": "xref:12:2",
+      "name": null,
+      "image_size": [
+        3508,
+        1010
+      ],
+      "attempts": [
+        {
+          "psm": 6,
+          "score": 522,
+          "amount_count": 37,
+          "keyword_count": 4,
+          "rows": 14,
+          "multi_value_rows": 11,
+          "labeled_rows": 14
+        },
+        {
+          "psm": 11,
+          "score": 267,
+          "amount_count": 52,
+          "keyword_count": 4,
+          "rows": 47,
+          "multi_value_rows": 4,
+          "labeled_rows": 0
+        }
+      ],
+      "selected_psm": 6,
+      "reason": "AUTOMATIC_LAYOUT_SPLIT"
+    },
+    {
+      "page": 1,
+      "bbox": [
+        420.94500732421875,
+        948.0111694335938,
+        841.8900146484375,
+        1190.2491455078125
+      ],
+      "source": "automatic_split",
+      "source_id": "xref:12:2:right",
+      "name": "xref:12:2:right",
+      "image_size": [
+        1755,
+        1010
+      ],
+      "attempts": [
+        {
+          "psm": 6,
+          "score": 29,
+          "amount_count": 2,
+          "keyword_count": 1,
+          "rows": 1,
+          "multi_value_rows": 1,
+          "labeled_rows": 1
+        },
+        {
+          "psm": 11,
+          "score": -20,
+          "amount_count": 2,
+          "keyword_count": 1,
+          "rows": 2,
+          "multi_value_rows": 0,
+          "labeled_rows": 1
+        }
+      ],
+      "selected_psm": 6,
+      "reason": "NOT_FINANCIAL_TABLE"
+    }
+  ],
+  "duration_seconds": 60.267,
+  "financial_validation": "NOT_PERFORMED",
+  "status": "PARSED",
+  "cache_used": false,
+  "artifact_sha256": {
+    "tables/ocr_table_001.csv": "70e8751b763a6d9af17d97c2093e93ec948ab93a15c0079b4e9ac9e99bb20347",
+    "coordinates/ocr_table_001.json": "fa9d18bfab08f9159fa59e01ee7099eb3e335b79bb51828b02ae2bbdee339f0a",
+    "tables/ocr_table_002.csv": "6c643cb856d036fbc572f56ee615944174968257f3336a3539189676a69b5f60",
+    "coordinates/ocr_table_002.json": "70955829db44b9edcc0b4709fc659ffe65746f56f8fbf6a67ce50a365f41897a",
+    "tables/ocr_table_003.csv": "f4f0b5e4077b9116d4529ff84cc5db145ed93174c90df09fccfd573188e63bc3",
+    "coordinates/ocr_table_003.json": "6a71c44ad267360c64eb4b970ffde1da0e54a642f7c21f551c4d4cbfbe3692ab"
+  },
+  "selection": {
+    "selected_pages": [
+      1
+    ],
+    "regions_json_sha256": null
+  },
+  "selection_sha256": "f4156ea10240d4036f2b2b23ff1f592f138ba7d19a0cd418167782a5b2b69e06"
+}

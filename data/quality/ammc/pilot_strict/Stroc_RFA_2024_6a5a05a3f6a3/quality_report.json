@@ -1,0 +1,910 @@
+{
+  "schema_version": "2.4",
+  "source_pdf": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/raw/ammc/pdfs/annual/stroc/2024/Stroc_RFA_2024.pdf",
+  "source_sha256": "6a5a05a3f6a36e7b913fa009c1726fdcbe3abbd2733aff8afdc2abecaa2e5ac6",
+  "integrated_document": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/integrated/ammc/Stroc_RFA_2024_6a5a05a3f6a3/unified_document.json",
+  "integrated_document_sha256": "704b0e37dadb8da746dc8ed0488932031c308b96530e12571776bfe79c1fe492",
+  "rules": {
+    "max_integer_digits": 15,
+    "decimal_table_ratio": 0.7,
+    "decimal_integer_min_digits": 7,
+    "noisy_label_min_alpha_ratio": 0.45,
+    "references": [],
+    "comparisons": [],
+    "subtotals": [],
+    "sign_rules": [],
+    "context_overrides": [],
+    "review_decisions": [],
+    "downstream_allowed_statuses": [
+      "VERIFIED"
+    ]
+  },
+  "rules_sha256": "158a0d26c19345d7e1def0a124be84a4b5c61a0788f7a889485060f57b1a837d",
+  "quality_fingerprint": "be9b407672d5c28fdf9932a61be40b06c2f2faa1b27df59f3294c6e56d822704",
+  "status": "REVIEW_REQUIRED",
+  "cache_used": false,
+  "financial_validation": "NOT_PERFORMED",
+  "summary": {
+    "total_values": 326,
+    "admissible_values": 0,
+    "non_admissible_values": 326,
+    "by_status": {
+      "VERIFIED": 0,
+      "REVIEW_REQUIRED": 38,
+      "REJECTED": 0,
+      "NOT_CHECKED": 288
+    }
+  },
+  "tables": [
+    {
+      "table_key": "DOCLING_001_table_001",
+      "table_id": "DOCLING_001",
+      "source": "DOCLING",
+      "page": [
+        2
+      ],
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Stroc_RFA_2024_6a5a05a3f6a3/tables/table_001.csv",
+      "csv_sha256": "c5d1097545815774345a27f2e1ee198d586e7ee9b93891f8040be7ea8c7155f2",
+      "context": {
+        "units": [],
+        "periods": [],
+        "column_periods": {},
+        "reporting_scope": "UNKNOWN",
+        "reference": null
+      },
+      "value_count": 0,
+      "value_ids": []
+    },
+    {
+      "table_key": "DOCLING_002_table_002",
+      "table_id": "DOCLING_002",
+      "source": "DOCLING",
+      "page": [
+        10
+      ],
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Stroc_RFA_2024_6a5a05a3f6a3/tables/table_002.csv",
+      "csv_sha256": "a02006a2b3597bfbbf4fe757de64c6f29a1618c75571bbdf8ff433018411ecdb",
+      "context": {
+        "units": [],
+        "periods": [],
+        "column_periods": {},
+        "reporting_scope": "UNKNOWN",
+        "reference": null
+      },
+      "value_count": 9,
+      "value_ids": [
+        "DOCLING_002_table_002:r1:Date de fin  de mandat ",
+        "DOCLING_002_table_002:r2:Date de fin  de mandat ",
+        "DOCLING_002_table_002:r3:Date de fin  de mandat ",
+        "DOCLING_002_table_002:r4:Date de fin  de mandat ",
+        "DOCLING_002_table_002:r5:Date de fin  de mandat ",
+        "DOCLING_002_table_002:r6:Date de fin  de mandat ",
+        "DOCLING_002_table_002:r7:Date de fin  de mandat ",
+        "DOCLING_002_table_002:r8:Date de fin  de mandat ",
+        "DOCLING_002_table_002:r9:Date de fin  de mandat "
+      ]
+    },
+    {
+      "table_key": "DOCLING_003_table_023",
+      "table_id": "DOCLING_023",
+      "source": "DOCLING",
+      "page": [
+        40
+      ],
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Stroc_RFA_2024_6a5a05a3f6a3/tables/table_023.csv",
+      "csv_sha256": "cb4dcf3fd51d171e897b4e256cf0b1e1341c6d38ea9b198b5c38e900f84abc59",
+      "context": {
+        "units": [],
+        "periods": [],
+        "column_periods": {},
+        "reporting_scope": "UNKNOWN",
+        "reference": null
+      },
+      "value_count": 0,
+      "value_ids": []
+    },
+    {
+      "table_key": "OCR_004_ocr_table_001",
+      "table_id": "OCR_001",
+      "source": "OCR",
+      "page": [
+        11
+      ],
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/ocr_generic/Stroc_RFA_2024_6a5a05a3f6a3/e0ca308dea6d/tables/ocr_table_001.csv",
+      "csv_sha256": "93612738457e0b6f3650e031381f434faf2d79314c0e8f5202448bba579a915f",
+      "context": {
+        "units": [],
+        "periods": [],
+        "column_periods": {},
+        "reporting_scope": "UNKNOWN",
+        "reference": null
+      },
+      "value_count": 68,
+      "value_ids": [
+        "OCR_004_ocr_table_001:r1:value_1",
+        "OCR_004_ocr_table_001:r1:value_2",
+        "OCR_004_ocr_table_001:r2:value_1",
+        "OCR_004_ocr_table_001:r2:value_3",
+        "OCR_004_ocr_table_001:r2:value_4",
+        "OCR_004_ocr_table_001:r3:value_1",
+        "OCR_004_ocr_table_001:r3:value_2",
+        "OCR_004_ocr_table_001:r3:value_3",
+        "OCR_004_ocr_table_001:r3:value_4",
+        "OCR_004_ocr_table_001:r4:value_1",
+        "OCR_004_ocr_table_001:r4:value_2",
+        "OCR_004_ocr_table_001:r4:value_3",
+        "OCR_004_ocr_table_001:r4:value_4",
+        "OCR_004_ocr_table_001:r5:value_1",
+        "OCR_004_ocr_table_001:r5:value_2",
+        "OCR_004_ocr_table_001:r5:value_3",
+        "OCR_004_ocr_table_001:r5:value_4",
+        "OCR_004_ocr_table_001:r6:value_1",
+        "OCR_004_ocr_table_001:r6:value_2",
+        "OCR_004_ocr_table_001:r6:value_3",
+        "OCR_004_ocr_table_001:r6:value_4",
+        "OCR_004_ocr_table_001:r7:value_1",
+        "OCR_004_ocr_table_001:r7:value_2",
+        "OCR_004_ocr_table_001:r7:value_3",
+        "OCR_004_ocr_table_001:r7:value_4",
+        "OCR_004_ocr_table_001:r8:value_1",
+        "OCR_004_ocr_table_001:r8:value_2",
+        "OCR_004_ocr_table_001:r9:value_1",
+        "OCR_004_ocr_table_001:r9:value_2",
+        "OCR_004_ocr_table_001:r9:value_3",
+        "OCR_004_ocr_table_001:r9:value_4",
+        "OCR_004_ocr_table_001:r10:value_1",
+        "OCR_004_ocr_table_001:r10:value_3",
+        "OCR_004_ocr_table_001:r10:value_4",
+        "OCR_004_ocr_table_001:r11:value_1",
+        "OCR_004_ocr_table_001:r11:value_3",
+        "OCR_004_ocr_table_001:r11:value_4",
+        "OCR_004_ocr_table_001:r12:value_1",
+        "OCR_004_ocr_table_001:r12:value_3",
+        "OCR_004_ocr_table_001:r12:value_4",
+        "OCR_004_ocr_table_001:r13:value_1",
+        "OCR_004_ocr_table_001:r13:value_2",
+        "OCR_004_ocr_table_001:r13:value_3",
+        "OCR_004_ocr_table_001:r13:value_4",
+        "OCR_004_ocr_table_001:r14:value_1",
+        "OCR_004_ocr_table_001:r14:value_3",
+        "OCR_004_ocr_table_001:r14:value_4",
+        "OCR_004_ocr_table_001:r15:value_1",
+        "OCR_004_ocr_table_001:r15:value_3",
+        "OCR_004_ocr_table_001:r15:value_4",
+        "OCR_004_ocr_table_001:r16:value_1",
+        "OCR_004_ocr_table_001:r16:value_2",
+        "OCR_004_ocr_table_001:r16:value_3",
+        "OCR_004_ocr_table_001:r16:value_4",
+        "OCR_004_ocr_table_001:r17:value_1",
+        "OCR_004_ocr_table_001:r17:value_3",
+        "OCR_004_ocr_table_001:r17:value_4",
+        "OCR_004_ocr_table_001:r18:value_4",
+        "OCR_004_ocr_table_001:r19:value_4",
+        "OCR_004_ocr_table_001:r20:value_1",
+        "OCR_004_ocr_table_001:r20:value_3",
+        "OCR_004_ocr_table_001:r20:value_4",
+        "OCR_004_ocr_table_001:r21:value_1",
+        "OCR_004_ocr_table_001:r21:value_3",
+        "OCR_004_ocr_table_001:r21:value_4",
+        "OCR_004_ocr_table_001:r22:value_2",
+        "OCR_004_ocr_table_001:r22:value_3",
+        "OCR_004_ocr_table_001:r22:value_4"
+      ]
+    },
+    {
+      "table_key": "OCR_005_ocr_table_002",
+      "table_id": "OCR_002",
+      "source": "OCR",
+      "page": [
+        12
+      ],
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/ocr_generic/Stroc_RFA_2024_6a5a05a3f6a3/e0ca308dea6d/tables/ocr_table_002.csv",
+      "csv_sha256": "43725da602f4bb626cab6e2e0ef40a054f3796a57072c30e0400bff65b789905",
+      "context": {
+        "units": [],
+        "periods": [],
+        "column_periods": {},
+        "reporting_scope": "UNKNOWN",
+        "reference": null
+      },
+      "value_count": 44,
+      "value_ids": [
+        "OCR_005_ocr_table_002:r1:value_2",
+        "OCR_005_ocr_table_002:r1:value_2_extra",
+        "OCR_005_ocr_table_002:r2:value_2",
+        "OCR_005_ocr_table_002:r3:value_1",
+        "OCR_005_ocr_table_002:r3:value_2",
+        "OCR_005_ocr_table_002:r4:value_1",
+        "OCR_005_ocr_table_002:r4:value_2",
+        "OCR_005_ocr_table_002:r5:value_1",
+        "OCR_005_ocr_table_002:r5:value_2",
+        "OCR_005_ocr_table_002:r6:value_1",
+        "OCR_005_ocr_table_002:r6:value_2",
+        "OCR_005_ocr_table_002:r7:value_1",
+        "OCR_005_ocr_table_002:r7:value_2",
+        "OCR_005_ocr_table_002:r8:value_1",
+        "OCR_005_ocr_table_002:r8:value_2",
+        "OCR_005_ocr_table_002:r9:value_1",
+        "OCR_005_ocr_table_002:r9:value_2",
+        "OCR_005_ocr_table_002:r10:value_1",
+        "OCR_005_ocr_table_002:r10:value_2",
+        "OCR_005_ocr_table_002:r11:value_2",
+        "OCR_005_ocr_table_002:r12:value_2",
+        "OCR_005_ocr_table_002:r13:value_2",
+        "OCR_005_ocr_table_002:r14:value_1",
+        "OCR_005_ocr_table_002:r14:value_2",
+        "OCR_005_ocr_table_002:r15:value_1",
+        "OCR_005_ocr_table_002:r15:value_2",
+        "OCR_005_ocr_table_002:r16:value_1",
+        "OCR_005_ocr_table_002:r16:value_2",
+        "OCR_005_ocr_table_002:r17:value_1",
+        "OCR_005_ocr_table_002:r17:value_2",
+        "OCR_005_ocr_table_002:r18:value_1",
+        "OCR_005_ocr_table_002:r18:value_2",
+        "OCR_005_ocr_table_002:r19:value_1",
+        "OCR_005_ocr_table_002:r19:value_2",
+        "OCR_005_ocr_table_002:r20:value_1",
+        "OCR_005_ocr_table_002:r20:value_2",
+        "OCR_005_ocr_table_002:r21:value_1",
+        "OCR_005_ocr_table_002:r21:value_2",
+        "OCR_005_ocr_table_002:r22:value_2",
+        "OCR_005_ocr_table_002:r23:value_2",
+        "OCR_005_ocr_table_002:r24:value_2",
+        "OCR_005_ocr_table_002:r25:value_2",
+        "OCR_005_ocr_table_002:r26:value_1",
+        "OCR_005_ocr_table_002:r26:value_2"
+      ]
+    },
+    {
+      "table_key": "OCR_006_ocr_table_003",
+      "table_id": "OCR_003",
+      "source": "OCR",
+      "page": [
+        13
+      ],
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/ocr_generic/Stroc_RFA_2024_6a5a05a3f6a3/e0ca308dea6d/tables/ocr_table_003.csv",
+      "csv_sha256": "a90d19d2977580ca9f6d2b1061a142ecb1d90c87001ef72be5d10129c9b2d843",
+      "context": {
+        "units": [],
+        "periods": [],
+        "column_periods": {},
+        "reporting_scope": "UNKNOWN",
+        "reference": null
+      },
+      "value_count": 52,
+      "value_ids": [
+        "OCR_006_ocr_table_003:r1:value_4",
+        "OCR_006_ocr_table_003:r2:value_4",
+        "OCR_006_ocr_table_003:r3:value_2",
+        "OCR_006_ocr_table_003:r3:value_3",
+        "OCR_006_ocr_table_003:r3:value_4",
+        "OCR_006_ocr_table_003:r4:value_1",
+        "OCR_006_ocr_table_003:r4:value_3",
+        "OCR_006_ocr_table_003:r4:value_4",
+        "OCR_006_ocr_table_003:r5:value_1",
+        "OCR_006_ocr_table_003:r5:value_3",
+        "OCR_006_ocr_table_003:r5:value_4",
+        "OCR_006_ocr_table_003:r6:value_4",
+        "OCR_006_ocr_table_003:r7:value_4",
+        "OCR_006_ocr_table_003:r8:value_1",
+        "OCR_006_ocr_table_003:r8:value_2",
+        "OCR_006_ocr_table_003:r8:value_3",
+        "OCR_006_ocr_table_003:r8:value_4",
+        "OCR_006_ocr_table_003:r9:value_1",
+        "OCR_006_ocr_table_003:r9:value_2",
+        "OCR_006_ocr_table_003:r9:value_3",
+        "OCR_006_ocr_table_003:r9:value_4",
+        "OCR_006_ocr_table_003:r10:value_1",
+        "OCR_006_ocr_table_003:r10:value_2",
+        "OCR_006_ocr_table_003:r10:value_3",
+        "OCR_006_ocr_table_003:r10:value_4",
+        "OCR_006_ocr_table_003:r11:value_1",
+        "OCR_006_ocr_table_003:r11:value_2",
+        "OCR_006_ocr_table_003:r11:value_3",
+        "OCR_006_ocr_table_003:r11:value_4",
+        "OCR_006_ocr_table_003:r12:value_1",
+        "OCR_006_ocr_table_003:r12:value_3",
+        "OCR_006_ocr_table_003:r12:value_4",
+        "OCR_006_ocr_table_003:r13:value_1",
+        "OCR_006_ocr_table_003:r13:value_3",
+        "OCR_006_ocr_table_003:r13:value_4",
+        "OCR_006_ocr_table_003:r14:value_4",
+        "OCR_006_ocr_table_003:r15:value_1",
+        "OCR_006_ocr_table_003:r15:value_3",
+        "OCR_006_ocr_table_003:r15:value_4",
+        "OCR_006_ocr_table_003:r16:value_1",
+        "OCR_006_ocr_table_003:r16:value_3",
+        "OCR_006_ocr_table_003:r16:value_4",
+        "OCR_006_ocr_table_003:r17:value_4",
+        "OCR_006_ocr_table_003:r18:value_4",
+        "OCR_006_ocr_table_003:r19:value_1",
+        "OCR_006_ocr_table_003:r19:value_3",
+        "OCR_006_ocr_table_003:r19:value_4",
+        "OCR_006_ocr_table_003:r20:value_4",
+        "OCR_006_ocr_table_003:r21:value_1",
+        "OCR_006_ocr_table_003:r21:value_3",
+        "OCR_006_ocr_table_003:r22:value_1",
+        "OCR_006_ocr_table_003:r22:value_4"
+      ]
+    },
+    {
+      "table_key": "OCR_007_ocr_table_004",
+      "table_id": "OCR_004",
+      "source": "OCR",
+      "page": [
+        14
+      ],
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/ocr_generic/Stroc_RFA_2024_6a5a05a3f6a3/e0ca308dea6d/tables/ocr_table_004.csv",
+      "csv_sha256": "d2a9ca42802180228224e4e40413252157b2416e4b4f343ecd5535bf8f5d1956",
+      "context": {
+        "units": [],
+        "periods": [],
+        "column_periods": {},
+        "reporting_scope": "UNKNOWN",
+        "reference": null
+      },
+      "value_count": 19,
+      "value_ids": [
+        "OCR_007_ocr_table_004:r1:value_1",
+        "OCR_007_ocr_table_004:r1:value_2",
+        "OCR_007_ocr_table_004:r2:value_1",
+        "OCR_007_ocr_table_004:r2:value_2",
+        "OCR_007_ocr_table_004:r2:value_3",
+        "OCR_007_ocr_table_004:r3:value_1",
+        "OCR_007_ocr_table_004:r3:value_2",
+        "OCR_007_ocr_table_004:r4:value_1",
+        "OCR_007_ocr_table_004:r5:value_1",
+        "OCR_007_ocr_table_004:r5:value_2",
+        "OCR_007_ocr_table_004:r5:value_3",
+        "OCR_007_ocr_table_004:r6:value_1",
+        "OCR_007_ocr_table_004:r6:value_2",
+        "OCR_007_ocr_table_004:r6:value_3",
+        "OCR_007_ocr_table_004:r7:value_3",
+        "OCR_007_ocr_table_004:r8:value_1",
+        "OCR_007_ocr_table_004:r8:value_2",
+        "OCR_007_ocr_table_004:r8:value_3",
+        "OCR_007_ocr_table_004:r9:value_3"
+      ]
+    },
+    {
+      "table_key": "OCR_008_ocr_table_005",
+      "table_id": "OCR_005",
+      "source": "OCR",
+      "page": [
+        15
+      ],
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/ocr_generic/Stroc_RFA_2024_6a5a05a3f6a3/e0ca308dea6d/tables/ocr_table_005.csv",
+      "csv_sha256": "c0be017b21b71dc29258443e5bd0fe01a4a2206d6181f48858e120799165b63d",
+      "context": {
+        "units": [],
+        "periods": [],
+        "column_periods": {},
+        "reporting_scope": "UNKNOWN",
+        "reference": null
+      },
+      "value_count": 28,
+      "value_ids": [
+        "OCR_008_ocr_table_005:r1:value_2",
+        "OCR_008_ocr_table_005:r2:value_1",
+        "OCR_008_ocr_table_005:r3:value_1",
+        "OCR_008_ocr_table_005:r3:value_2",
+        "OCR_008_ocr_table_005:r4:value_1",
+        "OCR_008_ocr_table_005:r4:value_2",
+        "OCR_008_ocr_table_005:r5:value_2",
+        "OCR_008_ocr_table_005:r6:value_1",
+        "OCR_008_ocr_table_005:r6:value_2",
+        "OCR_008_ocr_table_005:r7:value_1",
+        "OCR_008_ocr_table_005:r7:value_2",
+        "OCR_008_ocr_table_005:r8:value_1",
+        "OCR_008_ocr_table_005:r8:value_2",
+        "OCR_008_ocr_table_005:r9:value_1",
+        "OCR_008_ocr_table_005:r9:value_2",
+        "OCR_008_ocr_table_005:r10:value_1",
+        "OCR_008_ocr_table_005:r10:value_2",
+        "OCR_008_ocr_table_005:r11:value_1",
+        "OCR_008_ocr_table_005:r12:value_1",
+        "OCR_008_ocr_table_005:r12:value_1_extra",
+        "OCR_008_ocr_table_005:r13:value_1",
+        "OCR_008_ocr_table_005:r14:value_1",
+        "OCR_008_ocr_table_005:r14:value_2",
+        "OCR_008_ocr_table_005:r15:value_1",
+        "OCR_008_ocr_table_005:r15:value_2",
+        "OCR_008_ocr_table_005:r16:value_1",
+        "OCR_008_ocr_table_005:r17:value_1",
+        "OCR_008_ocr_table_005:r18:value_2"
+      ]
+    },
+    {
+      "table_key": "OCR_009_ocr_table_006",
+      "table_id": "OCR_006",
+      "source": "OCR",
+      "page": [
+        16
+      ],
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/ocr_generic/Stroc_RFA_2024_6a5a05a3f6a3/e0ca308dea6d/tables/ocr_table_006.csv",
+      "csv_sha256": "693480e74d8225e9e7148db5d3597f79e82128e1f16dbf5c2344ec83da497ae5",
+      "context": {
+        "units": [],
+        "periods": [],
+        "column_periods": {},
+        "reporting_scope": "UNKNOWN",
+        "reference": null
+      },
+      "value_count": 19,
+      "value_ids": [
+        "OCR_009_ocr_table_006:r1:value_1",
+        "OCR_009_ocr_table_006:r1:value_2",
+        "OCR_009_ocr_table_006:r1:value_3",
+        "OCR_009_ocr_table_006:r2:value_1",
+        "OCR_009_ocr_table_006:r3:value_1",
+        "OCR_009_ocr_table_006:r3:value_2",
+        "OCR_009_ocr_table_006:r3:value_3",
+        "OCR_009_ocr_table_006:r4:value_1",
+        "OCR_009_ocr_table_006:r5:value_2",
+        "OCR_009_ocr_table_006:r5:value_4",
+        "OCR_009_ocr_table_006:r6:value_2",
+        "OCR_009_ocr_table_006:r7:value_2",
+        "OCR_009_ocr_table_006:r8:value_2",
+        "OCR_009_ocr_table_006:r9:value_3",
+        "OCR_009_ocr_table_006:r10:value_1",
+        "OCR_009_ocr_table_006:r10:value_3",
+        "OCR_009_ocr_table_006:r11:value_1",
+        "OCR_009_ocr_table_006:r12:value_3",
+        "OCR_009_ocr_table_006:r13:value_4"
+      ]
+    },
+    {
+      "table_key": "OCR_010_ocr_table_007",
+      "table_id": "OCR_007",
+      "source": "OCR",
+      "page": [
+        18
+      ],
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/ocr_generic/Stroc_RFA_2024_6a5a05a3f6a3/e0ca308dea6d/tables/ocr_table_007.csv",
+      "csv_sha256": "831cb98416fd23c4b62d0c56a4af289fe7bf4d11e509f96b8a06d2504ebd4201",
+      "context": {
+        "units": [],
+        "periods": [],
+        "column_periods": {},
+        "reporting_scope": "UNKNOWN",
+        "reference": null
+      },
+      "value_count": 19,
+      "value_ids": [
+        "OCR_010_ocr_table_007:r1:value_1",
+        "OCR_010_ocr_table_007:r1:value_3",
+        "OCR_010_ocr_table_007:r2:value_1",
+        "OCR_010_ocr_table_007:r2:value_3",
+        "OCR_010_ocr_table_007:r3:value_1",
+        "OCR_010_ocr_table_007:r3:value_3",
+        "OCR_010_ocr_table_007:r4:value_1",
+        "OCR_010_ocr_table_007:r4:value_2",
+        "OCR_010_ocr_table_007:r4:value_3",
+        "OCR_010_ocr_table_007:r5:value_1",
+        "OCR_010_ocr_table_007:r5:value_2",
+        "OCR_010_ocr_table_007:r5:value_3",
+        "OCR_010_ocr_table_007:r5:value_2_extra",
+        "OCR_010_ocr_table_007:r6:value_1",
+        "OCR_010_ocr_table_007:r6:value_2",
+        "OCR_010_ocr_table_007:r6:value_3",
+        "OCR_010_ocr_table_007:r7:value_1",
+        "OCR_010_ocr_table_007:r7:value_2",
+        "OCR_010_ocr_table_007:r7:value_3"
+      ]
+    },
+    {
+      "table_key": "OCR_011_ocr_table_008",
+      "table_id": "OCR_008",
+      "source": "OCR",
+      "page": [
+        18
+      ],
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/ocr_generic/Stroc_RFA_2024_6a5a05a3f6a3/e0ca308dea6d/tables/ocr_table_008.csv",
+      "csv_sha256": "a64ed8e6459198a97d39e69c0f4b0132c98747db357018bffe9b3311cba8b530",
+      "context": {
+        "units": [],
+        "periods": [],
+        "column_periods": {},
+        "reporting_scope": "UNKNOWN",
+        "reference": null
+      },
+      "value_count": 13,
+      "value_ids": [
+        "OCR_011_ocr_table_008:r1:value_1",
+        "OCR_011_ocr_table_008:r2:value_1",
+        "OCR_011_ocr_table_008:r2:value_3",
+        "OCR_011_ocr_table_008:r2:value_4",
+        "OCR_011_ocr_table_008:r3:value_2",
+        "OCR_011_ocr_table_008:r3:value_4",
+        "OCR_011_ocr_table_008:r4:value_2",
+        "OCR_011_ocr_table_008:r4:value_4",
+        "OCR_011_ocr_table_008:r5:value_1",
+        "OCR_011_ocr_table_008:r5:value_3",
+        "OCR_011_ocr_table_008:r5:value_4",
+        "OCR_011_ocr_table_008:r6:value_2",
+        "OCR_011_ocr_table_008:r6:value_4"
+      ]
+    },
+    {
+      "table_key": "OCR_012_ocr_table_009",
+      "table_id": "OCR_009",
+      "source": "OCR",
+      "page": [
+        19
+      ],
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/ocr_generic/Stroc_RFA_2024_6a5a05a3f6a3/e0ca308dea6d/tables/ocr_table_009.csv",
+      "csv_sha256": "7a01326a3e0cbea31d70cde0cf2214d6e2b935d758fc19015532cc265edaf740",
+      "context": {
+        "units": [],
+        "periods": [],
+        "column_periods": {},
+        "reporting_scope": "UNKNOWN",
+        "reference": null
+      },
+      "value_count": 20,
+      "value_ids": [
+        "OCR_012_ocr_table_009:r1:value_1",
+        "OCR_012_ocr_table_009:r1:value_7",
+        "OCR_012_ocr_table_009:r2:value_1",
+        "OCR_012_ocr_table_009:r2:value_2",
+        "OCR_012_ocr_table_009:r2:value_4",
+        "OCR_012_ocr_table_009:r2:value_5",
+        "OCR_012_ocr_table_009:r2:value_6",
+        "OCR_012_ocr_table_009:r2:value_7",
+        "OCR_012_ocr_table_009:r3:value_1",
+        "OCR_012_ocr_table_009:r3:value_2",
+        "OCR_012_ocr_table_009:r3:value_3",
+        "OCR_012_ocr_table_009:r3:value_5",
+        "OCR_012_ocr_table_009:r3:value_7",
+        "OCR_012_ocr_table_009:r4:value_1",
+        "OCR_012_ocr_table_009:r4:value_2",
+        "OCR_012_ocr_table_009:r4:value_3",
+        "OCR_012_ocr_table_009:r4:value_4",
+        "OCR_012_ocr_table_009:r4:value_5",
+        "OCR_012_ocr_table_009:r4:value_6",
+        "OCR_012_ocr_table_009:r4:value_7"
+      ]
+    },
+    {
+      "table_key": "OCR_013_ocr_table_010",
+      "table_id": "OCR_010",
+      "source": "OCR",
+      "page": [
+        20
+      ],
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/ocr_generic/Stroc_RFA_2024_6a5a05a3f6a3/e0ca308dea6d/tables/ocr_table_010.csv",
+      "csv_sha256": "b16086c75f0705ed03fcefcb3e1e6e361d2f0bc2b16e8a70c5e158b2a154e081",
+      "context": {
+        "units": [],
+        "periods": [],
+        "column_periods": {},
+        "reporting_scope": "UNKNOWN",
+        "reference": null
+      },
+      "value_count": 35,
+      "value_ids": [
+        "OCR_013_ocr_table_010:r1:value_1",
+        "OCR_013_ocr_table_010:r2:value_4",
+        "OCR_013_ocr_table_010:r3:value_2",
+        "OCR_013_ocr_table_010:r3:value_4",
+        "OCR_013_ocr_table_010:r4:value_2",
+        "OCR_013_ocr_table_010:r4:value_3",
+        "OCR_013_ocr_table_010:r4:value_4",
+        "OCR_013_ocr_table_010:r4:value_6",
+        "OCR_013_ocr_table_010:r5:value_1",
+        "OCR_013_ocr_table_010:r5:value_2",
+        "OCR_013_ocr_table_010:r5:value_3",
+        "OCR_013_ocr_table_010:r5:value_4",
+        "OCR_013_ocr_table_010:r5:value_5",
+        "OCR_013_ocr_table_010:r6:value_1",
+        "OCR_013_ocr_table_010:r6:value_2",
+        "OCR_013_ocr_table_010:r6:value_3",
+        "OCR_013_ocr_table_010:r6:value_5",
+        "OCR_013_ocr_table_010:r7:value_1",
+        "OCR_013_ocr_table_010:r7:value_2",
+        "OCR_013_ocr_table_010:r7:value_3",
+        "OCR_013_ocr_table_010:r7:value_4",
+        "OCR_013_ocr_table_010:r8:value_1",
+        "OCR_013_ocr_table_010:r8:value_2",
+        "OCR_013_ocr_table_010:r8:value_3",
+        "OCR_013_ocr_table_010:r8:value_4",
+        "OCR_013_ocr_table_010:r9:value_2",
+        "OCR_013_ocr_table_010:r9:value_3",
+        "OCR_013_ocr_table_010:r9:value_4",
+        "OCR_013_ocr_table_010:r10:value_1",
+        "OCR_013_ocr_table_010:r10:value_2",
+        "OCR_013_ocr_table_010:r11:value_1",
+        "OCR_013_ocr_table_010:r11:value_2",
+        "OCR_013_ocr_table_010:r11:value_6",
+        "OCR_013_ocr_table_010:r12:value_1",
+        "OCR_013_ocr_table_010:r12:value_2"
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "check_id": "DOCLING_001_table_001:unit",
+      "kind": "UNIT",
+      "status": "NOT_CHECKED",
+      "outcome": "SKIPPED",
+      "table_key": "DOCLING_001_table_001",
+      "observed": [],
+      "justification": "Unit absente ou non identifiable."
+    },
+    {
+      "check_id": "DOCLING_001_table_001:period",
+      "kind": "PERIOD",
+      "status": "NOT_CHECKED",
+      "outcome": "SKIPPED",
+      "table_key": "DOCLING_001_table_001",
+      "observed": [],
+      "justification": "Period absente ou non identifiable."
+    },
+    {
+      "check_id": "DOCLING_002_table_002:unit",
+      "kind": "UNIT",
+      "status": "NOT_CHECKED",
+      "outcome": "SKIPPED",
+      "table_key": "DOCLING_002_table_002",
+      "observed": [],
+      "justification": "Unit absente ou non identifiable."
+    },
+    {
+      "check_id": "DOCLING_002_table_002:period",
+      "kind": "PERIOD",
+      "status": "NOT_CHECKED",
+      "outcome": "SKIPPED",
+      "table_key": "DOCLING_002_table_002",
+      "observed": [],
+      "justification": "Period absente ou non identifiable."
+    },
+    {
+      "check_id": "DOCLING_003_table_023:unit",
+      "kind": "UNIT",
+      "status": "NOT_CHECKED",
+      "outcome": "SKIPPED",
+      "table_key": "DOCLING_003_table_023",
+      "observed": [],
+      "justification": "Unit absente ou non identifiable."
+    },
+    {
+      "check_id": "DOCLING_003_table_023:period",
+      "kind": "PERIOD",
+      "status": "NOT_CHECKED",
+      "outcome": "SKIPPED",
+      "table_key": "DOCLING_003_table_023",
+      "observed": [],
+      "justification": "Period absente ou non identifiable."
+    },
+    {
+      "check_id": "OCR_004_ocr_table_001:unit",
+      "kind": "UNIT",
+      "status": "NOT_CHECKED",
+      "outcome": "SKIPPED",
+      "table_key": "OCR_004_ocr_table_001",
+      "observed": [],
+      "justification": "Unit absente ou non identifiable."
+    },
+    {
+      "check_id": "OCR_004_ocr_table_001:period",
+      "kind": "PERIOD",
+      "status": "NOT_CHECKED",
+      "outcome": "SKIPPED",
+      "table_key": "OCR_004_ocr_table_001",
+      "observed": [],
+      "justification": "Period absente ou non identifiable."
+    },
+    {
+      "check_id": "OCR_005_ocr_table_002:unit",
+      "kind": "UNIT",
+      "status": "NOT_CHECKED",
+      "outcome": "SKIPPED",
+      "table_key": "OCR_005_ocr_table_002",
+      "observed": [],
+      "justification": "Unit absente ou non identifiable."
+    },
+    {
+      "check_id": "OCR_005_ocr_table_002:period",
+      "kind": "PERIOD",
+      "status": "NOT_CHECKED",
+      "outcome": "SKIPPED",
+      "table_key": "OCR_005_ocr_table_002",
+      "observed": [],
+      "justification": "Period absente ou non identifiable."
+    },
+    {
+      "check_id": "OCR_006_ocr_table_003:unit",
+      "kind": "UNIT",
+      "status": "NOT_CHECKED",
+      "outcome": "SKIPPED",
+      "table_key": "OCR_006_ocr_table_003",
+      "observed": [],
+      "justification": "Unit absente ou non identifiable."
+    },
+    {
+      "check_id": "OCR_006_ocr_table_003:period",
+      "kind": "PERIOD",
+      "status": "NOT_CHECKED",
+      "outcome": "SKIPPED",
+      "table_key": "OCR_006_ocr_table_003",
+      "observed": [],
+      "justification": "Period absente ou non identifiable."
+    },
+    {
+      "check_id": "OCR_007_ocr_table_004:unit",
+      "kind": "UNIT",
+      "status": "NOT_CHECKED",
+      "outcome": "SKIPPED",
+      "table_key": "OCR_007_ocr_table_004",
+      "observed": [],
+      "justification": "Unit absente ou non identifiable."
+    },
+    {
+      "check_id": "OCR_007_ocr_table_004:period",
+      "kind": "PERIOD",
+      "status": "NOT_CHECKED",
+      "outcome": "SKIPPED",
+      "table_key": "OCR_007_ocr_table_004",
+      "observed": [],
+      "justification": "Period absente ou non identifiable."
+    },
+    {
+      "check_id": "OCR_008_ocr_table_005:unit",
+      "kind": "UNIT",
+      "status": "NOT_CHECKED",
+      "outcome": "SKIPPED",
+      "table_key": "OCR_008_ocr_table_005",
+      "observed": [],
+      "justification": "Unit absente ou non identifiable."
+    },
+    {
+      "check_id": "OCR_008_ocr_table_005:period",
+      "kind": "PERIOD",
+      "status": "NOT_CHECKED",
+      "outcome": "SKIPPED",
+      "table_key": "OCR_008_ocr_table_005",
+      "observed": [],
+      "justification": "Period absente ou non identifiable."
+    },
+    {
+      "check_id": "OCR_009_ocr_table_006:unit",
+      "kind": "UNIT",
+      "status": "NOT_CHECKED",
+      "outcome": "SKIPPED",
+      "table_key": "OCR_009_ocr_table_006",
+      "observed": [],
+      "justification": "Unit absente ou non identifiable."
+    },
+    {
+      "check_id": "OCR_009_ocr_table_006:period",
+      "kind": "PERIOD",
+      "status": "NOT_CHECKED",
+      "outcome": "SKIPPED",
+      "table_key": "OCR_009_ocr_table_006",
+      "observed": [],
+      "justification": "Period absente ou non identifiable."
+    },
+    {
+      "check_id": "OCR_010_ocr_table_007:unit",
+      "kind": "UNIT",
+      "status": "NOT_CHECKED",
+      "outcome": "SKIPPED",
+      "table_key": "OCR_010_ocr_table_007",
+      "observed": [],
+      "justification": "Unit absente ou non identifiable."
+    },
+    {
+      "check_id": "OCR_010_ocr_table_007:period",
+      "kind": "PERIOD",
+      "status": "NOT_CHECKED",
+      "outcome": "SKIPPED",
+      "table_key": "OCR_010_ocr_table_007",
+      "observed": [],
+      "justification": "Period absente ou non identifiable."
+    },
+    {
+      "check_id": "OCR_011_ocr_table_008:unit",
+      "kind": "UNIT",
+      "status": "NOT_CHECKED",
+      "outcome": "SKIPPED",
+      "table_key": "OCR_011_ocr_table_008",
+      "observed": [],
+      "justification": "Unit absente ou non identifiable."
+    },
+    {
+      "check_id": "OCR_011_ocr_table_008:period",
+      "kind": "PERIOD",
+      "status": "NOT_CHECKED",
+      "outcome": "SKIPPED",
+      "table_key": "OCR_011_ocr_table_008",
+      "observed": [],
+      "justification": "Period absente ou non identifiable."
+    },
+    {
+      "check_id": "OCR_012_ocr_table_009:unit",
+      "kind": "UNIT",
+      "status": "NOT_CHECKED",
+      "outcome": "SKIPPED",
+      "table_key": "OCR_012_ocr_table_009",
+      "observed": [],
+      "justification": "Unit absente ou non identifiable."
+    },
+    {
+      "check_id": "OCR_012_ocr_table_009:period",
+      "kind": "PERIOD",
+      "status": "NOT_CHECKED",
+      "outcome": "SKIPPED",
+      "table_key": "OCR_012_ocr_table_009",
+      "observed": [],
+      "justification": "Period absente ou non identifiable."
+    },
+    {
+      "check_id": "OCR_013_ocr_table_010:unit",
+      "kind": "UNIT",
+      "status": "NOT_CHECKED",
+      "outcome": "SKIPPED",
+      "table_key": "OCR_013_ocr_table_010",
+      "observed": [],
+      "justification": "Unit absente ou non identifiable."
+    },
+    {
+      "check_id": "OCR_013_ocr_table_010:period",
+      "kind": "PERIOD",
+      "status": "NOT_CHECKED",
+      "outcome": "SKIPPED",
+      "table_key": "OCR_013_ocr_table_010",
+      "observed": [],
+      "justification": "Period absente ou non identifiable."
+    },
+    {
+      "check_id": "document:balance",
+      "kind": "BALANCE",
+      "status": "NOT_CHECKED",
+      "outcome": "SKIPPED",
+      "justification": "Aucune paire de cellules comparable avec même unité, période et périmètre n'est configurée."
+    },
+    {
+      "check_id": "document:net_result",
+      "kind": "NET_RESULT",
+      "status": "NOT_CHECKED",
+      "outcome": "SKIPPED",
+      "justification": "Aucune paire de cellules comparable avec même unité, période et périmètre n'est configurée."
+    },
+    {
+      "check_id": "document:subtotals",
+      "kind": "SUBTOTAL",
+      "status": "NOT_CHECKED",
+      "outcome": "SKIPPED",
+      "justification": "Aucun groupe total/composants fiable n'est défini."
+    },
+    {
+      "check_id": "document:signs",
+      "kind": "SIGN",
+      "status": "NOT_CHECKED",
+      "outcome": "SKIPPED",
+      "justification": "Aucune règle de signe n'est appliquée sans contexte métier explicite."
+    }
+  ],
+  "outputs": {
+    "annotations": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/quality/ammc/pilot_strict/Stroc_RFA_2024_6a5a05a3f6a3/annotations.jsonl",
+    "admissible_values": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/quality/ammc/pilot_strict/Stroc_RFA_2024_6a5a05a3f6a3/admissible_values.jsonl",
+    "quarantine": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/quality/ammc/pilot_strict/Stroc_RFA_2024_6a5a05a3f6a3/quarantine.jsonl"
+  },
+  "downstream_contract": {
+    "input": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/quality/ammc/pilot_strict/Stroc_RFA_2024_6a5a05a3f6a3/admissible_values.jsonl",
+    "allowed_statuses": [
+      "VERIFIED"
+    ],
+    "forbidden_statuses": [
+      "NOT_CHECKED",
+      "REJECTED",
+      "REVIEW_REQUIRED"
+    ],
+    "not_checked_is_verified": false
+  },
+  "artifact_sha256": {
+    "annotations.jsonl": "670de43ecc09c8d754269109e1f57eeec127ca06619048fb310979b0c3fa6d3e",
+    "admissible_values.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "quarantine.jsonl": "670de43ecc09c8d754269109e1f57eeec127ca06619048fb310979b0c3fa6d3e"
+  }
+}

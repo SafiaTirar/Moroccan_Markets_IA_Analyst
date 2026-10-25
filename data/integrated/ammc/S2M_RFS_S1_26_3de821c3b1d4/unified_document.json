@@ -1,0 +1,347 @@
+{
+  "schema_version": "2.2",
+  "source_pdf": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/raw/ammc/pdfs/S2M_RFS_S1_26.pdf",
+  "source_sha256": "3de821c3b1d45bcff596ab2de623f7f169356e12b972fd33d1eb86c0d7f90baf",
+  "docling_status": "PARTIAL",
+  "ocr_status": "PARSED",
+  "integration_status": "PARTIAL",
+  "integration_fingerprint": "630155772ad0a30eef5b81ce6b10519875aaac3b34400166a7c022cb17ab7ce1",
+  "cache_used": false,
+  "active_table_count": 14,
+  "tables": [
+    {
+      "table_id": "DOCLING_001",
+      "source": "DOCLING",
+      "page": [
+        5
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/S2M_RFS_S1_26_3de821c3b1d4/tables/table_001.csv",
+      "coordinates_path": null,
+      "rows": 3,
+      "columns": 4,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "451e4f4233a6060e6bfd0caaaac1d72c6defbfb410db57a85a0ffab5cf779f6f"
+    },
+    {
+      "table_id": "DOCLING_002",
+      "source": "DOCLING",
+      "page": [
+        6
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/S2M_RFS_S1_26_3de821c3b1d4/tables/table_002.csv",
+      "coordinates_path": null,
+      "rows": 5,
+      "columns": 4,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "41061c0d96b70a93a33e489e0e9ea7f0d5470513b3aab8bb9b76a9cdc3f3e551"
+    },
+    {
+      "table_id": "DOCLING_003",
+      "source": "DOCLING",
+      "page": [
+        6
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/S2M_RFS_S1_26_3de821c3b1d4/tables/table_003.csv",
+      "coordinates_path": null,
+      "rows": 5,
+      "columns": 4,
+      "quality_status": "INCOMPLETE",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "f41a546554acdd62adabeae893e6c4007cdcde89284dcaa11a124a824c26161b"
+    },
+    {
+      "table_id": "DOCLING_004",
+      "source": "DOCLING",
+      "page": [
+        6
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/S2M_RFS_S1_26_3de821c3b1d4/tables/table_004.csv",
+      "coordinates_path": null,
+      "rows": 4,
+      "columns": 4,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "8e2c510ff59e2bbce66df585e524a1dfe07a8a442d469f3915ccc23c49c4c13f"
+    },
+    {
+      "table_id": "DOCLING_005",
+      "source": "DOCLING",
+      "page": [
+        6
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/S2M_RFS_S1_26_3de821c3b1d4/tables/table_005.csv",
+      "coordinates_path": null,
+      "rows": 1,
+      "columns": 4,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "dcd88ffe316a8228c4edb584d88522c15b2fb2b90db67a41633fa04c1933be56"
+    },
+    {
+      "table_id": "DOCLING_006",
+      "source": "DOCLING",
+      "page": [
+        6
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/S2M_RFS_S1_26_3de821c3b1d4/tables/table_006.csv",
+      "coordinates_path": null,
+      "rows": 6,
+      "columns": 4,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "949787f028a669b01135e97ca1f6ce3bc83ff4257634cc14be102a873c8d2d09"
+    },
+    {
+      "table_id": "DOCLING_010",
+      "source": "DOCLING",
+      "page": [
+        9
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/S2M_RFS_S1_26_3de821c3b1d4/tables/table_010.csv",
+      "coordinates_path": null,
+      "rows": 13,
+      "columns": 3,
+      "quality_status": "INCOMPLETE",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "6ed6cf01817f7734dfe42e56ca83889e631950f4681319d8da7fd70d863e9069"
+    },
+    {
+      "table_id": "DOCLING_011",
+      "source": "DOCLING",
+      "page": [
+        9
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/S2M_RFS_S1_26_3de821c3b1d4/tables/table_011.csv",
+      "coordinates_path": null,
+      "rows": 15,
+      "columns": 3,
+      "quality_status": "INCOMPLETE",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "2a08b44577daaa76de2ec754f81ced3aca335ee00a00dd887554c00a3a4f434d"
+    },
+    {
+      "table_id": "DOCLING_012",
+      "source": "DOCLING",
+      "page": [
+        10
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/S2M_RFS_S1_26_3de821c3b1d4/tables/table_012.csv",
+      "coordinates_path": null,
+      "rows": 19,
+      "columns": 3,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "eef6378d080ee2954958efd6fa890a720f9821a92843bbb314b38bfb75734934"
+    },
+    {
+      "table_id": "DOCLING_013",
+      "source": "DOCLING",
+      "page": [
+        11
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/S2M_RFS_S1_26_3de821c3b1d4/tables/table_013.csv",
+      "coordinates_path": null,
+      "rows": 2,
+      "columns": 3,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "b664a27ce283fbbdba85b484a1eced32b1bb815db8a280dbfbada4de3324ff66"
+    },
+    {
+      "table_id": "DOCLING_014",
+      "source": "DOCLING",
+      "page": [
+        11
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/S2M_RFS_S1_26_3de821c3b1d4/tables/table_014.csv",
+      "coordinates_path": null,
+      "rows": 7,
+      "columns": 2,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "b7f5c9895e6ed4bea46944bc84e6dcfa593ffe777f7f2fc89297775b73a5c5fc"
+    },
+    {
+      "table_id": "OCR_001",
+      "source": "OCR",
+      "page": [
+        8
+      ],
+      "bbox": [
+        62.656558990478516,
+        95.8167724609375,
+        532.5208740234375,
+        794.1519165039062
+      ],
+      "table_type": null,
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/ocr_generic/S2M_RFS_S1_26_3de821c3b1d4/e0ca308dea6d/tables/ocr_table_001.csv",
+      "coordinates_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/ocr_generic/S2M_RFS_S1_26_3de821c3b1d4/e0ca308dea6d/coordinates/ocr_table_001.json",
+      "coordinates_sha256": "f8d850696e3c90b04a293990f327e7367a18854e388e5efdb01d6cace8bbda23",
+      "rows": 35,
+      "columns": 5,
+      "quality_status": "TECHNICALLY_RECOVERED",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "597fdfe6c9a1d8b1d468c57023eb9fd1b7c8f8cd1b9e83d171eb26ad1660880c"
+    },
+    {
+      "table_id": "OCR_002",
+      "source": "OCR",
+      "page": [
+        8
+      ],
+      "bbox": [
+        671.1365356445312,
+        67.4852294921875,
+        1104.0645751953125,
+        793.2546997070312
+      ],
+      "table_type": null,
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/ocr_generic/S2M_RFS_S1_26_3de821c3b1d4/e0ca308dea6d/tables/ocr_table_002.csv",
+      "coordinates_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/ocr_generic/S2M_RFS_S1_26_3de821c3b1d4/e0ca308dea6d/coordinates/ocr_table_002.json",
+      "coordinates_sha256": "33ea4c73484a1c9a7f1daf38aee18b746134bef63efabb29dd6464fdee54d944",
+      "rows": 27,
+      "columns": 4,
+      "quality_status": "TECHNICALLY_RECOVERED",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "0d2eae5135ff228215b03afcbbd5b8b94b230725722d79211e7c0a70b2a27458"
+    },
+    {
+      "table_id": "OCR_003",
+      "source": "OCR",
+      "page": [
+        9
+      ],
+      "bbox": [
+        125.67170715332031,
+        49.95379638671875,
+        468.18658447265625,
+        800.8577270507812
+      ],
+      "table_type": null,
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/ocr_generic/S2M_RFS_S1_26_3de821c3b1d4/e0ca308dea6d/tables/ocr_table_003.csv",
+      "coordinates_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/ocr_generic/S2M_RFS_S1_26_3de821c3b1d4/e0ca308dea6d/coordinates/ocr_table_003.json",
+      "coordinates_sha256": "79a6e082221020858f0f2bd8aa6449a32415f63dce85bbaa0b0684a7fb78b0db",
+      "rows": 36,
+      "columns": 3,
+      "quality_status": "TECHNICALLY_RECOVERED",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "11fda2017810edd0646147ad25f7c2bd6b6e2e072cfd46ec07e0c8946822621e"
+    }
+  ],
+  "replacements": [
+    {
+      "docling_table": 7,
+      "pages": [
+        8
+      ],
+      "ocr_candidates": [
+        "OCR_001",
+        "OCR_002"
+      ],
+      "status": "OCR_AVAILABLE_FOR_REVIEW"
+    },
+    {
+      "docling_table": 8,
+      "pages": [
+        8
+      ],
+      "ocr_candidates": [
+        "OCR_001",
+        "OCR_002"
+      ],
+      "status": "OCR_AVAILABLE_FOR_REVIEW"
+    },
+    {
+      "docling_table": 9,
+      "pages": [
+        9
+      ],
+      "ocr_candidates": [
+        "OCR_003"
+      ],
+      "status": "OCR_AVAILABLE_FOR_REVIEW"
+    }
+  ],
+  "remaining_docling_issues": [
+    {
+      "code": "AUTOGENERATED_HEADER",
+      "message": "Les en-têtes de colonnes sont artificiels.",
+      "severity": "WARNING",
+      "table_index": 3,
+      "pages": [
+        6
+      ]
+    },
+    {
+      "code": "MISSING_ROW_LABEL",
+      "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+      "severity": "WARNING",
+      "table_index": 10,
+      "pages": [
+        9
+      ]
+    },
+    {
+      "code": "MISSING_ROW_LABEL",
+      "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+      "severity": "WARNING",
+      "table_index": 11,
+      "pages": [
+        9
+      ]
+    }
+  ],
+  "financial_validation": "NOT_PERFORMED"
+}

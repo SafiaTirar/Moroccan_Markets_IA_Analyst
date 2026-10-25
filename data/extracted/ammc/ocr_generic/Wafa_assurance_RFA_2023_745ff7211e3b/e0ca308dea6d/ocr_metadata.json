@@ -1,0 +1,123 @@
+{
+  "schema_version": "3.0",
+  "source_pdf": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/raw/ammc/pdfs/annual/wafa_assurance/2023/Wafa_assurance_RFA_2023.pdf",
+  "source_sha256": "745ff7211e3b184db1380544b96bb9598fb8a5837b95054fbe616cdb8b666d9b",
+  "parser_metadata": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Wafa_assurance_RFA_2023_745ff7211e3b/metadata.json",
+  "config": {
+    "languages": [
+      "fra",
+      "eng"
+    ],
+    "psms": [
+      6,
+      11
+    ],
+    "render_dpi": 300,
+    "minimum_image_width": 400,
+    "minimum_image_height": 250,
+    "minimum_region_area_ratio": 0.03,
+    "minimum_amount_count": 5,
+    "column_tolerance": 0.045
+  },
+  "config_sha256": "e0ca308dea6d26eb838790781b5dfac293390b6ff28071a1ba75c2148bb02d4e",
+  "selection": {
+    "selected_pages": [
+      14,
+      88
+    ],
+    "regions_json_sha256": null
+  },
+  "selection_sha256": "968943e5118f39b743e17ab09827e0c6918258672d14d143b17e8089552515da",
+  "ocr_engine": "tesseract-cli",
+  "tesseract_version": "tesseract 5.5.3",
+  "selected_pages": [
+    14,
+    88
+  ],
+  "regions_examined": 2,
+  "tables_detected": 0,
+  "tables": [],
+  "rejected_regions": [
+    {
+      "page": 14,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        841.8900146484375
+      ],
+      "source": "embedded_image",
+      "source_id": "xref:0:1",
+      "name": null,
+      "image_size": [
+        2481,
+        3508
+      ],
+      "attempts": [
+        {
+          "psm": 6,
+          "score": 68,
+          "amount_count": 5,
+          "keyword_count": 1,
+          "rows": 3,
+          "multi_value_rows": 2,
+          "labeled_rows": 3
+        },
+        {
+          "psm": 11,
+          "score": -15,
+          "amount_count": 8,
+          "keyword_count": 1,
+          "rows": 8,
+          "multi_value_rows": 0,
+          "labeled_rows": 0
+        }
+      ],
+      "selected_psm": 6,
+      "reason": "NOT_FINANCIAL_TABLE"
+    },
+    {
+      "page": 88,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        841.8900146484375
+      ],
+      "source": "embedded_image",
+      "source_id": "xref:0:1",
+      "name": null,
+      "image_size": [
+        2481,
+        3508
+      ],
+      "attempts": [
+        {
+          "psm": 6,
+          "score": 101,
+          "amount_count": 13,
+          "keyword_count": 1,
+          "rows": 11,
+          "multi_value_rows": 2,
+          "labeled_rows": 11
+        },
+        {
+          "psm": 11,
+          "score": 94,
+          "amount_count": 17,
+          "keyword_count": 1,
+          "rows": 15,
+          "multi_value_rows": 2,
+          "labeled_rows": 15
+        }
+      ],
+      "selected_psm": 6,
+      "reason": "NOT_FINANCIAL_TABLE"
+    }
+  ],
+  "duration_seconds": 9.607,
+  "financial_validation": "NOT_PERFORMED",
+  "status": "FAILED",
+  "cache_used": false,
+  "artifact_sha256": {}
+}

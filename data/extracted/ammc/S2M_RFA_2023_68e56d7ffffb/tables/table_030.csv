@@ -1,0 +1,9 @@
+STOCKS ,STOCK FINAL .Montant ,STOCK FINAL .Provision ,STOCK FINAL .Montant ,STOCK INITIAL .Montant ,STOCK INITIAL .Provision ,STOCK INITIAL .Montant  Net ,Variation  de stock en valeur (+ou-)
+,Brut ,pour  dépréciation ,Net ,Brut ,pour  dépréciation,,
+"I. Stocks Approvisionnement -Biens et produits destinés à la revente en l'état  *Biens immeubles *Biens meubles  -Biens et Matières Premières destinés aux activités de prod. et de transformation  -Matières premières  -Matières consommables  -Pièces détachées -Carburants, lubrifiants pour véhicule de transport -Emballage","1.582.915,70  14.251.189,03  2.490.472,14 ","3.596.598,64  1.026.706,03 ","1.582.915,70  10.654.590,39  1.463.766,11 ","257358,44  11.269.704,93  2.718.260,62 ","4.386.284,34 ","257.358,44  0,00 0,00 6.883.420,59  2.718.260,62 ","-  1.325.557,26 -  3.771.169,80 1.254.494,51"
+Total Stocks  II. Stock en cours Production de biens et services -Travaux en cours  -Services en cours Total Stocks des en cours  III. Stock Produits finis,"18.324.576,87 ","4.623.304,67 ","13.701.272,20 ","14.245.323,99 ","4.386.284,34 ","9.859.039,65 ","-  3.842.232,55"
+*récupérables *vendus *perdus -Produits en cours -Etudes en cours,"16.647.876,57 ",,"10.186.254,31 ",,,"11.270.930,13 ","1.084.675,82"
+-Produits finis -Biens finis,"16.647.876,57 ","6.461.622,26  6.461.622,26 ","10.186.254,31 ","17.211.959,84  17.211.959,84 ","5.941.029,71  5.941.029,71 ","11.270.930,13 ","1.084.675,82"
+Total Stocks Produits et Biens finis IV. Stock Produits résiduels,,,,,,,
+-Déchets -Rebuts -Matières de récupération Total Stocks Produits résiduels,,"11.084.926,93 ","23.887.526,51 ",,,"21.129.969,78 ","-2.757.556,73"
+TOTAL GENERAL,"34.972.453,44 ",,,"31.457.283,83 ","10.327.314,05 ",,

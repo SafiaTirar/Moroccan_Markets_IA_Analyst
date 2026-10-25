@@ -1,0 +1,22 @@
+[
+  {
+    "reference_id": "s2m-2025-consolidated-total-assets",
+    "status": "REVIEW_REQUIRED",
+    "path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/quality/ammc/validation_extension/review_dossiers/s2m-2025-consolidated-total-assets.json"
+  },
+  {
+    "reference_id": "s2m-2025-consolidated-total-liabilities",
+    "status": "REVIEW_REQUIRED",
+    "path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/quality/ammc/validation_extension/review_dossiers/s2m-2025-consolidated-total-liabilities.json"
+  },
+  {
+    "reference_id": "dari-2023-social-total-assets-corrupt-ocr",
+    "status": "REJECTED",
+    "path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/quality/ammc/validation_extension/review_dossiers/dari-2023-social-total-assets-corrupt-ocr.json"
+  },
+  {
+    "reference_id": "dari-2023-social-consumed-purchases-ambiguous-ocr",
+    "status": "REVIEW_REQUIRED",
+    "path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/quality/ammc/validation_extension/review_dossiers/dari-2023-social-consumed-purchases-ambiguous-ocr.json"
+  }
+]

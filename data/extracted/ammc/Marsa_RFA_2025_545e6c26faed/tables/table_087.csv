@@ -1,0 +1,16 @@
+COMPTE PRINCIPAL ,INTITULÉ ,MONTANT
+211 ,FRAIS PRELIMINAIRES,
+2111 ,Frais de constitution,
+2112 ,Frais préalables au démarrage,
+2113 ,Frais d'augmentation du capital,
+2114 ,"Frais sur opérations de fusions, scissions et transformations",
+2116 ,Frais de prospection,
+2117 ,Frais de publicité,
+2118 ,Autres frais préléminaires,
+212 ,CHARGES A REPARTIR SUR PLUSIEURS EXERCICES ,"357.654.781,32 "
+2121 ,Frais d'acquisitions des immobilisations,
+2125 ,Frais d'émission des emprunts,
+2128 ,Autres charges à répartir ,"357.654.781,32"
+213 ,PRIME DE REMBOURSEMENT DES OBLIGATIONS,
+2130 ,Primes de reboursements des obligations,
+T O T A L ,,"357.654.781,32"

@@ -1,0 +1,524 @@
+{
+  "page": 85,
+  "bbox": [
+    72.0,
+    38.8800048828125,
+    529.9200439453125,
+    766.0800170898438
+  ],
+  "source": "embedded_image",
+  "source_id": "xref:7422:2",
+  "name": null,
+  "image_size": [
+    1908,
+    3030
+  ],
+  "attempts": [
+    {
+      "psm": 6,
+      "score": 15,
+      "amount_count": 9,
+      "keyword_count": 2,
+      "rows": 9,
+      "multi_value_rows": 0,
+      "labeled_rows": 9
+    },
+    {
+      "psm": 11,
+      "score": 13,
+      "amount_count": 9,
+      "keyword_count": 2,
+      "rows": 9,
+      "multi_value_rows": 0,
+      "labeled_rows": 8
+    }
+  ],
+  "selected_psm": 6,
+  "column_right_ratios": [
+    0.07324423480083858
+  ],
+  "rows": [
+    {
+      "label": "l'exercice s’élévent à MAD HT.",
+      "cells": [
+        {
+          "column": "value_1",
+          "value": "3 945 142,46",
+          "bbox": [
+            174.4800098347214,
+            121.680006272722,
+            234.00001554669075,
+            132.48000645401453
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Les montants encaissés au cours de l’exercice s’élévent à MAD HT.",
+      "cells": [
+        {
+          "column": "value_1",
+          "value": "3 945 804,20",
+          "bbox": [
+            348.4800265330189,
+            133.20000646610072,
+            413.04003272866305,
+            143.76000664336453
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Convention d’assistance technique conclue avec Gazber",
+      "cells": [
+        {
+          "column": "value_1",
+          "value": "2,12",
+          "bbox": [
+            75.60000034548202,
+            162.2400069535762,
+            97.20000241837411,
+            168.96000706638046
+          ]
+        }
+      ]
+    },
+    {
+      "label": "de MAD HT.",
+      "cells": [
+        {
+          "column": "value_1",
+          "value": "200 000",
+          "bbox": [
+            103.68000304024174,
+            352.8000101523824,
+            145.200007024801,
+            359.28001026115794
+          ]
+        }
+      ]
+    },
+    {
+      "label": "MAD HT.",
+      "cells": [
+        {
+          "column": "value_1",
+          "value": "200 000",
+          "bbox": [
+            75.84000036851415,
+            478.8000122674621,
+            117.12000433004127,
+            485.2800123762376
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Le montant encaissé durant l’exercice s'élève à MAD HT.",
+      "cells": [
+        {
+          "column": "value_1",
+          "value": "200 000",
+          "bbox": [
+            302.6400221338812,
+            502.32001266227695,
+            343.92002609540833,
+            508.8000127710525
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Contrat de bail commercial avec la société Gazber",
+      "cells": [
+        {
+          "column": "value_1",
+          "value": "2,13",
+          "bbox": [
+            75.84000036851415,
+            529.2000131134939,
+            97.20000241837411,
+            537.1200132464419
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Cette convention porte sur un bail commercial d’un terrain situé à Berrechid de m?",
+      "cells": [
+        {
+          "column": "value_1",
+          "value": "20 281",
+          "bbox": [
+            476.4000388091465,
+            663.1200153615215,
+            508.3200418724204,
+            671.7600155065555
+          ]
+        }
+      ]
+    },
+    {
+      "label": "MAD HT.",
+      "cells": [
+        {
+          "column": "value_1",
+          "value": "50 000",
+          "bbox": [
+            76.32000041457842,
+            705.6000160746055,
+            110.64000370817365,
+            714.2400162196395
+          ]
+        }
+      ]
+    }
+  ],
+  "raw_lines": [
+    {
+      "text": "TotalEnergies Marketing Maroc S.A",
+      "bbox": [
+        75.12000029941775,
+        41.520004927128454,
+        239.76001609946198,
+        50.88000508424866
+      ]
+    },
+    {
+      "text": "Page 12",
+      "bbox": [
+        75.36000032244988,
+        52.800005116478445,
+        110.16000366210938,
+        61.20000525748375
+      ]
+    },
+    {
+      "text": "Montants Comptabilisés :",
+      "bbox": [
+        75.60000034548202,
+        84.24000564424118,
+        198.0000120918706,
+        95.04000582553373
+      ]
+    },
+    {
+      "text": "Les produits globaux comptabilisés par la société en 2024 au titre de ces conventions durant",
+      "bbox": [
+        75.84000036851415,
+        106.56000601891243,
+        527.040043668927,
+        120.7200062566071
+      ]
+    },
+    {
+      "text": "l'exercice s’élévent à 3 945142,46 MAD HT.",
+      "bbox": [
+        75.36000032244988,
+        121.680006272722,
+        283.4400202913105,
+        132.48000645401453
+      ]
+    },
+    {
+      "text": "Les montants encaissés au cours de l’exercice s’élévent à 3 945 804,20 MAD HT.",
+      "bbox": [
+        75.84000036851415,
+        132.72000645804326,
+        462.00003742721844,
+        143.76000664336453
+      ]
+    },
+    {
+      "text": "2.12 Convention d’assistance technique conclue avec Gazber",
+      "bbox": [
+        75.60000034548202,
+        157.20000686897305,
+        422.4000336269163,
+        169.68000707846664
+      ]
+    },
+    {
+      "text": "Entités et personnes intéressées :",
+      "bbox": [
+        75.60000034548202,
+        183.36000730810386,
+        235.92001573094782,
+        196.80000753371235
+      ]
+    },
+    {
+      "text": "e La société TotalEnergies Marketing Maroc, actionnaire détenant directement plus de 5% du",
+      "bbox": [
+        75.60000034548202,
+        208.08000772306235,
+        526.8000436458948,
+        221.52000794867084
+      ]
+    },
+    {
+      "text": "capital et des droits de vote de la société GAZBER.",
+      "bbox": [
+        89.28000165831368,
+        222.240007960757,
+        330.24002478257665,
+        234.4800081662219
+      ]
+    },
+    {
+      "text": "e Monsieur Abdesslam Rhnimi : directeur général et administrateur de TotalEnergies",
+      "bbox": [
+        75.60000034548202,
+        234.00000815816443,
+        526.8000436458948,
+        246.24000836362933
+      ]
+    },
+    {
+      "text": "Marketing Maroc et administrateur président directeur général de GAZBER.",
+      "bbox": [
+        89.28000165831368,
+        246.9600083757155,
+        456.9600369435436,
+        260.400008601324
+      ]
+    },
+    {
+      "text": "Obiet et nature de la convention :",
+      "bbox": [
+        75.60000034548202,
+        273.8400088269325,
+        235.44001568488355,
+        285.1200090162825
+      ]
+    },
+    {
+      "text": "e Dans le cadre de cette convention, autorisée par le conseil d’administration en date du",
+      "bbox": [
+        75.60000034548202,
+        297.36000922174736,
+        526.8000436458948,
+        309.6000094272122
+      ]
+    },
+    {
+      "text": "22 mars 2016, la société TotalEnergies Marketing Maroc apporte une assistance générale a",
+      "bbox": [
+        89.52000168134582,
+        309.84000943124096,
+        526.8000436458948,
+        323.04000965282074
+      ]
+    },
+    {
+      "text": "la société Gazber dans les domaines suivants: assistance informatique, comptable,",
+      "bbox": [
+        88.80000161224942,
+        322.5600096447633,
+        526.8000436458948,
+        334.5600098461995
+      ]
+    },
+    {
+      "text": "juridique, ressources humaines, en contrepartie d’une rémunération forfaitaire et annuelle",
+      "bbox": [
+        88.56000158921728,
+        334.080009838142,
+        526.8000436458948,
+        349.2000100919516
+      ]
+    },
+    {
+      "text": "de 200.000 MAD HT.",
+      "bbox": [
+        89.52000168134582,
+        350.6400101161239,
+        194.88001179245282,
+        359.28001026115794
+      ]
+    },
+    {
+      "text": "Modalités de la convention :",
+      "bbox": [
+        75.60000034548202,
+        375.1200105270537,
+        210.96001333560585,
+        385.92001070834624
+      ]
+    },
+    {
+      "text": "e Date d'effet: Cette convention a pris effet en date du 1% avril 2016 pour une",
+      "bbox": [
+        75.84000036851415,
+        398.8800109258973,
+        526.8000436458948,
+        411.12001113136216
+      ]
+    },
+    {
+      "text": "durée indéterminée.",
+      "bbox": [
+        89.52000168134582,
+        413.5200111716494,
+        186.240010963296,
+        423.1200113327983
+      ]
+    },
+    {
+      "text": "Montants Comntabilisés :",
+      "bbox": [
+        75.60000034548202,
+        438.4800115906366,
+        198.0000120918706,
+        449.28001177192914
+      ]
+    },
+    {
+      "text": "Les produits comptabilisés par la société en 2025 au titre de cette convention s'élèvent à",
+      "bbox": [
+        76.08000039154629,
+        461.04001196933655,
+        527.040043668927,
+        474.9600122030025
+      ]
+    },
+    {
+      "text": "200 000 MAD HT.",
+      "bbox": [
+        75.84000036851415,
+        476.64001223120357,
+        166.0800090285967,
+        485.2800123762376
+      ]
+    },
+    {
+      "text": "Le montant encaissé durant l’exercice s'élève à 200 000 MAD HT.",
+      "bbox": [
+        75.84000036851415,
+        500.16001262601844,
+        394.32003093215656,
+        510.48001279925353
+      ]
+    },
+    {
+      "text": "2.13 Contrat de bail commercial avec la société Gazber",
+      "bbox": [
+        75.84000036851415,
+        524.1600130288907,
+        390.0000305175781,
+        537.1200132464419
+      ]
+    },
+    {
+      "text": "Entités et personnes intéressées :",
+      "bbox": [
+        75.84000036851415,
+        550.800013476079,
+        236.16001575397996,
+        562.3200136694578
+      ]
+    },
+    {
+      "text": "e La société TotalEnergies Marketing Maroc, actionnaire détenant directement plus de 5% du",
+      "bbox": [
+        76.32000041457842,
+        574.320013870894,
+        527.280043691959,
+        588.0000141005312
+      ]
+    },
+    {
+      "text": "capital et des droits de vote de la société GAZBER.",
+      "bbox": [
+        90.00000172741008,
+        588.7200141126173,
+        330.96002485167304,
+        600.9600143180821
+      ]
+    },
+    {
+      "text": "° Monsieur Abdesslam Rhnimi : directeur général et administrateur de TotalEnergies",
+      "bbox": [
+        76.32000041457842,
+        600.4800143100248,
+        527.5200437149912,
+        612.7200145154897
+      ]
+    },
+    {
+      "text": "Marketing Maroc et administrateur président directeur général de GAZBER.",
+      "bbox": [
+        90.00000172741008,
+        613.4400145275758,
+        458.1600370587043,
+        626.8800147531842
+      ]
+    },
+    {
+      "text": "Obiet et nature de la convention :",
+      "bbox": [
+        76.32000041457842,
+        640.080014974764,
+        236.16001575397996,
+        651.6000151681428
+      ]
+    },
+    {
+      "text": "Cette convention porte sur un bail commercial d’un terrain situé à Berrechid de 20.281 m?",
+      "bbox": [
+        76.32000041457842,
+        662.8800153574928,
+        527.040043668927,
+        676.56001558713
+      ]
+    },
+    {
+      "text": "appartenant à la société Gazber pour les besoins du SERC de la société TotalEnergies",
+      "bbox": [
+        76.32000041457842,
+        674.4000155508714,
+        527.5200437149912,
+        689.5200158046811
+      ]
+    },
+    {
+      "text": "Marketing Maroc. Ce bail est consenti en contrepartie d’un loyer trimestriel de",
+      "bbox": [
+        76.32000041457842,
+        687.6000157724512,
+        527.5200437149912,
+        701.7600160101459
+      ]
+    },
+    {
+      "text": "50 000 MAD HT.",
+      "bbox": [
+        76.32000041457842,
+        703.440016038347,
+        159.60000840672907,
+        714.2400162196395
+      ]
+    },
+    {
+      "text": "Modalités de la convention :",
+      "bbox": [
+        76.32000041457842,
+        727.680016445248,
+        211.68001340470224,
+        738.7200166305693
+      ]
+    },
+    {
+      "text": "+ Date d’effet : Le contrat a pris effet rétroactivement en date du 1°\" décembre 2013.",
+      "bbox": [
+        76.56000043761055,
+        751.4400168440916,
+        490.0800401219782,
+        763.9200170535852
+      ]
+    }
+  ],
+  "amount_count": 9,
+  "multi_value_row_count": 0,
+  "labeled_row_count": 9
+}

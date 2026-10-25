@@ -1,0 +1,3484 @@
+{
+  "source_pdf": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/raw/ammc/pdfs/annual/totalenergies_marketing_maroc/2023/TEMM_RFA_2023_0.pdf",
+  "sha256": "d7373ed93f72bf1b96656f6f335d7d5fbb9abcc3960e3c1c42a674c1fb7a06eb",
+  "parsed_at": "2026-10-25T15:07:30.436114+00:00",
+  "docling_version": "2.140.0",
+  "validation_schema_version": "2.0",
+  "backend": "docling.backend.pypdfium2_backend.PyPdfiumDocumentBackend",
+  "extraction_config": {
+    "backend": "docling.backend.pypdfium2_backend.PyPdfiumDocumentBackend",
+    "do_ocr": false,
+    "do_table_structure": true
+  },
+  "extraction_config_sha256": "0044bac57114245a5515c70b41b9fee3bd75c4fae1c4407b240fe37733aa54f4",
+  "conversion_seconds": 512.615,
+  "page_count": 135,
+  "table_count": 103,
+  "table_pages": [
+    [
+      3
+    ],
+    [
+      4
+    ],
+    [
+      5
+    ],
+    [
+      6
+    ],
+    [
+      6
+    ],
+    [
+      7
+    ],
+    [
+      7
+    ],
+    [
+      8
+    ],
+    [
+      9
+    ],
+    [
+      10
+    ],
+    [
+      11
+    ],
+    [
+      12
+    ],
+    [
+      13
+    ],
+    [
+      14
+    ],
+    [
+      14
+    ],
+    [
+      14
+    ],
+    [
+      15
+    ],
+    [
+      17
+    ],
+    [
+      18
+    ],
+    [
+      21
+    ],
+    [
+      22
+    ],
+    [
+      23
+    ],
+    [
+      24
+    ],
+    [
+      25
+    ],
+    [
+      26
+    ],
+    [
+      26
+    ],
+    [
+      28
+    ],
+    [
+      29
+    ],
+    [
+      32
+    ],
+    [
+      37
+    ],
+    [
+      38
+    ],
+    [
+      47
+    ],
+    [
+      48
+    ],
+    [
+      49
+    ],
+    [
+      49
+    ],
+    [
+      50
+    ],
+    [
+      50
+    ],
+    [
+      51
+    ],
+    [
+      52
+    ],
+    [
+      52
+    ],
+    [
+      53
+    ],
+    [
+      53
+    ],
+    [
+      54
+    ],
+    [
+      54
+    ],
+    [
+      54
+    ],
+    [
+      55
+    ],
+    [
+      55
+    ],
+    [
+      56
+    ],
+    [
+      56
+    ],
+    [
+      57
+    ],
+    [
+      58
+    ],
+    [
+      59
+    ],
+    [
+      60
+    ],
+    [
+      60
+    ],
+    [
+      61
+    ],
+    [
+      62
+    ],
+    [
+      63
+    ],
+    [
+      64
+    ],
+    [
+      64
+    ],
+    [
+      65
+    ],
+    [
+      66
+    ],
+    [
+      66
+    ],
+    [
+      67
+    ],
+    [
+      69
+    ],
+    [
+      69
+    ],
+    [
+      70
+    ],
+    [
+      70
+    ],
+    [
+      71
+    ],
+    [
+      71
+    ],
+    [
+      72
+    ],
+    [
+      72
+    ],
+    [
+      100
+    ],
+    [
+      101
+    ],
+    [
+      102
+    ],
+    [
+      103
+    ],
+    [
+      104
+    ],
+    [
+      105
+    ],
+    [
+      106
+    ],
+    [
+      106
+    ],
+    [
+      107
+    ],
+    [
+      107
+    ],
+    [
+      107
+    ],
+    [
+      108
+    ],
+    [
+      108
+    ],
+    [
+      108
+    ],
+    [
+      109
+    ],
+    [
+      109
+    ],
+    [
+      109
+    ],
+    [
+      110
+    ],
+    [
+      110
+    ],
+    [
+      110
+    ],
+    [
+      110
+    ],
+    [
+      113
+    ],
+    [
+      115
+    ],
+    [
+      117
+    ],
+    [
+      127
+    ],
+    [
+      127
+    ],
+    [
+      127
+    ],
+    [
+      127
+    ],
+    [
+      128
+    ],
+    [
+      129
+    ],
+    [
+      130
+    ],
+    [
+      131
+    ]
+  ],
+  "markdown_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_RFA_2023_0_d7373ed93f72/document.md",
+  "json_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_RFA_2023_0_d7373ed93f72/document.json",
+  "status": "PARTIAL",
+  "validation": {
+    "schema_version": "2.0",
+    "status": "PARTIAL",
+    "valid_table_count": 61,
+    "incomplete_table_count": 16,
+    "invalid_table_count": 26,
+    "issues": [
+      {
+        "code": "SPLIT_WORD",
+        "message": "Un libellé contient une césure issue de la mise en page.",
+        "severity": "WARNING",
+        "table_index": 1,
+        "pages": [
+          3
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 4,
+        "pages": [
+          6
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 5,
+        "pages": [
+          6
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 10,
+        "pages": [
+          10
+        ]
+      },
+      {
+        "code": "SPLIT_WORD",
+        "message": "Un libellé contient une césure issue de la mise en page.",
+        "severity": "WARNING",
+        "table_index": 17,
+        "pages": [
+          15
+        ]
+      },
+      {
+        "code": "EMPTY_TABLE",
+        "message": "Le tableau ne contient aucune cellule exploitable.",
+        "severity": "ERROR",
+        "table_index": 18,
+        "pages": [
+          17
+        ]
+      },
+      {
+        "code": "IMAGE_TABLE_REQUIRES_OCR",
+        "message": "Le tableau vide doit être revu avec OCR.",
+        "severity": "WARNING",
+        "table_index": 18,
+        "pages": [
+          17
+        ]
+      },
+      {
+        "code": "CSV_UNREADABLE",
+        "message": "CSV illisible (table_018.csv) : No columns to parse from file",
+        "severity": "ERROR",
+        "table_index": 18,
+        "pages": [
+          17
+        ]
+      },
+      {
+        "code": "EMPTY_TABLE",
+        "message": "Le tableau ne contient aucune cellule exploitable.",
+        "severity": "ERROR",
+        "table_index": 19,
+        "pages": [
+          18
+        ]
+      },
+      {
+        "code": "IMAGE_TABLE_REQUIRES_OCR",
+        "message": "Le tableau vide doit être revu avec OCR.",
+        "severity": "WARNING",
+        "table_index": 19,
+        "pages": [
+          18
+        ]
+      },
+      {
+        "code": "CSV_UNREADABLE",
+        "message": "CSV illisible (table_019.csv) : No columns to parse from file",
+        "severity": "ERROR",
+        "table_index": 19,
+        "pages": [
+          18
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 24,
+        "pages": [
+          25
+        ]
+      },
+      {
+        "code": "EMPTY_TABLE",
+        "message": "Le tableau ne contient aucune cellule exploitable.",
+        "severity": "ERROR",
+        "table_index": 27,
+        "pages": [
+          28
+        ]
+      },
+      {
+        "code": "IMAGE_TABLE_REQUIRES_OCR",
+        "message": "Le tableau vide doit être revu avec OCR.",
+        "severity": "WARNING",
+        "table_index": 27,
+        "pages": [
+          28
+        ]
+      },
+      {
+        "code": "CSV_UNREADABLE",
+        "message": "CSV illisible (table_027.csv) : No columns to parse from file",
+        "severity": "ERROR",
+        "table_index": 27,
+        "pages": [
+          28
+        ]
+      },
+      {
+        "code": "EMPTY_TABLE",
+        "message": "Le tableau ne contient aucune cellule exploitable.",
+        "severity": "ERROR",
+        "table_index": 28,
+        "pages": [
+          29
+        ]
+      },
+      {
+        "code": "IMAGE_TABLE_REQUIRES_OCR",
+        "message": "Le tableau vide doit être revu avec OCR.",
+        "severity": "WARNING",
+        "table_index": 28,
+        "pages": [
+          29
+        ]
+      },
+      {
+        "code": "CSV_UNREADABLE",
+        "message": "CSV illisible (table_028.csv) : No columns to parse from file",
+        "severity": "ERROR",
+        "table_index": 28,
+        "pages": [
+          29
+        ]
+      },
+      {
+        "code": "AUTOGENERATED_HEADER",
+        "message": "Les en-têtes de colonnes sont artificiels.",
+        "severity": "WARNING",
+        "table_index": 29,
+        "pages": [
+          32
+        ]
+      },
+      {
+        "code": "SPLIT_WORD",
+        "message": "Un libellé contient une césure issue de la mise en page.",
+        "severity": "WARNING",
+        "table_index": 55,
+        "pages": [
+          61
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 60,
+        "pages": [
+          65
+        ]
+      },
+      {
+        "code": "EMPTY_TABLE",
+        "message": "Le tableau ne contient aucune cellule exploitable.",
+        "severity": "ERROR",
+        "table_index": 72,
+        "pages": [
+          100
+        ]
+      },
+      {
+        "code": "IMAGE_TABLE_REQUIRES_OCR",
+        "message": "Le tableau vide doit être revu avec OCR.",
+        "severity": "WARNING",
+        "table_index": 72,
+        "pages": [
+          100
+        ]
+      },
+      {
+        "code": "CSV_UNREADABLE",
+        "message": "CSV illisible (table_072.csv) : No columns to parse from file",
+        "severity": "ERROR",
+        "table_index": 72,
+        "pages": [
+          100
+        ]
+      },
+      {
+        "code": "EMPTY_TABLE",
+        "message": "Le tableau ne contient aucune cellule exploitable.",
+        "severity": "ERROR",
+        "table_index": 73,
+        "pages": [
+          101
+        ]
+      },
+      {
+        "code": "IMAGE_TABLE_REQUIRES_OCR",
+        "message": "Le tableau vide doit être revu avec OCR.",
+        "severity": "WARNING",
+        "table_index": 73,
+        "pages": [
+          101
+        ]
+      },
+      {
+        "code": "CSV_UNREADABLE",
+        "message": "CSV illisible (table_073.csv) : No columns to parse from file",
+        "severity": "ERROR",
+        "table_index": 73,
+        "pages": [
+          101
+        ]
+      },
+      {
+        "code": "EMPTY_TABLE",
+        "message": "Le tableau ne contient aucune cellule exploitable.",
+        "severity": "ERROR",
+        "table_index": 74,
+        "pages": [
+          102
+        ]
+      },
+      {
+        "code": "IMAGE_TABLE_REQUIRES_OCR",
+        "message": "Le tableau vide doit être revu avec OCR.",
+        "severity": "WARNING",
+        "table_index": 74,
+        "pages": [
+          102
+        ]
+      },
+      {
+        "code": "CSV_UNREADABLE",
+        "message": "CSV illisible (table_074.csv) : No columns to parse from file",
+        "severity": "ERROR",
+        "table_index": 74,
+        "pages": [
+          102
+        ]
+      },
+      {
+        "code": "EMPTY_TABLE",
+        "message": "Le tableau ne contient aucune cellule exploitable.",
+        "severity": "ERROR",
+        "table_index": 75,
+        "pages": [
+          103
+        ]
+      },
+      {
+        "code": "IMAGE_TABLE_REQUIRES_OCR",
+        "message": "Le tableau vide doit être revu avec OCR.",
+        "severity": "WARNING",
+        "table_index": 75,
+        "pages": [
+          103
+        ]
+      },
+      {
+        "code": "CSV_UNREADABLE",
+        "message": "CSV illisible (table_075.csv) : No columns to parse from file",
+        "severity": "ERROR",
+        "table_index": 75,
+        "pages": [
+          103
+        ]
+      },
+      {
+        "code": "EMPTY_TABLE",
+        "message": "Le tableau ne contient aucune cellule exploitable.",
+        "severity": "ERROR",
+        "table_index": 76,
+        "pages": [
+          104
+        ]
+      },
+      {
+        "code": "IMAGE_TABLE_REQUIRES_OCR",
+        "message": "Le tableau vide doit être revu avec OCR.",
+        "severity": "WARNING",
+        "table_index": 76,
+        "pages": [
+          104
+        ]
+      },
+      {
+        "code": "CSV_UNREADABLE",
+        "message": "CSV illisible (table_076.csv) : No columns to parse from file",
+        "severity": "ERROR",
+        "table_index": 76,
+        "pages": [
+          104
+        ]
+      },
+      {
+        "code": "EMPTY_TABLE",
+        "message": "Le tableau ne contient aucune cellule exploitable.",
+        "severity": "ERROR",
+        "table_index": 77,
+        "pages": [
+          105
+        ]
+      },
+      {
+        "code": "IMAGE_TABLE_REQUIRES_OCR",
+        "message": "Le tableau vide doit être revu avec OCR.",
+        "severity": "WARNING",
+        "table_index": 77,
+        "pages": [
+          105
+        ]
+      },
+      {
+        "code": "CSV_UNREADABLE",
+        "message": "CSV illisible (table_077.csv) : No columns to parse from file",
+        "severity": "ERROR",
+        "table_index": 77,
+        "pages": [
+          105
+        ]
+      },
+      {
+        "code": "EMPTY_TABLE",
+        "message": "Le tableau ne contient aucune cellule exploitable.",
+        "severity": "ERROR",
+        "table_index": 78,
+        "pages": [
+          106
+        ]
+      },
+      {
+        "code": "IMAGE_TABLE_REQUIRES_OCR",
+        "message": "Le tableau vide doit être revu avec OCR.",
+        "severity": "WARNING",
+        "table_index": 78,
+        "pages": [
+          106
+        ]
+      },
+      {
+        "code": "CSV_UNREADABLE",
+        "message": "CSV illisible (table_078.csv) : No columns to parse from file",
+        "severity": "ERROR",
+        "table_index": 78,
+        "pages": [
+          106
+        ]
+      },
+      {
+        "code": "EMPTY_TABLE",
+        "message": "Le tableau ne contient aucune cellule exploitable.",
+        "severity": "ERROR",
+        "table_index": 79,
+        "pages": [
+          106
+        ]
+      },
+      {
+        "code": "IMAGE_TABLE_REQUIRES_OCR",
+        "message": "Le tableau vide doit être revu avec OCR.",
+        "severity": "WARNING",
+        "table_index": 79,
+        "pages": [
+          106
+        ]
+      },
+      {
+        "code": "CSV_UNREADABLE",
+        "message": "CSV illisible (table_079.csv) : No columns to parse from file",
+        "severity": "ERROR",
+        "table_index": 79,
+        "pages": [
+          106
+        ]
+      },
+      {
+        "code": "EMPTY_TABLE",
+        "message": "Le tableau ne contient aucune cellule exploitable.",
+        "severity": "ERROR",
+        "table_index": 80,
+        "pages": [
+          107
+        ]
+      },
+      {
+        "code": "IMAGE_TABLE_REQUIRES_OCR",
+        "message": "Le tableau vide doit être revu avec OCR.",
+        "severity": "WARNING",
+        "table_index": 80,
+        "pages": [
+          107
+        ]
+      },
+      {
+        "code": "CSV_UNREADABLE",
+        "message": "CSV illisible (table_080.csv) : No columns to parse from file",
+        "severity": "ERROR",
+        "table_index": 80,
+        "pages": [
+          107
+        ]
+      },
+      {
+        "code": "EMPTY_TABLE",
+        "message": "Le tableau ne contient aucune cellule exploitable.",
+        "severity": "ERROR",
+        "table_index": 81,
+        "pages": [
+          107
+        ]
+      },
+      {
+        "code": "IMAGE_TABLE_REQUIRES_OCR",
+        "message": "Le tableau vide doit être revu avec OCR.",
+        "severity": "WARNING",
+        "table_index": 81,
+        "pages": [
+          107
+        ]
+      },
+      {
+        "code": "CSV_UNREADABLE",
+        "message": "CSV illisible (table_081.csv) : No columns to parse from file",
+        "severity": "ERROR",
+        "table_index": 81,
+        "pages": [
+          107
+        ]
+      },
+      {
+        "code": "EMPTY_TABLE",
+        "message": "Le tableau ne contient aucune cellule exploitable.",
+        "severity": "ERROR",
+        "table_index": 82,
+        "pages": [
+          107
+        ]
+      },
+      {
+        "code": "IMAGE_TABLE_REQUIRES_OCR",
+        "message": "Le tableau vide doit être revu avec OCR.",
+        "severity": "WARNING",
+        "table_index": 82,
+        "pages": [
+          107
+        ]
+      },
+      {
+        "code": "CSV_UNREADABLE",
+        "message": "CSV illisible (table_082.csv) : No columns to parse from file",
+        "severity": "ERROR",
+        "table_index": 82,
+        "pages": [
+          107
+        ]
+      },
+      {
+        "code": "EMPTY_TABLE",
+        "message": "Le tableau ne contient aucune cellule exploitable.",
+        "severity": "ERROR",
+        "table_index": 83,
+        "pages": [
+          108
+        ]
+      },
+      {
+        "code": "IMAGE_TABLE_REQUIRES_OCR",
+        "message": "Le tableau vide doit être revu avec OCR.",
+        "severity": "WARNING",
+        "table_index": 83,
+        "pages": [
+          108
+        ]
+      },
+      {
+        "code": "CSV_UNREADABLE",
+        "message": "CSV illisible (table_083.csv) : No columns to parse from file",
+        "severity": "ERROR",
+        "table_index": 83,
+        "pages": [
+          108
+        ]
+      },
+      {
+        "code": "EMPTY_TABLE",
+        "message": "Le tableau ne contient aucune cellule exploitable.",
+        "severity": "ERROR",
+        "table_index": 84,
+        "pages": [
+          108
+        ]
+      },
+      {
+        "code": "IMAGE_TABLE_REQUIRES_OCR",
+        "message": "Le tableau vide doit être revu avec OCR.",
+        "severity": "WARNING",
+        "table_index": 84,
+        "pages": [
+          108
+        ]
+      },
+      {
+        "code": "CSV_UNREADABLE",
+        "message": "CSV illisible (table_084.csv) : No columns to parse from file",
+        "severity": "ERROR",
+        "table_index": 84,
+        "pages": [
+          108
+        ]
+      },
+      {
+        "code": "EMPTY_TABLE",
+        "message": "Le tableau ne contient aucune cellule exploitable.",
+        "severity": "ERROR",
+        "table_index": 85,
+        "pages": [
+          108
+        ]
+      },
+      {
+        "code": "IMAGE_TABLE_REQUIRES_OCR",
+        "message": "Le tableau vide doit être revu avec OCR.",
+        "severity": "WARNING",
+        "table_index": 85,
+        "pages": [
+          108
+        ]
+      },
+      {
+        "code": "CSV_UNREADABLE",
+        "message": "CSV illisible (table_085.csv) : No columns to parse from file",
+        "severity": "ERROR",
+        "table_index": 85,
+        "pages": [
+          108
+        ]
+      },
+      {
+        "code": "EMPTY_TABLE",
+        "message": "Le tableau ne contient aucune cellule exploitable.",
+        "severity": "ERROR",
+        "table_index": 86,
+        "pages": [
+          109
+        ]
+      },
+      {
+        "code": "IMAGE_TABLE_REQUIRES_OCR",
+        "message": "Le tableau vide doit être revu avec OCR.",
+        "severity": "WARNING",
+        "table_index": 86,
+        "pages": [
+          109
+        ]
+      },
+      {
+        "code": "CSV_UNREADABLE",
+        "message": "CSV illisible (table_086.csv) : No columns to parse from file",
+        "severity": "ERROR",
+        "table_index": 86,
+        "pages": [
+          109
+        ]
+      },
+      {
+        "code": "EMPTY_TABLE",
+        "message": "Le tableau ne contient aucune cellule exploitable.",
+        "severity": "ERROR",
+        "table_index": 87,
+        "pages": [
+          109
+        ]
+      },
+      {
+        "code": "IMAGE_TABLE_REQUIRES_OCR",
+        "message": "Le tableau vide doit être revu avec OCR.",
+        "severity": "WARNING",
+        "table_index": 87,
+        "pages": [
+          109
+        ]
+      },
+      {
+        "code": "CSV_UNREADABLE",
+        "message": "CSV illisible (table_087.csv) : No columns to parse from file",
+        "severity": "ERROR",
+        "table_index": 87,
+        "pages": [
+          109
+        ]
+      },
+      {
+        "code": "EMPTY_TABLE",
+        "message": "Le tableau ne contient aucune cellule exploitable.",
+        "severity": "ERROR",
+        "table_index": 88,
+        "pages": [
+          109
+        ]
+      },
+      {
+        "code": "IMAGE_TABLE_REQUIRES_OCR",
+        "message": "Le tableau vide doit être revu avec OCR.",
+        "severity": "WARNING",
+        "table_index": 88,
+        "pages": [
+          109
+        ]
+      },
+      {
+        "code": "CSV_UNREADABLE",
+        "message": "CSV illisible (table_088.csv) : No columns to parse from file",
+        "severity": "ERROR",
+        "table_index": 88,
+        "pages": [
+          109
+        ]
+      },
+      {
+        "code": "EMPTY_TABLE",
+        "message": "Le tableau ne contient aucune cellule exploitable.",
+        "severity": "ERROR",
+        "table_index": 89,
+        "pages": [
+          110
+        ]
+      },
+      {
+        "code": "IMAGE_TABLE_REQUIRES_OCR",
+        "message": "Le tableau vide doit être revu avec OCR.",
+        "severity": "WARNING",
+        "table_index": 89,
+        "pages": [
+          110
+        ]
+      },
+      {
+        "code": "CSV_UNREADABLE",
+        "message": "CSV illisible (table_089.csv) : No columns to parse from file",
+        "severity": "ERROR",
+        "table_index": 89,
+        "pages": [
+          110
+        ]
+      },
+      {
+        "code": "EMPTY_TABLE",
+        "message": "Le tableau ne contient aucune cellule exploitable.",
+        "severity": "ERROR",
+        "table_index": 90,
+        "pages": [
+          110
+        ]
+      },
+      {
+        "code": "IMAGE_TABLE_REQUIRES_OCR",
+        "message": "Le tableau vide doit être revu avec OCR.",
+        "severity": "WARNING",
+        "table_index": 90,
+        "pages": [
+          110
+        ]
+      },
+      {
+        "code": "CSV_UNREADABLE",
+        "message": "CSV illisible (table_090.csv) : No columns to parse from file",
+        "severity": "ERROR",
+        "table_index": 90,
+        "pages": [
+          110
+        ]
+      },
+      {
+        "code": "EMPTY_TABLE",
+        "message": "Le tableau ne contient aucune cellule exploitable.",
+        "severity": "ERROR",
+        "table_index": 91,
+        "pages": [
+          110
+        ]
+      },
+      {
+        "code": "IMAGE_TABLE_REQUIRES_OCR",
+        "message": "Le tableau vide doit être revu avec OCR.",
+        "severity": "WARNING",
+        "table_index": 91,
+        "pages": [
+          110
+        ]
+      },
+      {
+        "code": "CSV_UNREADABLE",
+        "message": "CSV illisible (table_091.csv) : No columns to parse from file",
+        "severity": "ERROR",
+        "table_index": 91,
+        "pages": [
+          110
+        ]
+      },
+      {
+        "code": "EMPTY_TABLE",
+        "message": "Le tableau ne contient aucune cellule exploitable.",
+        "severity": "ERROR",
+        "table_index": 92,
+        "pages": [
+          110
+        ]
+      },
+      {
+        "code": "IMAGE_TABLE_REQUIRES_OCR",
+        "message": "Le tableau vide doit être revu avec OCR.",
+        "severity": "WARNING",
+        "table_index": 92,
+        "pages": [
+          110
+        ]
+      },
+      {
+        "code": "CSV_UNREADABLE",
+        "message": "CSV illisible (table_092.csv) : No columns to parse from file",
+        "severity": "ERROR",
+        "table_index": 92,
+        "pages": [
+          110
+        ]
+      },
+      {
+        "code": "EMPTY_TABLE",
+        "message": "Le tableau ne contient aucune cellule exploitable.",
+        "severity": "ERROR",
+        "table_index": 93,
+        "pages": [
+          113
+        ]
+      },
+      {
+        "code": "IMAGE_TABLE_REQUIRES_OCR",
+        "message": "Le tableau vide doit être revu avec OCR.",
+        "severity": "WARNING",
+        "table_index": 93,
+        "pages": [
+          113
+        ]
+      },
+      {
+        "code": "CSV_UNREADABLE",
+        "message": "CSV illisible (table_093.csv) : No columns to parse from file",
+        "severity": "ERROR",
+        "table_index": 93,
+        "pages": [
+          113
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 94,
+        "pages": [
+          115
+        ]
+      },
+      {
+        "code": "AUTOGENERATED_HEADER",
+        "message": "Les en-têtes de colonnes sont artificiels.",
+        "severity": "WARNING",
+        "table_index": 95,
+        "pages": [
+          117
+        ]
+      },
+      {
+        "code": "AUTOGENERATED_HEADER",
+        "message": "Les en-têtes de colonnes sont artificiels.",
+        "severity": "WARNING",
+        "table_index": 96,
+        "pages": [
+          127
+        ]
+      },
+      {
+        "code": "AUTOGENERATED_HEADER",
+        "message": "Les en-têtes de colonnes sont artificiels.",
+        "severity": "WARNING",
+        "table_index": 97,
+        "pages": [
+          127
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 97,
+        "pages": [
+          127
+        ]
+      },
+      {
+        "code": "AUTOGENERATED_HEADER",
+        "message": "Les en-têtes de colonnes sont artificiels.",
+        "severity": "WARNING",
+        "table_index": 98,
+        "pages": [
+          127
+        ]
+      },
+      {
+        "code": "AUTOGENERATED_HEADER",
+        "message": "Les en-têtes de colonnes sont artificiels.",
+        "severity": "WARNING",
+        "table_index": 99,
+        "pages": [
+          127
+        ]
+      },
+      {
+        "code": "AUTOGENERATED_HEADER",
+        "message": "Les en-têtes de colonnes sont artificiels.",
+        "severity": "WARNING",
+        "table_index": 102,
+        "pages": [
+          130
+        ]
+      }
+    ],
+    "tables": [
+      {
+        "table_index": 1,
+        "pages": [
+          3
+        ],
+        "row_count": 48,
+        "column_count": 5,
+        "non_empty_cell_count": 171,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_RFA_2023_0_d7373ed93f72/tables/table_001.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "SPLIT_WORD",
+            "message": "Un libellé contient une césure issue de la mise en page.",
+            "severity": "WARNING",
+            "table_index": 1,
+            "pages": [
+              3
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 2,
+        "pages": [
+          4
+        ],
+        "row_count": 44,
+        "column_count": 3,
+        "non_empty_cell_count": 100,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_RFA_2023_0_d7373ed93f72/tables/table_002.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 3,
+        "pages": [
+          5
+        ],
+        "row_count": 50,
+        "column_count": 6,
+        "non_empty_cell_count": 244,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_RFA_2023_0_d7373ed93f72/tables/table_003.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 4,
+        "pages": [
+          6
+        ],
+        "row_count": 25,
+        "column_count": 6,
+        "non_empty_cell_count": 110,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_RFA_2023_0_d7373ed93f72/tables/table_004.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 4,
+            "pages": [
+              6
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 5,
+        "pages": [
+          6
+        ],
+        "row_count": 11,
+        "column_count": 6,
+        "non_empty_cell_count": 50,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_RFA_2023_0_d7373ed93f72/tables/table_005.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 5,
+            "pages": [
+              6
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 6,
+        "pages": [
+          7
+        ],
+        "row_count": 7,
+        "column_count": 5,
+        "non_empty_cell_count": 28,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_RFA_2023_0_d7373ed93f72/tables/table_006.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 7,
+        "pages": [
+          7
+        ],
+        "row_count": 27,
+        "column_count": 5,
+        "non_empty_cell_count": 68,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_RFA_2023_0_d7373ed93f72/tables/table_007.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 8,
+        "pages": [
+          8
+        ],
+        "row_count": 10,
+        "column_count": 9,
+        "non_empty_cell_count": 57,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_RFA_2023_0_d7373ed93f72/tables/table_008.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 9,
+        "pages": [
+          9
+        ],
+        "row_count": 17,
+        "column_count": 5,
+        "non_empty_cell_count": 50,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_RFA_2023_0_d7373ed93f72/tables/table_009.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 10,
+        "pages": [
+          10
+        ],
+        "row_count": 22,
+        "column_count": 10,
+        "non_empty_cell_count": 213,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_RFA_2023_0_d7373ed93f72/tables/table_010.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 10,
+            "pages": [
+              10
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 11,
+        "pages": [
+          11
+        ],
+        "row_count": 9,
+        "column_count": 9,
+        "non_empty_cell_count": 47,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_RFA_2023_0_d7373ed93f72/tables/table_011.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 12,
+        "pages": [
+          12
+        ],
+        "row_count": 11,
+        "column_count": 9,
+        "non_empty_cell_count": 58,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_RFA_2023_0_d7373ed93f72/tables/table_012.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 13,
+        "pages": [
+          13
+        ],
+        "row_count": 11,
+        "column_count": 9,
+        "non_empty_cell_count": 50,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_RFA_2023_0_d7373ed93f72/tables/table_013.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 14,
+        "pages": [
+          14
+        ],
+        "row_count": 4,
+        "column_count": 6,
+        "non_empty_cell_count": 8,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_RFA_2023_0_d7373ed93f72/tables/table_014.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 15,
+        "pages": [
+          14
+        ],
+        "row_count": 5,
+        "column_count": 3,
+        "non_empty_cell_count": 13,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_RFA_2023_0_d7373ed93f72/tables/table_015.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 16,
+        "pages": [
+          14
+        ],
+        "row_count": 3,
+        "column_count": 3,
+        "non_empty_cell_count": 8,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_RFA_2023_0_d7373ed93f72/tables/table_016.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 17,
+        "pages": [
+          15
+        ],
+        "row_count": 2,
+        "column_count": 3,
+        "non_empty_cell_count": 6,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_RFA_2023_0_d7373ed93f72/tables/table_017.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "SPLIT_WORD",
+            "message": "Un libellé contient une césure issue de la mise en page.",
+            "severity": "WARNING",
+            "table_index": 17,
+            "pages": [
+              15
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 18,
+        "pages": [
+          17
+        ],
+        "row_count": 0,
+        "column_count": 0,
+        "non_empty_cell_count": 0,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_RFA_2023_0_d7373ed93f72/tables/table_018.csv",
+        "status": "INVALID",
+        "issues": [
+          {
+            "code": "EMPTY_TABLE",
+            "message": "Le tableau ne contient aucune cellule exploitable.",
+            "severity": "ERROR",
+            "table_index": 18,
+            "pages": [
+              17
+            ]
+          },
+          {
+            "code": "IMAGE_TABLE_REQUIRES_OCR",
+            "message": "Le tableau vide doit être revu avec OCR.",
+            "severity": "WARNING",
+            "table_index": 18,
+            "pages": [
+              17
+            ]
+          },
+          {
+            "code": "CSV_UNREADABLE",
+            "message": "CSV illisible (table_018.csv) : No columns to parse from file",
+            "severity": "ERROR",
+            "table_index": 18,
+            "pages": [
+              17
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 19,
+        "pages": [
+          18
+        ],
+        "row_count": 0,
+        "column_count": 0,
+        "non_empty_cell_count": 0,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_RFA_2023_0_d7373ed93f72/tables/table_019.csv",
+        "status": "INVALID",
+        "issues": [
+          {
+            "code": "EMPTY_TABLE",
+            "message": "Le tableau ne contient aucune cellule exploitable.",
+            "severity": "ERROR",
+            "table_index": 19,
+            "pages": [
+              18
+            ]
+          },
+          {
+            "code": "IMAGE_TABLE_REQUIRES_OCR",
+            "message": "Le tableau vide doit être revu avec OCR.",
+            "severity": "WARNING",
+            "table_index": 19,
+            "pages": [
+              18
+            ]
+          },
+          {
+            "code": "CSV_UNREADABLE",
+            "message": "CSV illisible (table_019.csv) : No columns to parse from file",
+            "severity": "ERROR",
+            "table_index": 19,
+            "pages": [
+              18
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 20,
+        "pages": [
+          21
+        ],
+        "row_count": 38,
+        "column_count": 4,
+        "non_empty_cell_count": 120,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_RFA_2023_0_d7373ed93f72/tables/table_020.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 21,
+        "pages": [
+          22
+        ],
+        "row_count": 23,
+        "column_count": 4,
+        "non_empty_cell_count": 81,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_RFA_2023_0_d7373ed93f72/tables/table_021.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 22,
+        "pages": [
+          23
+        ],
+        "row_count": 6,
+        "column_count": 3,
+        "non_empty_cell_count": 16,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_RFA_2023_0_d7373ed93f72/tables/table_022.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 23,
+        "pages": [
+          24
+        ],
+        "row_count": 26,
+        "column_count": 3,
+        "non_empty_cell_count": 70,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_RFA_2023_0_d7373ed93f72/tables/table_023.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 24,
+        "pages": [
+          25
+        ],
+        "row_count": 17,
+        "column_count": 9,
+        "non_empty_cell_count": 76,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_RFA_2023_0_d7373ed93f72/tables/table_024.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 24,
+            "pages": [
+              25
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 25,
+        "pages": [
+          26
+        ],
+        "row_count": 7,
+        "column_count": 6,
+        "non_empty_cell_count": 42,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_RFA_2023_0_d7373ed93f72/tables/table_025.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 26,
+        "pages": [
+          26
+        ],
+        "row_count": 4,
+        "column_count": 2,
+        "non_empty_cell_count": 8,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_RFA_2023_0_d7373ed93f72/tables/table_026.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 27,
+        "pages": [
+          28
+        ],
+        "row_count": 0,
+        "column_count": 0,
+        "non_empty_cell_count": 0,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_RFA_2023_0_d7373ed93f72/tables/table_027.csv",
+        "status": "INVALID",
+        "issues": [
+          {
+            "code": "EMPTY_TABLE",
+            "message": "Le tableau ne contient aucune cellule exploitable.",
+            "severity": "ERROR",
+            "table_index": 27,
+            "pages": [
+              28
+            ]
+          },
+          {
+            "code": "IMAGE_TABLE_REQUIRES_OCR",
+            "message": "Le tableau vide doit être revu avec OCR.",
+            "severity": "WARNING",
+            "table_index": 27,
+            "pages": [
+              28
+            ]
+          },
+          {
+            "code": "CSV_UNREADABLE",
+            "message": "CSV illisible (table_027.csv) : No columns to parse from file",
+            "severity": "ERROR",
+            "table_index": 27,
+            "pages": [
+              28
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 28,
+        "pages": [
+          29
+        ],
+        "row_count": 0,
+        "column_count": 0,
+        "non_empty_cell_count": 0,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_RFA_2023_0_d7373ed93f72/tables/table_028.csv",
+        "status": "INVALID",
+        "issues": [
+          {
+            "code": "EMPTY_TABLE",
+            "message": "Le tableau ne contient aucune cellule exploitable.",
+            "severity": "ERROR",
+            "table_index": 28,
+            "pages": [
+              29
+            ]
+          },
+          {
+            "code": "IMAGE_TABLE_REQUIRES_OCR",
+            "message": "Le tableau vide doit être revu avec OCR.",
+            "severity": "WARNING",
+            "table_index": 28,
+            "pages": [
+              29
+            ]
+          },
+          {
+            "code": "CSV_UNREADABLE",
+            "message": "CSV illisible (table_028.csv) : No columns to parse from file",
+            "severity": "ERROR",
+            "table_index": 28,
+            "pages": [
+              29
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 29,
+        "pages": [
+          32
+        ],
+        "row_count": 29,
+        "column_count": 2,
+        "non_empty_cell_count": 58,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_RFA_2023_0_d7373ed93f72/tables/table_029.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "AUTOGENERATED_HEADER",
+            "message": "Les en-têtes de colonnes sont artificiels.",
+            "severity": "WARNING",
+            "table_index": 29,
+            "pages": [
+              32
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 30,
+        "pages": [
+          37
+        ],
+        "row_count": 2,
+        "column_count": 3,
+        "non_empty_cell_count": 6,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_RFA_2023_0_d7373ed93f72/tables/table_030.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 31,
+        "pages": [
+          38
+        ],
+        "row_count": 5,
+        "column_count": 3,
+        "non_empty_cell_count": 15,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_RFA_2023_0_d7373ed93f72/tables/table_031.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 32,
+        "pages": [
+          47
+        ],
+        "row_count": 8,
+        "column_count": 8,
+        "non_empty_cell_count": 55,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_RFA_2023_0_d7373ed93f72/tables/table_032.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 33,
+        "pages": [
+          48
+        ],
+        "row_count": 8,
+        "column_count": 6,
+        "non_empty_cell_count": 48,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_RFA_2023_0_d7373ed93f72/tables/table_033.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 34,
+        "pages": [
+          49
+        ],
+        "row_count": 3,
+        "column_count": 4,
+        "non_empty_cell_count": 11,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_RFA_2023_0_d7373ed93f72/tables/table_034.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 35,
+        "pages": [
+          49
+        ],
+        "row_count": 13,
+        "column_count": 3,
+        "non_empty_cell_count": 39,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_RFA_2023_0_d7373ed93f72/tables/table_035.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 36,
+        "pages": [
+          50
+        ],
+        "row_count": 4,
+        "column_count": 3,
+        "non_empty_cell_count": 12,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_RFA_2023_0_d7373ed93f72/tables/table_036.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 37,
+        "pages": [
+          50
+        ],
+        "row_count": 4,
+        "column_count": 7,
+        "non_empty_cell_count": 27,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_RFA_2023_0_d7373ed93f72/tables/table_037.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 38,
+        "pages": [
+          51
+        ],
+        "row_count": 11,
+        "column_count": 3,
+        "non_empty_cell_count": 29,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_RFA_2023_0_d7373ed93f72/tables/table_038.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 39,
+        "pages": [
+          52
+        ],
+        "row_count": 3,
+        "column_count": 3,
+        "non_empty_cell_count": 9,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_RFA_2023_0_d7373ed93f72/tables/table_039.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 40,
+        "pages": [
+          52
+        ],
+        "row_count": 14,
+        "column_count": 3,
+        "non_empty_cell_count": 40,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_RFA_2023_0_d7373ed93f72/tables/table_040.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 41,
+        "pages": [
+          53
+        ],
+        "row_count": 3,
+        "column_count": 3,
+        "non_empty_cell_count": 9,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_RFA_2023_0_d7373ed93f72/tables/table_041.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 42,
+        "pages": [
+          53
+        ],
+        "row_count": 7,
+        "column_count": 3,
+        "non_empty_cell_count": 19,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_RFA_2023_0_d7373ed93f72/tables/table_042.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 43,
+        "pages": [
+          54
+        ],
+        "row_count": 3,
+        "column_count": 2,
+        "non_empty_cell_count": 6,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_RFA_2023_0_d7373ed93f72/tables/table_043.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 44,
+        "pages": [
+          54
+        ],
+        "row_count": 3,
+        "column_count": 2,
+        "non_empty_cell_count": 6,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_RFA_2023_0_d7373ed93f72/tables/table_044.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 45,
+        "pages": [
+          54
+        ],
+        "row_count": 9,
+        "column_count": 3,
+        "non_empty_cell_count": 27,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_RFA_2023_0_d7373ed93f72/tables/table_045.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 46,
+        "pages": [
+          55
+        ],
+        "row_count": 4,
+        "column_count": 7,
+        "non_empty_cell_count": 28,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_RFA_2023_0_d7373ed93f72/tables/table_046.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 47,
+        "pages": [
+          55
+        ],
+        "row_count": 10,
+        "column_count": 7,
+        "non_empty_cell_count": 63,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_RFA_2023_0_d7373ed93f72/tables/table_047.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 48,
+        "pages": [
+          56
+        ],
+        "row_count": 4,
+        "column_count": 3,
+        "non_empty_cell_count": 12,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_RFA_2023_0_d7373ed93f72/tables/table_048.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 49,
+        "pages": [
+          56
+        ],
+        "row_count": 3,
+        "column_count": 3,
+        "non_empty_cell_count": 9,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_RFA_2023_0_d7373ed93f72/tables/table_049.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 50,
+        "pages": [
+          57
+        ],
+        "row_count": 21,
+        "column_count": 4,
+        "non_empty_cell_count": 55,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_RFA_2023_0_d7373ed93f72/tables/table_050.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 51,
+        "pages": [
+          58
+        ],
+        "row_count": 25,
+        "column_count": 7,
+        "non_empty_cell_count": 133,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_RFA_2023_0_d7373ed93f72/tables/table_051.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 52,
+        "pages": [
+          59
+        ],
+        "row_count": 7,
+        "column_count": 3,
+        "non_empty_cell_count": 19,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_RFA_2023_0_d7373ed93f72/tables/table_052.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 53,
+        "pages": [
+          60
+        ],
+        "row_count": 10,
+        "column_count": 7,
+        "non_empty_cell_count": 70,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_RFA_2023_0_d7373ed93f72/tables/table_053.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 54,
+        "pages": [
+          60
+        ],
+        "row_count": 10,
+        "column_count": 7,
+        "non_empty_cell_count": 70,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_RFA_2023_0_d7373ed93f72/tables/table_054.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 55,
+        "pages": [
+          61
+        ],
+        "row_count": 8,
+        "column_count": 3,
+        "non_empty_cell_count": 24,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_RFA_2023_0_d7373ed93f72/tables/table_055.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "SPLIT_WORD",
+            "message": "Un libellé contient une césure issue de la mise en page.",
+            "severity": "WARNING",
+            "table_index": 55,
+            "pages": [
+              61
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 56,
+        "pages": [
+          62
+        ],
+        "row_count": 10,
+        "column_count": 3,
+        "non_empty_cell_count": 28,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_RFA_2023_0_d7373ed93f72/tables/table_056.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 57,
+        "pages": [
+          63
+        ],
+        "row_count": 3,
+        "column_count": 3,
+        "non_empty_cell_count": 9,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_RFA_2023_0_d7373ed93f72/tables/table_057.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 58,
+        "pages": [
+          64
+        ],
+        "row_count": 7,
+        "column_count": 3,
+        "non_empty_cell_count": 21,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_RFA_2023_0_d7373ed93f72/tables/table_058.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 59,
+        "pages": [
+          64
+        ],
+        "row_count": 3,
+        "column_count": 7,
+        "non_empty_cell_count": 17,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_RFA_2023_0_d7373ed93f72/tables/table_059.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 60,
+        "pages": [
+          65
+        ],
+        "row_count": 16,
+        "column_count": 3,
+        "non_empty_cell_count": 39,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_RFA_2023_0_d7373ed93f72/tables/table_060.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 60,
+            "pages": [
+              65
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 61,
+        "pages": [
+          66
+        ],
+        "row_count": 8,
+        "column_count": 3,
+        "non_empty_cell_count": 24,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_RFA_2023_0_d7373ed93f72/tables/table_061.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 62,
+        "pages": [
+          66
+        ],
+        "row_count": 3,
+        "column_count": 5,
+        "non_empty_cell_count": 14,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_RFA_2023_0_d7373ed93f72/tables/table_062.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 63,
+        "pages": [
+          67
+        ],
+        "row_count": 4,
+        "column_count": 3,
+        "non_empty_cell_count": 12,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_RFA_2023_0_d7373ed93f72/tables/table_063.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 64,
+        "pages": [
+          69
+        ],
+        "row_count": 9,
+        "column_count": 3,
+        "non_empty_cell_count": 27,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_RFA_2023_0_d7373ed93f72/tables/table_064.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 65,
+        "pages": [
+          69
+        ],
+        "row_count": 4,
+        "column_count": 3,
+        "non_empty_cell_count": 7,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_RFA_2023_0_d7373ed93f72/tables/table_065.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 66,
+        "pages": [
+          70
+        ],
+        "row_count": 7,
+        "column_count": 3,
+        "non_empty_cell_count": 21,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_RFA_2023_0_d7373ed93f72/tables/table_066.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 67,
+        "pages": [
+          70
+        ],
+        "row_count": 5,
+        "column_count": 3,
+        "non_empty_cell_count": 15,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_RFA_2023_0_d7373ed93f72/tables/table_067.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 68,
+        "pages": [
+          71
+        ],
+        "row_count": 2,
+        "column_count": 3,
+        "non_empty_cell_count": 6,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_RFA_2023_0_d7373ed93f72/tables/table_068.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 69,
+        "pages": [
+          71
+        ],
+        "row_count": 17,
+        "column_count": 5,
+        "non_empty_cell_count": 55,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_RFA_2023_0_d7373ed93f72/tables/table_069.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 70,
+        "pages": [
+          72
+        ],
+        "row_count": 8,
+        "column_count": 4,
+        "non_empty_cell_count": 32,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_RFA_2023_0_d7373ed93f72/tables/table_070.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 71,
+        "pages": [
+          72
+        ],
+        "row_count": 8,
+        "column_count": 4,
+        "non_empty_cell_count": 32,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_RFA_2023_0_d7373ed93f72/tables/table_071.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 72,
+        "pages": [
+          100
+        ],
+        "row_count": 0,
+        "column_count": 0,
+        "non_empty_cell_count": 0,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_RFA_2023_0_d7373ed93f72/tables/table_072.csv",
+        "status": "INVALID",
+        "issues": [
+          {
+            "code": "EMPTY_TABLE",
+            "message": "Le tableau ne contient aucune cellule exploitable.",
+            "severity": "ERROR",
+            "table_index": 72,
+            "pages": [
+              100
+            ]
+          },
+          {
+            "code": "IMAGE_TABLE_REQUIRES_OCR",
+            "message": "Le tableau vide doit être revu avec OCR.",
+            "severity": "WARNING",
+            "table_index": 72,
+            "pages": [
+              100
+            ]
+          },
+          {
+            "code": "CSV_UNREADABLE",
+            "message": "CSV illisible (table_072.csv) : No columns to parse from file",
+            "severity": "ERROR",
+            "table_index": 72,
+            "pages": [
+              100
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 73,
+        "pages": [
+          101
+        ],
+        "row_count": 0,
+        "column_count": 0,
+        "non_empty_cell_count": 0,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_RFA_2023_0_d7373ed93f72/tables/table_073.csv",
+        "status": "INVALID",
+        "issues": [
+          {
+            "code": "EMPTY_TABLE",
+            "message": "Le tableau ne contient aucune cellule exploitable.",
+            "severity": "ERROR",
+            "table_index": 73,
+            "pages": [
+              101
+            ]
+          },
+          {
+            "code": "IMAGE_TABLE_REQUIRES_OCR",
+            "message": "Le tableau vide doit être revu avec OCR.",
+            "severity": "WARNING",
+            "table_index": 73,
+            "pages": [
+              101
+            ]
+          },
+          {
+            "code": "CSV_UNREADABLE",
+            "message": "CSV illisible (table_073.csv) : No columns to parse from file",
+            "severity": "ERROR",
+            "table_index": 73,
+            "pages": [
+              101
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 74,
+        "pages": [
+          102
+        ],
+        "row_count": 0,
+        "column_count": 0,
+        "non_empty_cell_count": 0,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_RFA_2023_0_d7373ed93f72/tables/table_074.csv",
+        "status": "INVALID",
+        "issues": [
+          {
+            "code": "EMPTY_TABLE",
+            "message": "Le tableau ne contient aucune cellule exploitable.",
+            "severity": "ERROR",
+            "table_index": 74,
+            "pages": [
+              102
+            ]
+          },
+          {
+            "code": "IMAGE_TABLE_REQUIRES_OCR",
+            "message": "Le tableau vide doit être revu avec OCR.",
+            "severity": "WARNING",
+            "table_index": 74,
+            "pages": [
+              102
+            ]
+          },
+          {
+            "code": "CSV_UNREADABLE",
+            "message": "CSV illisible (table_074.csv) : No columns to parse from file",
+            "severity": "ERROR",
+            "table_index": 74,
+            "pages": [
+              102
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 75,
+        "pages": [
+          103
+        ],
+        "row_count": 0,
+        "column_count": 0,
+        "non_empty_cell_count": 0,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_RFA_2023_0_d7373ed93f72/tables/table_075.csv",
+        "status": "INVALID",
+        "issues": [
+          {
+            "code": "EMPTY_TABLE",
+            "message": "Le tableau ne contient aucune cellule exploitable.",
+            "severity": "ERROR",
+            "table_index": 75,
+            "pages": [
+              103
+            ]
+          },
+          {
+            "code": "IMAGE_TABLE_REQUIRES_OCR",
+            "message": "Le tableau vide doit être revu avec OCR.",
+            "severity": "WARNING",
+            "table_index": 75,
+            "pages": [
+              103
+            ]
+          },
+          {
+            "code": "CSV_UNREADABLE",
+            "message": "CSV illisible (table_075.csv) : No columns to parse from file",
+            "severity": "ERROR",
+            "table_index": 75,
+            "pages": [
+              103
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 76,
+        "pages": [
+          104
+        ],
+        "row_count": 0,
+        "column_count": 0,
+        "non_empty_cell_count": 0,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_RFA_2023_0_d7373ed93f72/tables/table_076.csv",
+        "status": "INVALID",
+        "issues": [
+          {
+            "code": "EMPTY_TABLE",
+            "message": "Le tableau ne contient aucune cellule exploitable.",
+            "severity": "ERROR",
+            "table_index": 76,
+            "pages": [
+              104
+            ]
+          },
+          {
+            "code": "IMAGE_TABLE_REQUIRES_OCR",
+            "message": "Le tableau vide doit être revu avec OCR.",
+            "severity": "WARNING",
+            "table_index": 76,
+            "pages": [
+              104
+            ]
+          },
+          {
+            "code": "CSV_UNREADABLE",
+            "message": "CSV illisible (table_076.csv) : No columns to parse from file",
+            "severity": "ERROR",
+            "table_index": 76,
+            "pages": [
+              104
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 77,
+        "pages": [
+          105
+        ],
+        "row_count": 0,
+        "column_count": 0,
+        "non_empty_cell_count": 0,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_RFA_2023_0_d7373ed93f72/tables/table_077.csv",
+        "status": "INVALID",
+        "issues": [
+          {
+            "code": "EMPTY_TABLE",
+            "message": "Le tableau ne contient aucune cellule exploitable.",
+            "severity": "ERROR",
+            "table_index": 77,
+            "pages": [
+              105
+            ]
+          },
+          {
+            "code": "IMAGE_TABLE_REQUIRES_OCR",
+            "message": "Le tableau vide doit être revu avec OCR.",
+            "severity": "WARNING",
+            "table_index": 77,
+            "pages": [
+              105
+            ]
+          },
+          {
+            "code": "CSV_UNREADABLE",
+            "message": "CSV illisible (table_077.csv) : No columns to parse from file",
+            "severity": "ERROR",
+            "table_index": 77,
+            "pages": [
+              105
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 78,
+        "pages": [
+          106
+        ],
+        "row_count": 0,
+        "column_count": 0,
+        "non_empty_cell_count": 0,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_RFA_2023_0_d7373ed93f72/tables/table_078.csv",
+        "status": "INVALID",
+        "issues": [
+          {
+            "code": "EMPTY_TABLE",
+            "message": "Le tableau ne contient aucune cellule exploitable.",
+            "severity": "ERROR",
+            "table_index": 78,
+            "pages": [
+              106
+            ]
+          },
+          {
+            "code": "IMAGE_TABLE_REQUIRES_OCR",
+            "message": "Le tableau vide doit être revu avec OCR.",
+            "severity": "WARNING",
+            "table_index": 78,
+            "pages": [
+              106
+            ]
+          },
+          {
+            "code": "CSV_UNREADABLE",
+            "message": "CSV illisible (table_078.csv) : No columns to parse from file",
+            "severity": "ERROR",
+            "table_index": 78,
+            "pages": [
+              106
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 79,
+        "pages": [
+          106
+        ],
+        "row_count": 0,
+        "column_count": 0,
+        "non_empty_cell_count": 0,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_RFA_2023_0_d7373ed93f72/tables/table_079.csv",
+        "status": "INVALID",
+        "issues": [
+          {
+            "code": "EMPTY_TABLE",
+            "message": "Le tableau ne contient aucune cellule exploitable.",
+            "severity": "ERROR",
+            "table_index": 79,
+            "pages": [
+              106
+            ]
+          },
+          {
+            "code": "IMAGE_TABLE_REQUIRES_OCR",
+            "message": "Le tableau vide doit être revu avec OCR.",
+            "severity": "WARNING",
+            "table_index": 79,
+            "pages": [
+              106
+            ]
+          },
+          {
+            "code": "CSV_UNREADABLE",
+            "message": "CSV illisible (table_079.csv) : No columns to parse from file",
+            "severity": "ERROR",
+            "table_index": 79,
+            "pages": [
+              106
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 80,
+        "pages": [
+          107
+        ],
+        "row_count": 0,
+        "column_count": 0,
+        "non_empty_cell_count": 0,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_RFA_2023_0_d7373ed93f72/tables/table_080.csv",
+        "status": "INVALID",
+        "issues": [
+          {
+            "code": "EMPTY_TABLE",
+            "message": "Le tableau ne contient aucune cellule exploitable.",
+            "severity": "ERROR",
+            "table_index": 80,
+            "pages": [
+              107
+            ]
+          },
+          {
+            "code": "IMAGE_TABLE_REQUIRES_OCR",
+            "message": "Le tableau vide doit être revu avec OCR.",
+            "severity": "WARNING",
+            "table_index": 80,
+            "pages": [
+              107
+            ]
+          },
+          {
+            "code": "CSV_UNREADABLE",
+            "message": "CSV illisible (table_080.csv) : No columns to parse from file",
+            "severity": "ERROR",
+            "table_index": 80,
+            "pages": [
+              107
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 81,
+        "pages": [
+          107
+        ],
+        "row_count": 0,
+        "column_count": 0,
+        "non_empty_cell_count": 0,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_RFA_2023_0_d7373ed93f72/tables/table_081.csv",
+        "status": "INVALID",
+        "issues": [
+          {
+            "code": "EMPTY_TABLE",
+            "message": "Le tableau ne contient aucune cellule exploitable.",
+            "severity": "ERROR",
+            "table_index": 81,
+            "pages": [
+              107
+            ]
+          },
+          {
+            "code": "IMAGE_TABLE_REQUIRES_OCR",
+            "message": "Le tableau vide doit être revu avec OCR.",
+            "severity": "WARNING",
+            "table_index": 81,
+            "pages": [
+              107
+            ]
+          },
+          {
+            "code": "CSV_UNREADABLE",
+            "message": "CSV illisible (table_081.csv) : No columns to parse from file",
+            "severity": "ERROR",
+            "table_index": 81,
+            "pages": [
+              107
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 82,
+        "pages": [
+          107
+        ],
+        "row_count": 0,
+        "column_count": 0,
+        "non_empty_cell_count": 0,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_RFA_2023_0_d7373ed93f72/tables/table_082.csv",
+        "status": "INVALID",
+        "issues": [
+          {
+            "code": "EMPTY_TABLE",
+            "message": "Le tableau ne contient aucune cellule exploitable.",
+            "severity": "ERROR",
+            "table_index": 82,
+            "pages": [
+              107
+            ]
+          },
+          {
+            "code": "IMAGE_TABLE_REQUIRES_OCR",
+            "message": "Le tableau vide doit être revu avec OCR.",
+            "severity": "WARNING",
+            "table_index": 82,
+            "pages": [
+              107
+            ]
+          },
+          {
+            "code": "CSV_UNREADABLE",
+            "message": "CSV illisible (table_082.csv) : No columns to parse from file",
+            "severity": "ERROR",
+            "table_index": 82,
+            "pages": [
+              107
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 83,
+        "pages": [
+          108
+        ],
+        "row_count": 0,
+        "column_count": 0,
+        "non_empty_cell_count": 0,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_RFA_2023_0_d7373ed93f72/tables/table_083.csv",
+        "status": "INVALID",
+        "issues": [
+          {
+            "code": "EMPTY_TABLE",
+            "message": "Le tableau ne contient aucune cellule exploitable.",
+            "severity": "ERROR",
+            "table_index": 83,
+            "pages": [
+              108
+            ]
+          },
+          {
+            "code": "IMAGE_TABLE_REQUIRES_OCR",
+            "message": "Le tableau vide doit être revu avec OCR.",
+            "severity": "WARNING",
+            "table_index": 83,
+            "pages": [
+              108
+            ]
+          },
+          {
+            "code": "CSV_UNREADABLE",
+            "message": "CSV illisible (table_083.csv) : No columns to parse from file",
+            "severity": "ERROR",
+            "table_index": 83,
+            "pages": [
+              108
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 84,
+        "pages": [
+          108
+        ],
+        "row_count": 0,
+        "column_count": 0,
+        "non_empty_cell_count": 0,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_RFA_2023_0_d7373ed93f72/tables/table_084.csv",
+        "status": "INVALID",
+        "issues": [
+          {
+            "code": "EMPTY_TABLE",
+            "message": "Le tableau ne contient aucune cellule exploitable.",
+            "severity": "ERROR",
+            "table_index": 84,
+            "pages": [
+              108
+            ]
+          },
+          {
+            "code": "IMAGE_TABLE_REQUIRES_OCR",
+            "message": "Le tableau vide doit être revu avec OCR.",
+            "severity": "WARNING",
+            "table_index": 84,
+            "pages": [
+              108
+            ]
+          },
+          {
+            "code": "CSV_UNREADABLE",
+            "message": "CSV illisible (table_084.csv) : No columns to parse from file",
+            "severity": "ERROR",
+            "table_index": 84,
+            "pages": [
+              108
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 85,
+        "pages": [
+          108
+        ],
+        "row_count": 0,
+        "column_count": 0,
+        "non_empty_cell_count": 0,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_RFA_2023_0_d7373ed93f72/tables/table_085.csv",
+        "status": "INVALID",
+        "issues": [
+          {
+            "code": "EMPTY_TABLE",
+            "message": "Le tableau ne contient aucune cellule exploitable.",
+            "severity": "ERROR",
+            "table_index": 85,
+            "pages": [
+              108
+            ]
+          },
+          {
+            "code": "IMAGE_TABLE_REQUIRES_OCR",
+            "message": "Le tableau vide doit être revu avec OCR.",
+            "severity": "WARNING",
+            "table_index": 85,
+            "pages": [
+              108
+            ]
+          },
+          {
+            "code": "CSV_UNREADABLE",
+            "message": "CSV illisible (table_085.csv) : No columns to parse from file",
+            "severity": "ERROR",
+            "table_index": 85,
+            "pages": [
+              108
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 86,
+        "pages": [
+          109
+        ],
+        "row_count": 0,
+        "column_count": 0,
+        "non_empty_cell_count": 0,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_RFA_2023_0_d7373ed93f72/tables/table_086.csv",
+        "status": "INVALID",
+        "issues": [
+          {
+            "code": "EMPTY_TABLE",
+            "message": "Le tableau ne contient aucune cellule exploitable.",
+            "severity": "ERROR",
+            "table_index": 86,
+            "pages": [
+              109
+            ]
+          },
+          {
+            "code": "IMAGE_TABLE_REQUIRES_OCR",
+            "message": "Le tableau vide doit être revu avec OCR.",
+            "severity": "WARNING",
+            "table_index": 86,
+            "pages": [
+              109
+            ]
+          },
+          {
+            "code": "CSV_UNREADABLE",
+            "message": "CSV illisible (table_086.csv) : No columns to parse from file",
+            "severity": "ERROR",
+            "table_index": 86,
+            "pages": [
+              109
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 87,
+        "pages": [
+          109
+        ],
+        "row_count": 0,
+        "column_count": 0,
+        "non_empty_cell_count": 0,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_RFA_2023_0_d7373ed93f72/tables/table_087.csv",
+        "status": "INVALID",
+        "issues": [
+          {
+            "code": "EMPTY_TABLE",
+            "message": "Le tableau ne contient aucune cellule exploitable.",
+            "severity": "ERROR",
+            "table_index": 87,
+            "pages": [
+              109
+            ]
+          },
+          {
+            "code": "IMAGE_TABLE_REQUIRES_OCR",
+            "message": "Le tableau vide doit être revu avec OCR.",
+            "severity": "WARNING",
+            "table_index": 87,
+            "pages": [
+              109
+            ]
+          },
+          {
+            "code": "CSV_UNREADABLE",
+            "message": "CSV illisible (table_087.csv) : No columns to parse from file",
+            "severity": "ERROR",
+            "table_index": 87,
+            "pages": [
+              109
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 88,
+        "pages": [
+          109
+        ],
+        "row_count": 0,
+        "column_count": 0,
+        "non_empty_cell_count": 0,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_RFA_2023_0_d7373ed93f72/tables/table_088.csv",
+        "status": "INVALID",
+        "issues": [
+          {
+            "code": "EMPTY_TABLE",
+            "message": "Le tableau ne contient aucune cellule exploitable.",
+            "severity": "ERROR",
+            "table_index": 88,
+            "pages": [
+              109
+            ]
+          },
+          {
+            "code": "IMAGE_TABLE_REQUIRES_OCR",
+            "message": "Le tableau vide doit être revu avec OCR.",
+            "severity": "WARNING",
+            "table_index": 88,
+            "pages": [
+              109
+            ]
+          },
+          {
+            "code": "CSV_UNREADABLE",
+            "message": "CSV illisible (table_088.csv) : No columns to parse from file",
+            "severity": "ERROR",
+            "table_index": 88,
+            "pages": [
+              109
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 89,
+        "pages": [
+          110
+        ],
+        "row_count": 0,
+        "column_count": 0,
+        "non_empty_cell_count": 0,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_RFA_2023_0_d7373ed93f72/tables/table_089.csv",
+        "status": "INVALID",
+        "issues": [
+          {
+            "code": "EMPTY_TABLE",
+            "message": "Le tableau ne contient aucune cellule exploitable.",
+            "severity": "ERROR",
+            "table_index": 89,
+            "pages": [
+              110
+            ]
+          },
+          {
+            "code": "IMAGE_TABLE_REQUIRES_OCR",
+            "message": "Le tableau vide doit être revu avec OCR.",
+            "severity": "WARNING",
+            "table_index": 89,
+            "pages": [
+              110
+            ]
+          },
+          {
+            "code": "CSV_UNREADABLE",
+            "message": "CSV illisible (table_089.csv) : No columns to parse from file",
+            "severity": "ERROR",
+            "table_index": 89,
+            "pages": [
+              110
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 90,
+        "pages": [
+          110
+        ],
+        "row_count": 0,
+        "column_count": 0,
+        "non_empty_cell_count": 0,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_RFA_2023_0_d7373ed93f72/tables/table_090.csv",
+        "status": "INVALID",
+        "issues": [
+          {
+            "code": "EMPTY_TABLE",
+            "message": "Le tableau ne contient aucune cellule exploitable.",
+            "severity": "ERROR",
+            "table_index": 90,
+            "pages": [
+              110
+            ]
+          },
+          {
+            "code": "IMAGE_TABLE_REQUIRES_OCR",
+            "message": "Le tableau vide doit être revu avec OCR.",
+            "severity": "WARNING",
+            "table_index": 90,
+            "pages": [
+              110
+            ]
+          },
+          {
+            "code": "CSV_UNREADABLE",
+            "message": "CSV illisible (table_090.csv) : No columns to parse from file",
+            "severity": "ERROR",
+            "table_index": 90,
+            "pages": [
+              110
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 91,
+        "pages": [
+          110
+        ],
+        "row_count": 0,
+        "column_count": 0,
+        "non_empty_cell_count": 0,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_RFA_2023_0_d7373ed93f72/tables/table_091.csv",
+        "status": "INVALID",
+        "issues": [
+          {
+            "code": "EMPTY_TABLE",
+            "message": "Le tableau ne contient aucune cellule exploitable.",
+            "severity": "ERROR",
+            "table_index": 91,
+            "pages": [
+              110
+            ]
+          },
+          {
+            "code": "IMAGE_TABLE_REQUIRES_OCR",
+            "message": "Le tableau vide doit être revu avec OCR.",
+            "severity": "WARNING",
+            "table_index": 91,
+            "pages": [
+              110
+            ]
+          },
+          {
+            "code": "CSV_UNREADABLE",
+            "message": "CSV illisible (table_091.csv) : No columns to parse from file",
+            "severity": "ERROR",
+            "table_index": 91,
+            "pages": [
+              110
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 92,
+        "pages": [
+          110
+        ],
+        "row_count": 0,
+        "column_count": 0,
+        "non_empty_cell_count": 0,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_RFA_2023_0_d7373ed93f72/tables/table_092.csv",
+        "status": "INVALID",
+        "issues": [
+          {
+            "code": "EMPTY_TABLE",
+            "message": "Le tableau ne contient aucune cellule exploitable.",
+            "severity": "ERROR",
+            "table_index": 92,
+            "pages": [
+              110
+            ]
+          },
+          {
+            "code": "IMAGE_TABLE_REQUIRES_OCR",
+            "message": "Le tableau vide doit être revu avec OCR.",
+            "severity": "WARNING",
+            "table_index": 92,
+            "pages": [
+              110
+            ]
+          },
+          {
+            "code": "CSV_UNREADABLE",
+            "message": "CSV illisible (table_092.csv) : No columns to parse from file",
+            "severity": "ERROR",
+            "table_index": 92,
+            "pages": [
+              110
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 93,
+        "pages": [
+          113
+        ],
+        "row_count": 0,
+        "column_count": 0,
+        "non_empty_cell_count": 0,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_RFA_2023_0_d7373ed93f72/tables/table_093.csv",
+        "status": "INVALID",
+        "issues": [
+          {
+            "code": "EMPTY_TABLE",
+            "message": "Le tableau ne contient aucune cellule exploitable.",
+            "severity": "ERROR",
+            "table_index": 93,
+            "pages": [
+              113
+            ]
+          },
+          {
+            "code": "IMAGE_TABLE_REQUIRES_OCR",
+            "message": "Le tableau vide doit être revu avec OCR.",
+            "severity": "WARNING",
+            "table_index": 93,
+            "pages": [
+              113
+            ]
+          },
+          {
+            "code": "CSV_UNREADABLE",
+            "message": "CSV illisible (table_093.csv) : No columns to parse from file",
+            "severity": "ERROR",
+            "table_index": 93,
+            "pages": [
+              113
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 94,
+        "pages": [
+          115
+        ],
+        "row_count": 17,
+        "column_count": 6,
+        "non_empty_cell_count": 71,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_RFA_2023_0_d7373ed93f72/tables/table_094.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 94,
+            "pages": [
+              115
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 95,
+        "pages": [
+          117
+        ],
+        "row_count": 5,
+        "column_count": 2,
+        "non_empty_cell_count": 10,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_RFA_2023_0_d7373ed93f72/tables/table_095.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "AUTOGENERATED_HEADER",
+            "message": "Les en-têtes de colonnes sont artificiels.",
+            "severity": "WARNING",
+            "table_index": 95,
+            "pages": [
+              117
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 96,
+        "pages": [
+          127
+        ],
+        "row_count": 5,
+        "column_count": 5,
+        "non_empty_cell_count": 25,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_RFA_2023_0_d7373ed93f72/tables/table_096.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "AUTOGENERATED_HEADER",
+            "message": "Les en-têtes de colonnes sont artificiels.",
+            "severity": "WARNING",
+            "table_index": 96,
+            "pages": [
+              127
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 97,
+        "pages": [
+          127
+        ],
+        "row_count": 3,
+        "column_count": 5,
+        "non_empty_cell_count": 14,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_RFA_2023_0_d7373ed93f72/tables/table_097.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "AUTOGENERATED_HEADER",
+            "message": "Les en-têtes de colonnes sont artificiels.",
+            "severity": "WARNING",
+            "table_index": 97,
+            "pages": [
+              127
+            ]
+          },
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 97,
+            "pages": [
+              127
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 98,
+        "pages": [
+          127
+        ],
+        "row_count": 3,
+        "column_count": 5,
+        "non_empty_cell_count": 15,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_RFA_2023_0_d7373ed93f72/tables/table_098.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "AUTOGENERATED_HEADER",
+            "message": "Les en-têtes de colonnes sont artificiels.",
+            "severity": "WARNING",
+            "table_index": 98,
+            "pages": [
+              127
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 99,
+        "pages": [
+          127
+        ],
+        "row_count": 3,
+        "column_count": 5,
+        "non_empty_cell_count": 15,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_RFA_2023_0_d7373ed93f72/tables/table_099.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "AUTOGENERATED_HEADER",
+            "message": "Les en-têtes de colonnes sont artificiels.",
+            "severity": "WARNING",
+            "table_index": 99,
+            "pages": [
+              127
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 100,
+        "pages": [
+          128
+        ],
+        "row_count": 9,
+        "column_count": 4,
+        "non_empty_cell_count": 36,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_RFA_2023_0_d7373ed93f72/tables/table_100.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 101,
+        "pages": [
+          129
+        ],
+        "row_count": 5,
+        "column_count": 3,
+        "non_empty_cell_count": 15,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_RFA_2023_0_d7373ed93f72/tables/table_101.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 102,
+        "pages": [
+          130
+        ],
+        "row_count": 2,
+        "column_count": 3,
+        "non_empty_cell_count": 6,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_RFA_2023_0_d7373ed93f72/tables/table_102.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "AUTOGENERATED_HEADER",
+            "message": "Les en-têtes de colonnes sont artificiels.",
+            "severity": "WARNING",
+            "table_index": 102,
+            "pages": [
+              130
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 103,
+        "pages": [
+          131
+        ],
+        "row_count": 5,
+        "column_count": 3,
+        "non_empty_cell_count": 15,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_RFA_2023_0_d7373ed93f72/tables/table_103.csv",
+        "status": "VALID",
+        "issues": []
+      }
+    ],
+    "artifact_sha256": {
+      "document.md": "18069cbb849d1be09e911474b7f26e026f8cebaeb165ded58b4947aaf4f5c6a5",
+      "document.json": "77af7cfaff350ba118644fdd6bd545a2edaac324b8770201eca5376f7aebcc0d",
+      "tables/table_001.csv": "343beebd3566578bd6519ca1d2577e663c002e32cde57a00ad12db87213e6593",
+      "tables/table_002.csv": "8b7c26afd8817009f10e6df8d2e6383bd7fb8946f9b032df483f1072ac18c3db",
+      "tables/table_003.csv": "5f4368046289bbf5edc349ce89351ae780ca279350c4ee30d795c65a3dd99bc2",
+      "tables/table_004.csv": "b623e3f6fcedf17bec176c6678a518ecb0230ab5ff77a34f3dda0c4e88471717",
+      "tables/table_005.csv": "f15a9ad261a2b280d84dae7a687263ad952f09e2d344e53be1516645eb034886",
+      "tables/table_006.csv": "9f4592829b6c6739c25ab4f5592e5f18db58f123a3368d98ac8eb6201f2be5ee",
+      "tables/table_007.csv": "456f4e633c2526c3aac1f719495c26b1d4c8174678a7669d15d3c8968b34a486",
+      "tables/table_008.csv": "e607301329f39827ee15069fa4bea0c5f4a268cc9764b61a0d2d0116f93506d1",
+      "tables/table_009.csv": "ca6877919e607e19d5e9a8f06096b6b3e004bd0df8e0071f91f57d465fc06e2d",
+      "tables/table_010.csv": "2a5da858ce4215b753b0175e946fc45acde8e89288507e7d4ac7f5f337d0b060",
+      "tables/table_011.csv": "b343d4b0c1a28b9c1788718056afe70b1a3e52f6ee0fa823782808e382de39cd",
+      "tables/table_012.csv": "b00e1d850d61d95358cb02c6d2474ea1461880914767affdc785d3237a0f5f15",
+      "tables/table_013.csv": "d88e6fd54648a21520a1847c142030149b450b97e7a573952866f5f32dd41187",
+      "tables/table_014.csv": "dce8bf221a5acf375a2812cb48db042fda27a0a34d3746fbf005ca1947f30be5",
+      "tables/table_015.csv": "c1fa57bb55bbc90b107c2f540001a9b2630d7b2ca1f390d2ca9322533c8d023d",
+      "tables/table_016.csv": "b6d4189d60aedddb28e581749b383368ef19aae94441495b6e80cfdc8cfd3e7a",
+      "tables/table_017.csv": "5ad8b3d9117b2718353d1e3b74c1c718811a5a9d572414dc2ce1a655c9c472a2",
+      "tables/table_018.csv": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "tables/table_019.csv": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "tables/table_020.csv": "c90ef78e3755f6b26ff5baef792fe7356b2b07794568b756e82de18aac6a2f33",
+      "tables/table_021.csv": "64ea3c48668510207a4537a1e5bfa625ced5d8e396d76e5dd9491df38cbc3876",
+      "tables/table_022.csv": "0627d3c6871ed712b0dcb87ceb622a76dbd4704b517bcad98ca4c7b47de92199",
+      "tables/table_023.csv": "2a4e67eaea09d982fda85f22518bc7480341fad524ddc29d3b6ce04f6b92f58d",
+      "tables/table_024.csv": "ab4c514082e3ba2dea69911c7c23fb33284469302c1c25cc43b76180da0f03f8",
+      "tables/table_025.csv": "1de10d214d560166a3f83abc22d6c012dad1706867b84d2fc24ac18a88c02552",
+      "tables/table_026.csv": "db14b63924d0fc03f9b06f9a367fd047894295248f3ba0c517adbc3cd56a1370",
+      "tables/table_027.csv": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "tables/table_028.csv": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "tables/table_029.csv": "11f9a166fd942b3b140a7cce6a70ba218cbabf96811181d24c971430460edaad",
+      "tables/table_030.csv": "955d2ed3db5221daa4ef95c3e3390de10158c78477f426883d089b87e1ea079c",
+      "tables/table_031.csv": "8c11a643b6b0df67e203bddd6b34cb43b222c07e13af5ffcb14fbd387302c891",
+      "tables/table_032.csv": "d242b0753ebb359b0d69c3cd7e3ea441b9721410f7b6afc9f497dd955fb14266",
+      "tables/table_033.csv": "8b705b0ea8f6a783568d0f3b897005f44c7b5acde508772b4b806eec9ebb6b1e",
+      "tables/table_034.csv": "b4eb705ff42f223b5f5708cb54dd968979a1624dcc1c3a6257c2291ab10e46e2",
+      "tables/table_035.csv": "0a5d2099309695188c4ca9e92dba1ce46942f0c58465fd3a298b736e895c3ac3",
+      "tables/table_036.csv": "4dea8b85488d8deead593b7fe2b1c1a1698e38c3dabf58178eb00d43ccaa2ec9",
+      "tables/table_037.csv": "cd89c535a1171df969c56cbd444f4f5330fe2621cd51caddab644388a01cf677",
+      "tables/table_038.csv": "a9cbc08d0a7cb9a883f45132bef2b5e55a64137f4144620a2a7f9901acf625be",
+      "tables/table_039.csv": "3c7e83e59a4fac9c64b562b348de509bcbe8acfe7dd094ac4414f24439a00dd1",
+      "tables/table_040.csv": "9439675eebd24e2e9e754e79e73acedbe144ac5541ac63325f8fc45b006aa275",
+      "tables/table_041.csv": "976c77ac801e3c13c3ff6e48dea720290156e034de687902d77eb17d16d4c57c",
+      "tables/table_042.csv": "959aba29b4ffc95d68e68a3811b963e900c39dbd20bff7a907eaa35c460dc418",
+      "tables/table_043.csv": "c7d777317c14e9148bad8195eacf06acdd0fda89d164ce2b76d05fce21631ffc",
+      "tables/table_044.csv": "b28c0e9314509bf298bd2235d26d0d0bd8a8c356747185e7ff3b511d9e18b2cf",
+      "tables/table_045.csv": "3df67b1517d9d3d7e40c96960310719c15e432b242e5a79f45af9bf356ab1fec",
+      "tables/table_046.csv": "2c9f601a5d73e0a8fc4d6e822845c860026178c25045cb0c3d396346bb20f245",
+      "tables/table_047.csv": "f652220a6afd385d6c0ff5eab30bdc71aad9dc5daf44eadd943a06d04d416ddd",
+      "tables/table_048.csv": "a6da970d64c4c6278e7e2e2d92cdccabb0c0e7ba5b196f266fefecf0efeb279f",
+      "tables/table_049.csv": "646f74834a9b80a1ec440b961ecbee5f66633f42071dce9491c280325e891c1b",
+      "tables/table_050.csv": "c634b7da7973418fb5f0fc57fa2da3ea136cd87725008645defc185539aff319",
+      "tables/table_051.csv": "4e6bd08acca74dbd74b478008272a85e2d2807290675a335aa143b5322a94bf3",
+      "tables/table_052.csv": "3d5195b1abcf6e86b1a872d42e359ee66c36d5a3e1a2f1189429b62a345be9ec",
+      "tables/table_053.csv": "d639dda903bb15e3adf11b2dff030cf20244f367f0f4cb6768bd4e4e7ca9a9c0",
+      "tables/table_054.csv": "d639dda903bb15e3adf11b2dff030cf20244f367f0f4cb6768bd4e4e7ca9a9c0",
+      "tables/table_055.csv": "35e23c8a05499b472166475aaadd1e1e744687bf4044ac7523dddfe6e49e7dec",
+      "tables/table_056.csv": "c83d0be842de59197f6dd6844d16bd960113da1c4d25af3039c333674e0e7dd1",
+      "tables/table_057.csv": "af12d27a2e0b6665ca652432779eff745f3b833dd05cef331b9274b32403674f",
+      "tables/table_058.csv": "c1bf644867c15c7dc0f3bd39439693325b0ee47e55794a8eacd982a009100235",
+      "tables/table_059.csv": "77ed3a40f32ffd3fe4be56e386ff7e586d94ae57f31272d08bc669438e80de62",
+      "tables/table_060.csv": "aecbd55df5f551517fbe7f284c0933bd1c993b6c1d3f3155eca6b49cc52825e7",
+      "tables/table_061.csv": "745b0ae90a3e885830777173214039b029ea5500f3efb159429f59a78a9cb362",
+      "tables/table_062.csv": "3bb86ae17a13e5b5642699939a7b6b13262db37a41e7fa13ebf01dae52076759",
+      "tables/table_063.csv": "c4c623c889aaef66227b78c7f6e120b723c820a8574c9723b7089ec95799d659",
+      "tables/table_064.csv": "8b213ef914c923d7f15f9ddb5e2d880915d0bfc814fb52558f1af75422d23560",
+      "tables/table_065.csv": "9fb6b26cbfcc89af1423673538074fe0eecda48bb57e27b2faa311f760f88458",
+      "tables/table_066.csv": "05cab284ca64ce3b01b0b2eb0406bc1ebef3c86c166166b24d31fcb93d690ced",
+      "tables/table_067.csv": "595ef3fd4e63499ce50e90c34d1cf23975b2d1f8655e8ea659755693b00302e9",
+      "tables/table_068.csv": "87d62b9223b51df19be4b3109c7d9c066696bdf393e091370ae8451d41217cde",
+      "tables/table_069.csv": "5cc7330a057ed0c68a401e0485fd7eb57ff57bbb55bf67791ace9d8c3a036cf7",
+      "tables/table_070.csv": "4d47f0268b9a829ae768a8189d5c535a4829859831f40ba33c4013bce67bb178",
+      "tables/table_071.csv": "4d47f0268b9a829ae768a8189d5c535a4829859831f40ba33c4013bce67bb178",
+      "tables/table_072.csv": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "tables/table_073.csv": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "tables/table_074.csv": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "tables/table_075.csv": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "tables/table_076.csv": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "tables/table_077.csv": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "tables/table_078.csv": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "tables/table_079.csv": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "tables/table_080.csv": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "tables/table_081.csv": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "tables/table_082.csv": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "tables/table_083.csv": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "tables/table_084.csv": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "tables/table_085.csv": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "tables/table_086.csv": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "tables/table_087.csv": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "tables/table_088.csv": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "tables/table_089.csv": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "tables/table_090.csv": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "tables/table_091.csv": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "tables/table_092.csv": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "tables/table_093.csv": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "tables/table_094.csv": "aaf6823706d30b3685a8ba4e24732151489f176b9861f4f2f0a14d6ce5158441",
+      "tables/table_095.csv": "8691c129fc14addef33847ad6823d6ff153080d2668736cff39ce0b252141de5",
+      "tables/table_096.csv": "4114c78120fc381d5d2a9c547d5818d123d81d35576f0f7ee16e0ae1403eb831",
+      "tables/table_097.csv": "251dff72eb1dcb0c45315d95d34af114b5e127286deb85059900e6678f4b6430",
+      "tables/table_098.csv": "c33e9935fc45c5bcb5cad476ab2b27333ebb607f550242e3670101abaf828ed6",
+      "tables/table_099.csv": "cc180cee8c6d8ea09cdfe3e162db51db359ce3cb05d963c94bc8bc3c92cd118f",
+      "tables/table_100.csv": "1a9a84ccb7a01a1fef634a75036d563540951d59d137100b6921765f1fbb8a60",
+      "tables/table_101.csv": "5b7c09dc8e585814670507a89784af6e993f687c7a899cdaf3649d2369f29534",
+      "tables/table_102.csv": "89dd68b4ac082c0638f0b43ff3c4190bfe3415bcd09523b0746ea79ca6117d1e",
+      "tables/table_103.csv": "d1bbe0f42ee5fee1aeec7f8fd25c33c3f550dd501cedb61125cbad1dc25a4366"
+    },
+    "ocr_required_pages": [
+      17,
+      18,
+      28,
+      29,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      113
+    ],
+    "ocr_required_table_indexes": [
+      18,
+      19,
+      27,
+      28,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93
+    ]
+  },
+  "error": null
+}

@@ -1,0 +1,243 @@
+{
+  "schema_version": "3.0",
+  "source_pdf": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/raw/ammc/pdfs/annual/lafargeholcim_maroc/2024/LafargeHolcim_Maroc_RFA_2024.pdf",
+  "source_sha256": "f246c5d9357d6962afafbdeaf94c18b2329b20f5d2d4f8eca63de6ba7a4c6c1c",
+  "parser_metadata": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/LafargeHolcim_Maroc_RFA_2024_f246c5d9357d/metadata.json",
+  "config": {
+    "languages": [
+      "fra",
+      "eng"
+    ],
+    "psms": [
+      6,
+      11
+    ],
+    "render_dpi": 300,
+    "minimum_image_width": 400,
+    "minimum_image_height": 250,
+    "minimum_region_area_ratio": 0.03,
+    "minimum_amount_count": 5,
+    "column_tolerance": 0.045
+  },
+  "config_sha256": "e0ca308dea6d26eb838790781b5dfac293390b6ff28071a1ba75c2148bb02d4e",
+  "selection": {
+    "selected_pages": [
+      1,
+      11,
+      23,
+      34,
+      91
+    ],
+    "regions_json_sha256": null
+  },
+  "selection_sha256": "7339a26ddcbd7a3578817f0a87f13735fe3e1a1318b51ffdf568a17f66ddb735",
+  "ocr_engine": "tesseract-cli",
+  "tesseract_version": "tesseract 5.5.3",
+  "selected_pages": [
+    1,
+    11,
+    23,
+    34,
+    91
+  ],
+  "regions_examined": 5,
+  "tables_detected": 0,
+  "tables": [],
+  "rejected_regions": [
+    {
+      "page": 1,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        841.8900146484375
+      ],
+      "source": "embedded_image",
+      "source_id": "xref:3036:1",
+      "name": null,
+      "image_size": [
+        2481,
+        3508
+      ],
+      "attempts": [
+        {
+          "psm": 6,
+          "score": -27,
+          "amount_count": 0,
+          "keyword_count": 0,
+          "rows": 0,
+          "multi_value_rows": 0,
+          "labeled_rows": 0
+        },
+        {
+          "psm": 11,
+          "score": -146,
+          "amount_count": 0,
+          "keyword_count": 0,
+          "rows": 0,
+          "multi_value_rows": 0,
+          "labeled_rows": 0
+        }
+      ],
+      "selected_psm": 6,
+      "reason": "NOT_FINANCIAL_TABLE"
+    },
+    {
+      "page": 11,
+      "bbox": [
+        0.0,
+        0.0,
+        1190.550048828125,
+        841.8900146484375
+      ],
+      "source": "embedded_image",
+      "source_id": "xref:294:1",
+      "name": null,
+      "image_size": [
+        4961,
+        3508
+      ],
+      "attempts": [
+        {
+          "psm": 6,
+          "score": -26,
+          "amount_count": 2,
+          "keyword_count": 0,
+          "rows": 1,
+          "multi_value_rows": 1,
+          "labeled_rows": 1
+        },
+        {
+          "psm": 11,
+          "score": -242,
+          "amount_count": 2,
+          "keyword_count": 0,
+          "rows": 2,
+          "multi_value_rows": 0,
+          "labeled_rows": 0
+        }
+      ],
+      "selected_psm": 6,
+      "reason": "NOT_FINANCIAL_TABLE"
+    },
+    {
+      "page": 23,
+      "bbox": [
+        0.0,
+        0.0,
+        1190.550048828125,
+        841.8900146484375
+      ],
+      "source": "embedded_image",
+      "source_id": "xref:859:1",
+      "name": null,
+      "image_size": [
+        4961,
+        3508
+      ],
+      "attempts": [
+        {
+          "psm": 6,
+          "score": -23,
+          "amount_count": 0,
+          "keyword_count": 0,
+          "rows": 0,
+          "multi_value_rows": 0,
+          "labeled_rows": 0
+        },
+        {
+          "psm": 11,
+          "score": -128,
+          "amount_count": 1,
+          "keyword_count": 0,
+          "rows": 1,
+          "multi_value_rows": 0,
+          "labeled_rows": 1
+        }
+      ],
+      "selected_psm": 6,
+      "reason": "NOT_FINANCIAL_TABLE"
+    },
+    {
+      "page": 34,
+      "bbox": [
+        0.0,
+        0.0,
+        1190.550048828125,
+        841.8900146484375
+      ],
+      "source": "embedded_image",
+      "source_id": "xref:1107:1",
+      "name": null,
+      "image_size": [
+        4961,
+        3508
+      ],
+      "attempts": [
+        {
+          "psm": 6,
+          "score": -15,
+          "amount_count": 4,
+          "keyword_count": 0,
+          "rows": 4,
+          "multi_value_rows": 0,
+          "labeled_rows": 4
+        },
+        {
+          "psm": 11,
+          "score": -326,
+          "amount_count": 1,
+          "keyword_count": 0,
+          "rows": 1,
+          "multi_value_rows": 0,
+          "labeled_rows": 0
+        }
+      ],
+      "selected_psm": 6,
+      "reason": "NOT_FINANCIAL_TABLE"
+    },
+    {
+      "page": 91,
+      "bbox": [
+        901.1354370117188,
+        456.2976989746094,
+        1124.5880126953125,
+        601.6403198242188
+      ],
+      "source": "embedded_image",
+      "source_id": "xref:2156:3",
+      "name": null,
+      "image_size": [
+        932,
+        606
+      ],
+      "attempts": [
+        {
+          "psm": 6,
+          "score": -7,
+          "amount_count": 0,
+          "keyword_count": 0,
+          "rows": 0,
+          "multi_value_rows": 0,
+          "labeled_rows": 0
+        },
+        {
+          "psm": 11,
+          "score": -10,
+          "amount_count": 0,
+          "keyword_count": 0,
+          "rows": 0,
+          "multi_value_rows": 0,
+          "labeled_rows": 0
+        }
+      ],
+      "selected_psm": 6,
+      "reason": "NOT_FINANCIAL_TABLE"
+    }
+  ],
+  "duration_seconds": 46.139,
+  "financial_validation": "NOT_PERFORMED",
+  "status": "FAILED",
+  "cache_used": false,
+  "artifact_sha256": {}
+}

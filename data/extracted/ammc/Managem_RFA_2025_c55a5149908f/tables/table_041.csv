@@ -1,0 +1,26 @@
+,Exercice du : 01/01/2025 au 31/12/2025.DÉSIGNATION ,Exercice du : 01/01/2025 au 31/12/2025.EXERCICE ,Exercice du : 01/01/2025 au 31/12/2025.EXERCICE PRÉCÉDENT
+1 ,Ventes de Marchandises ( en l'état),,
+2  - ,Achats revendus de marchandises,,
+I  = ,MARGE BRUTES VENTES EN L'ETAT,,
+II  + ,PRODUCTION DE L'EXERCICE (3+4+5) ,"531 663 654,35 ","467 157 384,92"
+3 ,Ventes de biens et services produits ,"531 120 142,59 ","467 157 384,92"
+4 ,Variation stocks produits,,
+5 ,Immobilisations produites par l'entreprise pour elle-même ,"543 511,76",
+III  - ,CONSOMMATIONS DE L'EXERCICE (6+7) ,"143 062 228,65 ","150 548 256,94"
+6 ,Achats consommés de matières et fournitures ,"51 775 035,03 ","37 626 263,91"
+7 ,Autres charges externes ,"91 287 193,62 ","112 921 993,03"
+IV  = ,VALEUR AJOUTÉE (I+II+III) ,"388 601 425,70 ","316 609 127,98"
+8  + ,Subventions d'exploitation,,
+9  - ,Impôts et taxes ,"29 452 500,54 ","27 047 428,34"
+10  - ,Charges de personnel ,"173 606 053,45 ","127 089 276,83"
+V  = ,EXCÉDENT BRUT D'EXPLOITATION (EBE) |OU INSUFFISANCE BRUTE  D'EXPLOITATION (IBE) ,"185 542 871,71 ","162 472 422,81"
+11  + ,Autres produits d'exploitation ,"7 941 800,00 ","8 025 000,00"
+12  - ,Autres charges d'exploitation ,"2 760 000,00 ","2 057 000,00"
+13  + ,"Reprises d'exploitation, transferts de charges ",,"17 926 096,41"
+14  - ,Dotations d'exploitation ,"40 799 283,30 ","15 227 677,86"
+VI  = ,RÉSULTAT D'EXPLOITATION(+ou-) ,"149 925 388,41 ","171 138 841,36"
+VII  + ,RÉSULTAT FINANCIER ,"1 072 254 445,58 ","228 923 769,64"
+VIII  = ,RÉSULTAT COURANT (+ou-) ,"1 222 179 833,99 ","400 062 611,00"
+IX  + ,RÉSULTAT NON COURANT ,"-686 004 224,79 ","-148 719 407,77"
+15  - ,Impôts sur les résultats ,"4 321 925,00 ","35 418 278,00"
+X  = ,RÉSULTAT NET DE L’EXERCICE ( + ou - ) ,"531 853 684,20 ","215 924 925,23"

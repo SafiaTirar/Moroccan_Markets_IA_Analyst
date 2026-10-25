@@ -12,7 +12,7 @@ import pandas as pd
 from pandas.errors import EmptyDataError, ParserError
 from pydantic import BaseModel, Field
 
-VALIDATION_SCHEMA_VERSION = "1.0"
+VALIDATION_SCHEMA_VERSION = "2.0"
 
 FINANCIAL_PAGE_KEYWORDS = (
     "bilan",
@@ -61,6 +61,8 @@ class ParserValidationReport(BaseModel):
     issues: list[ValidationIssue] = Field(default_factory=list)
     tables: list[TableValidationResult] = Field(default_factory=list)
     artifact_sha256: dict[str, str] = Field(default_factory=dict)
+    ocr_required_pages: list[int] = Field(default_factory=list)
+    ocr_required_table_indexes: list[int] = Field(default_factory=list)
 
 
 @dataclass(frozen=True)
@@ -203,6 +205,14 @@ class ParserValidator:
             status = ParserStatus.PARSED
 
         hashes = self._artifact_hashes(output_dir, tables)
+        ocr_issue_codes = {
+            "EMPTY_TABLE",
+            "FINANCIAL_IMAGE_REQUIRES_OCR",
+            "IMAGE_TABLE_REQUIRES_OCR",
+        }
+        ocr_issues = [
+            issue for issue in issues if issue.code in ocr_issue_codes
+        ]
 
         return ParserValidationReport(
             status=status,
@@ -212,6 +222,16 @@ class ParserValidator:
             issues=issues,
             tables=table_results,
             artifact_sha256=hashes,
+            ocr_required_pages=sorted(
+                {page for issue in ocr_issues for page in issue.pages}
+            ),
+            ocr_required_table_indexes=sorted(
+                {
+                    issue.table_index
+                    for issue in ocr_issues
+                    if issue.table_index is not None
+                }
+            ),
         )
 
     def _validate_table(
@@ -584,6 +604,8 @@ def is_cache_valid(
     metadata: dict,
     source_sha256: str,
     docling_version: str,
+    backend_name: str | None = None,
+    extraction_config_sha256: str | None = None,
 ) -> bool:
     if metadata.get("sha256") != source_sha256:
         return False
@@ -591,13 +613,34 @@ def is_cache_valid(
     if metadata.get("docling_version") != docling_version:
         return False
 
+    if (
+        backend_name is not None
+        and metadata.get("backend") != backend_name
+    ):
+        return False
+
+    if (
+        extraction_config_sha256 is not None
+        and metadata.get("extraction_config_sha256")
+        != extraction_config_sha256
+    ):
+        return False
+
     if metadata.get("validation_schema_version") != VALIDATION_SCHEMA_VERSION:
         return False
 
-    if metadata.get("status") not in {
+    status = metadata.get("status")
+    if status not in {
         ParserStatus.PARSED,
         ParserStatus.PARTIAL,
+        ParserStatus.FAILED,
     }:
+        return False
+
+    # A validation failure is cacheable: Docling completed and downstream OCR
+    # must be able to consume its empty/incomplete tables without triggering an
+    # expensive identical conversion. A conversion failure remains retryable.
+    if status == ParserStatus.FAILED and metadata.get("error") is not None:
         return False
 
     validation = metadata.get("validation")

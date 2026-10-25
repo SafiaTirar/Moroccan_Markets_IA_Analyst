@@ -1,0 +1,550 @@
+{
+  "schema_version": "1.0",
+  "ingestion_fingerprint": "f52db979d87a918575672d7f12050f96843e0df8746612684419fe4c891e43e1",
+  "queries": [
+    {
+      "name": "financial_coverage",
+      "sql": "SELECT company_id, verified_observation_count, verified_indicator_count FROM v_financial_coverage ORDER BY verified_observation_count DESC, company_id",
+      "row_count": 15,
+      "rows": [
+        {
+          "company_id": "s2m",
+          "verified_observation_count": 10,
+          "verified_indicator_count": 5
+        },
+        {
+          "company_id": "wafa_assurance",
+          "verified_observation_count": 6,
+          "verified_indicator_count": 5
+        },
+        {
+          "company_id": "auto_hall",
+          "verified_observation_count": 3,
+          "verified_indicator_count": 3
+        },
+        {
+          "company_id": "aradei_capital",
+          "verified_observation_count": 2,
+          "verified_indicator_count": 2
+        },
+        {
+          "company_id": "attijariwafa_bank",
+          "verified_observation_count": 2,
+          "verified_indicator_count": 2
+        },
+        {
+          "company_id": "dari_couspate",
+          "verified_observation_count": 2,
+          "verified_indicator_count": 2
+        },
+        {
+          "company_id": "cosumar",
+          "verified_observation_count": 0,
+          "verified_indicator_count": 0
+        },
+        {
+          "company_id": "lafargeholcim_maroc",
+          "verified_observation_count": 0,
+          "verified_indicator_count": 0
+        },
+        {
+          "company_id": "lesieur_cristal",
+          "verified_observation_count": 0,
+          "verified_indicator_count": 0
+        },
+        {
+          "company_id": "managem",
+          "verified_observation_count": 0,
+          "verified_indicator_count": 0
+        },
+        {
+          "company_id": "marsa_maroc",
+          "verified_observation_count": 0,
+          "verified_indicator_count": 0
+        },
+        {
+          "company_id": "sonasid",
+          "verified_observation_count": 0,
+          "verified_indicator_count": 0
+        },
+        {
+          "company_id": "sothema",
+          "verified_observation_count": 0,
+          "verified_indicator_count": 0
+        },
+        {
+          "company_id": "stroc",
+          "verified_observation_count": 0,
+          "verified_indicator_count": 0
+        },
+        {
+          "company_id": "totalenergies_marketing_maroc",
+          "verified_observation_count": 0,
+          "verified_indicator_count": 0
+        }
+      ]
+    },
+    {
+      "name": "financial_current_and_comparative",
+      "sql": "SELECT company_id, observation_year, indicator, accounting_perimeter, normalized_value, currency, is_comparative FROM v_financial_observations ORDER BY company_id, observation_year, indicator",
+      "row_count": 25,
+      "rows": [
+        {
+          "company_id": "aradei_capital",
+          "observation_year": 2025,
+          "indicator": "RENTAL_INCOME",
+          "accounting_perimeter": "CONSOLIDATED",
+          "normalized_value": "609918000.000000",
+          "currency": "MAD",
+          "is_comparative": false
+        },
+        {
+          "company_id": "aradei_capital",
+          "observation_year": 2025,
+          "indicator": "REVENUE",
+          "accounting_perimeter": "CONSOLIDATED",
+          "normalized_value": "646897000.000000",
+          "currency": "MAD",
+          "is_comparative": false
+        },
+        {
+          "company_id": "attijariwafa_bank",
+          "observation_year": 2025,
+          "indicator": "BANKING_NET_REVENUE",
+          "accounting_perimeter": "CONSOLIDATED",
+          "normalized_value": "34921384000.000000",
+          "currency": "MAD",
+          "is_comparative": false
+        },
+        {
+          "company_id": "attijariwafa_bank",
+          "observation_year": 2025,
+          "indicator": "NET_INCOME",
+          "accounting_perimeter": "CONSOLIDATED",
+          "normalized_value": "12368271000.000000",
+          "currency": "MAD",
+          "is_comparative": false
+        },
+        {
+          "company_id": "auto_hall",
+          "observation_year": 2025,
+          "indicator": "NET_INCOME",
+          "accounting_perimeter": "CONSOLIDATED",
+          "normalized_value": "99832376.790000",
+          "currency": "MAD",
+          "is_comparative": false
+        },
+        {
+          "company_id": "auto_hall",
+          "observation_year": 2025,
+          "indicator": "OPERATING_INCOME",
+          "accounting_perimeter": "CONSOLIDATED",
+          "normalized_value": "301944178.520000",
+          "currency": "MAD",
+          "is_comparative": false
+        },
+        {
+          "company_id": "auto_hall",
+          "observation_year": 2025,
+          "indicator": "TOTAL_ASSETS",
+          "accounting_perimeter": "CONSOLIDATED",
+          "normalized_value": "6484075069.340000",
+          "currency": "MAD",
+          "is_comparative": false
+        },
+        {
+          "company_id": "dari_couspate",
+          "observation_year": 2023,
+          "indicator": "NET_INCOME",
+          "accounting_perimeter": "SOCIAL",
+          "normalized_value": "35228715.280000",
+          "currency": "MAD",
+          "is_comparative": false
+        },
+        {
+          "company_id": "dari_couspate",
+          "observation_year": 2023,
+          "indicator": "SHARE_CAPITAL",
+          "accounting_perimeter": "SOCIAL",
+          "normalized_value": "29837500.000000",
+          "currency": "MAD",
+          "is_comparative": false
+        },
+        {
+          "company_id": "s2m",
+          "observation_year": 2024,
+          "indicator": "NET_INCOME",
+          "accounting_perimeter": "CONSOLIDATED",
+          "normalized_value": "28464006.000000",
+          "currency": "MAD",
+          "is_comparative": true
+        },
+        {
+          "company_id": "s2m",
+          "observation_year": 2024,
+          "indicator": "NET_INCOME",
+          "accounting_perimeter": "CONSOLIDATED",
+          "normalized_value": "28463643.000000",
+          "currency": "MAD",
+          "is_comparative": false
+        },
+        {
+          "company_id": "s2m",
+          "observation_year": 2024,
+          "indicator": "NET_INCOME_GROUP_SHARE",
+          "accounting_perimeter": "CONSOLIDATED",
+          "normalized_value": "29413480.000000",
+          "currency": "MAD",
+          "is_comparative": false
+        },
+        {
+          "company_id": "s2m",
+          "observation_year": 2024,
+          "indicator": "NET_INCOME_GROUP_SHARE",
+          "accounting_perimeter": "CONSOLIDATED",
+          "normalized_value": "29413844.000000",
+          "currency": "MAD",
+          "is_comparative": true
+        },
+        {
+          "company_id": "s2m",
+          "observation_year": 2024,
+          "indicator": "REVENUE",
+          "accounting_perimeter": "CONSOLIDATED",
+          "normalized_value": "312710114.000000",
+          "currency": "MAD",
+          "is_comparative": false
+        },
+        {
+          "company_id": "s2m",
+          "observation_year": 2025,
+          "indicator": "EQUITY",
+          "accounting_perimeter": "CONSOLIDATED",
+          "normalized_value": "135589205.000000",
+          "currency": "MAD",
+          "is_comparative": false
+        },
+        {
+          "company_id": "s2m",
+          "observation_year": 2025,
+          "indicator": "NET_INCOME",
+          "accounting_perimeter": "CONSOLIDATED",
+          "normalized_value": "32558354.000000",
+          "currency": "MAD",
+          "is_comparative": false
+        },
+        {
+          "company_id": "s2m",
+          "observation_year": 2025,
+          "indicator": "NET_INCOME_GROUP_SHARE",
+          "accounting_perimeter": "CONSOLIDATED",
+          "normalized_value": "32558354.000000",
+          "currency": "MAD",
+          "is_comparative": false
+        },
+        {
+          "company_id": "s2m",
+          "observation_year": 2025,
+          "indicator": "OPERATING_INCOME",
+          "accounting_perimeter": "CONSOLIDATED",
+          "normalized_value": "53863016.000000",
+          "currency": "MAD",
+          "is_comparative": false
+        },
+        {
+          "company_id": "s2m",
+          "observation_year": 2025,
+          "indicator": "REVENUE",
+          "accounting_perimeter": "CONSOLIDATED",
+          "normalized_value": "366845581.000000",
+          "currency": "MAD",
+          "is_comparative": false
+        },
+        {
+          "company_id": "wafa_assurance",
+          "observation_year": 2023,
+          "indicator": "EQUITY",
+          "accounting_perimeter": "CONSOLIDATED",
+          "normalized_value": "9509089000.000000",
+          "currency": "MAD",
+          "is_comparative": false
+        },
+        {
+          "company_id": "wafa_assurance",
+          "observation_year": 2023,
+          "indicator": "NET_INCOME_GROUP_SHARE",
+          "accounting_perimeter": "CONSOLIDATED",
+          "normalized_value": "670499000.000000",
+          "currency": "MAD",
+          "is_comparative": false
+        },
+        {
+          "company_id": "wafa_assurance",
+          "observation_year": 2023,
+          "indicator": "TOTAL_ASSETS",
+          "accounting_perimeter": "CONSOLIDATED",
+          "normalized_value": "64714974000.000000",
+          "currency": "MAD",
+          "is_comparative": false
+        },
+        {
+          "company_id": "wafa_assurance",
+          "observation_year": 2025,
+          "indicator": "INSURANCE_REVENUE",
+          "accounting_perimeter": "CONSOLIDATED",
+          "normalized_value": "9064653000.000000",
+          "currency": "MAD",
+          "is_comparative": false
+        },
+        {
+          "company_id": "wafa_assurance",
+          "observation_year": 2025,
+          "indicator": "NET_INCOME",
+          "accounting_perimeter": "CONSOLIDATED",
+          "normalized_value": "1100403000.000000",
+          "currency": "MAD",
+          "is_comparative": false
+        },
+        {
+          "company_id": "wafa_assurance",
+          "observation_year": 2025,
+          "indicator": "TOTAL_ASSETS",
+          "accounting_perimeter": "CONSOLIDATED",
+          "normalized_value": "75534168000.000000",
+          "currency": "MAD",
+          "is_comparative": false
+        }
+      ]
+    },
+    {
+      "name": "hcp_latest_general_index",
+      "sql": "SELECT observation_date, value, unit, base_year FROM v_hcp_monthly_trend WHERE category = 'Indice Général' ORDER BY observation_date DESC LIMIT 12",
+      "row_count": 12,
+      "rows": [
+        {
+          "observation_date": "2026-08-01",
+          "value": "119.600000",
+          "unit": "index_points",
+          "base_year": 2017
+        },
+        {
+          "observation_date": "2026-07-01",
+          "value": "118.700000",
+          "unit": "index_points",
+          "base_year": 2017
+        },
+        {
+          "observation_date": "2026-06-01",
+          "value": "119.900000",
+          "unit": "index_points",
+          "base_year": 2017
+        },
+        {
+          "observation_date": "2026-05-01",
+          "value": "120.400000",
+          "unit": "index_points",
+          "base_year": 2017
+        },
+        {
+          "observation_date": "2026-04-01",
+          "value": "121.500000",
+          "unit": "index_points",
+          "base_year": 2017
+        },
+        {
+          "observation_date": "2026-03-01",
+          "value": "121.000000",
+          "unit": "index_points",
+          "base_year": 2017
+        },
+        {
+          "observation_date": "2026-02-01",
+          "value": "119.600000",
+          "unit": "index_points",
+          "base_year": 2017
+        },
+        {
+          "observation_date": "2026-01-01",
+          "value": "119.000000",
+          "unit": "index_points",
+          "base_year": 2017
+        },
+        {
+          "observation_date": "2025-12-01",
+          "value": "118.700000",
+          "unit": "index_points",
+          "base_year": 2017
+        },
+        {
+          "observation_date": "2025-11-01",
+          "value": "118.800000",
+          "unit": "index_points",
+          "base_year": 2017
+        },
+        {
+          "observation_date": "2025-10-01",
+          "value": "119.500000",
+          "unit": "index_points",
+          "base_year": 2017
+        },
+        {
+          "observation_date": "2025-09-01",
+          "value": "120.200000",
+          "unit": "index_points",
+          "base_year": 2017
+        }
+      ]
+    },
+    {
+      "name": "worldbank_2023_2025",
+      "sql": "SELECT observation_year, indicator, value, unit FROM v_worldbank_annual_trend WHERE observation_year BETWEEN 2023 AND 2025 ORDER BY observation_year, indicator",
+      "row_count": 6,
+      "rows": [
+        {
+          "observation_year": 2023,
+          "indicator": "gdp_growth_annual_pct",
+          "value": "3.655644110179310000",
+          "unit": "percent"
+        },
+        {
+          "observation_year": 2023,
+          "indicator": "inflation_consumer_prices_annual_pct",
+          "value": "6.091141525041400000",
+          "unit": "percent"
+        },
+        {
+          "observation_year": 2024,
+          "indicator": "gdp_growth_annual_pct",
+          "value": "3.793365159789630000",
+          "unit": "percent"
+        },
+        {
+          "observation_year": 2024,
+          "indicator": "inflation_consumer_prices_annual_pct",
+          "value": "0.985256592004506000",
+          "unit": "percent"
+        },
+        {
+          "observation_year": 2025,
+          "indicator": "gdp_growth_annual_pct",
+          "value": "4.595243491822470000",
+          "unit": "percent"
+        },
+        {
+          "observation_year": 2025,
+          "indicator": "inflation_consumer_prices_annual_pct",
+          "value": "0.701902154839544000",
+          "unit": "percent"
+        }
+      ]
+    },
+    {
+      "name": "source_granularity_counts",
+      "sql": "SELECT 'HCP_MONTHLY' AS series, count(*) AS observation_count FROM fact_hcp_monthly UNION ALL SELECT 'WORLDBANK_ANNUAL', count(*) FROM fact_worldbank_annual UNION ALL SELECT 'AMMC_VERIFIED', count(*) FROM fact_financial_observations",
+      "row_count": 3,
+      "rows": [
+        {
+          "series": "HCP_MONTHLY",
+          "observation_count": 348
+        },
+        {
+          "series": "WORLDBANK_ANNUAL",
+          "observation_count": 32
+        },
+        {
+          "series": "AMMC_VERIFIED",
+          "observation_count": 25
+        }
+      ]
+    },
+    {
+      "name": "s2m_2024_as_reported",
+      "sql": "SELECT company_id, observation_year, indicator, normalized_value, selection_status, selected_report_exercise_year FROM v_financial_as_reported WHERE company_id = 's2m' AND observation_year = 2024 ORDER BY indicator",
+      "row_count": 3,
+      "rows": [
+        {
+          "company_id": "s2m",
+          "observation_year": 2024,
+          "indicator": "NET_INCOME",
+          "normalized_value": "28463643.000000",
+          "selection_status": "AVAILABLE",
+          "selected_report_exercise_year": 2024
+        },
+        {
+          "company_id": "s2m",
+          "observation_year": 2024,
+          "indicator": "NET_INCOME_GROUP_SHARE",
+          "normalized_value": "29413480.000000",
+          "selection_status": "AVAILABLE",
+          "selected_report_exercise_year": 2024
+        },
+        {
+          "company_id": "s2m",
+          "observation_year": 2024,
+          "indicator": "REVENUE",
+          "normalized_value": "312710114.000000",
+          "selection_status": "AVAILABLE",
+          "selected_report_exercise_year": 2024
+        }
+      ]
+    },
+    {
+      "name": "s2m_2024_latest_available",
+      "sql": "SELECT company_id, observation_year, indicator, normalized_value, selection_status, selected_report_exercise_year FROM v_financial_latest_available WHERE company_id = 's2m' AND observation_year = 2024 ORDER BY indicator",
+      "row_count": 3,
+      "rows": [
+        {
+          "company_id": "s2m",
+          "observation_year": 2024,
+          "indicator": "NET_INCOME",
+          "normalized_value": "28464006.000000",
+          "selection_status": "AVAILABLE",
+          "selected_report_exercise_year": 2025
+        },
+        {
+          "company_id": "s2m",
+          "observation_year": 2024,
+          "indicator": "NET_INCOME_GROUP_SHARE",
+          "normalized_value": "29413844.000000",
+          "selection_status": "AVAILABLE",
+          "selected_report_exercise_year": 2025
+        },
+        {
+          "company_id": "s2m",
+          "observation_year": 2024,
+          "indicator": "REVENUE",
+          "normalized_value": "312710114.000000",
+          "selection_status": "AVAILABLE",
+          "selected_report_exercise_year": 2024
+        }
+      ]
+    },
+    {
+      "name": "financial_version_divergences",
+      "sql": "SELECT company_id, observation_year, indicator, first_value, latest_value, absolute_difference, relative_difference_pct, comparison_status FROM v_financial_version_comparison WHERE comparison_status = 'DIVERGENT' ORDER BY company_id, observation_year, indicator",
+      "row_count": 2,
+      "rows": [
+        {
+          "company_id": "s2m",
+          "observation_year": 2024,
+          "indicator": "NET_INCOME",
+          "first_value": "28463643.000000",
+          "latest_value": "28464006.000000",
+          "absolute_difference": "363.000000",
+          "relative_difference_pct": "0.001275311105",
+          "comparison_status": "DIVERGENT"
+        },
+        {
+          "company_id": "s2m",
+          "observation_year": 2024,
+          "indicator": "NET_INCOME_GROUP_SHARE",
+          "first_value": "29413480.000000",
+          "latest_value": "29413844.000000",
+          "absolute_difference": "364.000000",
+          "relative_difference_pct": "0.001237527827",
+          "comparison_status": "DIVERGENT"
+        }
+      ]
+    }
+  ]
+}

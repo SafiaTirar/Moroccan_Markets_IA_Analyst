@@ -1,0 +1,97 @@
+{
+  "schema_version": "1.0",
+  "target_years": [2023, 2024, 2025],
+  "selection_basis": "Diversification sectorielle parmi les sociétés cotées dont les fiches annuelles 2024 et 2025 sont présentes dans le catalogue AMMC. Toute année 2023 ajoutée par motif d'URL doit être confirmée par les métadonnées de la fiche officielle avant admission.",
+  "companies": [
+    {
+      "company_id": "attijariwafa_bank",
+      "ammc_issuer": "ATTIJARIWAFA BANK",
+      "aliases": [],
+      "sector": "Banques"
+    },
+    {
+      "company_id": "wafa_assurance",
+      "ammc_issuer": "Wafa Assurance",
+      "aliases": [],
+      "sector": "Assurances"
+    },
+    {
+      "company_id": "aradei_capital",
+      "ammc_issuer": "ARADEI CAPITAL",
+      "aliases": [],
+      "sector": "Immobilier"
+    },
+    {
+      "company_id": "auto_hall",
+      "ammc_issuer": "AUTO HALL",
+      "aliases": [],
+      "sector": "Distribution automobile"
+    },
+    {
+      "company_id": "cosumar",
+      "ammc_issuer": "COSUMAR",
+      "aliases": [],
+      "sector": "Agroalimentaire"
+    },
+    {
+      "company_id": "dari_couspate",
+      "ammc_issuer": "DARI COUSPATE",
+      "aliases": [],
+      "sector": "Agroalimentaire"
+    },
+    {
+      "company_id": "lafargeholcim_maroc",
+      "ammc_issuer": "HOLCIM MAROC",
+      "aliases": ["LAFARGEHOLCIM MAROC"],
+      "sector": "Matériaux de construction"
+    },
+    {
+      "company_id": "lesieur_cristal",
+      "ammc_issuer": "LESIEUR CRISTAL",
+      "aliases": [],
+      "sector": "Agroalimentaire"
+    },
+    {
+      "company_id": "managem",
+      "ammc_issuer": "MANAGEM",
+      "aliases": [],
+      "sector": "Mines"
+    },
+    {
+      "company_id": "marsa_maroc",
+      "ammc_issuer": "MARSA MAROC",
+      "aliases": ["Marsa Maroc"],
+      "sector": "Transport et logistique"
+    },
+    {
+      "company_id": "s2m",
+      "ammc_issuer": "S2M",
+      "aliases": [],
+      "sector": "Technologies de l'information"
+    },
+    {
+      "company_id": "sonasid",
+      "ammc_issuer": "SONASID",
+      "aliases": [],
+      "sector": "Sidérurgie"
+    },
+    {
+      "company_id": "sothema",
+      "ammc_issuer": "SOTHEMA",
+      "aliases": [],
+      "sector": "Industrie pharmaceutique"
+    },
+    {
+      "company_id": "stroc",
+      "ammc_issuer": "STROC",
+      "aliases": ["STROC INDUSTRIE"],
+      "sector": "Ingénierie et construction"
+    },
+    {
+      "company_id": "totalenergies_marketing_maroc",
+      "ammc_issuer": "TotalEnergies Marketing Maroc",
+      "aliases": ["TOTAL MAROC"],
+      "sector": "Énergie et distribution"
+    }
+  ]
+}

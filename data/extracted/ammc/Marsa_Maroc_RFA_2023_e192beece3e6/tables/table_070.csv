@@ -1,0 +1,40 @@
+PASSIF,EXERCICE 31/12/2023,EXERCICE PRECEDENT 31/12/2022
+CAPITAUX PROPRES ,"1.780.830.216,15 ","1.639.492.365,93"
+* Capital social ou personnel (1) ,"733.956.000,00 ","733.956.000,00"
+"* Moins : actionnaires, capital souscrit non appelé",,
+"* Prime d'émission, de fusion, d'apport",,
+* Ecart de réévaluation,,
+* Réserve légale ,"73.395.600,00 ","73.395.600,00"
+* Autres réserves (2) ,"206.331.958,64 ","206.331.958,64"
+* Report à nouveau ,"38.644.007,29 ","1.780.166,52"
+* Résultats nets en instance d'affectation (2) ,,"0,00"
+* Résultat net de l'exercice (2) ,"728.502.650,22 ","624.028.640,77"
+FINANCEMENT PERMANENT  TOTAL DES CAPITAUX PROPRES (A) ,"1.780.830.216,15 ","1.639.492.365,93"
+CAPITAUX PROPRES ASSIMILES (B) ,"144.653.239,86 ","164.599.038,26"
+* Subvention d'investissement ,"3.130.000,00 ","4.382.000,00"
+* Provisions réglementées ,"141.523.239,86 ","160.217.038,26"
+DETTES DE FINANCEMENT (C) ,"0,00 ","0,00"
+* Emprunts obligatoires,,
+* Autres dettes de financement,,
+PROVISIONS DURABLES POUR RISQUES ET CHARGES (D) ,"1.713.023.553,29 ","1.684.348.331,89"
+* Provisions pour risques ,"118.046.736,66 ","134.292.361,11"
+* Provisions pour charges ,"1.594.976.816,63 ","1.550.055.970,78"
+ECART DE CONVERSION PASSIF (E) ,"0,00 ","0,00"
+* Dimunition des dettes de financement,,
+TOTAL I (A+B+C+D+E) ,"3.638.507.009,30 ","3.488.439.736,08"
+DETTES DU PASSIF CIRCULANT (F) ,"737.142.939,77 ","768.067.988,79"
+* Fournisseurs et comptes rattachés ,"198.550.100,63 ","214.491.472,79"
+"* Clients créditeurs, avances et acomptes ","24.684.336,56 ","24.371.588,82"
+* Personnel ,"79.256.559,83 ","49.105.115,97"
+PASSIF CIRCULANT * Organismes sociaux ,"36.438.483,19 ","20.020.244,28"
+* Etat ,"189.313.857,94 ","191.216.871,23"
+* Comptes d'associés ,"3.233,42 ","3.004,62"
+* Autres créanciers ,"145.939.586,08 ","146.166.987,65"
+* Comptes de régularisation passif ,"62.956.782,12 ","122.692.703,43"
+AUTRES PROVISIONS POUR RISQUES ET CHARGES (G) ,"42.067,66 ","1.053.453,95"
+Ecart de conversion Passif (H) ,"188.636,88 ","508.882,95"
+TOTAL II (F + G + H) ,"737.373.644,31 ","769.630.325,69"
+TRESORERIE - PASSIF ,- ,-
+* Banques (soldes créditeurs) TRESORERIE,,
+TOTAL III ,- ,-
+TOTAL GENERAL I + II + III ,"4.375.880.653,61 ","4.258.070.061,77"

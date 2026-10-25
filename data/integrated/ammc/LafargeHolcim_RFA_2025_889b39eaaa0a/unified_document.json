@@ -1,0 +1,2147 @@
+{
+  "schema_version": "2.2",
+  "source_pdf": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/raw/ammc/pdfs/annual/lafargeholcim_maroc/2025/LafargeHolcim_RFA_2025.pdf",
+  "source_sha256": "889b39eaaa0a56050017a0c391395b991a9f7fcc330c579a4d598cd656b790bd",
+  "docling_status": "PARTIAL",
+  "ocr_status": "PARSED",
+  "integration_status": "PARTIAL",
+  "integration_fingerprint": "6d39987d7af4a8d16065237e475c3047fa739e603b9ea32a4f2095a54fe02fd3",
+  "cache_used": false,
+  "active_table_count": 107,
+  "tables": [
+    {
+      "table_id": "DOCLING_001",
+      "source": "DOCLING",
+      "page": [
+        33
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/LafargeHolcim_RFA_2025_889b39eaaa0a/tables/table_001.csv",
+      "coordinates_path": null,
+      "rows": 3,
+      "columns": 4,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "8a40533405729a735d53a1e5ff44e23fa9f0216fbedcb3d582ec7566344d0751"
+    },
+    {
+      "table_id": "DOCLING_002",
+      "source": "DOCLING",
+      "page": [
+        33
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/LafargeHolcim_RFA_2025_889b39eaaa0a/tables/table_002.csv",
+      "coordinates_path": null,
+      "rows": 9,
+      "columns": 4,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "407ccd68f019a0ccd78b08d123d890d2a6bc152872e50e573f7cc747be6332d2"
+    },
+    {
+      "table_id": "DOCLING_003",
+      "source": "DOCLING",
+      "page": [
+        33
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/LafargeHolcim_RFA_2025_889b39eaaa0a/tables/table_003.csv",
+      "coordinates_path": null,
+      "rows": 5,
+      "columns": 4,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "e845bf7e115ce8d6d3bef5358c2bd4a8d25d62f22f7f336a03ca88d2be8ef166"
+    },
+    {
+      "table_id": "DOCLING_004",
+      "source": "DOCLING",
+      "page": [
+        33
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/LafargeHolcim_RFA_2025_889b39eaaa0a/tables/table_004.csv",
+      "coordinates_path": null,
+      "rows": 4,
+      "columns": 4,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "fa18e0562b097668e25360bba6a17ecea98423fcf83892e880bcc23afe172fb3"
+    },
+    {
+      "table_id": "DOCLING_005",
+      "source": "DOCLING",
+      "page": [
+        33
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/LafargeHolcim_RFA_2025_889b39eaaa0a/tables/table_005.csv",
+      "coordinates_path": null,
+      "rows": 6,
+      "columns": 4,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "fb4b8559135fe19ead0bc7368bc8a875caf68ec8cc91a3c7f29570c56ef91c7e"
+    },
+    {
+      "table_id": "DOCLING_006",
+      "source": "DOCLING",
+      "page": [
+        33
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/LafargeHolcim_RFA_2025_889b39eaaa0a/tables/table_006.csv",
+      "coordinates_path": null,
+      "rows": 2,
+      "columns": 4,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "d8184c3f5c9f59854ebe10605bc4f97c49b092085c614b13730e38f325543544"
+    },
+    {
+      "table_id": "DOCLING_007",
+      "source": "DOCLING",
+      "page": [
+        33
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/LafargeHolcim_RFA_2025_889b39eaaa0a/tables/table_007.csv",
+      "coordinates_path": null,
+      "rows": 9,
+      "columns": 4,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "588aabf54d8bbf68ef1fc74050fe6101f9a1b4a52c874f069c20ecc4b80bbf4d"
+    },
+    {
+      "table_id": "DOCLING_008",
+      "source": "DOCLING",
+      "page": [
+        33
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/LafargeHolcim_RFA_2025_889b39eaaa0a/tables/table_008.csv",
+      "coordinates_path": null,
+      "rows": 2,
+      "columns": 4,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "8bda77520faee7f638609fe09e6e174d0b89faad66c78313b22b492e28985c0b"
+    },
+    {
+      "table_id": "DOCLING_009",
+      "source": "DOCLING",
+      "page": [
+        33
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/LafargeHolcim_RFA_2025_889b39eaaa0a/tables/table_009.csv",
+      "coordinates_path": null,
+      "rows": 1,
+      "columns": 4,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "42dc4dd039b5b3e52f18600a63213129ed151b63df4ea9bb0896e3fcff9074fa"
+    },
+    {
+      "table_id": "DOCLING_010",
+      "source": "DOCLING",
+      "page": [
+        33
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/LafargeHolcim_RFA_2025_889b39eaaa0a/tables/table_010.csv",
+      "coordinates_path": null,
+      "rows": 1,
+      "columns": 4,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "4958023e24abc3870b08e17da9141c7c8fef95687e8ba3ebd0a30fe9dec10c50"
+    },
+    {
+      "table_id": "DOCLING_011",
+      "source": "DOCLING",
+      "page": [
+        50
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/LafargeHolcim_RFA_2025_889b39eaaa0a/tables/table_011.csv",
+      "coordinates_path": null,
+      "rows": 4,
+      "columns": 2,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "121862047d5b3b74fc3ef9c17f27bb10295cd661ea57d578c9854df49f106cc8"
+    },
+    {
+      "table_id": "DOCLING_012",
+      "source": "DOCLING",
+      "page": [
+        52
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/LafargeHolcim_RFA_2025_889b39eaaa0a/tables/table_012.csv",
+      "coordinates_path": null,
+      "rows": 9,
+      "columns": 2,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "0fec6bd1258fee3825196bc653e5d6e0571af8def7d91769d78c27adf8982592"
+    },
+    {
+      "table_id": "DOCLING_013",
+      "source": "DOCLING",
+      "page": [
+        54
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/LafargeHolcim_RFA_2025_889b39eaaa0a/tables/table_013.csv",
+      "coordinates_path": null,
+      "rows": 3,
+      "columns": 3,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "3acf694dc822b109e77dba5b5d4b23082bf8930fd31191e7c668e3ecaa8576cf"
+    },
+    {
+      "table_id": "DOCLING_014",
+      "source": "DOCLING",
+      "page": [
+        55
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/LafargeHolcim_RFA_2025_889b39eaaa0a/tables/table_014.csv",
+      "coordinates_path": null,
+      "rows": 13,
+      "columns": 22,
+      "quality_status": "INCOMPLETE",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "f0500969a1b76365c4648d52b1cb8d040cc261d03187cda5278a0de031dd6993"
+    },
+    {
+      "table_id": "DOCLING_015",
+      "source": "DOCLING",
+      "page": [
+        57
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/LafargeHolcim_RFA_2025_889b39eaaa0a/tables/table_015.csv",
+      "coordinates_path": null,
+      "rows": 6,
+      "columns": 2,
+      "quality_status": "INCOMPLETE",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "5d521f59b4fbd163dd036419a59ab748bfaf7914ceea2b3b20196beefd7ab469"
+    },
+    {
+      "table_id": "DOCLING_016",
+      "source": "DOCLING",
+      "page": [
+        57
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/LafargeHolcim_RFA_2025_889b39eaaa0a/tables/table_016.csv",
+      "coordinates_path": null,
+      "rows": 2,
+      "columns": 7,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "c0d1a6bb9a419f1756a19c1ba6a1e2a5f210859eda5e7d10186a23633516c0ef"
+    },
+    {
+      "table_id": "DOCLING_017",
+      "source": "DOCLING",
+      "page": [
+        57
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/LafargeHolcim_RFA_2025_889b39eaaa0a/tables/table_017.csv",
+      "coordinates_path": null,
+      "rows": 10,
+      "columns": 11,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "1700970db7ed9f5aa21878aa5510e323d79e54fe26d68f841aa60ba3150115c7"
+    },
+    {
+      "table_id": "DOCLING_018",
+      "source": "DOCLING",
+      "page": [
+        58
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/LafargeHolcim_RFA_2025_889b39eaaa0a/tables/table_018.csv",
+      "coordinates_path": null,
+      "rows": 6,
+      "columns": 4,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "2ba4742f184538e876edd2508fe716a6c9a2c2e41243ac9cf764194ddcf6275e"
+    },
+    {
+      "table_id": "DOCLING_019",
+      "source": "DOCLING",
+      "page": [
+        58
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/LafargeHolcim_RFA_2025_889b39eaaa0a/tables/table_019.csv",
+      "coordinates_path": null,
+      "rows": 19,
+      "columns": 2,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "ea96b57c0a9d7f8a56c7ae1ca27fd4afec7736e438825471697edad7990f67b6"
+    },
+    {
+      "table_id": "DOCLING_020",
+      "source": "DOCLING",
+      "page": [
+        58
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/LafargeHolcim_RFA_2025_889b39eaaa0a/tables/table_020.csv",
+      "coordinates_path": null,
+      "rows": 59,
+      "columns": 2,
+      "quality_status": "INCOMPLETE",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "61bfa0edcb3cf3e93a9eff5041bcf6b44ce3564fccf79a7316b0392abb903160"
+    },
+    {
+      "table_id": "DOCLING_021",
+      "source": "DOCLING",
+      "page": [
+        59
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/LafargeHolcim_RFA_2025_889b39eaaa0a/tables/table_021.csv",
+      "coordinates_path": null,
+      "rows": 55,
+      "columns": 2,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "f9908c581c71efd32ae689a902c6b42983bc4a244fdbf2bc4dbebfd982046051"
+    },
+    {
+      "table_id": "DOCLING_022",
+      "source": "DOCLING",
+      "page": [
+        59
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/LafargeHolcim_RFA_2025_889b39eaaa0a/tables/table_022.csv",
+      "coordinates_path": null,
+      "rows": 55,
+      "columns": 2,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "d28f1f001cbc982cb7c429dd76fb024a499e59c1e5f52e761dfd19b40e9bd8c4"
+    },
+    {
+      "table_id": "DOCLING_023",
+      "source": "DOCLING",
+      "page": [
+        60
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/LafargeHolcim_RFA_2025_889b39eaaa0a/tables/table_023.csv",
+      "coordinates_path": null,
+      "rows": 56,
+      "columns": 2,
+      "quality_status": "INCOMPLETE",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "59ef038812cc6c104f0b1e2c6e9af28f9f859a8bb112b6d94db3d2fea73afd72"
+    },
+    {
+      "table_id": "DOCLING_024",
+      "source": "DOCLING",
+      "page": [
+        60
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/LafargeHolcim_RFA_2025_889b39eaaa0a/tables/table_024.csv",
+      "coordinates_path": null,
+      "rows": 23,
+      "columns": 2,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "e206faaa8fa2bdc4881aed7f4f62dcf08410f64d32b921884dbf96ef575db6d1"
+    },
+    {
+      "table_id": "DOCLING_025",
+      "source": "DOCLING",
+      "page": [
+        61
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/LafargeHolcim_RFA_2025_889b39eaaa0a/tables/table_025.csv",
+      "coordinates_path": null,
+      "rows": 50,
+      "columns": 5,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "a9b7f092c206e33fbc40abc403e179818b6ea32bf0412d9395c8e9852cb5f603"
+    },
+    {
+      "table_id": "DOCLING_026",
+      "source": "DOCLING",
+      "page": [
+        62
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/LafargeHolcim_RFA_2025_889b39eaaa0a/tables/table_026.csv",
+      "coordinates_path": null,
+      "rows": 39,
+      "columns": 3,
+      "quality_status": "INCOMPLETE",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "94356d47e45731b02db893a6966af7a6af388dcd25067d1250a217b975b42049"
+    },
+    {
+      "table_id": "DOCLING_027",
+      "source": "DOCLING",
+      "page": [
+        62
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/LafargeHolcim_RFA_2025_889b39eaaa0a/tables/table_027.csv",
+      "coordinates_path": null,
+      "rows": 52,
+      "columns": 4,
+      "quality_status": "INCOMPLETE",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "3055edfe860b48c30be62682a1300458e0059f5d0869613604633824268b7ca5"
+    },
+    {
+      "table_id": "DOCLING_028",
+      "source": "DOCLING",
+      "page": [
+        63
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/LafargeHolcim_RFA_2025_889b39eaaa0a/tables/table_028.csv",
+      "coordinates_path": null,
+      "rows": 40,
+      "columns": 4,
+      "quality_status": "INCOMPLETE",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "cc145c2c19acb49d11e741e5d788b7810635d5e2a881e62f04f07394fb018662"
+    },
+    {
+      "table_id": "DOCLING_029",
+      "source": "DOCLING",
+      "page": [
+        63
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/LafargeHolcim_RFA_2025_889b39eaaa0a/tables/table_029.csv",
+      "coordinates_path": null,
+      "rows": 37,
+      "columns": 5,
+      "quality_status": "INCOMPLETE",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "b162abbcd537d6c0b69f66935c7f929258ddfb802d02956779a65b478bb0edc7"
+    },
+    {
+      "table_id": "DOCLING_030",
+      "source": "DOCLING",
+      "page": [
+        65
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/LafargeHolcim_RFA_2025_889b39eaaa0a/tables/table_030.csv",
+      "coordinates_path": null,
+      "rows": 3,
+      "columns": 3,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "a0ad83df11b995636976e94d7b9555ca8e7e9457a8673758f69baad9fee92099"
+    },
+    {
+      "table_id": "DOCLING_031",
+      "source": "DOCLING",
+      "page": [
+        65
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/LafargeHolcim_RFA_2025_889b39eaaa0a/tables/table_031.csv",
+      "coordinates_path": null,
+      "rows": 2,
+      "columns": 3,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "dc1249ca12798c235dbcc87b3df51d7fdafa17fff6a602803a0a1ab61b4bb476"
+    },
+    {
+      "table_id": "DOCLING_032",
+      "source": "DOCLING",
+      "page": [
+        65
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/LafargeHolcim_RFA_2025_889b39eaaa0a/tables/table_032.csv",
+      "coordinates_path": null,
+      "rows": 15,
+      "columns": 3,
+      "quality_status": "INCOMPLETE",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "fab8df8cb4c4dc16798354ab89fb00f5b9db66204351ce2864e6f22c05d077c9"
+    },
+    {
+      "table_id": "DOCLING_033",
+      "source": "DOCLING",
+      "page": [
+        66
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/LafargeHolcim_RFA_2025_889b39eaaa0a/tables/table_033.csv",
+      "coordinates_path": null,
+      "rows": 17,
+      "columns": 9,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "0835689fabab329a4507ffcb775dcd9cd4002f604263dceb560ed2319539e0d0"
+    },
+    {
+      "table_id": "DOCLING_034",
+      "source": "DOCLING",
+      "page": [
+        66
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/LafargeHolcim_RFA_2025_889b39eaaa0a/tables/table_034.csv",
+      "coordinates_path": null,
+      "rows": 17,
+      "columns": 6,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "dd0e0afe7ec378db3e34fafd96277bba6bd2c58664845c0985e62c4433a64dc2"
+    },
+    {
+      "table_id": "DOCLING_035",
+      "source": "DOCLING",
+      "page": [
+        67
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/LafargeHolcim_RFA_2025_889b39eaaa0a/tables/table_035.csv",
+      "coordinates_path": null,
+      "rows": 17,
+      "columns": 8,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "1f207144e02c53768cbc122d5b5c32713ded802a047dbd342340e0f839a5a746"
+    },
+    {
+      "table_id": "DOCLING_036",
+      "source": "DOCLING",
+      "page": [
+        67
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/LafargeHolcim_RFA_2025_889b39eaaa0a/tables/table_036.csv",
+      "coordinates_path": null,
+      "rows": 10,
+      "columns": 10,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "aae7053fc59bab001d3100aa5fcdfc2a3281e139028ab440b4ae044371e95eab"
+    },
+    {
+      "table_id": "DOCLING_037",
+      "source": "DOCLING",
+      "page": [
+        67
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/LafargeHolcim_RFA_2025_889b39eaaa0a/tables/table_037.csv",
+      "coordinates_path": null,
+      "rows": 9,
+      "columns": 9,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "ab592bd7426ca488c238e0a268406eadb75741f97cbb42866b03efa1d495f270"
+    },
+    {
+      "table_id": "DOCLING_038",
+      "source": "DOCLING",
+      "page": [
+        68
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/LafargeHolcim_RFA_2025_889b39eaaa0a/tables/table_038.csv",
+      "coordinates_path": null,
+      "rows": 12,
+      "columns": 9,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "dd86c10a84298ceb8c72721bd495f4c08a2682ddf62576f4ea04a426dc35f953"
+    },
+    {
+      "table_id": "DOCLING_039",
+      "source": "DOCLING",
+      "page": [
+        68
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/LafargeHolcim_RFA_2025_889b39eaaa0a/tables/table_039.csv",
+      "coordinates_path": null,
+      "rows": 12,
+      "columns": 8,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "aab9eed5e7ed5d1143c41a01632ec1e793fc1d169e40f24d5eac2d6953f10d8c"
+    },
+    {
+      "table_id": "DOCLING_040",
+      "source": "DOCLING",
+      "page": [
+        69
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/LafargeHolcim_RFA_2025_889b39eaaa0a/tables/table_040.csv",
+      "coordinates_path": null,
+      "rows": 4,
+      "columns": 6,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "214db77097caeff47b68c5e49875fcd086dde5013063f8822226ee688bcdc289"
+    },
+    {
+      "table_id": "DOCLING_041",
+      "source": "DOCLING",
+      "page": [
+        69
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/LafargeHolcim_RFA_2025_889b39eaaa0a/tables/table_041.csv",
+      "coordinates_path": null,
+      "rows": 12,
+      "columns": 3,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "d2fb03b344439e1b0989367123b7874ebf6ba5f07736848075f69ab01c6bbb7a"
+    },
+    {
+      "table_id": "DOCLING_042",
+      "source": "DOCLING",
+      "page": [
+        69
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/LafargeHolcim_RFA_2025_889b39eaaa0a/tables/table_042.csv",
+      "coordinates_path": null,
+      "rows": 3,
+      "columns": 11,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "fe958907c3c819764215231551436b39c17333852ee7b4e49233274c3d06c00e"
+    },
+    {
+      "table_id": "DOCLING_043",
+      "source": "DOCLING",
+      "page": [
+        69
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/LafargeHolcim_RFA_2025_889b39eaaa0a/tables/table_043.csv",
+      "coordinates_path": null,
+      "rows": 48,
+      "columns": 4,
+      "quality_status": "INCOMPLETE",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "9a39361fa13136066e1bc5c1ba75bdf3351efd0d7d6a9dd7aca128d077f1c070"
+    },
+    {
+      "table_id": "DOCLING_044",
+      "source": "DOCLING",
+      "page": [
+        70
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/LafargeHolcim_RFA_2025_889b39eaaa0a/tables/table_044.csv",
+      "coordinates_path": null,
+      "rows": 35,
+      "columns": 4,
+      "quality_status": "INCOMPLETE",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "e68277f772d6c2d8562f02241db23e6433c90f9c57c901ea3f1f934acd99b20b"
+    },
+    {
+      "table_id": "DOCLING_045",
+      "source": "DOCLING",
+      "page": [
+        70
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/LafargeHolcim_RFA_2025_889b39eaaa0a/tables/table_045.csv",
+      "coordinates_path": null,
+      "rows": 41,
+      "columns": 3,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "54168ca020dea040a709b7d2d8f297153b3f897d1a234f05d183cd92cd85b625"
+    },
+    {
+      "table_id": "DOCLING_046",
+      "source": "DOCLING",
+      "page": [
+        71
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/LafargeHolcim_RFA_2025_889b39eaaa0a/tables/table_046.csv",
+      "coordinates_path": null,
+      "rows": 8,
+      "columns": 2,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "20d438bcca27f3bb1db36fa248307dfc0dd20d8ccbe15e631a58adb44b592811"
+    },
+    {
+      "table_id": "DOCLING_047",
+      "source": "DOCLING",
+      "page": [
+        71
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/LafargeHolcim_RFA_2025_889b39eaaa0a/tables/table_047.csv",
+      "coordinates_path": null,
+      "rows": 5,
+      "columns": 5,
+      "quality_status": "INCOMPLETE",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "1bdf13c16ad8aa94e322cf22bd0f76015c336a6cc7522f761ffd289e107a8b23"
+    },
+    {
+      "table_id": "DOCLING_048",
+      "source": "DOCLING",
+      "page": [
+        71
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/LafargeHolcim_RFA_2025_889b39eaaa0a/tables/table_048.csv",
+      "coordinates_path": null,
+      "rows": 7,
+      "columns": 8,
+      "quality_status": "INCOMPLETE",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "ab3fbbf025df9c77191395e3ed8535fdda23f48ca37dc4db14dfb9486ffc6409"
+    },
+    {
+      "table_id": "DOCLING_049",
+      "source": "DOCLING",
+      "page": [
+        71
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/LafargeHolcim_RFA_2025_889b39eaaa0a/tables/table_049.csv",
+      "coordinates_path": null,
+      "rows": 5,
+      "columns": 3,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "8accaac29bb51c23def94f03ec01e9dbf15515e28c883575073378425ab9a9a2"
+    },
+    {
+      "table_id": "DOCLING_050",
+      "source": "DOCLING",
+      "page": [
+        71
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/LafargeHolcim_RFA_2025_889b39eaaa0a/tables/table_050.csv",
+      "coordinates_path": null,
+      "rows": 16,
+      "columns": 4,
+      "quality_status": "INCOMPLETE",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "2d998ed63726e48515c85bfe4c211d54b16c85b9885933ee016409b9ab3134ab"
+    },
+    {
+      "table_id": "DOCLING_051",
+      "source": "DOCLING",
+      "page": [
+        71
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/LafargeHolcim_RFA_2025_889b39eaaa0a/tables/table_051.csv",
+      "coordinates_path": null,
+      "rows": 12,
+      "columns": 3,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "64d6f99ae559ceb67f7ad9c06143b7b8ebbbe4dec6ad4fd277f896fc7f58a3c8"
+    },
+    {
+      "table_id": "DOCLING_052",
+      "source": "DOCLING",
+      "page": [
+        73
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/LafargeHolcim_RFA_2025_889b39eaaa0a/tables/table_052.csv",
+      "coordinates_path": null,
+      "rows": 56,
+      "columns": 3,
+      "quality_status": "INCOMPLETE",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "cbe6866924f407bc1606e5adce6ceea8c963f5409f18ee14ab71a2c94d52cfc4"
+    },
+    {
+      "table_id": "DOCLING_053",
+      "source": "DOCLING",
+      "page": [
+        74
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/LafargeHolcim_RFA_2025_889b39eaaa0a/tables/table_053.csv",
+      "coordinates_path": null,
+      "rows": 36,
+      "columns": 3,
+      "quality_status": "INCOMPLETE",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "2b1819d3093c05d94f88efb684ec5a69d9ce56b427252f91d688f96ca77120b0"
+    },
+    {
+      "table_id": "DOCLING_054",
+      "source": "DOCLING",
+      "page": [
+        74
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/LafargeHolcim_RFA_2025_889b39eaaa0a/tables/table_054.csv",
+      "coordinates_path": null,
+      "rows": 11,
+      "columns": 3,
+      "quality_status": "INCOMPLETE",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "e529a728b93a9ef66ed2a4666aa2f33bb1e19a5f33faa72c784cb2d5e5a20220"
+    },
+    {
+      "table_id": "DOCLING_055",
+      "source": "DOCLING",
+      "page": [
+        74
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/LafargeHolcim_RFA_2025_889b39eaaa0a/tables/table_055.csv",
+      "coordinates_path": null,
+      "rows": 33,
+      "columns": 3,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "30ac5c3212005ee5e1268b8cc04a2d38b17507dc54bbd776cbfdd1f675376f74"
+    },
+    {
+      "table_id": "DOCLING_056",
+      "source": "DOCLING",
+      "page": [
+        74
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/LafargeHolcim_RFA_2025_889b39eaaa0a/tables/table_056.csv",
+      "coordinates_path": null,
+      "rows": 18,
+      "columns": 9,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "71af7af2373831681473465dc676d3e4e5869dd21da2006da706ab721020a869"
+    },
+    {
+      "table_id": "DOCLING_057",
+      "source": "DOCLING",
+      "page": [
+        75
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/LafargeHolcim_RFA_2025_889b39eaaa0a/tables/table_057.csv",
+      "coordinates_path": null,
+      "rows": 10,
+      "columns": 4,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "40cc83f10abe621643a9e3d68d8ff12927dba3c21c7f25c7cc28ddb8fd9023e4"
+    },
+    {
+      "table_id": "DOCLING_058",
+      "source": "DOCLING",
+      "page": [
+        80
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/LafargeHolcim_RFA_2025_889b39eaaa0a/tables/table_058.csv",
+      "coordinates_path": null,
+      "rows": 9,
+      "columns": 5,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "4cdf6d666a3ec11fda4eafb7b8a886f318893a1a87ba355cbf1d987ff228394f"
+    },
+    {
+      "table_id": "DOCLING_059",
+      "source": "DOCLING",
+      "page": [
+        80
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/LafargeHolcim_RFA_2025_889b39eaaa0a/tables/table_059.csv",
+      "coordinates_path": null,
+      "rows": 9,
+      "columns": 5,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "a9f688a863bcf769abe0538fa5fe1d6b4d1965666b510da5487eb2ba5c482555"
+    },
+    {
+      "table_id": "DOCLING_060",
+      "source": "DOCLING",
+      "page": [
+        80
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/LafargeHolcim_RFA_2025_889b39eaaa0a/tables/table_060.csv",
+      "coordinates_path": null,
+      "rows": 3,
+      "columns": 4,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "ca7bd061453c2ab55d32945099a4ea7cb51aa4adb36989cd456d04762bd6e234"
+    },
+    {
+      "table_id": "DOCLING_061",
+      "source": "DOCLING",
+      "page": [
+        80
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/LafargeHolcim_RFA_2025_889b39eaaa0a/tables/table_061.csv",
+      "coordinates_path": null,
+      "rows": 3,
+      "columns": 4,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "962ccca3b1b0303db226288d4a78eafe3bd21dcba10370b72014e8873c392c43"
+    },
+    {
+      "table_id": "DOCLING_062",
+      "source": "DOCLING",
+      "page": [
+        80
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/LafargeHolcim_RFA_2025_889b39eaaa0a/tables/table_062.csv",
+      "coordinates_path": null,
+      "rows": 9,
+      "columns": 3,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "e7b32425713c8c9f25da5e167188db11688a8e57f5610cb4dcb292faba1e73ed"
+    },
+    {
+      "table_id": "DOCLING_063",
+      "source": "DOCLING",
+      "page": [
+        80
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/LafargeHolcim_RFA_2025_889b39eaaa0a/tables/table_063.csv",
+      "coordinates_path": null,
+      "rows": 5,
+      "columns": 3,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "2a4885b45cafd4294bb3e57914a09551fd7e77f598d1d76135afc5c892df4f30"
+    },
+    {
+      "table_id": "DOCLING_064",
+      "source": "DOCLING",
+      "page": [
+        80
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/LafargeHolcim_RFA_2025_889b39eaaa0a/tables/table_064.csv",
+      "coordinates_path": null,
+      "rows": 3,
+      "columns": 8,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "0b8b05da9f9fc1e7e06d89173a17ed1ea0e9683cf17311e7ebc4eda2207d8be5"
+    },
+    {
+      "table_id": "DOCLING_065",
+      "source": "DOCLING",
+      "page": [
+        80
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/LafargeHolcim_RFA_2025_889b39eaaa0a/tables/table_065.csv",
+      "coordinates_path": null,
+      "rows": 17,
+      "columns": 3,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "138c525704e9a83fc9e1edad2094fd7b3d4ae41977f7ea6323c1c68548335c58"
+    },
+    {
+      "table_id": "DOCLING_066",
+      "source": "DOCLING",
+      "page": [
+        81
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/LafargeHolcim_RFA_2025_889b39eaaa0a/tables/table_066.csv",
+      "coordinates_path": null,
+      "rows": 6,
+      "columns": 3,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "d10f574411542e37e269151c7da1c45241d7ee28d17c0493c53190ca409a907e"
+    },
+    {
+      "table_id": "DOCLING_067",
+      "source": "DOCLING",
+      "page": [
+        81
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/LafargeHolcim_RFA_2025_889b39eaaa0a/tables/table_067.csv",
+      "coordinates_path": null,
+      "rows": 14,
+      "columns": 3,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "9b33988260e1d1dfcd591c6ddf32c38fbcf1e7ecb00e195d6176b50251c332bb"
+    },
+    {
+      "table_id": "DOCLING_068",
+      "source": "DOCLING",
+      "page": [
+        81
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/LafargeHolcim_RFA_2025_889b39eaaa0a/tables/table_068.csv",
+      "coordinates_path": null,
+      "rows": 8,
+      "columns": 3,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "9db879e401461119e2579d668c129feac4d878b4fc5bbd3a9e206c19bb162c98"
+    },
+    {
+      "table_id": "DOCLING_069",
+      "source": "DOCLING",
+      "page": [
+        81
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/LafargeHolcim_RFA_2025_889b39eaaa0a/tables/table_069.csv",
+      "coordinates_path": null,
+      "rows": 7,
+      "columns": 3,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "303c77b0a8f199c0d624ef0e176bddf2677c7ad08998508531fdd1cee23dde49"
+    },
+    {
+      "table_id": "DOCLING_070",
+      "source": "DOCLING",
+      "page": [
+        81
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/LafargeHolcim_RFA_2025_889b39eaaa0a/tables/table_070.csv",
+      "coordinates_path": null,
+      "rows": 5,
+      "columns": 7,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "c143eba7ab61f6adb1fd851c62e2d3feb0fb6fda1ad0d5be78b72a1a21fef883"
+    },
+    {
+      "table_id": "DOCLING_071",
+      "source": "DOCLING",
+      "page": [
+        81
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/LafargeHolcim_RFA_2025_889b39eaaa0a/tables/table_071.csv",
+      "coordinates_path": null,
+      "rows": 18,
+      "columns": 3,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "1510554ae391a56c3917b10fed065289d40ec31c629e8081f2de34462d9d4e8d"
+    },
+    {
+      "table_id": "DOCLING_072",
+      "source": "DOCLING",
+      "page": [
+        81
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/LafargeHolcim_RFA_2025_889b39eaaa0a/tables/table_072.csv",
+      "coordinates_path": null,
+      "rows": 7,
+      "columns": 3,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "ffdadd047d7fd6db6772cfdaca345f62b696e24f5824c4630c189a0c264d2066"
+    },
+    {
+      "table_id": "DOCLING_073",
+      "source": "DOCLING",
+      "page": [
+        82
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/LafargeHolcim_RFA_2025_889b39eaaa0a/tables/table_073.csv",
+      "coordinates_path": null,
+      "rows": 4,
+      "columns": 3,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "71f5e94ffff3a9ddab7333f09d99f86b8f7cff0da3c1d1f4b8afa9050846a2ee"
+    },
+    {
+      "table_id": "DOCLING_074",
+      "source": "DOCLING",
+      "page": [
+        82
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/LafargeHolcim_RFA_2025_889b39eaaa0a/tables/table_074.csv",
+      "coordinates_path": null,
+      "rows": 12,
+      "columns": 3,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "867b8d275ea55e7b768714e974d37b0d1dccca75f93644e597f2f76b9ca88de6"
+    },
+    {
+      "table_id": "DOCLING_075",
+      "source": "DOCLING",
+      "page": [
+        82
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/LafargeHolcim_RFA_2025_889b39eaaa0a/tables/table_075.csv",
+      "coordinates_path": null,
+      "rows": 2,
+      "columns": 3,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "3b35cf16d65776fbeab7552780caf44a2af406894799632fc2941c598719c95e"
+    },
+    {
+      "table_id": "DOCLING_076",
+      "source": "DOCLING",
+      "page": [
+        82
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/LafargeHolcim_RFA_2025_889b39eaaa0a/tables/table_076.csv",
+      "coordinates_path": null,
+      "rows": 35,
+      "columns": 8,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "1a0ecd210dcd9eca2343b40be19c944ee12af955a2b9097725bfb44cb61f1d7b"
+    },
+    {
+      "table_id": "DOCLING_077",
+      "source": "DOCLING",
+      "page": [
+        83
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/LafargeHolcim_RFA_2025_889b39eaaa0a/tables/table_077.csv",
+      "coordinates_path": null,
+      "rows": 35,
+      "columns": 11,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "400645a9ae84df093120f5dba3dd4b942980fe2f1ce8bb92d073ee937fa989c7"
+    },
+    {
+      "table_id": "DOCLING_078",
+      "source": "DOCLING",
+      "page": [
+        84
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/LafargeHolcim_RFA_2025_889b39eaaa0a/tables/table_078.csv",
+      "coordinates_path": null,
+      "rows": 18,
+      "columns": 5,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "309c89f070e67d15747f22645233d902528834dd5316b1cee685d4cb3693a900"
+    },
+    {
+      "table_id": "DOCLING_079",
+      "source": "DOCLING",
+      "page": [
+        84
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/LafargeHolcim_RFA_2025_889b39eaaa0a/tables/table_079.csv",
+      "coordinates_path": null,
+      "rows": 20,
+      "columns": 5,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "fc54ee2f212f62b4de2b3cf935052be3de53df13af88819026a734a2e986fdae"
+    },
+    {
+      "table_id": "DOCLING_080",
+      "source": "DOCLING",
+      "page": [
+        84
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/LafargeHolcim_RFA_2025_889b39eaaa0a/tables/table_080.csv",
+      "coordinates_path": null,
+      "rows": 3,
+      "columns": 3,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "d30c9b0ccd457dafe4467f42541a3d438745f11f23d3f9abf9f9deb31f7cda48"
+    },
+    {
+      "table_id": "DOCLING_081",
+      "source": "DOCLING",
+      "page": [
+        84
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/LafargeHolcim_RFA_2025_889b39eaaa0a/tables/table_081.csv",
+      "coordinates_path": null,
+      "rows": 3,
+      "columns": 3,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "e5b4badac34c8fcf6e39bf35604d6eda0dc5067f0de481b1f343e980bffd2c25"
+    },
+    {
+      "table_id": "DOCLING_082",
+      "source": "DOCLING",
+      "page": [
+        84
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/LafargeHolcim_RFA_2025_889b39eaaa0a/tables/table_082.csv",
+      "coordinates_path": null,
+      "rows": 3,
+      "columns": 3,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "359d594eafe5f4b4ca446e8806b41eab7b06238b2501c6841f43c5ac7df07a68"
+    },
+    {
+      "table_id": "DOCLING_083",
+      "source": "DOCLING",
+      "page": [
+        84
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/LafargeHolcim_RFA_2025_889b39eaaa0a/tables/table_083.csv",
+      "coordinates_path": null,
+      "rows": 10,
+      "columns": 3,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "52af94483b16473459d3014bf45a4ade397dd52669eedf1dabae875f3c4307ad"
+    },
+    {
+      "table_id": "DOCLING_084",
+      "source": "DOCLING",
+      "page": [
+        85
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/LafargeHolcim_RFA_2025_889b39eaaa0a/tables/table_084.csv",
+      "coordinates_path": null,
+      "rows": 10,
+      "columns": 3,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "4849d2243d693cdfa3dcc27f48d80461f9afdf69626b539c924a7baa6f76b909"
+    },
+    {
+      "table_id": "DOCLING_085",
+      "source": "DOCLING",
+      "page": [
+        85
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/LafargeHolcim_RFA_2025_889b39eaaa0a/tables/table_085.csv",
+      "coordinates_path": null,
+      "rows": 9,
+      "columns": 3,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "2e9c7326b6697e64fb95ac7e53c8734713bd7fb5e548fa4d93b69648e4cb0216"
+    },
+    {
+      "table_id": "DOCLING_086",
+      "source": "DOCLING",
+      "page": [
+        85
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/LafargeHolcim_RFA_2025_889b39eaaa0a/tables/table_086.csv",
+      "coordinates_path": null,
+      "rows": 11,
+      "columns": 6,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "dd092bd4e37458ba9a63d6852964240b7b34edc98a8b6bd9b84415f7938b5011"
+    },
+    {
+      "table_id": "DOCLING_087",
+      "source": "DOCLING",
+      "page": [
+        85
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/LafargeHolcim_RFA_2025_889b39eaaa0a/tables/table_087.csv",
+      "coordinates_path": null,
+      "rows": 12,
+      "columns": 3,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "90b9533d8387469499de7cab98883a9eb49e7e593825ca07479432bb418e2312"
+    },
+    {
+      "table_id": "DOCLING_088",
+      "source": "DOCLING",
+      "page": [
+        85
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/LafargeHolcim_RFA_2025_889b39eaaa0a/tables/table_088.csv",
+      "coordinates_path": null,
+      "rows": 14,
+      "columns": 3,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "b85019d3948ab6e23f2f87d3464ae71a4c11bb404ff4abc6d1a47579b956a396"
+    },
+    {
+      "table_id": "DOCLING_089",
+      "source": "DOCLING",
+      "page": [
+        86
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/LafargeHolcim_RFA_2025_889b39eaaa0a/tables/table_089.csv",
+      "coordinates_path": null,
+      "rows": 5,
+      "columns": 3,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "d7ffea4a45faa83f37a1838cb4bcd20386cc3a144d2446bc08be5ce28c74d238"
+    },
+    {
+      "table_id": "DOCLING_090",
+      "source": "DOCLING",
+      "page": [
+        86
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/LafargeHolcim_RFA_2025_889b39eaaa0a/tables/table_090.csv",
+      "coordinates_path": null,
+      "rows": 8,
+      "columns": 3,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "7723764b05307188e74c84b1aa9852a5bd4858d8262544b5af00d27da02e20a8"
+    },
+    {
+      "table_id": "DOCLING_091",
+      "source": "DOCLING",
+      "page": [
+        86
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/LafargeHolcim_RFA_2025_889b39eaaa0a/tables/table_091.csv",
+      "coordinates_path": null,
+      "rows": 11,
+      "columns": 10,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "72ce0dc15d0c934133e43b3300cb4b45c80955c67f1597daab0e45ecf2bc2990"
+    },
+    {
+      "table_id": "DOCLING_092",
+      "source": "DOCLING",
+      "page": [
+        86
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/LafargeHolcim_RFA_2025_889b39eaaa0a/tables/table_092.csv",
+      "coordinates_path": null,
+      "rows": 3,
+      "columns": 3,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "6b4ce378038bbe7cddf7a5db6a0c190e35a3461b88f72c68468b765082553371"
+    },
+    {
+      "table_id": "DOCLING_093",
+      "source": "DOCLING",
+      "page": [
+        86
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/LafargeHolcim_RFA_2025_889b39eaaa0a/tables/table_093.csv",
+      "coordinates_path": null,
+      "rows": 13,
+      "columns": 5,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "649a5dc6dd6d1630f05df5478d3277b41872ea3cc2533089b3455c5e9f04f208"
+    },
+    {
+      "table_id": "DOCLING_094",
+      "source": "DOCLING",
+      "page": [
+        86
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/LafargeHolcim_RFA_2025_889b39eaaa0a/tables/table_094.csv",
+      "coordinates_path": null,
+      "rows": 7,
+      "columns": 5,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "d55b18c2c7cbbccee5766ce7737b8496ca4d0607c88ff87d16b666c084b2140a"
+    },
+    {
+      "table_id": "DOCLING_095",
+      "source": "DOCLING",
+      "page": [
+        87
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/LafargeHolcim_RFA_2025_889b39eaaa0a/tables/table_095.csv",
+      "coordinates_path": null,
+      "rows": 4,
+      "columns": 4,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "872380ba12ecb7ffafa5aa46d57850c11b132ed765b2b48ed03c6f16e545341f"
+    },
+    {
+      "table_id": "DOCLING_096",
+      "source": "DOCLING",
+      "page": [
+        87
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/LafargeHolcim_RFA_2025_889b39eaaa0a/tables/table_096.csv",
+      "coordinates_path": null,
+      "rows": 4,
+      "columns": 4,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "d2487b58c75ffaf5ef63a33c08a9849c17162d268acc228d4000334955e31d86"
+    },
+    {
+      "table_id": "DOCLING_097",
+      "source": "DOCLING",
+      "page": [
+        87
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/LafargeHolcim_RFA_2025_889b39eaaa0a/tables/table_097.csv",
+      "coordinates_path": null,
+      "rows": 7,
+      "columns": 3,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "754d2dc7e68b0fb954ea9f84bb53d8fab5fbc725bcf4d71d5099b6f86c7e1eb9"
+    },
+    {
+      "table_id": "DOCLING_098",
+      "source": "DOCLING",
+      "page": [
+        87
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/LafargeHolcim_RFA_2025_889b39eaaa0a/tables/table_098.csv",
+      "coordinates_path": null,
+      "rows": 12,
+      "columns": 3,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "0c31bc36c7f62c294fa7d64c46e572882d52d230ca1405bf6ac778269db5c009"
+    },
+    {
+      "table_id": "DOCLING_099",
+      "source": "DOCLING",
+      "page": [
+        87
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/LafargeHolcim_RFA_2025_889b39eaaa0a/tables/table_099.csv",
+      "coordinates_path": null,
+      "rows": 6,
+      "columns": 3,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "598a6bdec799d4645fca51d3f79ae758c3efb340bde0f133df388946845c92b5"
+    },
+    {
+      "table_id": "DOCLING_100",
+      "source": "DOCLING",
+      "page": [
+        87
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/LafargeHolcim_RFA_2025_889b39eaaa0a/tables/table_100.csv",
+      "coordinates_path": null,
+      "rows": 4,
+      "columns": 3,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "70971575d7581b70e6c09faf0c88523d62939547ee67f9bd30ca203620087855"
+    },
+    {
+      "table_id": "DOCLING_101",
+      "source": "DOCLING",
+      "page": [
+        87
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/LafargeHolcim_RFA_2025_889b39eaaa0a/tables/table_101.csv",
+      "coordinates_path": null,
+      "rows": 4,
+      "columns": 3,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "a3268a203043e07be87aadd5b3a884adf7b8c7051eb1ef09d0b2ae62210679b0"
+    },
+    {
+      "table_id": "DOCLING_102",
+      "source": "DOCLING",
+      "page": [
+        87
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/LafargeHolcim_RFA_2025_889b39eaaa0a/tables/table_102.csv",
+      "coordinates_path": null,
+      "rows": 4,
+      "columns": 3,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "bbf61949307f0eef948625b1d1786750c4a1d0365cb6d8eebab96d44b48733d2"
+    },
+    {
+      "table_id": "DOCLING_103",
+      "source": "DOCLING",
+      "page": [
+        87
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/LafargeHolcim_RFA_2025_889b39eaaa0a/tables/table_103.csv",
+      "coordinates_path": null,
+      "rows": 4,
+      "columns": 3,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "41bddb3f1097b6a07605e3ecd5949f5386668cbcbd1c6f05d15c39fba2d7b4ee"
+    },
+    {
+      "table_id": "DOCLING_104",
+      "source": "DOCLING",
+      "page": [
+        88
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/LafargeHolcim_RFA_2025_889b39eaaa0a/tables/table_104.csv",
+      "coordinates_path": null,
+      "rows": 6,
+      "columns": 3,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "c084689acd8731028aca1d54bfc2fea48041d0938fd81a5c4e0b0c61c2da7b58"
+    },
+    {
+      "table_id": "DOCLING_105",
+      "source": "DOCLING",
+      "page": [
+        88
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/LafargeHolcim_RFA_2025_889b39eaaa0a/tables/table_105.csv",
+      "coordinates_path": null,
+      "rows": 3,
+      "columns": 3,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "abd137aa0ae874e7f32ae4a3a9bcc4676e9ccf3060e3243dea7f8c6f6e6cda01"
+    },
+    {
+      "table_id": "DOCLING_106",
+      "source": "DOCLING",
+      "page": [
+        88
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/LafargeHolcim_RFA_2025_889b39eaaa0a/tables/table_106.csv",
+      "coordinates_path": null,
+      "rows": 11,
+      "columns": 3,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "a882f7e68b95fdb0560d137820a0728d68f453293fcfced4dc6ea12fcf4c2385"
+    },
+    {
+      "table_id": "OCR_001",
+      "source": "OCR",
+      "page": [
+        99
+      ],
+      "bbox": [
+        48.18896484375,
+        68.27874755859375,
+        547.1238403320312,
+        773.5861206054688
+      ],
+      "table_type": null,
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/ocr_generic/LafargeHolcim_RFA_2025_889b39eaaa0a/e0ca308dea6d/tables/ocr_table_001.csv",
+      "coordinates_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/ocr_generic/LafargeHolcim_RFA_2025_889b39eaaa0a/e0ca308dea6d/coordinates/ocr_table_001.json",
+      "coordinates_sha256": "31ed7baed1c51f0a2f6f2c2babc94978f0ee3b67125e36d8571e05a7dc9aa66b",
+      "rows": 7,
+      "columns": 5,
+      "quality_status": "TECHNICALLY_RECOVERED",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "917ee7579e90dba5168850e7d9d83db76b9203a797717943757954afe06a6f54"
+    }
+  ],
+  "replacements": [
+    {
+      "docling_table": 107,
+      "pages": [
+        90
+      ],
+      "ocr_candidates": [],
+      "status": "UNRESOLVED"
+    },
+    {
+      "docling_table": 108,
+      "pages": [
+        92
+      ],
+      "ocr_candidates": [],
+      "status": "UNRESOLVED"
+    },
+    {
+      "docling_table": 109,
+      "pages": [
+        99
+      ],
+      "ocr_candidates": [
+        "OCR_001"
+      ],
+      "status": "OCR_AVAILABLE_FOR_REVIEW"
+    }
+  ],
+  "remaining_docling_issues": [
+    {
+      "code": "MISSING_ROW_LABEL",
+      "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+      "severity": "WARNING",
+      "table_index": 14,
+      "pages": [
+        55
+      ]
+    },
+    {
+      "code": "AUTOGENERATED_HEADER",
+      "message": "Les en-têtes de colonnes sont artificiels.",
+      "severity": "WARNING",
+      "table_index": 15,
+      "pages": [
+        57
+      ]
+    },
+    {
+      "code": "MISSING_ROW_LABEL",
+      "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+      "severity": "WARNING",
+      "table_index": 20,
+      "pages": [
+        58
+      ]
+    },
+    {
+      "code": "SPLIT_WORD",
+      "message": "Un libellé contient une césure issue de la mise en page.",
+      "severity": "WARNING",
+      "table_index": 20,
+      "pages": [
+        58
+      ]
+    },
+    {
+      "code": "MISSING_ROW_LABEL",
+      "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+      "severity": "WARNING",
+      "table_index": 23,
+      "pages": [
+        60
+      ]
+    },
+    {
+      "code": "MISSING_ROW_LABEL",
+      "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+      "severity": "WARNING",
+      "table_index": 26,
+      "pages": [
+        62
+      ]
+    },
+    {
+      "code": "MISSING_ROW_LABEL",
+      "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+      "severity": "WARNING",
+      "table_index": 27,
+      "pages": [
+        62
+      ]
+    },
+    {
+      "code": "MISSING_ROW_LABEL",
+      "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+      "severity": "WARNING",
+      "table_index": 28,
+      "pages": [
+        63
+      ]
+    },
+    {
+      "code": "AUTOGENERATED_HEADER",
+      "message": "Les en-têtes de colonnes sont artificiels.",
+      "severity": "WARNING",
+      "table_index": 29,
+      "pages": [
+        63
+      ]
+    },
+    {
+      "code": "SPLIT_WORD",
+      "message": "Un libellé contient une césure issue de la mise en page.",
+      "severity": "WARNING",
+      "table_index": 29,
+      "pages": [
+        63
+      ]
+    },
+    {
+      "code": "MISSING_ROW_LABEL",
+      "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+      "severity": "WARNING",
+      "table_index": 32,
+      "pages": [
+        65
+      ]
+    },
+    {
+      "code": "MISSING_ROW_LABEL",
+      "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+      "severity": "WARNING",
+      "table_index": 43,
+      "pages": [
+        69
+      ]
+    },
+    {
+      "code": "MISSING_ROW_LABEL",
+      "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+      "severity": "WARNING",
+      "table_index": 44,
+      "pages": [
+        70
+      ]
+    },
+    {
+      "code": "SPLIT_WORD",
+      "message": "Un libellé contient une césure issue de la mise en page.",
+      "severity": "WARNING",
+      "table_index": 47,
+      "pages": [
+        71
+      ]
+    },
+    {
+      "code": "MISSING_ROW_LABEL",
+      "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+      "severity": "WARNING",
+      "table_index": 48,
+      "pages": [
+        71
+      ]
+    },
+    {
+      "code": "AUTOGENERATED_HEADER",
+      "message": "Les en-têtes de colonnes sont artificiels.",
+      "severity": "WARNING",
+      "table_index": 50,
+      "pages": [
+        71
+      ]
+    },
+    {
+      "code": "AUTOGENERATED_HEADER",
+      "message": "Les en-têtes de colonnes sont artificiels.",
+      "severity": "WARNING",
+      "table_index": 52,
+      "pages": [
+        73
+      ]
+    },
+    {
+      "code": "AUTOGENERATED_HEADER",
+      "message": "Les en-têtes de colonnes sont artificiels.",
+      "severity": "WARNING",
+      "table_index": 53,
+      "pages": [
+        74
+      ]
+    },
+    {
+      "code": "AUTOGENERATED_HEADER",
+      "message": "Les en-têtes de colonnes sont artificiels.",
+      "severity": "WARNING",
+      "table_index": 54,
+      "pages": [
+        74
+      ]
+    }
+  ],
+  "financial_validation": "NOT_PERFORMED"
+}

@@ -1,0 +1,142 @@
+{
+  "context_overrides": [
+    {
+      "page": 2,
+      "unit": "DH",
+      "periods": ["30/06/2026", "31/12/2025", "30/06/2025"],
+      "scope": "SOCIAL",
+      "reference": {
+        "reference_id": "stroc-pdf-pages-1-2-context",
+        "source": "PDF AMMC original : narration en millions de dirhams page 1 et états détaillés page 2"
+      }
+    },
+    {
+      "table_id": "OCR_001",
+      "column_periods": {
+        "value_3": "30/06/2026",
+        "value_4": "30/06/2025"
+      }
+    },
+    {
+      "table_id": "OCR_003",
+      "column_periods": {
+        "value_1": "30/06/2026",
+        "value_2": "31/12/2025"
+      }
+    }
+  ],
+  "review_decisions": [
+    {
+      "name": "stroc_ocr_quarantine_visual_review",
+      "selector": {
+        "status": "REVIEW_REQUIRED"
+      },
+      "decision": "REJECTED",
+      "reliable": true,
+      "reference_id": "stroc-pdf-page-2-visual-review",
+      "source": "PDF AMMC original, page 2",
+      "page": 2,
+      "justification": "La revue visuelle confirme des décimales perdues, fusions de cellules ou libellés non financiers. Les valeurs OCR brutes restent inchangées."
+    }
+  ],
+  "references": [
+    {
+      "name": "stroc_net_result_current",
+      "table_id": "OCR_001",
+      "label": "RESULTAT NET (XI-Xil)",
+      "column": "value_3",
+      "value": "1378667.65",
+      "unit": "DH",
+      "period": "30/06/2026",
+      "scope": "SOCIAL",
+      "reliable": true,
+      "reference_id": "stroc-pdf-p2-cpc-net-current",
+      "source": "PDF AMMC original, page 2, Compte de Produits et Charges"
+    },
+    {
+      "name": "stroc_net_result_prior",
+      "table_id": "OCR_001",
+      "label": "RESULTAT NET (XI-Xil)",
+      "column": "value_4",
+      "value": "15418690.12",
+      "unit": "DH",
+      "period": "30/06/2025",
+      "scope": "SOCIAL",
+      "reliable": true,
+      "reference_id": "stroc-pdf-p2-cpc-net-prior",
+      "source": "PDF AMMC original, page 2, Compte de Produits et Charges"
+    },
+    {
+      "name": "stroc_balance_net_result_current",
+      "table_id": "OCR_003",
+      "label": "Résultat net de l'exercice (2)",
+      "column": "value_1",
+      "value": "1378667.65",
+      "unit": "DH",
+      "period": "30/06/2026",
+      "scope": "SOCIAL",
+      "reliable": true,
+      "reference_id": "stroc-pdf-p2-passif-net-current",
+      "source": "PDF AMMC original, page 2, Bilan Passif"
+    },
+    {
+      "name": "stroc_balance_net_result_prior",
+      "table_id": "OCR_003",
+      "label": "Résultat net de l'exercice (2)",
+      "column": "value_2",
+      "value": "476019.82",
+      "unit": "DH",
+      "period": "31/12/2025",
+      "scope": "SOCIAL",
+      "reliable": true,
+      "reference_id": "stroc-pdf-p2-passif-net-prior",
+      "source": "PDF AMMC original, page 2, Bilan Passif"
+    }
+  ],
+  "comparisons": [
+    {
+      "name": "stroc_net_result_cpc_vs_balance_current",
+      "kind": "NET_RESULT",
+      "left": {
+        "table_id": "OCR_001",
+        "label": "RESULTAT NET (XI-Xil)",
+        "column": "value_3"
+      },
+      "right": {
+        "table_id": "OCR_003",
+        "label": "Résultat net de l'exercice (2)",
+        "column": "value_1"
+      },
+      "unit": "DH",
+      "period": "30/06/2026",
+      "scope": "SOCIAL",
+      "tolerance": "0.01"
+    }
+  ],
+  "subtotals": [
+    {
+      "name": "stroc_net_result_current_formula",
+      "total": {
+        "table_id": "OCR_001",
+        "label": "RESULTAT NET (XI-Xil)",
+        "column": "value_3"
+      },
+      "components": [
+        {
+          "table_id": "OCR_001",
+          "label": "RESULTAT NET (XI-Xil)",
+          "column": "value_1"
+        },
+        {
+          "table_id": "OCR_001",
+          "label": "RESULTAT NET (XI-Xil)",
+          "column": "value_2"
+        }
+      ],
+      "unit": "DH",
+      "period": "30/06/2026",
+      "scope": "SOCIAL",
+      "tolerance": "0.01"
+    }
+  ]
+}

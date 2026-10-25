@@ -1,0 +1,124 @@
+{
+  "context_overrides": [
+    {
+      "page": 1,
+      "unit": "MAD",
+      "periods": ["30/06/2026", "31/12/2025", "30/06/2025"],
+      "scope": "SOCIAL",
+      "reference": {
+        "reference_id": "srm-pdf-p1-context",
+        "source": "PDF AMMC original, page 1, titre, narration en MAD et en-têtes des états sociaux"
+      }
+    },
+    {
+      "table_id": "OCR_xref:11:1:right",
+      "column_periods": {
+        "value_2": "30/06/2026",
+        "value_3": "31/12/2025"
+      },
+      "scope": "SOCIAL"
+    },
+    {
+      "table_id": "OCR_xref:12:2:left",
+      "column_periods": {
+        "value_3": "30/06/2026",
+        "value_4": "30/06/2025"
+      },
+      "scope": "SOCIAL"
+    }
+  ],
+  "review_decisions": [
+    {
+      "name": "srm_ocr_quarantine_visual_review",
+      "selector": {
+        "status": "REVIEW_REQUIRED"
+      },
+      "decision": "REJECTED",
+      "reliable": true,
+      "reference_id": "srm-pdf-page-1-visual-review",
+      "source": "PDF AMMC original, page 1",
+      "page": 1,
+      "justification": "La revue visuelle confirme des cellules fusionnées, des séparateurs perdus ou des lignes sans rattachement fiable. Aucune correction n'est créée."
+    }
+  ],
+  "references": [
+    {
+      "name": "srm_total_passif_current",
+      "table_id": "OCR_xref:11:1:right",
+      "label": "TOTAL GENERAL I+lI+Ill",
+      "column": "value_2",
+      "value": "381745534.00",
+      "unit": "MAD",
+      "period": "30/06/2026",
+      "scope": "SOCIAL",
+      "reliable": true,
+      "reference_id": "srm-pdf-p1-passif-total-current",
+      "source": "PDF AMMC original, page 1, Bilan Passif"
+    },
+    {
+      "name": "srm_total_passif_prior",
+      "table_id": "OCR_xref:11:1:right",
+      "label": "TOTAL GENERAL I+lI+Ill",
+      "column": "value_3",
+      "value": "411765840.29",
+      "unit": "MAD",
+      "period": "31/12/2025",
+      "scope": "SOCIAL",
+      "reliable": true,
+      "reference_id": "srm-pdf-p1-passif-total-prior",
+      "source": "PDF AMMC original, page 1, Bilan Passif"
+    },
+    {
+      "name": "srm_net_result_current",
+      "table_id": "OCR_xref:12:2:left",
+      "label": "XVI - RESULTAT NET ( XIV - XV)",
+      "column": "value_3",
+      "value": "-8463060.59",
+      "unit": "MAD",
+      "period": "30/06/2026",
+      "scope": "SOCIAL",
+      "reliable": true,
+      "reference_id": "srm-pdf-p1-cpc-net-current",
+      "source": "PDF AMMC original, page 1, Compte de Produits et Charges"
+    },
+    {
+      "name": "srm_net_result_prior",
+      "table_id": "OCR_xref:12:2:left",
+      "label": "XVI - RESULTAT NET ( XIV - XV)",
+      "column": "value_4",
+      "value": "-816977.66",
+      "unit": "MAD",
+      "period": "30/06/2025",
+      "scope": "SOCIAL",
+      "reliable": true,
+      "reference_id": "srm-pdf-p1-cpc-net-prior",
+      "source": "PDF AMMC original, page 1, Compte de Produits et Charges"
+    }
+  ],
+  "subtotals": [
+    {
+      "name": "srm_net_result_current_formula",
+      "total": {
+        "table_id": "OCR_xref:12:2:left",
+        "label": "XVI - RESULTAT NET ( XIV - XV)",
+        "column": "value_3"
+      },
+      "components": [
+        {
+          "table_id": "OCR_xref:12:2:left",
+          "label": "XVI - RESULTAT NET ( XIV - XV)",
+          "column": "value_1"
+        },
+        {
+          "table_id": "OCR_xref:12:2:left",
+          "label": "XVI - RESULTAT NET ( XIV - XV)",
+          "column": "value_2"
+        }
+      ],
+      "unit": "MAD",
+      "period": "30/06/2026",
+      "scope": "SOCIAL",
+      "tolerance": "0.01"
+    }
+  ]
+}

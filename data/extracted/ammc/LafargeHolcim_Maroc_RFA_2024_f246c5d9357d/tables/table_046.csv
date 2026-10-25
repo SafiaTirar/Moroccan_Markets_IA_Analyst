@@ -1,0 +1,42 @@
+POSTE ,,EXERCICE ,EXERCICE PRÉCÉDENT
+611 ,CHARGES D'EXPLOITATION,,
+,Achats revendus de marchandises,,
+,Achats de marchandises ,"45 650 803,74 ","46 305 430,49"
+,Variation des stocks de marchandises (±) ,"-73 757,05 ","-44 931,11"
+,Total ,"45 577 046,69 ","46 260 499,38"
+612 ,Achats consommés de matières et fournitures,,
+,Achat de matières premières ,"549 811 095,07 ","448 105 948,22"
+,Variation des stocks de matières premières (+) ,"7 870 560,43 ","39 280 222,62"
+,"Achats de matériel, fournitures consommables et d’emballages ","1 150 110 664,60 ","1 632 670 101,61"
+,"Variation des stocks de matières, fournitures et emballages (±) ","29 641 122,88 ","7 653 733,34"
+,Achats non stockés de matières et de fournitures ,"156 260 991,29 ","155 919 655,77"
+,"Achats de travaux, études et prestations de services ","376 020 869,00 ","399 560 094,13"
+,Total ,"2 269 715 303,27 ","2 683 189 755,69"
+613/614 ,Autres charges externes,,
+,Locations et charges locatives ,"38 169 257,23 ","35 966 011,09"
+,Redevances de crédit-bail ,,"11 621,66"
+,Entretien et réparations ,"103 644 157,47 ","104 230 589,17"
+,Primes d'assurances ,"56 096 092,80 ","65 018 379,00"
+,Rémunérations du personnel extérieur à l'entreprise ,"4 026 858,66 ","1 649 289,72"
+,Rémunérations d'intermédiaires et honoraires ,"232 383 397,57 ","233 904 254,99"
+,"Redevances pour brevets, marques, droits ","4 375 735,74 ","6 315 015,08"
+,"Études, recherches et documentation ","36 317 994,60 ","22 640 484,16"
+,Transports ,"409 976 844,90 ","475 540 095,58"
+,"Déplacements, missions et réceptions ","53 544 480,36 ","51 366 197,17"
+,Reste du poste des autres charges externes ,"90 923 466,69 ","78 244 507,35"
+,Total ,"1 029 458 286,02 ","1 074 886 444,97"
+617 ,Charges de personnel,,
+,Rémunération du personnel ,"472 753 068,21 ","452 967 034,36"
+,Charges sociales ,"143 493 126,41 ","136 454 543,92"
+,Reste du poste des charges de personnel ,"34 916 641,02 ","32 628 024,57"
+,Total ,"651 162 835,64 ","622 049 602,85"
+618 ,Autres charges d'exploitation,,
+,Jetons de présence ,"3 200 004,00 ","3 180 003,32"
+,Pertes sur créances irrécouvrables ,"23 819 960,67 ","11 009 321,55"
+,Reste du poste des autres charges d'exploitation ,,"8 252 621,30"
+,Total ,"27 019 964,67 ","22 441 946,17"
+638 ,CHARGES FINANCIÈRES,,
+,Autres charges financières,,
+,Charges nettes sur cessions de titres et valeurs de placement,,
+,Reste du poste des autres charges financières ,"75,20 ","268,41"
+,TOTAL ,"75,20 ","268,41"

@@ -1,0 +1,1471 @@
+{
+  "source_pdf": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/raw/ammc/pdfs/annual/dari_couspate/2023/Dari_Couspate_RFA_2023.pdf",
+  "sha256": "e98a5ff007bef2599ab23c04a5196286d9db7f3e1a3fc1cc6bc9d5d10d5ae235",
+  "parsed_at": "2026-10-22T19:45:59.189492+00:00",
+  "docling_version": "2.140.0",
+  "validation_schema_version": "2.0",
+  "backend": "docling.backend.pypdfium2_backend.PyPdfiumDocumentBackend",
+  "extraction_config": {
+    "backend": "docling.backend.pypdfium2_backend.PyPdfiumDocumentBackend",
+    "do_ocr": false,
+    "do_table_structure": true
+  },
+  "extraction_config_sha256": "0044bac57114245a5515c70b41b9fee3bd75c4fae1c4407b240fe37733aa54f4",
+  "conversion_seconds": 275.512,
+  "page_count": 38,
+  "table_count": 21,
+  "table_pages": [
+    [
+      3
+    ],
+    [
+      12
+    ],
+    [
+      13
+    ],
+    [
+      14
+    ],
+    [
+      15
+    ],
+    [
+      16
+    ],
+    [
+      17
+    ],
+    [
+      17
+    ],
+    [
+      18
+    ],
+    [
+      18
+    ],
+    [
+      19
+    ],
+    [
+      19
+    ],
+    [
+      20
+    ],
+    [
+      20
+    ],
+    [
+      21
+    ],
+    [
+      21
+    ],
+    [
+      21
+    ],
+    [
+      21
+    ],
+    [
+      21
+    ],
+    [
+      21
+    ],
+    [
+      34
+    ]
+  ],
+  "markdown_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Dari_Couspate_RFA_2023_e98a5ff007be/document.md",
+  "json_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Dari_Couspate_RFA_2023_e98a5ff007be/document.json",
+  "status": "PARTIAL",
+  "validation": {
+    "schema_version": "2.0",
+    "status": "PARTIAL",
+    "valid_table_count": 1,
+    "incomplete_table_count": 1,
+    "invalid_table_count": 19,
+    "issues": [
+      {
+        "code": "SPLIT_WORD",
+        "message": "Un libellé contient une césure issue de la mise en page.",
+        "severity": "WARNING",
+        "table_index": 1,
+        "pages": [
+          3
+        ]
+      },
+      {
+        "code": "EMPTY_TABLE",
+        "message": "Le tableau ne contient aucune cellule exploitable.",
+        "severity": "ERROR",
+        "table_index": 2,
+        "pages": [
+          12
+        ]
+      },
+      {
+        "code": "IMAGE_TABLE_REQUIRES_OCR",
+        "message": "Le tableau vide doit être revu avec OCR.",
+        "severity": "WARNING",
+        "table_index": 2,
+        "pages": [
+          12
+        ]
+      },
+      {
+        "code": "CSV_UNREADABLE",
+        "message": "CSV illisible (table_002.csv) : No columns to parse from file",
+        "severity": "ERROR",
+        "table_index": 2,
+        "pages": [
+          12
+        ]
+      },
+      {
+        "code": "EMPTY_TABLE",
+        "message": "Le tableau ne contient aucune cellule exploitable.",
+        "severity": "ERROR",
+        "table_index": 3,
+        "pages": [
+          13
+        ]
+      },
+      {
+        "code": "IMAGE_TABLE_REQUIRES_OCR",
+        "message": "Le tableau vide doit être revu avec OCR.",
+        "severity": "WARNING",
+        "table_index": 3,
+        "pages": [
+          13
+        ]
+      },
+      {
+        "code": "CSV_UNREADABLE",
+        "message": "CSV illisible (table_003.csv) : No columns to parse from file",
+        "severity": "ERROR",
+        "table_index": 3,
+        "pages": [
+          13
+        ]
+      },
+      {
+        "code": "EMPTY_TABLE",
+        "message": "Le tableau ne contient aucune cellule exploitable.",
+        "severity": "ERROR",
+        "table_index": 4,
+        "pages": [
+          14
+        ]
+      },
+      {
+        "code": "IMAGE_TABLE_REQUIRES_OCR",
+        "message": "Le tableau vide doit être revu avec OCR.",
+        "severity": "WARNING",
+        "table_index": 4,
+        "pages": [
+          14
+        ]
+      },
+      {
+        "code": "CSV_UNREADABLE",
+        "message": "CSV illisible (table_004.csv) : No columns to parse from file",
+        "severity": "ERROR",
+        "table_index": 4,
+        "pages": [
+          14
+        ]
+      },
+      {
+        "code": "EMPTY_TABLE",
+        "message": "Le tableau ne contient aucune cellule exploitable.",
+        "severity": "ERROR",
+        "table_index": 5,
+        "pages": [
+          15
+        ]
+      },
+      {
+        "code": "IMAGE_TABLE_REQUIRES_OCR",
+        "message": "Le tableau vide doit être revu avec OCR.",
+        "severity": "WARNING",
+        "table_index": 5,
+        "pages": [
+          15
+        ]
+      },
+      {
+        "code": "CSV_UNREADABLE",
+        "message": "CSV illisible (table_005.csv) : No columns to parse from file",
+        "severity": "ERROR",
+        "table_index": 5,
+        "pages": [
+          15
+        ]
+      },
+      {
+        "code": "EMPTY_TABLE",
+        "message": "Le tableau ne contient aucune cellule exploitable.",
+        "severity": "ERROR",
+        "table_index": 6,
+        "pages": [
+          16
+        ]
+      },
+      {
+        "code": "IMAGE_TABLE_REQUIRES_OCR",
+        "message": "Le tableau vide doit être revu avec OCR.",
+        "severity": "WARNING",
+        "table_index": 6,
+        "pages": [
+          16
+        ]
+      },
+      {
+        "code": "CSV_UNREADABLE",
+        "message": "CSV illisible (table_006.csv) : No columns to parse from file",
+        "severity": "ERROR",
+        "table_index": 6,
+        "pages": [
+          16
+        ]
+      },
+      {
+        "code": "EMPTY_TABLE",
+        "message": "Le tableau ne contient aucune cellule exploitable.",
+        "severity": "ERROR",
+        "table_index": 7,
+        "pages": [
+          17
+        ]
+      },
+      {
+        "code": "IMAGE_TABLE_REQUIRES_OCR",
+        "message": "Le tableau vide doit être revu avec OCR.",
+        "severity": "WARNING",
+        "table_index": 7,
+        "pages": [
+          17
+        ]
+      },
+      {
+        "code": "CSV_UNREADABLE",
+        "message": "CSV illisible (table_007.csv) : No columns to parse from file",
+        "severity": "ERROR",
+        "table_index": 7,
+        "pages": [
+          17
+        ]
+      },
+      {
+        "code": "EMPTY_TABLE",
+        "message": "Le tableau ne contient aucune cellule exploitable.",
+        "severity": "ERROR",
+        "table_index": 8,
+        "pages": [
+          17
+        ]
+      },
+      {
+        "code": "IMAGE_TABLE_REQUIRES_OCR",
+        "message": "Le tableau vide doit être revu avec OCR.",
+        "severity": "WARNING",
+        "table_index": 8,
+        "pages": [
+          17
+        ]
+      },
+      {
+        "code": "CSV_UNREADABLE",
+        "message": "CSV illisible (table_008.csv) : No columns to parse from file",
+        "severity": "ERROR",
+        "table_index": 8,
+        "pages": [
+          17
+        ]
+      },
+      {
+        "code": "EMPTY_TABLE",
+        "message": "Le tableau ne contient aucune cellule exploitable.",
+        "severity": "ERROR",
+        "table_index": 9,
+        "pages": [
+          18
+        ]
+      },
+      {
+        "code": "IMAGE_TABLE_REQUIRES_OCR",
+        "message": "Le tableau vide doit être revu avec OCR.",
+        "severity": "WARNING",
+        "table_index": 9,
+        "pages": [
+          18
+        ]
+      },
+      {
+        "code": "CSV_UNREADABLE",
+        "message": "CSV illisible (table_009.csv) : No columns to parse from file",
+        "severity": "ERROR",
+        "table_index": 9,
+        "pages": [
+          18
+        ]
+      },
+      {
+        "code": "EMPTY_TABLE",
+        "message": "Le tableau ne contient aucune cellule exploitable.",
+        "severity": "ERROR",
+        "table_index": 10,
+        "pages": [
+          18
+        ]
+      },
+      {
+        "code": "IMAGE_TABLE_REQUIRES_OCR",
+        "message": "Le tableau vide doit être revu avec OCR.",
+        "severity": "WARNING",
+        "table_index": 10,
+        "pages": [
+          18
+        ]
+      },
+      {
+        "code": "CSV_UNREADABLE",
+        "message": "CSV illisible (table_010.csv) : No columns to parse from file",
+        "severity": "ERROR",
+        "table_index": 10,
+        "pages": [
+          18
+        ]
+      },
+      {
+        "code": "EMPTY_TABLE",
+        "message": "Le tableau ne contient aucune cellule exploitable.",
+        "severity": "ERROR",
+        "table_index": 11,
+        "pages": [
+          19
+        ]
+      },
+      {
+        "code": "IMAGE_TABLE_REQUIRES_OCR",
+        "message": "Le tableau vide doit être revu avec OCR.",
+        "severity": "WARNING",
+        "table_index": 11,
+        "pages": [
+          19
+        ]
+      },
+      {
+        "code": "CSV_UNREADABLE",
+        "message": "CSV illisible (table_011.csv) : No columns to parse from file",
+        "severity": "ERROR",
+        "table_index": 11,
+        "pages": [
+          19
+        ]
+      },
+      {
+        "code": "EMPTY_TABLE",
+        "message": "Le tableau ne contient aucune cellule exploitable.",
+        "severity": "ERROR",
+        "table_index": 12,
+        "pages": [
+          19
+        ]
+      },
+      {
+        "code": "IMAGE_TABLE_REQUIRES_OCR",
+        "message": "Le tableau vide doit être revu avec OCR.",
+        "severity": "WARNING",
+        "table_index": 12,
+        "pages": [
+          19
+        ]
+      },
+      {
+        "code": "CSV_UNREADABLE",
+        "message": "CSV illisible (table_012.csv) : No columns to parse from file",
+        "severity": "ERROR",
+        "table_index": 12,
+        "pages": [
+          19
+        ]
+      },
+      {
+        "code": "EMPTY_TABLE",
+        "message": "Le tableau ne contient aucune cellule exploitable.",
+        "severity": "ERROR",
+        "table_index": 13,
+        "pages": [
+          20
+        ]
+      },
+      {
+        "code": "IMAGE_TABLE_REQUIRES_OCR",
+        "message": "Le tableau vide doit être revu avec OCR.",
+        "severity": "WARNING",
+        "table_index": 13,
+        "pages": [
+          20
+        ]
+      },
+      {
+        "code": "CSV_UNREADABLE",
+        "message": "CSV illisible (table_013.csv) : No columns to parse from file",
+        "severity": "ERROR",
+        "table_index": 13,
+        "pages": [
+          20
+        ]
+      },
+      {
+        "code": "EMPTY_TABLE",
+        "message": "Le tableau ne contient aucune cellule exploitable.",
+        "severity": "ERROR",
+        "table_index": 14,
+        "pages": [
+          20
+        ]
+      },
+      {
+        "code": "IMAGE_TABLE_REQUIRES_OCR",
+        "message": "Le tableau vide doit être revu avec OCR.",
+        "severity": "WARNING",
+        "table_index": 14,
+        "pages": [
+          20
+        ]
+      },
+      {
+        "code": "CSV_UNREADABLE",
+        "message": "CSV illisible (table_014.csv) : No columns to parse from file",
+        "severity": "ERROR",
+        "table_index": 14,
+        "pages": [
+          20
+        ]
+      },
+      {
+        "code": "EMPTY_TABLE",
+        "message": "Le tableau ne contient aucune cellule exploitable.",
+        "severity": "ERROR",
+        "table_index": 15,
+        "pages": [
+          21
+        ]
+      },
+      {
+        "code": "IMAGE_TABLE_REQUIRES_OCR",
+        "message": "Le tableau vide doit être revu avec OCR.",
+        "severity": "WARNING",
+        "table_index": 15,
+        "pages": [
+          21
+        ]
+      },
+      {
+        "code": "CSV_UNREADABLE",
+        "message": "CSV illisible (table_015.csv) : No columns to parse from file",
+        "severity": "ERROR",
+        "table_index": 15,
+        "pages": [
+          21
+        ]
+      },
+      {
+        "code": "EMPTY_TABLE",
+        "message": "Le tableau ne contient aucune cellule exploitable.",
+        "severity": "ERROR",
+        "table_index": 16,
+        "pages": [
+          21
+        ]
+      },
+      {
+        "code": "IMAGE_TABLE_REQUIRES_OCR",
+        "message": "Le tableau vide doit être revu avec OCR.",
+        "severity": "WARNING",
+        "table_index": 16,
+        "pages": [
+          21
+        ]
+      },
+      {
+        "code": "CSV_UNREADABLE",
+        "message": "CSV illisible (table_016.csv) : No columns to parse from file",
+        "severity": "ERROR",
+        "table_index": 16,
+        "pages": [
+          21
+        ]
+      },
+      {
+        "code": "EMPTY_TABLE",
+        "message": "Le tableau ne contient aucune cellule exploitable.",
+        "severity": "ERROR",
+        "table_index": 17,
+        "pages": [
+          21
+        ]
+      },
+      {
+        "code": "IMAGE_TABLE_REQUIRES_OCR",
+        "message": "Le tableau vide doit être revu avec OCR.",
+        "severity": "WARNING",
+        "table_index": 17,
+        "pages": [
+          21
+        ]
+      },
+      {
+        "code": "CSV_UNREADABLE",
+        "message": "CSV illisible (table_017.csv) : No columns to parse from file",
+        "severity": "ERROR",
+        "table_index": 17,
+        "pages": [
+          21
+        ]
+      },
+      {
+        "code": "EMPTY_TABLE",
+        "message": "Le tableau ne contient aucune cellule exploitable.",
+        "severity": "ERROR",
+        "table_index": 18,
+        "pages": [
+          21
+        ]
+      },
+      {
+        "code": "IMAGE_TABLE_REQUIRES_OCR",
+        "message": "Le tableau vide doit être revu avec OCR.",
+        "severity": "WARNING",
+        "table_index": 18,
+        "pages": [
+          21
+        ]
+      },
+      {
+        "code": "CSV_UNREADABLE",
+        "message": "CSV illisible (table_018.csv) : No columns to parse from file",
+        "severity": "ERROR",
+        "table_index": 18,
+        "pages": [
+          21
+        ]
+      },
+      {
+        "code": "EMPTY_TABLE",
+        "message": "Le tableau ne contient aucune cellule exploitable.",
+        "severity": "ERROR",
+        "table_index": 19,
+        "pages": [
+          21
+        ]
+      },
+      {
+        "code": "IMAGE_TABLE_REQUIRES_OCR",
+        "message": "Le tableau vide doit être revu avec OCR.",
+        "severity": "WARNING",
+        "table_index": 19,
+        "pages": [
+          21
+        ]
+      },
+      {
+        "code": "CSV_UNREADABLE",
+        "message": "CSV illisible (table_019.csv) : No columns to parse from file",
+        "severity": "ERROR",
+        "table_index": 19,
+        "pages": [
+          21
+        ]
+      },
+      {
+        "code": "EMPTY_TABLE",
+        "message": "Le tableau ne contient aucune cellule exploitable.",
+        "severity": "ERROR",
+        "table_index": 20,
+        "pages": [
+          21
+        ]
+      },
+      {
+        "code": "IMAGE_TABLE_REQUIRES_OCR",
+        "message": "Le tableau vide doit être revu avec OCR.",
+        "severity": "WARNING",
+        "table_index": 20,
+        "pages": [
+          21
+        ]
+      },
+      {
+        "code": "CSV_UNREADABLE",
+        "message": "CSV illisible (table_020.csv) : No columns to parse from file",
+        "severity": "ERROR",
+        "table_index": 20,
+        "pages": [
+          21
+        ]
+      }
+    ],
+    "tables": [
+      {
+        "table_index": 1,
+        "pages": [
+          3
+        ],
+        "row_count": 22,
+        "column_count": 2,
+        "non_empty_cell_count": 24,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Dari_Couspate_RFA_2023_e98a5ff007be/tables/table_001.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "SPLIT_WORD",
+            "message": "Un libellé contient une césure issue de la mise en page.",
+            "severity": "WARNING",
+            "table_index": 1,
+            "pages": [
+              3
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 2,
+        "pages": [
+          12
+        ],
+        "row_count": 0,
+        "column_count": 0,
+        "non_empty_cell_count": 0,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Dari_Couspate_RFA_2023_e98a5ff007be/tables/table_002.csv",
+        "status": "INVALID",
+        "issues": [
+          {
+            "code": "EMPTY_TABLE",
+            "message": "Le tableau ne contient aucune cellule exploitable.",
+            "severity": "ERROR",
+            "table_index": 2,
+            "pages": [
+              12
+            ]
+          },
+          {
+            "code": "IMAGE_TABLE_REQUIRES_OCR",
+            "message": "Le tableau vide doit être revu avec OCR.",
+            "severity": "WARNING",
+            "table_index": 2,
+            "pages": [
+              12
+            ]
+          },
+          {
+            "code": "CSV_UNREADABLE",
+            "message": "CSV illisible (table_002.csv) : No columns to parse from file",
+            "severity": "ERROR",
+            "table_index": 2,
+            "pages": [
+              12
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 3,
+        "pages": [
+          13
+        ],
+        "row_count": 0,
+        "column_count": 0,
+        "non_empty_cell_count": 0,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Dari_Couspate_RFA_2023_e98a5ff007be/tables/table_003.csv",
+        "status": "INVALID",
+        "issues": [
+          {
+            "code": "EMPTY_TABLE",
+            "message": "Le tableau ne contient aucune cellule exploitable.",
+            "severity": "ERROR",
+            "table_index": 3,
+            "pages": [
+              13
+            ]
+          },
+          {
+            "code": "IMAGE_TABLE_REQUIRES_OCR",
+            "message": "Le tableau vide doit être revu avec OCR.",
+            "severity": "WARNING",
+            "table_index": 3,
+            "pages": [
+              13
+            ]
+          },
+          {
+            "code": "CSV_UNREADABLE",
+            "message": "CSV illisible (table_003.csv) : No columns to parse from file",
+            "severity": "ERROR",
+            "table_index": 3,
+            "pages": [
+              13
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 4,
+        "pages": [
+          14
+        ],
+        "row_count": 0,
+        "column_count": 0,
+        "non_empty_cell_count": 0,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Dari_Couspate_RFA_2023_e98a5ff007be/tables/table_004.csv",
+        "status": "INVALID",
+        "issues": [
+          {
+            "code": "EMPTY_TABLE",
+            "message": "Le tableau ne contient aucune cellule exploitable.",
+            "severity": "ERROR",
+            "table_index": 4,
+            "pages": [
+              14
+            ]
+          },
+          {
+            "code": "IMAGE_TABLE_REQUIRES_OCR",
+            "message": "Le tableau vide doit être revu avec OCR.",
+            "severity": "WARNING",
+            "table_index": 4,
+            "pages": [
+              14
+            ]
+          },
+          {
+            "code": "CSV_UNREADABLE",
+            "message": "CSV illisible (table_004.csv) : No columns to parse from file",
+            "severity": "ERROR",
+            "table_index": 4,
+            "pages": [
+              14
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 5,
+        "pages": [
+          15
+        ],
+        "row_count": 0,
+        "column_count": 0,
+        "non_empty_cell_count": 0,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Dari_Couspate_RFA_2023_e98a5ff007be/tables/table_005.csv",
+        "status": "INVALID",
+        "issues": [
+          {
+            "code": "EMPTY_TABLE",
+            "message": "Le tableau ne contient aucune cellule exploitable.",
+            "severity": "ERROR",
+            "table_index": 5,
+            "pages": [
+              15
+            ]
+          },
+          {
+            "code": "IMAGE_TABLE_REQUIRES_OCR",
+            "message": "Le tableau vide doit être revu avec OCR.",
+            "severity": "WARNING",
+            "table_index": 5,
+            "pages": [
+              15
+            ]
+          },
+          {
+            "code": "CSV_UNREADABLE",
+            "message": "CSV illisible (table_005.csv) : No columns to parse from file",
+            "severity": "ERROR",
+            "table_index": 5,
+            "pages": [
+              15
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 6,
+        "pages": [
+          16
+        ],
+        "row_count": 0,
+        "column_count": 0,
+        "non_empty_cell_count": 0,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Dari_Couspate_RFA_2023_e98a5ff007be/tables/table_006.csv",
+        "status": "INVALID",
+        "issues": [
+          {
+            "code": "EMPTY_TABLE",
+            "message": "Le tableau ne contient aucune cellule exploitable.",
+            "severity": "ERROR",
+            "table_index": 6,
+            "pages": [
+              16
+            ]
+          },
+          {
+            "code": "IMAGE_TABLE_REQUIRES_OCR",
+            "message": "Le tableau vide doit être revu avec OCR.",
+            "severity": "WARNING",
+            "table_index": 6,
+            "pages": [
+              16
+            ]
+          },
+          {
+            "code": "CSV_UNREADABLE",
+            "message": "CSV illisible (table_006.csv) : No columns to parse from file",
+            "severity": "ERROR",
+            "table_index": 6,
+            "pages": [
+              16
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 7,
+        "pages": [
+          17
+        ],
+        "row_count": 0,
+        "column_count": 0,
+        "non_empty_cell_count": 0,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Dari_Couspate_RFA_2023_e98a5ff007be/tables/table_007.csv",
+        "status": "INVALID",
+        "issues": [
+          {
+            "code": "EMPTY_TABLE",
+            "message": "Le tableau ne contient aucune cellule exploitable.",
+            "severity": "ERROR",
+            "table_index": 7,
+            "pages": [
+              17
+            ]
+          },
+          {
+            "code": "IMAGE_TABLE_REQUIRES_OCR",
+            "message": "Le tableau vide doit être revu avec OCR.",
+            "severity": "WARNING",
+            "table_index": 7,
+            "pages": [
+              17
+            ]
+          },
+          {
+            "code": "CSV_UNREADABLE",
+            "message": "CSV illisible (table_007.csv) : No columns to parse from file",
+            "severity": "ERROR",
+            "table_index": 7,
+            "pages": [
+              17
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 8,
+        "pages": [
+          17
+        ],
+        "row_count": 0,
+        "column_count": 0,
+        "non_empty_cell_count": 0,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Dari_Couspate_RFA_2023_e98a5ff007be/tables/table_008.csv",
+        "status": "INVALID",
+        "issues": [
+          {
+            "code": "EMPTY_TABLE",
+            "message": "Le tableau ne contient aucune cellule exploitable.",
+            "severity": "ERROR",
+            "table_index": 8,
+            "pages": [
+              17
+            ]
+          },
+          {
+            "code": "IMAGE_TABLE_REQUIRES_OCR",
+            "message": "Le tableau vide doit être revu avec OCR.",
+            "severity": "WARNING",
+            "table_index": 8,
+            "pages": [
+              17
+            ]
+          },
+          {
+            "code": "CSV_UNREADABLE",
+            "message": "CSV illisible (table_008.csv) : No columns to parse from file",
+            "severity": "ERROR",
+            "table_index": 8,
+            "pages": [
+              17
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 9,
+        "pages": [
+          18
+        ],
+        "row_count": 0,
+        "column_count": 0,
+        "non_empty_cell_count": 0,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Dari_Couspate_RFA_2023_e98a5ff007be/tables/table_009.csv",
+        "status": "INVALID",
+        "issues": [
+          {
+            "code": "EMPTY_TABLE",
+            "message": "Le tableau ne contient aucune cellule exploitable.",
+            "severity": "ERROR",
+            "table_index": 9,
+            "pages": [
+              18
+            ]
+          },
+          {
+            "code": "IMAGE_TABLE_REQUIRES_OCR",
+            "message": "Le tableau vide doit être revu avec OCR.",
+            "severity": "WARNING",
+            "table_index": 9,
+            "pages": [
+              18
+            ]
+          },
+          {
+            "code": "CSV_UNREADABLE",
+            "message": "CSV illisible (table_009.csv) : No columns to parse from file",
+            "severity": "ERROR",
+            "table_index": 9,
+            "pages": [
+              18
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 10,
+        "pages": [
+          18
+        ],
+        "row_count": 0,
+        "column_count": 0,
+        "non_empty_cell_count": 0,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Dari_Couspate_RFA_2023_e98a5ff007be/tables/table_010.csv",
+        "status": "INVALID",
+        "issues": [
+          {
+            "code": "EMPTY_TABLE",
+            "message": "Le tableau ne contient aucune cellule exploitable.",
+            "severity": "ERROR",
+            "table_index": 10,
+            "pages": [
+              18
+            ]
+          },
+          {
+            "code": "IMAGE_TABLE_REQUIRES_OCR",
+            "message": "Le tableau vide doit être revu avec OCR.",
+            "severity": "WARNING",
+            "table_index": 10,
+            "pages": [
+              18
+            ]
+          },
+          {
+            "code": "CSV_UNREADABLE",
+            "message": "CSV illisible (table_010.csv) : No columns to parse from file",
+            "severity": "ERROR",
+            "table_index": 10,
+            "pages": [
+              18
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 11,
+        "pages": [
+          19
+        ],
+        "row_count": 0,
+        "column_count": 0,
+        "non_empty_cell_count": 0,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Dari_Couspate_RFA_2023_e98a5ff007be/tables/table_011.csv",
+        "status": "INVALID",
+        "issues": [
+          {
+            "code": "EMPTY_TABLE",
+            "message": "Le tableau ne contient aucune cellule exploitable.",
+            "severity": "ERROR",
+            "table_index": 11,
+            "pages": [
+              19
+            ]
+          },
+          {
+            "code": "IMAGE_TABLE_REQUIRES_OCR",
+            "message": "Le tableau vide doit être revu avec OCR.",
+            "severity": "WARNING",
+            "table_index": 11,
+            "pages": [
+              19
+            ]
+          },
+          {
+            "code": "CSV_UNREADABLE",
+            "message": "CSV illisible (table_011.csv) : No columns to parse from file",
+            "severity": "ERROR",
+            "table_index": 11,
+            "pages": [
+              19
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 12,
+        "pages": [
+          19
+        ],
+        "row_count": 0,
+        "column_count": 0,
+        "non_empty_cell_count": 0,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Dari_Couspate_RFA_2023_e98a5ff007be/tables/table_012.csv",
+        "status": "INVALID",
+        "issues": [
+          {
+            "code": "EMPTY_TABLE",
+            "message": "Le tableau ne contient aucune cellule exploitable.",
+            "severity": "ERROR",
+            "table_index": 12,
+            "pages": [
+              19
+            ]
+          },
+          {
+            "code": "IMAGE_TABLE_REQUIRES_OCR",
+            "message": "Le tableau vide doit être revu avec OCR.",
+            "severity": "WARNING",
+            "table_index": 12,
+            "pages": [
+              19
+            ]
+          },
+          {
+            "code": "CSV_UNREADABLE",
+            "message": "CSV illisible (table_012.csv) : No columns to parse from file",
+            "severity": "ERROR",
+            "table_index": 12,
+            "pages": [
+              19
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 13,
+        "pages": [
+          20
+        ],
+        "row_count": 0,
+        "column_count": 0,
+        "non_empty_cell_count": 0,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Dari_Couspate_RFA_2023_e98a5ff007be/tables/table_013.csv",
+        "status": "INVALID",
+        "issues": [
+          {
+            "code": "EMPTY_TABLE",
+            "message": "Le tableau ne contient aucune cellule exploitable.",
+            "severity": "ERROR",
+            "table_index": 13,
+            "pages": [
+              20
+            ]
+          },
+          {
+            "code": "IMAGE_TABLE_REQUIRES_OCR",
+            "message": "Le tableau vide doit être revu avec OCR.",
+            "severity": "WARNING",
+            "table_index": 13,
+            "pages": [
+              20
+            ]
+          },
+          {
+            "code": "CSV_UNREADABLE",
+            "message": "CSV illisible (table_013.csv) : No columns to parse from file",
+            "severity": "ERROR",
+            "table_index": 13,
+            "pages": [
+              20
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 14,
+        "pages": [
+          20
+        ],
+        "row_count": 0,
+        "column_count": 0,
+        "non_empty_cell_count": 0,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Dari_Couspate_RFA_2023_e98a5ff007be/tables/table_014.csv",
+        "status": "INVALID",
+        "issues": [
+          {
+            "code": "EMPTY_TABLE",
+            "message": "Le tableau ne contient aucune cellule exploitable.",
+            "severity": "ERROR",
+            "table_index": 14,
+            "pages": [
+              20
+            ]
+          },
+          {
+            "code": "IMAGE_TABLE_REQUIRES_OCR",
+            "message": "Le tableau vide doit être revu avec OCR.",
+            "severity": "WARNING",
+            "table_index": 14,
+            "pages": [
+              20
+            ]
+          },
+          {
+            "code": "CSV_UNREADABLE",
+            "message": "CSV illisible (table_014.csv) : No columns to parse from file",
+            "severity": "ERROR",
+            "table_index": 14,
+            "pages": [
+              20
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 15,
+        "pages": [
+          21
+        ],
+        "row_count": 0,
+        "column_count": 0,
+        "non_empty_cell_count": 0,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Dari_Couspate_RFA_2023_e98a5ff007be/tables/table_015.csv",
+        "status": "INVALID",
+        "issues": [
+          {
+            "code": "EMPTY_TABLE",
+            "message": "Le tableau ne contient aucune cellule exploitable.",
+            "severity": "ERROR",
+            "table_index": 15,
+            "pages": [
+              21
+            ]
+          },
+          {
+            "code": "IMAGE_TABLE_REQUIRES_OCR",
+            "message": "Le tableau vide doit être revu avec OCR.",
+            "severity": "WARNING",
+            "table_index": 15,
+            "pages": [
+              21
+            ]
+          },
+          {
+            "code": "CSV_UNREADABLE",
+            "message": "CSV illisible (table_015.csv) : No columns to parse from file",
+            "severity": "ERROR",
+            "table_index": 15,
+            "pages": [
+              21
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 16,
+        "pages": [
+          21
+        ],
+        "row_count": 0,
+        "column_count": 0,
+        "non_empty_cell_count": 0,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Dari_Couspate_RFA_2023_e98a5ff007be/tables/table_016.csv",
+        "status": "INVALID",
+        "issues": [
+          {
+            "code": "EMPTY_TABLE",
+            "message": "Le tableau ne contient aucune cellule exploitable.",
+            "severity": "ERROR",
+            "table_index": 16,
+            "pages": [
+              21
+            ]
+          },
+          {
+            "code": "IMAGE_TABLE_REQUIRES_OCR",
+            "message": "Le tableau vide doit être revu avec OCR.",
+            "severity": "WARNING",
+            "table_index": 16,
+            "pages": [
+              21
+            ]
+          },
+          {
+            "code": "CSV_UNREADABLE",
+            "message": "CSV illisible (table_016.csv) : No columns to parse from file",
+            "severity": "ERROR",
+            "table_index": 16,
+            "pages": [
+              21
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 17,
+        "pages": [
+          21
+        ],
+        "row_count": 0,
+        "column_count": 0,
+        "non_empty_cell_count": 0,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Dari_Couspate_RFA_2023_e98a5ff007be/tables/table_017.csv",
+        "status": "INVALID",
+        "issues": [
+          {
+            "code": "EMPTY_TABLE",
+            "message": "Le tableau ne contient aucune cellule exploitable.",
+            "severity": "ERROR",
+            "table_index": 17,
+            "pages": [
+              21
+            ]
+          },
+          {
+            "code": "IMAGE_TABLE_REQUIRES_OCR",
+            "message": "Le tableau vide doit être revu avec OCR.",
+            "severity": "WARNING",
+            "table_index": 17,
+            "pages": [
+              21
+            ]
+          },
+          {
+            "code": "CSV_UNREADABLE",
+            "message": "CSV illisible (table_017.csv) : No columns to parse from file",
+            "severity": "ERROR",
+            "table_index": 17,
+            "pages": [
+              21
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 18,
+        "pages": [
+          21
+        ],
+        "row_count": 0,
+        "column_count": 0,
+        "non_empty_cell_count": 0,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Dari_Couspate_RFA_2023_e98a5ff007be/tables/table_018.csv",
+        "status": "INVALID",
+        "issues": [
+          {
+            "code": "EMPTY_TABLE",
+            "message": "Le tableau ne contient aucune cellule exploitable.",
+            "severity": "ERROR",
+            "table_index": 18,
+            "pages": [
+              21
+            ]
+          },
+          {
+            "code": "IMAGE_TABLE_REQUIRES_OCR",
+            "message": "Le tableau vide doit être revu avec OCR.",
+            "severity": "WARNING",
+            "table_index": 18,
+            "pages": [
+              21
+            ]
+          },
+          {
+            "code": "CSV_UNREADABLE",
+            "message": "CSV illisible (table_018.csv) : No columns to parse from file",
+            "severity": "ERROR",
+            "table_index": 18,
+            "pages": [
+              21
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 19,
+        "pages": [
+          21
+        ],
+        "row_count": 0,
+        "column_count": 0,
+        "non_empty_cell_count": 0,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Dari_Couspate_RFA_2023_e98a5ff007be/tables/table_019.csv",
+        "status": "INVALID",
+        "issues": [
+          {
+            "code": "EMPTY_TABLE",
+            "message": "Le tableau ne contient aucune cellule exploitable.",
+            "severity": "ERROR",
+            "table_index": 19,
+            "pages": [
+              21
+            ]
+          },
+          {
+            "code": "IMAGE_TABLE_REQUIRES_OCR",
+            "message": "Le tableau vide doit être revu avec OCR.",
+            "severity": "WARNING",
+            "table_index": 19,
+            "pages": [
+              21
+            ]
+          },
+          {
+            "code": "CSV_UNREADABLE",
+            "message": "CSV illisible (table_019.csv) : No columns to parse from file",
+            "severity": "ERROR",
+            "table_index": 19,
+            "pages": [
+              21
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 20,
+        "pages": [
+          21
+        ],
+        "row_count": 0,
+        "column_count": 0,
+        "non_empty_cell_count": 0,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Dari_Couspate_RFA_2023_e98a5ff007be/tables/table_020.csv",
+        "status": "INVALID",
+        "issues": [
+          {
+            "code": "EMPTY_TABLE",
+            "message": "Le tableau ne contient aucune cellule exploitable.",
+            "severity": "ERROR",
+            "table_index": 20,
+            "pages": [
+              21
+            ]
+          },
+          {
+            "code": "IMAGE_TABLE_REQUIRES_OCR",
+            "message": "Le tableau vide doit être revu avec OCR.",
+            "severity": "WARNING",
+            "table_index": 20,
+            "pages": [
+              21
+            ]
+          },
+          {
+            "code": "CSV_UNREADABLE",
+            "message": "CSV illisible (table_020.csv) : No columns to parse from file",
+            "severity": "ERROR",
+            "table_index": 20,
+            "pages": [
+              21
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 21,
+        "pages": [
+          34
+        ],
+        "row_count": 11,
+        "column_count": 5,
+        "non_empty_cell_count": 47,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Dari_Couspate_RFA_2023_e98a5ff007be/tables/table_021.csv",
+        "status": "VALID",
+        "issues": []
+      }
+    ],
+    "artifact_sha256": {
+      "document.md": "99c82929fc07031f9807723ead61208ccbcea23fc2b799cde1f7ad3c94b9cd45",
+      "document.json": "5d72d8c2207564e3f5d0b3a96306939c8cf92cea2c0d26f6c412031a6c0e4332",
+      "tables/table_001.csv": "9f7b73b7b81c90f6890219fa0e75293db48558ba6b9b265777d20f73742ba43b",
+      "tables/table_002.csv": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "tables/table_003.csv": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "tables/table_004.csv": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "tables/table_005.csv": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "tables/table_006.csv": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "tables/table_007.csv": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "tables/table_008.csv": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "tables/table_009.csv": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "tables/table_010.csv": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "tables/table_011.csv": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "tables/table_012.csv": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "tables/table_013.csv": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "tables/table_014.csv": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "tables/table_015.csv": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "tables/table_016.csv": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "tables/table_017.csv": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "tables/table_018.csv": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "tables/table_019.csv": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "tables/table_020.csv": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "tables/table_021.csv": "67849602ef1669f44c9bcba6961913dad92fa81bba07fc8193ec4885b0f10564"
+    },
+    "ocr_required_pages": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ],
+    "ocr_required_table_indexes": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ]
+  },
+  "error": null
+}

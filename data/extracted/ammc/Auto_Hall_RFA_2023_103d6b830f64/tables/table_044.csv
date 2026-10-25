@@ -1,0 +1,52 @@
+0,1,2,3,4
+ BILAN ACTIF ,,,du 01/01/2023 au 31/12/2023,
+ACTIF (En dirhams),Brut ,EXERCICE  AMORT & PROV ,Net ,EXERCICE  PRÉCÉDENT Net
+IMMOBILISATIONS EN NON VALEURS (A) ,"59 418 834,05 ","46 202 377,89 ","13 216 456,16 ","24 431 321,10"
+*Frais préliminaires ,,"0,00 ","0,00 ","0,00"
+*Charges à répartir sur plusieurs exercices ,"59 418 834,05 ","46 202 377,89 ","13 216 456,16 ","24 431 321,10"
+*Primes de remboursement des obligations,,,,
+IMMOBILISATIONS INCORPORELLES (B) ,"2 800 000,00 ","560 000,00 ","2 240 000,00 ","140 000,00"
+*Immobilisations en recherche et développement ,"2 800 000,00 ","560 000,00 ","2 240 000,00 ","0,00"
+"*Brevets, marques, droits et valeurs similaires ","0,00 ","0,00 ","0,00 ","0,00"
+*Fonds commercial ,,,"0,00 ","140 000,00"
+*Autres immobilisations incorporelles,,,,
+IMMOBILISATIONS CORPORELLES (C) ,"741 590 553,24 ","328 942 795,11 ","412 647 758,13 ","473 685 024,36"
+*Terrains ,"110 989 862,49 ",,"110 989 862,49 ","147 095 510,29"
+A C T I F I M M O B I L I S É *Constructions ,"321 011 071,65 ","192 846 157,15 ","128 164 914,50 ","155 007 417,46"
+"*Installations techniques, matériel et outillage ","55 154 775,54 ","42 447 516,47 ","12 707 259,07 ","14 200 588,27"
+*Matériel de transport ,"155 595 757,63 ","33 734 968,80 ","121 860 788,83 ","119 022 755,68"
+"*Mobilier, matériel de bureau ","81 273 316,00 ","59 914 152,69 ","21 359 163,31 ","23 541 355,69"
+*Autres immobilisations corporelles ,,,"0,00 ","0,00"
+*Immobilisations corporelles en cours ,"17 565 769,93 ",,"17 565 769,93 ","14 817 396,97"
+IMMOBILISATIONS FINANCIÈRES (D) ,"1 011 929 105,00 ","0,00 ","1 011 929 105,00 ","802 119 105,00"
+*Prêts immobilisés ,"261 215,00 ",,"261 215,00 ","36 215,00"
+*Autres créances financières ,,,"0,00",
+*Titres de participation ,"1 011 667 890,00 ",,"1 011 667 890,00 ","802 082 890,00"
+*Autres titres immobilisés,,,,
+"ÉCARTS DE CONVERSION, ACTIF (E) ","0,00 ","0,00 ","0,00 ","0,00"
+*Diminution des créances immobilisées,,,,
+*Augmentation des dettes de finance,,,,
+TOTAL I (A+B+C+D+E) ,"1 815 738 492,29 ","375 705 173,00 ","1 440 033 319,29 ","1 300 375 450,46"
+STOCKS (F) ,"229 919 587,44 ","15 780 956,28 ","214 138 631,16 ","141 114 505,25"
+*Marchandises ,"226 066 761,57 ","15 752 216,00 ","210 314 545,57 ","137 979 615,39"
+*Matières et fournitures consommables ,,,"0,00",
+*Produits en cours ,"3 852 825,87 ","28 740,28 ","3 824 085,59 ","3 134 889,86"
+*Produits intermédiaires et produits résiduels ,,,"0,00",
+*Produits finis ,,,"0,00",
+CRÉANCES DE L'ACTIF CIRCULANT (G) ,"2 352 850 943,97 ","48 888 543,65 ","2 303 962 400,32 ","1 783 972 608,30"
+"*Fournis, débiteurs,avances et acomptes ","87 968 325,65 ",,"87 968 325,65 ","41 193 006,63"
+*Clients et comptes rattachés ,"835 321 992,55 ","48 888 543,65 ","786 433 448,90 ","1 025 895 816,07"
+A C T I F C I R C U L A N T *Personnel ,"3 273 373,27 ",,"3 273 373,27 ","4 180 229,69"
+*État ,"103 817 071,99 ",,"103 817 071,99 ","114 951 174,35"
+*Comptes associés et sociétés du groupe ,"1 321 641 020,18 ",,"1 321 641 020,18 ","593 978 752,89"
+*Autres débiteurs ,,,"0,00 ","0,00"
+*Comptes de régularisation Actif ,"829 160,33 ",,"829 160,33 ","3 773 628,67"
+TITRES ET VALEURS DE PLACEMENT (H) ,,,"0,00 ","0,00"
+"ÉCARTS DE CONVERSION, ACTIF (I) (éléments circulants) ","5 458,20 ",,"5 458,20 ","6 682,57"
+TOTAL II (F+G+H+I) ,"2 582 775 989,61 ","64 669 499,93 ","2 518 106 489,68 ","1 925 093 796,12"
+"TRÉSORERIE, ACTIF",,,,
+*Chèques et valeurs à encaisser ,"598 731,19 ",,"598 731,19 ","1 535 253,87"
+TRÉSORERIE *Banques TG et CP ,"74 419 847,37 ",,"74 419 847,37 ","29 561 158,53"
+"*Caisse, régie d'avance et accréditifs ","1 577 883,41 ",,"1 577 883,41 ","1 207 975,80"
+TOTAL III ,"76 596 461,97 ","0,00 ","76 596 461,97 ","32 304 388,20"
+TOTAL GÉNÉRAL I+II+III ,"4 475 110 943,87 ","440 374 672,93 ","4 034 736 270,94 ","3 257 773 634,78"

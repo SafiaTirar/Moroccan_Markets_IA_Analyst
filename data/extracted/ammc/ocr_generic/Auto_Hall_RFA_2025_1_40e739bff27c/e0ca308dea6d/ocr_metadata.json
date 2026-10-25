@@ -1,0 +1,359 @@
+{
+  "schema_version": "3.0",
+  "source_pdf": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/raw/ammc/pdfs/annual/auto_hall/2025/Auto_Hall_RFA_2025_1.pdf",
+  "source_sha256": "40e739bff27c1e9581c7c21188f837ba486de9c1e06aca89b49919cb2b39e302",
+  "parser_metadata": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Auto_Hall_RFA_2025_1_40e739bff27c/metadata.json",
+  "config": {
+    "languages": [
+      "fra",
+      "eng"
+    ],
+    "psms": [
+      6,
+      11
+    ],
+    "render_dpi": 300,
+    "minimum_image_width": 400,
+    "minimum_image_height": 250,
+    "minimum_region_area_ratio": 0.03,
+    "minimum_amount_count": 5,
+    "column_tolerance": 0.045
+  },
+  "config_sha256": "e0ca308dea6d26eb838790781b5dfac293390b6ff28071a1ba75c2148bb02d4e",
+  "selection": {
+    "selected_pages": [
+      3,
+      6,
+      10,
+      55,
+      56,
+      62
+    ],
+    "regions_json_sha256": null
+  },
+  "selection_sha256": "57573c748921cdf58881ceba01db8ce2ea315b0fa9087c225288d6e412a64668",
+  "ocr_engine": "tesseract-cli",
+  "tesseract_version": "tesseract 5.5.3",
+  "selected_pages": [
+    3,
+    6,
+    10,
+    55,
+    56,
+    62
+  ],
+  "regions_examined": 8,
+  "tables_detected": 0,
+  "tables": [],
+  "rejected_regions": [
+    {
+      "page": 3,
+      "bbox": [
+        595.2760009765625,
+        173.86578369140625,
+        1190.550048828125,
+        841.8900146484375
+      ],
+      "source": "embedded_image",
+      "source_id": "xref:261:1",
+      "name": null,
+      "image_size": [
+        2481,
+        2784
+      ],
+      "attempts": [
+        {
+          "psm": 6,
+          "score": -14,
+          "amount_count": 0,
+          "keyword_count": 0,
+          "rows": 0,
+          "multi_value_rows": 0,
+          "labeled_rows": 0
+        },
+        {
+          "psm": 11,
+          "score": -23,
+          "amount_count": 0,
+          "keyword_count": 0,
+          "rows": 0,
+          "multi_value_rows": 0,
+          "labeled_rows": 0
+        }
+      ],
+      "selected_psm": 6,
+      "reason": "NOT_FINANCIAL_TABLE"
+    },
+    {
+      "page": 6,
+      "bbox": [
+        0.0,
+        0.0,
+        1190.550048828125,
+        841.8900146484375
+      ],
+      "source": "rendered_page",
+      "source_id": "page:6",
+      "name": null,
+      "image_size": [
+        4961,
+        3508
+      ],
+      "attempts": [
+        {
+          "psm": 6,
+          "score": 15,
+          "amount_count": 3,
+          "keyword_count": 0,
+          "rows": 2,
+          "multi_value_rows": 1,
+          "labeled_rows": 2
+        },
+        {
+          "psm": 11,
+          "score": -77,
+          "amount_count": 4,
+          "keyword_count": 0,
+          "rows": 4,
+          "multi_value_rows": 0,
+          "labeled_rows": 2
+        }
+      ],
+      "selected_psm": 6,
+      "reason": "NOT_FINANCIAL_TABLE"
+    },
+    {
+      "page": 10,
+      "bbox": [
+        264.0,
+        255.0,
+        769.0,
+        760.0
+      ],
+      "source": "embedded_image",
+      "source_id": "xref:0:16",
+      "name": null,
+      "image_size": [
+        2105,
+        2105
+      ],
+      "attempts": [
+        {
+          "psm": 6,
+          "score": -14,
+          "amount_count": 1,
+          "keyword_count": 0,
+          "rows": 1,
+          "multi_value_rows": 0,
+          "labeled_rows": 0
+        },
+        {
+          "psm": 11,
+          "score": -29,
+          "amount_count": 1,
+          "keyword_count": 0,
+          "rows": 1,
+          "multi_value_rows": 0,
+          "labeled_rows": 0
+        }
+      ],
+      "selected_psm": 6,
+      "reason": "NOT_FINANCIAL_TABLE"
+    },
+    {
+      "page": 55,
+      "bbox": [
+        631.8258056640625,
+        80.40446472167969,
+        1154.231689453125,
+        760.42041015625
+      ],
+      "source": "embedded_image",
+      "source_id": "xref:1564:1",
+      "name": null,
+      "image_size": [
+        2178,
+        2834
+      ],
+      "attempts": [
+        {
+          "psm": 6,
+          "score": -43,
+          "amount_count": 0,
+          "keyword_count": 0,
+          "rows": 0,
+          "multi_value_rows": 0,
+          "labeled_rows": 0
+        },
+        {
+          "psm": 11,
+          "score": -43,
+          "amount_count": 0,
+          "keyword_count": 0,
+          "rows": 0,
+          "multi_value_rows": 0,
+          "labeled_rows": 0
+        }
+      ],
+      "selected_psm": 6,
+      "reason": "NOT_FINANCIAL_TABLE"
+    },
+    {
+      "page": 55,
+      "bbox": [
+        36.56268310546875,
+        80.40739440917969,
+        558.9685668945312,
+        760.42333984375
+      ],
+      "source": "embedded_image",
+      "source_id": "xref:1568:2",
+      "name": null,
+      "image_size": [
+        2178,
+        2834
+      ],
+      "attempts": [
+        {
+          "psm": 6,
+          "score": -31,
+          "amount_count": 1,
+          "keyword_count": 1,
+          "rows": 1,
+          "multi_value_rows": 0,
+          "labeled_rows": 1
+        },
+        {
+          "psm": 11,
+          "score": -33,
+          "amount_count": 1,
+          "keyword_count": 1,
+          "rows": 1,
+          "multi_value_rows": 0,
+          "labeled_rows": 1
+        }
+      ],
+      "selected_psm": 6,
+      "reason": "NOT_FINANCIAL_TABLE"
+    },
+    {
+      "page": 56,
+      "bbox": [
+        36.606632232666016,
+        80.48566436767578,
+        558.652587890625,
+        760.4984741210938
+      ],
+      "source": "embedded_image",
+      "source_id": "xref:1574:1",
+      "name": null,
+      "image_size": [
+        2176,
+        2834
+      ],
+      "attempts": [
+        {
+          "psm": 6,
+          "score": -6,
+          "amount_count": 1,
+          "keyword_count": 1,
+          "rows": 1,
+          "multi_value_rows": 0,
+          "labeled_rows": 1
+        },
+        {
+          "psm": 11,
+          "score": -14,
+          "amount_count": 1,
+          "keyword_count": 1,
+          "rows": 1,
+          "multi_value_rows": 0,
+          "labeled_rows": 1
+        }
+      ],
+      "selected_psm": 6,
+      "reason": "NOT_FINANCIAL_TABLE"
+    },
+    {
+      "page": 62,
+      "bbox": [
+        631.8258056640625,
+        80.40489196777344,
+        1154.093505859375,
+        744.5938110351562
+      ],
+      "source": "embedded_image",
+      "source_id": "xref:1594:1",
+      "name": null,
+      "image_size": [
+        2177,
+        2768
+      ],
+      "attempts": [
+        {
+          "psm": 6,
+          "score": -25,
+          "amount_count": 1,
+          "keyword_count": 0,
+          "rows": 1,
+          "multi_value_rows": 0,
+          "labeled_rows": 1
+        },
+        {
+          "psm": 11,
+          "score": -31,
+          "amount_count": 1,
+          "keyword_count": 0,
+          "rows": 1,
+          "multi_value_rows": 0,
+          "labeled_rows": 1
+        }
+      ],
+      "selected_psm": 6,
+      "reason": "NOT_FINANCIAL_TABLE"
+    },
+    {
+      "page": 62,
+      "bbox": [
+        42.32210922241211,
+        84.90966796875,
+        553.0933227539062,
+        739.940185546875
+      ],
+      "source": "embedded_image",
+      "source_id": "xref:1598:2",
+      "name": null,
+      "image_size": [
+        2129,
+        2731
+      ],
+      "attempts": [
+        {
+          "psm": 6,
+          "score": -46,
+          "amount_count": 0,
+          "keyword_count": 0,
+          "rows": 0,
+          "multi_value_rows": 0,
+          "labeled_rows": 0
+        },
+        {
+          "psm": 11,
+          "score": -48,
+          "amount_count": 0,
+          "keyword_count": 0,
+          "rows": 0,
+          "multi_value_rows": 0,
+          "labeled_rows": 0
+        }
+      ],
+      "selected_psm": 6,
+      "reason": "NOT_FINANCIAL_TABLE"
+    }
+  ],
+  "duration_seconds": 45.492,
+  "financial_validation": "NOT_PERFORMED",
+  "status": "FAILED",
+  "cache_used": false,
+  "artifact_sha256": {}
+}

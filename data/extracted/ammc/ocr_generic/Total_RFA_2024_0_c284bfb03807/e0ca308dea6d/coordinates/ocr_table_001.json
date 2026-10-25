@@ -1,0 +1,554 @@
+{
+  "page": 105,
+  "bbox": [
+    0.0,
+    0.0,
+    595.4400024414062,
+    842.0399780273438
+  ],
+  "source": "embedded_image",
+  "source_id": "xref:325:1",
+  "name": null,
+  "image_size": [
+    2481,
+    3509
+  ],
+  "attempts": [
+    {
+      "psm": 6,
+      "score": 1,
+      "amount_count": 8,
+      "keyword_count": 1,
+      "rows": 8,
+      "multi_value_rows": 0,
+      "labeled_rows": 8
+    },
+    {
+      "psm": 11,
+      "score": -26,
+      "amount_count": 8,
+      "keyword_count": 1,
+      "rows": 8,
+      "multi_value_rows": 0,
+      "labeled_rows": 8
+    }
+  ],
+  "selected_psm": 6,
+  "column_right_ratios": [
+    0.48362555421201125
+  ],
+  "rows": [
+    {
+      "label": "- SEJS.A., directement à hauteur de %,",
+      "cells": [
+        {
+          "column": "value_1",
+          "value": "50,00",
+          "bbox": [
+            251.28000103029115,
+            85.66778915809681,
+            274.8000011267272,
+            95.02645520057797
+          ]
+        }
+      ]
+    },
+    {
+      "label": "- Tidsi Gaz, directement à hauteur de %,",
+      "cells": [
+        {
+          "column": "value_1",
+          "value": "46,50",
+          "bbox": [
+            255.1200010460358,
+            110.86419773400763,
+            279.1200011444399,
+            120.22286377648881
+          ]
+        }
+      ]
+    },
+    {
+      "label": "- SDHS.A., directement à hauteur de %,",
+      "cells": [
+        {
+          "column": "value_1",
+          "value": "33,33",
+          "bbox": [
+            257.0400010539081,
+            123.34241912398252,
+            280.0800011483761,
+            132.94105096242475
+          ]
+        }
+      ]
+    },
+    {
+      "label": "- CECS.A., directement à hauteur de %,",
+      "cells": [
+        {
+          "column": "value_1",
+          "value": "23,23",
+          "bbox": [
+            256.320001050956,
+            136.06060630991846,
+            279.84000114739206,
+            145.41927235239962
+          ]
+        }
+      ]
+    },
+    {
+      "label": "- Salam Gaz S.A., directement à hauteur de %,",
+      "cells": [
+        {
+          "column": "value_1",
+          "value": "20,00",
+          "bbox": [
+            283.20000116116864,
+            147.8189303120102,
+            307.20000125957273,
+            157.4175621504524
+          ]
+        }
+      ]
+    },
+    {
+      "label": "- Sofrenor S.A., directement à hauteur de %,",
+      "cells": [
+        {
+          "column": "value_1",
+          "value": "17,15",
+          "bbox": [
+            275.28000112869523,
+            173.49527047984313,
+            297.8400012211951,
+            182.8539365223243
+          ]
+        }
+      ]
+    },
+    {
+      "label": "__ Petrocab S.A., directement à hauteur de %,",
+      "cells": [
+        {
+          "column": "value_1",
+          "value": "8,71",
+          "bbox": [
+            275.28000112869523,
+            186.21345766577906,
+            292.08000119757816,
+            195.8120895042213
+          ]
+        }
+      ]
+    },
+    {
+      "label": "-__ SOMAS S.A., directement à hauteur de %,",
+      "cells": [
+        {
+          "column": "value_1",
+          "value": "6,00",
+          "bbox": [
+            274.56000112574316,
+            198.69167905575395,
+            292.8000012005303,
+            208.0503450982351
+          ]
+        }
+      ]
+    }
+  ],
+  "raw_lines": [
+    {
+      "text": "Au 31 décembre 2024, la Société détient des participations, au sens de l’article 143 de la loi n°17-95",
+      "bbox": [
+        57.120000234201804,
+        48.47309078413321,
+        510.48000209305565,
+        67.67035446101765
+      ]
+    },
+    {
+      "text": "relative aux sociétés anonymes, dans les sociétés suivantes :",
+      "bbox": [
+        57.360000235185844,
+        66.47052548121238,
+        321.1200013166471,
+        80.38854164695358
+      ]
+    },
+    {
+      "text": "- SEJS.A., directement à hauteur de 50,00 %,",
+      "bbox": [
+        76.3200003129251,
+        85.42782336213575,
+        289.4400011867537,
+        98.38597634403276
+      ]
+    },
+    {
+      "text": "- SHBM S.A., directement à hauteur de 49,00%,",
+      "bbox": [
+        76.56000031390914,
+        97.42611316018854,
+        300.96000123398767,
+        110.62423193804658
+      ]
+    },
+    {
+      "text": "- Tidsi Gaz, directement à hauteur de 46,50 %,",
+      "bbox": [
+        76.56000031390914,
+        110.38426614208552,
+        293.76000120446645,
+        123.58238491994358
+      ]
+    },
+    {
+      "text": "- SDHS.A., directement à hauteur de 33,33 %,",
+      "bbox": [
+        77.04000031587722,
+        123.10245332802147,
+        295.20000121037066,
+        136.06060630991846
+      ]
+    },
+    {
+      "text": "- CECS.A., directement à hauteur de 23,23 %,",
+      "bbox": [
+        77.28000031686126,
+        135.58067471799635,
+        294.96000120938663,
+        148.77879349585442
+      ]
+    },
+    {
+      "text": "- Salam Gaz S.A., directement à hauteur de 20,00 %,",
+      "bbox": [
+        77.76000031882936,
+        147.57896451604913,
+        321.84000131959925,
+        161.01704908986824
+      ]
+    },
+    {
+      "text": "_ Ismailia Gaz S.A., directement à hauteur de 20,00%,",
+      "bbox": [
+        78.0000003198134,
+        160.05718590602402,
+        327.3600013422322,
+        173.49527047984313
+      ]
+    },
+    {
+      "text": "- Sofrenor S.A., directement à hauteur de 17,15 %,",
+      "bbox": [
+        78.48000032178147,
+        173.01533888792102,
+        312.96000128318974,
+        186.45342346174013
+      ]
+    },
+    {
+      "text": "__ Petrocab S.A., directement à hauteur de 8,71 %,",
+      "bbox": [
+        78.72000032276551,
+        185.73352607385695,
+        307.92000126252486,
+        198.69167905575395
+      ]
+    },
+    {
+      "text": "-__ SOMAS S.A., directement à hauteur de 6,00 %,",
+      "bbox": [
+        79.2000003247336,
+        198.21174746383184,
+        307.44000126055676,
+        211.40986624168988
+      ]
+    },
+    {
+      "text": "- _S.C.I. Naphtea, directement à hauteur de 13,00%,",
+      "bbox": [
+        79.44000032571763,
+        210.92993464976777,
+        315.1200012920461,
+        225.3278824074311
+      ]
+    },
+    {
+      "text": "-  Socica S.A. (en cours de liquidation), directement à hauteur de 1,21%,",
+      "bbox": [
+        79.68000032670167,
+        221.0084980801321,
+        407.2800016699179,
+        236.84624061356178
+      ]
+    },
+    {
+      "text": "_ Cité 1 des Jeunes S.A. (en cours de liquidation), directement à hauteur de 1,14%.",
+      "bbox": [
+        79.92000032768571,
+        232.28689049030172,
+        454.32000186279,
+        249.0844962075756
+      ]
+    },
+    {
+      "text": "Ces sociétés ne détiennent pas au 31 décembre 2024 de participation dans la Société.",
+      "bbox": [
+        62.64000025683475,
+        257.24333327025147,
+        435.3600017850507,
+        275.4807337632917
+      ]
+    },
+    {
+      "text": "13.3. Auto-contrdle",
+      "bbox": [
+        63.36000025978688,
+        289.878681520955,
+        164.16000067308417,
+        299.95724495131935
+      ]
+    },
+    {
+      "text": "La Société ne détient aucune de ses actions au 31 décembre 2024.",
+      "bbox": [
+        63.60000026077092,
+        303.5567318907352,
+        352.8000014465406,
+        318.1946454443596
+      ]
+    },
+    {
+      "text": "13.4. Prises de participation",
+      "bbox": [
+        64.32000026372305,
+        332.35262740606186,
+        205.20000084135523,
+        343.1510882243094
+      ]
+    },
+    {
+      "text": "Au cours de l’exercice 2024 la Société n’a procédé à aucune prise de participation.",
+      "bbox": [
+        64.32000026372305,
+        344.8308487960367,
+        428.1600017555295,
+        361.38848871734956
+      ]
+    },
+    {
+      "text": "13.5. Cession de participations",
+      "bbox": [
+        65.52000026864324,
+        375.5464706790518,
+        218.64000089646154,
+        386.34493149729934
+      ]
+    },
+    {
+      "text": "Au cours de l’exercice 2024, la Société n’a cédé aucune de ses participations.",
+      "bbox": [
+        65.52000026864324,
+        388.7445894569099,
+        405.8400016640137,
+        404.5823319903396
+      ]
+    },
+    {
+      "text": "14) SITUATION DU MANDAT DES MEMBRES DU CONSEIL D’ADM INISTRATION",
+      "bbox": [
+        48.480000198776324,
+        404.8222977863006,
+        467.7600019178963,
+        425.4593562389514
+      ]
+    },
+    {
+      "text": "Les mandats exercés par les administrateurs de la Société sont en Annexe IV.",
+      "bbox": [
+        66.24000027159538,
+        425.9392878308735,
+        406.0800016649977,
+        441.7770303643032
+      ]
+    },
+    {
+      "text": "Concernant le mandat des administrateurs, il vous sera demandé de vous prononcer sur le",
+      "bbox": [
+        66.9600002745475,
+        441.05713297642,
+        520.5600021343854,
+        460.01443085734337
+      ]
+    },
+    {
+      "text": "renouvellement du mandat des administrateurs ci-aprés pour une durée de deux (2) ans, soit jusqu’a",
+      "bbox": [
+        66.9600002745475,
+        454.015285958317,
+        521.2800021373375,
+        472.73261804327933
+      ]
+    },
+    {
+      "text": "l'assemblée générale ordinaire qui statuera sur les comptes de l’exercice clos du 31 décembre 2026 :",
+      "bbox": [
+        67.68000027749962,
+        466.973438940214,
+        508.80000208616735,
+        486.4106684130595
+      ]
+    },
+    {
+      "text": "- Monsieur Olivier Van Parys",
+      "bbox": [
+        121.2000004969408,
+        492.16984751612483,
+        263.2800010794932,
+        501.76847935456703
+      ]
+    },
+    {
+      "text": "- TotalEnergies Marketing Afrique",
+      "bbox": [
+        121.68000049890888,
+        503.9281715182165,
+        286.32000117396115,
+        515.9264613162693
+      ]
+    },
+    {
+      "text": "- Monsieur Jean-Philippe Torres",
+      "bbox": [
+        121.68000049890888,
+        516.8863245001136,
+        275.5200011296793,
+        527.4448195223999
+      ]
+    },
+    {
+      "text": "- Monsieur Abdesslam Rhnimi",
+      "bbox": [
+        121.92000049989294,
+        529.1245800941274,
+        268.80000110212615,
+        539.6830751164138
+      ]
+    },
+    {
+      "text": "- Madame Ghita Lahlou",
+      "bbox": [
+        122.40000050186102,
+        542.5626646679465,
+        239.28000098108907,
+        552.1612965063887
+      ]
+    },
+    {
+      "text": "Il vous sera également demandé de :",
+      "bbox": [
+        69.12000028340387,
+        555.5208176498435,
+        228.48000093680722,
+        567.7590732438573
+      ]
+    },
+    {
+      "text": "_  Ratifier la cooptation de Madame Ghita Lahlou, administrateur indépendant.",
+      "bbox": [
+        87.360000358191,
+        569.4388338155846,
+        442.0800018126039,
+        585.5165421449755
+      ]
+    },
+    {
+      "text": "-  Ratifier la cooptation de Madame Khedija Ben Othman, administrateur.",
+      "bbox": [
+        87.84000036015908,
+        588.8760632884301,
+        420.9600017260083,
+        604.2338742299378
+      ]
+    },
+    {
+      "text": "- Donner quitus de gestion du mandat d’administratrice de Madame May Helou.",
+      "bbox": [
+        88.08000036114312,
+        605.673669005704,
+        452.6400018559017,
+        623.6711037027833
+      ]
+    },
+    {
+      "text": "15) SITUATION DU MANDAT DES COMMISSAIRES AUX COMPTES",
+      "bbox": [
+        53.52000021944119,
+        644.7880937473561,
+        401.04000164433285,
+        662.0656310565521
+      ]
+    },
+    {
+      "text": "Concernant le mandat des commissaires aux comptes, CES derniers arriveront à échéances lors de",
+      "bbox": [
+        71.52000029324428,
+        665.905083791929,
+        525.6000021550502,
+        684.3824500809303
+      ]
+    },
+    {
+      "text": "l'assemblée générale ordinaire annuelle appelée à statuer sur les compte clos le 31 décembre 2025. Il ne",
+      "bbox": [
+        72.2400002961964,
+        678.863236773826,
+        525.6000021550502,
+        698.0605004507104
+      ]
+    },
+    {
+      "text": "vous sera donc pas demandé de statuer sur leur mandat.",
+      "bbox": [
+        72.00000029521236,
+        696.6207056749441,
+        316.08000129598224,
+        710.2987560447243
+      ]
+    },
+    {
+      "text": "16) INFORMATIONS CONCERNANT LA RÉPARTITION DU CAPITAL SOCIAL",
+      "bbox": [
+        55.44000022731352,
+        731.1757802933361,
+        456.4800018716464,
+        749.8931123782984
+      ]
+    },
+    {
+      "text": "A la connaissance de la Société, les actionnaires possédant plus du quart, du tiers, de la moitié, des deux",
+      "bbox": [
+        73.68000030210065,
+        754.9323940934806,
+        527.7600021639066,
+        772.9298287905598
+      ]
+    },
+    {
+      "text": "6",
+      "bbox": [
+        298.80000122513127,
+        786.1279475684178,
+        302.88000124186,
+        793.5668872432105
+      ]
+    }
+  ],
+  "amount_count": 8,
+  "multi_value_row_count": 0,
+  "labeled_row_count": 8
+}

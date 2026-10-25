@@ -1,0 +1,2337 @@
+{
+  "source_pdf": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/raw/ammc/pdfs/annual/marsa_maroc/2023/Marsa_Maroc_RFA_2023.pdf",
+  "sha256": "e192beece3e68f539805ab0736169d476515b14cea954682c8768d5a10946dbd",
+  "parsed_at": "2026-10-25T12:14:17.410359+00:00",
+  "docling_version": "2.140.0",
+  "validation_schema_version": "2.0",
+  "backend": "docling.backend.pypdfium2_backend.PyPdfiumDocumentBackend",
+  "extraction_config": {
+    "backend": "docling.backend.pypdfium2_backend.PyPdfiumDocumentBackend",
+    "do_ocr": false,
+    "do_table_structure": true
+  },
+  "extraction_config_sha256": "0044bac57114245a5515c70b41b9fee3bd75c4fae1c4407b240fe37733aa54f4",
+  "conversion_seconds": 574.21,
+  "page_count": 143,
+  "table_count": 102,
+  "table_pages": [
+    [
+      13
+    ],
+    [
+      18
+    ],
+    [
+      57
+    ],
+    [
+      69
+    ],
+    [
+      69
+    ],
+    [
+      70
+    ],
+    [
+      70
+    ],
+    [
+      70
+    ],
+    [
+      70
+    ],
+    [
+      70
+    ],
+    [
+      70
+    ],
+    [
+      71
+    ],
+    [
+      71
+    ],
+    [
+      71
+    ],
+    [
+      72
+    ],
+    [
+      72
+    ],
+    [
+      73
+    ],
+    [
+      73
+    ],
+    [
+      74
+    ],
+    [
+      74
+    ],
+    [
+      75
+    ],
+    [
+      75
+    ],
+    [
+      76
+    ],
+    [
+      76
+    ],
+    [
+      83
+    ],
+    [
+      84
+    ],
+    [
+      85
+    ],
+    [
+      86
+    ],
+    [
+      96
+    ],
+    [
+      96
+    ],
+    [
+      97
+    ],
+    [
+      97
+    ],
+    [
+      98
+    ],
+    [
+      98
+    ],
+    [
+      98
+    ],
+    [
+      98
+    ],
+    [
+      99
+    ],
+    [
+      101
+    ],
+    [
+      106
+    ],
+    [
+      106
+    ],
+    [
+      107
+    ],
+    [
+      107
+    ],
+    [
+      108
+    ],
+    [
+      108
+    ],
+    [
+      109
+    ],
+    [
+      109
+    ],
+    [
+      109
+    ],
+    [
+      109
+    ],
+    [
+      109
+    ],
+    [
+      110
+    ],
+    [
+      110
+    ],
+    [
+      110
+    ],
+    [
+      110
+    ],
+    [
+      110
+    ],
+    [
+      110
+    ],
+    [
+      111
+    ],
+    [
+      111
+    ],
+    [
+      111
+    ],
+    [
+      111
+    ],
+    [
+      111
+    ],
+    [
+      111
+    ],
+    [
+      112
+    ],
+    [
+      112
+    ],
+    [
+      112
+    ],
+    [
+      112
+    ],
+    [
+      112
+    ],
+    [
+      112
+    ],
+    [
+      114
+    ],
+    [
+      116
+    ],
+    [
+      117
+    ],
+    [
+      117
+    ],
+    [
+      118
+    ],
+    [
+      118
+    ],
+    [
+      119
+    ],
+    [
+      119
+    ],
+    [
+      119
+    ],
+    [
+      119
+    ],
+    [
+      119
+    ],
+    [
+      120
+    ],
+    [
+      120
+    ],
+    [
+      120
+    ],
+    [
+      120
+    ],
+    [
+      120
+    ],
+    [
+      121
+    ],
+    [
+      121
+    ],
+    [
+      121
+    ],
+    [
+      121
+    ],
+    [
+      122
+    ],
+    [
+      122
+    ],
+    [
+      123
+    ],
+    [
+      123
+    ],
+    [
+      123
+    ],
+    [
+      124
+    ],
+    [
+      124
+    ],
+    [
+      124
+    ],
+    [
+      124
+    ],
+    [
+      125
+    ],
+    [
+      125
+    ],
+    [
+      127
+    ],
+    [
+      127
+    ],
+    [
+      127
+    ],
+    [
+      138
+    ]
+  ],
+  "markdown_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Marsa_Maroc_RFA_2023_e192beece3e6/document.md",
+  "json_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Marsa_Maroc_RFA_2023_e192beece3e6/document.json",
+  "status": "PARTIAL",
+  "validation": {
+    "schema_version": "2.0",
+    "status": "PARTIAL",
+    "valid_table_count": 70,
+    "incomplete_table_count": 32,
+    "invalid_table_count": 0,
+    "issues": [
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 5,
+        "pages": [
+          69
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 7,
+        "pages": [
+          70
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 8,
+        "pages": [
+          70
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 11,
+        "pages": [
+          70
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 12,
+        "pages": [
+          71
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 13,
+        "pages": [
+          71
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 15,
+        "pages": [
+          72
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 17,
+        "pages": [
+          73
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 19,
+        "pages": [
+          74
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 21,
+        "pages": [
+          75
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 22,
+        "pages": [
+          75
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 23,
+        "pages": [
+          76
+        ]
+      },
+      {
+        "code": "AUTOGENERATED_HEADER",
+        "message": "Les en-têtes de colonnes sont artificiels.",
+        "severity": "WARNING",
+        "table_index": 24,
+        "pages": [
+          76
+        ]
+      },
+      {
+        "code": "SPLIT_WORD",
+        "message": "Un libellé contient une césure issue de la mise en page.",
+        "severity": "WARNING",
+        "table_index": 25,
+        "pages": [
+          83
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 43,
+        "pages": [
+          108
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 71,
+        "pages": [
+          117
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 72,
+        "pages": [
+          118
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 73,
+        "pages": [
+          118
+        ]
+      },
+      {
+        "code": "AUTOGENERATED_HEADER",
+        "message": "Les en-têtes de colonnes sont artificiels.",
+        "severity": "WARNING",
+        "table_index": 74,
+        "pages": [
+          119
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 78,
+        "pages": [
+          119
+        ]
+      },
+      {
+        "code": "SPLIT_WORD",
+        "message": "Un libellé contient une césure issue de la mise en page.",
+        "severity": "WARNING",
+        "table_index": 83,
+        "pages": [
+          120
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 84,
+        "pages": [
+          121
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 86,
+        "pages": [
+          121
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 88,
+        "pages": [
+          122
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 89,
+        "pages": [
+          122
+        ]
+      },
+      {
+        "code": "AUTOGENERATED_HEADER",
+        "message": "Les en-têtes de colonnes sont artificiels.",
+        "severity": "WARNING",
+        "table_index": 90,
+        "pages": [
+          123
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 90,
+        "pages": [
+          123
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 93,
+        "pages": [
+          124
+        ]
+      },
+      {
+        "code": "AUTOGENERATED_HEADER",
+        "message": "Les en-têtes de colonnes sont artificiels.",
+        "severity": "WARNING",
+        "table_index": 94,
+        "pages": [
+          124
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 94,
+        "pages": [
+          124
+        ]
+      },
+      {
+        "code": "SPLIT_WORD",
+        "message": "Un libellé contient une césure issue de la mise en page.",
+        "severity": "WARNING",
+        "table_index": 97,
+        "pages": [
+          125
+        ]
+      },
+      {
+        "code": "SPLIT_WORD",
+        "message": "Un libellé contient une césure issue de la mise en page.",
+        "severity": "WARNING",
+        "table_index": 98,
+        "pages": [
+          125
+        ]
+      },
+      {
+        "code": "AUTOGENERATED_HEADER",
+        "message": "Les en-têtes de colonnes sont artificiels.",
+        "severity": "WARNING",
+        "table_index": 100,
+        "pages": [
+          127
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 102,
+        "pages": [
+          138
+        ]
+      },
+      {
+        "code": "FINANCIAL_IMAGE_REQUIRES_OCR",
+        "message": "Une grande image financière ne possède aucun tableau Docling associé.",
+        "severity": "WARNING",
+        "table_index": null,
+        "pages": [
+          38
+        ]
+      },
+      {
+        "code": "FINANCIAL_IMAGE_REQUIRES_OCR",
+        "message": "Une grande image financière ne possède aucun tableau Docling associé.",
+        "severity": "WARNING",
+        "table_index": null,
+        "pages": [
+          45
+        ]
+      }
+    ],
+    "tables": [
+      {
+        "table_index": 1,
+        "pages": [
+          13
+        ],
+        "row_count": 13,
+        "column_count": 11,
+        "non_empty_cell_count": 72,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Marsa_Maroc_RFA_2023_e192beece3e6/tables/table_001.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 2,
+        "pages": [
+          18
+        ],
+        "row_count": 12,
+        "column_count": 4,
+        "non_empty_cell_count": 24,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Marsa_Maroc_RFA_2023_e192beece3e6/tables/table_002.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 3,
+        "pages": [
+          57
+        ],
+        "row_count": 10,
+        "column_count": 7,
+        "non_empty_cell_count": 51,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Marsa_Maroc_RFA_2023_e192beece3e6/tables/table_003.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 4,
+        "pages": [
+          69
+        ],
+        "row_count": 12,
+        "column_count": 2,
+        "non_empty_cell_count": 19,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Marsa_Maroc_RFA_2023_e192beece3e6/tables/table_004.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 5,
+        "pages": [
+          69
+        ],
+        "row_count": 19,
+        "column_count": 12,
+        "non_empty_cell_count": 188,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Marsa_Maroc_RFA_2023_e192beece3e6/tables/table_005.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 5,
+            "pages": [
+              69
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 6,
+        "pages": [
+          70
+        ],
+        "row_count": 7,
+        "column_count": 11,
+        "non_empty_cell_count": 72,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Marsa_Maroc_RFA_2023_e192beece3e6/tables/table_006.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 7,
+        "pages": [
+          70
+        ],
+        "row_count": 6,
+        "column_count": 5,
+        "non_empty_cell_count": 24,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Marsa_Maroc_RFA_2023_e192beece3e6/tables/table_007.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 7,
+            "pages": [
+              70
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 8,
+        "pages": [
+          70
+        ],
+        "row_count": 4,
+        "column_count": 5,
+        "non_empty_cell_count": 14,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Marsa_Maroc_RFA_2023_e192beece3e6/tables/table_008.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 8,
+            "pages": [
+              70
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 9,
+        "pages": [
+          70
+        ],
+        "row_count": 1,
+        "column_count": 5,
+        "non_empty_cell_count": 5,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Marsa_Maroc_RFA_2023_e192beece3e6/tables/table_009.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 10,
+        "pages": [
+          70
+        ],
+        "row_count": 11,
+        "column_count": 6,
+        "non_empty_cell_count": 56,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Marsa_Maroc_RFA_2023_e192beece3e6/tables/table_010.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 11,
+        "pages": [
+          70
+        ],
+        "row_count": 7,
+        "column_count": 11,
+        "non_empty_cell_count": 57,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Marsa_Maroc_RFA_2023_e192beece3e6/tables/table_011.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 11,
+            "pages": [
+              70
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 12,
+        "pages": [
+          71
+        ],
+        "row_count": 10,
+        "column_count": 5,
+        "non_empty_cell_count": 43,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Marsa_Maroc_RFA_2023_e192beece3e6/tables/table_012.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 12,
+            "pages": [
+              71
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 13,
+        "pages": [
+          71
+        ],
+        "row_count": 20,
+        "column_count": 6,
+        "non_empty_cell_count": 83,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Marsa_Maroc_RFA_2023_e192beece3e6/tables/table_013.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 13,
+            "pages": [
+              71
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 14,
+        "pages": [
+          71
+        ],
+        "row_count": 7,
+        "column_count": 6,
+        "non_empty_cell_count": 36,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Marsa_Maroc_RFA_2023_e192beece3e6/tables/table_014.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 15,
+        "pages": [
+          72
+        ],
+        "row_count": 18,
+        "column_count": 5,
+        "non_empty_cell_count": 68,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Marsa_Maroc_RFA_2023_e192beece3e6/tables/table_015.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 15,
+            "pages": [
+              72
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 16,
+        "pages": [
+          72
+        ],
+        "row_count": 39,
+        "column_count": 4,
+        "non_empty_cell_count": 147,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Marsa_Maroc_RFA_2023_e192beece3e6/tables/table_016.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 17,
+        "pages": [
+          73
+        ],
+        "row_count": 5,
+        "column_count": 11,
+        "non_empty_cell_count": 37,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Marsa_Maroc_RFA_2023_e192beece3e6/tables/table_017.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 17,
+            "pages": [
+              73
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 18,
+        "pages": [
+          73
+        ],
+        "row_count": 19,
+        "column_count": 6,
+        "non_empty_cell_count": 79,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Marsa_Maroc_RFA_2023_e192beece3e6/tables/table_018.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 19,
+        "pages": [
+          74
+        ],
+        "row_count": 28,
+        "column_count": 6,
+        "non_empty_cell_count": 98,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Marsa_Maroc_RFA_2023_e192beece3e6/tables/table_019.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 19,
+            "pages": [
+              74
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 20,
+        "pages": [
+          74
+        ],
+        "row_count": 25,
+        "column_count": 6,
+        "non_empty_cell_count": 115,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Marsa_Maroc_RFA_2023_e192beece3e6/tables/table_020.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 21,
+        "pages": [
+          75
+        ],
+        "row_count": 24,
+        "column_count": 6,
+        "non_empty_cell_count": 100,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Marsa_Maroc_RFA_2023_e192beece3e6/tables/table_021.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 21,
+            "pages": [
+              75
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 22,
+        "pages": [
+          75
+        ],
+        "row_count": 22,
+        "column_count": 4,
+        "non_empty_cell_count": 62,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Marsa_Maroc_RFA_2023_e192beece3e6/tables/table_022.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 22,
+            "pages": [
+              75
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 23,
+        "pages": [
+          76
+        ],
+        "row_count": 28,
+        "column_count": 4,
+        "non_empty_cell_count": 95,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Marsa_Maroc_RFA_2023_e192beece3e6/tables/table_023.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 23,
+            "pages": [
+              76
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 24,
+        "pages": [
+          76
+        ],
+        "row_count": 22,
+        "column_count": 4,
+        "non_empty_cell_count": 75,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Marsa_Maroc_RFA_2023_e192beece3e6/tables/table_024.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "AUTOGENERATED_HEADER",
+            "message": "Les en-têtes de colonnes sont artificiels.",
+            "severity": "WARNING",
+            "table_index": 24,
+            "pages": [
+              76
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 25,
+        "pages": [
+          83
+        ],
+        "row_count": 9,
+        "column_count": 3,
+        "non_empty_cell_count": 27,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Marsa_Maroc_RFA_2023_e192beece3e6/tables/table_025.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "SPLIT_WORD",
+            "message": "Un libellé contient une césure issue de la mise en page.",
+            "severity": "WARNING",
+            "table_index": 25,
+            "pages": [
+              83
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 26,
+        "pages": [
+          84
+        ],
+        "row_count": 5,
+        "column_count": 3,
+        "non_empty_cell_count": 15,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Marsa_Maroc_RFA_2023_e192beece3e6/tables/table_026.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 27,
+        "pages": [
+          85
+        ],
+        "row_count": 5,
+        "column_count": 3,
+        "non_empty_cell_count": 15,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Marsa_Maroc_RFA_2023_e192beece3e6/tables/table_027.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 28,
+        "pages": [
+          86
+        ],
+        "row_count": 5,
+        "column_count": 3,
+        "non_empty_cell_count": 14,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Marsa_Maroc_RFA_2023_e192beece3e6/tables/table_028.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 29,
+        "pages": [
+          96
+        ],
+        "row_count": 5,
+        "column_count": 3,
+        "non_empty_cell_count": 15,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Marsa_Maroc_RFA_2023_e192beece3e6/tables/table_029.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 30,
+        "pages": [
+          96
+        ],
+        "row_count": 6,
+        "column_count": 3,
+        "non_empty_cell_count": 18,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Marsa_Maroc_RFA_2023_e192beece3e6/tables/table_030.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 31,
+        "pages": [
+          97
+        ],
+        "row_count": 11,
+        "column_count": 3,
+        "non_empty_cell_count": 33,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Marsa_Maroc_RFA_2023_e192beece3e6/tables/table_031.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 32,
+        "pages": [
+          97
+        ],
+        "row_count": 2,
+        "column_count": 13,
+        "non_empty_cell_count": 26,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Marsa_Maroc_RFA_2023_e192beece3e6/tables/table_032.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 33,
+        "pages": [
+          98
+        ],
+        "row_count": 2,
+        "column_count": 7,
+        "non_empty_cell_count": 14,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Marsa_Maroc_RFA_2023_e192beece3e6/tables/table_033.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 34,
+        "pages": [
+          98
+        ],
+        "row_count": 2,
+        "column_count": 5,
+        "non_empty_cell_count": 10,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Marsa_Maroc_RFA_2023_e192beece3e6/tables/table_034.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 35,
+        "pages": [
+          98
+        ],
+        "row_count": 2,
+        "column_count": 3,
+        "non_empty_cell_count": 6,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Marsa_Maroc_RFA_2023_e192beece3e6/tables/table_035.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 36,
+        "pages": [
+          98
+        ],
+        "row_count": 2,
+        "column_count": 3,
+        "non_empty_cell_count": 6,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Marsa_Maroc_RFA_2023_e192beece3e6/tables/table_036.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 37,
+        "pages": [
+          99
+        ],
+        "row_count": 15,
+        "column_count": 3,
+        "non_empty_cell_count": 45,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Marsa_Maroc_RFA_2023_e192beece3e6/tables/table_037.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 38,
+        "pages": [
+          101
+        ],
+        "row_count": 3,
+        "column_count": 7,
+        "non_empty_cell_count": 21,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Marsa_Maroc_RFA_2023_e192beece3e6/tables/table_038.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 39,
+        "pages": [
+          106
+        ],
+        "row_count": 12,
+        "column_count": 3,
+        "non_empty_cell_count": 36,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Marsa_Maroc_RFA_2023_e192beece3e6/tables/table_039.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 40,
+        "pages": [
+          106
+        ],
+        "row_count": 13,
+        "column_count": 3,
+        "non_empty_cell_count": 39,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Marsa_Maroc_RFA_2023_e192beece3e6/tables/table_040.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 41,
+        "pages": [
+          107
+        ],
+        "row_count": 20,
+        "column_count": 3,
+        "non_empty_cell_count": 59,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Marsa_Maroc_RFA_2023_e192beece3e6/tables/table_041.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 42,
+        "pages": [
+          107
+        ],
+        "row_count": 21,
+        "column_count": 3,
+        "non_empty_cell_count": 60,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Marsa_Maroc_RFA_2023_e192beece3e6/tables/table_042.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 43,
+        "pages": [
+          108
+        ],
+        "row_count": 13,
+        "column_count": 7,
+        "non_empty_cell_count": 61,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Marsa_Maroc_RFA_2023_e192beece3e6/tables/table_043.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 43,
+            "pages": [
+              108
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 44,
+        "pages": [
+          108
+        ],
+        "row_count": 3,
+        "column_count": 7,
+        "non_empty_cell_count": 21,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Marsa_Maroc_RFA_2023_e192beece3e6/tables/table_044.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 45,
+        "pages": [
+          109
+        ],
+        "row_count": 8,
+        "column_count": 3,
+        "non_empty_cell_count": 20,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Marsa_Maroc_RFA_2023_e192beece3e6/tables/table_045.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 46,
+        "pages": [
+          109
+        ],
+        "row_count": 24,
+        "column_count": 3,
+        "non_empty_cell_count": 60,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Marsa_Maroc_RFA_2023_e192beece3e6/tables/table_046.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 47,
+        "pages": [
+          109
+        ],
+        "row_count": 4,
+        "column_count": 3,
+        "non_empty_cell_count": 12,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Marsa_Maroc_RFA_2023_e192beece3e6/tables/table_047.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 48,
+        "pages": [
+          109
+        ],
+        "row_count": 7,
+        "column_count": 4,
+        "non_empty_cell_count": 24,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Marsa_Maroc_RFA_2023_e192beece3e6/tables/table_048.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 49,
+        "pages": [
+          109
+        ],
+        "row_count": 7,
+        "column_count": 4,
+        "non_empty_cell_count": 28,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Marsa_Maroc_RFA_2023_e192beece3e6/tables/table_049.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 50,
+        "pages": [
+          110
+        ],
+        "row_count": 5,
+        "column_count": 3,
+        "non_empty_cell_count": 15,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Marsa_Maroc_RFA_2023_e192beece3e6/tables/table_050.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 51,
+        "pages": [
+          110
+        ],
+        "row_count": 5,
+        "column_count": 3,
+        "non_empty_cell_count": 15,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Marsa_Maroc_RFA_2023_e192beece3e6/tables/table_051.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 52,
+        "pages": [
+          110
+        ],
+        "row_count": 6,
+        "column_count": 3,
+        "non_empty_cell_count": 18,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Marsa_Maroc_RFA_2023_e192beece3e6/tables/table_052.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 53,
+        "pages": [
+          110
+        ],
+        "row_count": 3,
+        "column_count": 3,
+        "non_empty_cell_count": 9,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Marsa_Maroc_RFA_2023_e192beece3e6/tables/table_053.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 54,
+        "pages": [
+          110
+        ],
+        "row_count": 7,
+        "column_count": 4,
+        "non_empty_cell_count": 28,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Marsa_Maroc_RFA_2023_e192beece3e6/tables/table_054.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 55,
+        "pages": [
+          110
+        ],
+        "row_count": 4,
+        "column_count": 3,
+        "non_empty_cell_count": 12,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Marsa_Maroc_RFA_2023_e192beece3e6/tables/table_055.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 56,
+        "pages": [
+          111
+        ],
+        "row_count": 6,
+        "column_count": 3,
+        "non_empty_cell_count": 18,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Marsa_Maroc_RFA_2023_e192beece3e6/tables/table_056.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 57,
+        "pages": [
+          111
+        ],
+        "row_count": 4,
+        "column_count": 3,
+        "non_empty_cell_count": 12,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Marsa_Maroc_RFA_2023_e192beece3e6/tables/table_057.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 58,
+        "pages": [
+          111
+        ],
+        "row_count": 5,
+        "column_count": 3,
+        "non_empty_cell_count": 15,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Marsa_Maroc_RFA_2023_e192beece3e6/tables/table_058.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 59,
+        "pages": [
+          111
+        ],
+        "row_count": 9,
+        "column_count": 3,
+        "non_empty_cell_count": 27,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Marsa_Maroc_RFA_2023_e192beece3e6/tables/table_059.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 60,
+        "pages": [
+          111
+        ],
+        "row_count": 6,
+        "column_count": 5,
+        "non_empty_cell_count": 30,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Marsa_Maroc_RFA_2023_e192beece3e6/tables/table_060.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 61,
+        "pages": [
+          111
+        ],
+        "row_count": 12,
+        "column_count": 3,
+        "non_empty_cell_count": 32,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Marsa_Maroc_RFA_2023_e192beece3e6/tables/table_061.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 62,
+        "pages": [
+          112
+        ],
+        "row_count": 6,
+        "column_count": 3,
+        "non_empty_cell_count": 18,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Marsa_Maroc_RFA_2023_e192beece3e6/tables/table_062.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 63,
+        "pages": [
+          112
+        ],
+        "row_count": 3,
+        "column_count": 3,
+        "non_empty_cell_count": 9,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Marsa_Maroc_RFA_2023_e192beece3e6/tables/table_063.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 64,
+        "pages": [
+          112
+        ],
+        "row_count": 3,
+        "column_count": 3,
+        "non_empty_cell_count": 9,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Marsa_Maroc_RFA_2023_e192beece3e6/tables/table_064.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 65,
+        "pages": [
+          112
+        ],
+        "row_count": 4,
+        "column_count": 3,
+        "non_empty_cell_count": 12,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Marsa_Maroc_RFA_2023_e192beece3e6/tables/table_065.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 66,
+        "pages": [
+          112
+        ],
+        "row_count": 1,
+        "column_count": 3,
+        "non_empty_cell_count": 3,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Marsa_Maroc_RFA_2023_e192beece3e6/tables/table_066.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 67,
+        "pages": [
+          112
+        ],
+        "row_count": 3,
+        "column_count": 3,
+        "non_empty_cell_count": 9,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Marsa_Maroc_RFA_2023_e192beece3e6/tables/table_067.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 68,
+        "pages": [
+          114
+        ],
+        "row_count": 1,
+        "column_count": 2,
+        "non_empty_cell_count": 2,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Marsa_Maroc_RFA_2023_e192beece3e6/tables/table_068.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 69,
+        "pages": [
+          116
+        ],
+        "row_count": 41,
+        "column_count": 5,
+        "non_empty_cell_count": 190,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Marsa_Maroc_RFA_2023_e192beece3e6/tables/table_069.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 70,
+        "pages": [
+          117
+        ],
+        "row_count": 39,
+        "column_count": 3,
+        "non_empty_cell_count": 102,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Marsa_Maroc_RFA_2023_e192beece3e6/tables/table_070.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 71,
+        "pages": [
+          117
+        ],
+        "row_count": 45,
+        "column_count": 6,
+        "non_empty_cell_count": 196,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Marsa_Maroc_RFA_2023_e192beece3e6/tables/table_071.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 71,
+            "pages": [
+              117
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 72,
+        "pages": [
+          118
+        ],
+        "row_count": 35,
+        "column_count": 6,
+        "non_empty_cell_count": 156,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Marsa_Maroc_RFA_2023_e192beece3e6/tables/table_072.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 72,
+            "pages": [
+              118
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 73,
+        "pages": [
+          118
+        ],
+        "row_count": 36,
+        "column_count": 5,
+        "non_empty_cell_count": 107,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Marsa_Maroc_RFA_2023_e192beece3e6/tables/table_073.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 73,
+            "pages": [
+              118
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 74,
+        "pages": [
+          119
+        ],
+        "row_count": 4,
+        "column_count": 3,
+        "non_empty_cell_count": 9,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Marsa_Maroc_RFA_2023_e192beece3e6/tables/table_074.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "AUTOGENERATED_HEADER",
+            "message": "Les en-têtes de colonnes sont artificiels.",
+            "severity": "WARNING",
+            "table_index": 74,
+            "pages": [
+              119
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 75,
+        "pages": [
+          119
+        ],
+        "row_count": 2,
+        "column_count": 3,
+        "non_empty_cell_count": 5,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Marsa_Maroc_RFA_2023_e192beece3e6/tables/table_075.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 76,
+        "pages": [
+          119
+        ],
+        "row_count": 15,
+        "column_count": 3,
+        "non_empty_cell_count": 32,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Marsa_Maroc_RFA_2023_e192beece3e6/tables/table_076.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 77,
+        "pages": [
+          119
+        ],
+        "row_count": 17,
+        "column_count": 8,
+        "non_empty_cell_count": 99,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Marsa_Maroc_RFA_2023_e192beece3e6/tables/table_077.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 78,
+        "pages": [
+          119
+        ],
+        "row_count": 17,
+        "column_count": 6,
+        "non_empty_cell_count": 75,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Marsa_Maroc_RFA_2023_e192beece3e6/tables/table_078.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 78,
+            "pages": [
+              119
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 79,
+        "pages": [
+          120
+        ],
+        "row_count": 9,
+        "column_count": 7,
+        "non_empty_cell_count": 62,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Marsa_Maroc_RFA_2023_e192beece3e6/tables/table_079.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 80,
+        "pages": [
+          120
+        ],
+        "row_count": 7,
+        "column_count": 10,
+        "non_empty_cell_count": 62,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Marsa_Maroc_RFA_2023_e192beece3e6/tables/table_080.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 81,
+        "pages": [
+          120
+        ],
+        "row_count": 9,
+        "column_count": 9,
+        "non_empty_cell_count": 53,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Marsa_Maroc_RFA_2023_e192beece3e6/tables/table_081.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 82,
+        "pages": [
+          120
+        ],
+        "row_count": 11,
+        "column_count": 9,
+        "non_empty_cell_count": 99,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Marsa_Maroc_RFA_2023_e192beece3e6/tables/table_082.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 83,
+        "pages": [
+          120
+        ],
+        "row_count": 12,
+        "column_count": 9,
+        "non_empty_cell_count": 93,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Marsa_Maroc_RFA_2023_e192beece3e6/tables/table_083.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "SPLIT_WORD",
+            "message": "Un libellé contient une césure issue de la mise en page.",
+            "severity": "WARNING",
+            "table_index": 83,
+            "pages": [
+              120
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 84,
+        "pages": [
+          121
+        ],
+        "row_count": 5,
+        "column_count": 6,
+        "non_empty_cell_count": 15,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Marsa_Maroc_RFA_2023_e192beece3e6/tables/table_084.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 84,
+            "pages": [
+              121
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 85,
+        "pages": [
+          121
+        ],
+        "row_count": 10,
+        "column_count": 3,
+        "non_empty_cell_count": 22,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Marsa_Maroc_RFA_2023_e192beece3e6/tables/table_085.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 86,
+        "pages": [
+          121
+        ],
+        "row_count": 1,
+        "column_count": 11,
+        "non_empty_cell_count": 1,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Marsa_Maroc_RFA_2023_e192beece3e6/tables/table_086.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 86,
+            "pages": [
+              121
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 87,
+        "pages": [
+          121
+        ],
+        "row_count": 15,
+        "column_count": 3,
+        "non_empty_cell_count": 30,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Marsa_Maroc_RFA_2023_e192beece3e6/tables/table_087.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 88,
+        "pages": [
+          122
+        ],
+        "row_count": 34,
+        "column_count": 4,
+        "non_empty_cell_count": 66,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Marsa_Maroc_RFA_2023_e192beece3e6/tables/table_088.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 88,
+            "pages": [
+              122
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 89,
+        "pages": [
+          122
+        ],
+        "row_count": 35,
+        "column_count": 4,
+        "non_empty_cell_count": 86,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Marsa_Maroc_RFA_2023_e192beece3e6/tables/table_089.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 89,
+            "pages": [
+              122
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 90,
+        "pages": [
+          123
+        ],
+        "row_count": 13,
+        "column_count": 4,
+        "non_empty_cell_count": 27,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Marsa_Maroc_RFA_2023_e192beece3e6/tables/table_090.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "AUTOGENERATED_HEADER",
+            "message": "Les en-têtes de colonnes sont artificiels.",
+            "severity": "WARNING",
+            "table_index": 90,
+            "pages": [
+              123
+            ]
+          },
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 90,
+            "pages": [
+              123
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 91,
+        "pages": [
+          123
+        ],
+        "row_count": 5,
+        "column_count": 5,
+        "non_empty_cell_count": 25,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Marsa_Maroc_RFA_2023_e192beece3e6/tables/table_091.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 92,
+        "pages": [
+          123
+        ],
+        "row_count": 5,
+        "column_count": 5,
+        "non_empty_cell_count": 25,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Marsa_Maroc_RFA_2023_e192beece3e6/tables/table_092.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 93,
+        "pages": [
+          124
+        ],
+        "row_count": 11,
+        "column_count": 8,
+        "non_empty_cell_count": 58,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Marsa_Maroc_RFA_2023_e192beece3e6/tables/table_093.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 93,
+            "pages": [
+              124
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 94,
+        "pages": [
+          124
+        ],
+        "row_count": 8,
+        "column_count": 4,
+        "non_empty_cell_count": 23,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Marsa_Maroc_RFA_2023_e192beece3e6/tables/table_094.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "AUTOGENERATED_HEADER",
+            "message": "Les en-têtes de colonnes sont artificiels.",
+            "severity": "WARNING",
+            "table_index": 94,
+            "pages": [
+              124
+            ]
+          },
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 94,
+            "pages": [
+              124
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 95,
+        "pages": [
+          124
+        ],
+        "row_count": 12,
+        "column_count": 4,
+        "non_empty_cell_count": 39,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Marsa_Maroc_RFA_2023_e192beece3e6/tables/table_095.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 96,
+        "pages": [
+          124
+        ],
+        "row_count": 11,
+        "column_count": 3,
+        "non_empty_cell_count": 25,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Marsa_Maroc_RFA_2023_e192beece3e6/tables/table_096.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 97,
+        "pages": [
+          125
+        ],
+        "row_count": 14,
+        "column_count": 9,
+        "non_empty_cell_count": 72,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Marsa_Maroc_RFA_2023_e192beece3e6/tables/table_097.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "SPLIT_WORD",
+            "message": "Un libellé contient une césure issue de la mise en page.",
+            "severity": "WARNING",
+            "table_index": 97,
+            "pages": [
+              125
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 98,
+        "pages": [
+          125
+        ],
+        "row_count": 11,
+        "column_count": 7,
+        "non_empty_cell_count": 40,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Marsa_Maroc_RFA_2023_e192beece3e6/tables/table_098.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "SPLIT_WORD",
+            "message": "Un libellé contient une césure issue de la mise en page.",
+            "severity": "WARNING",
+            "table_index": 98,
+            "pages": [
+              125
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 99,
+        "pages": [
+          127
+        ],
+        "row_count": 2,
+        "column_count": 2,
+        "non_empty_cell_count": 3,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Marsa_Maroc_RFA_2023_e192beece3e6/tables/table_099.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 100,
+        "pages": [
+          127
+        ],
+        "row_count": 1,
+        "column_count": 1,
+        "non_empty_cell_count": 1,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Marsa_Maroc_RFA_2023_e192beece3e6/tables/table_100.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "AUTOGENERATED_HEADER",
+            "message": "Les en-têtes de colonnes sont artificiels.",
+            "severity": "WARNING",
+            "table_index": 100,
+            "pages": [
+              127
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 101,
+        "pages": [
+          127
+        ],
+        "row_count": 1,
+        "column_count": 2,
+        "non_empty_cell_count": 2,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Marsa_Maroc_RFA_2023_e192beece3e6/tables/table_101.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 102,
+        "pages": [
+          138
+        ],
+        "row_count": 12,
+        "column_count": 13,
+        "non_empty_cell_count": 138,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Marsa_Maroc_RFA_2023_e192beece3e6/tables/table_102.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 102,
+            "pages": [
+              138
+            ]
+          }
+        ]
+      }
+    ],
+    "artifact_sha256": {
+      "document.md": "b13f094afade8ca3ca6909dc6628d6f80d654b03ac81ea9501712d0ace55b07c",
+      "document.json": "72ecc7e94df4efa8b7f91b7b56c04e0f3d63efc6e1d6fed1018a1d825a4ee41c",
+      "tables/table_001.csv": "a11f00d8a29036c264bd93edfa78ffc864534ea6ab5c252687eea1fab9e895fd",
+      "tables/table_002.csv": "601cae83a30883366bba1a734eb7d70bf89a11c6510273aac47a938e41e7f308",
+      "tables/table_003.csv": "e0286e318e799f6ce327a34c1de7de34d52ed22963638fa3b6106375f57fc6ee",
+      "tables/table_004.csv": "d34d6f9cc77ecd3f8b79935ff20b3b00a727a63aa2bf3b6ff775d5949e0f33db",
+      "tables/table_005.csv": "37220f5477aa27c985d382fa1e4c1594790297e8c32bffb9d62b0ad59b56dce9",
+      "tables/table_006.csv": "02a918eea3b838ff37ffd4df802d5e8d7d1aa217edb9e2b179d814ea58cab2a4",
+      "tables/table_007.csv": "156512e7874327b22a1342b3428d09e9bd568718d67632eac4bdc213ee1d5541",
+      "tables/table_008.csv": "1e967f0d637a51034df6999e8d22ecde056faec92963ad7fc9c8d8091f05b3dc",
+      "tables/table_009.csv": "a05a3e47334e54c4c5a55514affe35fe626394bdb9f47a1691b3b91e815a155b",
+      "tables/table_010.csv": "626697d99bbaeb84979015b81bd3c26a317ab2b907dc24d822f6fef6dc1718e3",
+      "tables/table_011.csv": "246b853ed54231581f55f0acdd58ec701041caa03433dcfa6eb5b0424d27441b",
+      "tables/table_012.csv": "c9c4215389afe0718a989984dabb058e8cb1281cc4190ec515f71f40b79e6ac7",
+      "tables/table_013.csv": "a4f5a0a5cb2ad47e715cac32a1014e64f4393ac277c8b9916d8a1ebac5130953",
+      "tables/table_014.csv": "ba120e08cb1438a04cb77b5ecf434e855610d4fe1a4c610e4ab7c85f1472f223",
+      "tables/table_015.csv": "f9036774ba3570c98ee06578addd7713fad8f437f96c4f8c5780bf87dbe7e87d",
+      "tables/table_016.csv": "519f9aac61e52bac1700dc16793456ac5148eefec6f26bb9194733e9a6872cfb",
+      "tables/table_017.csv": "9ea2c7bb5699efc720ff55fda574d940efa566e3f4b49fc8b35cd1dc0befdeb0",
+      "tables/table_018.csv": "5e584cb753c133fbdfa2faccfa2d71b7342a9a937a1582a0da80e6e922b94fcd",
+      "tables/table_019.csv": "f26f2ab43b4fd2500508eda87116a56e22e3c85c6da8b36adfdfb3ef66fed990",
+      "tables/table_020.csv": "f26af87dac7a488f351f6ed474a0914918283408892e43572e24406194be43ac",
+      "tables/table_021.csv": "528a41dfe416598f394e6879c0feac1310662f61ec28cbd5de3b3042cc7e474d",
+      "tables/table_022.csv": "f093278ddf2146a31da69c8091aac2ece55693ee59765357a206d7214657f0c1",
+      "tables/table_023.csv": "d5df3880bd26e30b4fec2641410854635cb55e1e921bd675de5688bdf62cc667",
+      "tables/table_024.csv": "217b22d6f7839981f65fd5225657574a251f661b2a887b323bd9e8cc08c14489",
+      "tables/table_025.csv": "56a8e5e4724406e75fb6da4e0250ef28bbbc5a6e116f02c04da517c4411a342c",
+      "tables/table_026.csv": "4275bc2b03fe0d766f9f2339cf22f0faecf79e7e98895e9d9c2bfdfc5c799d86",
+      "tables/table_027.csv": "970d2a2d6784232b5a5223b1d97a2e3e976be9ee2f5878fb85cb62362a7c9f8b",
+      "tables/table_028.csv": "bb515cd7af0f4e32515ecc1cc7c53d0e33b26dbda8b261d61234d2b126a77ee6",
+      "tables/table_029.csv": "10057a7851cbfab5e98700bed1279fe82b95855b833d369fce4a3e8b0970e3a8",
+      "tables/table_030.csv": "82f6598fcb21ed82a2e157337308890350593d1d522edad2cdefcdb3d17ddd92",
+      "tables/table_031.csv": "32c1ee26fd1bd079d44b9265758431bda9037e629254356be0294858f8961fe3",
+      "tables/table_032.csv": "6b659d9938036f91e37f4995a2a5f1658d694f053216ac628148d40a838d743e",
+      "tables/table_033.csv": "96bde7a3e357166db08bd0594a6ee37874a4762c3f2f75090bb876eca93b3425",
+      "tables/table_034.csv": "b9ea419f0eed2503389b4a6989c3c06ac2d44c8462ffc603c4401a6b86b9cc75",
+      "tables/table_035.csv": "06924f61475f08a926b2e2da3086c5d27cf6be48a6684d21200a9cc56d4a7472",
+      "tables/table_036.csv": "50157152ec910dd7ff3985d61dc87346e545110125f256bf6a38fa5c1ac071d2",
+      "tables/table_037.csv": "5d8a1d884c7fed92b257d24302e73bea69c12e9f1c202e2cf1edef60336cc613",
+      "tables/table_038.csv": "15a6e157c9d157da9495ee1f641e74c00bd11e77bab1fdd9d5c8191d6881ace7",
+      "tables/table_039.csv": "46da9b836046ced05453d7ae13e52e3efff39256a38ef551f772fb819a043a42",
+      "tables/table_040.csv": "789538d863ec18acb8283018d1138ef150d227afe687720c90be1ac7df99753d",
+      "tables/table_041.csv": "720081ef4076c51f7f4c98fafa651044aa58a27dd9a9ab37f2223905e22dbc70",
+      "tables/table_042.csv": "e5c202848af7bd40fcf27e6a5322780ab0ff096f49a450294eb856223f7e7809",
+      "tables/table_043.csv": "5e9240efc434fa758f17aa493bf852424372b2657937f7e3d6edee1ae9d4d14d",
+      "tables/table_044.csv": "24dcbf92e7c489624f19c650e9c4cdbfffd9e3f48798f17eccdba0255d4307e3",
+      "tables/table_045.csv": "9d550d21f0d83be434bf8d86cc02f42412253c289c9b473f81bee1290a1710a1",
+      "tables/table_046.csv": "efcc9e7dd3c16be9cf81868677051e3008df3900da3f18ceb64aced4e6b97666",
+      "tables/table_047.csv": "9ba9e93b945a295dbf1273f5bb157a4d0abbe99270a15219261a3be6cc331087",
+      "tables/table_048.csv": "794f544dc2e3d8a26f14d452be05ce32613755c71195fecba89982486d1b534e",
+      "tables/table_049.csv": "5360307a3dc8c9fe598cde614922e4981db4a883dfbbc2f7b3dd6a0998a51e00",
+      "tables/table_050.csv": "c49a564e05fad674133c61d9dbce1f18c60ec98a16085fc2aea6b61a2c6d8ab1",
+      "tables/table_051.csv": "35fbd44ff7f2759f81029bc99d6d202452cacf71f2eb72043986eb96251f092a",
+      "tables/table_052.csv": "2de8dad81dd643cad7f7dc7642b70bf775d2ef52046e2ad08b3ba986c9300d0a",
+      "tables/table_053.csv": "75351cf60b573859a6f593c17df2bd4ccc34e74008d7b53a5b8eb83abb4385d6",
+      "tables/table_054.csv": "eac46e539d6ba3a968786e1d793197cbfa787c0027f24210676bbd65032d5bc4",
+      "tables/table_055.csv": "782d351c0fecae6e9800c05109806624e411c5b093550ed3c02f14419e016416",
+      "tables/table_056.csv": "36b18846475754705f99ecaa37692545e3d80cf5ad6493b971dbe4dd75772f1c",
+      "tables/table_057.csv": "2c9d42306578a12081a3a7a0e76d13223d10690e7504cc91921e35f86256f914",
+      "tables/table_058.csv": "49c16d9e9d8d2ab7d52cda53b1760035f2fd54657bdaa572791fb74e5a6136a2",
+      "tables/table_059.csv": "5a315a05f687529f191c6b7955c45ed97a08ac0509eeaa7be0c16af7161d9c9b",
+      "tables/table_060.csv": "2236883fa438733b4446ca46a86f1e0eace3b1e9555b5a7b204e6a4746608014",
+      "tables/table_061.csv": "7154f2cc601cefde93cb1384fc1c3427f82efaf22849e2937d0c7c6b384c758c",
+      "tables/table_062.csv": "e64372475eea8b3b040713527dcfab049585bfdef4db6bf2ce1439795d120125",
+      "tables/table_063.csv": "f1a22b755d466f02acffa238de354b8ef1d078fbb2a60ba3ac2a4edf85949835",
+      "tables/table_064.csv": "7437ec0282c5ddf08bf19b0815230dcdb80411b2e482657608aaea301745f2d0",
+      "tables/table_065.csv": "17217d3ee3476f1e1f0cae76d9c65d694258b58342c6366321f6fcd65bc84844",
+      "tables/table_066.csv": "ff738b724606fe9bc45109a413f43c78cf43142f5990183179d187527430cec3",
+      "tables/table_067.csv": "c21dc426fe764af3609c108569cd8955ebdafb3c234ab2d0e4971a3c6dbb8278",
+      "tables/table_068.csv": "ae364992e8823ddbe1af21e7ec825c8baccb07dbecc4c498f7580f86dcb62cbf",
+      "tables/table_069.csv": "b5cea5605c06364c3927308aab1886fa3f84f48e3421bbfba3478beff18a04be",
+      "tables/table_070.csv": "7e6ae0e36d8912d7f86ab27ebd6d947cb287a77c00408148ee0b7d8b8489838f",
+      "tables/table_071.csv": "073cfa2d218566ea4ebd1920d3575f7d730264942df5c325bdf00bd10207a605",
+      "tables/table_072.csv": "73c03ded40707f23ff96b311ab426300b2c4b233fd4a34668b42b5e03acc50ca",
+      "tables/table_073.csv": "e7c6fe80ca810ded1448c8b5dc721bbaf8d3d2471f69fbf3992bfb44bb7bdc1d",
+      "tables/table_074.csv": "c082f3c17b035c0f87965e7befe84626ebf02ec46c920333c7add7f7ad69b62e",
+      "tables/table_075.csv": "a5af72569a86b6f82a6c85b95c6fde4ff01d7c4e19848f5d324bd4d2649ac895",
+      "tables/table_076.csv": "a96c89ab30ea6f7c57c2758f5c2af34a0e04d38313d36ed1cab35a9ea7d5582c",
+      "tables/table_077.csv": "4856c421f13774eeb9e6777b081b34c94a21b651e6035bcecc9faae4e32dc0e7",
+      "tables/table_078.csv": "097668c63981fbdfc266c28391f4cabb1203f187cae10d84249fae45d0955cf7",
+      "tables/table_079.csv": "47cbe9ca56ec0953865dab4cf77c0dafa8c187df492d726733232c1dc641ce27",
+      "tables/table_080.csv": "d1aabccefcf54bbe0fc46ccf9a8829df2dc3b732c8291930d2e47bb5ef5a8839",
+      "tables/table_081.csv": "eac2f6803ba4feb818a799867df3ef22ba0899300d8294a54909e8f48e88c064",
+      "tables/table_082.csv": "848769f23ce62361f07f5ca8dbadcf9268de05de900238306d912204fdc66d58",
+      "tables/table_083.csv": "d1b568160018117de5206372acfb3872c34a79b9da036f2c45f107c731995e3e",
+      "tables/table_084.csv": "ebcd30f51160adcb9bdf846f83e6d5d0311fde9a0171b4a1806f85cd51f67a5d",
+      "tables/table_085.csv": "a79e0ac1a8d804b4db1f04e99c2a80636507d5c79dcbabb1c02ddfd4bf128b72",
+      "tables/table_086.csv": "d942a9e642c41fa9e245fdb5b1f5a318b610e738052d7bc5e5c239548848c596",
+      "tables/table_087.csv": "0516a9750035630845c2414e42f00b2cf8b4276e529827b14d6877aec770409c",
+      "tables/table_088.csv": "0ab0597612cd2c1a64de89ec2acbc4896db08c98566ff1221feda8b20bb2d493",
+      "tables/table_089.csv": "a93f8242ca4c8ceb480ec3069f605b9635b4cfb65825f05f01b533179ed3761a",
+      "tables/table_090.csv": "7a9fcfb13408268718997705dba3c237b58b5678c8471905d284576f6e6e4c5a",
+      "tables/table_091.csv": "df62cc8340f4698539a8a82690f75c31a35143a3349bfad3b6a5ac3dd0bfb787",
+      "tables/table_092.csv": "38c45ef1fb4ce3ff71b4cf6dd98ffdfa185e960d0e20a5f09b42d683dd84c5bd",
+      "tables/table_093.csv": "0062ccf01e866c70eb9ce3fc4128ddc3f9ae947f6db3ef2bb485543d505826e6",
+      "tables/table_094.csv": "60c792d7223fb390dd50914b5453f6621679d0e0b00254ecfa963bbf57bf61e0",
+      "tables/table_095.csv": "7d077125f19b44889521b13ba7a2a510331c5e00ce610b1937f58e6d93f17ec6",
+      "tables/table_096.csv": "1b78b050fb5582e4baf7dc2f2a530934130b73c35e8385bf67b538939507a7a2",
+      "tables/table_097.csv": "a70fa69c090cb49b8b8ad756945632fbc0b7678b283fddc7d5c02370bb5ff4a5",
+      "tables/table_098.csv": "848de6688ee2e33c9d77d5d9067ebe03c343b2290e7934893be4b630267ec957",
+      "tables/table_099.csv": "200bbf3ba204ba490b0bfd73e3e8cf89bee802fafe22b6fee5eb885e092babaa",
+      "tables/table_100.csv": "5325e5d4d1103b4dfb476f955c2145c9c6a2b293f90f74359f815fdc673d42bb",
+      "tables/table_101.csv": "23f62e77419ebe18fc857865dba1a369606d2b4c1c9dfd3db79b15f79e1eba33",
+      "tables/table_102.csv": "7c03965f24453c455859b018bdbe31256c5b59a81b9d073225647d4726942f63"
+    },
+    "ocr_required_pages": [
+      38,
+      45
+    ],
+    "ocr_required_table_indexes": []
+  },
+  "error": null
+}

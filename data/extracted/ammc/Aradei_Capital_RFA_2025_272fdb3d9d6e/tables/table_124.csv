@@ -1,0 +1,50 @@
+( NORMAL MODEL( ,TOTAUX.Exercice Exercice Exercices à Propres Précédant 3 = 2 + 1 précédants exercice'L 4 3 2 1 OPERATIONS
+EXPLOITATION'D PRODUITS - I,
+"0,00 0,00 0,00 0,00 (état'l en (marchandises de Ventes 503,15 977 199 273,89 512 215 0,00 273,89 512 215 produits services et biens de Ventes",
+"503,15 977 199 273,89 512 215 0,00 273,89 512 215 affaires'd Chiffres",
+"0,00 0,00 0,00 (±) produits de stock de Variation",
+"0,00 0,00 0,00 0,00 même elle pour Ese'l par produites Immobilisations",
+"0,00 0,00 0,00 0,00 exploitation'd Subvention",
+"0,00 0,00 0,00 0,00 exploitation'd produits Autres",
+"413,49 926 21 098,82 901 28 0,00 098,82 901 28 charges de transfert; exploitation'd Reprises",
+EXPLOITATION ,"916,64 903 221 372,71 413 244 0,00 372,71 413 244 I TOTAL"
+EXPLOITATION'D CHARGES - II,
+"0,00 0,00 0,00 0,00 marchandises de revendus Achats",
+"528,12 698 91 273,92 229 91 0,00 273,92 229 91 fournitures de et matières de consommés Achats",
+"638,04 677 46 191,61 979 50 0,00 191,61 979 50 externes charges Autres",
+"465,69 476 5 487,61 320 4 0,00 487,61 320 4 taxes et Impôts",
+"0,00 0,00 0,00 0,00 personnel de Charges",
+"037,44 765 793,54 262 1 0,00 793,54 262 1 exploitation'd charges Autres",
+"788,76 563 56 569,53 218 55 0,00 569,53 218 55 exploitation'd Dotations",
+,"458,05 181 201 316,21 010 203 0,00 316,21 010 203 II TOTAL"
+"458,59 722 20 056,50 403 41 ( II - I ( EXPLOITATION'D RESULTAT - III",
+FINANCIERS PRODUITS - IV,
+"827,98 960 153 337,04 151 96 0,00 337,04 151 96 immo .t autres et participation de titres des Produits",
+"104,03 50 753,58 23 0,00 753,58 23 change de Gains",
+"469,29 862 79 984,48 600 67 0,00 984,48 600 67 financiers produits autres et Intérêts",
+"0,00 0,00 0,00 0,00 charges de transferts; financières Reprises",
+,"401,30 873 233 075,10 776 163 0,00 075,10 776 163 IV TOTAL"
+FINANCIERES CHARGES - V FINANCIER,
+,"227,45 559 99 057,10 019 93 0,00 057,10 019 93 intérêts'd Charges"
+"003,52 101 770,73 122 205,79 10 564,94 112 change de Pertes",
+"0,00 0,00 0,00 0,00 financières charges Autres",
+"0,00 000,00 000 4 0,00 000,00 000 4 financières Dotations",
+,"230,97 660 99 827,83 141 97 205,79 10 622,04 131 97 V TOTAL"
+"170,33 213 134 247,27 634 66 ( V - IV ( FINANCIER RESULTAT - VI",
+"628,92 935 154 303,77 037 108 (I V + III ( COURANT RESULTAT - VII COURANTS NON PRODUITS - VIII",
+"0,00 0,00 0,00 0,00 immobilisations'd cessions des Produits",
+"0,00 0,00 0,00 0,00 équilibre'd Subventions",
+"0,00 0,00 0,00 0,00 investissement'd subventions sur Reprises 079,42 338 699,75 073 1 0,00 699,75 073 1 courants non produits Autres",
+"0,00 0,00 0,00 0,00 charges de transferts; courantes non Reprises",
+COURANT NON ,"079,42 338 699,75 073 1 0,00 699,75 073 1 VIII TOTAL"
+COURANTES NON CHARGES - IX,
+"0,00 0,00 0,00 0,00 cédées .immo des .amort'd nettes Valeurs",
+"0,00 0,00 0,00 0,00 accordées Subventions","375,15 459 11 583,32 034 20 0,00 583,32 034 20 courantes non charges Autres"
+"0,00 0,00 0,00 0,00 provisions et .amort aux courantes non Dotations",
+,"375,15 459 11 583,32 034 20 0,00 583,32 034 20 IX TOTAL"
+"295,73 121 -11 883,57 960 -18 ( IX -VIII ( COURANT NON RESULTAT - X",
+"333,19 814 143 420,20 076 89 ( X +VII ( IMPOTS AVANT RESULTAT - XI",
+"362,00 772 5 621,63 486 13 621,63 486 13 RESULTATS LES SUR IMPOTS - XII 971,19 041 138 798,57 589 75 ( XII - XI ( NET RESULTAT - XIII",
+"397,36 115 456 147,56 263 409 ( VIII + IV + I ( PRODUITS DES TOTAL - XIV","0,00 0,00"
+"426,17 073 318 348,99 673 333 ( XII + IX + V + II ( CHARGES DES TOTAL - XV",
+"971,19 041 138 798,57 589 75 ( XV - XIV ( NET RESULTAT - XVI",

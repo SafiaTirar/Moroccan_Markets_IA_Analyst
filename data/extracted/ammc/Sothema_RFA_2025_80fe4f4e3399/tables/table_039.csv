@@ -1,0 +1,42 @@
+,,EXERCICE DU 1 JANVIER 2025 AU 31 DÉCEMBRE 2025,EXERCICE DU 1 JANVIER 2025 AU 31 DÉCEMBRE 2025
+,(MONTANTS EN DHS),EXERCICE ,EXERCICE  PRÉCÉDENT
+,1  Ventes de marchandises (en l’état) ,"1 225 804 275,41 ","974 371 014,10"
+,2  -  Achats revendus de marchandises ,"834 447 158,80 ","680 431 173,14"
+I ,=  MARGE BRUTE SUR VENTES EN L’ÉTAT ,"391 357 116,61 ","293 939 840,96"
+,+  PRODUCTION DE L’ EXERCICE : (3 + 4 + 5) ,"1 825 305 731,65 ","1 726 144 221,26"
+3 ,Ventes de biens et services produits ,"1 813 022 124,40 ","1 669 700 635,78"
+II 4 ,Variation de stocks de produits ,"12 283 607,25 ","56 443 585,48"
+,5  Immobilisations produites par l’entreprise pour elle-même ,- ,- 
+,-  CONSOMMATION DE L’EXERCICE : (6 + 7) ,"1 226 141 340,41 ","1 149 800 866,79"
+III 6 ,Achats consommés de matières et fournitures ,"725 457 254,51 ","746 924 974,97"
+7 ,Autres charges externes ,"500 684 085,90 ","402 875 891,82"
+,IV  =  VALEUR AJOUTÉE : (I + II + III) ,"990 521 507,85 ","870 283 195,43"
+,8  +  Subventions d’exploitation ,"263 240,00",
+,V 9  -  Impôts et taxes ,"1 594 416,81 ","1 512 157,70"
+,10  -  Charges de personnel ,"353 930 967,00 ","334 781 497,76"
+,=  EXCÉDENT BRUT D’EXPLOITATION (E.B.E) ,"635 259 364,04 ","533 989 539,97"
+,=  OU INSUFFISANCE BRUTE D’EXPLOITATION (I.B.E) ,- ,- 
+,11  +  Autres produits d’exploitation ,"232 356,19 ","2 816 457,59"
+,12  -  Autres charges d’exploitation ,"1 600 000,00 ","1 600 000,00"
+13 ,+  Reprises d’exploitation : transferts de charges ,"39 956 630,71 ","29 037 372,28"
+14 ,-  Dotations d’exploitation ,"107 081 227,45 ","72 855 111,02"
+VI ,=  RÉSULTAT D’EXPLOITATION (+ OU -) ,"566 767 123,49 ","491 388 258,82"
+VII ,RÉSULTAT FINANCIER ,"1 142 561,02 ","-4 085 619,01"
+VIII ,=  RÉSULTAT COURANT (+ OU -) ,"567 909 684,51 ","487 302 639,81"
+IX ,RÉSULTAT NON COURANT ,"-41 933 353,85 ","-25 303 968,42"
+15  - ,Impôts sur les résultats ,"200 615 762,00 ","163 205 213,00"
+X  = ,RÉSULTAT NET DE L’EXERCICE (+ OU -)  II CAPACITÉ D’AUTOFINANCEMENT (C.A.F) - AUTOFINANCEMENT,"325 360 568,66 ","298 793 458,39"
+,Résultat de l’exercice ,"325 360 568,66 ","298 793 458,39"
+1,Bénéfice ,"325 360 568,66 ","298 793 458,39"
+,Perte ,,
+2 ,+  Dotations d’exploitation (1) ,"43 497 697,48 ","43 320 519,61"
+3  + ,Dotations financières (1) ,"3 013 688,00",
+4 ,+  Dotations non courantes (1),,
+5 ,-  Reprises d’exploitation (2) ,,
+6 ,-  Reprises financières (2) ,"3 013 688,00",
+7 ,-  Reprises non courantes (2) (3) ,"881 000,00 ","881 000,00"
+8 ,-  Produits des cessions des immobilisations ,,"17 353 814,85"
+9 ,+  Valeurs nettes des immobilisations cédées ,"2 911 978,09 ","7 764 443,45"
+I ,CAPACITÉ D’AUTOFINANCEMENT (C.A.F) ,"370 889 244,23 ","331 643 606,60"
+10 ,-  Distributions de bénéfices  (2) à l’exclusion des reprises relatives aux actifs circulants et à la trésorerie (3) Y compris reprises sur subventions d’investissement,"201 600 000,00 ","122 400 000,00"
+"II  AUTOFINANCEMENT  169 289 244,23  209 243 606,60 (1) à l’exclusion des dotations relatives aux actifs et passifs circulants et à la trésorerie ","II  AUTOFINANCEMENT  169 289 244,23  209 243 606,60 (1) à l’exclusion des dotations relatives aux actifs et passifs circulants et à la trésorerie ","II  AUTOFINANCEMENT  169 289 244,23  209 243 606,60 (1) à l’exclusion des dotations relatives aux actifs et passifs circulants et à la trésorerie ","II  AUTOFINANCEMENT  169 289 244,23  209 243 606,60 (1) à l’exclusion des dotations relatives aux actifs et passifs circulants et à la trésorerie "

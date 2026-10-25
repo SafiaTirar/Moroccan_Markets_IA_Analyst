@@ -1,0 +1,42 @@
+,,Exercice ,Exercice Précédent
++ ,Ventes de Marchandises (en l’état) ,"47 918 548,62 ","47 811 959,40 "
+- ,Achats revendus de marchandises ,"45 577 046,69 ","46 260 499,38 "
+= ,MARGE BRUTE VENTES EN L’ÉTAT ,"2 341 501,93 ","1 551 460,02 "
++ ,PRODUCTION DE L’EXERCICE (3+4+5) ,"7 970 324 134,96 ","8 084 238 327,83 "
+,Ventes de biens et services produits ,"7 980 881 375,07 ","8 027 384 076,08 "
+,Variation stocks produits ,"(10 557 240,11) ","56 854 251,75 "
+,Immobilisations produites par l’entreprise pour elle même,,
+- ,CONSOMMATIONS DE L’EXERCICE (6+7) ,"3 299 173 589,28 ","3 758 076 200,66 "
+,Achats consommés de matières et fournitures ,"2 269 715 303,26 ","2 683 142 755,69 "
+,Autres charges externes ,"1 029 458 286,02 ","1 074 933 444,97 "
+= ,VALEUR AJOUTÉE (I+II+III) ,"4 673 492 047,61 ","4 327 713 587,19 "
++ ,Subventions d’exploitation,,
+- ,Impôts et taxes ,"56 944 880,22 ","63 790 439,23 "
+- ,Charges de personnel ,"651 162 835,64 ","622 049 602,85 "
+= ,EXCÉDENT BRUT D’EXPLOITATION (EBE) ,"3 965 384 331,75 ","3 641 873 545,11 "
+,OU INSUFFISANCE BRUTE D’EXPLOITATION (IBE),,
++ ,Autres produits d’exploitation,,
+- ,Autres charges d’exploitation ,"27 019 964,65 ","22 441 946,17 "
++ ,"Reprises d’exploitation, transferts de charges ","41 806 746,07 ","46 335 816,80 "
+- ,Dotations d’exploitation ,"938 080 030,21 ","919 021 480,96 "
+= ,RÉSULTAT D’EXPLOITATION (+ou-) ,"3 042 091 082,96 ","2 746 745 934,78 "
+-/+ ,RÉSULTAT FINANCIER ,"(190 823 161,52) ","(156 841 391,96)"
+= ,RÉSULTAT COURANT ,"2 851 267 921,44 ","2 589 904 542,82 "
+-/+ ,RÉSULTAT NON COURANT (+ou-) ,"(164 577 842,13) ","(311 768 438,53)"
+- ,Impôts sur les résultats ,"1 005 714 374,85 ","865 019 456,60 "
+= ,RÉSULTAT NET DE L’EXERCICE ,"1 680 975 704,46 ","1 413 116 647,69 "
+,CAPACITÉ D’AUTOFINANCEMENT (C A F) - AUTOFINANCEMENT,,
+,Résultat net de l’exercice ,"1 680 975 704,46 ","1 413 116 647,69 "
+,Bénéfice + ,"1 680 975 704,46 ","1 413 116 647,69 "
+,Perte -,,
++ ,Dotations d’exploitation (1) ,"921 505 562,45 ","899 118 619,12"
++ ,Dotations financières (1),,
++ ,Dotations non courantes (1) ,"150 883 504,88 ","274 602 467,82"
+- ,Reprises d’exploitation (2) ,"-9 952 006,95 ","-15 964 356,42"
+- ,Reprises financières (2) ,,"-34 488 508,00"
+- ,Reprises non courantes (2) ,"-160 979 074,72 ","-139 758 149,21"
+- ,Produits des cessions d’immobilisations ,"-350 000,00 ","-10 308 419,99"
++ ,Valeurs nettes d’amortissement des immobilisations cédées ,"191 319,15 ","5 903 539,57"
+,CAPACITE D’AUTOFINANCEMENT (C A F) ,"2 582 275 009,27 ","2 392 221 840,58 "
+,Distributions de bénéfices ,"1 539 092 874,00 ","1 539 092 874,00"
+,AUTOFINANCEMENT ,"1 043 182 135,27 ","853 128 966,58 "

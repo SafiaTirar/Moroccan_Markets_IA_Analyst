@@ -1,0 +1,117 @@
+{
+  "schema_version": "1.0",
+  "baseline_verified": 6,
+  "deterministic_checks": [
+    {
+      "check_id": "s2m_consolidated_balance_equality_2025",
+      "kind": "BALANCE_EQUALITY",
+      "company_id": "s2m",
+      "left_reference_id": "s2m-2025-consolidated-total-assets",
+      "right_reference_id": "s2m-2025-consolidated-total-liabilities",
+      "period": "2025",
+      "scope": "CONSOLIDATED"
+    },
+    {
+      "check_id": "s2m_revenue_exact_vs_kmad_summary_2025",
+      "kind": "OCCURRENCE_CONSISTENCY",
+      "company_id": "s2m",
+      "indicator": "REVENUE",
+      "period": "2025",
+      "scope": "CONSOLIDATED",
+      "tolerance_mad": "500",
+      "occurrences": [
+        {
+          "table_id": "DOCLING_049",
+          "label": "Chiffre d ' affaires",
+          "column": "31-déc.-25",
+          "unit": "MAD",
+          "scale": 1
+        },
+        {
+          "table_id": "DOCLING_001",
+          "label": "CA",
+          "column": "2025",
+          "unit": "KMAD",
+          "scale": 1000
+        }
+      ]
+    },
+    {
+      "check_id": "s2m_net_income_exact_vs_kmad_summary_2025",
+      "kind": "OCCURRENCE_CONSISTENCY",
+      "company_id": "s2m",
+      "indicator": "NET_INCOME",
+      "period": "2025",
+      "scope": "CONSOLIDATED",
+      "tolerance_mad": "500",
+      "occurrences": [
+        {
+          "table_id": "DOCLING_049",
+          "label": "Résultat net de l'ensemble consolidé",
+          "column": "31-déc.-25",
+          "unit": "MAD",
+          "scale": 1
+        },
+        {
+          "table_id": "DOCLING_001",
+          "label": "RN",
+          "column": "2025",
+          "unit": "KMAD",
+          "scale": 1000
+        }
+      ]
+    },
+    {
+      "check_id": "dari_net_income_independent_occurrences_2023",
+      "kind": "OCCURRENCE_CONSISTENCY",
+      "company_id": "dari_couspate",
+      "indicator": "NET_INCOME",
+      "period": "2023",
+      "scope": "SOCIAL",
+      "tolerance_mad": "0",
+      "occurrences": [
+        {
+          "table_id": "OCR_002",
+          "label": "Résultat net de l'exercice (2)",
+          "column": "value_1",
+          "unit": "MAD",
+          "scale": 1
+        },
+        {
+          "table_id": "OCR_004",
+          "label": "RESULTAT NET (XI-XII) |",
+          "column": "value_3",
+          "unit": "MAD",
+          "scale": 1
+        },
+        {
+          "table_id": "OCR_005",
+          "label": "Bénéfice +",
+          "column": "value_1",
+          "unit": "MAD",
+          "scale": 1
+        }
+      ]
+    }
+  ],
+  "next_reports": [
+    {
+      "company_id": "attijariwafa_bank",
+      "exercise_year": 2025,
+      "sector_objective": "BANKING",
+      "reason": "Valider le profil bancaire et empêcher l'assimilation du produit net bancaire au chiffre d'affaires industriel."
+    },
+    {
+      "company_id": "wafa_assurance",
+      "exercise_year": 2025,
+      "sector_objective": "INSURANCE",
+      "reason": "Valider la distinction entre revenu d'assurance et primes émises ou acquises."
+    },
+    {
+      "company_id": "aradei_capital",
+      "exercise_year": 2025,
+      "sector_objective": "REAL_ESTATE",
+      "reason": "Valider le traitement des revenus locatifs sans les substituer automatiquement au chiffre d'affaires."
+    }
+  ]
+}

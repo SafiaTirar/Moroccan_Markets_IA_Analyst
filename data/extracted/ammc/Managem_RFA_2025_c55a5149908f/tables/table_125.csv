@@ -1,0 +1,13 @@
+Entités ,Nature ,Remboursement ,Maturité  résiduelle,Taux  intérêts ,F/V ,Montant ,< 1 an ,entre 1 et  5 ans ,> 5 ans
+Managem ,EO* ,In fine ,3 ,"3,22% ",Fixe ,2 000 ,- ,2 000 ,-
+Managem ,CMT ,Amortissable ,4 ,"4,85% ",Fixe ,2 000 ,400 ,1 600 ,-
+Managem ,CMT ,In fine ,"0,2 à 0,5 ","2,58% à  2,71% ",Fixe ,2 000 ,2 000 ,,-
+CMG ,CMT ,Amortissable ,"0,7 à 2 ","3,90% à  4,25% ",Fixe ,126 ,93 ,33 ,-
+AGM ,CMT ,Amortissable ,"0,7 à 5 ","3,85% à  5,00% ",Fixe ,898 ,116 ,782 ,-
+SOMIFER ,CMT ,Amortissable ,1 à 2 ,"4,00% à  4,25% ",Fixe ,64 ,37 ,27 ,-
+Techsub ,CMT ,Amortissable ,2 ,"4,25% ",Fixe ,7 ,3 ,4 ,-
+CTT ,CMT ,Amortissable ,1 à 2 ,"4,00% à  4,25% ",Fixe ,123 ,71 ,52 ,-
+SMI ,CMT ,Amortissable ,2 ,"4,25% ",Fixe ,35 ,17 ,18 ,-
+BOTO ,CMT ,Amortissable ,7 ,"Euribor 3  mois+2,35% ",variable ,2 426 ,- ,2 022 ,404
+MAA ,CMT ,Amortissable ,5 ,"5,00% ",Fixe ,1 875 ,165 ,1 711 ,-
+,Total ,,,,,9 553 ,2 901 ,6 249 ,404

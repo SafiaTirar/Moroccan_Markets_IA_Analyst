@@ -1,0 +1,59 @@
+{
+  "context_overrides": [
+    {
+      "table_id": "OCR_001",
+      "periods": ["30/06/2026", "31/12/2025"],
+      "column_periods": {
+        "value_3": "30/06/2026",
+        "value_4": "31/12/2025"
+      },
+      "scope": "SOCIAL",
+      "reference": {
+        "reference_id": "s2m-pdf-p8-actif",
+        "source": "PDF AMMC original, page 8, section Comptes sociaux"
+      }
+    },
+    {
+      "table_id": "OCR_002",
+      "periods": ["30/06/2026", "31/12/2025"],
+      "column_periods": {
+        "value_1": "30/06/2026",
+        "value_2": "31/12/2025"
+      },
+      "scope": "SOCIAL",
+      "reference": {
+        "reference_id": "s2m-pdf-p8-passif",
+        "source": "PDF AMMC original, page 8, section Comptes sociaux"
+      }
+    },
+    {
+      "table_id": "OCR_003",
+      "periods": ["30/06/2026", "30/06/2025"],
+      "column_periods": {
+        "value_1": "30/06/2026",
+        "value_2": "30/06/2025"
+      },
+      "scope": "SOCIAL",
+      "reference": {
+        "reference_id": "s2m-pdf-p9-cpc",
+        "source": "PDF AMMC original, page 9, section Comptes sociaux"
+      }
+    }
+  ],
+  "review_decisions": [
+    {
+      "name": "s2m_dont_verse_ocr_review",
+      "selector": {
+        "table_id": "OCR_002",
+        "label": "dont versé",
+        "status": "REVIEW_REQUIRED"
+      },
+      "decision": "REJECTED",
+      "reliable": true,
+      "reference_id": "s2m-pdf-p8-dont-verse",
+      "source": "PDF AMMC original, page 8, Bilan Passif",
+      "page": 8,
+      "justification": "Le PDF contient deux colonnes à 40 603 500,00 ; l'OCR a produit une cellule entière et une colonne supplémentaire. Les deux cellules ambiguës sont rejetées sans correction."
+    }
+  ]
+}

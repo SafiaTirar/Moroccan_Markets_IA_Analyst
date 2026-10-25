@@ -1,0 +1,98 @@
+{
+  "source_pdf": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/raw/ammc/pdfs/S2M_RFS_S1_26.pdf",
+  "source_sha256": "3de821c3b1d45bcff596ab2de623f7f169356e12b972fd33d1eb86c0d7f90baf",
+  "source_pages": [
+    8,
+    9
+  ],
+  "profile": "s2m_social_financial_statements",
+  "ocr_engine": "tesseract-cli",
+  "tesseract_version": "tesseract 5.5.3",
+  "ocr_languages": [
+    "fra",
+    "eng"
+  ],
+  "render_dpi": 400,
+  "tables_detected": 3,
+  "tables": [
+    {
+      "name": "bilan_actif_social",
+      "source_page": 8,
+      "crop": "left",
+      "rows": 48,
+      "columns": 5,
+      "csv": "tables/bilan_actif_social.csv"
+    },
+    {
+      "name": "bilan_passif_social",
+      "source_page": 8,
+      "crop": "right",
+      "rows": 43,
+      "columns": 3,
+      "csv": "tables/bilan_passif_social.csv"
+    },
+    {
+      "name": "cpc_social",
+      "source_page": 9,
+      "crop": "left",
+      "rows": 50,
+      "columns": 3,
+      "csv": "tables/cpc_social.csv"
+    }
+  ],
+  "checks": [
+    {
+      "name": "actif_structure",
+      "status": "PASS",
+      "detail": "(48, 5)"
+    },
+    {
+      "name": "passif_structure",
+      "status": "PASS",
+      "detail": "(43, 3)"
+    },
+    {
+      "name": "cpc_structure",
+      "status": "PASS",
+      "detail": "(50, 3)"
+    },
+    {
+      "name": "critical_rows_found",
+      "status": "PASS",
+      "detail": "Actif, Passif et résultat net"
+    },
+    {
+      "name": "bilan_current_balanced",
+      "status": "PASS",
+      "detail": "317 569 112,54 / 317 569 112,54"
+    },
+    {
+      "name": "bilan_prior_balanced",
+      "status": "PASS",
+      "detail": "297 032 298,41 / 297 032 298,41"
+    },
+    {
+      "name": "cpc_result_values",
+      "status": "PASS",
+      "detail": "['11 950 822,05', '11 198 861,84']"
+    },
+    {
+      "name": "actif_total_matches_pdf",
+      "status": "PASS",
+      "detail": "observé=['414 461 058,80', '86 845 499,75', '317 569 112,54', '297 032 298,41']; attendu=['414 461 058,80', '86 845 499,75', '317 569 112,54', '297 032 298,41']"
+    },
+    {
+      "name": "passif_total_matches_pdf",
+      "status": "PASS",
+      "detail": "observé=['317 569 112,54', '297 032 298,41']; attendu=['317 569 112,54', '297 032 298,41']"
+    },
+    {
+      "name": "cpc_result_matches_pdf",
+      "status": "PASS",
+      "detail": "observé=['11 950 822,05', '11 198 861,84']; attendu=['11 950 822,05', '11 198 861,84']"
+    }
+  ],
+  "validation_scope": "Structure, totaux critiques comparés au PDF et équilibre Actif/Passif. Pas de validation comptable exhaustive.",
+  "accounting_validation": "NOT_PERFORMED",
+  "status": "PARSED"
+}

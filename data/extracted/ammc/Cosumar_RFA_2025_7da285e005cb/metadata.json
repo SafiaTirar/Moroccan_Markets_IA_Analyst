@@ -1,0 +1,3343 @@
+{
+  "source_pdf": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/raw/ammc/pdfs/annual/cosumar/2025/Cosumar_RFA_2025.pdf",
+  "sha256": "7da285e005cb965a42fbb8302087b277787015172a33aa1b70d48d9f4d415d90",
+  "parsed_at": "2026-10-25T11:17:40.359635+00:00",
+  "docling_version": "2.140.0",
+  "validation_schema_version": "2.0",
+  "backend": "docling.backend.pypdfium2_backend.PyPdfiumDocumentBackend",
+  "extraction_config": {
+    "backend": "docling.backend.pypdfium2_backend.PyPdfiumDocumentBackend",
+    "do_ocr": false,
+    "do_table_structure": true
+  },
+  "extraction_config_sha256": "0044bac57114245a5515c70b41b9fee3bd75c4fae1c4407b240fe37733aa54f4",
+  "conversion_seconds": 728.678,
+  "page_count": 161,
+  "table_count": 150,
+  "table_pages": [
+    [
+      2
+    ],
+    [
+      2
+    ],
+    [
+      6
+    ],
+    [
+      15
+    ],
+    [
+      26
+    ],
+    [
+      29
+    ],
+    [
+      32
+    ],
+    [
+      44
+    ],
+    [
+      49
+    ],
+    [
+      49
+    ],
+    [
+      50
+    ],
+    [
+      55
+    ],
+    [
+      59
+    ],
+    [
+      61
+    ],
+    [
+      61
+    ],
+    [
+      61
+    ],
+    [
+      78
+    ],
+    [
+      79
+    ],
+    [
+      80
+    ],
+    [
+      80
+    ],
+    [
+      80
+    ],
+    [
+      81
+    ],
+    [
+      82
+    ],
+    [
+      82
+    ],
+    [
+      84
+    ],
+    [
+      86
+    ],
+    [
+      87
+    ],
+    [
+      88
+    ],
+    [
+      89
+    ],
+    [
+      89
+    ],
+    [
+      89
+    ],
+    [
+      89
+    ],
+    [
+      89
+    ],
+    [
+      89
+    ],
+    [
+      90
+    ],
+    [
+      91
+    ],
+    [
+      93
+    ],
+    [
+      93
+    ],
+    [
+      93
+    ],
+    [
+      93
+    ],
+    [
+      93
+    ],
+    [
+      94
+    ],
+    [
+      95
+    ],
+    [
+      96
+    ],
+    [
+      98
+    ],
+    [
+      99
+    ],
+    [
+      99
+    ],
+    [
+      99
+    ],
+    [
+      101
+    ],
+    [
+      101
+    ],
+    [
+      104
+    ],
+    [
+      105
+    ],
+    [
+      105
+    ],
+    [
+      106
+    ],
+    [
+      106
+    ],
+    [
+      107
+    ],
+    [
+      109
+    ],
+    [
+      110
+    ],
+    [
+      111
+    ],
+    [
+      112
+    ],
+    [
+      113
+    ],
+    [
+      114
+    ],
+    [
+      115
+    ],
+    [
+      115
+    ],
+    [
+      116
+    ],
+    [
+      116
+    ],
+    [
+      116
+    ],
+    [
+      117
+    ],
+    [
+      118
+    ],
+    [
+      119
+    ],
+    [
+      120
+    ],
+    [
+      121
+    ],
+    [
+      122
+    ],
+    [
+      123
+    ],
+    [
+      124
+    ],
+    [
+      124
+    ],
+    [
+      124
+    ],
+    [
+      125
+    ],
+    [
+      128
+    ],
+    [
+      128
+    ],
+    [
+      128
+    ],
+    [
+      129
+    ],
+    [
+      129
+    ],
+    [
+      129
+    ],
+    [
+      129
+    ],
+    [
+      129
+    ],
+    [
+      130
+    ],
+    [
+      130
+    ],
+    [
+      130
+    ],
+    [
+      130
+    ],
+    [
+      130
+    ],
+    [
+      130
+    ],
+    [
+      131
+    ],
+    [
+      131
+    ],
+    [
+      131
+    ],
+    [
+      131
+    ],
+    [
+      131
+    ],
+    [
+      132
+    ],
+    [
+      132
+    ],
+    [
+      133
+    ],
+    [
+      133
+    ],
+    [
+      134
+    ],
+    [
+      134
+    ],
+    [
+      134
+    ],
+    [
+      134
+    ],
+    [
+      134
+    ],
+    [
+      134
+    ],
+    [
+      135
+    ],
+    [
+      135
+    ],
+    [
+      135
+    ],
+    [
+      135
+    ],
+    [
+      137
+    ],
+    [
+      137
+    ],
+    [
+      138
+    ],
+    [
+      138
+    ],
+    [
+      138
+    ],
+    [
+      139
+    ],
+    [
+      140
+    ],
+    [
+      140
+    ],
+    [
+      140
+    ],
+    [
+      141
+    ],
+    [
+      141
+    ],
+    [
+      142
+    ],
+    [
+      142
+    ],
+    [
+      143
+    ],
+    [
+      143
+    ],
+    [
+      143
+    ],
+    [
+      144
+    ],
+    [
+      144
+    ],
+    [
+      144
+    ],
+    [
+      145
+    ],
+    [
+      145
+    ],
+    [
+      146
+    ],
+    [
+      146
+    ],
+    [
+      146
+    ],
+    [
+      147
+    ],
+    [
+      147
+    ],
+    [
+      148
+    ],
+    [
+      148
+    ],
+    [
+      148
+    ],
+    [
+      149
+    ],
+    [
+      149
+    ],
+    [
+      150
+    ],
+    [
+      151
+    ],
+    [
+      151
+    ],
+    [
+      151
+    ],
+    [
+      152
+    ],
+    [
+      154
+    ],
+    [
+      159
+    ],
+    [
+      159
+    ]
+  ],
+  "markdown_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/document.md",
+  "json_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/document.json",
+  "status": "PARTIAL",
+  "validation": {
+    "schema_version": "2.0",
+    "status": "PARTIAL",
+    "valid_table_count": 109,
+    "incomplete_table_count": 40,
+    "invalid_table_count": 1,
+    "issues": [
+      {
+        "code": "AUTOGENERATED_HEADER",
+        "message": "Les en-têtes de colonnes sont artificiels.",
+        "severity": "WARNING",
+        "table_index": 1,
+        "pages": [
+          2
+        ]
+      },
+      {
+        "code": "AUTOGENERATED_HEADER",
+        "message": "Les en-têtes de colonnes sont artificiels.",
+        "severity": "WARNING",
+        "table_index": 2,
+        "pages": [
+          2
+        ]
+      },
+      {
+        "code": "AUTOGENERATED_HEADER",
+        "message": "Les en-têtes de colonnes sont artificiels.",
+        "severity": "WARNING",
+        "table_index": 3,
+        "pages": [
+          6
+        ]
+      },
+      {
+        "code": "AUTOGENERATED_HEADER",
+        "message": "Les en-têtes de colonnes sont artificiels.",
+        "severity": "WARNING",
+        "table_index": 4,
+        "pages": [
+          15
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 5,
+        "pages": [
+          26
+        ]
+      },
+      {
+        "code": "AUTOGENERATED_HEADER",
+        "message": "Les en-têtes de colonnes sont artificiels.",
+        "severity": "WARNING",
+        "table_index": 11,
+        "pages": [
+          50
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 11,
+        "pages": [
+          50
+        ]
+      },
+      {
+        "code": "AUTOGENERATED_HEADER",
+        "message": "Les en-têtes de colonnes sont artificiels.",
+        "severity": "WARNING",
+        "table_index": 12,
+        "pages": [
+          55
+        ]
+      },
+      {
+        "code": "AUTOGENERATED_HEADER",
+        "message": "Les en-têtes de colonnes sont artificiels.",
+        "severity": "WARNING",
+        "table_index": 13,
+        "pages": [
+          59
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 13,
+        "pages": [
+          59
+        ]
+      },
+      {
+        "code": "EMPTY_TABLE",
+        "message": "Le tableau ne contient aucune cellule exploitable.",
+        "severity": "ERROR",
+        "table_index": 17,
+        "pages": [
+          78
+        ]
+      },
+      {
+        "code": "IMAGE_TABLE_REQUIRES_OCR",
+        "message": "Le tableau vide doit être revu avec OCR.",
+        "severity": "WARNING",
+        "table_index": 17,
+        "pages": [
+          78
+        ]
+      },
+      {
+        "code": "CSV_UNREADABLE",
+        "message": "CSV illisible (table_017.csv) : No columns to parse from file",
+        "severity": "ERROR",
+        "table_index": 17,
+        "pages": [
+          78
+        ]
+      },
+      {
+        "code": "AUTOGENERATED_HEADER",
+        "message": "Les en-têtes de colonnes sont artificiels.",
+        "severity": "WARNING",
+        "table_index": 37,
+        "pages": [
+          93
+        ]
+      },
+      {
+        "code": "AUTOGENERATED_HEADER",
+        "message": "Les en-têtes de colonnes sont artificiels.",
+        "severity": "WARNING",
+        "table_index": 38,
+        "pages": [
+          93
+        ]
+      },
+      {
+        "code": "AUTOGENERATED_HEADER",
+        "message": "Les en-têtes de colonnes sont artificiels.",
+        "severity": "WARNING",
+        "table_index": 39,
+        "pages": [
+          93
+        ]
+      },
+      {
+        "code": "AUTOGENERATED_HEADER",
+        "message": "Les en-têtes de colonnes sont artificiels.",
+        "severity": "WARNING",
+        "table_index": 40,
+        "pages": [
+          93
+        ]
+      },
+      {
+        "code": "AUTOGENERATED_HEADER",
+        "message": "Les en-têtes de colonnes sont artificiels.",
+        "severity": "WARNING",
+        "table_index": 47,
+        "pages": [
+          99
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 49,
+        "pages": [
+          101
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 51,
+        "pages": [
+          104
+        ]
+      },
+      {
+        "code": "SPLIT_WORD",
+        "message": "Un libellé contient une césure issue de la mise en page.",
+        "severity": "WARNING",
+        "table_index": 72,
+        "pages": [
+          121
+        ]
+      },
+      {
+        "code": "SPLIT_WORD",
+        "message": "Un libellé contient une césure issue de la mise en page.",
+        "severity": "WARNING",
+        "table_index": 74,
+        "pages": [
+          123
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 82,
+        "pages": [
+          129
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 85,
+        "pages": [
+          129
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 98,
+        "pages": [
+          132
+        ]
+      },
+      {
+        "code": "AUTOGENERATED_HEADER",
+        "message": "Les en-têtes de colonnes sont artificiels.",
+        "severity": "WARNING",
+        "table_index": 100,
+        "pages": [
+          133
+        ]
+      },
+      {
+        "code": "AUTOGENERATED_HEADER",
+        "message": "Les en-têtes de colonnes sont artificiels.",
+        "severity": "WARNING",
+        "table_index": 101,
+        "pages": [
+          133
+        ]
+      },
+      {
+        "code": "AUTOGENERATED_HEADER",
+        "message": "Les en-têtes de colonnes sont artificiels.",
+        "severity": "WARNING",
+        "table_index": 102,
+        "pages": [
+          134
+        ]
+      },
+      {
+        "code": "AUTOGENERATED_HEADER",
+        "message": "Les en-têtes de colonnes sont artificiels.",
+        "severity": "WARNING",
+        "table_index": 104,
+        "pages": [
+          134
+        ]
+      },
+      {
+        "code": "AUTOGENERATED_HEADER",
+        "message": "Les en-têtes de colonnes sont artificiels.",
+        "severity": "WARNING",
+        "table_index": 105,
+        "pages": [
+          134
+        ]
+      },
+      {
+        "code": "AUTOGENERATED_HEADER",
+        "message": "Les en-têtes de colonnes sont artificiels.",
+        "severity": "WARNING",
+        "table_index": 107,
+        "pages": [
+          134
+        ]
+      },
+      {
+        "code": "AUTOGENERATED_HEADER",
+        "message": "Les en-têtes de colonnes sont artificiels.",
+        "severity": "WARNING",
+        "table_index": 109,
+        "pages": [
+          135
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 112,
+        "pages": [
+          137
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 114,
+        "pages": [
+          138
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 115,
+        "pages": [
+          138
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 117,
+        "pages": [
+          139
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 120,
+        "pages": [
+          140
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 122,
+        "pages": [
+          141
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 123,
+        "pages": [
+          142
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 124,
+        "pages": [
+          142
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 130,
+        "pages": [
+          144
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 131,
+        "pages": [
+          145
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 132,
+        "pages": [
+          145
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 134,
+        "pages": [
+          146
+        ]
+      },
+      {
+        "code": "AUTOGENERATED_HEADER",
+        "message": "Les en-têtes de colonnes sont artificiels.",
+        "severity": "WARNING",
+        "table_index": 140,
+        "pages": [
+          148
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 140,
+        "pages": [
+          148
+        ]
+      },
+      {
+        "code": "FINANCIAL_IMAGE_REQUIRES_OCR",
+        "message": "Une grande image financière ne possède aucun tableau Docling associé.",
+        "severity": "WARNING",
+        "table_index": null,
+        "pages": [
+          60
+        ]
+      },
+      {
+        "code": "FINANCIAL_IMAGE_REQUIRES_OCR",
+        "message": "Une grande image financière ne possède aucun tableau Docling associé.",
+        "severity": "WARNING",
+        "table_index": null,
+        "pages": [
+          83
+        ]
+      },
+      {
+        "code": "FINANCIAL_IMAGE_REQUIRES_OCR",
+        "message": "Une grande image financière ne possède aucun tableau Docling associé.",
+        "severity": "WARNING",
+        "table_index": null,
+        "pages": [
+          136
+        ]
+      }
+    ],
+    "tables": [
+      {
+        "table_index": 1,
+        "pages": [
+          2
+        ],
+        "row_count": 9,
+        "column_count": 2,
+        "non_empty_cell_count": 18,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_001.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "AUTOGENERATED_HEADER",
+            "message": "Les en-têtes de colonnes sont artificiels.",
+            "severity": "WARNING",
+            "table_index": 1,
+            "pages": [
+              2
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 2,
+        "pages": [
+          2
+        ],
+        "row_count": 16,
+        "column_count": 2,
+        "non_empty_cell_count": 32,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_002.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "AUTOGENERATED_HEADER",
+            "message": "Les en-têtes de colonnes sont artificiels.",
+            "severity": "WARNING",
+            "table_index": 2,
+            "pages": [
+              2
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 3,
+        "pages": [
+          6
+        ],
+        "row_count": 6,
+        "column_count": 2,
+        "non_empty_cell_count": 12,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_003.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "AUTOGENERATED_HEADER",
+            "message": "Les en-têtes de colonnes sont artificiels.",
+            "severity": "WARNING",
+            "table_index": 3,
+            "pages": [
+              6
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 4,
+        "pages": [
+          15
+        ],
+        "row_count": 11,
+        "column_count": 2,
+        "non_empty_cell_count": 22,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_004.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "AUTOGENERATED_HEADER",
+            "message": "Les en-têtes de colonnes sont artificiels.",
+            "severity": "WARNING",
+            "table_index": 4,
+            "pages": [
+              15
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 5,
+        "pages": [
+          26
+        ],
+        "row_count": 5,
+        "column_count": 4,
+        "non_empty_cell_count": 18,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_005.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 5,
+            "pages": [
+              26
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 6,
+        "pages": [
+          29
+        ],
+        "row_count": 5,
+        "column_count": 4,
+        "non_empty_cell_count": 20,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_006.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 7,
+        "pages": [
+          32
+        ],
+        "row_count": 2,
+        "column_count": 5,
+        "non_empty_cell_count": 10,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_007.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 8,
+        "pages": [
+          44
+        ],
+        "row_count": 5,
+        "column_count": 4,
+        "non_empty_cell_count": 14,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_008.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 9,
+        "pages": [
+          49
+        ],
+        "row_count": 6,
+        "column_count": 4,
+        "non_empty_cell_count": 22,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_009.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 10,
+        "pages": [
+          49
+        ],
+        "row_count": 11,
+        "column_count": 4,
+        "non_empty_cell_count": 40,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_010.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 11,
+        "pages": [
+          50
+        ],
+        "row_count": 7,
+        "column_count": 5,
+        "non_empty_cell_count": 29,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_011.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "AUTOGENERATED_HEADER",
+            "message": "Les en-têtes de colonnes sont artificiels.",
+            "severity": "WARNING",
+            "table_index": 11,
+            "pages": [
+              50
+            ]
+          },
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 11,
+            "pages": [
+              50
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 12,
+        "pages": [
+          55
+        ],
+        "row_count": 3,
+        "column_count": 3,
+        "non_empty_cell_count": 9,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_012.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "AUTOGENERATED_HEADER",
+            "message": "Les en-têtes de colonnes sont artificiels.",
+            "severity": "WARNING",
+            "table_index": 12,
+            "pages": [
+              55
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 13,
+        "pages": [
+          59
+        ],
+        "row_count": 4,
+        "column_count": 3,
+        "non_empty_cell_count": 9,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_013.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "AUTOGENERATED_HEADER",
+            "message": "Les en-têtes de colonnes sont artificiels.",
+            "severity": "WARNING",
+            "table_index": 13,
+            "pages": [
+              59
+            ]
+          },
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 13,
+            "pages": [
+              59
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 14,
+        "pages": [
+          61
+        ],
+        "row_count": 2,
+        "column_count": 6,
+        "non_empty_cell_count": 12,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_014.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 15,
+        "pages": [
+          61
+        ],
+        "row_count": 6,
+        "column_count": 5,
+        "non_empty_cell_count": 30,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_015.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 16,
+        "pages": [
+          61
+        ],
+        "row_count": 10,
+        "column_count": 5,
+        "non_empty_cell_count": 46,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_016.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 17,
+        "pages": [
+          78
+        ],
+        "row_count": 0,
+        "column_count": 0,
+        "non_empty_cell_count": 0,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_017.csv",
+        "status": "INVALID",
+        "issues": [
+          {
+            "code": "EMPTY_TABLE",
+            "message": "Le tableau ne contient aucune cellule exploitable.",
+            "severity": "ERROR",
+            "table_index": 17,
+            "pages": [
+              78
+            ]
+          },
+          {
+            "code": "IMAGE_TABLE_REQUIRES_OCR",
+            "message": "Le tableau vide doit être revu avec OCR.",
+            "severity": "WARNING",
+            "table_index": 17,
+            "pages": [
+              78
+            ]
+          },
+          {
+            "code": "CSV_UNREADABLE",
+            "message": "CSV illisible (table_017.csv) : No columns to parse from file",
+            "severity": "ERROR",
+            "table_index": 17,
+            "pages": [
+              78
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 18,
+        "pages": [
+          79
+        ],
+        "row_count": 3,
+        "column_count": 5,
+        "non_empty_cell_count": 15,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_018.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 19,
+        "pages": [
+          80
+        ],
+        "row_count": 7,
+        "column_count": 4,
+        "non_empty_cell_count": 28,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_019.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 20,
+        "pages": [
+          80
+        ],
+        "row_count": 5,
+        "column_count": 3,
+        "non_empty_cell_count": 15,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_020.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 21,
+        "pages": [
+          80
+        ],
+        "row_count": 8,
+        "column_count": 4,
+        "non_empty_cell_count": 32,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_021.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 22,
+        "pages": [
+          81
+        ],
+        "row_count": 4,
+        "column_count": 4,
+        "non_empty_cell_count": 16,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_022.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 23,
+        "pages": [
+          82
+        ],
+        "row_count": 6,
+        "column_count": 5,
+        "non_empty_cell_count": 28,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_023.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 24,
+        "pages": [
+          82
+        ],
+        "row_count": 9,
+        "column_count": 5,
+        "non_empty_cell_count": 45,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_024.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 25,
+        "pages": [
+          84
+        ],
+        "row_count": 4,
+        "column_count": 4,
+        "non_empty_cell_count": 16,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_025.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 26,
+        "pages": [
+          86
+        ],
+        "row_count": 6,
+        "column_count": 2,
+        "non_empty_cell_count": 12,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_026.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 27,
+        "pages": [
+          87
+        ],
+        "row_count": 7,
+        "column_count": 4,
+        "non_empty_cell_count": 28,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_027.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 28,
+        "pages": [
+          88
+        ],
+        "row_count": 5,
+        "column_count": 4,
+        "non_empty_cell_count": 20,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_028.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 29,
+        "pages": [
+          89
+        ],
+        "row_count": 3,
+        "column_count": 4,
+        "non_empty_cell_count": 12,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_029.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 30,
+        "pages": [
+          89
+        ],
+        "row_count": 3,
+        "column_count": 4,
+        "non_empty_cell_count": 12,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_030.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 31,
+        "pages": [
+          89
+        ],
+        "row_count": 3,
+        "column_count": 5,
+        "non_empty_cell_count": 15,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_031.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 32,
+        "pages": [
+          89
+        ],
+        "row_count": 8,
+        "column_count": 4,
+        "non_empty_cell_count": 32,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_032.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 33,
+        "pages": [
+          89
+        ],
+        "row_count": 4,
+        "column_count": 4,
+        "non_empty_cell_count": 16,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_033.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 34,
+        "pages": [
+          89
+        ],
+        "row_count": 16,
+        "column_count": 4,
+        "non_empty_cell_count": 64,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_034.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 35,
+        "pages": [
+          90
+        ],
+        "row_count": 11,
+        "column_count": 2,
+        "non_empty_cell_count": 22,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_035.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 36,
+        "pages": [
+          91
+        ],
+        "row_count": 11,
+        "column_count": 11,
+        "non_empty_cell_count": 121,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_036.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 37,
+        "pages": [
+          93
+        ],
+        "row_count": 5,
+        "column_count": 2,
+        "non_empty_cell_count": 10,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_037.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "AUTOGENERATED_HEADER",
+            "message": "Les en-têtes de colonnes sont artificiels.",
+            "severity": "WARNING",
+            "table_index": 37,
+            "pages": [
+              93
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 38,
+        "pages": [
+          93
+        ],
+        "row_count": 4,
+        "column_count": 2,
+        "non_empty_cell_count": 8,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_038.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "AUTOGENERATED_HEADER",
+            "message": "Les en-têtes de colonnes sont artificiels.",
+            "severity": "WARNING",
+            "table_index": 38,
+            "pages": [
+              93
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 39,
+        "pages": [
+          93
+        ],
+        "row_count": 2,
+        "column_count": 2,
+        "non_empty_cell_count": 4,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_039.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "AUTOGENERATED_HEADER",
+            "message": "Les en-têtes de colonnes sont artificiels.",
+            "severity": "WARNING",
+            "table_index": 39,
+            "pages": [
+              93
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 40,
+        "pages": [
+          93
+        ],
+        "row_count": 3,
+        "column_count": 2,
+        "non_empty_cell_count": 6,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_040.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "AUTOGENERATED_HEADER",
+            "message": "Les en-têtes de colonnes sont artificiels.",
+            "severity": "WARNING",
+            "table_index": 40,
+            "pages": [
+              93
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 41,
+        "pages": [
+          93
+        ],
+        "row_count": 11,
+        "column_count": 2,
+        "non_empty_cell_count": 22,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_041.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 42,
+        "pages": [
+          94
+        ],
+        "row_count": 22,
+        "column_count": 3,
+        "non_empty_cell_count": 64,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_042.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 43,
+        "pages": [
+          95
+        ],
+        "row_count": 6,
+        "column_count": 3,
+        "non_empty_cell_count": 18,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_043.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 44,
+        "pages": [
+          96
+        ],
+        "row_count": 5,
+        "column_count": 3,
+        "non_empty_cell_count": 15,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_044.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 45,
+        "pages": [
+          98
+        ],
+        "row_count": 4,
+        "column_count": 5,
+        "non_empty_cell_count": 20,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_045.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 46,
+        "pages": [
+          99
+        ],
+        "row_count": 2,
+        "column_count": 5,
+        "non_empty_cell_count": 10,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_046.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 47,
+        "pages": [
+          99
+        ],
+        "row_count": 5,
+        "column_count": 2,
+        "non_empty_cell_count": 10,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_047.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "AUTOGENERATED_HEADER",
+            "message": "Les en-têtes de colonnes sont artificiels.",
+            "severity": "WARNING",
+            "table_index": 47,
+            "pages": [
+              99
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 48,
+        "pages": [
+          99
+        ],
+        "row_count": 3,
+        "column_count": 3,
+        "non_empty_cell_count": 9,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_048.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 49,
+        "pages": [
+          101
+        ],
+        "row_count": 10,
+        "column_count": 10,
+        "non_empty_cell_count": 53,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_049.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 49,
+            "pages": [
+              101
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 50,
+        "pages": [
+          101
+        ],
+        "row_count": 10,
+        "column_count": 5,
+        "non_empty_cell_count": 50,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_050.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 51,
+        "pages": [
+          104
+        ],
+        "row_count": 19,
+        "column_count": 4,
+        "non_empty_cell_count": 73,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_051.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 51,
+            "pages": [
+              104
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 52,
+        "pages": [
+          105
+        ],
+        "row_count": 8,
+        "column_count": 3,
+        "non_empty_cell_count": 24,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_052.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 53,
+        "pages": [
+          105
+        ],
+        "row_count": 6,
+        "column_count": 4,
+        "non_empty_cell_count": 24,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_053.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 54,
+        "pages": [
+          106
+        ],
+        "row_count": 3,
+        "column_count": 3,
+        "non_empty_cell_count": 9,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_054.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 55,
+        "pages": [
+          106
+        ],
+        "row_count": 3,
+        "column_count": 4,
+        "non_empty_cell_count": 12,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_055.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 56,
+        "pages": [
+          107
+        ],
+        "row_count": 6,
+        "column_count": 4,
+        "non_empty_cell_count": 24,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_056.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 57,
+        "pages": [
+          109
+        ],
+        "row_count": 10,
+        "column_count": 7,
+        "non_empty_cell_count": 70,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_057.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 58,
+        "pages": [
+          110
+        ],
+        "row_count": 19,
+        "column_count": 7,
+        "non_empty_cell_count": 128,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_058.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 59,
+        "pages": [
+          111
+        ],
+        "row_count": 35,
+        "column_count": 7,
+        "non_empty_cell_count": 235,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_059.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 60,
+        "pages": [
+          112
+        ],
+        "row_count": 14,
+        "column_count": 7,
+        "non_empty_cell_count": 92,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_060.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 61,
+        "pages": [
+          113
+        ],
+        "row_count": 15,
+        "column_count": 7,
+        "non_empty_cell_count": 103,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_061.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 62,
+        "pages": [
+          114
+        ],
+        "row_count": 15,
+        "column_count": 7,
+        "non_empty_cell_count": 99,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_062.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 63,
+        "pages": [
+          115
+        ],
+        "row_count": 15,
+        "column_count": 4,
+        "non_empty_cell_count": 60,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_063.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 64,
+        "pages": [
+          115
+        ],
+        "row_count": 15,
+        "column_count": 4,
+        "non_empty_cell_count": 60,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_064.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 65,
+        "pages": [
+          116
+        ],
+        "row_count": 3,
+        "column_count": 4,
+        "non_empty_cell_count": 12,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_065.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 66,
+        "pages": [
+          116
+        ],
+        "row_count": 12,
+        "column_count": 4,
+        "non_empty_cell_count": 48,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_066.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 67,
+        "pages": [
+          116
+        ],
+        "row_count": 5,
+        "column_count": 4,
+        "non_empty_cell_count": 20,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_067.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 68,
+        "pages": [
+          117
+        ],
+        "row_count": 9,
+        "column_count": 6,
+        "non_empty_cell_count": 54,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_068.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 69,
+        "pages": [
+          118
+        ],
+        "row_count": 8,
+        "column_count": 8,
+        "non_empty_cell_count": 57,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_069.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 70,
+        "pages": [
+          119
+        ],
+        "row_count": 11,
+        "column_count": 8,
+        "non_empty_cell_count": 79,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_070.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 71,
+        "pages": [
+          120
+        ],
+        "row_count": 8,
+        "column_count": 8,
+        "non_empty_cell_count": 57,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_071.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 72,
+        "pages": [
+          121
+        ],
+        "row_count": 8,
+        "column_count": 8,
+        "non_empty_cell_count": 50,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_072.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "SPLIT_WORD",
+            "message": "Un libellé contient une césure issue de la mise en page.",
+            "severity": "WARNING",
+            "table_index": 72,
+            "pages": [
+              121
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 73,
+        "pages": [
+          122
+        ],
+        "row_count": 10,
+        "column_count": 8,
+        "non_empty_cell_count": 70,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_073.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 74,
+        "pages": [
+          123
+        ],
+        "row_count": 4,
+        "column_count": 8,
+        "non_empty_cell_count": 22,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_074.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "SPLIT_WORD",
+            "message": "Un libellé contient une césure issue de la mise en page.",
+            "severity": "WARNING",
+            "table_index": 74,
+            "pages": [
+              123
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 75,
+        "pages": [
+          124
+        ],
+        "row_count": 6,
+        "column_count": 3,
+        "non_empty_cell_count": 18,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_075.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 76,
+        "pages": [
+          124
+        ],
+        "row_count": 9,
+        "column_count": 3,
+        "non_empty_cell_count": 27,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_076.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 77,
+        "pages": [
+          124
+        ],
+        "row_count": 6,
+        "column_count": 3,
+        "non_empty_cell_count": 18,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_077.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 78,
+        "pages": [
+          125
+        ],
+        "row_count": 11,
+        "column_count": 21,
+        "non_empty_cell_count": 224,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_078.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 79,
+        "pages": [
+          128
+        ],
+        "row_count": 4,
+        "column_count": 7,
+        "non_empty_cell_count": 28,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_079.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 80,
+        "pages": [
+          128
+        ],
+        "row_count": 5,
+        "column_count": 7,
+        "non_empty_cell_count": 35,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_080.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 81,
+        "pages": [
+          128
+        ],
+        "row_count": 5,
+        "column_count": 3,
+        "non_empty_cell_count": 15,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_081.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 82,
+        "pages": [
+          129
+        ],
+        "row_count": 3,
+        "column_count": 3,
+        "non_empty_cell_count": 8,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_082.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 82,
+            "pages": [
+              129
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 83,
+        "pages": [
+          129
+        ],
+        "row_count": 5,
+        "column_count": 5,
+        "non_empty_cell_count": 21,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_083.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 84,
+        "pages": [
+          129
+        ],
+        "row_count": 6,
+        "column_count": 5,
+        "non_empty_cell_count": 30,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_084.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 85,
+        "pages": [
+          129
+        ],
+        "row_count": 5,
+        "column_count": 5,
+        "non_empty_cell_count": 23,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_085.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 85,
+            "pages": [
+              129
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 86,
+        "pages": [
+          129
+        ],
+        "row_count": 8,
+        "column_count": 3,
+        "non_empty_cell_count": 24,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_086.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 87,
+        "pages": [
+          130
+        ],
+        "row_count": 8,
+        "column_count": 3,
+        "non_empty_cell_count": 24,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_087.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 88,
+        "pages": [
+          130
+        ],
+        "row_count": 9,
+        "column_count": 3,
+        "non_empty_cell_count": 27,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_088.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 89,
+        "pages": [
+          130
+        ],
+        "row_count": 4,
+        "column_count": 3,
+        "non_empty_cell_count": 12,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_089.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 90,
+        "pages": [
+          130
+        ],
+        "row_count": 9,
+        "column_count": 5,
+        "non_empty_cell_count": 41,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_090.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 91,
+        "pages": [
+          130
+        ],
+        "row_count": 4,
+        "column_count": 6,
+        "non_empty_cell_count": 24,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_091.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 92,
+        "pages": [
+          130
+        ],
+        "row_count": 6,
+        "column_count": 6,
+        "non_empty_cell_count": 34,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_092.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 93,
+        "pages": [
+          131
+        ],
+        "row_count": 8,
+        "column_count": 5,
+        "non_empty_cell_count": 40,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_093.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 94,
+        "pages": [
+          131
+        ],
+        "row_count": 8,
+        "column_count": 8,
+        "non_empty_cell_count": 64,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_094.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 95,
+        "pages": [
+          131
+        ],
+        "row_count": 1,
+        "column_count": 7,
+        "non_empty_cell_count": 7,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_095.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 96,
+        "pages": [
+          131
+        ],
+        "row_count": 12,
+        "column_count": 5,
+        "non_empty_cell_count": 60,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_096.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 97,
+        "pages": [
+          131
+        ],
+        "row_count": 4,
+        "column_count": 5,
+        "non_empty_cell_count": 20,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_097.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 98,
+        "pages": [
+          132
+        ],
+        "row_count": 20,
+        "column_count": 8,
+        "non_empty_cell_count": 113,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_098.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 98,
+            "pages": [
+              132
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 99,
+        "pages": [
+          132
+        ],
+        "row_count": 23,
+        "column_count": 7,
+        "non_empty_cell_count": 139,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_099.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 100,
+        "pages": [
+          133
+        ],
+        "row_count": 5,
+        "column_count": 2,
+        "non_empty_cell_count": 10,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_100.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "AUTOGENERATED_HEADER",
+            "message": "Les en-têtes de colonnes sont artificiels.",
+            "severity": "WARNING",
+            "table_index": 100,
+            "pages": [
+              133
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 101,
+        "pages": [
+          133
+        ],
+        "row_count": 35,
+        "column_count": 2,
+        "non_empty_cell_count": 70,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_101.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "AUTOGENERATED_HEADER",
+            "message": "Les en-têtes de colonnes sont artificiels.",
+            "severity": "WARNING",
+            "table_index": 101,
+            "pages": [
+              133
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 102,
+        "pages": [
+          134
+        ],
+        "row_count": 30,
+        "column_count": 2,
+        "non_empty_cell_count": 60,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_102.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "AUTOGENERATED_HEADER",
+            "message": "Les en-têtes de colonnes sont artificiels.",
+            "severity": "WARNING",
+            "table_index": 102,
+            "pages": [
+              134
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 103,
+        "pages": [
+          134
+        ],
+        "row_count": 6,
+        "column_count": 2,
+        "non_empty_cell_count": 12,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_103.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 104,
+        "pages": [
+          134
+        ],
+        "row_count": 1,
+        "column_count": 1,
+        "non_empty_cell_count": 1,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_104.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "AUTOGENERATED_HEADER",
+            "message": "Les en-têtes de colonnes sont artificiels.",
+            "severity": "WARNING",
+            "table_index": 104,
+            "pages": [
+              134
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 105,
+        "pages": [
+          134
+        ],
+        "row_count": 1,
+        "column_count": 1,
+        "non_empty_cell_count": 1,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_105.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "AUTOGENERATED_HEADER",
+            "message": "Les en-têtes de colonnes sont artificiels.",
+            "severity": "WARNING",
+            "table_index": 105,
+            "pages": [
+              134
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 106,
+        "pages": [
+          134
+        ],
+        "row_count": 2,
+        "column_count": 2,
+        "non_empty_cell_count": 4,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_106.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 107,
+        "pages": [
+          134
+        ],
+        "row_count": 36,
+        "column_count": 2,
+        "non_empty_cell_count": 72,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_107.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "AUTOGENERATED_HEADER",
+            "message": "Les en-têtes de colonnes sont artificiels.",
+            "severity": "WARNING",
+            "table_index": 107,
+            "pages": [
+              134
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 108,
+        "pages": [
+          135
+        ],
+        "row_count": 10,
+        "column_count": 2,
+        "non_empty_cell_count": 20,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_108.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 109,
+        "pages": [
+          135
+        ],
+        "row_count": 15,
+        "column_count": 2,
+        "non_empty_cell_count": 30,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_109.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "AUTOGENERATED_HEADER",
+            "message": "Les en-têtes de colonnes sont artificiels.",
+            "severity": "WARNING",
+            "table_index": 109,
+            "pages": [
+              135
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 110,
+        "pages": [
+          135
+        ],
+        "row_count": 16,
+        "column_count": 2,
+        "non_empty_cell_count": 32,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_110.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 111,
+        "pages": [
+          135
+        ],
+        "row_count": 10,
+        "column_count": 2,
+        "non_empty_cell_count": 20,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_111.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 112,
+        "pages": [
+          137
+        ],
+        "row_count": 49,
+        "column_count": 5,
+        "non_empty_cell_count": 211,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_112.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 112,
+            "pages": [
+              137
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 113,
+        "pages": [
+          137
+        ],
+        "row_count": 44,
+        "column_count": 4,
+        "non_empty_cell_count": 134,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_113.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 114,
+        "pages": [
+          138
+        ],
+        "row_count": 56,
+        "column_count": 5,
+        "non_empty_cell_count": 244,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_114.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 114,
+            "pages": [
+              138
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 115,
+        "pages": [
+          138
+        ],
+        "row_count": 8,
+        "column_count": 5,
+        "non_empty_cell_count": 39,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_115.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 115,
+            "pages": [
+              138
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 116,
+        "pages": [
+          138
+        ],
+        "row_count": 30,
+        "column_count": 6,
+        "non_empty_cell_count": 148,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_116.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 117,
+        "pages": [
+          139
+        ],
+        "row_count": 37,
+        "column_count": 6,
+        "non_empty_cell_count": 141,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_117.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 117,
+            "pages": [
+              139
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 118,
+        "pages": [
+          140
+        ],
+        "row_count": 3,
+        "column_count": 3,
+        "non_empty_cell_count": 9,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_118.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 119,
+        "pages": [
+          140
+        ],
+        "row_count": 2,
+        "column_count": 3,
+        "non_empty_cell_count": 6,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_119.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 120,
+        "pages": [
+          140
+        ],
+        "row_count": 3,
+        "column_count": 3,
+        "non_empty_cell_count": 8,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_120.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 120,
+            "pages": [
+              140
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 121,
+        "pages": [
+          141
+        ],
+        "row_count": 17,
+        "column_count": 9,
+        "non_empty_cell_count": 148,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_121.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 122,
+        "pages": [
+          141
+        ],
+        "row_count": 17,
+        "column_count": 5,
+        "non_empty_cell_count": 67,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_122.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 122,
+            "pages": [
+              141
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 123,
+        "pages": [
+          142
+        ],
+        "row_count": 4,
+        "column_count": 8,
+        "non_empty_cell_count": 25,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_123.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 123,
+            "pages": [
+              142
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 124,
+        "pages": [
+          142
+        ],
+        "row_count": 12,
+        "column_count": 11,
+        "non_empty_cell_count": 126,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_124.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 124,
+            "pages": [
+              142
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 125,
+        "pages": [
+          143
+        ],
+        "row_count": 9,
+        "column_count": 9,
+        "non_empty_cell_count": 66,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_125.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 126,
+        "pages": [
+          143
+        ],
+        "row_count": 13,
+        "column_count": 9,
+        "non_empty_cell_count": 75,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_126.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 127,
+        "pages": [
+          143
+        ],
+        "row_count": 14,
+        "column_count": 9,
+        "non_empty_cell_count": 119,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_127.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 128,
+        "pages": [
+          144
+        ],
+        "row_count": 2,
+        "column_count": 6,
+        "non_empty_cell_count": 12,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_128.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 129,
+        "pages": [
+          144
+        ],
+        "row_count": 9,
+        "column_count": 3,
+        "non_empty_cell_count": 27,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_129.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 130,
+        "pages": [
+          144
+        ],
+        "row_count": 3,
+        "column_count": 11,
+        "non_empty_cell_count": 13,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_130.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 130,
+            "pages": [
+              144
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 131,
+        "pages": [
+          145
+        ],
+        "row_count": 40,
+        "column_count": 4,
+        "non_empty_cell_count": 120,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_131.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 131,
+            "pages": [
+              145
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 132,
+        "pages": [
+          145
+        ],
+        "row_count": 40,
+        "column_count": 4,
+        "non_empty_cell_count": 112,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_132.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 132,
+            "pages": [
+              145
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 133,
+        "pages": [
+          146
+        ],
+        "row_count": 51,
+        "column_count": 3,
+        "non_empty_cell_count": 85,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_133.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 134,
+        "pages": [
+          146
+        ],
+        "row_count": 7,
+        "column_count": 4,
+        "non_empty_cell_count": 20,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_134.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 134,
+            "pages": [
+              146
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 135,
+        "pages": [
+          146
+        ],
+        "row_count": 5,
+        "column_count": 5,
+        "non_empty_cell_count": 25,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_135.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 136,
+        "pages": [
+          147
+        ],
+        "row_count": 12,
+        "column_count": 12,
+        "non_empty_cell_count": 111,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_136.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 137,
+        "pages": [
+          147
+        ],
+        "row_count": 9,
+        "column_count": 4,
+        "non_empty_cell_count": 25,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_137.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 138,
+        "pages": [
+          148
+        ],
+        "row_count": 14,
+        "column_count": 4,
+        "non_empty_cell_count": 56,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_138.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 139,
+        "pages": [
+          148
+        ],
+        "row_count": 10,
+        "column_count": 3,
+        "non_empty_cell_count": 28,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_139.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 140,
+        "pages": [
+          148
+        ],
+        "row_count": 9,
+        "column_count": 3,
+        "non_empty_cell_count": 21,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_140.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "AUTOGENERATED_HEADER",
+            "message": "Les en-têtes de colonnes sont artificiels.",
+            "severity": "WARNING",
+            "table_index": 140,
+            "pages": [
+              148
+            ]
+          },
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 140,
+            "pages": [
+              148
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 141,
+        "pages": [
+          149
+        ],
+        "row_count": 27,
+        "column_count": 3,
+        "non_empty_cell_count": 73,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_141.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 142,
+        "pages": [
+          149
+        ],
+        "row_count": 6,
+        "column_count": 3,
+        "non_empty_cell_count": 18,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_142.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 143,
+        "pages": [
+          150
+        ],
+        "row_count": 26,
+        "column_count": 9,
+        "non_empty_cell_count": 143,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_143.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 144,
+        "pages": [
+          151
+        ],
+        "row_count": 18,
+        "column_count": 3,
+        "non_empty_cell_count": 54,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_144.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 145,
+        "pages": [
+          151
+        ],
+        "row_count": 21,
+        "column_count": 3,
+        "non_empty_cell_count": 63,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_145.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 146,
+        "pages": [
+          151
+        ],
+        "row_count": 26,
+        "column_count": 3,
+        "non_empty_cell_count": 76,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_146.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 147,
+        "pages": [
+          152
+        ],
+        "row_count": 4,
+        "column_count": 4,
+        "non_empty_cell_count": 16,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_147.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 148,
+        "pages": [
+          154
+        ],
+        "row_count": 1,
+        "column_count": 2,
+        "non_empty_cell_count": 2,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_148.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 149,
+        "pages": [
+          159
+        ],
+        "row_count": 4,
+        "column_count": 4,
+        "non_empty_cell_count": 16,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_149.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 150,
+        "pages": [
+          159
+        ],
+        "row_count": 4,
+        "column_count": 4,
+        "non_empty_cell_count": 16,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Cosumar_RFA_2025_7da285e005cb/tables/table_150.csv",
+        "status": "VALID",
+        "issues": []
+      }
+    ],
+    "artifact_sha256": {
+      "document.md": "0bcff7480dbfbf6a224af5e21b8e671bfd621137866322ec3fc0024565e86db1",
+      "document.json": "1f17e2a2f3f3c10ee85f54a16d47d120c68d24c7c24f2cd8e5f211d7eb2470b3",
+      "tables/table_001.csv": "6703d7e73269e782a08a4635f261053dc45499c66045928252882d73d23ddb88",
+      "tables/table_002.csv": "1439b9547b8a61063a3092f42959de3a1259cd14d37d734a0a24b954aa1b8719",
+      "tables/table_003.csv": "c518e7150fceeb8fcea079a1f714e57c6acce44f90b4e0943e4bff1a4a2f6e9e",
+      "tables/table_004.csv": "576da29a74818d7545b7fa7d3fe8667229e2bfa789286b7530e931a05ddf85c5",
+      "tables/table_005.csv": "8ea5bd063e8f37b5d1ecac4f9cee458d5af1928793eeaa69860db457b4ef00bc",
+      "tables/table_006.csv": "15af1f4f86d7102cf52a474ca613eb25dc9fc2a2e60d5e7f1e8dc3a94197e68a",
+      "tables/table_007.csv": "b95767f6403e11797d96929d51332ef1a6a17aa5f26f515d2ab8b495837c11b0",
+      "tables/table_008.csv": "9d1d1aaceab34f6b5a3c139ef978d26e2e0a1dd140acab4d521a91d5b4304703",
+      "tables/table_009.csv": "995f505ddbc43800b251d15323cbf3e45f0fa2dc6026d06405e2c54b4101f5c6",
+      "tables/table_010.csv": "47ed34bc9fb3ec6ca39da56faf802f6f43d56dc16cf1d3a3d1bdec7bbaea216d",
+      "tables/table_011.csv": "8fbf2171c708bd11038c4358a32c143ab11ff5b7d9791cb4cfac72993edd5ae4",
+      "tables/table_012.csv": "7e0b861d091a51ed3b7ddb5e2965dfae040cf250f1553882d79343251cce8ee5",
+      "tables/table_013.csv": "3f5c89ec63790898738646722b9f788fea113d80a3b6a29a7da0f727da0ff4a1",
+      "tables/table_014.csv": "4884099dee940d4b9b83d1616618a389dbd53d131943512f2c66f57e0274eea1",
+      "tables/table_015.csv": "77eaae64ebfd985de58f64d39996ad9dc9b99611463e26ca97c5390b09be7904",
+      "tables/table_016.csv": "baea407e6d2a07f8c457ee799b8e3cc5383c870e2b5e3cdf40a08cd2528f088f",
+      "tables/table_017.csv": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "tables/table_018.csv": "38714f081ee7e9bd5d6bb4514722247e977b1ba862993f3229471d48e19078f9",
+      "tables/table_019.csv": "69d34c3a115ccc1add7974ef147c03131ca1db6960cffcd95dc0e6efcb25f998",
+      "tables/table_020.csv": "6296424f9ed86b59751fb9ed6ee773b5a87a9f0b09ea21c8db0d434ba9b24242",
+      "tables/table_021.csv": "bfbeeb2139e9f046a38bcdffeed678fed108fe6200f945325eff353bdb20944a",
+      "tables/table_022.csv": "5af0d722d6d856b100fe22af33429a066cd0caf45b29ba8cc56df6a11d3aa8f9",
+      "tables/table_023.csv": "75a8757833b86dd4eb0d68580aef11a632554c9ddd251c32474a3ea78b749bfc",
+      "tables/table_024.csv": "27d76a09f8137e401d583a79e0a0e488bf78aa5e66960f82eb13512cdb8596ce",
+      "tables/table_025.csv": "35703fa006333b792d9c2b300cf9c6039bf209a195203a25beb0501e72b8c0c4",
+      "tables/table_026.csv": "d4358ca1c188fcc0f7944de91be80fc838b1d149b6ecec2a30d93478e7ea7f42",
+      "tables/table_027.csv": "b2e2d9ae94213e637097d4c57c25987bcc6789b4b7cfc160a9128a20f9af0032",
+      "tables/table_028.csv": "dd683250bd8c5847641d4201a76a70d9d30c19ba448ab95a034c7ba53b63e561",
+      "tables/table_029.csv": "c50eeb7477c53525c029b43cc3a472060f9aed3be6037c39d9b42888c8eb233d",
+      "tables/table_030.csv": "b9c5957b1bc2fabe3f0cfd0adceaef7f0842a10902715e2ab36562bd58b4815f",
+      "tables/table_031.csv": "2a73fedfc6e5b5b68cb6bc469d2269407d2dab9876173422b8398b10ebb57115",
+      "tables/table_032.csv": "c3e42e30adee91b3b5e99c05b2c6713beb0e09c305e375dc8f75ef46fbc32802",
+      "tables/table_033.csv": "02bc38e5abed949d0b5e891f170de7784f62d142262a4bad4f46fd0715059e36",
+      "tables/table_034.csv": "33aed1e0e3d9f161b237b11a773d8bdef8d9cdc5124ec90ea05acbabd89fe226",
+      "tables/table_035.csv": "3db279bab33106af60ff71ee43a9f07da02f35dc4a8ac3cbb13d1b96d6a84dcd",
+      "tables/table_036.csv": "a6bd3d5ba144fc1769ef8aa9dfb628861469ce8d9dca1ddb8deb6f3aefa9aeca",
+      "tables/table_037.csv": "186514a06cd68f5816788ab9c53eaf0c617da2b04837a1f0dc30b371e414f89e",
+      "tables/table_038.csv": "623c6abaffab83d79200c32a758b0af84ed8fb6fce424f2aa509b09f62954386",
+      "tables/table_039.csv": "ca1ec308140abaaedc012a188ecd008e3b18993a16743bca0b78ca03a8a863ec",
+      "tables/table_040.csv": "b7d9cbb9b2045c61cf78bde13b73de09300b219243ed209c4473a327f60106b9",
+      "tables/table_041.csv": "9e1124c447cf40fb5b3506b8cbdbbcb48a55df4216d82622c3085c19ff0ea33e",
+      "tables/table_042.csv": "eaad1501e84f0e269338986f107e283727b31157b883b79e21f1176d235a051b",
+      "tables/table_043.csv": "38fda0659ea9ab9c6832168a21925daeb06370e84698e91c8affce946ef9831c",
+      "tables/table_044.csv": "e1c92a855fc283fa1743023246080bca1d6704793fc2ff1053e0c19aeccac99c",
+      "tables/table_045.csv": "c1952e54cb0820d8687c42107ca490bda80ab652375acb9f4907b43312a930dc",
+      "tables/table_046.csv": "b3136a2cd6d7bfb8632f41d185aa410500227d17eecb3440fe4bc5d7c7dbe113",
+      "tables/table_047.csv": "545e574d7ff34cdd34794f904141eb8e28f731809908e9a04c7f58edad7a9158",
+      "tables/table_048.csv": "ad7a74230debadc6c62fb10e4093c2b7c3e4f95a9a6fb77b1d43e1d034172841",
+      "tables/table_049.csv": "648acfb904881c6f656a10b5d39b3d937071dc9b26e7d35ec1e9b3242c934de6",
+      "tables/table_050.csv": "afd02d430361598c39cdea6992e540a10ab67f8055fe377fcf3a27f16a603856",
+      "tables/table_051.csv": "e5cdc5d2b1fe0d3dd014b5886c8755a629d064e57c4f5cabb2f65294e9c7ecf0",
+      "tables/table_052.csv": "d359de80236518a8af69a77b2a70aa51b6283be6448215d397e750855b3f1881",
+      "tables/table_053.csv": "2fa3cf32a4347460251e7fe19638c645099a3a4d6e60248b86f102920cf4a9ff",
+      "tables/table_054.csv": "ce7d348fd2e00ba88d3d1dff360da630e0c92edc7b85dcf68d5db2ffdf9870bc",
+      "tables/table_055.csv": "372440ee69868a72bf145f995686b82ca1c8d6973e324dccc2f539909767c6cb",
+      "tables/table_056.csv": "0512d667a0f9bdf60bca4ab84e2e046869632e8b0f5913c3df8cbe948832977c",
+      "tables/table_057.csv": "0a4f8feb61591629722ec0cab1655c722516fe60235bfb29b88875504409e2d1",
+      "tables/table_058.csv": "a7686952dc3bd9265bd419b367a7808c8910d71032005a1ae2e2b630d82bbab2",
+      "tables/table_059.csv": "9a06251a929a2ee54b6023e947fa36678a25eed2d482f7ec3da4f404d69fb158",
+      "tables/table_060.csv": "df54dd682cea8bfb15720e6c48530288440bc5a17c245ff4957a34108fc0df87",
+      "tables/table_061.csv": "6b6cf883afa3699ec146446710502820c3e8762d298b0f2eaa029a2e814a2ca5",
+      "tables/table_062.csv": "9042ea76b03e43a7976997d76e9be1dbf5f041cd6e8f228bbc8c2a28fc737611",
+      "tables/table_063.csv": "a1cafa9df7b872057ed51ba98bcd3064f17871f3f0b067fcb6b606c289712458",
+      "tables/table_064.csv": "5778dfd70f34e2eb1f50389d12efb6da06f9a54a0e03c3fbfa26e729055702c0",
+      "tables/table_065.csv": "338b868ffffd946d7801752ea417aafd8fad75f002d873338fd48bc95646548f",
+      "tables/table_066.csv": "4fb0e8ee284f4d253b1d44ef51022ef93e866d5e77a542b87154692b2323aec6",
+      "tables/table_067.csv": "cc895acd40cbd00f71b48099cf55f24f54977bf4dc40d7bbfdd8749acad73478",
+      "tables/table_068.csv": "b7846c1daca8c215d6f35a70857e150ac2fc0b077cfea012ffeb2f10b9820b0c",
+      "tables/table_069.csv": "df4ec8e1d88146a6140a46ac16421e47b0ae6c2298b7f8ee31a4b09ac2186249",
+      "tables/table_070.csv": "9128aec55cebaad6cf3a7adc3fb5751bd2a8ffab097f48b9ba6f50a7540ebeeb",
+      "tables/table_071.csv": "54268506ab56cc31d5d03558da94e8f66b16975b8098416bcf4f39e1af877faf",
+      "tables/table_072.csv": "d377a109619ee54dfdb1b1842bfba2372d04cfec56937335bb23ca02c266fd85",
+      "tables/table_073.csv": "d00034fb36f3797a3ebe327b82725e1a56831c8722205de151dfeddf3d51b5c4",
+      "tables/table_074.csv": "829bb8c86b311c8dcd5556ffbd53d17e05667b5d537e67b14ed55688159529dd",
+      "tables/table_075.csv": "3d4a0e9b87974fb7a3ec270c195d81de5114aadf325e0ff535bea9f78bdb52ff",
+      "tables/table_076.csv": "89f34e60f40d75d952644aaba8623d80b8b0f1ccf3d25e406b1580a1670afc7d",
+      "tables/table_077.csv": "8abb54d9d6675dd3ff988ef274177ff224b8f81cbd7a3809a9c140321530db36",
+      "tables/table_078.csv": "13eda81403e91e4eb2c93c921940f4f769970c85c254fc53e8cb02605dc77ee7",
+      "tables/table_079.csv": "01534abe736f936cc4d8299a310b86f36b24cfb1db2d6f2e60561787c97f7fc3",
+      "tables/table_080.csv": "ec06d7ee64cfb81ec0070ebf6f10fe8fd255e1259c018ac960d7a18961aa35ff",
+      "tables/table_081.csv": "c17fd8c3f0a01086f5a30d863423b9fdd3051cd5d21675c99edf8fd453e0ac6b",
+      "tables/table_082.csv": "d1cca140f2ffbdea75ca627a7bf5677ba807c97d56b4c37345563ffadcae759c",
+      "tables/table_083.csv": "b78ba4947ec03af7438c087fc4cc7142b2b092f48670f02b554c773a64335561",
+      "tables/table_084.csv": "3cc673fb5504675c5afaa6e75758bbdacd2a9358d07e372986cd5ceddf78a180",
+      "tables/table_085.csv": "92a2bbdbc0e2840ca2e9daa52b9439081d86d02f64569421bda6c4487167e6d9",
+      "tables/table_086.csv": "23fecdbed170b8f5760ed2177b876ed95bcaa5234295da4dc41152f6eaf6610f",
+      "tables/table_087.csv": "70baf6c09185658786cf87e669c33f4d6edab3d0948bf66b9ae7bda9faca2b51",
+      "tables/table_088.csv": "8338d3024082e252b0def81765e867089bddc8349109e30b6e9beac71f0d61a2",
+      "tables/table_089.csv": "bfd3899cad80ff581f437743ad2c847f3886241e3f88afe1f9d51a1dbce81abc",
+      "tables/table_090.csv": "47cfa147eb620233b2e18928c680d25d6662ccc211800e0fbd1195ae3391a914",
+      "tables/table_091.csv": "4852b9d3efdbb5f3c7c2b6b071bbd34c318c0457c1145d80448c6dbf2eff9f18",
+      "tables/table_092.csv": "e215337e591bf78cf62c3df3c14430465f96f39d888ba1b0e95a150bc2184708",
+      "tables/table_093.csv": "c52744d665212c9cbb8166642f42909e8ea7dd10166aee155d5ef6f71481fd41",
+      "tables/table_094.csv": "e6ae06b70011263b5f82b9b628747ef154540c804e588b55873a42edbd8a8b70",
+      "tables/table_095.csv": "5007848a85d88d9f7be0bb130ba5179abed432545fa3467ab1f07169404b99d7",
+      "tables/table_096.csv": "60da85ed89a68997d2c307c9076e93574a81a9435055e53f1e866e1d6edc1d9a",
+      "tables/table_097.csv": "0e9eba2ed98675707b1e1d224263ce6219e9b14e189a65dd677ca3ba4e956b6c",
+      "tables/table_098.csv": "3a260268409047845b1473593f782fa3426db5545692cd32bb9ee11ac8a5e057",
+      "tables/table_099.csv": "7fa768b66d9986474c0cd0cf6d539d4f693e159580b8e6f491eeba80d78f29fb",
+      "tables/table_100.csv": "e93cd6ae59aaf873eea6147a500d1feec4165f67cb254082ce75caeb00a5ce2f",
+      "tables/table_101.csv": "1f7f3e83a19568038585895781b9617dd51f721990f2c6d325ee86c063aa480f",
+      "tables/table_102.csv": "6ce149912fc2c6ad11f9ccb3cba67027870ac34207c934e043addccecd9e0a03",
+      "tables/table_103.csv": "a774eb8f00f22701c410b8c8fb059a017f6f4529625bdbff5b1b90ed53e7fa37",
+      "tables/table_104.csv": "05a52314397a194bbbc12d3dcda9fe765ecac2e9e6c3a89ba0b0f7636e4394c3",
+      "tables/table_105.csv": "05a52314397a194bbbc12d3dcda9fe765ecac2e9e6c3a89ba0b0f7636e4394c3",
+      "tables/table_106.csv": "cf312a9da006da9da3e06a7cd6714f16ba285d28a2161c5900dd95abcd2003cc",
+      "tables/table_107.csv": "04e3f0dc2b23ba8235632c7448b00967dcd867d586de7b6130cacd90b08bb9c8",
+      "tables/table_108.csv": "5a4984b5f3225bfdcaecd70414b9f23e5aa0598176f46119ae0ff9e100cb9810",
+      "tables/table_109.csv": "cf6dea518c2ed9c456c4ce93bf00877da361ef43471a2594184c18d57028d5ce",
+      "tables/table_110.csv": "2f7bd2fa44d2830b5ada3e27223f208ef1f0ecc05dc3ee906f4c7fef10398050",
+      "tables/table_111.csv": "c30598613d28a8ab085d5d980bec20d020e33a8454266e6aec24029ea7b7b64c",
+      "tables/table_112.csv": "cac6f277ceceb7f2a636d3d95bab3b052d4b1c4774cc9d4c39e96c273ef2b87a",
+      "tables/table_113.csv": "d8d7ab6e30e0bfad59608509b840ed4ff94f20cb8eb68552ff88595951a4784b",
+      "tables/table_114.csv": "e49a491818d1124448094f5691b6a1168b510264a2b7281d6495b668fbab94be",
+      "tables/table_115.csv": "7bb3338a356d948f5f5b21a84e62c056f88b2f81c75407d63991dffb225a7f7a",
+      "tables/table_116.csv": "ba5a4597115267a0266f099ee621d76a2d47f3f3a2b8a84ce219db3295cbeb92",
+      "tables/table_117.csv": "140753b2d284b57a8253e1b8522d7e974c95f0dd0777e47b659ef968f2bec958",
+      "tables/table_118.csv": "17cf4b5bb05c4262bf880c922138890b935edb427266af3a294c61ee03b0132f",
+      "tables/table_119.csv": "10a15dabb23a1df6eda4c6f3f0b197acd27f5b4d08cbf56aebc301498d7b9b13",
+      "tables/table_120.csv": "08f05fbb884426dc42bf7c8f64423608bd372135fee7f0ed0f5004e037fc5ae0",
+      "tables/table_121.csv": "b1ebe8623556f565ecbc69dde45522a8d59ba5848b8e38e58aed21a3c01325be",
+      "tables/table_122.csv": "861ad0fe87eec1360d3a1f1c471fe73aa53d464bfab351dda1404f33b750c7b1",
+      "tables/table_123.csv": "4f4ede5da37e6234b48eb479fea25ba4127b0a9d386e00c0e537058b5f06b4a7",
+      "tables/table_124.csv": "07344f1a98383ccac7be5a7e3235d23cf6502f7171def58b90f32b1ccbf08c92",
+      "tables/table_125.csv": "40030486bf22dbb0062eac29c5fe50affe259ec172a91351b5e574374c48501d",
+      "tables/table_126.csv": "89b320277e440d4d15b7f2e047d97c37601a83110821c46cce5933776c94e0ad",
+      "tables/table_127.csv": "aebc2ce9e48ede3b277661261ffe6fff180264d257eecd180fccb99e84ea4bd5",
+      "tables/table_128.csv": "66668548f8a83e31a8172194c141381dbea851378bbbb44ff398725d72ff657f",
+      "tables/table_129.csv": "682f74204cc521c11aa5d396cccce48400d235d600f1471b346d2ca3018ebcb5",
+      "tables/table_130.csv": "3b849e7ff72d9880f800601878ce98d0eaf455950d1db6f93dcdd9171300b39b",
+      "tables/table_131.csv": "0846f68861b26b4d4622feb298fd84a7f0d91a1db98c95dc63888107700dc4e7",
+      "tables/table_132.csv": "b798a3c4f2f33969a96224a77115f5d2445cfad9e6fde24ab9c0f39dc35634f0",
+      "tables/table_133.csv": "ade30d8d4824cf488b54cbce823052da69317dd495e817d7ad133d8f49ffceab",
+      "tables/table_134.csv": "bf0de9e126c86b03a5430ac970684f0ef9c380ca1473a9eb25ad32a0bf515d75",
+      "tables/table_135.csv": "fcdd3402b8e45558ce91cd59e6629308ba5a34fcac1785f05ffcec85772d2fe9",
+      "tables/table_136.csv": "cad6b227007bbc23e191405193f6b96c486584ea6c29fef7f76c0011bd8e41c2",
+      "tables/table_137.csv": "c220427f04690a7450c976de99769e0e793bb7196622589ad91c7a8644565fe4",
+      "tables/table_138.csv": "c0a40c0b1c984a8bc77e565c493c9678d2c2e89dbec7c313fef5c6ec55b3e1e3",
+      "tables/table_139.csv": "03138063708ab6e2eacd56346437c818c354e3e38e9d24d0e408da12daabbaa5",
+      "tables/table_140.csv": "68c49915fc754d11be9da01afb703b09d16e37ad46d18d02ed405de32b1127d0",
+      "tables/table_141.csv": "23f4f262e488bfee378358a7e438b767b30221b28275694e84afca4227602720",
+      "tables/table_142.csv": "846827d761156521dd35def50cb0e4cffef25a13f8209e57e0c866e664795f66",
+      "tables/table_143.csv": "1f4160da33bfd3105127325f754bdc658bd71bfba65874cbc375895846f9cd10",
+      "tables/table_144.csv": "3bde7fb0b0cf36fdd6f455da7886393bed268695b71a3cfd8b9653dd28d2f9d7",
+      "tables/table_145.csv": "1baca028d063bd751b4ae05a95c036cc36820104b4a835104fc0083669b64871",
+      "tables/table_146.csv": "bd0efa9b5eca844df51f4d02e38a7db0ec09e1e762827a933bb31ed7ae5cda91",
+      "tables/table_147.csv": "094267437956752caeb7f01a7b096574b28fa19d7c4c177556ec69fd0e41aad8",
+      "tables/table_148.csv": "29a76dc6514d8cf515f59ca5ac7ab6026359c2b61bcbd3fce5e56dc861cae03b",
+      "tables/table_149.csv": "d363e170ab366a3f9efe6887f6510880ed131c0ad89fb45c3f55e49e94f92cf1",
+      "tables/table_150.csv": "e1d2b1c8b7fcafea1352d11e75eb883415394a47caacc0448585ba6990cf4c04"
+    },
+    "ocr_required_pages": [
+      60,
+      78,
+      83,
+      136
+    ],
+    "ocr_required_table_indexes": [
+      17
+    ]
+  },
+  "error": null
+}

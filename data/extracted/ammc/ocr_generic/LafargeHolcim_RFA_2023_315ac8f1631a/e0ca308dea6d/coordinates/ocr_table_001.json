@@ -1,0 +1,798 @@
+{
+  "page": 91,
+  "bbox": [
+    0.0,
+    0.0,
+    1190.550048828125,
+    841.8900146484375
+  ],
+  "source": "rendered_page",
+  "source_id": "page:91",
+  "name": null,
+  "image_size": [
+    4961,
+    3508
+  ],
+  "attempts": [
+    {
+      "psm": 6,
+      "score": 139,
+      "amount_count": 16,
+      "keyword_count": 5,
+      "rows": 10,
+      "multi_value_rows": 3,
+      "labeled_rows": 10
+    },
+    {
+      "psm": 11,
+      "score": -31,
+      "amount_count": 23,
+      "keyword_count": 5,
+      "rows": 23,
+      "multi_value_rows": 0,
+      "labeled_rows": 4
+    }
+  ],
+  "selected_psm": 6,
+  "column_right_ratios": [
+    0.6335416246724451,
+    0.6990022172949002
+  ],
+  "rows": [
+    {
+      "label": "Nature et objet de la convention : s'élèvent à KMAD",
+      "cells": [
+        {
+          "column": "value_1",
+          "value": "231 313",
+          "bbox": [
+            754.9829577934452,
+            102.95633303425875,
+            791.7001836492611,
+            110.15607660308802
+          ]
+        }
+      ]
+    },
+    {
+      "label": "la société LafargeHolcim Maroc peut allouer à Mateen une avance de fonds sous forme d'avance en",
+      "cells": [
+        {
+          "column": "value_1",
+          "value": "233 173",
+          "bbox": [
+            674.8290137683305,
+            125.51552954992383,
+            711.5462396241466,
+            132.71527311875312
+          ]
+        }
+      ]
+    },
+    {
+      "label": "- Montant remboursé en 2023 : MMAD 6 - Lafarge Maroc, actionnaire dans le capital de LafargeHolcim Maroc à hauteur de et",
+      "cells": [
+        {
+          "column": "value_2",
+          "value": "64,68",
+          "bbox": [
+            1029.0422514362024,
+            236.3915805098948,
+            1061.1998217935839,
+            244.7912813401956
+          ]
+        }
+      ]
+    },
+    {
+      "label": "sur le changement du taux contractuel de rémunération annuelle de l'assistance technique et de soie vances [remboursements SSI ARBRE",
+      "cells": [
+        {
+          "column": "value_1",
+          "value": "31 127 202",
+          "bbox": [
+            706.0266566523571,
+            477.58299006567574,
+            736.7443357997065,
+            496.78230624922054
+          ]
+        }
+      ]
+    },
+    {
+      "label": "L'un vs 14m al = | |- | | Tf 1254 fe as |",
+      "cells": [
+        {
+          "column": "value_1",
+          "value": "75 450",
+          "bbox": [
+            750.1833204266718,
+            519.58149421718,
+            769.8618336304424,
+            532.5410326410727
+          ]
+        },
+        {
+          "column": "value_2",
+          "value": "44 800",
+          "bbox": [
+            793.3800567276318,
+            519.58149421718,
+            821.6979171915945,
+            532.5410326410727
+          ]
+        },
+        {
+          "column": "value_2_extra",
+          "value": "30 650",
+          "bbox": [
+            846.4160496304771,
+            519.58149421718,
+            864.8946534925544,
+            532.5410326410727
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Cett ti été autorisé le C il d'Administrati Suni le 6 juillet 2017. | inMvstcs|- [+ | | | | 1403 | | 8",
+      "cells": [
+        {
+          "column": "value_1",
+          "value": "39 500",
+          "bbox": [
+            702.6669104956159,
+            528.4611779520694,
+            729.3048978812078,
+            541.1807249236678
+          ]
+        },
+        {
+          "column": "value_1_extra",
+          "value": "215 200",
+          "bbox": [
+            747.0635561382692,
+            528.4611779520694,
+            769.6218517621038,
+            541.1807249236678
+          ]
+        },
+        {
+          "column": "value_2",
+          "value": "186 700",
+          "bbox": [
+            799.1396215677598,
+            528.4611779520694,
+            821.4579353232558,
+            541.1807249236678
+          ]
+        },
+        {
+          "column": "value_2_extra",
+          "value": "68 000",
+          "bbox": [
+            886.0130579063572,
+            528.4611779520694,
+            910.4912084769011,
+            541.1807249236678
+          ]
+        }
+      ]
+    },
+    {
+      "label": "LHM Vs CMC [- |- | | SS SaaS SS Ee ee eae",
+      "cells": [
+        {
+          "column": "value_1",
+          "value": "26 400",
+          "bbox": [
+            750.9032660316878,
+            544.5406052557881,
+            771.0617429721358,
+            554.6202462521491
+          ]
+        },
+        {
+          "column": "value_2",
+          "value": "26 400 400",
+          "bbox": [
+            796.9797847527118,
+            544.5406052557881,
+            820.7379897182398,
+            554.6202462521491
+          ]
+        }
+      ]
+    },
+    {
+      "label": "de cette convention en 2023, s'élève à KMAD hors taxes ; Nature et obiet de la convention :",
+      "cells": [
+        {
+          "column": "value_1",
+          "value": "201 161",
+          "bbox": [
+            272.6194024327253,
+            656.8566049295249,
+            305.7369002634613,
+            664.0563484983542
+          ]
+        }
+      ]
+    },
+    {
+      "label": "des services IT issus du IT service catalogue et comprenant également la maintenance des solutions",
+      "cells": [
+        {
+          "column": "value_1",
+          "value": "240 537",
+          "bbox": [
+            72.95448797495465,
+            681.0957416112502,
+            109.43173196243197,
+            695.0152458443201
+          ]
+        }
+      ]
+    },
+    {
+      "label": "180 LafargeHolcim Maroc RAPPORT FINANCIER ANNUEL 2023 LafargeHolcim Maroc RAPPORT FINANCIER ANNUEL",
+      "cells": [
+        {
+          "column": "value_2",
+          "value": "2 023 181",
+          "bbox": [
+            1107.036358646269,
+            818.6108437758895,
+            1153.3528592356317,
+            823.4106728217756
+          ]
+        }
+      ]
+    }
+  ],
+  "raw_lines": [
+    {
+      "text": "NOTRE ENGAGEMENT À CONSTRUIRE NOTRE TRAJECTOIRE DE CROISSANCE UNE STRATÉGIE QUI SE CONSOLIDE COMPTES ANNUELS & RAPPORTS",
+      "bbox": [
+        641.9514978059332,
+        18.23935037436752,
+        1143.9935663704237,
+        26.879042656962657
+      ]
+    },
+    {
+      "text": "© © Ô DEMAIN DURABLEMENT",
+      "bbox": [
+        37.197189592493324,
+        19.91929054042768,
+        714.6660039125492,
+        34.07878622579194
+      ]
+    },
+    {
+      "text": "2.4.2 Convention d’avance en compte courant Impact de la convention sur l'exercice :",
+      "bbox": [
+        65.27506818811732,
+        79.67716216171073,
+        806.3390776179198,
+        89.51681170577741
+      ]
+    },
+    {
+      "text": "\" Les exportations de clinker à LafargeHolcim Trading, au titre de cette convention en 2023,",
+      "bbox": [
+        658.0302829846238,
+        91.9167262287205,
+        1061.9197673985998,
+        101.03640141590427
+      ]
+    },
+    {
+      "text": "Nature et objet de la convention : s'élèvent à KMAD 231.313.",
+      "bbox": [
+        38.39709893418666,
+        102.23635867737582,
+        791.7001836492611,
+        111.11604241226527
+      ]
+    },
+    {
+      "text": "Au titre de cette convention signée en date du 1° janvier 2017 et de son avenant signé en juillet 2022, \" Au titre de cette convention, LafargeHolcim Maroc a encaissé en 2023 un montant de KMAD",
+      "bbox": [
+        37.67715332917066,
+        113.75594838750267,
+        1072.9589333421784,
+        123.35560647927505
+      ]
+    },
+    {
+      "text": "la société LafargeHolcim Maroc peut allouer à Mateen une avance de fonds sous forme d'avance en 233.173.",
+      "bbox": [
+        38.15711706584799,
+        124.79555519304091,
+        711.5462396241466,
+        133.91523038022467
+      ]
+    },
+    {
+      "text": "comptes courants d’associés.",
+      "bbox": [
+        37.917135197509324,
+        136.07515345087344,
+        164.14759794364795,
+        144.9548371857629
+      ]
+    },
+    {
+      "text": "ae . 2.7 Convention de trésorerie entre LafargeHolcim Maroc, Geocycle Maroc (Ex Ecoval), la",
+      "bbox": [
+        64.79510445143998,
+        152.1545807545922,
+        1074.3988245522105,
+        161.27425594177595
+      ]
+    },
+    {
+      "text": "Modalités essentielles : Cc . : : : .",
+      "bbox": [
+        38.15711706584799,
+        158.39435851424423,
+        962.3272920380531,
+        173.0338371041971
+      ]
+    },
+    {
+      "text": "= ee ay à we . ws A entrale Marocaine de Construction (Ex Batiprodis), Lafarge Ciments Sahara et Lafarge",
+      "bbox": [
+        131.99002758626665,
+        164.87412772619058,
+        1075.1187701572264,
+        173.99380291337434
+      ]
+    },
+    {
+      "text": "Les avances consenties portent intérêt à un taux fixé en fonction des conditions de marché et de M",
+      "bbox": [
+        38.15711706584799,
+        171.11390548584262,
+        681.5485060818131,
+        184.55342681432396
+      ]
+    },
+    {
+      "text": "l'intérêt commun des sociétés concernées. aroc",
+      "bbox": [
+        38.15711706584799,
+        179.51360631614347,
+        702.6669104956159,
+        189.35325586021014
+      ]
+    },
+    {
+      "text": "Impact de la convention sur l'exercice : Personne concernée :",
+      "bbox": [
+        38.39709893418666,
+        201.59281992721992,
+        735.7844083263518,
+        214.55235835111264
+      ]
+    },
+    {
+      "text": "- Capital restant à fin décembre 2022 : MMAD 39,9 -  Geocycle Maroc (Ex Ecoval), la Centrale Marocaine de Construction (Ex Batiprodis) et Lafarge",
+      "bbox": [
+        55.435811586231985,
+        213.8323839942297,
+        1071.9990058688238,
+        224.87199079976793
+      ]
+    },
+    {
+      "text": "- __ Montant avancé en 2023 : MMAD 53 Ciments Sahara sont filiales de LafargeHolcim Maroc.",
+      "bbox": [
+        55.435811586231985,
+        225.11198225206223,
+        906.4115167151438,
+        236.3915805098948
+      ]
+    },
+    {
+      "text": "- Montant remboursé en 2023 : MMAD 6 - Lafarge Maroc, actionnaire dans le capital de LafargeHolcim Maroc à hauteur de 64,68% et",
+      "bbox": [
+        55.435811586231985,
+        236.3915805098948,
+        1072.7189514738398,
+        245.51125569707855
+      ]
+    },
+    {
+      "text": "- Capital restant à fin décembre 2023 : MMAD 86,9 de LafargeHolcim Maroc Afrique à hauteur de 100% (LHMA).",
+      "bbox": [
+        55.435811586231985,
+        247.43118731543302,
+        937.3691777308318,
+        258.230802668677
+      ]
+    },
+    {
+      "text": "Au titre de cette convention, la société a constaté un produit d'intérêts dans les comptes de Nature et objet de la convention :",
+      "bbox": [
+        37.67715332917066,
+        269.9903838310981,
+        781.3809633106985,
+        280.55000773204773
+      ]
+    },
+    {
+      "text": "KMAD 3.873 au 31 décembre 2023. Au titre de cette convention signée en date du 1° janvier 2017, et de son avenant signé en juillet 2022",
+      "bbox": [
+        38.15711706584799,
+        281.26998208893065,
+        1074.3988245522105,
+        290.3896572761144
+      ]
+    },
+    {
+      "text": "LafargeHolcim Maroc joue le rôle de centralisateur afin de mettre en commun l’ensemble des",
+      "bbox": [
+        640.2716247275625,
+        292.0695974421746,
+        1074.3988245522105,
+        301.18927262935836
+      ]
+    },
+    {
+      "text": "2.5 Convention de transfert de droits au titre de l’assistance technique et gestion conclue disponibilités financières pour favoriser une gestion optimale du recours au crédit et du placement des",
+      "bbox": [
+        51.59610169281332,
+        302.3892298908299,
+        1074.6388064205491,
+        317.2686999330771
+      ]
+    },
+    {
+      "text": "excédents de trésorerie pour l'ensemble des parties de ce contrat.",
+      "bbox": [
+        640.0316428592239,
+        314.14881105325105,
+        923.4502293671891,
+        323.0284947881405
+      ]
+    },
+    {
+      "text": "avec Lafarge Maroc",
+      "bbox": [
+        72.47452423827731,
+        320.3885888129031,
+        162.4677248652773,
+        329.50826400008685
+      ]
+    },
+    {
+      "text": "Cette convention a été autorisée par le Conseil d'Administration réuni le 22 mars 2017.",
+      "bbox": [
+        640.0316428592239,
+        336.9479990212104,
+        1012.2435206524957,
+        345.8276827560999
+      ]
+    },
+    {
+      "text": "Personnes concernées :",
+      "bbox": [
+        38.39709893418666,
+        345.8276827560999,
+        141.5893023198133,
+        353.0274263249292
+      ]
+    },
+    {
+      "text": "- Lafarge Maroc est actionnaire de LafargeHolcim Maroc à hauteur de 64,68%. Modalités essentielles :",
+      "bbox": [
+        55.435811586231985,
+        357.58726391852105,
+        739.6241182197705,
+        366.7069391057048
+      ]
+    },
+    {
+      "text": "= Les avances consenties portent intérêt à un taux fixé en fonction des conditions de marché et",
+      "bbox": [
+        658.0302829846238,
+        370.54680234241374,
+        1072.9589333421784,
+        379.4264860773032
+      ]
+    },
+    {
+      "text": "Nature et objet de la convention : de l'intérêt commun et des sociétés concernées.",
+      "bbox": [
+        38.39709893418666,
+        381.3464176956577,
+        881.4534024079225,
+        390.22610143054715
+      ]
+    },
+    {
+      "text": "Cette convention, conclue entre Lafarge Maroc et LafargeHolcim Maroc, en date du 23 décembre \" Date d'effet : 1° janvier 2017. |",
+      "bbox": [
+        37.917135197509324,
+        391.9060415966073,
+        889.1328221947598,
+        406.06553728197156
+      ]
+    },
+    {
+      "text": "1998 et modifiée par l'avenant n°5 en date du 01 juin 2022 aux termes de laquelle Lafarge Maroc * Durée : indéterminée et modifiée par l'avenant qui a porté la durée à 10 ans à compter du 1°",
+      "bbox": [
+        38.637080802525325,
+        404.14560566361706,
+        1074.3988245522105,
+        417.1051440875098
+      ]
+    },
+    {
+      "text": "transfère à LafargeHolcim Maroc l'intégralité des droits contractuels qu'elle détient au titre de deux janvier 2022, renouvelable d'année en année par tacite reconduction.",
+      "bbox": [
+        37.67715332917066,
+        414.945221016861,
+        972.6465123766158,
+        428.3847423453423
+      ]
+    },
+    {
+      "text": "conventions d'assistance technique et de gestion, passées avec la société AL MADA d'une part et",
+      "bbox": [
+        37.917135197509324,
+        431.984614129757,
+        472.2843168904959,
+        441.1042893169407
+      ]
+    },
+    {
+      "text": "LafargeHolcim d'autre part. Impact de la convention sur l'exercice 2023 (en KMAD) :",
+      "bbox": [
+        38.15711706584799,
+        444.7041611013554,
+        881.4534024079225,
+        457.6636995252481
+      ]
+    },
+    {
+      "text": "L’avenant n°5, conclu en date du 1° juin 2022 avec effet rétroactif à compter du 1° janvier 2022, porte …",
+      "bbox": [
+        38.15711706584799,
+        469.9032635922579,
+        860.0950161257812,
+        479.02293877944163
+      ]
+    },
+    {
+      "text": "sur le changement du taux contractuel de rémunération annuelle de l'assistance technique et de soie 31127202] vances [remboursements SSI ARBRE",
+      "bbox": [
+        37.917135197509324,
+        477.58299006567574,
+        1067.6793322387277,
+        496.78230624922054
+      ]
+    },
+    {
+      "text": "gestion dispensée par AL MADA et LafargeHolcim qui est passé à 2,525% du chiffre d’affaires hors CRE ET ee ee",
+      "bbox": [
+        37.917135197509324,
+        493.6624173693945,
+        949.1282892794264,
+        512.8617335529392
+      ]
+    },
+    {
+      "text": "taxes. Em à 2 | SN ee",
+      "bbox": [
+        37.67715332917066,
+        504.2220412703441,
+        1067.6793322387277,
+        524.3813232630661
+      ]
+    },
+    {
+      "text": "L'un vs 14m al = | 75450 |- 44800 | 30650 | Tf 1254 fe as |",
+      "bbox": [
+        643.3913890159652,
+        519.58149421718,
+        1067.6793322387277,
+        532.5410326410727
+      ]
+    },
+    {
+      "text": "Cett ti été autorisé le C il d'Administrati Suni le 6 juillet 2017. | inMvstcs|- 39500 [+ 215200 | 186700 | | 68000 | 1403 | | 8",
+      "bbox": [
+        37.917135197509324,
+        528.4611779520694,
+        1056.8801481634878,
+        541.1807249236678
+      ]
+    },
+    {
+      "text": "ette convention a été autorisée par le Consei ministration réuni le 6 juille",
+      "bbox": [
+        44.87660937933066,
+        530.8610924750125,
+        376.7715332917066,
+        542.140690732845
+      ]
+    },
+    {
+      "text": "LHM Vs CMC [- |- 26400 | 26400 400 | SS SaaS SS Ee ee eae",
+      "bbox": [
+        651.5507725394798,
+        544.5406052557881,
+        1068.879241580421,
+        554.6202462521491
+      ]
+    },
+    {
+      "text": "Modalités essentielles : LHMVstubasal 0,039 | - ] >| 0088 SE : : .",
+      "bbox": [
+        38.15711706584799,
+        553.1802975383832,
+        1054.7203113484397,
+        566.1398359622759
+      ]
+    },
+    {
+      "text": "=\" Redevance annuelle : En contrepartie de l'assistance technique et de gestion dispensée,",
+      "bbox": [
+        55.91577532290932,
+        569.7397077466906,
+        469.64451633877053,
+        578.8593829338744
+      ]
+    },
+    {
+      "text": "LafargeHolcim Maroc verse a Lafarge Maroc une rémunération annuelle égale à 2,525% du 2.8 Convention de prestations informatiques «Master Service Agreement» avec",
+      "bbox": [
+        73.19446984329332,
+        581.2592974568174,
+        1074.6388064205491,
+        597.0987333082419
+      ]
+    },
+    {
+      "text": "chiffre d'affaires hors taxes de LafargeHolcim Maroc. LafargeHolcim MEA IT SC (LH MEA IT SC)",
+      "bbox": [
+        72.95448797495465,
+        593.9788444284159,
+        866.8145084392638,
+        609.0983059229574
+      ]
+    },
+    {
+      "text": "= Durée : indéterminée.",
+      "bbox": [
+        55.91577532290932,
+        606.2184084954256,
+        165.10752541700262,
+        617.2580153009638
+      ]
+    },
+    {
+      "text": "Impact de la convention sur l'exercice : Personnes concernées : | | | |",
+      "bbox": [
+        38.39709893418666,
+        627.3376562973249,
+        993.0449711854025,
+        641.9771348872778
+      ]
+    },
+    {
+      "text": "\" Le montant des charges comptabilisées dans les comptes de LafargeHolcim Maroc au titre - LafargeHolcim est actionnaire de LafargeHolcim Maroc et de LafargeHolcim MEA IT SC.",
+      "bbox": [
+        55.91577532290932,
+        639.817211816629,
+        1054.9602932167784,
+        653.2567331451103
+      ]
+    },
+    {
+      "text": "de cette convention en 2023, s'élève à KMAD 201 -161 hors taxes ; Nature et obiet de la convention :",
+      "bbox": [
+        72.95448797495465,
+        655.8966391203477,
+        781.3809633106985,
+        671.7360749717722
+      ]
+    },
+    {
+      "text": "* Au titre de cette convention, LafargeHolcim Maroc a décaissé en 2023 un montant de KMAD Au titre de cette convention, LafargeHolcim Maroc bénéficie de l'assistance récurrente et continue sur",
+      "bbox": [
+        55.91577532290932,
+        669.336160448829,
+        1074.8787882888878,
+        682.2956988727217
+      ]
+    },
+    {
+      "text": "240.537. des services IT issus du IT service catalogue et comprenant également la maintenance des solutions",
+      "bbox": [
+        72.95448797495465,
+        681.0957416112502,
+        1073.918860815533,
+        695.0152458443201
+      ]
+    },
+    {
+      "text": "retenues.",
+      "bbox": [
+        640.2716247275625,
+        695.735220201203,
+        679.3886692667652,
+        702.694972317738
+      ]
+    },
+    {
+      "text": "2.6 Convention de cession de Clinker et de Gypse avec LH Trading ; D _ | . | . _",
+      "bbox": [
+        51.59610169281332,
+        710.3746987911559,
+        968.8068024831971,
+        719.4943739783397
+      ]
+    },
+    {
+      "text": "Cette convention a été autorisée par le Conseil d’Administration réuni le 6 juillet 2017.",
+      "bbox": [
+        640.0316428592239,
+        718.0544252645739,
+        1007.9238470223997,
+        727.1741004517576
+      ]
+    },
+    {
+      "text": "Personnes concernées : LafargeHolcim Maroc et LafargeHolcim Trading sont des filiales de Modalités essentielles",
+      "bbox": [
+        38.39709893418666,
+        737.0137499958242,
+        734.3445171163198,
+        749.2533140628341
+      ]
+    },
+    {
+      "text": "LafargeHolcim. .. Redevance de 1,5 millions d'Euros sur une base annuelle à compter du 4 juillet 2016.",
+      "bbox": [
+        38.15711706584799,
+        747.3333824444795,
+        1041.0413448531358,
+        763.892792652787
+      ]
+    },
+    {
+      "text": "Nature et objet de la convention :",
+      "bbox": [
+        38.39709893418666,
+        770.6125533170276,
+        179.26645564898396,
+        779.4922370519171
+      ]
+    },
+    {
+      "text": "\" Vente de clinker et de Gypse à l’export par LafargeHolcim Maroc à LafargeHolcim Trading. Impact de la convention sur l'exercice :",
+      "bbox": [
+        55.91577532290932,
+        780.6921943133885,
+        806.3390776179198,
+        793.8917241895756
+      ]
+    },
+    {
+      "text": "180 LafargeHolcim Maroc RAPPORT FINANCIER ANNUEL 2023 LafargeHolcim Maroc RAPPORT FINANCIER ANNUEL 2023 181",
+      "bbox": [
+        37.43717146083199,
+        818.3708523235952,
+        1153.3528592356317,
+        824.6106300832472
+      ]
+    }
+  ],
+  "amount_count": 16,
+  "multi_value_row_count": 3,
+  "labeled_row_count": 10
+}

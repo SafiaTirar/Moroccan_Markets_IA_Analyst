@@ -1,0 +1,25 @@
+EN KMAD ,OUVERTURE ,INCIDENCE RÉSULTAT,DES COURS DE  CHANGE,VARIATIONS DE PÉRIMÈTRE ,AUTRES ,CLÔTURE
+Impôts différés - actif ,1 009 ,56 ,54 ,-315 ,106 ,910 
+Impôts différés - passif ,102 867 ,-1 598 ,754 ,-175 ,7 821 ,109 670
+SOLDE NET D'IMPÔT DIFFÉRÉ ,-101 858 ,1 654 ,-700 ,-141 ,-7 715 ,-108 760
+Ventilation de l'impôt différé par nature,,,,,,
+0lia01 - Données de liasse ,999 ,- ,18 ,-1 018 ,,-
+1ret35 - Retraitement des engagements de retraite ,- ,- ,- ,- ,- ,-
+1ret45 - Retraitement du crédit-bail locataire ,116 ,,0 ,-21 ,- ,95
+1ret75 - Réévaluation immobilisations incorporelles et corporelles ,- ,- ,- ,- ,- ,-
+1ret95 - Autres retraitementsifrs ,- ,- ,- ,- ,- ,-
+2cnv20 - Remise à valeur historique situation nette ,,,-19 ,19 ,,-
+2imp15 - Id / différences temporaires ,864 ,,6 ,- ,- ,870
+"2imp20 - Id / autres retraitements, ",0 ,,,- ,- ,-
+2imp215 - Id / annulation provisions réglementées ,- ,- ,- ,- ,- ,-
+2imp225 - Id / annulation frais d'établissement ,2 761 ,907 ,0 ,407 ,- ,4 075
+"2imp230 - Id /annul, des écarts deconv, & prov, de change ",-1 ,17 ,,-35 ,- ,-19
+2imp235 - Id / retraitement des engagements de retraite ,10 648 ,675 ,,,1 227 ,12 550
+2imp245 - Id / retraitement du crédit-bail locataire ,697 ,556 ,0 ,2 ,-146 ,1 109
+2imp30 - Id /eliminationdes résultats internes ,986 ,78 ,0 ,,- ,1 064
+2imp35 - Id sur écart d'évaluation 100% ,-69 400 ,- ,-721 ,-886 ,-8 796 ,-79 803
+2imp40 - Activation de reports déficitaires ,0 ,- ,- ,- ,- ,0
+2imp60 - Id/ autres retraitementsifrs ,-49 529 ,-579 ,15 ,1 392 ,-0 ,-48 702
+TOTAL IMPÔT DIFFÉRÉ PAR NATURE ,-101 858 ,1 654 ,-700 ,-141 ,-7 715 ,-108 760
+Incidence au compte de résultat ,,,,,,1 654
+Incidence réserves ,,,,,,7 715

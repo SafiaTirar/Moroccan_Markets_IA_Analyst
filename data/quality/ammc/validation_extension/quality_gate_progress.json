@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0",
+  "registry": {
+    "company_count": 15,
+    "indicator_count": 14,
+    "profile_count": 4
+  },
+  "candidate_universe": 1504,
+  "sample_observations": 13,
+  "quality_progress": {
+    "baseline_verified": 6,
+    "current_verified": 9,
+    "new_verified": 3,
+    "review_required": 3,
+    "rejected": 1,
+    "data05_admissible": 9,
+    "downstream_allowed_statuses": [
+      "VERIFIED"
+    ]
+  },
+  "priority_queue": {
+    "total": 55,
+    "by_potential": {
+      "MEDIUM": 55
+    },
+    "score_can_verify": false
+  },
+  "deterministic_checks": {
+    "total": 4,
+    "by_status": {
+      "NOT_CHECKED": 1,
+      "PASS": 3
+    },
+    "checks_are_standalone_proof": false
+  },
+  "review_dossiers": 4,
+  "next_reports_planned": 3,
+  "mass_processing_started": false,
+  "outputs": {
+    "indicator_registry": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/config/quality/ammc/financial_indicator_registry.json",
+    "priority_queue": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/quality/ammc/validation_extension/validation_queue.jsonl",
+    "deterministic_checks": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/quality/ammc/validation_extension/deterministic_checks.json",
+    "review_dossiers_index": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/quality/ammc/validation_extension/review_dossiers_index.json",
+    "next_reports_plan": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/quality/ammc/validation_extension/next_three_reports_plan.json",
+    "reference_report": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/quality/ammc/reference_pilot/concordance_report.json"
+  }
+}

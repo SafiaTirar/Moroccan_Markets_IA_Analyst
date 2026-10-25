@@ -1,0 +1,5355 @@
+{
+  "source_pdf": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/raw/ammc/pdfs/annual/aradei_capital/2025/Aradei_Capital_RFA_2025.pdf",
+  "sha256": "272fdb3d9d6ead47bee49030106ae671774421580c0e7f4f44cf8d8fe354e658",
+  "parsed_at": "2026-10-23T13:32:30.209438+00:00",
+  "docling_version": "2.140.0",
+  "validation_schema_version": "2.0",
+  "backend": "docling.backend.pypdfium2_backend.PyPdfiumDocumentBackend",
+  "extraction_config": {
+    "backend": "docling.backend.pypdfium2_backend.PyPdfiumDocumentBackend",
+    "do_ocr": false,
+    "do_table_structure": true
+  },
+  "extraction_config_sha256": "0044bac57114245a5515c70b41b9fee3bd75c4fae1c4407b240fe37733aa54f4",
+  "conversion_seconds": 1258.371,
+  "page_count": 199,
+  "table_count": 176,
+  "table_pages": [
+    [
+      5
+    ],
+    [
+      5
+    ],
+    [
+      6
+    ],
+    [
+      6
+    ],
+    [
+      6
+    ],
+    [
+      6
+    ],
+    [
+      6
+    ],
+    [
+      7
+    ],
+    [
+      9
+    ],
+    [
+      10
+    ],
+    [
+      10
+    ],
+    [
+      10
+    ],
+    [
+      10
+    ],
+    [
+      10
+    ],
+    [
+      10
+    ],
+    [
+      10
+    ],
+    [
+      10
+    ],
+    [
+      10
+    ],
+    [
+      10
+    ],
+    [
+      10
+    ],
+    [
+      10
+    ],
+    [
+      10
+    ],
+    [
+      11
+    ],
+    [
+      11
+    ],
+    [
+      11
+    ],
+    [
+      11
+    ],
+    [
+      11
+    ],
+    [
+      11
+    ],
+    [
+      11
+    ],
+    [
+      11
+    ],
+    [
+      11
+    ],
+    [
+      11
+    ],
+    [
+      12
+    ],
+    [
+      12
+    ],
+    [
+      12
+    ],
+    [
+      12
+    ],
+    [
+      12
+    ],
+    [
+      12
+    ],
+    [
+      13
+    ],
+    [
+      13
+    ],
+    [
+      13
+    ],
+    [
+      13
+    ],
+    [
+      13
+    ],
+    [
+      13
+    ],
+    [
+      13
+    ],
+    [
+      13
+    ],
+    [
+      14
+    ],
+    [
+      14
+    ],
+    [
+      14
+    ],
+    [
+      14
+    ],
+    [
+      14
+    ],
+    [
+      15
+    ],
+    [
+      15
+    ],
+    [
+      15
+    ],
+    [
+      15
+    ],
+    [
+      15
+    ],
+    [
+      16
+    ],
+    [
+      16
+    ],
+    [
+      16
+    ],
+    [
+      16
+    ],
+    [
+      16
+    ],
+    [
+      16
+    ],
+    [
+      16
+    ],
+    [
+      17
+    ],
+    [
+      17
+    ],
+    [
+      17
+    ],
+    [
+      17
+    ],
+    [
+      17
+    ],
+    [
+      17
+    ],
+    [
+      17
+    ],
+    [
+      18
+    ],
+    [
+      18
+    ],
+    [
+      18
+    ],
+    [
+      18
+    ],
+    [
+      18
+    ],
+    [
+      19
+    ],
+    [
+      19
+    ],
+    [
+      27
+    ],
+    [
+      28
+    ],
+    [
+      29
+    ],
+    [
+      30
+    ],
+    [
+      31
+    ],
+    [
+      32
+    ],
+    [
+      33
+    ],
+    [
+      34
+    ],
+    [
+      38
+    ],
+    [
+      39
+    ],
+    [
+      41
+    ],
+    [
+      41
+    ],
+    [
+      42
+    ],
+    [
+      42
+    ],
+    [
+      42
+    ],
+    [
+      42
+    ],
+    [
+      42
+    ],
+    [
+      43
+    ],
+    [
+      43
+    ],
+    [
+      43
+    ],
+    [
+      43
+    ],
+    [
+      44
+    ],
+    [
+      44
+    ],
+    [
+      44
+    ],
+    [
+      46
+    ],
+    [
+      47
+    ],
+    [
+      48
+    ],
+    [
+      48
+    ],
+    [
+      48
+    ],
+    [
+      49
+    ],
+    [
+      49
+    ],
+    [
+      49
+    ],
+    [
+      50
+    ],
+    [
+      51
+    ],
+    [
+      51
+    ],
+    [
+      52
+    ],
+    [
+      53
+    ],
+    [
+      54
+    ],
+    [
+      54
+    ],
+    [
+      54
+    ],
+    [
+      54
+    ],
+    [
+      55
+    ],
+    [
+      55
+    ],
+    [
+      56
+    ],
+    [
+      64
+    ],
+    [
+      65
+    ],
+    [
+      66
+    ],
+    [
+      67
+    ],
+    [
+      67
+    ],
+    [
+      68
+    ],
+    [
+      68
+    ],
+    [
+      72
+    ],
+    [
+      73
+    ],
+    [
+      74
+    ],
+    [
+      75
+    ],
+    [
+      76
+    ],
+    [
+      77
+    ],
+    [
+      78
+    ],
+    [
+      79
+    ],
+    [
+      80
+    ],
+    [
+      81
+    ],
+    [
+      81
+    ],
+    [
+      82
+    ],
+    [
+      83
+    ],
+    [
+      84
+    ],
+    [
+      85
+    ],
+    [
+      86
+    ],
+    [
+      87
+    ],
+    [
+      89
+    ],
+    [
+      90
+    ],
+    [
+      91
+    ],
+    [
+      92
+    ],
+    [
+      93
+    ],
+    [
+      108
+    ],
+    [
+      108
+    ],
+    [
+      111
+    ],
+    [
+      114
+    ],
+    [
+      114
+    ],
+    [
+      114
+    ],
+    [
+      114
+    ],
+    [
+      115
+    ],
+    [
+      116
+    ],
+    [
+      122
+    ],
+    [
+      126
+    ],
+    [
+      131
+    ],
+    [
+      140
+    ],
+    [
+      140
+    ],
+    [
+      141
+    ],
+    [
+      153
+    ],
+    [
+      153
+    ],
+    [
+      173
+    ],
+    [
+      173
+    ],
+    [
+      176
+    ],
+    [
+      184
+    ],
+    [
+      185
+    ],
+    [
+      185
+    ],
+    [
+      186
+    ],
+    [
+      186
+    ],
+    [
+      187
+    ]
+  ],
+  "markdown_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/document.md",
+  "json_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/document.json",
+  "status": "PARTIAL",
+  "validation": {
+    "schema_version": "2.0",
+    "status": "PARTIAL",
+    "valid_table_count": 59,
+    "incomplete_table_count": 115,
+    "invalid_table_count": 2,
+    "issues": [
+      {
+        "code": "AUTOGENERATED_HEADER",
+        "message": "Les en-têtes de colonnes sont artificiels.",
+        "severity": "WARNING",
+        "table_index": 1,
+        "pages": [
+          5
+        ]
+      },
+      {
+        "code": "AUTOGENERATED_HEADER",
+        "message": "Les en-têtes de colonnes sont artificiels.",
+        "severity": "WARNING",
+        "table_index": 3,
+        "pages": [
+          6
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 3,
+        "pages": [
+          6
+        ]
+      },
+      {
+        "code": "AUTOGENERATED_HEADER",
+        "message": "Les en-têtes de colonnes sont artificiels.",
+        "severity": "WARNING",
+        "table_index": 4,
+        "pages": [
+          6
+        ]
+      },
+      {
+        "code": "AUTOGENERATED_HEADER",
+        "message": "Les en-têtes de colonnes sont artificiels.",
+        "severity": "WARNING",
+        "table_index": 5,
+        "pages": [
+          6
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 5,
+        "pages": [
+          6
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 8,
+        "pages": [
+          7
+        ]
+      },
+      {
+        "code": "AUTOGENERATED_HEADER",
+        "message": "Les en-têtes de colonnes sont artificiels.",
+        "severity": "WARNING",
+        "table_index": 9,
+        "pages": [
+          9
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 9,
+        "pages": [
+          9
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 10,
+        "pages": [
+          10
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 11,
+        "pages": [
+          10
+        ]
+      },
+      {
+        "code": "AUTOGENERATED_HEADER",
+        "message": "Les en-têtes de colonnes sont artificiels.",
+        "severity": "WARNING",
+        "table_index": 13,
+        "pages": [
+          10
+        ]
+      },
+      {
+        "code": "AUTOGENERATED_HEADER",
+        "message": "Les en-têtes de colonnes sont artificiels.",
+        "severity": "WARNING",
+        "table_index": 14,
+        "pages": [
+          10
+        ]
+      },
+      {
+        "code": "AUTOGENERATED_HEADER",
+        "message": "Les en-têtes de colonnes sont artificiels.",
+        "severity": "WARNING",
+        "table_index": 16,
+        "pages": [
+          10
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 18,
+        "pages": [
+          10
+        ]
+      },
+      {
+        "code": "AUTOGENERATED_HEADER",
+        "message": "Les en-têtes de colonnes sont artificiels.",
+        "severity": "WARNING",
+        "table_index": 20,
+        "pages": [
+          10
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 21,
+        "pages": [
+          10
+        ]
+      },
+      {
+        "code": "AUTOGENERATED_HEADER",
+        "message": "Les en-têtes de colonnes sont artificiels.",
+        "severity": "WARNING",
+        "table_index": 23,
+        "pages": [
+          11
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 23,
+        "pages": [
+          11
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 26,
+        "pages": [
+          11
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 28,
+        "pages": [
+          11
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 32,
+        "pages": [
+          11
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 35,
+        "pages": [
+          12
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 36,
+        "pages": [
+          12
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 37,
+        "pages": [
+          12
+        ]
+      },
+      {
+        "code": "AUTOGENERATED_HEADER",
+        "message": "Les en-têtes de colonnes sont artificiels.",
+        "severity": "WARNING",
+        "table_index": 38,
+        "pages": [
+          12
+        ]
+      },
+      {
+        "code": "AUTOGENERATED_HEADER",
+        "message": "Les en-têtes de colonnes sont artificiels.",
+        "severity": "WARNING",
+        "table_index": 40,
+        "pages": [
+          13
+        ]
+      },
+      {
+        "code": "AUTOGENERATED_HEADER",
+        "message": "Les en-têtes de colonnes sont artificiels.",
+        "severity": "WARNING",
+        "table_index": 45,
+        "pages": [
+          13
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 48,
+        "pages": [
+          14
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 49,
+        "pages": [
+          14
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 50,
+        "pages": [
+          14
+        ]
+      },
+      {
+        "code": "AUTOGENERATED_HEADER",
+        "message": "Les en-têtes de colonnes sont artificiels.",
+        "severity": "WARNING",
+        "table_index": 51,
+        "pages": [
+          14
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 52,
+        "pages": [
+          15
+        ]
+      },
+      {
+        "code": "SPLIT_WORD",
+        "message": "Un libellé contient une césure issue de la mise en page.",
+        "severity": "WARNING",
+        "table_index": 52,
+        "pages": [
+          15
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 54,
+        "pages": [
+          15
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 55,
+        "pages": [
+          15
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 56,
+        "pages": [
+          15
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 57,
+        "pages": [
+          16
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 58,
+        "pages": [
+          16
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 59,
+        "pages": [
+          16
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 61,
+        "pages": [
+          16
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 62,
+        "pages": [
+          16
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 64,
+        "pages": [
+          17
+        ]
+      },
+      {
+        "code": "AUTOGENERATED_HEADER",
+        "message": "Les en-têtes de colonnes sont artificiels.",
+        "severity": "WARNING",
+        "table_index": 66,
+        "pages": [
+          17
+        ]
+      },
+      {
+        "code": "AUTOGENERATED_HEADER",
+        "message": "Les en-têtes de colonnes sont artificiels.",
+        "severity": "WARNING",
+        "table_index": 68,
+        "pages": [
+          17
+        ]
+      },
+      {
+        "code": "AUTOGENERATED_HEADER",
+        "message": "Les en-têtes de colonnes sont artificiels.",
+        "severity": "WARNING",
+        "table_index": 69,
+        "pages": [
+          17
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 70,
+        "pages": [
+          17
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 75,
+        "pages": [
+          18
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 76,
+        "pages": [
+          19
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 77,
+        "pages": [
+          19
+        ]
+      },
+      {
+        "code": "AUTOGENERATED_HEADER",
+        "message": "Les en-têtes de colonnes sont artificiels.",
+        "severity": "WARNING",
+        "table_index": 78,
+        "pages": [
+          27
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 79,
+        "pages": [
+          28
+        ]
+      },
+      {
+        "code": "AUTOGENERATED_HEADER",
+        "message": "Les en-têtes de colonnes sont artificiels.",
+        "severity": "WARNING",
+        "table_index": 80,
+        "pages": [
+          29
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 81,
+        "pages": [
+          30
+        ]
+      },
+      {
+        "code": "AUTOGENERATED_HEADER",
+        "message": "Les en-têtes de colonnes sont artificiels.",
+        "severity": "WARNING",
+        "table_index": 82,
+        "pages": [
+          31
+        ]
+      },
+      {
+        "code": "AUTOGENERATED_HEADER",
+        "message": "Les en-têtes de colonnes sont artificiels.",
+        "severity": "WARNING",
+        "table_index": 84,
+        "pages": [
+          33
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 85,
+        "pages": [
+          34
+        ]
+      },
+      {
+        "code": "AUTOGENERATED_HEADER",
+        "message": "Les en-têtes de colonnes sont artificiels.",
+        "severity": "WARNING",
+        "table_index": 86,
+        "pages": [
+          38
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 88,
+        "pages": [
+          41
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 89,
+        "pages": [
+          41
+        ]
+      },
+      {
+        "code": "AUTOGENERATED_HEADER",
+        "message": "Les en-têtes de colonnes sont artificiels.",
+        "severity": "WARNING",
+        "table_index": 91,
+        "pages": [
+          42
+        ]
+      },
+      {
+        "code": "AUTOGENERATED_HEADER",
+        "message": "Les en-têtes de colonnes sont artificiels.",
+        "severity": "WARNING",
+        "table_index": 92,
+        "pages": [
+          42
+        ]
+      },
+      {
+        "code": "AUTOGENERATED_HEADER",
+        "message": "Les en-têtes de colonnes sont artificiels.",
+        "severity": "WARNING",
+        "table_index": 93,
+        "pages": [
+          42
+        ]
+      },
+      {
+        "code": "AUTOGENERATED_HEADER",
+        "message": "Les en-têtes de colonnes sont artificiels.",
+        "severity": "WARNING",
+        "table_index": 94,
+        "pages": [
+          42
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 96,
+        "pages": [
+          43
+        ]
+      },
+      {
+        "code": "AUTOGENERATED_HEADER",
+        "message": "Les en-têtes de colonnes sont artificiels.",
+        "severity": "WARNING",
+        "table_index": 97,
+        "pages": [
+          43
+        ]
+      },
+      {
+        "code": "AUTOGENERATED_HEADER",
+        "message": "Les en-têtes de colonnes sont artificiels.",
+        "severity": "WARNING",
+        "table_index": 98,
+        "pages": [
+          43
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 99,
+        "pages": [
+          44
+        ]
+      },
+      {
+        "code": "AUTOGENERATED_HEADER",
+        "message": "Les en-têtes de colonnes sont artificiels.",
+        "severity": "WARNING",
+        "table_index": 100,
+        "pages": [
+          44
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 101,
+        "pages": [
+          44
+        ]
+      },
+      {
+        "code": "AUTOGENERATED_HEADER",
+        "message": "Les en-têtes de colonnes sont artificiels.",
+        "severity": "WARNING",
+        "table_index": 102,
+        "pages": [
+          46
+        ]
+      },
+      {
+        "code": "AUTOGENERATED_HEADER",
+        "message": "Les en-têtes de colonnes sont artificiels.",
+        "severity": "WARNING",
+        "table_index": 103,
+        "pages": [
+          47
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 104,
+        "pages": [
+          48
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 105,
+        "pages": [
+          48
+        ]
+      },
+      {
+        "code": "AUTOGENERATED_HEADER",
+        "message": "Les en-têtes de colonnes sont artificiels.",
+        "severity": "WARNING",
+        "table_index": 106,
+        "pages": [
+          48
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 108,
+        "pages": [
+          49
+        ]
+      },
+      {
+        "code": "AUTOGENERATED_HEADER",
+        "message": "Les en-têtes de colonnes sont artificiels.",
+        "severity": "WARNING",
+        "table_index": 110,
+        "pages": [
+          50
+        ]
+      },
+      {
+        "code": "AUTOGENERATED_HEADER",
+        "message": "Les en-têtes de colonnes sont artificiels.",
+        "severity": "WARNING",
+        "table_index": 111,
+        "pages": [
+          51
+        ]
+      },
+      {
+        "code": "AUTOGENERATED_HEADER",
+        "message": "Les en-têtes de colonnes sont artificiels.",
+        "severity": "WARNING",
+        "table_index": 113,
+        "pages": [
+          52
+        ]
+      },
+      {
+        "code": "AUTOGENERATED_HEADER",
+        "message": "Les en-têtes de colonnes sont artificiels.",
+        "severity": "WARNING",
+        "table_index": 114,
+        "pages": [
+          53
+        ]
+      },
+      {
+        "code": "AUTOGENERATED_HEADER",
+        "message": "Les en-têtes de colonnes sont artificiels.",
+        "severity": "WARNING",
+        "table_index": 116,
+        "pages": [
+          54
+        ]
+      },
+      {
+        "code": "AUTOGENERATED_HEADER",
+        "message": "Les en-têtes de colonnes sont artificiels.",
+        "severity": "WARNING",
+        "table_index": 118,
+        "pages": [
+          54
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 120,
+        "pages": [
+          55
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 122,
+        "pages": [
+          64
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 123,
+        "pages": [
+          65
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 124,
+        "pages": [
+          66
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 125,
+        "pages": [
+          67
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 127,
+        "pages": [
+          68
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 128,
+        "pages": [
+          68
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 130,
+        "pages": [
+          73
+        ]
+      },
+      {
+        "code": "AUTOGENERATED_HEADER",
+        "message": "Les en-têtes de colonnes sont artificiels.",
+        "severity": "WARNING",
+        "table_index": 131,
+        "pages": [
+          74
+        ]
+      },
+      {
+        "code": "AUTOGENERATED_HEADER",
+        "message": "Les en-têtes de colonnes sont artificiels.",
+        "severity": "WARNING",
+        "table_index": 134,
+        "pages": [
+          77
+        ]
+      },
+      {
+        "code": "AUTOGENERATED_HEADER",
+        "message": "Les en-têtes de colonnes sont artificiels.",
+        "severity": "WARNING",
+        "table_index": 135,
+        "pages": [
+          78
+        ]
+      },
+      {
+        "code": "AUTOGENERATED_HEADER",
+        "message": "Les en-têtes de colonnes sont artificiels.",
+        "severity": "WARNING",
+        "table_index": 136,
+        "pages": [
+          79
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 136,
+        "pages": [
+          79
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 141,
+        "pages": [
+          83
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 142,
+        "pages": [
+          84
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 143,
+        "pages": [
+          85
+        ]
+      },
+      {
+        "code": "AUTOGENERATED_HEADER",
+        "message": "Les en-têtes de colonnes sont artificiels.",
+        "severity": "WARNING",
+        "table_index": 146,
+        "pages": [
+          89
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 146,
+        "pages": [
+          89
+        ]
+      },
+      {
+        "code": "AUTOGENERATED_HEADER",
+        "message": "Les en-têtes de colonnes sont artificiels.",
+        "severity": "WARNING",
+        "table_index": 150,
+        "pages": [
+          93
+        ]
+      },
+      {
+        "code": "AUTOGENERATED_HEADER",
+        "message": "Les en-têtes de colonnes sont artificiels.",
+        "severity": "WARNING",
+        "table_index": 151,
+        "pages": [
+          108
+        ]
+      },
+      {
+        "code": "AUTOGENERATED_HEADER",
+        "message": "Les en-têtes de colonnes sont artificiels.",
+        "severity": "WARNING",
+        "table_index": 152,
+        "pages": [
+          108
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 153,
+        "pages": [
+          111
+        ]
+      },
+      {
+        "code": "AUTOGENERATED_HEADER",
+        "message": "Les en-têtes de colonnes sont artificiels.",
+        "severity": "WARNING",
+        "table_index": 154,
+        "pages": [
+          114
+        ]
+      },
+      {
+        "code": "AUTOGENERATED_HEADER",
+        "message": "Les en-têtes de colonnes sont artificiels.",
+        "severity": "WARNING",
+        "table_index": 155,
+        "pages": [
+          114
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 156,
+        "pages": [
+          114
+        ]
+      },
+      {
+        "code": "EMPTY_TABLE",
+        "message": "Le tableau ne contient aucune cellule exploitable.",
+        "severity": "ERROR",
+        "table_index": 157,
+        "pages": [
+          114
+        ]
+      },
+      {
+        "code": "IMAGE_TABLE_REQUIRES_OCR",
+        "message": "Le tableau vide doit être revu avec OCR.",
+        "severity": "WARNING",
+        "table_index": 157,
+        "pages": [
+          114
+        ]
+      },
+      {
+        "code": "AUTOGENERATED_HEADER",
+        "message": "Les en-têtes de colonnes sont artificiels.",
+        "severity": "WARNING",
+        "table_index": 158,
+        "pages": [
+          115
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 159,
+        "pages": [
+          116
+        ]
+      },
+      {
+        "code": "AUTOGENERATED_HEADER",
+        "message": "Les en-têtes de colonnes sont artificiels.",
+        "severity": "WARNING",
+        "table_index": 160,
+        "pages": [
+          122
+        ]
+      },
+      {
+        "code": "AUTOGENERATED_HEADER",
+        "message": "Les en-têtes de colonnes sont artificiels.",
+        "severity": "WARNING",
+        "table_index": 161,
+        "pages": [
+          126
+        ]
+      },
+      {
+        "code": "EMPTY_TABLE",
+        "message": "Le tableau ne contient aucune cellule exploitable.",
+        "severity": "ERROR",
+        "table_index": 162,
+        "pages": [
+          131
+        ]
+      },
+      {
+        "code": "IMAGE_TABLE_REQUIRES_OCR",
+        "message": "Le tableau vide doit être revu avec OCR.",
+        "severity": "WARNING",
+        "table_index": 162,
+        "pages": [
+          131
+        ]
+      },
+      {
+        "code": "CSV_UNREADABLE",
+        "message": "CSV illisible (table_162.csv) : No columns to parse from file",
+        "severity": "ERROR",
+        "table_index": 162,
+        "pages": [
+          131
+        ]
+      },
+      {
+        "code": "AUTOGENERATED_HEADER",
+        "message": "Les en-têtes de colonnes sont artificiels.",
+        "severity": "WARNING",
+        "table_index": 166,
+        "pages": [
+          153
+        ]
+      },
+      {
+        "code": "AUTOGENERATED_HEADER",
+        "message": "Les en-têtes de colonnes sont artificiels.",
+        "severity": "WARNING",
+        "table_index": 167,
+        "pages": [
+          153
+        ]
+      },
+      {
+        "code": "AUTOGENERATED_HEADER",
+        "message": "Les en-têtes de colonnes sont artificiels.",
+        "severity": "WARNING",
+        "table_index": 168,
+        "pages": [
+          173
+        ]
+      },
+      {
+        "code": "AUTOGENERATED_HEADER",
+        "message": "Les en-têtes de colonnes sont artificiels.",
+        "severity": "WARNING",
+        "table_index": 169,
+        "pages": [
+          173
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 170,
+        "pages": [
+          176
+        ]
+      },
+      {
+        "code": "AUTOGENERATED_HEADER",
+        "message": "Les en-têtes de colonnes sont artificiels.",
+        "severity": "WARNING",
+        "table_index": 171,
+        "pages": [
+          184
+        ]
+      },
+      {
+        "code": "AUTOGENERATED_HEADER",
+        "message": "Les en-têtes de colonnes sont artificiels.",
+        "severity": "WARNING",
+        "table_index": 172,
+        "pages": [
+          185
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 172,
+        "pages": [
+          185
+        ]
+      },
+      {
+        "code": "AUTOGENERATED_HEADER",
+        "message": "Les en-têtes de colonnes sont artificiels.",
+        "severity": "WARNING",
+        "table_index": 173,
+        "pages": [
+          185
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 173,
+        "pages": [
+          185
+        ]
+      },
+      {
+        "code": "AUTOGENERATED_HEADER",
+        "message": "Les en-têtes de colonnes sont artificiels.",
+        "severity": "WARNING",
+        "table_index": 174,
+        "pages": [
+          186
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 174,
+        "pages": [
+          186
+        ]
+      },
+      {
+        "code": "AUTOGENERATED_HEADER",
+        "message": "Les en-têtes de colonnes sont artificiels.",
+        "severity": "WARNING",
+        "table_index": 175,
+        "pages": [
+          186
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 175,
+        "pages": [
+          186
+        ]
+      },
+      {
+        "code": "AUTOGENERATED_HEADER",
+        "message": "Les en-têtes de colonnes sont artificiels.",
+        "severity": "WARNING",
+        "table_index": 176,
+        "pages": [
+          187
+        ]
+      },
+      {
+        "code": "MISSING_ROW_LABEL",
+        "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+        "severity": "WARNING",
+        "table_index": 176,
+        "pages": [
+          187
+        ]
+      }
+    ],
+    "tables": [
+      {
+        "table_index": 1,
+        "pages": [
+          5
+        ],
+        "row_count": 8,
+        "column_count": 1,
+        "non_empty_cell_count": 8,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_001.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "AUTOGENERATED_HEADER",
+            "message": "Les en-têtes de colonnes sont artificiels.",
+            "severity": "WARNING",
+            "table_index": 1,
+            "pages": [
+              5
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 2,
+        "pages": [
+          5
+        ],
+        "row_count": 6,
+        "column_count": 2,
+        "non_empty_cell_count": 6,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_002.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 3,
+        "pages": [
+          6
+        ],
+        "row_count": 33,
+        "column_count": 2,
+        "non_empty_cell_count": 35,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_003.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "AUTOGENERATED_HEADER",
+            "message": "Les en-têtes de colonnes sont artificiels.",
+            "severity": "WARNING",
+            "table_index": 3,
+            "pages": [
+              6
+            ]
+          },
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 3,
+            "pages": [
+              6
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 4,
+        "pages": [
+          6
+        ],
+        "row_count": 41,
+        "column_count": 2,
+        "non_empty_cell_count": 44,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_004.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "AUTOGENERATED_HEADER",
+            "message": "Les en-têtes de colonnes sont artificiels.",
+            "severity": "WARNING",
+            "table_index": 4,
+            "pages": [
+              6
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 5,
+        "pages": [
+          6
+        ],
+        "row_count": 38,
+        "column_count": 3,
+        "non_empty_cell_count": 42,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_005.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "AUTOGENERATED_HEADER",
+            "message": "Les en-têtes de colonnes sont artificiels.",
+            "severity": "WARNING",
+            "table_index": 5,
+            "pages": [
+              6
+            ]
+          },
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 5,
+            "pages": [
+              6
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 6,
+        "pages": [
+          6
+        ],
+        "row_count": 13,
+        "column_count": 3,
+        "non_empty_cell_count": 22,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_006.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 7,
+        "pages": [
+          6
+        ],
+        "row_count": 12,
+        "column_count": 1,
+        "non_empty_cell_count": 12,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_007.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 8,
+        "pages": [
+          7
+        ],
+        "row_count": 37,
+        "column_count": 2,
+        "non_empty_cell_count": 37,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_008.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 8,
+            "pages": [
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 9,
+        "pages": [
+          9
+        ],
+        "row_count": 11,
+        "column_count": 2,
+        "non_empty_cell_count": 12,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_009.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "AUTOGENERATED_HEADER",
+            "message": "Les en-têtes de colonnes sont artificiels.",
+            "severity": "WARNING",
+            "table_index": 9,
+            "pages": [
+              9
+            ]
+          },
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 9,
+            "pages": [
+              9
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 10,
+        "pages": [
+          10
+        ],
+        "row_count": 5,
+        "column_count": 2,
+        "non_empty_cell_count": 5,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_010.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 10,
+            "pages": [
+              10
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 11,
+        "pages": [
+          10
+        ],
+        "row_count": 9,
+        "column_count": 2,
+        "non_empty_cell_count": 9,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_011.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 11,
+            "pages": [
+              10
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 12,
+        "pages": [
+          10
+        ],
+        "row_count": 3,
+        "column_count": 2,
+        "non_empty_cell_count": 4,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_012.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 13,
+        "pages": [
+          10
+        ],
+        "row_count": 3,
+        "column_count": 1,
+        "non_empty_cell_count": 3,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_013.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "AUTOGENERATED_HEADER",
+            "message": "Les en-têtes de colonnes sont artificiels.",
+            "severity": "WARNING",
+            "table_index": 13,
+            "pages": [
+              10
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 14,
+        "pages": [
+          10
+        ],
+        "row_count": 6,
+        "column_count": 1,
+        "non_empty_cell_count": 6,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_014.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "AUTOGENERATED_HEADER",
+            "message": "Les en-têtes de colonnes sont artificiels.",
+            "severity": "WARNING",
+            "table_index": 14,
+            "pages": [
+              10
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 15,
+        "pages": [
+          10
+        ],
+        "row_count": 4,
+        "column_count": 2,
+        "non_empty_cell_count": 4,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_015.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 16,
+        "pages": [
+          10
+        ],
+        "row_count": 2,
+        "column_count": 1,
+        "non_empty_cell_count": 2,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_016.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "AUTOGENERATED_HEADER",
+            "message": "Les en-têtes de colonnes sont artificiels.",
+            "severity": "WARNING",
+            "table_index": 16,
+            "pages": [
+              10
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 17,
+        "pages": [
+          10
+        ],
+        "row_count": 7,
+        "column_count": 2,
+        "non_empty_cell_count": 8,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_017.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 18,
+        "pages": [
+          10
+        ],
+        "row_count": 3,
+        "column_count": 2,
+        "non_empty_cell_count": 3,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_018.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 18,
+            "pages": [
+              10
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 19,
+        "pages": [
+          10
+        ],
+        "row_count": 7,
+        "column_count": 2,
+        "non_empty_cell_count": 9,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_019.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 20,
+        "pages": [
+          10
+        ],
+        "row_count": 9,
+        "column_count": 1,
+        "non_empty_cell_count": 9,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_020.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "AUTOGENERATED_HEADER",
+            "message": "Les en-têtes de colonnes sont artificiels.",
+            "severity": "WARNING",
+            "table_index": 20,
+            "pages": [
+              10
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 21,
+        "pages": [
+          10
+        ],
+        "row_count": 11,
+        "column_count": 2,
+        "non_empty_cell_count": 12,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_021.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 21,
+            "pages": [
+              10
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 22,
+        "pages": [
+          10
+        ],
+        "row_count": 5,
+        "column_count": 2,
+        "non_empty_cell_count": 5,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_022.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 23,
+        "pages": [
+          11
+        ],
+        "row_count": 7,
+        "column_count": 5,
+        "non_empty_cell_count": 20,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_023.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "AUTOGENERATED_HEADER",
+            "message": "Les en-têtes de colonnes sont artificiels.",
+            "severity": "WARNING",
+            "table_index": 23,
+            "pages": [
+              11
+            ]
+          },
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 23,
+            "pages": [
+              11
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 24,
+        "pages": [
+          11
+        ],
+        "row_count": 19,
+        "column_count": 6,
+        "non_empty_cell_count": 58,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_024.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 25,
+        "pages": [
+          11
+        ],
+        "row_count": 3,
+        "column_count": 6,
+        "non_empty_cell_count": 6,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_025.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 26,
+        "pages": [
+          11
+        ],
+        "row_count": 4,
+        "column_count": 2,
+        "non_empty_cell_count": 5,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_026.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 26,
+            "pages": [
+              11
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 27,
+        "pages": [
+          11
+        ],
+        "row_count": 3,
+        "column_count": 2,
+        "non_empty_cell_count": 4,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_027.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 28,
+        "pages": [
+          11
+        ],
+        "row_count": 4,
+        "column_count": 2,
+        "non_empty_cell_count": 5,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_028.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 28,
+            "pages": [
+              11
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 29,
+        "pages": [
+          11
+        ],
+        "row_count": 2,
+        "column_count": 1,
+        "non_empty_cell_count": 2,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_029.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 30,
+        "pages": [
+          11
+        ],
+        "row_count": 3,
+        "column_count": 2,
+        "non_empty_cell_count": 3,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_030.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 31,
+        "pages": [
+          11
+        ],
+        "row_count": 8,
+        "column_count": 2,
+        "non_empty_cell_count": 8,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_031.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 32,
+        "pages": [
+          11
+        ],
+        "row_count": 6,
+        "column_count": 2,
+        "non_empty_cell_count": 6,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_032.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 32,
+            "pages": [
+              11
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 33,
+        "pages": [
+          12
+        ],
+        "row_count": 3,
+        "column_count": 2,
+        "non_empty_cell_count": 3,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_033.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 34,
+        "pages": [
+          12
+        ],
+        "row_count": 9,
+        "column_count": 3,
+        "non_empty_cell_count": 17,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_034.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 35,
+        "pages": [
+          12
+        ],
+        "row_count": 3,
+        "column_count": 6,
+        "non_empty_cell_count": 3,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_035.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 35,
+            "pages": [
+              12
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 36,
+        "pages": [
+          12
+        ],
+        "row_count": 5,
+        "column_count": 4,
+        "non_empty_cell_count": 5,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_036.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 36,
+            "pages": [
+              12
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 37,
+        "pages": [
+          12
+        ],
+        "row_count": 22,
+        "column_count": 2,
+        "non_empty_cell_count": 25,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_037.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 37,
+            "pages": [
+              12
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 38,
+        "pages": [
+          12
+        ],
+        "row_count": 4,
+        "column_count": 1,
+        "non_empty_cell_count": 4,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_038.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "AUTOGENERATED_HEADER",
+            "message": "Les en-têtes de colonnes sont artificiels.",
+            "severity": "WARNING",
+            "table_index": 38,
+            "pages": [
+              12
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 39,
+        "pages": [
+          13
+        ],
+        "row_count": 4,
+        "column_count": 2,
+        "non_empty_cell_count": 5,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_039.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 40,
+        "pages": [
+          13
+        ],
+        "row_count": 5,
+        "column_count": 1,
+        "non_empty_cell_count": 5,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_040.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "AUTOGENERATED_HEADER",
+            "message": "Les en-têtes de colonnes sont artificiels.",
+            "severity": "WARNING",
+            "table_index": 40,
+            "pages": [
+              13
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 41,
+        "pages": [
+          13
+        ],
+        "row_count": 2,
+        "column_count": 6,
+        "non_empty_cell_count": 4,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_041.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 42,
+        "pages": [
+          13
+        ],
+        "row_count": 2,
+        "column_count": 2,
+        "non_empty_cell_count": 2,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_042.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 43,
+        "pages": [
+          13
+        ],
+        "row_count": 5,
+        "column_count": 2,
+        "non_empty_cell_count": 6,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_043.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 44,
+        "pages": [
+          13
+        ],
+        "row_count": 2,
+        "column_count": 2,
+        "non_empty_cell_count": 2,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_044.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 45,
+        "pages": [
+          13
+        ],
+        "row_count": 20,
+        "column_count": 1,
+        "non_empty_cell_count": 20,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_045.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "AUTOGENERATED_HEADER",
+            "message": "Les en-têtes de colonnes sont artificiels.",
+            "severity": "WARNING",
+            "table_index": 45,
+            "pages": [
+              13
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 46,
+        "pages": [
+          13
+        ],
+        "row_count": 7,
+        "column_count": 7,
+        "non_empty_cell_count": 30,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_046.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 47,
+        "pages": [
+          14
+        ],
+        "row_count": 42,
+        "column_count": 3,
+        "non_empty_cell_count": 48,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_047.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 48,
+        "pages": [
+          14
+        ],
+        "row_count": 6,
+        "column_count": 3,
+        "non_empty_cell_count": 6,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_048.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 48,
+            "pages": [
+              14
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 49,
+        "pages": [
+          14
+        ],
+        "row_count": 44,
+        "column_count": 2,
+        "non_empty_cell_count": 46,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_049.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 49,
+            "pages": [
+              14
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 50,
+        "pages": [
+          14
+        ],
+        "row_count": 42,
+        "column_count": 3,
+        "non_empty_cell_count": 49,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_050.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 50,
+            "pages": [
+              14
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 51,
+        "pages": [
+          14
+        ],
+        "row_count": 56,
+        "column_count": 1,
+        "non_empty_cell_count": 56,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_051.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "AUTOGENERATED_HEADER",
+            "message": "Les en-têtes de colonnes sont artificiels.",
+            "severity": "WARNING",
+            "table_index": 51,
+            "pages": [
+              14
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 52,
+        "pages": [
+          15
+        ],
+        "row_count": 7,
+        "column_count": 2,
+        "non_empty_cell_count": 7,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_052.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 52,
+            "pages": [
+              15
+            ]
+          },
+          {
+            "code": "SPLIT_WORD",
+            "message": "Un libellé contient une césure issue de la mise en page.",
+            "severity": "WARNING",
+            "table_index": 52,
+            "pages": [
+              15
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 53,
+        "pages": [
+          15
+        ],
+        "row_count": 26,
+        "column_count": 3,
+        "non_empty_cell_count": 31,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_053.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 54,
+        "pages": [
+          15
+        ],
+        "row_count": 12,
+        "column_count": 2,
+        "non_empty_cell_count": 12,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_054.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 54,
+            "pages": [
+              15
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 55,
+        "pages": [
+          15
+        ],
+        "row_count": 18,
+        "column_count": 3,
+        "non_empty_cell_count": 18,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_055.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 55,
+            "pages": [
+              15
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 56,
+        "pages": [
+          15
+        ],
+        "row_count": 23,
+        "column_count": 3,
+        "non_empty_cell_count": 23,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_056.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 56,
+            "pages": [
+              15
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 57,
+        "pages": [
+          16
+        ],
+        "row_count": 9,
+        "column_count": 4,
+        "non_empty_cell_count": 9,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_057.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 57,
+            "pages": [
+              16
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 58,
+        "pages": [
+          16
+        ],
+        "row_count": 12,
+        "column_count": 4,
+        "non_empty_cell_count": 12,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_058.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 58,
+            "pages": [
+              16
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 59,
+        "pages": [
+          16
+        ],
+        "row_count": 13,
+        "column_count": 3,
+        "non_empty_cell_count": 13,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_059.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 59,
+            "pages": [
+              16
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 60,
+        "pages": [
+          16
+        ],
+        "row_count": 5,
+        "column_count": 4,
+        "non_empty_cell_count": 12,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_060.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 61,
+        "pages": [
+          16
+        ],
+        "row_count": 5,
+        "column_count": 3,
+        "non_empty_cell_count": 6,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_061.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 61,
+            "pages": [
+              16
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 62,
+        "pages": [
+          16
+        ],
+        "row_count": 10,
+        "column_count": 2,
+        "non_empty_cell_count": 10,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_062.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 62,
+            "pages": [
+              16
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 63,
+        "pages": [
+          16
+        ],
+        "row_count": 4,
+        "column_count": 2,
+        "non_empty_cell_count": 5,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_063.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 64,
+        "pages": [
+          17
+        ],
+        "row_count": 3,
+        "column_count": 10,
+        "non_empty_cell_count": 4,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_064.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 64,
+            "pages": [
+              17
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 65,
+        "pages": [
+          17
+        ],
+        "row_count": 19,
+        "column_count": 1,
+        "non_empty_cell_count": 19,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_065.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 66,
+        "pages": [
+          17
+        ],
+        "row_count": 7,
+        "column_count": 1,
+        "non_empty_cell_count": 7,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_066.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "AUTOGENERATED_HEADER",
+            "message": "Les en-têtes de colonnes sont artificiels.",
+            "severity": "WARNING",
+            "table_index": 66,
+            "pages": [
+              17
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 67,
+        "pages": [
+          17
+        ],
+        "row_count": 8,
+        "column_count": 2,
+        "non_empty_cell_count": 8,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_067.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 68,
+        "pages": [
+          17
+        ],
+        "row_count": 8,
+        "column_count": 1,
+        "non_empty_cell_count": 8,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_068.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "AUTOGENERATED_HEADER",
+            "message": "Les en-têtes de colonnes sont artificiels.",
+            "severity": "WARNING",
+            "table_index": 68,
+            "pages": [
+              17
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 69,
+        "pages": [
+          17
+        ],
+        "row_count": 7,
+        "column_count": 1,
+        "non_empty_cell_count": 7,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_069.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "AUTOGENERATED_HEADER",
+            "message": "Les en-têtes de colonnes sont artificiels.",
+            "severity": "WARNING",
+            "table_index": 69,
+            "pages": [
+              17
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 70,
+        "pages": [
+          17
+        ],
+        "row_count": 46,
+        "column_count": 3,
+        "non_empty_cell_count": 120,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_070.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 70,
+            "pages": [
+              17
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 71,
+        "pages": [
+          18
+        ],
+        "row_count": 1,
+        "column_count": 2,
+        "non_empty_cell_count": 2,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_071.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 72,
+        "pages": [
+          18
+        ],
+        "row_count": 1,
+        "column_count": 3,
+        "non_empty_cell_count": 2,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_072.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 73,
+        "pages": [
+          18
+        ],
+        "row_count": 4,
+        "column_count": 3,
+        "non_empty_cell_count": 6,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_073.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 74,
+        "pages": [
+          18
+        ],
+        "row_count": 8,
+        "column_count": 2,
+        "non_empty_cell_count": 10,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_074.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 75,
+        "pages": [
+          18
+        ],
+        "row_count": 12,
+        "column_count": 4,
+        "non_empty_cell_count": 25,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_075.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 75,
+            "pages": [
+              18
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 76,
+        "pages": [
+          19
+        ],
+        "row_count": 6,
+        "column_count": 2,
+        "non_empty_cell_count": 6,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_076.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 76,
+            "pages": [
+              19
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 77,
+        "pages": [
+          19
+        ],
+        "row_count": 2,
+        "column_count": 2,
+        "non_empty_cell_count": 2,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_077.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 77,
+            "pages": [
+              19
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 78,
+        "pages": [
+          27
+        ],
+        "row_count": 39,
+        "column_count": 2,
+        "non_empty_cell_count": 77,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_078.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "AUTOGENERATED_HEADER",
+            "message": "Les en-têtes de colonnes sont artificiels.",
+            "severity": "WARNING",
+            "table_index": 78,
+            "pages": [
+              27
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 79,
+        "pages": [
+          28
+        ],
+        "row_count": 31,
+        "column_count": 2,
+        "non_empty_cell_count": 34,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_079.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 79,
+            "pages": [
+              28
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 80,
+        "pages": [
+          29
+        ],
+        "row_count": 20,
+        "column_count": 3,
+        "non_empty_cell_count": 25,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_080.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "AUTOGENERATED_HEADER",
+            "message": "Les en-têtes de colonnes sont artificiels.",
+            "severity": "WARNING",
+            "table_index": 80,
+            "pages": [
+              29
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 81,
+        "pages": [
+          30
+        ],
+        "row_count": 40,
+        "column_count": 2,
+        "non_empty_cell_count": 44,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_081.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 81,
+            "pages": [
+              30
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 82,
+        "pages": [
+          31
+        ],
+        "row_count": 8,
+        "column_count": 13,
+        "non_empty_cell_count": 76,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_082.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "AUTOGENERATED_HEADER",
+            "message": "Les en-têtes de colonnes sont artificiels.",
+            "severity": "WARNING",
+            "table_index": 82,
+            "pages": [
+              31
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 83,
+        "pages": [
+          32
+        ],
+        "row_count": 12,
+        "column_count": 1,
+        "non_empty_cell_count": 12,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_083.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 84,
+        "pages": [
+          33
+        ],
+        "row_count": 1,
+        "column_count": 1,
+        "non_empty_cell_count": 1,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_084.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "AUTOGENERATED_HEADER",
+            "message": "Les en-têtes de colonnes sont artificiels.",
+            "severity": "WARNING",
+            "table_index": 84,
+            "pages": [
+              33
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 85,
+        "pages": [
+          34
+        ],
+        "row_count": 37,
+        "column_count": 3,
+        "non_empty_cell_count": 37,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_085.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 85,
+            "pages": [
+              34
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 86,
+        "pages": [
+          38
+        ],
+        "row_count": 1,
+        "column_count": 1,
+        "non_empty_cell_count": 1,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_086.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "AUTOGENERATED_HEADER",
+            "message": "Les en-têtes de colonnes sont artificiels.",
+            "severity": "WARNING",
+            "table_index": 86,
+            "pages": [
+              38
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 87,
+        "pages": [
+          39
+        ],
+        "row_count": 6,
+        "column_count": 3,
+        "non_empty_cell_count": 12,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_087.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 88,
+        "pages": [
+          41
+        ],
+        "row_count": 5,
+        "column_count": 2,
+        "non_empty_cell_count": 5,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_088.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 88,
+            "pages": [
+              41
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 89,
+        "pages": [
+          41
+        ],
+        "row_count": 9,
+        "column_count": 2,
+        "non_empty_cell_count": 10,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_089.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 89,
+            "pages": [
+              41
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 90,
+        "pages": [
+          42
+        ],
+        "row_count": 3,
+        "column_count": 2,
+        "non_empty_cell_count": 3,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_090.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 91,
+        "pages": [
+          42
+        ],
+        "row_count": 3,
+        "column_count": 1,
+        "non_empty_cell_count": 3,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_091.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "AUTOGENERATED_HEADER",
+            "message": "Les en-têtes de colonnes sont artificiels.",
+            "severity": "WARNING",
+            "table_index": 91,
+            "pages": [
+              42
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 92,
+        "pages": [
+          42
+        ],
+        "row_count": 6,
+        "column_count": 1,
+        "non_empty_cell_count": 6,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_092.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "AUTOGENERATED_HEADER",
+            "message": "Les en-têtes de colonnes sont artificiels.",
+            "severity": "WARNING",
+            "table_index": 92,
+            "pages": [
+              42
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 93,
+        "pages": [
+          42
+        ],
+        "row_count": 5,
+        "column_count": 1,
+        "non_empty_cell_count": 5,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_093.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "AUTOGENERATED_HEADER",
+            "message": "Les en-têtes de colonnes sont artificiels.",
+            "severity": "WARNING",
+            "table_index": 93,
+            "pages": [
+              42
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 94,
+        "pages": [
+          42
+        ],
+        "row_count": 2,
+        "column_count": 1,
+        "non_empty_cell_count": 2,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_094.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "AUTOGENERATED_HEADER",
+            "message": "Les en-têtes de colonnes sont artificiels.",
+            "severity": "WARNING",
+            "table_index": 94,
+            "pages": [
+              42
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 95,
+        "pages": [
+          43
+        ],
+        "row_count": 7,
+        "column_count": 2,
+        "non_empty_cell_count": 8,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_095.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 96,
+        "pages": [
+          43
+        ],
+        "row_count": 3,
+        "column_count": 2,
+        "non_empty_cell_count": 3,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_096.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 96,
+            "pages": [
+              43
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 97,
+        "pages": [
+          43
+        ],
+        "row_count": 8,
+        "column_count": 1,
+        "non_empty_cell_count": 8,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_097.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "AUTOGENERATED_HEADER",
+            "message": "Les en-têtes de colonnes sont artificiels.",
+            "severity": "WARNING",
+            "table_index": 97,
+            "pages": [
+              43
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 98,
+        "pages": [
+          43
+        ],
+        "row_count": 8,
+        "column_count": 1,
+        "non_empty_cell_count": 8,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_098.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "AUTOGENERATED_HEADER",
+            "message": "Les en-têtes de colonnes sont artificiels.",
+            "severity": "WARNING",
+            "table_index": 98,
+            "pages": [
+              43
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 99,
+        "pages": [
+          44
+        ],
+        "row_count": 11,
+        "column_count": 2,
+        "non_empty_cell_count": 12,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_099.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 99,
+            "pages": [
+              44
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 100,
+        "pages": [
+          44
+        ],
+        "row_count": 7,
+        "column_count": 2,
+        "non_empty_cell_count": 9,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_100.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "AUTOGENERATED_HEADER",
+            "message": "Les en-têtes de colonnes sont artificiels.",
+            "severity": "WARNING",
+            "table_index": 100,
+            "pages": [
+              44
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 101,
+        "pages": [
+          44
+        ],
+        "row_count": 5,
+        "column_count": 4,
+        "non_empty_cell_count": 7,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_101.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 101,
+            "pages": [
+              44
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 102,
+        "pages": [
+          46
+        ],
+        "row_count": 7,
+        "column_count": 11,
+        "non_empty_cell_count": 76,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_102.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "AUTOGENERATED_HEADER",
+            "message": "Les en-têtes de colonnes sont artificiels.",
+            "severity": "WARNING",
+            "table_index": 102,
+            "pages": [
+              46
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 103,
+        "pages": [
+          47
+        ],
+        "row_count": 7,
+        "column_count": 11,
+        "non_empty_cell_count": 76,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_103.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "AUTOGENERATED_HEADER",
+            "message": "Les en-têtes de colonnes sont artificiels.",
+            "severity": "WARNING",
+            "table_index": 103,
+            "pages": [
+              47
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 104,
+        "pages": [
+          48
+        ],
+        "row_count": 4,
+        "column_count": 2,
+        "non_empty_cell_count": 5,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_104.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 104,
+            "pages": [
+              48
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 105,
+        "pages": [
+          48
+        ],
+        "row_count": 13,
+        "column_count": 2,
+        "non_empty_cell_count": 16,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_105.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 105,
+            "pages": [
+              48
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 106,
+        "pages": [
+          48
+        ],
+        "row_count": 4,
+        "column_count": 1,
+        "non_empty_cell_count": 4,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_106.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "AUTOGENERATED_HEADER",
+            "message": "Les en-têtes de colonnes sont artificiels.",
+            "severity": "WARNING",
+            "table_index": 106,
+            "pages": [
+              48
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 107,
+        "pages": [
+          49
+        ],
+        "row_count": 8,
+        "column_count": 2,
+        "non_empty_cell_count": 8,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_107.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 108,
+        "pages": [
+          49
+        ],
+        "row_count": 6,
+        "column_count": 2,
+        "non_empty_cell_count": 6,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_108.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 108,
+            "pages": [
+              49
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 109,
+        "pages": [
+          49
+        ],
+        "row_count": 3,
+        "column_count": 2,
+        "non_empty_cell_count": 3,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_109.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 110,
+        "pages": [
+          50
+        ],
+        "row_count": 6,
+        "column_count": 4,
+        "non_empty_cell_count": 24,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_110.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "AUTOGENERATED_HEADER",
+            "message": "Les en-têtes de colonnes sont artificiels.",
+            "severity": "WARNING",
+            "table_index": 110,
+            "pages": [
+              50
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 111,
+        "pages": [
+          51
+        ],
+        "row_count": 10,
+        "column_count": 4,
+        "non_empty_cell_count": 32,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_111.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "AUTOGENERATED_HEADER",
+            "message": "Les en-têtes de colonnes sont artificiels.",
+            "severity": "WARNING",
+            "table_index": 111,
+            "pages": [
+              51
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 112,
+        "pages": [
+          51
+        ],
+        "row_count": 6,
+        "column_count": 4,
+        "non_empty_cell_count": 22,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_112.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 113,
+        "pages": [
+          52
+        ],
+        "row_count": 7,
+        "column_count": 20,
+        "non_empty_cell_count": 139,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_113.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "AUTOGENERATED_HEADER",
+            "message": "Les en-têtes de colonnes sont artificiels.",
+            "severity": "WARNING",
+            "table_index": 113,
+            "pages": [
+              52
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 114,
+        "pages": [
+          53
+        ],
+        "row_count": 10,
+        "column_count": 3,
+        "non_empty_cell_count": 30,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_114.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "AUTOGENERATED_HEADER",
+            "message": "Les en-têtes de colonnes sont artificiels.",
+            "severity": "WARNING",
+            "table_index": 114,
+            "pages": [
+              53
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 115,
+        "pages": [
+          54
+        ],
+        "row_count": 4,
+        "column_count": 2,
+        "non_empty_cell_count": 4,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_115.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 116,
+        "pages": [
+          54
+        ],
+        "row_count": 5,
+        "column_count": 1,
+        "non_empty_cell_count": 5,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_116.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "AUTOGENERATED_HEADER",
+            "message": "Les en-têtes de colonnes sont artificiels.",
+            "severity": "WARNING",
+            "table_index": 116,
+            "pages": [
+              54
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 117,
+        "pages": [
+          54
+        ],
+        "row_count": 2,
+        "column_count": 4,
+        "non_empty_cell_count": 3,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_117.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 118,
+        "pages": [
+          54
+        ],
+        "row_count": 3,
+        "column_count": 1,
+        "non_empty_cell_count": 3,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_118.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "AUTOGENERATED_HEADER",
+            "message": "Les en-têtes de colonnes sont artificiels.",
+            "severity": "WARNING",
+            "table_index": 118,
+            "pages": [
+              54
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 119,
+        "pages": [
+          55
+        ],
+        "row_count": 5,
+        "column_count": 2,
+        "non_empty_cell_count": 6,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_119.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 120,
+        "pages": [
+          55
+        ],
+        "row_count": 19,
+        "column_count": 2,
+        "non_empty_cell_count": 27,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_120.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 120,
+            "pages": [
+              55
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 121,
+        "pages": [
+          56
+        ],
+        "row_count": 7,
+        "column_count": 7,
+        "non_empty_cell_count": 37,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_121.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 122,
+        "pages": [
+          64
+        ],
+        "row_count": 49,
+        "column_count": 3,
+        "non_empty_cell_count": 49,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_122.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 122,
+            "pages": [
+              64
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 123,
+        "pages": [
+          65
+        ],
+        "row_count": 41,
+        "column_count": 2,
+        "non_empty_cell_count": 42,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_123.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 123,
+            "pages": [
+              65
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 124,
+        "pages": [
+          66
+        ],
+        "row_count": 49,
+        "column_count": 2,
+        "non_empty_cell_count": 53,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_124.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 124,
+            "pages": [
+              66
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 125,
+        "pages": [
+          67
+        ],
+        "row_count": 26,
+        "column_count": 2,
+        "non_empty_cell_count": 26,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_125.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 125,
+            "pages": [
+              67
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 126,
+        "pages": [
+          67
+        ],
+        "row_count": 13,
+        "column_count": 1,
+        "non_empty_cell_count": 13,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_126.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 127,
+        "pages": [
+          68
+        ],
+        "row_count": 28,
+        "column_count": 4,
+        "non_empty_cell_count": 36,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_127.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 127,
+            "pages": [
+              68
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 128,
+        "pages": [
+          68
+        ],
+        "row_count": 7,
+        "column_count": 2,
+        "non_empty_cell_count": 7,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_128.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 128,
+            "pages": [
+              68
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 129,
+        "pages": [
+          72
+        ],
+        "row_count": 12,
+        "column_count": 1,
+        "non_empty_cell_count": 12,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_129.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 130,
+        "pages": [
+          73
+        ],
+        "row_count": 9,
+        "column_count": 19,
+        "non_empty_cell_count": 111,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_130.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 130,
+            "pages": [
+              73
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 131,
+        "pages": [
+          74
+        ],
+        "row_count": 5,
+        "column_count": 10,
+        "non_empty_cell_count": 50,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_131.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "AUTOGENERATED_HEADER",
+            "message": "Les en-têtes de colonnes sont artificiels.",
+            "severity": "WARNING",
+            "table_index": 131,
+            "pages": [
+              74
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 132,
+        "pages": [
+          75
+        ],
+        "row_count": 1,
+        "column_count": 3,
+        "non_empty_cell_count": 2,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_132.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 133,
+        "pages": [
+          76
+        ],
+        "row_count": 9,
+        "column_count": 18,
+        "non_empty_cell_count": 144,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_133.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 134,
+        "pages": [
+          77
+        ],
+        "row_count": 9,
+        "column_count": 9,
+        "non_empty_cell_count": 71,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_134.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "AUTOGENERATED_HEADER",
+            "message": "Les en-têtes de colonnes sont artificiels.",
+            "severity": "WARNING",
+            "table_index": 134,
+            "pages": [
+              77
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 135,
+        "pages": [
+          78
+        ],
+        "row_count": 9,
+        "column_count": 14,
+        "non_empty_cell_count": 125,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_135.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "AUTOGENERATED_HEADER",
+            "message": "Les en-têtes de colonnes sont artificiels.",
+            "severity": "WARNING",
+            "table_index": 135,
+            "pages": [
+              78
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 136,
+        "pages": [
+          79
+        ],
+        "row_count": 9,
+        "column_count": 14,
+        "non_empty_cell_count": 117,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_136.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "AUTOGENERATED_HEADER",
+            "message": "Les en-têtes de colonnes sont artificiels.",
+            "severity": "WARNING",
+            "table_index": 136,
+            "pages": [
+              79
+            ]
+          },
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 136,
+            "pages": [
+              79
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 137,
+        "pages": [
+          80
+        ],
+        "row_count": 2,
+        "column_count": 4,
+        "non_empty_cell_count": 4,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_137.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 138,
+        "pages": [
+          81
+        ],
+        "row_count": 10,
+        "column_count": 2,
+        "non_empty_cell_count": 10,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_138.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 139,
+        "pages": [
+          81
+        ],
+        "row_count": 2,
+        "column_count": 3,
+        "non_empty_cell_count": 2,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_139.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 140,
+        "pages": [
+          82
+        ],
+        "row_count": 10,
+        "column_count": 3,
+        "non_empty_cell_count": 27,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_140.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 141,
+        "pages": [
+          83
+        ],
+        "row_count": 47,
+        "column_count": 2,
+        "non_empty_cell_count": 47,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_141.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 141,
+            "pages": [
+              83
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 142,
+        "pages": [
+          84
+        ],
+        "row_count": 33,
+        "column_count": 2,
+        "non_empty_cell_count": 33,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_142.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 142,
+            "pages": [
+              84
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 143,
+        "pages": [
+          85
+        ],
+        "row_count": 43,
+        "column_count": 3,
+        "non_empty_cell_count": 45,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_143.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 143,
+            "pages": [
+              85
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 144,
+        "pages": [
+          86
+        ],
+        "row_count": 6,
+        "column_count": 2,
+        "non_empty_cell_count": 6,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_144.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 145,
+        "pages": [
+          87
+        ],
+        "row_count": 5,
+        "column_count": 1,
+        "non_empty_cell_count": 5,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_145.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 146,
+        "pages": [
+          89
+        ],
+        "row_count": 11,
+        "column_count": 3,
+        "non_empty_cell_count": 30,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_146.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "AUTOGENERATED_HEADER",
+            "message": "Les en-têtes de colonnes sont artificiels.",
+            "severity": "WARNING",
+            "table_index": 146,
+            "pages": [
+              89
+            ]
+          },
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 146,
+            "pages": [
+              89
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 147,
+        "pages": [
+          90
+        ],
+        "row_count": 7,
+        "column_count": 2,
+        "non_empty_cell_count": 13,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_147.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 148,
+        "pages": [
+          91
+        ],
+        "row_count": 14,
+        "column_count": 2,
+        "non_empty_cell_count": 14,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_148.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 149,
+        "pages": [
+          92
+        ],
+        "row_count": 5,
+        "column_count": 3,
+        "non_empty_cell_count": 8,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_149.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 150,
+        "pages": [
+          93
+        ],
+        "row_count": 3,
+        "column_count": 1,
+        "non_empty_cell_count": 3,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_150.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "AUTOGENERATED_HEADER",
+            "message": "Les en-têtes de colonnes sont artificiels.",
+            "severity": "WARNING",
+            "table_index": 150,
+            "pages": [
+              93
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 151,
+        "pages": [
+          108
+        ],
+        "row_count": 13,
+        "column_count": 2,
+        "non_empty_cell_count": 26,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_151.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "AUTOGENERATED_HEADER",
+            "message": "Les en-têtes de colonnes sont artificiels.",
+            "severity": "WARNING",
+            "table_index": 151,
+            "pages": [
+              108
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 152,
+        "pages": [
+          108
+        ],
+        "row_count": 19,
+        "column_count": 2,
+        "non_empty_cell_count": 37,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_152.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "AUTOGENERATED_HEADER",
+            "message": "Les en-têtes de colonnes sont artificiels.",
+            "severity": "WARNING",
+            "table_index": 152,
+            "pages": [
+              108
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 153,
+        "pages": [
+          111
+        ],
+        "row_count": 11,
+        "column_count": 7,
+        "non_empty_cell_count": 29,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_153.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 153,
+            "pages": [
+              111
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 154,
+        "pages": [
+          114
+        ],
+        "row_count": 8,
+        "column_count": 1,
+        "non_empty_cell_count": 8,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_154.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "AUTOGENERATED_HEADER",
+            "message": "Les en-têtes de colonnes sont artificiels.",
+            "severity": "WARNING",
+            "table_index": 154,
+            "pages": [
+              114
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 155,
+        "pages": [
+          114
+        ],
+        "row_count": 7,
+        "column_count": 1,
+        "non_empty_cell_count": 7,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_155.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "AUTOGENERATED_HEADER",
+            "message": "Les en-têtes de colonnes sont artificiels.",
+            "severity": "WARNING",
+            "table_index": 155,
+            "pages": [
+              114
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 156,
+        "pages": [
+          114
+        ],
+        "row_count": 24,
+        "column_count": 2,
+        "non_empty_cell_count": 24,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_156.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 156,
+            "pages": [
+              114
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 157,
+        "pages": [
+          114
+        ],
+        "row_count": 0,
+        "column_count": 5,
+        "non_empty_cell_count": 0,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_157.csv",
+        "status": "INVALID",
+        "issues": [
+          {
+            "code": "EMPTY_TABLE",
+            "message": "Le tableau ne contient aucune cellule exploitable.",
+            "severity": "ERROR",
+            "table_index": 157,
+            "pages": [
+              114
+            ]
+          },
+          {
+            "code": "IMAGE_TABLE_REQUIRES_OCR",
+            "message": "Le tableau vide doit être revu avec OCR.",
+            "severity": "WARNING",
+            "table_index": 157,
+            "pages": [
+              114
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 158,
+        "pages": [
+          115
+        ],
+        "row_count": 12,
+        "column_count": 1,
+        "non_empty_cell_count": 12,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_158.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "AUTOGENERATED_HEADER",
+            "message": "Les en-têtes de colonnes sont artificiels.",
+            "severity": "WARNING",
+            "table_index": 158,
+            "pages": [
+              115
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 159,
+        "pages": [
+          116
+        ],
+        "row_count": 10,
+        "column_count": 3,
+        "non_empty_cell_count": 23,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_159.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 159,
+            "pages": [
+              116
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 160,
+        "pages": [
+          122
+        ],
+        "row_count": 25,
+        "column_count": 1,
+        "non_empty_cell_count": 25,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_160.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "AUTOGENERATED_HEADER",
+            "message": "Les en-têtes de colonnes sont artificiels.",
+            "severity": "WARNING",
+            "table_index": 160,
+            "pages": [
+              122
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 161,
+        "pages": [
+          126
+        ],
+        "row_count": 9,
+        "column_count": 1,
+        "non_empty_cell_count": 9,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_161.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "AUTOGENERATED_HEADER",
+            "message": "Les en-têtes de colonnes sont artificiels.",
+            "severity": "WARNING",
+            "table_index": 161,
+            "pages": [
+              126
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 162,
+        "pages": [
+          131
+        ],
+        "row_count": 0,
+        "column_count": 0,
+        "non_empty_cell_count": 0,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_162.csv",
+        "status": "INVALID",
+        "issues": [
+          {
+            "code": "EMPTY_TABLE",
+            "message": "Le tableau ne contient aucune cellule exploitable.",
+            "severity": "ERROR",
+            "table_index": 162,
+            "pages": [
+              131
+            ]
+          },
+          {
+            "code": "IMAGE_TABLE_REQUIRES_OCR",
+            "message": "Le tableau vide doit être revu avec OCR.",
+            "severity": "WARNING",
+            "table_index": 162,
+            "pages": [
+              131
+            ]
+          },
+          {
+            "code": "CSV_UNREADABLE",
+            "message": "CSV illisible (table_162.csv) : No columns to parse from file",
+            "severity": "ERROR",
+            "table_index": 162,
+            "pages": [
+              131
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 163,
+        "pages": [
+          140
+        ],
+        "row_count": 8,
+        "column_count": 3,
+        "non_empty_cell_count": 24,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_163.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 164,
+        "pages": [
+          140
+        ],
+        "row_count": 6,
+        "column_count": 3,
+        "non_empty_cell_count": 18,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_164.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 165,
+        "pages": [
+          141
+        ],
+        "row_count": 3,
+        "column_count": 3,
+        "non_empty_cell_count": 9,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_165.csv",
+        "status": "VALID",
+        "issues": []
+      },
+      {
+        "table_index": 166,
+        "pages": [
+          153
+        ],
+        "row_count": 6,
+        "column_count": 2,
+        "non_empty_cell_count": 8,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_166.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "AUTOGENERATED_HEADER",
+            "message": "Les en-têtes de colonnes sont artificiels.",
+            "severity": "WARNING",
+            "table_index": 166,
+            "pages": [
+              153
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 167,
+        "pages": [
+          153
+        ],
+        "row_count": 2,
+        "column_count": 1,
+        "non_empty_cell_count": 2,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_167.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "AUTOGENERATED_HEADER",
+            "message": "Les en-têtes de colonnes sont artificiels.",
+            "severity": "WARNING",
+            "table_index": 167,
+            "pages": [
+              153
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 168,
+        "pages": [
+          173
+        ],
+        "row_count": 46,
+        "column_count": 1,
+        "non_empty_cell_count": 46,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_168.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "AUTOGENERATED_HEADER",
+            "message": "Les en-têtes de colonnes sont artificiels.",
+            "severity": "WARNING",
+            "table_index": 168,
+            "pages": [
+              173
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 169,
+        "pages": [
+          173
+        ],
+        "row_count": 4,
+        "column_count": 1,
+        "non_empty_cell_count": 4,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_169.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "AUTOGENERATED_HEADER",
+            "message": "Les en-têtes de colonnes sont artificiels.",
+            "severity": "WARNING",
+            "table_index": 169,
+            "pages": [
+              173
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 170,
+        "pages": [
+          176
+        ],
+        "row_count": 10,
+        "column_count": 5,
+        "non_empty_cell_count": 37,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_170.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 170,
+            "pages": [
+              176
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 171,
+        "pages": [
+          184
+        ],
+        "row_count": 4,
+        "column_count": 1,
+        "non_empty_cell_count": 4,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_171.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "AUTOGENERATED_HEADER",
+            "message": "Les en-têtes de colonnes sont artificiels.",
+            "severity": "WARNING",
+            "table_index": 171,
+            "pages": [
+              184
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 172,
+        "pages": [
+          185
+        ],
+        "row_count": 3,
+        "column_count": 2,
+        "non_empty_cell_count": 5,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_172.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "AUTOGENERATED_HEADER",
+            "message": "Les en-têtes de colonnes sont artificiels.",
+            "severity": "WARNING",
+            "table_index": 172,
+            "pages": [
+              185
+            ]
+          },
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 172,
+            "pages": [
+              185
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 173,
+        "pages": [
+          185
+        ],
+        "row_count": 3,
+        "column_count": 2,
+        "non_empty_cell_count": 5,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_173.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "AUTOGENERATED_HEADER",
+            "message": "Les en-têtes de colonnes sont artificiels.",
+            "severity": "WARNING",
+            "table_index": 173,
+            "pages": [
+              185
+            ]
+          },
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 173,
+            "pages": [
+              185
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 174,
+        "pages": [
+          186
+        ],
+        "row_count": 3,
+        "column_count": 3,
+        "non_empty_cell_count": 8,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_174.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "AUTOGENERATED_HEADER",
+            "message": "Les en-têtes de colonnes sont artificiels.",
+            "severity": "WARNING",
+            "table_index": 174,
+            "pages": [
+              186
+            ]
+          },
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 174,
+            "pages": [
+              186
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 175,
+        "pages": [
+          186
+        ],
+        "row_count": 3,
+        "column_count": 3,
+        "non_empty_cell_count": 8,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_175.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "AUTOGENERATED_HEADER",
+            "message": "Les en-têtes de colonnes sont artificiels.",
+            "severity": "WARNING",
+            "table_index": 175,
+            "pages": [
+              186
+            ]
+          },
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 175,
+            "pages": [
+              186
+            ]
+          }
+        ]
+      },
+      {
+        "table_index": 176,
+        "pages": [
+          187
+        ],
+        "row_count": 3,
+        "column_count": 2,
+        "non_empty_cell_count": 5,
+        "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Aradei_Capital_RFA_2025_272fdb3d9d6e/tables/table_176.csv",
+        "status": "INCOMPLETE",
+        "issues": [
+          {
+            "code": "AUTOGENERATED_HEADER",
+            "message": "Les en-têtes de colonnes sont artificiels.",
+            "severity": "WARNING",
+            "table_index": 176,
+            "pages": [
+              187
+            ]
+          },
+          {
+            "code": "MISSING_ROW_LABEL",
+            "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+            "severity": "WARNING",
+            "table_index": 176,
+            "pages": [
+              187
+            ]
+          }
+        ]
+      }
+    ],
+    "artifact_sha256": {
+      "document.md": "34e6ee6e645e255aaf444f7d26e983fb9969ce440abe8f451427d76b7d080df3",
+      "document.json": "60730e58641ee6db393191db83b5eade95a5f28f435830266c843e1697cf1b19",
+      "tables/table_001.csv": "668d0098b4a2ec7ddd7a11565d9d112bdc84f109b6d0a37e8db0126e75b4a712",
+      "tables/table_002.csv": "0fd203f76899e682f00583920a41d129470accb898c48e5228a7e3f2fa8c058d",
+      "tables/table_003.csv": "1b7e3fc19b6cf1c18b76658a672a140b6dd8a069b36c09e034e4335a57fc650e",
+      "tables/table_004.csv": "bffd024d7a1879790ebe5b12eb240b01ab538c691a5d555065146e3e05e6fc49",
+      "tables/table_005.csv": "d259b612a2f1078012f9d52d45e0f5d2a60e71ffb6c72e613bc1036abaa7f4ac",
+      "tables/table_006.csv": "0fa6efb762881c1214e3676f44b046d2158e9a9787ed95f84aeb500f22f5ac11",
+      "tables/table_007.csv": "0b70c99093431dd22c9f0d1fb88c00a18c99211db960669b58838e3ef0abb946",
+      "tables/table_008.csv": "ea82711da1e2b45bc2fa166e6bab3c0ccbee8cd7784befc14771c3b2d9edde2a",
+      "tables/table_009.csv": "abc11903be73c5b558eb8454bcbe73f48b190b9171de815963680fdefbd58452",
+      "tables/table_010.csv": "efb43712d0773380723bd95e0824e1e0135088820527a4de4a9668db68762c75",
+      "tables/table_011.csv": "36f6ed53ad3a156eb33c25d7d1b8ebd78354b9361971605cc495c07939b96bb0",
+      "tables/table_012.csv": "fc3dba31c006fcd98b87f16660fc6a2caf785f02524ed12e5036009799602c20",
+      "tables/table_013.csv": "be94b1af7ae601117f13521f37e8dbf8fa53120a8db216bd158cdcd9bf3a93f5",
+      "tables/table_014.csv": "85825d600d9267f6c84c6ab33e92dac3225b27414efd1793365d6fc0286a29df",
+      "tables/table_015.csv": "e21d5c6061e5afb79652caface8e7e78ae2a609cd2aa6df73847fed770219b6d",
+      "tables/table_016.csv": "6771319193e91722d175efe688e20051212c1719fd598de185a67a5923d13d82",
+      "tables/table_017.csv": "7ad37f6d68e58dccc2909c82e5f076ac3ded48bf36add8b7051f4e3873aa008d",
+      "tables/table_018.csv": "5431dd26ce41458a3138ec58f76d9dc3eb86c4720d86013f149a16b7bf439984",
+      "tables/table_019.csv": "52ea21cdecea411ca649d98795f35723244ce54a3718657fe703f610d66a16d1",
+      "tables/table_020.csv": "35bd9a291ede4dce2cbbc22154f600b3d0657d93179e8842463fd6b202beb7b8",
+      "tables/table_021.csv": "fc59d80915499aaff926cc015bca43383aae7604d761f82f8a0d11a4f3b40758",
+      "tables/table_022.csv": "3a75cf315fe44621254ed26ae3535d2f69ff8a6d66578553b8f10fc54e246ffb",
+      "tables/table_023.csv": "74ab89dfd6ae2b389f8ef058e7ff87fc39f7703085f439294a9cfd2fc778a934",
+      "tables/table_024.csv": "b989b6e6c1656289d8289aebb39c730cac33b75d3b0658a49ea741fb917172a6",
+      "tables/table_025.csv": "46c255aec1348bf4982ed01aa958bc6dbd2f8f770fa384703bf365aba513c699",
+      "tables/table_026.csv": "64781dfc9c9bb6e31538592444a47b094007827c04563fe923db25cf6fe6fc41",
+      "tables/table_027.csv": "440aa396e8ad379c28905dac4966fd950a5277d1fedaeafb66826ca425e8d5b7",
+      "tables/table_028.csv": "ef4f6034f1c27fc9ac5121ea68ee92a293ec3d246025b734d87c23fe43946e5e",
+      "tables/table_029.csv": "f1f73c12dc21092118d73871c00348adb9a9e34f0a25ce4042116e4c2aa19c74",
+      "tables/table_030.csv": "06133b075bbbae7adac35a3e5df2f7b8b2161431213af1bf3c783e518b2e9264",
+      "tables/table_031.csv": "af678d1ffcda9539faee4a4a34f1037d0796a45dbd3bd8b32275569946125564",
+      "tables/table_032.csv": "c7332e5e440d320fbcc3587ff38becb1f8d4c56876742001967706fd9c7320d2",
+      "tables/table_033.csv": "72e4c3ed21634b373423083f48081e158d3a4ac75ef6601fc8ff689392031703",
+      "tables/table_034.csv": "9262ec81dc46389f397769de6474cbcc145e66a0f2212d783b65bd818687e3f2",
+      "tables/table_035.csv": "da8f966c3409537e04944b1e209b486668238332a4c1fe2e438a7ee57904b007",
+      "tables/table_036.csv": "976eb49b7c55333075644ab27626e78b8d39316022ce5a190c5d65755938d0cd",
+      "tables/table_037.csv": "fbe052dcebb6cb3afc77ceaba81273a07cee1074e4c665a7210f16a10d3be2b3",
+      "tables/table_038.csv": "71cdddfe2542210a587ca97a703916461031954b2a6a9a6e66ccbafacc9af7b7",
+      "tables/table_039.csv": "4bf79a98b0698363d1e7725482a7300b88f5816252421c19fbfbfdbe0e1a9111",
+      "tables/table_040.csv": "6a49ad4b00d68ba6f37c97730ec8b407abbe94659bd78b1e69f7571e767931c9",
+      "tables/table_041.csv": "bef24f7aa6bf03a4150c0c2f5aa564188a5999f5f356a911200843f06c80faa9",
+      "tables/table_042.csv": "f7cf43cfe062781ee2dce1ce3bae8cba5252b45f3274b2c13240f030294e6b0b",
+      "tables/table_043.csv": "e509e3ed5b5c4647783ec65eec678962e9c27874fd3acd54b698e268c27b8dd8",
+      "tables/table_044.csv": "3d623517d061dd0bacb3624fafd4e079ea5a59808816e660db522a624617a9ac",
+      "tables/table_045.csv": "97db122d71728ca2317b8a7778488da948ff24d1761a1c993d8352ceb84c6451",
+      "tables/table_046.csv": "fcbbe0d6cc64db1624601e1d9c1ac1dd74fc16cc73c180ffbd3b8add4d18e0f3",
+      "tables/table_047.csv": "067627e2d5fa11e45bc91aa61dc1057c1806ed830ed37626888af2181da4a21f",
+      "tables/table_048.csv": "d09974dc0b463e3017ecef71a9439322d7c028361533d1abfb21f664e0fd0882",
+      "tables/table_049.csv": "4e1c42ec7cb12d7c0bc2e10b9e4bf6b60953b3958c4d941d00369b901ef6469f",
+      "tables/table_050.csv": "e7d84f428e158e1ea9521a652f8893ff1d7b8939cdef0d0ba77db6f767815e48",
+      "tables/table_051.csv": "4a8ac23f94150f9d6a073163af87b7210b0b47e5f2d0f1f40b9c0ce6288fab6c",
+      "tables/table_052.csv": "1d2d1e03a3904e19b5ec192fdc1415e486063350ac70c1eb8ec615db2a1126d1",
+      "tables/table_053.csv": "667bd1fa6017ac2486f6ee0e787dab570e43d9d914d19981b4f02ab837bf0724",
+      "tables/table_054.csv": "9263d510eb95ae622f70143d544306e48e8fe31674bea6af05de5e1fd1234c13",
+      "tables/table_055.csv": "8477a9da09efd628105a9d49c3d403cf4364f989c056353f6ea81e5e1b3d045c",
+      "tables/table_056.csv": "5ee59f6c906a8da8eda81d451a1675fd0f8982ac6ad90f00675e4f364936c035",
+      "tables/table_057.csv": "278a7320057ed5558e921180523879fc0f17abdabe42e3c459f45e31a34f5547",
+      "tables/table_058.csv": "b424b2ca3b3a998e8d2e15dd508fc6f9fd5fbd6a4b94e00c2e40928335b0a155",
+      "tables/table_059.csv": "ddff9c6a7fdbe2fd7c1a070c41801e492d82325f375ebfb4118022b0312d2a2c",
+      "tables/table_060.csv": "3d4aeb45ade2fd24aac95ffa7ad63642d975b8ccccaad8b2557f002d163cbfe4",
+      "tables/table_061.csv": "a31287cd5d4533adae8fdf1db81cbb681834974dd0c5c8ca2a390a81397b0d59",
+      "tables/table_062.csv": "aae904a7d754ea4622d5afe748f2c9ee97e664ca1566ba7d066e1d726da430ed",
+      "tables/table_063.csv": "bff8c0e8a02f27788f9bcc83210189f8c5c1e2f19a39cd95c67372d90262d727",
+      "tables/table_064.csv": "a97aed8c3278f9853875af6c4d9e13dcb20bc479a010b10a0ca25d4ad5340130",
+      "tables/table_065.csv": "82d22f4aa74f45fb33b11041aacda101c9582711700631a99fef547559667a03",
+      "tables/table_066.csv": "a9319d1a167779b017be3af974435feb9b80ab939ef733568b955cf70d1b9ce1",
+      "tables/table_067.csv": "8ce29e1f450a565b8ee81fbe531f516eb48eaa1edf3a7fe6543189f80a525a57",
+      "tables/table_068.csv": "d4e395caca002bfc7624811ae7257fafd0c3b5171124110d2b8799b149a86f8c",
+      "tables/table_069.csv": "bb2c7c78afb39385513b22b4165d72fa08cf38204e909d8c13907dd73fb9fd02",
+      "tables/table_070.csv": "a53a496b787171755b44dee6ceaf8490ab090ddfe208839a204807db3c5fbfec",
+      "tables/table_071.csv": "ff1921298c2ebc46cfb856ff2a7e48a13e4193ed9e5cf40b72dc491cf43a839a",
+      "tables/table_072.csv": "6858790d6f0cdb76d3f0e469ce703afeb441a6a5676d96e2b35d966dd5c63f11",
+      "tables/table_073.csv": "c71119a3305690a6f3ef0fb4c59850f7b4cf0a5b993fffdee501ed26cd19527a",
+      "tables/table_074.csv": "63a3c01caf19bbd47cd4a00e96f711ec9890b476437d58d68d6682a52fd0bc4d",
+      "tables/table_075.csv": "24ac9179f03759d3f88701755ffb8d214c32dd8927b174f4c9e3ec02414a40ba",
+      "tables/table_076.csv": "b8bb98b503b3dbd75ef2abfaca05870429ef6f3274170a7c28642156721cb707",
+      "tables/table_077.csv": "45980b7e6786ba83848dab26a8eb140bac5aeeda35cc8b422905ca67fe44c061",
+      "tables/table_078.csv": "3cf45f8fa639d460e2366c5503b6dccc866c1038e2b49d07e0b905aeafe35f0d",
+      "tables/table_079.csv": "5f8a6a790e5882581eaa7e69cb046d2cd4a771f64d702c77dffe4df7f27de770",
+      "tables/table_080.csv": "20f4e8725f206efe5d22de6c1cc3af5f3726f4431e707932abd78137eda9d6dd",
+      "tables/table_081.csv": "d74a2a39b944bbd384864fd635ae6ef7978546b4660ab81f2e9e6ece9e63a244",
+      "tables/table_082.csv": "b86d7ae350da56166e984975a10498fe30805f7e471f15c9b9a8ee0efee5319b",
+      "tables/table_083.csv": "5006e18d86c5fdc22ae5e8d4ce1a6ebadd277e6140924edabca8cd7ef2d82085",
+      "tables/table_084.csv": "98582d20a1cecaed0bd57535aecb4176f32f4a5730703f54f26c90d61e633674",
+      "tables/table_085.csv": "4934ca723933fabaaff93cf18579921b365f6cb22541f2c376c7f800e1f451e2",
+      "tables/table_086.csv": "5decd4dde2453dd089a7f541124a9079b8714c4909fbaf944a6d43f4a6d5e489",
+      "tables/table_087.csv": "b6bc6bf9a6586e42fe9e1a9599f2c807df5ab705ed6d7cec29b3094eaf6b8879",
+      "tables/table_088.csv": "4fefdac2b93acb345c5f8243767ed2fc864acd838e065bab206dd4eff2744c6b",
+      "tables/table_089.csv": "b0a5f95df2de231f34c0d60a48cae73041093a5142436f9633e192b6e2fc67a1",
+      "tables/table_090.csv": "4d442c3800a0b3b3f19d3e2e480c6d11f6d89f4aea67271f98ab88b8dccec1d9",
+      "tables/table_091.csv": "be94b1af7ae601117f13521f37e8dbf8fa53120a8db216bd158cdcd9bf3a93f5",
+      "tables/table_092.csv": "88ecc1329577bb7d5bd0477fd1c281edbd6c241357fa3721c5d7adc83233cb95",
+      "tables/table_093.csv": "3f9e3b9831302739f0973a7de36ba734635dfede017231b41b3d83ab6bdd9696",
+      "tables/table_094.csv": "6771319193e91722d175efe688e20051212c1719fd598de185a67a5923d13d82",
+      "tables/table_095.csv": "e65817b92b8b7aab77eb3024a72cc0c057161d0817811080c84b93314fa24794",
+      "tables/table_096.csv": "5431dd26ce41458a3138ec58f76d9dc3eb86c4720d86013f149a16b7bf439984",
+      "tables/table_097.csv": "c62f5d0a8f9d3c7cd3ec8a453b68f1bae75617f57988aaf0f2acd9bb7f35f79e",
+      "tables/table_098.csv": "e8179864efc9e33d805908008e564f56a2f66df4d7ecf334884ec88b0ca917b9",
+      "tables/table_099.csv": "fc59d80915499aaff926cc015bca43383aae7604d761f82f8a0d11a4f3b40758",
+      "tables/table_100.csv": "d149d32ef542a307cc122ea2a94d9e46e816fad4384b0e29c9a640168a15619b",
+      "tables/table_101.csv": "b3a9ff82882c53512a3033f1e40cfe61a6487fff1d7aa50b6b584ec19f0bbf49",
+      "tables/table_102.csv": "2122ef0a58cd083bed79a97fbc6c348beb484fbc6f45b520664888e3948a5495",
+      "tables/table_103.csv": "7f136e6b9fddc8e8999e375e73f314f1d9932332bf7f6b8dd48db3684f9a15eb",
+      "tables/table_104.csv": "64781dfc9c9bb6e31538592444a47b094007827c04563fe923db25cf6fe6fc41",
+      "tables/table_105.csv": "70fef90434874577dd7e87abaa9e4e265c10ebcecb1696c4cb7e1e76e8a780b7",
+      "tables/table_106.csv": "c53c9a083dc821c57753db33cae23d2a0af1f2c96c197c0dadd20fb56a698d16",
+      "tables/table_107.csv": "af678d1ffcda9539faee4a4a34f1037d0796a45dbd3bd8b32275569946125564",
+      "tables/table_108.csv": "c7332e5e440d320fbcc3587ff38becb1f8d4c56876742001967706fd9c7320d2",
+      "tables/table_109.csv": "72e4c3ed21634b373423083f48081e158d3a4ac75ef6601fc8ff689392031703",
+      "tables/table_110.csv": "e827f865c2b63b36bce4b2c069d7dc02a88adb5e3baba4c44e7cee5d117db6cb",
+      "tables/table_111.csv": "e0a0ef6f3c4d052895c58c1941757066e8213264efa07c3b6baaad54b91669a4",
+      "tables/table_112.csv": "591156bbf2d909ebec01dd8c7287ac40aa0caf92ac83df36823bdda1ffab5437",
+      "tables/table_113.csv": "8a194aabd31c632792d899e4dd677ee9b13dc7151b3351b6a33bb7f7368beb35",
+      "tables/table_114.csv": "3d82024e710a552488dee3164975a9235340efbe74e3e33e630ca5e33ea251bb",
+      "tables/table_115.csv": "4fe148a5bb90c25ee1404b607f3d494294cd55c81120ca9c393cbd628620924e",
+      "tables/table_116.csv": "a783924797f3dabf552be48964cf46a914a809e187e71658550998ed8f7da271",
+      "tables/table_117.csv": "1b62e0ddce68aaaf60e35f23d3fcdf28c3f368896e45af081f689323fc745ca3",
+      "tables/table_118.csv": "cbed596fc20f3bb9ea191700aa8cf98694ece9afc7d2920c6a70458c31fcebe5",
+      "tables/table_119.csv": "fd41e7670d1f177fe7baa464a4059e94db520804796b31800fe400a485e499b9",
+      "tables/table_120.csv": "5ff96f42ef37bb6723bd6b12403ffa11865a8199b05adf2ce598cae327b610a7",
+      "tables/table_121.csv": "ca86cb1d6e61921aaa5a154d8a0c20f655a4c057e3436548f96ee9fe083c6da5",
+      "tables/table_122.csv": "8ab9ee4ff6eb4dedb2f939d1d4e1ee55776912f3d277a941ecbe2ce2ac5d4aac",
+      "tables/table_123.csv": "a25da44c0793e3324ffaa339a714fb52ec61670cdfddcdd13e8ef78652932039",
+      "tables/table_124.csv": "44efae228402fae96e6329da0d2b12228b105d0ff7ac6c253090780792dc8753",
+      "tables/table_125.csv": "cbf2e7f6c9cd4f4ee62d016971c1fc00633243f312cd27de65887a40dbe03be0",
+      "tables/table_126.csv": "af721c2b4fee3f55e85b4a52858a091a7c53c7366757287a2137494399040bac",
+      "tables/table_127.csv": "22aa1ed16fda5ff6b0c0b703c073c996b7436f8a1278d94e5ae53fc178cd161a",
+      "tables/table_128.csv": "70b4f81d25bd5361e74e6ff01224dd057cdd3971a285c94cb02386932dd1f157",
+      "tables/table_129.csv": "f026777e6d025e2eb244d376767387690a77d43bd9fa6f0f0dd6fdeb9a84b8eb",
+      "tables/table_130.csv": "c993546379b08a5ccad154ebb653169df7bdf3ad3a9f08817182ec303cb236bc",
+      "tables/table_131.csv": "f5987601d48b8396f9eaa5a00113f29d46af37923828388386d58725ea60cee2",
+      "tables/table_132.csv": "dd3ea4c3bbeab1a46d90495144f4aeaf556a56ff819cfa671c850939e329a4ab",
+      "tables/table_133.csv": "ff858aaddccea140767748918e177834b012adad5fb661822ef10f47108efc56",
+      "tables/table_134.csv": "48201a10584f21295b74e0326bb98ba9c60de906fdac8b3730d1fb496416f128",
+      "tables/table_135.csv": "f4de802b2cf2d1c0b40cc13fa3c8e7bbfd7817079a5e69ef8feb1edf909aa21f",
+      "tables/table_136.csv": "745f669164e6f39d0d78940d154f7527ec40e81a193a2e836f553788c0a6f7c1",
+      "tables/table_137.csv": "11abee1bc296cdb0de3bd88a651dd108ec8b6e0f217c81f9bda23c3379e2a64c",
+      "tables/table_138.csv": "8c7cb45c34ecdd7b9b0929c86626faf9a3a3dba7c6835df21ce5350aacefca7c",
+      "tables/table_139.csv": "90ac23ccf7bf2e728b8188ae328d0c8cd34e0bcea14f3b29da8611a9c9c77a9c",
+      "tables/table_140.csv": "c55cb37aa414d54435dc61b23ef656e679ee61a6050afcf295fcfc02a6360c39",
+      "tables/table_141.csv": "746694aa2a4dfc543a5acf680fe2392d3960da67477300e50b2053bf258d3ecb",
+      "tables/table_142.csv": "02c86adf0e199f0906775fdbc9f7bd6016e880e064b5df39a6a950e815fabc78",
+      "tables/table_143.csv": "cb068bbfd5716a05c8ac2bc1ccbf223c3d55c6d4e611150bdef2a9afd29d6a80",
+      "tables/table_144.csv": "3ada2c92accff21ba55eb3b00ed4cb10238e60826d81687fa54c0a6f980f7c03",
+      "tables/table_145.csv": "77bd209ebcbe42cf6c4816f5656ffd7b667d560773d13e2229271d8fa67225a5",
+      "tables/table_146.csv": "c09fc401a5f82e68e365405f88b5f32c06b012248bd92c98d04d2bd8d1b45ab3",
+      "tables/table_147.csv": "8c5213e3f86838b9b13f3621a7f94eb79fbc6f95457a698b2c36a039d9044ff3",
+      "tables/table_148.csv": "53cdc719a8f99992ff008c95e5601ce2eefc66b866555a400d0a2a882eb72085",
+      "tables/table_149.csv": "b47337592373c7e2fef1bbd2abfcec8075ea605dbaeae049417132f6590269c3",
+      "tables/table_150.csv": "78ebedf22207342c9f41b008ff2e6bed973f54474bc0f6e28b7a93f1148d078f",
+      "tables/table_151.csv": "355738f16559f5ca07f5466cf328f80dc2ee3b5b7cb1d717d2978d36fc56c561",
+      "tables/table_152.csv": "7e9f9e858e93250a39ef6eaf3d9bdc92e514404df531388bb6df2cb73ee858ba",
+      "tables/table_153.csv": "a857e1fa84306f1ec18bc2e89e8e59c1b1cfc9e66ee55616d470fa59468c99c3",
+      "tables/table_154.csv": "a12495547cfcdc0b30f6f28008920656e3f14510a46e412fccdae24b774cf3eb",
+      "tables/table_155.csv": "3d3d994cbe73aa72d5ec72ad7dc7550cfe6d4a9f4e5ef843c781aa364655dc63",
+      "tables/table_156.csv": "6c87ce186381cf0777798ccb2fa685c062527c2c2d3d09dfeb5c62812c9dd96b",
+      "tables/table_157.csv": "f873ceeef169cffb270478623a036ec93fe8dd59a9c79849d7a61a532b3ffa5b",
+      "tables/table_158.csv": "0aeef2ca97662510665c5c1624a6d263f8ecfc40d4f7a67d5bcf93997720d41f",
+      "tables/table_159.csv": "4c73a50026da1d824ebe6541f1cc383783b299b425c8d400989a37035677fa4c",
+      "tables/table_160.csv": "e5dd31633a8473df7be0978a0713f5a2a3d4b6c2efb1936e9b584f2871f70460",
+      "tables/table_161.csv": "787429a7492edbe523879e5aa502afdc02c7bb42642d760b510193819bd7ee28",
+      "tables/table_162.csv": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "tables/table_163.csv": "8a71b99226420dcade589d236bf296ed1c7a85e75865ad441e90de3086c55410",
+      "tables/table_164.csv": "9d4865af001aab850ec65f6151eed068cfb0fcd27accdab637e22749ba4cfc67",
+      "tables/table_165.csv": "44643b94ed5efc1aa51ae45d50d75f655ba3d40242bddb7c7992f35d9c4c2204",
+      "tables/table_166.csv": "168d718ead57aafd10c2c42f4ce69c4298ca27ed4883a18053d24853ff5f98fc",
+      "tables/table_167.csv": "55fb031883c59dee7c957ba843e1f22dc8ac9f207fe038bca8e121f95c4d514b",
+      "tables/table_168.csv": "2d1c3272a0b395ba9ed9149332817d4202ccd56270b2934ee196b33e46dc091c",
+      "tables/table_169.csv": "26eef88c681525bf2d9ea65df9ba9bba334cf59d4d8b4c491b074e1aa3ce2a44",
+      "tables/table_170.csv": "26f4a6d8dbbc9f0a9840812fe5518750c930756dd16b03e8d595a11f4465cc12",
+      "tables/table_171.csv": "809dea2b91bd4cb9f32981f466a8dc08b16589d7ff6cfd9a54c9ec72943f6680",
+      "tables/table_172.csv": "ee92c3f79dc0ec7d499a925f4f0c4c92ccdcb6a38a57b9df1952e5dc251fc7f2",
+      "tables/table_173.csv": "55544b159fbf62d2c86f72437ef9fb7d6e6a5dc3a95e957a92a3411ae881b7c4",
+      "tables/table_174.csv": "ae86a06da9f29173727491f158ae7c43ca2ab05d12b7fce7f783b335612f8d13",
+      "tables/table_175.csv": "154afbb7604ab176441920b3476d04d3c17b190a76e32e99665454b0ec31edb4",
+      "tables/table_176.csv": "74da5eb7e66d3df4fb851eaaf0eeedaeb26d0e08c0e3141e60938aaa51462f67"
+    },
+    "ocr_required_pages": [
+      114,
+      131
+    ],
+    "ocr_required_table_indexes": [
+      157,
+      162
+    ]
+  },
+  "error": null
+}

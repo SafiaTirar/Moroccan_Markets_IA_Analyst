@@ -1,0 +1,2080 @@
+{
+  "schema_version": "2.2",
+  "source_pdf": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/raw/ammc/pdfs/annual/totalenergies_marketing_maroc/2025/TEMM_-_Rapport_Financier_Annuel_2025_VDEF.pdf",
+  "source_sha256": "0bdafba1f31f78e1e5da952d9a5026ae19b343e256b6c32fee0ac39b18d27ded",
+  "docling_status": "PARTIAL",
+  "ocr_status": "PARSED",
+  "integration_status": "PARTIAL",
+  "integration_fingerprint": "9075f37a846fdbdf7bb5fe2c75b120bf91d54765a89f9ba394f7503dca491337",
+  "cache_used": false,
+  "active_table_count": 83,
+  "tables": [
+    {
+      "table_id": "DOCLING_001",
+      "source": "DOCLING",
+      "page": [
+        3
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_-_Rapport_Financier_Annuel_2025_VDEF_0bdafba1f31f/tables/table_001.csv",
+      "coordinates_path": null,
+      "rows": 48,
+      "columns": 6,
+      "quality_status": "INCOMPLETE",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "183602b89a085eaf367a6b94242ef8b40dcddb01d3c8ab8897c0af97de827d78"
+    },
+    {
+      "table_id": "DOCLING_002",
+      "source": "DOCLING",
+      "page": [
+        4
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_-_Rapport_Financier_Annuel_2025_VDEF_0bdafba1f31f/tables/table_002.csv",
+      "coordinates_path": null,
+      "rows": 46,
+      "columns": 3,
+      "quality_status": "INCOMPLETE",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "566bf6a699eec995cfdd119fcb76f026dbba0723cc44839fc1f57e1e80a3c230"
+    },
+    {
+      "table_id": "DOCLING_003",
+      "source": "DOCLING",
+      "page": [
+        5
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_-_Rapport_Financier_Annuel_2025_VDEF_0bdafba1f31f/tables/table_003.csv",
+      "coordinates_path": null,
+      "rows": 49,
+      "columns": 6,
+      "quality_status": "INCOMPLETE",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "47f1180db252a65c01b3fc9b5390671b09cffa0b57d98cda7f3901d040bbd461"
+    },
+    {
+      "table_id": "DOCLING_004",
+      "source": "DOCLING",
+      "page": [
+        6
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_-_Rapport_Financier_Annuel_2025_VDEF_0bdafba1f31f/tables/table_004.csv",
+      "coordinates_path": null,
+      "rows": 40,
+      "columns": 5,
+      "quality_status": "INCOMPLETE",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "e5021bccf7aad5155a5e8fc6a36783f496b8e9ad29b121376f441a3f161cb844"
+    },
+    {
+      "table_id": "DOCLING_005",
+      "source": "DOCLING",
+      "page": [
+        7
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_-_Rapport_Financier_Annuel_2025_VDEF_0bdafba1f31f/tables/table_005.csv",
+      "coordinates_path": null,
+      "rows": 27,
+      "columns": 5,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "2969179a50c4a203042a7382b6755ae02fa577253da6bc65f7209c926fb9fac4"
+    },
+    {
+      "table_id": "DOCLING_012",
+      "source": "DOCLING",
+      "page": [
+        14
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_-_Rapport_Financier_Annuel_2025_VDEF_0bdafba1f31f/tables/table_012.csv",
+      "coordinates_path": null,
+      "rows": 4,
+      "columns": 6,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "ad2ac22efe1083ed2c82e9f3cf38e07793ddc17636b14fe94ec90432d9b33bc2"
+    },
+    {
+      "table_id": "DOCLING_013",
+      "source": "DOCLING",
+      "page": [
+        14
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_-_Rapport_Financier_Annuel_2025_VDEF_0bdafba1f31f/tables/table_013.csv",
+      "coordinates_path": null,
+      "rows": 4,
+      "columns": 3,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "0c5d3bc672340501652413c492ca105b9e4754f3ec97f69514aa9c38d665615b"
+    },
+    {
+      "table_id": "DOCLING_014",
+      "source": "DOCLING",
+      "page": [
+        14
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_-_Rapport_Financier_Annuel_2025_VDEF_0bdafba1f31f/tables/table_014.csv",
+      "coordinates_path": null,
+      "rows": 3,
+      "columns": 3,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "a07f110dd480b54be9b9c596cd77fb2c80a57e0ac6dbd643753493d473bdc5d3"
+    },
+    {
+      "table_id": "DOCLING_015",
+      "source": "DOCLING",
+      "page": [
+        15
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_-_Rapport_Financier_Annuel_2025_VDEF_0bdafba1f31f/tables/table_015.csv",
+      "coordinates_path": null,
+      "rows": 2,
+      "columns": 3,
+      "quality_status": "INCOMPLETE",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "c81b4d710d29039cd8bbc1ac2bf64fe4cac43d7c25f0837a7bb462138852d7ff"
+    },
+    {
+      "table_id": "DOCLING_019",
+      "source": "DOCLING",
+      "page": [
+        20
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_-_Rapport_Financier_Annuel_2025_VDEF_0bdafba1f31f/tables/table_019.csv",
+      "coordinates_path": null,
+      "rows": 38,
+      "columns": 4,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "4db928a94fbb9c78e9e4d0b34a3757f15133d7b4ac2f6d60ca3fc16ff123aed1"
+    },
+    {
+      "table_id": "DOCLING_020",
+      "source": "DOCLING",
+      "page": [
+        21
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_-_Rapport_Financier_Annuel_2025_VDEF_0bdafba1f31f/tables/table_020.csv",
+      "coordinates_path": null,
+      "rows": 23,
+      "columns": 4,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "c12339353976561bfa2c7b6d83208a4c8988833314bec481a7d6d98d443fcba2"
+    },
+    {
+      "table_id": "DOCLING_021",
+      "source": "DOCLING",
+      "page": [
+        22
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_-_Rapport_Financier_Annuel_2025_VDEF_0bdafba1f31f/tables/table_021.csv",
+      "coordinates_path": null,
+      "rows": 6,
+      "columns": 3,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "6e247a44c993b59c4bf97601d9c9a3886cf97cd20d0edb6bc7fd23c77ea55a40"
+    },
+    {
+      "table_id": "DOCLING_022",
+      "source": "DOCLING",
+      "page": [
+        23
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_-_Rapport_Financier_Annuel_2025_VDEF_0bdafba1f31f/tables/table_022.csv",
+      "coordinates_path": null,
+      "rows": 26,
+      "columns": 3,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "df5bd25659835b43a7447356c8288dd87be5d02410cfd67653a1e798a0456b4b"
+    },
+    {
+      "table_id": "DOCLING_023",
+      "source": "DOCLING",
+      "page": [
+        24
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_-_Rapport_Financier_Annuel_2025_VDEF_0bdafba1f31f/tables/table_023.csv",
+      "coordinates_path": null,
+      "rows": 17,
+      "columns": 9,
+      "quality_status": "INCOMPLETE",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "dab0879ad4908cc1f06c71a55b546d7662de077007b7063e592d3009976fe16c"
+    },
+    {
+      "table_id": "DOCLING_024",
+      "source": "DOCLING",
+      "page": [
+        25
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_-_Rapport_Financier_Annuel_2025_VDEF_0bdafba1f31f/tables/table_024.csv",
+      "coordinates_path": null,
+      "rows": 8,
+      "columns": 6,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "39c41da2ce436192ce3f7ba0b4d17f9514f6cf4c605579f0a4158d0751827be9"
+    },
+    {
+      "table_id": "DOCLING_025",
+      "source": "DOCLING",
+      "page": [
+        25
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_-_Rapport_Financier_Annuel_2025_VDEF_0bdafba1f31f/tables/table_025.csv",
+      "coordinates_path": null,
+      "rows": 4,
+      "columns": 2,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "db14b63924d0fc03f9b06f9a367fd047894295248f3ba0c517adbc3cd56a1370"
+    },
+    {
+      "table_id": "DOCLING_029",
+      "source": "DOCLING",
+      "page": [
+        30
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_-_Rapport_Financier_Annuel_2025_VDEF_0bdafba1f31f/tables/table_029.csv",
+      "coordinates_path": null,
+      "rows": 29,
+      "columns": 1,
+      "quality_status": "INCOMPLETE",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "3dce09d92825562116fa70f8c90bf7ee54da59ad7d3b71e3ddc887c45745f5dc"
+    },
+    {
+      "table_id": "DOCLING_030",
+      "source": "DOCLING",
+      "page": [
+        35
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_-_Rapport_Financier_Annuel_2025_VDEF_0bdafba1f31f/tables/table_030.csv",
+      "coordinates_path": null,
+      "rows": 2,
+      "columns": 3,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "955d2ed3db5221daa4ef95c3e3390de10158c78477f426883d089b87e1ea079c"
+    },
+    {
+      "table_id": "DOCLING_031",
+      "source": "DOCLING",
+      "page": [
+        36
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_-_Rapport_Financier_Annuel_2025_VDEF_0bdafba1f31f/tables/table_031.csv",
+      "coordinates_path": null,
+      "rows": 5,
+      "columns": 3,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "8c11a643b6b0df67e203bddd6b34cb43b222c07e13af5ffcb14fbd387302c891"
+    },
+    {
+      "table_id": "DOCLING_032",
+      "source": "DOCLING",
+      "page": [
+        45
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_-_Rapport_Financier_Annuel_2025_VDEF_0bdafba1f31f/tables/table_032.csv",
+      "coordinates_path": null,
+      "rows": 8,
+      "columns": 6,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "0c0b76807309e849e7859588623d2a427e04e46018b869773938ea6d8bb2f16a"
+    },
+    {
+      "table_id": "DOCLING_033",
+      "source": "DOCLING",
+      "page": [
+        46
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_-_Rapport_Financier_Annuel_2025_VDEF_0bdafba1f31f/tables/table_033.csv",
+      "coordinates_path": null,
+      "rows": 8,
+      "columns": 6,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "8a05a67047a172d17ded26b9ad9ec99f1b0790b2903590eadb516ac5b9d183cb"
+    },
+    {
+      "table_id": "DOCLING_034",
+      "source": "DOCLING",
+      "page": [
+        47
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_-_Rapport_Financier_Annuel_2025_VDEF_0bdafba1f31f/tables/table_034.csv",
+      "coordinates_path": null,
+      "rows": 3,
+      "columns": 4,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "e8594ec2a60aafd6310bf5b5c3f855ab36e8e1b4c3ec2299727bc495592c78ab"
+    },
+    {
+      "table_id": "DOCLING_035",
+      "source": "DOCLING",
+      "page": [
+        47
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_-_Rapport_Financier_Annuel_2025_VDEF_0bdafba1f31f/tables/table_035.csv",
+      "coordinates_path": null,
+      "rows": 13,
+      "columns": 3,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "04472f279c0ca6643918099730d1c1bdcaf543f1713674708ac670344c47d3e2"
+    },
+    {
+      "table_id": "DOCLING_036",
+      "source": "DOCLING",
+      "page": [
+        48
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_-_Rapport_Financier_Annuel_2025_VDEF_0bdafba1f31f/tables/table_036.csv",
+      "coordinates_path": null,
+      "rows": 4,
+      "columns": 3,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "dedb16dbdb121075d513f5c462bbcd757334edeb107de576366902c11410706e"
+    },
+    {
+      "table_id": "DOCLING_037",
+      "source": "DOCLING",
+      "page": [
+        48
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_-_Rapport_Financier_Annuel_2025_VDEF_0bdafba1f31f/tables/table_037.csv",
+      "coordinates_path": null,
+      "rows": 4,
+      "columns": 7,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "978f1bf5ee4ab4d02ca7ba10b158d0e1547b9bea796fa6414bb69420fc6220fe"
+    },
+    {
+      "table_id": "DOCLING_038",
+      "source": "DOCLING",
+      "page": [
+        49
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_-_Rapport_Financier_Annuel_2025_VDEF_0bdafba1f31f/tables/table_038.csv",
+      "coordinates_path": null,
+      "rows": 11,
+      "columns": 3,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "2d193ff57a0f305adf10e74bba01d799fd6c3c80d395e43550506d202cbf7c61"
+    },
+    {
+      "table_id": "DOCLING_039",
+      "source": "DOCLING",
+      "page": [
+        50
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_-_Rapport_Financier_Annuel_2025_VDEF_0bdafba1f31f/tables/table_039.csv",
+      "coordinates_path": null,
+      "rows": 3,
+      "columns": 3,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "9e6a1978e41b71f788f0c284bf46282f4d6380e4c4a32871844f9068d0a658ae"
+    },
+    {
+      "table_id": "DOCLING_040",
+      "source": "DOCLING",
+      "page": [
+        51
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_-_Rapport_Financier_Annuel_2025_VDEF_0bdafba1f31f/tables/table_040.csv",
+      "coordinates_path": null,
+      "rows": 14,
+      "columns": 3,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "2c38ecbad0944fdf13c619d5227e9ce4645c5ff78a4ae6abbb20e97624e0b8ad"
+    },
+    {
+      "table_id": "DOCLING_041",
+      "source": "DOCLING",
+      "page": [
+        52
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_-_Rapport_Financier_Annuel_2025_VDEF_0bdafba1f31f/tables/table_041.csv",
+      "coordinates_path": null,
+      "rows": 3,
+      "columns": 3,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "b507cbb41ff3d3cb0149bd065109548daa987c5846c9b4f3f171c75ae611fa23"
+    },
+    {
+      "table_id": "DOCLING_042",
+      "source": "DOCLING",
+      "page": [
+        52
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_-_Rapport_Financier_Annuel_2025_VDEF_0bdafba1f31f/tables/table_042.csv",
+      "coordinates_path": null,
+      "rows": 7,
+      "columns": 3,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "835975e1c98feb95a43b858fa218f12eda37d33a246cd3239251192ccfe56d4a"
+    },
+    {
+      "table_id": "DOCLING_043",
+      "source": "DOCLING",
+      "page": [
+        53
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_-_Rapport_Financier_Annuel_2025_VDEF_0bdafba1f31f/tables/table_043.csv",
+      "coordinates_path": null,
+      "rows": 3,
+      "columns": 2,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "414b8dafee43fd802ce045c72bfc27815adc447def6161ba737e9f56ed9d5e26"
+    },
+    {
+      "table_id": "DOCLING_044",
+      "source": "DOCLING",
+      "page": [
+        53
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_-_Rapport_Financier_Annuel_2025_VDEF_0bdafba1f31f/tables/table_044.csv",
+      "coordinates_path": null,
+      "rows": 3,
+      "columns": 2,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "0f92d3e2a4dde518ca5015ee784bec5dbbb6a40a75eb342dccb7c08301f46275"
+    },
+    {
+      "table_id": "DOCLING_045",
+      "source": "DOCLING",
+      "page": [
+        53
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_-_Rapport_Financier_Annuel_2025_VDEF_0bdafba1f31f/tables/table_045.csv",
+      "coordinates_path": null,
+      "rows": 9,
+      "columns": 3,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "b76ea201e5a7af7f08e4e2f811155afb138786475795e9349dcdd185f05cc636"
+    },
+    {
+      "table_id": "DOCLING_046",
+      "source": "DOCLING",
+      "page": [
+        54
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_-_Rapport_Financier_Annuel_2025_VDEF_0bdafba1f31f/tables/table_046.csv",
+      "coordinates_path": null,
+      "rows": 4,
+      "columns": 9,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "2f7ab4e4dcd4f16088dce9577bab5c919024faf95b122cdfb4883806455621c3"
+    },
+    {
+      "table_id": "DOCLING_047",
+      "source": "DOCLING",
+      "page": [
+        54
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_-_Rapport_Financier_Annuel_2025_VDEF_0bdafba1f31f/tables/table_047.csv",
+      "coordinates_path": null,
+      "rows": 10,
+      "columns": 9,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "5c150d3a2fb46897fd4636322a65fe9b7a6e91486f223fc54aff8072a7f72b4b"
+    },
+    {
+      "table_id": "DOCLING_048",
+      "source": "DOCLING",
+      "page": [
+        55
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_-_Rapport_Financier_Annuel_2025_VDEF_0bdafba1f31f/tables/table_048.csv",
+      "coordinates_path": null,
+      "rows": 4,
+      "columns": 3,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "1340f211a9cfb298b7e189d7fac977d70680a00d349c782b19af9583441b5081"
+    },
+    {
+      "table_id": "DOCLING_049",
+      "source": "DOCLING",
+      "page": [
+        55
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_-_Rapport_Financier_Annuel_2025_VDEF_0bdafba1f31f/tables/table_049.csv",
+      "coordinates_path": null,
+      "rows": 3,
+      "columns": 3,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "ece1b1c3ebca0972b7649763b35764260244ef0a73f5c2a25aafe774ada42f58"
+    },
+    {
+      "table_id": "DOCLING_050",
+      "source": "DOCLING",
+      "page": [
+        56
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_-_Rapport_Financier_Annuel_2025_VDEF_0bdafba1f31f/tables/table_050.csv",
+      "coordinates_path": null,
+      "rows": 21,
+      "columns": 4,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "9ad62ce58da60153a7699f3fae0e3a4378df8c895d22cf9baf7281920f41df33"
+    },
+    {
+      "table_id": "DOCLING_051",
+      "source": "DOCLING",
+      "page": [
+        57
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_-_Rapport_Financier_Annuel_2025_VDEF_0bdafba1f31f/tables/table_051.csv",
+      "coordinates_path": null,
+      "rows": 25,
+      "columns": 7,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "1cf02c9c7ea256d08b2609123d95469928985ab7bd15b3439a149c0e4cfd0dc0"
+    },
+    {
+      "table_id": "DOCLING_052",
+      "source": "DOCLING",
+      "page": [
+        58
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_-_Rapport_Financier_Annuel_2025_VDEF_0bdafba1f31f/tables/table_052.csv",
+      "coordinates_path": null,
+      "rows": 7,
+      "columns": 3,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "e13ef35ce3808cceef1dc07fdaf6e96489bd649eb53af67a1453649cde112b17"
+    },
+    {
+      "table_id": "DOCLING_053",
+      "source": "DOCLING",
+      "page": [
+        59
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_-_Rapport_Financier_Annuel_2025_VDEF_0bdafba1f31f/tables/table_053.csv",
+      "coordinates_path": null,
+      "rows": 10,
+      "columns": 7,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "d639dda903bb15e3adf11b2dff030cf20244f367f0f4cb6768bd4e4e7ca9a9c0"
+    },
+    {
+      "table_id": "DOCLING_054",
+      "source": "DOCLING",
+      "page": [
+        59
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_-_Rapport_Financier_Annuel_2025_VDEF_0bdafba1f31f/tables/table_054.csv",
+      "coordinates_path": null,
+      "rows": 10,
+      "columns": 7,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "d639dda903bb15e3adf11b2dff030cf20244f367f0f4cb6768bd4e4e7ca9a9c0"
+    },
+    {
+      "table_id": "DOCLING_055",
+      "source": "DOCLING",
+      "page": [
+        60
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_-_Rapport_Financier_Annuel_2025_VDEF_0bdafba1f31f/tables/table_055.csv",
+      "coordinates_path": null,
+      "rows": 8,
+      "columns": 3,
+      "quality_status": "INCOMPLETE",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "21d83e7f73e67c6ea4270798c9775233d82a68f3c639199ce4adca622130de3d"
+    },
+    {
+      "table_id": "DOCLING_056",
+      "source": "DOCLING",
+      "page": [
+        61
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_-_Rapport_Financier_Annuel_2025_VDEF_0bdafba1f31f/tables/table_056.csv",
+      "coordinates_path": null,
+      "rows": 10,
+      "columns": 3,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "f1baea6e3071eca238d1c2d26bf987cc09129c144f3d3ca66f0f1e8ce116c20d"
+    },
+    {
+      "table_id": "DOCLING_057",
+      "source": "DOCLING",
+      "page": [
+        62
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_-_Rapport_Financier_Annuel_2025_VDEF_0bdafba1f31f/tables/table_057.csv",
+      "coordinates_path": null,
+      "rows": 3,
+      "columns": 3,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "37c1ae0b3ee45ba8ee4661635d9d13c8b095491e2fdaf6a4316481f53dc50048"
+    },
+    {
+      "table_id": "DOCLING_058",
+      "source": "DOCLING",
+      "page": [
+        63
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_-_Rapport_Financier_Annuel_2025_VDEF_0bdafba1f31f/tables/table_058.csv",
+      "coordinates_path": null,
+      "rows": 7,
+      "columns": 3,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "f934ea6da65af9d342044ad7f0cb01f4cd46f0679c5dbecd319d0571e1750475"
+    },
+    {
+      "table_id": "DOCLING_059",
+      "source": "DOCLING",
+      "page": [
+        63
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_-_Rapport_Financier_Annuel_2025_VDEF_0bdafba1f31f/tables/table_059.csv",
+      "coordinates_path": null,
+      "rows": 3,
+      "columns": 7,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "a1512673bb48cd9502a265c2b74619e43d04805e52fa9e9bf486e5fa55129135"
+    },
+    {
+      "table_id": "DOCLING_060",
+      "source": "DOCLING",
+      "page": [
+        65
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_-_Rapport_Financier_Annuel_2025_VDEF_0bdafba1f31f/tables/table_060.csv",
+      "coordinates_path": null,
+      "rows": 6,
+      "columns": 3,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "0cc36d58a4f814a459e89c3bc19e3b2c3243b311b9397472aff9f4db74d16106"
+    },
+    {
+      "table_id": "DOCLING_061",
+      "source": "DOCLING",
+      "page": [
+        65
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_-_Rapport_Financier_Annuel_2025_VDEF_0bdafba1f31f/tables/table_061.csv",
+      "coordinates_path": null,
+      "rows": 8,
+      "columns": 3,
+      "quality_status": "INCOMPLETE",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "894a0648873ef320bed97a21d5bdee047c81d5271ab3dbe396937c158765c905"
+    },
+    {
+      "table_id": "DOCLING_062",
+      "source": "DOCLING",
+      "page": [
+        66
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_-_Rapport_Financier_Annuel_2025_VDEF_0bdafba1f31f/tables/table_062.csv",
+      "coordinates_path": null,
+      "rows": 8,
+      "columns": 3,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "abac0f52333e6bc2eb6df75dfa10bd81f0961f2e0339b03c3c326a0a0d848b14"
+    },
+    {
+      "table_id": "DOCLING_063",
+      "source": "DOCLING",
+      "page": [
+        66
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_-_Rapport_Financier_Annuel_2025_VDEF_0bdafba1f31f/tables/table_063.csv",
+      "coordinates_path": null,
+      "rows": 3,
+      "columns": 5,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "105ae41a48c306438eab2081a6f917ef74c80bbd60f367511d7b400fe96805f7"
+    },
+    {
+      "table_id": "DOCLING_064",
+      "source": "DOCLING",
+      "page": [
+        67
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_-_Rapport_Financier_Annuel_2025_VDEF_0bdafba1f31f/tables/table_064.csv",
+      "coordinates_path": null,
+      "rows": 4,
+      "columns": 3,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "5b12cdffc232394a91ab1243c1c0c2f33015f2611601a8fea8ff09495cbb2263"
+    },
+    {
+      "table_id": "DOCLING_065",
+      "source": "DOCLING",
+      "page": [
+        69
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_-_Rapport_Financier_Annuel_2025_VDEF_0bdafba1f31f/tables/table_065.csv",
+      "coordinates_path": null,
+      "rows": 9,
+      "columns": 3,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "432f04bbae1fe1336c50cc6ce565bf6c14a9ff0bfbd46ddd636027e6149aa05d"
+    },
+    {
+      "table_id": "DOCLING_066",
+      "source": "DOCLING",
+      "page": [
+        70
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_-_Rapport_Financier_Annuel_2025_VDEF_0bdafba1f31f/tables/table_066.csv",
+      "coordinates_path": null,
+      "rows": 6,
+      "columns": 3,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "8bb6ee8300832a10e484c650288f14e8ad515212f4eee7c61c56e700f8c8a179"
+    },
+    {
+      "table_id": "DOCLING_067",
+      "source": "DOCLING",
+      "page": [
+        70
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_-_Rapport_Financier_Annuel_2025_VDEF_0bdafba1f31f/tables/table_067.csv",
+      "coordinates_path": null,
+      "rows": 7,
+      "columns": 3,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "56c2955d38f09d6e3cc774169fdeb11d8613b37d9849390d47ee4d539edf4513"
+    },
+    {
+      "table_id": "DOCLING_068",
+      "source": "DOCLING",
+      "page": [
+        70
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_-_Rapport_Financier_Annuel_2025_VDEF_0bdafba1f31f/tables/table_068.csv",
+      "coordinates_path": null,
+      "rows": 5,
+      "columns": 3,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "9d332fd10fdbc99a8d8a7d93e1ef99495cfa6ae7cde1b6e67b50227b45b731b8"
+    },
+    {
+      "table_id": "DOCLING_069",
+      "source": "DOCLING",
+      "page": [
+        72
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_-_Rapport_Financier_Annuel_2025_VDEF_0bdafba1f31f/tables/table_069.csv",
+      "coordinates_path": null,
+      "rows": 2,
+      "columns": 3,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "78da0094205e673b9490df13608e7c8a82cc4a7ac1e09cb89a4a258ed078fdc9"
+    },
+    {
+      "table_id": "DOCLING_070",
+      "source": "DOCLING",
+      "page": [
+        72
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_-_Rapport_Financier_Annuel_2025_VDEF_0bdafba1f31f/tables/table_070.csv",
+      "coordinates_path": null,
+      "rows": 18,
+      "columns": 5,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "d2b7b69781c0601630bbddbc475a9b68b0fa84a84ab39a2add9c94d16ac05461"
+    },
+    {
+      "table_id": "DOCLING_071",
+      "source": "DOCLING",
+      "page": [
+        73
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_-_Rapport_Financier_Annuel_2025_VDEF_0bdafba1f31f/tables/table_071.csv",
+      "coordinates_path": null,
+      "rows": 9,
+      "columns": 4,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "dbe027a6d9d1b53cc5bf477cc13170f1fb9712eaa020b8e2d4946af443d05437"
+    },
+    {
+      "table_id": "DOCLING_072",
+      "source": "DOCLING",
+      "page": [
+        73
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_-_Rapport_Financier_Annuel_2025_VDEF_0bdafba1f31f/tables/table_072.csv",
+      "coordinates_path": null,
+      "rows": 8,
+      "columns": 4,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "4d47f0268b9a829ae768a8189d5c535a4829859831f40ba33c4013bce67bb178"
+    },
+    {
+      "table_id": "DOCLING_097",
+      "source": "DOCLING",
+      "page": [
+        113
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_-_Rapport_Financier_Annuel_2025_VDEF_0bdafba1f31f/tables/table_097.csv",
+      "coordinates_path": null,
+      "rows": 17,
+      "columns": 6,
+      "quality_status": "INCOMPLETE",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "4aa8b5265e81f83e7628db6f6b72c5ad8156eb106858a1fd1c1e324b5a79f606"
+    },
+    {
+      "table_id": "DOCLING_098",
+      "source": "DOCLING",
+      "page": [
+        115
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_-_Rapport_Financier_Annuel_2025_VDEF_0bdafba1f31f/tables/table_098.csv",
+      "coordinates_path": null,
+      "rows": 5,
+      "columns": 1,
+      "quality_status": "INCOMPLETE",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "c8e2547c1c859d3c0e36cf79afbc086b86428e0a1173ff11d354686bb92f0103"
+    },
+    {
+      "table_id": "DOCLING_099",
+      "source": "DOCLING",
+      "page": [
+        125
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_-_Rapport_Financier_Annuel_2025_VDEF_0bdafba1f31f/tables/table_099.csv",
+      "coordinates_path": null,
+      "rows": 14,
+      "columns": 5,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "353a7e1475452ef425ee4573aba58e2c70117ed7feb3de9a4c4dd024daf75317"
+    },
+    {
+      "table_id": "DOCLING_100",
+      "source": "DOCLING",
+      "page": [
+        128
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_-_Rapport_Financier_Annuel_2025_VDEF_0bdafba1f31f/tables/table_100.csv",
+      "coordinates_path": null,
+      "rows": 10,
+      "columns": 4,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "4b9215762725e308e60fc42d0cd84ca7d924bc8efb5f0b8999edbc3f6ef25d32"
+    },
+    {
+      "table_id": "DOCLING_101",
+      "source": "DOCLING",
+      "page": [
+        130
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_-_Rapport_Financier_Annuel_2025_VDEF_0bdafba1f31f/tables/table_101.csv",
+      "coordinates_path": null,
+      "rows": 4,
+      "columns": 3,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "de6de6dea74463bf8fb6eac507b3eb26eeac92c5d57062052bdbfad0be26e680"
+    },
+    {
+      "table_id": "DOCLING_102",
+      "source": "DOCLING",
+      "page": [
+        130
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_-_Rapport_Financier_Annuel_2025_VDEF_0bdafba1f31f/tables/table_102.csv",
+      "coordinates_path": null,
+      "rows": 1,
+      "columns": 3,
+      "quality_status": "VALID",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "60e465597da1c5ea1414610167f7e15cc7fe59587ed0f9a85051b8147a996f93"
+    },
+    {
+      "table_id": "DOCLING_103",
+      "source": "DOCLING",
+      "page": [
+        131
+      ],
+      "bbox": null,
+      "table_type": "UNKNOWN",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/TEMM_-_Rapport_Financier_Annuel_2025_VDEF_0bdafba1f31f/tables/table_103.csv",
+      "coordinates_path": null,
+      "rows": 6,
+      "columns": 3,
+      "quality_status": "INCOMPLETE",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "b799d15b253e2f4254a6267a923ea5aa00ef64e5957cfea330b24dbf3e518cf1"
+    },
+    {
+      "table_id": "OCR_001",
+      "source": "OCR",
+      "page": [
+        85
+      ],
+      "bbox": [
+        72.0,
+        38.8800048828125,
+        529.9200439453125,
+        766.0800170898438
+      ],
+      "table_type": null,
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/ocr_generic/TEMM_-_Rapport_Financier_Annuel_2025_VDEF_0bdafba1f31f/e0ca308dea6d/tables/ocr_table_001.csv",
+      "coordinates_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/ocr_generic/TEMM_-_Rapport_Financier_Annuel_2025_VDEF_0bdafba1f31f/e0ca308dea6d/coordinates/ocr_table_001.json",
+      "coordinates_sha256": "e2cab9a4b063aab52976141305ec377d69e60f525273f6aa94d3435acc74672e",
+      "rows": 9,
+      "columns": 2,
+      "quality_status": "TECHNICALLY_RECOVERED",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "d3098b7ce8bc5910fca46233ef4949980ee689b1f1b3485d6b43c87a2a6a4c23"
+    },
+    {
+      "table_id": "OCR_002",
+      "source": "OCR",
+      "page": [
+        96
+      ],
+      "bbox": [
+        0.0,
+        0.0,
+        595.3200073242188,
+        841.9199829101562
+      ],
+      "table_type": null,
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/ocr_generic/TEMM_-_Rapport_Financier_Annuel_2025_VDEF_0bdafba1f31f/e0ca308dea6d/tables/ocr_table_002.csv",
+      "coordinates_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/ocr_generic/TEMM_-_Rapport_Financier_Annuel_2025_VDEF_0bdafba1f31f/e0ca308dea6d/coordinates/ocr_table_002.json",
+      "coordinates_sha256": "8300baba0013be8cbe42de0c939c84ae320c7c0c1ff14b71dd901701da4ad1e2",
+      "rows": 8,
+      "columns": 2,
+      "quality_status": "TECHNICALLY_RECOVERED",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "88cf4816537393f5d3f400a9750e4a12464c07615ae3faa8c0fc2bb6fa09f452"
+    },
+    {
+      "table_id": "OCR_003",
+      "source": "OCR",
+      "page": [
+        98
+      ],
+      "bbox": [
+        0.0,
+        0.0,
+        595.3200073242188,
+        841.9199829101562
+      ],
+      "table_type": null,
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/ocr_generic/TEMM_-_Rapport_Financier_Annuel_2025_VDEF_0bdafba1f31f/e0ca308dea6d/tables/ocr_table_003.csv",
+      "coordinates_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/ocr_generic/TEMM_-_Rapport_Financier_Annuel_2025_VDEF_0bdafba1f31f/e0ca308dea6d/coordinates/ocr_table_003.json",
+      "coordinates_sha256": "6d6b2b46af488555cea50766eedfb0d6e673e38e9151a4af9710c59c57524253",
+      "rows": 17,
+      "columns": 5,
+      "quality_status": "TECHNICALLY_RECOVERED",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "14b494f166562567842bcc456fa2312132bcbee0423761de013510ed5772be3c"
+    },
+    {
+      "table_id": "OCR_004",
+      "source": "OCR",
+      "page": [
+        100
+      ],
+      "bbox": [
+        0.0,
+        0.0,
+        595.3200073242188,
+        841.9199829101562
+      ],
+      "table_type": null,
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/ocr_generic/TEMM_-_Rapport_Financier_Annuel_2025_VDEF_0bdafba1f31f/e0ca308dea6d/tables/ocr_table_004.csv",
+      "coordinates_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/ocr_generic/TEMM_-_Rapport_Financier_Annuel_2025_VDEF_0bdafba1f31f/e0ca308dea6d/coordinates/ocr_table_004.json",
+      "coordinates_sha256": "129ff763ebb81c27e6abf5b902f8e5ff97111644b96900d7a2f6917cf0f7cb44",
+      "rows": 32,
+      "columns": 5,
+      "quality_status": "TECHNICALLY_RECOVERED",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "6860bc67c6a72cc7b0d66ea47407b31f5388b8984c2b85cd865fb19abadd1351"
+    },
+    {
+      "table_id": "OCR_005",
+      "source": "OCR",
+      "page": [
+        102
+      ],
+      "bbox": [
+        0.0,
+        0.0,
+        595.3200073242188,
+        841.9199829101562
+      ],
+      "table_type": null,
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/ocr_generic/TEMM_-_Rapport_Financier_Annuel_2025_VDEF_0bdafba1f31f/e0ca308dea6d/tables/ocr_table_005.csv",
+      "coordinates_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/ocr_generic/TEMM_-_Rapport_Financier_Annuel_2025_VDEF_0bdafba1f31f/e0ca308dea6d/coordinates/ocr_table_005.json",
+      "coordinates_sha256": "76740894665fb01efa026ae511f849c5680d8ea181458ab475ed04ff56d6c488",
+      "rows": 20,
+      "columns": 5,
+      "quality_status": "TECHNICALLY_RECOVERED",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "c06f6efdd862e10b804880a2b6df75354bc956ef202fd64512e5ce09fbf24a5b"
+    },
+    {
+      "table_id": "OCR_006",
+      "source": "OCR",
+      "page": [
+        103
+      ],
+      "bbox": [
+        0.0,
+        0.0,
+        595.3200073242188,
+        841.9199829101562
+      ],
+      "table_type": null,
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/ocr_generic/TEMM_-_Rapport_Financier_Annuel_2025_VDEF_0bdafba1f31f/e0ca308dea6d/tables/ocr_table_006.csv",
+      "coordinates_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/ocr_generic/TEMM_-_Rapport_Financier_Annuel_2025_VDEF_0bdafba1f31f/e0ca308dea6d/coordinates/ocr_table_006.json",
+      "coordinates_sha256": "b439b25008d5d32e2e67041f2c558f52f25233418a56a63ab7616d0136016045",
+      "rows": 14,
+      "columns": 3,
+      "quality_status": "TECHNICALLY_RECOVERED",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "ff129c061e5ae0f489d052d8b0f65a149eeb16ce585f8616da7d6c3e829db65b"
+    },
+    {
+      "table_id": "OCR_007",
+      "source": "OCR",
+      "page": [
+        104
+      ],
+      "bbox": [
+        0.0,
+        0.0,
+        595.3200073242188,
+        841.9199829101562
+      ],
+      "table_type": null,
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/ocr_generic/TEMM_-_Rapport_Financier_Annuel_2025_VDEF_0bdafba1f31f/e0ca308dea6d/tables/ocr_table_007.csv",
+      "coordinates_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/ocr_generic/TEMM_-_Rapport_Financier_Annuel_2025_VDEF_0bdafba1f31f/e0ca308dea6d/coordinates/ocr_table_007.json",
+      "coordinates_sha256": "a53b79d2ba2e57327bea64c44158ea3933c889978537c1d6ae7dd57fee003012",
+      "rows": 10,
+      "columns": 3,
+      "quality_status": "TECHNICALLY_RECOVERED",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "bb3a9bc824b4141a62ce8e52f42442293bab85ae60dae110d6c5c786048e606a"
+    },
+    {
+      "table_id": "OCR_008",
+      "source": "OCR",
+      "page": [
+        105
+      ],
+      "bbox": [
+        0.0,
+        0.0,
+        595.3200073242188,
+        841.9199829101562
+      ],
+      "table_type": null,
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/ocr_generic/TEMM_-_Rapport_Financier_Annuel_2025_VDEF_0bdafba1f31f/e0ca308dea6d/tables/ocr_table_008.csv",
+      "coordinates_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/ocr_generic/TEMM_-_Rapport_Financier_Annuel_2025_VDEF_0bdafba1f31f/e0ca308dea6d/coordinates/ocr_table_008.json",
+      "coordinates_sha256": "5b2f6c698192c2d65e84545a8c07da4a2eb01839a2db404be5d2afae2cef27c7",
+      "rows": 16,
+      "columns": 3,
+      "quality_status": "TECHNICALLY_RECOVERED",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "5e82f25998c01945c7c20ea94fded7c76c4cfb8bed7c579d5c88d1fe747692a2"
+    },
+    {
+      "table_id": "OCR_009",
+      "source": "OCR",
+      "page": [
+        106
+      ],
+      "bbox": [
+        0.0,
+        0.0,
+        595.3200073242188,
+        841.9199829101562
+      ],
+      "table_type": null,
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/ocr_generic/TEMM_-_Rapport_Financier_Annuel_2025_VDEF_0bdafba1f31f/e0ca308dea6d/tables/ocr_table_009.csv",
+      "coordinates_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/ocr_generic/TEMM_-_Rapport_Financier_Annuel_2025_VDEF_0bdafba1f31f/e0ca308dea6d/coordinates/ocr_table_009.json",
+      "coordinates_sha256": "d1b170bcb1aabf995f36dae63ec067c5d0bc6ee774a6852466b45a99f00dbc48",
+      "rows": 23,
+      "columns": 5,
+      "quality_status": "TECHNICALLY_RECOVERED",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "628505e9e04685c272783f392a545093b52a7304487ce9987c7527cc792b6a7b"
+    },
+    {
+      "table_id": "OCR_010",
+      "source": "OCR",
+      "page": [
+        107
+      ],
+      "bbox": [
+        0.0,
+        0.0,
+        595.3200073242188,
+        841.9199829101562
+      ],
+      "table_type": null,
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/ocr_generic/TEMM_-_Rapport_Financier_Annuel_2025_VDEF_0bdafba1f31f/e0ca308dea6d/tables/ocr_table_010.csv",
+      "coordinates_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/ocr_generic/TEMM_-_Rapport_Financier_Annuel_2025_VDEF_0bdafba1f31f/e0ca308dea6d/coordinates/ocr_table_010.json",
+      "coordinates_sha256": "8b947ba00483180d7cbbfdbd27a8896d50e9cf07d4c0dda47ec7651a528aa3cb",
+      "rows": 25,
+      "columns": 6,
+      "quality_status": "TECHNICALLY_RECOVERED",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "1f97ad13a3f2ffb36473dec1edd5c8cd32c6e6e6267147c7c10d62f4f16ca7d8"
+    },
+    {
+      "table_id": "OCR_page:8:left",
+      "source": "OCR",
+      "page": [
+        8
+      ],
+      "bbox": [
+        0.0,
+        0.0,
+        420.9599914550781,
+        595.3200073242188
+      ],
+      "table_type": "page:8:left",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/ocr_generic/TEMM_-_Rapport_Financier_Annuel_2025_VDEF_0bdafba1f31f/e0ca308dea6d/tables/ocr_table_011.csv",
+      "coordinates_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/ocr_generic/TEMM_-_Rapport_Financier_Annuel_2025_VDEF_0bdafba1f31f/e0ca308dea6d/coordinates/ocr_table_011.json",
+      "coordinates_sha256": "2b63ac153f06cab9183894915af712aa2b531d51ee39fe5983e07ab70eb6818b",
+      "rows": 10,
+      "columns": 3,
+      "quality_status": "TECHNICALLY_RECOVERED",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "0c15449773ad8ddf37b977b2a7f70272e660e83438ffe28157a13417c6259f3d"
+    },
+    {
+      "table_id": "OCR_page:10:right",
+      "source": "OCR",
+      "page": [
+        10
+      ],
+      "bbox": [
+        420.9599914550781,
+        0.0,
+        841.9199829101562,
+        595.3200073242188
+      ],
+      "table_type": "page:10:right",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/ocr_generic/TEMM_-_Rapport_Financier_Annuel_2025_VDEF_0bdafba1f31f/e0ca308dea6d/tables/ocr_table_012.csv",
+      "coordinates_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/ocr_generic/TEMM_-_Rapport_Financier_Annuel_2025_VDEF_0bdafba1f31f/e0ca308dea6d/coordinates/ocr_table_012.json",
+      "coordinates_sha256": "21e8c1f3b738573462365f2d3760b16ba0e801b56c0829a0909ceedfef8b5bc0",
+      "rows": 21,
+      "columns": 7,
+      "quality_status": "TECHNICALLY_RECOVERED",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "7837977c34e7df630179122ad3939b8ebe8ce7c8ab7ef13e8da4415d93892884"
+    },
+    {
+      "table_id": "OCR_page:11:left",
+      "source": "OCR",
+      "page": [
+        11
+      ],
+      "bbox": [
+        0.0,
+        0.0,
+        420.9599914550781,
+        595.3200073242188
+      ],
+      "table_type": "page:11:left",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/ocr_generic/TEMM_-_Rapport_Financier_Annuel_2025_VDEF_0bdafba1f31f/e0ca308dea6d/tables/ocr_table_013.csv",
+      "coordinates_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/ocr_generic/TEMM_-_Rapport_Financier_Annuel_2025_VDEF_0bdafba1f31f/e0ca308dea6d/coordinates/ocr_table_013.json",
+      "coordinates_sha256": "7b7e67a7f0c59ddda3861420f31ffc77703a66240908bb5705cf22a5e2d99366",
+      "rows": 7,
+      "columns": 4,
+      "quality_status": "TECHNICALLY_RECOVERED",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "27e6bc6c6ccd21938052fb43cd93f9fb25503909ce2189fb14662e8b844045ee"
+    },
+    {
+      "table_id": "OCR_page:12:left",
+      "source": "OCR",
+      "page": [
+        12
+      ],
+      "bbox": [
+        0.0,
+        0.0,
+        420.9599914550781,
+        595.3200073242188
+      ],
+      "table_type": "page:12:left",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/ocr_generic/TEMM_-_Rapport_Financier_Annuel_2025_VDEF_0bdafba1f31f/e0ca308dea6d/tables/ocr_table_014.csv",
+      "coordinates_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/ocr_generic/TEMM_-_Rapport_Financier_Annuel_2025_VDEF_0bdafba1f31f/e0ca308dea6d/coordinates/ocr_table_014.json",
+      "coordinates_sha256": "829b5c4f32ce0d314aefa7319006e605b49854cc12f99b6a3456fc0d198e49ee",
+      "rows": 11,
+      "columns": 4,
+      "quality_status": "TECHNICALLY_RECOVERED",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "447c8e63d74493ea0b7e74a47d589ae48ef1c9043372ea465f2f1bac1b4c4f71"
+    },
+    {
+      "table_id": "OCR_page:12:right",
+      "source": "OCR",
+      "page": [
+        12
+      ],
+      "bbox": [
+        420.9599914550781,
+        0.0,
+        841.9199829101562,
+        595.3200073242188
+      ],
+      "table_type": "page:12:right",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/ocr_generic/TEMM_-_Rapport_Financier_Annuel_2025_VDEF_0bdafba1f31f/e0ca308dea6d/tables/ocr_table_015.csv",
+      "coordinates_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/ocr_generic/TEMM_-_Rapport_Financier_Annuel_2025_VDEF_0bdafba1f31f/e0ca308dea6d/coordinates/ocr_table_015.json",
+      "coordinates_sha256": "595c48fde7d79054f5f6a8c760cf477a8b09903cc17d9bd45413ba25e0c36e0d",
+      "rows": 5,
+      "columns": 6,
+      "quality_status": "TECHNICALLY_RECOVERED",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "5bf8f9647643dd929f1152f1c7e2a879659116696385666394f07f8e1bf62010"
+    },
+    {
+      "table_id": "OCR_page:13:left",
+      "source": "OCR",
+      "page": [
+        13
+      ],
+      "bbox": [
+        0.0,
+        0.0,
+        420.9599914550781,
+        595.3200073242188
+      ],
+      "table_type": "page:13:left",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/ocr_generic/TEMM_-_Rapport_Financier_Annuel_2025_VDEF_0bdafba1f31f/e0ca308dea6d/tables/ocr_table_016.csv",
+      "coordinates_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/ocr_generic/TEMM_-_Rapport_Financier_Annuel_2025_VDEF_0bdafba1f31f/e0ca308dea6d/coordinates/ocr_table_016.json",
+      "coordinates_sha256": "42737e68309e5c168979c03a2663cdaa4bc733ae8dff75b7c6f717c84bc09e45",
+      "rows": 11,
+      "columns": 3,
+      "quality_status": "TECHNICALLY_RECOVERED",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "7e6813b7c567f8f66927d85702aefd89ab1dc15e880c5befaea7ca966d33babd"
+    }
+  ],
+  "replacements": [
+    {
+      "docling_table": 6,
+      "pages": [
+        8
+      ],
+      "ocr_candidates": [
+        "OCR_page:8:left"
+      ],
+      "status": "OCR_AVAILABLE_FOR_REVIEW"
+    },
+    {
+      "docling_table": 7,
+      "pages": [
+        9
+      ],
+      "ocr_candidates": [],
+      "status": "UNRESOLVED"
+    },
+    {
+      "docling_table": 8,
+      "pages": [
+        10
+      ],
+      "ocr_candidates": [
+        "OCR_page:10:right"
+      ],
+      "status": "OCR_AVAILABLE_FOR_REVIEW"
+    },
+    {
+      "docling_table": 9,
+      "pages": [
+        11
+      ],
+      "ocr_candidates": [
+        "OCR_page:11:left"
+      ],
+      "status": "OCR_AVAILABLE_FOR_REVIEW"
+    },
+    {
+      "docling_table": 10,
+      "pages": [
+        12
+      ],
+      "ocr_candidates": [
+        "OCR_page:12:left",
+        "OCR_page:12:right"
+      ],
+      "status": "OCR_AVAILABLE_FOR_REVIEW"
+    },
+    {
+      "docling_table": 11,
+      "pages": [
+        13
+      ],
+      "ocr_candidates": [
+        "OCR_page:13:left"
+      ],
+      "status": "OCR_AVAILABLE_FOR_REVIEW"
+    },
+    {
+      "docling_table": 16,
+      "pages": [
+        17
+      ],
+      "ocr_candidates": [],
+      "status": "UNRESOLVED"
+    },
+    {
+      "docling_table": 17,
+      "pages": [
+        17
+      ],
+      "ocr_candidates": [],
+      "status": "UNRESOLVED"
+    },
+    {
+      "docling_table": 18,
+      "pages": [
+        18
+      ],
+      "ocr_candidates": [],
+      "status": "UNRESOLVED"
+    },
+    {
+      "docling_table": 26,
+      "pages": [
+        27
+      ],
+      "ocr_candidates": [],
+      "status": "UNRESOLVED"
+    },
+    {
+      "docling_table": 27,
+      "pages": [
+        27
+      ],
+      "ocr_candidates": [],
+      "status": "UNRESOLVED"
+    },
+    {
+      "docling_table": 28,
+      "pages": [
+        28
+      ],
+      "ocr_candidates": [],
+      "status": "UNRESOLVED"
+    },
+    {
+      "docling_table": 73,
+      "pages": [
+        95
+      ],
+      "ocr_candidates": [],
+      "status": "UNRESOLVED"
+    },
+    {
+      "docling_table": 74,
+      "pages": [
+        98
+      ],
+      "ocr_candidates": [
+        "OCR_003"
+      ],
+      "status": "OCR_AVAILABLE_FOR_REVIEW"
+    },
+    {
+      "docling_table": 75,
+      "pages": [
+        99
+      ],
+      "ocr_candidates": [],
+      "status": "UNRESOLVED"
+    },
+    {
+      "docling_table": 76,
+      "pages": [
+        100
+      ],
+      "ocr_candidates": [
+        "OCR_004"
+      ],
+      "status": "OCR_AVAILABLE_FOR_REVIEW"
+    },
+    {
+      "docling_table": 77,
+      "pages": [
+        101
+      ],
+      "ocr_candidates": [],
+      "status": "UNRESOLVED"
+    },
+    {
+      "docling_table": 78,
+      "pages": [
+        102
+      ],
+      "ocr_candidates": [
+        "OCR_005"
+      ],
+      "status": "OCR_AVAILABLE_FOR_REVIEW"
+    },
+    {
+      "docling_table": 79,
+      "pages": [
+        102
+      ],
+      "ocr_candidates": [
+        "OCR_005"
+      ],
+      "status": "OCR_AVAILABLE_FOR_REVIEW"
+    },
+    {
+      "docling_table": 80,
+      "pages": [
+        103
+      ],
+      "ocr_candidates": [
+        "OCR_006"
+      ],
+      "status": "OCR_AVAILABLE_FOR_REVIEW"
+    },
+    {
+      "docling_table": 81,
+      "pages": [
+        103
+      ],
+      "ocr_candidates": [
+        "OCR_006"
+      ],
+      "status": "OCR_AVAILABLE_FOR_REVIEW"
+    },
+    {
+      "docling_table": 82,
+      "pages": [
+        103
+      ],
+      "ocr_candidates": [
+        "OCR_006"
+      ],
+      "status": "OCR_AVAILABLE_FOR_REVIEW"
+    },
+    {
+      "docling_table": 83,
+      "pages": [
+        104
+      ],
+      "ocr_candidates": [
+        "OCR_007"
+      ],
+      "status": "OCR_AVAILABLE_FOR_REVIEW"
+    },
+    {
+      "docling_table": 84,
+      "pages": [
+        104
+      ],
+      "ocr_candidates": [
+        "OCR_007"
+      ],
+      "status": "OCR_AVAILABLE_FOR_REVIEW"
+    },
+    {
+      "docling_table": 85,
+      "pages": [
+        105
+      ],
+      "ocr_candidates": [
+        "OCR_008"
+      ],
+      "status": "OCR_AVAILABLE_FOR_REVIEW"
+    },
+    {
+      "docling_table": 86,
+      "pages": [
+        105
+      ],
+      "ocr_candidates": [
+        "OCR_008"
+      ],
+      "status": "OCR_AVAILABLE_FOR_REVIEW"
+    },
+    {
+      "docling_table": 87,
+      "pages": [
+        105
+      ],
+      "ocr_candidates": [
+        "OCR_008"
+      ],
+      "status": "OCR_AVAILABLE_FOR_REVIEW"
+    },
+    {
+      "docling_table": 88,
+      "pages": [
+        106
+      ],
+      "ocr_candidates": [
+        "OCR_009"
+      ],
+      "status": "OCR_AVAILABLE_FOR_REVIEW"
+    },
+    {
+      "docling_table": 89,
+      "pages": [
+        106
+      ],
+      "ocr_candidates": [
+        "OCR_009"
+      ],
+      "status": "OCR_AVAILABLE_FOR_REVIEW"
+    },
+    {
+      "docling_table": 90,
+      "pages": [
+        106
+      ],
+      "ocr_candidates": [
+        "OCR_009"
+      ],
+      "status": "OCR_AVAILABLE_FOR_REVIEW"
+    },
+    {
+      "docling_table": 91,
+      "pages": [
+        106
+      ],
+      "ocr_candidates": [
+        "OCR_009"
+      ],
+      "status": "OCR_AVAILABLE_FOR_REVIEW"
+    },
+    {
+      "docling_table": 92,
+      "pages": [
+        107
+      ],
+      "ocr_candidates": [
+        "OCR_010"
+      ],
+      "status": "OCR_AVAILABLE_FOR_REVIEW"
+    },
+    {
+      "docling_table": 93,
+      "pages": [
+        107
+      ],
+      "ocr_candidates": [
+        "OCR_010"
+      ],
+      "status": "OCR_AVAILABLE_FOR_REVIEW"
+    },
+    {
+      "docling_table": 94,
+      "pages": [
+        107
+      ],
+      "ocr_candidates": [
+        "OCR_010"
+      ],
+      "status": "OCR_AVAILABLE_FOR_REVIEW"
+    },
+    {
+      "docling_table": 95,
+      "pages": [
+        110
+      ],
+      "ocr_candidates": [],
+      "status": "UNRESOLVED"
+    },
+    {
+      "docling_table": 96,
+      "pages": [
+        111
+      ],
+      "ocr_candidates": [],
+      "status": "UNRESOLVED"
+    }
+  ],
+  "remaining_docling_issues": [
+    {
+      "code": "MISSING_ROW_LABEL",
+      "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+      "severity": "WARNING",
+      "table_index": 1,
+      "pages": [
+        3
+      ]
+    },
+    {
+      "code": "SPLIT_WORD",
+      "message": "Un libellé contient une césure issue de la mise en page.",
+      "severity": "WARNING",
+      "table_index": 1,
+      "pages": [
+        3
+      ]
+    },
+    {
+      "code": "AUTOGENERATED_HEADER",
+      "message": "Les en-têtes de colonnes sont artificiels.",
+      "severity": "WARNING",
+      "table_index": 2,
+      "pages": [
+        4
+      ]
+    },
+    {
+      "code": "MISSING_ROW_LABEL",
+      "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+      "severity": "WARNING",
+      "table_index": 3,
+      "pages": [
+        5
+      ]
+    },
+    {
+      "code": "MISSING_ROW_LABEL",
+      "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+      "severity": "WARNING",
+      "table_index": 4,
+      "pages": [
+        6
+      ]
+    },
+    {
+      "code": "SPLIT_WORD",
+      "message": "Un libellé contient une césure issue de la mise en page.",
+      "severity": "WARNING",
+      "table_index": 4,
+      "pages": [
+        6
+      ]
+    },
+    {
+      "code": "SPLIT_WORD",
+      "message": "Un libellé contient une césure issue de la mise en page.",
+      "severity": "WARNING",
+      "table_index": 15,
+      "pages": [
+        15
+      ]
+    },
+    {
+      "code": "MISSING_ROW_LABEL",
+      "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+      "severity": "WARNING",
+      "table_index": 23,
+      "pages": [
+        24
+      ]
+    },
+    {
+      "code": "AUTOGENERATED_HEADER",
+      "message": "Les en-têtes de colonnes sont artificiels.",
+      "severity": "WARNING",
+      "table_index": 29,
+      "pages": [
+        30
+      ]
+    },
+    {
+      "code": "SPLIT_WORD",
+      "message": "Un libellé contient une césure issue de la mise en page.",
+      "severity": "WARNING",
+      "table_index": 55,
+      "pages": [
+        60
+      ]
+    },
+    {
+      "code": "AUTOGENERATED_HEADER",
+      "message": "Les en-têtes de colonnes sont artificiels.",
+      "severity": "WARNING",
+      "table_index": 61,
+      "pages": [
+        65
+      ]
+    },
+    {
+      "code": "MISSING_ROW_LABEL",
+      "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+      "severity": "WARNING",
+      "table_index": 61,
+      "pages": [
+        65
+      ]
+    },
+    {
+      "code": "MISSING_ROW_LABEL",
+      "message": "Au moins une ligne chiffrée n'a pas de libellé.",
+      "severity": "WARNING",
+      "table_index": 97,
+      "pages": [
+        113
+      ]
+    },
+    {
+      "code": "AUTOGENERATED_HEADER",
+      "message": "Les en-têtes de colonnes sont artificiels.",
+      "severity": "WARNING",
+      "table_index": 98,
+      "pages": [
+        115
+      ]
+    },
+    {
+      "code": "AUTOGENERATED_HEADER",
+      "message": "Les en-têtes de colonnes sont artificiels.",
+      "severity": "WARNING",
+      "table_index": 103,
+      "pages": [
+        131
+      ]
+    }
+  ],
+  "financial_validation": "NOT_PERFORMED"
+}

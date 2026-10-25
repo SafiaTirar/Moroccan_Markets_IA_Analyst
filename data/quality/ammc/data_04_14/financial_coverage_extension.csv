@@ -1,0 +1,71 @@
+company_id,exercise_year,accounting_perimeter,sector_profile,indicator,status,candidate_count,reference_ids,justification
+lesieur_cristal,2023,CONSOLIDATED,GENERAL_CORPORATE,REVENUE,VERIFIED,25,['lesieur-cristal-rfa-2023-consolidated-revenue'],Décision issue des références PDF contrôlées.
+lesieur_cristal,2023,CONSOLIDATED,GENERAL_CORPORATE,BANKING_NET_REVENUE,NOT_APPLICABLE,0,[],Indicateur non applicable au profil sectoriel.
+lesieur_cristal,2023,CONSOLIDATED,GENERAL_CORPORATE,INSURANCE_REVENUE,NOT_APPLICABLE,0,[],Indicateur non applicable au profil sectoriel.
+lesieur_cristal,2023,CONSOLIDATED,GENERAL_CORPORATE,WRITTEN_PREMIUMS,NOT_APPLICABLE,0,[],Indicateur non applicable au profil sectoriel.
+lesieur_cristal,2023,CONSOLIDATED,GENERAL_CORPORATE,RENTAL_INCOME,NOT_APPLICABLE,0,[],Indicateur non applicable au profil sectoriel.
+lesieur_cristal,2023,CONSOLIDATED,GENERAL_CORPORATE,NET_INCOME,NOT_CHECKED,31,[],"Candidat détecté, sans référence PDF fiable pour ce périmètre."
+lesieur_cristal,2023,CONSOLIDATED,GENERAL_CORPORATE,NET_INCOME_GROUP_SHARE,VERIFIED,7,['lesieur-cristal-rfa-2023-consolidated-net-income-group-share'],Décision issue des références PDF contrôlées.
+lesieur_cristal,2023,CONSOLIDATED,GENERAL_CORPORATE,TOTAL_ASSETS,VERIFIED,2,['lesieur-cristal-rfa-2023-consolidated-total-assets'],Décision issue des références PDF contrôlées.
+lesieur_cristal,2023,CONSOLIDATED,GENERAL_CORPORATE,TOTAL_LIABILITIES_AND_EQUITY,NOT_CHECKED,2,[],"Candidat détecté, sans référence PDF fiable pour ce périmètre."
+lesieur_cristal,2023,CONSOLIDATED,GENERAL_CORPORATE,EQUITY,NOT_CHECKED,12,[],"Candidat détecté, sans référence PDF fiable pour ce périmètre."
+lesieur_cristal,2023,CONSOLIDATED,GENERAL_CORPORATE,OPERATING_INCOME,NOT_CHECKED,25,[],"Candidat détecté, sans référence PDF fiable pour ce périmètre."
+lesieur_cristal,2023,CONSOLIDATED,GENERAL_CORPORATE,EBITDA,NOT_AVAILABLE,0,[],Aucun candidat correspondant détecté.
+lesieur_cristal,2023,CONSOLIDATED,GENERAL_CORPORATE,CUSTOMER_LOANS,NOT_APPLICABLE,0,[],Indicateur non applicable au profil sectoriel.
+lesieur_cristal,2023,CONSOLIDATED,GENERAL_CORPORATE,CUSTOMER_DEPOSITS,NOT_APPLICABLE,0,[],Indicateur non applicable au profil sectoriel.
+lesieur_cristal,2024,CONSOLIDATED,GENERAL_CORPORATE,REVENUE,VERIFIED,23,['lesieur-cristal-rfa-2024-consolidated-revenue'],Décision issue des références PDF contrôlées.
+lesieur_cristal,2024,CONSOLIDATED,GENERAL_CORPORATE,BANKING_NET_REVENUE,NOT_APPLICABLE,0,[],Indicateur non applicable au profil sectoriel.
+lesieur_cristal,2024,CONSOLIDATED,GENERAL_CORPORATE,INSURANCE_REVENUE,NOT_APPLICABLE,0,[],Indicateur non applicable au profil sectoriel.
+lesieur_cristal,2024,CONSOLIDATED,GENERAL_CORPORATE,WRITTEN_PREMIUMS,NOT_APPLICABLE,0,[],Indicateur non applicable au profil sectoriel.
+lesieur_cristal,2024,CONSOLIDATED,GENERAL_CORPORATE,RENTAL_INCOME,NOT_APPLICABLE,0,[],Indicateur non applicable au profil sectoriel.
+lesieur_cristal,2024,CONSOLIDATED,GENERAL_CORPORATE,NET_INCOME,NOT_CHECKED,29,[],"Candidat détecté, sans référence PDF fiable pour ce périmètre."
+lesieur_cristal,2024,CONSOLIDATED,GENERAL_CORPORATE,NET_INCOME_GROUP_SHARE,VERIFIED,5,['lesieur-cristal-rfa-2024-consolidated-net-income-group-share'],Décision issue des références PDF contrôlées.
+lesieur_cristal,2024,CONSOLIDATED,GENERAL_CORPORATE,TOTAL_ASSETS,VERIFIED,2,['lesieur-cristal-rfa-2024-consolidated-total-assets'],Décision issue des références PDF contrôlées.
+lesieur_cristal,2024,CONSOLIDATED,GENERAL_CORPORATE,TOTAL_LIABILITIES_AND_EQUITY,NOT_CHECKED,2,[],"Candidat détecté, sans référence PDF fiable pour ce périmètre."
+lesieur_cristal,2024,CONSOLIDATED,GENERAL_CORPORATE,EQUITY,NOT_CHECKED,13,[],"Candidat détecté, sans référence PDF fiable pour ce périmètre."
+lesieur_cristal,2024,CONSOLIDATED,GENERAL_CORPORATE,OPERATING_INCOME,NOT_CHECKED,27,[],"Candidat détecté, sans référence PDF fiable pour ce périmètre."
+lesieur_cristal,2024,CONSOLIDATED,GENERAL_CORPORATE,EBITDA,NOT_AVAILABLE,0,[],Aucun candidat correspondant détecté.
+lesieur_cristal,2024,CONSOLIDATED,GENERAL_CORPORATE,CUSTOMER_LOANS,NOT_APPLICABLE,0,[],Indicateur non applicable au profil sectoriel.
+lesieur_cristal,2024,CONSOLIDATED,GENERAL_CORPORATE,CUSTOMER_DEPOSITS,NOT_APPLICABLE,0,[],Indicateur non applicable au profil sectoriel.
+lesieur_cristal,2025,CONSOLIDATED,GENERAL_CORPORATE,REVENUE,VERIFIED,26,['lesieur-cristal-rfa-2025-consolidated-revenue'],Décision issue des références PDF contrôlées.
+lesieur_cristal,2025,CONSOLIDATED,GENERAL_CORPORATE,BANKING_NET_REVENUE,NOT_APPLICABLE,0,[],Indicateur non applicable au profil sectoriel.
+lesieur_cristal,2025,CONSOLIDATED,GENERAL_CORPORATE,INSURANCE_REVENUE,NOT_APPLICABLE,0,[],Indicateur non applicable au profil sectoriel.
+lesieur_cristal,2025,CONSOLIDATED,GENERAL_CORPORATE,WRITTEN_PREMIUMS,NOT_APPLICABLE,0,[],Indicateur non applicable au profil sectoriel.
+lesieur_cristal,2025,CONSOLIDATED,GENERAL_CORPORATE,RENTAL_INCOME,NOT_APPLICABLE,0,[],Indicateur non applicable au profil sectoriel.
+lesieur_cristal,2025,CONSOLIDATED,GENERAL_CORPORATE,NET_INCOME,NOT_CHECKED,40,[],"Candidat détecté, sans référence PDF fiable pour ce périmètre."
+lesieur_cristal,2025,CONSOLIDATED,GENERAL_CORPORATE,NET_INCOME_GROUP_SHARE,VERIFIED,5,['lesieur-cristal-rfa-2025-consolidated-net-income-group-share'],Décision issue des références PDF contrôlées.
+lesieur_cristal,2025,CONSOLIDATED,GENERAL_CORPORATE,TOTAL_ASSETS,VERIFIED,2,['lesieur-cristal-rfa-2025-consolidated-total-assets'],Décision issue des références PDF contrôlées.
+lesieur_cristal,2025,CONSOLIDATED,GENERAL_CORPORATE,TOTAL_LIABILITIES_AND_EQUITY,NOT_CHECKED,2,[],"Candidat détecté, sans référence PDF fiable pour ce périmètre."
+lesieur_cristal,2025,CONSOLIDATED,GENERAL_CORPORATE,EQUITY,NOT_CHECKED,10,[],"Candidat détecté, sans référence PDF fiable pour ce périmètre."
+lesieur_cristal,2025,CONSOLIDATED,GENERAL_CORPORATE,OPERATING_INCOME,NOT_CHECKED,26,[],"Candidat détecté, sans référence PDF fiable pour ce périmètre."
+lesieur_cristal,2025,CONSOLIDATED,GENERAL_CORPORATE,EBITDA,NOT_AVAILABLE,0,[],Aucun candidat correspondant détecté.
+lesieur_cristal,2025,CONSOLIDATED,GENERAL_CORPORATE,CUSTOMER_LOANS,NOT_APPLICABLE,0,[],Indicateur non applicable au profil sectoriel.
+lesieur_cristal,2025,CONSOLIDATED,GENERAL_CORPORATE,CUSTOMER_DEPOSITS,NOT_APPLICABLE,0,[],Indicateur non applicable au profil sectoriel.
+auto_hall,2023,CONSOLIDATED,GENERAL_CORPORATE,REVENUE,NOT_CHECKED,4,[],"Candidat détecté, sans référence PDF fiable pour ce périmètre."
+auto_hall,2023,CONSOLIDATED,GENERAL_CORPORATE,BANKING_NET_REVENUE,NOT_APPLICABLE,0,[],Indicateur non applicable au profil sectoriel.
+auto_hall,2023,CONSOLIDATED,GENERAL_CORPORATE,INSURANCE_REVENUE,NOT_APPLICABLE,0,[],Indicateur non applicable au profil sectoriel.
+auto_hall,2023,CONSOLIDATED,GENERAL_CORPORATE,WRITTEN_PREMIUMS,NOT_APPLICABLE,0,[],Indicateur non applicable au profil sectoriel.
+auto_hall,2023,CONSOLIDATED,GENERAL_CORPORATE,RENTAL_INCOME,NOT_APPLICABLE,0,[],Indicateur non applicable au profil sectoriel.
+auto_hall,2023,CONSOLIDATED,GENERAL_CORPORATE,NET_INCOME,VERIFIED,14,['auto-hall-rfa-2023-consolidated-net-income'],Décision issue des références PDF contrôlées.
+auto_hall,2023,CONSOLIDATED,GENERAL_CORPORATE,NET_INCOME_GROUP_SHARE,NOT_AVAILABLE,0,[],Aucun candidat correspondant détecté.
+auto_hall,2023,CONSOLIDATED,GENERAL_CORPORATE,TOTAL_ASSETS,VERIFIED,2,['auto-hall-rfa-2023-consolidated-total-assets'],Décision issue des références PDF contrôlées.
+auto_hall,2023,CONSOLIDATED,GENERAL_CORPORATE,TOTAL_LIABILITIES_AND_EQUITY,NOT_CHECKED,2,[],"Candidat détecté, sans référence PDF fiable pour ce périmètre."
+auto_hall,2023,CONSOLIDATED,GENERAL_CORPORATE,EQUITY,VERIFIED,23,['auto-hall-rfa-2023-consolidated-equity'],Décision issue des références PDF contrôlées.
+auto_hall,2023,CONSOLIDATED,GENERAL_CORPORATE,OPERATING_INCOME,NOT_CHECKED,7,[],"Candidat détecté, sans référence PDF fiable pour ce périmètre."
+auto_hall,2023,CONSOLIDATED,GENERAL_CORPORATE,EBITDA,NOT_CHECKED,5,[],"Candidat détecté, sans référence PDF fiable pour ce périmètre."
+auto_hall,2023,CONSOLIDATED,GENERAL_CORPORATE,CUSTOMER_LOANS,NOT_APPLICABLE,0,[],Indicateur non applicable au profil sectoriel.
+auto_hall,2023,CONSOLIDATED,GENERAL_CORPORATE,CUSTOMER_DEPOSITS,NOT_APPLICABLE,0,[],Indicateur non applicable au profil sectoriel.
+sothema,2024,CONSOLIDATED,GENERAL_CORPORATE,REVENUE,VERIFIED,49,['sothema-rfa-2024-consolidated-revenue'],Décision issue des références PDF contrôlées.
+sothema,2024,CONSOLIDATED,GENERAL_CORPORATE,BANKING_NET_REVENUE,NOT_APPLICABLE,0,[],Indicateur non applicable au profil sectoriel.
+sothema,2024,CONSOLIDATED,GENERAL_CORPORATE,INSURANCE_REVENUE,NOT_APPLICABLE,0,[],Indicateur non applicable au profil sectoriel.
+sothema,2024,CONSOLIDATED,GENERAL_CORPORATE,WRITTEN_PREMIUMS,NOT_APPLICABLE,0,[],Indicateur non applicable au profil sectoriel.
+sothema,2024,CONSOLIDATED,GENERAL_CORPORATE,RENTAL_INCOME,NOT_APPLICABLE,0,[],Indicateur non applicable au profil sectoriel.
+sothema,2024,CONSOLIDATED,GENERAL_CORPORATE,NET_INCOME,NOT_CHECKED,22,[],"Candidat détecté, sans référence PDF fiable pour ce périmètre."
+sothema,2024,CONSOLIDATED,GENERAL_CORPORATE,NET_INCOME_GROUP_SHARE,VERIFIED,3,['sothema-rfa-2024-consolidated-net-income-group-share'],Décision issue des références PDF contrôlées.
+sothema,2024,CONSOLIDATED,GENERAL_CORPORATE,TOTAL_ASSETS,VERIFIED,4,['sothema-rfa-2024-consolidated-total-assets'],Décision issue des références PDF contrôlées.
+sothema,2024,CONSOLIDATED,GENERAL_CORPORATE,TOTAL_LIABILITIES_AND_EQUITY,NOT_CHECKED,4,[],"Candidat détecté, sans référence PDF fiable pour ce périmètre."
+sothema,2024,CONSOLIDATED,GENERAL_CORPORATE,EQUITY,NOT_CHECKED,21,[],"Candidat détecté, sans référence PDF fiable pour ce périmètre."
+sothema,2024,CONSOLIDATED,GENERAL_CORPORATE,OPERATING_INCOME,NOT_CHECKED,15,[],"Candidat détecté, sans référence PDF fiable pour ce périmètre."
+sothema,2024,CONSOLIDATED,GENERAL_CORPORATE,EBITDA,NOT_CHECKED,8,[],"Candidat détecté, sans référence PDF fiable pour ce périmètre."
+sothema,2024,CONSOLIDATED,GENERAL_CORPORATE,CUSTOMER_LOANS,NOT_APPLICABLE,0,[],Indicateur non applicable au profil sectoriel.
+sothema,2024,CONSOLIDATED,GENERAL_CORPORATE,CUSTOMER_DEPOSITS,NOT_APPLICABLE,0,[],Indicateur non applicable au profil sectoriel.

@@ -1,0 +1,1955 @@
+{
+  "page": 5,
+  "bbox": [
+    306.0,
+    0.0,
+    612.0,
+    792.0
+  ],
+  "source": "automatic_split",
+  "source_id": "page:5:right",
+  "name": "page:5:right",
+  "image_size": [
+    1275,
+    3300
+  ],
+  "attempts": [
+    {
+      "psm": 6,
+      "score": 1502,
+      "amount_count": 81,
+      "keyword_count": 5,
+      "rows": 37,
+      "multi_value_rows": 36,
+      "labeled_rows": 37
+    },
+    {
+      "psm": 11,
+      "score": 193,
+      "amount_count": 100,
+      "keyword_count": 5,
+      "rows": 100,
+      "multi_value_rows": 0,
+      "labeled_rows": 0
+    }
+  ],
+  "selected_psm": 6,
+  "column_right_ratios": [
+    0.35555555555555557,
+    0.4895098039215686,
+    0.5874509803921568,
+    0.6905392156862745,
+    0.8158387799564271
+  ],
+  "rows": [
+    {
+      "label": "CREDITEURS DIVERS",
+      "cells": [
+        {
+          "column": "value_4",
+          "value": "908 134 137",
+          "bbox": [
+            496.32,
+            77.75999999999999,
+            517.68,
+            80.64
+          ]
+        },
+        {
+          "column": "value_5",
+          "value": "801 096 300",
+          "bbox": [
+            535.44,
+            77.75999999999999,
+            556.56,
+            80.64
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Sommes dues à l'Etat",
+      "cells": [
+        {
+          "column": "value_4",
+          "value": "106 664 150",
+          "bbox": [
+            496.56,
+            83.52,
+            517.68,
+            86.39999999999999
+          ]
+        },
+        {
+          "column": "value_5",
+          "value": "147 461 223",
+          "bbox": [
+            535.68,
+            83.52,
+            556.56,
+            86.39999999999999
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Sommes dues aux organismes de prévoyance",
+      "cells": [
+        {
+          "column": "value_4",
+          "value": "1 000 680",
+          "bbox": [
+            500.88,
+            89.28,
+            517.68,
+            92.16
+          ]
+        },
+        {
+          "column": "value_5",
+          "value": "3 110 970",
+          "bbox": [
+            540.0,
+            89.28,
+            556.56,
+            92.16
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Sommes diverses dues au personnel",
+      "cells": [
+        {
+          "column": "value_4",
+          "value": "7 893 503",
+          "bbox": [
+            500.64,
+            94.8,
+            517.68,
+            97.67999999999999
+          ]
+        },
+        {
+          "column": "value_5",
+          "value": "7 234 736",
+          "bbox": [
+            539.76,
+            94.8,
+            556.56,
+            97.67999999999999
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Fournisseurs de biens et services",
+      "cells": [
+        {
+          "column": "value_4",
+          "value": "503 261 039",
+          "bbox": [
+            496.32,
+            106.08,
+            517.68,
+            108.96
+          ]
+        },
+        {
+          "column": "value_5",
+          "value": "576 069 335",
+          "bbox": [
+            535.44,
+            106.08,
+            556.56,
+            108.96
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Divers autres créditeurs",
+      "cells": [
+        {
+          "column": "value_4",
+          "value": "289 314 765",
+          "bbox": [
+            496.32,
+            111.83999999999999,
+            517.68,
+            114.72
+          ]
+        },
+        {
+          "column": "value_5",
+          "value": "67 220 037",
+          "bbox": [
+            537.6,
+            111.83999999999999,
+            556.56,
+            114.72
+          ]
+        }
+      ]
+    },
+    {
+      "label": "COMPTES DE REGULARISATION",
+      "cells": [
+        {
+          "column": "value_4",
+          "value": "866 654 861",
+          "bbox": [
+            496.32,
+            117.6,
+            517.2,
+            120.47999999999999
+          ]
+        },
+        {
+          "column": "value_5",
+          "value": "802 835 405",
+          "bbox": [
+            535.44,
+            117.6,
+            556.56,
+            120.47999999999999
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Charges à payer et produits constatés d'avance",
+      "cells": [
+        {
+          "column": "value_4",
+          "value": "866 654 861",
+          "bbox": [
+            496.32,
+            145.92,
+            517.2,
+            148.79999999999998
+          ]
+        },
+        {
+          "column": "value_5",
+          "value": "802 835 405",
+          "bbox": [
+            535.44,
+            145.92,
+            556.56,
+            148.79999999999998
+          ]
+        }
+      ]
+    },
+    {
+      "label": "INTERETS PERCUS",
+      "cells": [
+        {
+          "column": "value_4",
+          "value": "336 542 944",
+          "bbox": [
+            496.32,
+            176.4,
+            517.68,
+            179.28
+          ]
+        },
+        {
+          "column": "value_5",
+          "value": "219 236 124",
+          "bbox": [
+            535.2,
+            176.4,
+            556.8,
+            179.28
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Intérêts et produits assimilés sur opérations avec les EC",
+      "cells": [
+        {
+          "column": "value_4",
+          "value": "2 993 686",
+          "bbox": [
+            500.64,
+            182.16,
+            517.68,
+            185.04
+          ]
+        },
+        {
+          "column": "value_5",
+          "value": "4 303 268",
+          "bbox": [
+            539.52,
+            182.16,
+            556.56,
+            185.04
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Intérêts et produits assimilés sur opérations avec la clientèle",
+      "cells": [
+        {
+          "column": "value_4",
+          "value": "288 049 258",
+          "bbox": [
+            496.32,
+            187.68,
+            517.68,
+            190.56
+          ]
+        },
+        {
+          "column": "value_5",
+          "value": "214 932 856",
+          "bbox": [
+            535.2,
+            187.68,
+            556.56,
+            190.56
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Intérêts et produits assimilés sur titres de créance -",
+      "cells": [
+        {
+          "column": "value_4",
+          "value": "45 500 000",
+          "bbox": [
+            498.48,
+            193.44,
+            517.68,
+            196.32
+          ]
+        }
+      ]
+    },
+    {
+      "label": "INTERETS SERVIS",
+      "cells": [
+        {
+          "column": "value_4",
+          "value": "127 513 190",
+          "bbox": [
+            496.56,
+            199.2,
+            517.68,
+            202.07999999999998
+          ]
+        },
+        {
+          "column": "value_5",
+          "value": "100 631 724",
+          "bbox": [
+            535.44,
+            199.2,
+            556.8,
+            202.07999999999998
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Intérêts et charges assimilés sur opérations avec les EC",
+      "cells": [
+        {
+          "column": "value_4",
+          "value": "58 665 360",
+          "bbox": [
+            498.48,
+            204.72,
+            517.68,
+            207.6
+          ]
+        },
+        {
+          "column": "value_5",
+          "value": "48 650 813",
+          "bbox": [
+            537.36,
+            204.72,
+            556.56,
+            207.6
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Intérêts et charges assimilés sur titres de créance émis",
+      "cells": [
+        {
+          "column": "value_4",
+          "value": "68 847 830",
+          "bbox": [
+            498.48,
+            216.0,
+            517.68,
+            218.88
+          ]
+        },
+        {
+          "column": "value_5",
+          "value": "51 980 911",
+          "bbox": [
+            537.84,
+            216.0,
+            556.0799999999999,
+            218.88
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Charges du personnel",
+      "cells": [
+        {
+          "column": "value_4",
+          "value": "19 048 591",
+          "bbox": [
+            498.72,
+            236.88,
+            517.2,
+            239.76
+          ]
+        },
+        {
+          "column": "value_5",
+          "value": "18 639 859",
+          "bbox": [
+            537.84,
+            236.88,
+            556.56,
+            239.76
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Impôts et taxes",
+      "cells": [
+        {
+          "column": "value_4",
+          "value": "208 500",
+          "bbox": [
+            504.0,
+            242.64,
+            517.68,
+            245.51999999999998
+          ]
+        },
+        {
+          "column": "value_5",
+          "value": "208 732",
+          "bbox": [
+            542.88,
+            242.64,
+            556.56,
+            245.51999999999998
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Charges externes",
+      "cells": [
+        {
+          "column": "value_4",
+          "value": "159 299 484",
+          "bbox": [
+            496.56,
+            248.16,
+            517.68,
+            251.04
+          ]
+        },
+        {
+          "column": "value_5",
+          "value": "141 162 956",
+          "bbox": [
+            535.68,
+            248.16,
+            556.56,
+            251.04
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Autres charges générales d'exploitation",
+      "cells": [
+        {
+          "column": "value_4",
+          "value": "465 000",
+          "bbox": [
+            503.76,
+            253.92,
+            517.68,
+            256.8
+          ]
+        },
+        {
+          "column": "value_5",
+          "value": "500 000",
+          "bbox": [
+            542.88,
+            253.92,
+            556.56,
+            256.8
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Dotations aux amortissements et aux provisions",
+      "cells": [
+        {
+          "column": "value_4",
+          "value": "92 364",
+          "bbox": [
+            506.15999999999997,
+            259.68,
+            517.68,
+            262.56
+          ]
+        },
+        {
+          "column": "value_5",
+          "value": "71 559",
+          "bbox": [
+            545.04,
+            259.68,
+            556.56,
+            262.56
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Réserves et primes liées au capital",
+      "cells": [
+        {
+          "column": "value_2",
+          "value": "455 465 172",
+          "bbox": [
+            431.28,
+            302.4,
+            452.64,
+            305.28
+          ]
+        },
+        {
+          "column": "value_3",
+          "value": "152 412 235",
+          "bbox": [
+            464.64,
+            302.4,
+            485.76,
+            305.28
+          ]
+        },
+        {
+          "column": "value_5",
+          "value": "-607 877 407",
+          "bbox": [
+            532.8,
+            302.4,
+            553.92,
+            305.28
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Réserve légale -",
+      "cells": [
+        {
+          "column": "value_2",
+          "value": "28 978 350",
+          "bbox": [
+            432.48,
+            308.15999999999997,
+            451.68,
+            311.03999999999996
+          ]
+        },
+        {
+          "column": "value_5",
+          "value": "-28 978 350",
+          "bbox": [
+            533.76,
+            308.15999999999997,
+            552.96,
+            311.03999999999996
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Autres réserves",
+      "cells": [
+        {
+          "column": "value_2",
+          "value": "426 486 822",
+          "bbox": [
+            431.28,
+            313.68,
+            452.64,
+            316.56
+          ]
+        },
+        {
+          "column": "value_3",
+          "value": "152 412 235",
+          "bbox": [
+            464.64,
+            313.68,
+            485.76,
+            316.56
+          ]
+        },
+        {
+          "column": "value_5",
+          "value": "-578 899 057",
+          "bbox": [
+            532.8,
+            313.68,
+            553.92,
+            316.56
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Capital -",
+      "cells": [
+        {
+          "column": "value_2",
+          "value": "289 783 500",
+          "bbox": [
+            431.28,
+            324.96,
+            452.64,
+            327.84
+          ]
+        },
+        {
+          "column": "value_5",
+          "value": "-289 783 500",
+          "bbox": [
+            532.56,
+            324.96,
+            553.92,
+            327.84
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Capital appelé -",
+      "cells": [
+        {
+          "column": "value_2",
+          "value": "289 783 500",
+          "bbox": [
+            431.28,
+            330.71999999999997,
+            452.64,
+            333.59999999999997
+          ]
+        },
+        {
+          "column": "value_5",
+          "value": "-289 783 500",
+          "bbox": [
+            532.56,
+            330.71999999999997,
+            553.92,
+            333.59999999999997
+          ]
+        }
+      ]
+    },
+    {
+      "label": "B. TVA à récupérer",
+      "cells": [
+        {
+          "column": "value_1",
+          "value": "50 033 865",
+          "bbox": [
+            396.0,
+            413.52,
+            415.2,
+            416.4
+          ]
+        },
+        {
+          "column": "value_2",
+          "value": "123 452 139",
+          "bbox": [
+            440.88,
+            413.52,
+            462.0,
+            416.4
+          ]
+        },
+        {
+          "column": "value_4",
+          "value": "129 047 850",
+          "bbox": [
+            491.52,
+            413.52,
+            512.64,
+            416.4
+          ]
+        },
+        {
+          "column": "value_5",
+          "value": "44 438 154",
+          "bbox": [
+            531.36,
+            413.52,
+            550.8,
+            416.4
+          ]
+        }
+      ]
+    },
+    {
+      "label": ". Sur charges",
+      "cells": [
+        {
+          "column": "value_1",
+          "value": "5 876 876",
+          "bbox": [
+            397.2,
+            419.28,
+            414.0,
+            422.15999999999997
+          ]
+        },
+        {
+          "column": "value_2",
+          "value": "27 774 363",
+          "bbox": [
+            441.84000000000003,
+            419.28,
+            461.03999999999996,
+            422.15999999999997
+          ]
+        },
+        {
+          "column": "value_4",
+          "value": "30 103 240",
+          "bbox": [
+            492.48,
+            419.28,
+            511.67999999999995,
+            422.15999999999997
+          ]
+        },
+        {
+          "column": "value_5",
+          "value": "3 547 999",
+          "bbox": [
+            532.56,
+            419.28,
+            549.6,
+            422.15999999999997
+          ]
+        }
+      ]
+    },
+    {
+      "label": ". Sur immobilisations",
+      "cells": [
+        {
+          "column": "value_1",
+          "value": "44 156 989",
+          "bbox": [
+            396.0,
+            424.8,
+            415.2,
+            427.68
+          ]
+        },
+        {
+          "column": "value_2",
+          "value": "95 677 776",
+          "bbox": [
+            441.84000000000003,
+            424.8,
+            461.03999999999996,
+            427.68
+          ]
+        },
+        {
+          "column": "value_4",
+          "value": "98 944 610",
+          "bbox": [
+            492.48,
+            424.8,
+            511.67999999999995,
+            427.68
+          ]
+        },
+        {
+          "column": "value_5",
+          "value": "40 890 156",
+          "bbox": [
+            531.36,
+            424.8,
+            550.56,
+            427.68
+          ]
+        }
+      ]
+    },
+    {
+      "label": "ENGAGEMENTS DE FINANCEMENT ET DE GARANTIE DONNES",
+      "cells": [
+        {
+          "column": "value_4",
+          "value": "559 465 020",
+          "bbox": [
+            497.28,
+            457.2,
+            518.4,
+            460.08
+          ]
+        },
+        {
+          "column": "value_5",
+          "value": "842 266 599",
+          "bbox": [
+            535.44,
+            457.2,
+            556.56,
+            460.08
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Engagements de financement en faveur de la clientèle",
+      "cells": [
+        {
+          "column": "value_4",
+          "value": "559 465 020",
+          "bbox": [
+            497.28,
+            502.56,
+            518.4,
+            505.44
+          ]
+        },
+        {
+          "column": "value_5",
+          "value": "842 266 599",
+          "bbox": [
+            535.44,
+            502.56,
+            556.56,
+            505.44
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Ouvertures de crédit confirmés",
+      "cells": [
+        {
+          "column": "value_4",
+          "value": "509 627 924",
+          "bbox": [
+            497.28,
+            519.6,
+            518.4,
+            522.48
+          ]
+        },
+        {
+          "column": "value_5",
+          "value": "763 434 640",
+          "bbox": [
+            535.44,
+            519.6,
+            556.56,
+            522.48
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Engagements irévocables de crédit-bail",
+      "cells": [
+        {
+          "column": "value_4",
+          "value": "49 837 096",
+          "bbox": [
+            499.2,
+            530.88,
+            518.4,
+            533.76
+          ]
+        },
+        {
+          "column": "value_5",
+          "value": "78 831 959",
+          "bbox": [
+            537.6,
+            530.88,
+            556.56,
+            533.76
+          ]
+        }
+      ]
+    },
+    {
+      "label": "ENGAGEMENTS DE FINANCEMENT ET DE GARANTIE RECUS",
+      "cells": [
+        {
+          "column": "value_4",
+          "value": "3 460 000 000",
+          "bbox": [
+            493.91999999999996,
+            604.56,
+            518.4,
+            607.4399999999999
+          ]
+        },
+        {
+          "column": "value_5",
+          "value": "3 825 134 178",
+          "bbox": [
+            532.0799999999999,
+            604.56,
+            556.56,
+            607.4399999999999
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Engagements de financement reçus d'établissements de crédit et ass.",
+      "cells": [
+        {
+          "column": "value_4",
+          "value": "800 000 000",
+          "bbox": [
+            497.28,
+            610.0799999999999,
+            518.4,
+            612.9599999999999
+          ]
+        },
+        {
+          "column": "value_5",
+          "value": "1 100 984 178",
+          "bbox": [
+            532.3199999999999,
+            610.0799999999999,
+            556.56,
+            612.9599999999999
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Ouvertures de crédit confirmés",
+      "cells": [
+        {
+          "column": "value_4",
+          "value": "800 000 000",
+          "bbox": [
+            497.28,
+            615.84,
+            518.4,
+            618.72
+          ]
+        },
+        {
+          "column": "value_5",
+          "value": "1 100 984 178",
+          "bbox": [
+            532.3199999999999,
+            615.84,
+            556.56,
+            618.72
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Engagements de garantie reçus d'établissements de crédit et ass.",
+      "cells": [
+        {
+          "column": "value_4",
+          "value": "2 660 000 000",
+          "bbox": [
+            493.91999999999996,
+            632.88,
+            518.4,
+            635.76
+          ]
+        },
+        {
+          "column": "value_5",
+          "value": "2 724 150 000",
+          "bbox": [
+            532.0799999999999,
+            632.88,
+            556.56,
+            635.76
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Garanties de crédits",
+      "cells": [
+        {
+          "column": "value_4",
+          "value": "2 660 000 000",
+          "bbox": [
+            493.91999999999996,
+            638.4,
+            518.4,
+            641.28
+          ]
+        },
+        {
+          "column": "value_5",
+          "value": "2 724 150 000",
+          "bbox": [
+            532.0799999999999,
+            638.4,
+            556.56,
+            641.28
+          ]
+        }
+      ]
+    }
+  ],
+  "raw_lines": [
+    {
+      "text": "- RAPPORT FINANCIER ANNUEL",
+      "bbox": [
+        306.48,
+        2.88,
+        420.0,
+        8.16
+      ]
+    },
+    {
+      "text": "DÉTAIL DES AUTRES PASSIFS en Dirhams",
+      "bbox": [
+        312.0,
+        53.76,
+        557.28,
+        57.36
+      ]
+    },
+    {
+      "text": "CREDITEURS DIVERS 908 134 137 801 096 300",
+      "bbox": [
+        312.72,
+        77.52,
+        556.56,
+        80.64
+      ]
+    },
+    {
+      "text": "Sommes dues à l'Etat 106 664 150 147 461 223",
+      "bbox": [
+        312.72,
+        83.28,
+        556.56,
+        86.39999999999999
+      ]
+    },
+    {
+      "text": "Sommes dues aux organismes de prévoyance 1 000 680 3110 970",
+      "bbox": [
+        312.72,
+        89.03999999999999,
+        556.56,
+        92.64
+      ]
+    },
+    {
+      "text": "Sommes diverses dues au personnel 7 893 503 7 234 736",
+      "bbox": [
+        312.72,
+        94.56,
+        556.56,
+        98.16
+      ]
+    },
+    {
+      "text": "Sommes diverses dues aux actionnaires et associés - -",
+      "bbox": [
+        312.72,
+        100.32,
+        556.56,
+        103.2
+      ]
+    },
+    {
+      "text": "Fournisseurs de biens et services 503 261 039 576 069 335",
+      "bbox": [
+        312.96,
+        105.83999999999999,
+        556.56,
+        108.96
+      ]
+    },
+    {
+      "text": "Divers autres créditeurs 289 314 765 67 220 037",
+      "bbox": [
+        312.96,
+        111.6,
+        556.56,
+        114.72
+      ]
+    },
+    {
+      "text": "COMPTES DE REGULARISATION 866 654 861 802 835 405",
+      "bbox": [
+        312.72,
+        117.36,
+        556.56,
+        120.47999999999999
+      ]
+    },
+    {
+      "text": "Comptes d'ajustement des opérations de hors bilan",
+      "bbox": [
+        312.72,
+        122.88,
+        400.56,
+        126.47999999999999
+      ]
+    },
+    {
+      "text": "Comptes d'écarts sur devises et titres - -",
+      "bbox": [
+        312.72,
+        126.72,
+        556.56,
+        133.92
+      ]
+    },
+    {
+      "text": "Résultats sur produits dérivés de couverture - -",
+      "bbox": [
+        312.96,
+        134.16,
+        556.56,
+        137.76
+      ]
+    },
+    {
+      "text": "Comptes de liaison entre siège, succursales et agences au Maroc - -",
+      "bbox": [
+        312.72,
+        139.92,
+        556.56,
+        143.51999999999998
+      ]
+    },
+    {
+      "text": "Charges à payer et produits constatés d'avance 866 654 861 802 835 405",
+      "bbox": [
+        312.72,
+        145.68,
+        556.56,
+        149.28
+      ]
+    },
+    {
+      "text": "Autres comptes de régularisation - -",
+      "bbox": [
+        312.72,
+        151.2,
+        556.56,
+        154.79999999999998
+      ]
+    },
+    {
+      "text": "MARGE D'INTÉRÊT en Dirhams",
+      "bbox": [
+        312.0,
+        164.16,
+        557.28,
+        167.76
+      ]
+    },
+    {
+      "text": "INTERETS PERCUS 336 542 944 219 236 124",
+      "bbox": [
+        312.72,
+        176.4,
+        556.8,
+        179.51999999999998
+      ]
+    },
+    {
+      "text": "Intérêts et produits assimilés sur opérations avec les EC 2 993 686 4 303 268",
+      "bbox": [
+        312.96,
+        182.16,
+        556.56,
+        186.0
+      ]
+    },
+    {
+      "text": "Intérêts et produits assimilés sur opérations avec la clientèle 288 049 258 214 932 856",
+      "bbox": [
+        312.96,
+        187.68,
+        556.56,
+        191.76
+      ]
+    },
+    {
+      "text": "Intérêts et produits assimilés sur titres de créance 45 500 000 -",
+      "bbox": [
+        312.96,
+        193.44,
+        556.56,
+        197.28
+      ]
+    },
+    {
+      "text": "INTERETS SERVIS 127 513 190 100 631 724",
+      "bbox": [
+        312.72,
+        199.2,
+        556.8,
+        202.32
+      ]
+    },
+    {
+      "text": "Intérêts et charges assimilés sur opérations avec les EC 58 665 360 48 650 813",
+      "bbox": [
+        312.96,
+        204.72,
+        556.56,
+        208.56
+      ]
+    },
+    {
+      "text": "Intérêts et charges assimilés sur opérations avec la clientèle - -",
+      "bbox": [
+        312.96,
+        210.72,
+        556.56,
+        214.32
+      ]
+    },
+    {
+      "text": "Intérêts et charges assimilés sur titres de créance émis 68 847 830 51 980 911",
+      "bbox": [
+        312.96,
+        216.0,
+        556.0799999999999,
+        220.07999999999998
+      ]
+    },
+    {
+      "text": "CHARGES GÉNÉRALES D'EXPLOITATION en Dirhams",
+      "bbox": [
+        312.0,
+        224.16,
+        557.28,
+        227.76
+      ]
+    },
+    {
+      "text": "Charges du personnel 19 048 591 18 639 859",
+      "bbox": [
+        312.72,
+        236.88,
+        556.56,
+        240.48
+      ]
+    },
+    {
+      "text": "Impôts et taxes 208 500 208 732",
+      "bbox": [
+        312.96,
+        242.64,
+        556.56,
+        246.23999999999998
+      ]
+    },
+    {
+      "text": "Charges externes 159 299 484 141 162 956",
+      "bbox": [
+        312.72,
+        248.16,
+        556.56,
+        251.76
+      ]
+    },
+    {
+      "text": "Autres charges générales d'exploitation 465 000 500 000",
+      "bbox": [
+        312.72,
+        253.92,
+        556.56,
+        257.52
+      ]
+    },
+    {
+      "text": "Dotations aux amortissements et aux provisions 92 364 71 559",
+      "bbox": [
+        312.96,
+        259.44,
+        556.56,
+        263.03999999999996
+      ]
+    },
+    {
+      "text": "des immobilisations corporelles et incorporelles",
+      "bbox": [
+        312.72,
+        265.2,
+        393.84000000000003,
+        268.8
+      ]
+    },
+    {
+      "text": "CAPITAUX PROPRES en Dirhams",
+      "bbox": [
+        312.0,
+        279.36,
+        557.28,
+        282.24
+      ]
+    },
+    {
+      "text": "CAPITAUX PROPRES 3142/2025 Affectation du Autres 30/06/2026",
+      "bbox": [
+        312.72,
+        283.44,
+        552.48,
+        290.64
+      ]
+    },
+    {
+      "text": "résultat variations",
+      "bbox": [
+        468.48,
+        289.2,
+        519.6,
+        296.4
+      ]
+    },
+    {
+      "text": "Ecarts de réévaluation - - - -",
+      "bbox": [
+        312.96,
+        296.64,
+        543.84,
+        299.52
+      ]
+    },
+    {
+      "text": "Réserves et primes liées au capital 455 465 172 152 412 235 - 607 877 407",
+      "bbox": [
+        312.96,
+        302.4,
+        553.92,
+        306.0
+      ]
+    },
+    {
+      "text": "Réserve légale 28 978 350 - - 28 978 350",
+      "bbox": [
+        312.96,
+        307.92,
+        552.96,
+        311.52
+      ]
+    },
+    {
+      "text": "Autres réserves 426 486 822 152 412 235 - 578 899 057",
+      "bbox": [
+        312.72,
+        313.68,
+        553.92,
+        316.56
+      ]
+    },
+    {
+      "text": "Primes d'émission, de fusion et d'apport - - - -",
+      "bbox": [
+        312.96,
+        319.44,
+        543.84,
+        323.03999999999996
+      ]
+    },
+    {
+      "text": "Capital 289 783 500 - - 289 783 500",
+      "bbox": [
+        312.72,
+        323.03999999999996,
+        553.92,
+        330.24
+      ]
+    },
+    {
+      "text": "Capital appelé 289 783 500 - - 289 783 500",
+      "bbox": [
+        316.08,
+        330.71999999999997,
+        553.92,
+        334.32
+      ]
+    },
+    {
+      "text": "Capital non appelé - - - -",
+      "bbox": [
+        316.08,
+        336.24,
+        543.84,
+        339.84
+      ]
+    },
+    {
+      "text": "Certificats d'investissement - - - -",
+      "bbox": [
+        316.08,
+        342.0,
+        543.84,
+        344.88
+      ]
+    },
+    {
+      "text": "Fonds de dotations - = - =",
+      "bbox": [
+        316.08,
+        347.76,
+        543.84,
+        350.64
+      ]
+    },
+    {
+      "text": "DÉTAIL DE LA TAXE SUR LA VALEUR AJOUTÉE en Dirhams",
+      "bbox": [
+        312.0,
+        382.56,
+        557.28,
+        389.76
+      ]
+    },
+    {
+      "text": "Solde au début de \"Opérations comptables “Déclarations TVA Solde fin",
+      "bbox": [
+        388.32,
+        390.47999999999996,
+        549.84,
+        394.32
+      ]
+    },
+    {
+      "text": "NATURE l'exercice de l'exercice de l'exercice d'exercice",
+      "bbox": [
+        312.96,
+        396.24,
+        551.04,
+        399.12
+      ]
+    },
+    {
+      "text": "1 2 3 (1+2-3=4)",
+      "bbox": [
+        404.15999999999997,
+        402.0,
+        550.3199999999999,
+        405.59999999999997
+      ]
+    },
+    {
+      "text": "B. TVA à récupérer 50 033 865 123 452 139 129 047 850 44 438 154",
+      "bbox": [
+        312.96,
+        413.28,
+        550.8,
+        416.88
+      ]
+    },
+    {
+      "text": ". Sur charges 5 876 876 27 774 363 30 103 240 3 547 999",
+      "bbox": [
+        315.12,
+        419.03999999999996,
+        549.6,
+        422.64
+      ]
+    },
+    {
+      "text": ". Sur immobilisations 44 156 989 95 677 776 98 944 610 40 890 156",
+      "bbox": [
+        315.12,
+        424.56,
+        550.56,
+        427.68
+      ]
+    },
+    {
+      "text": "-Cumul crédit à déduire de l'exercice = : : =",
+      "bbox": [
+        316.08,
+        430.32,
+        541.68,
+        433.2
+      ]
+    },
+    {
+      "text": "ENGAGEMENTS DE FINANCEMENT ET DE GARANTIE en Dirhams",
+      "bbox": [
+        312.0,
+        444.96,
+        557.28,
+        447.84
+      ]
+    },
+    {
+      "text": "ENGAGEMENTS DE FINANCEMENT ET DE GARANTIE DONNES 559 465 020 842 266 599",
+      "bbox": [
+        312.96,
+        456.96,
+        556.56,
+        460.08
+      ]
+    },
+    {
+      "text": "Engag. de financement en faveur d'établissements de crédit et ass. - -",
+      "bbox": [
+        312.96,
+        462.47999999999996,
+        556.56,
+        466.32
+      ]
+    },
+    {
+      "text": "Crédits documentaires import - -",
+      "bbox": [
+        312.72,
+        468.24,
+        556.56,
+        471.84
+      ]
+    },
+    {
+      "text": "Acceptations ou engagements de payer - -",
+      "bbox": [
+        312.72,
+        474.0,
+        556.56,
+        477.59999999999997
+      ]
+    },
+    {
+      "text": "Ouvertures de crédit confirmés - -",
+      "bbox": [
+        312.72,
+        479.52,
+        556.56,
+        482.4
+      ]
+    },
+    {
+      "text": "Engagements de substitution sur émission de titres - -",
+      "bbox": [
+        312.96,
+        485.28,
+        556.56,
+        488.88
+      ]
+    },
+    {
+      "text": "Engagements irévocables de crédit-bail - -",
+      "bbox": [
+        312.96,
+        490.79999999999995,
+        556.56,
+        494.4
+      ]
+    },
+    {
+      "text": "Autres engagements de financement donnés - -",
+      "bbox": [
+        312.72,
+        496.56,
+        556.56,
+        500.15999999999997
+      ]
+    },
+    {
+      "text": "Engagements de financement en faveur de la clientèle 559 465 020 842 266 599",
+      "bbox": [
+        312.72,
+        502.08,
+        556.56,
+        505.91999999999996
+      ]
+    },
+    {
+      "text": "Crédits documentaires import - -",
+      "bbox": [
+        312.72,
+        507.84,
+        556.56,
+        511.44
+      ]
+    },
+    {
+      "text": "Acceptations ou engagements de payer - -",
+      "bbox": [
+        312.72,
+        513.6,
+        556.56,
+        517.1999999999999
+      ]
+    },
+    {
+      "text": "Ouvertures de crédit confirmés 509 627 924 763 434 640",
+      "bbox": [
+        312.72,
+        519.12,
+        556.56,
+        522.48
+      ]
+    },
+    {
+      "text": "Engagements de substitution sur émission de titres - -",
+      "bbox": [
+        312.96,
+        524.88,
+        556.56,
+        528.48
+      ]
+    },
+    {
+      "text": "Engagements irévocables de crédit-bail 49 837 096 78 831 959",
+      "bbox": [
+        312.96,
+        530.64,
+        556.56,
+        534.24
+      ]
+    },
+    {
+      "text": "Autres engagements de financement donnés - -",
+      "bbox": [
+        312.72,
+        536.16,
+        556.56,
+        540.0
+      ]
+    },
+    {
+      "text": "Engagements de garantie d'ordre d'établissements de crédit et ass. - -",
+      "bbox": [
+        312.96,
+        541.92,
+        556.8,
+        545.52
+      ]
+    },
+    {
+      "text": "Crédits documentaires export confirmés - -",
+      "bbox": [
+        312.72,
+        547.4399999999999,
+        556.56,
+        551.28
+      ]
+    },
+    {
+      "text": "Acceptations ou engagements de payer - -",
+      "bbox": [
+        312.72,
+        553.1999999999999,
+        556.56,
+        556.8
+      ]
+    },
+    {
+      "text": "Garanties de crédits données - -",
+      "bbox": [
+        312.72,
+        558.9599999999999,
+        556.56,
+        561.84
+      ]
+    },
+    {
+      "text": "Autres cautions, avals et garanties donnés - -",
+      "bbox": [
+        312.72,
+        564.48,
+        556.56,
+        568.0799999999999
+      ]
+    },
+    {
+      "text": "Engagements en souffrance - -",
+      "bbox": [
+        312.96,
+        570.24,
+        556.56,
+        573.84
+      ]
+    },
+    {
+      "text": "Engagements de garantie d'ordre de la clientèle - -",
+      "bbox": [
+        312.96,
+        575.76,
+        556.8,
+        579.36
+      ]
+    },
+    {
+      "text": "Garanties de crédits données - -",
+      "bbox": [
+        312.72,
+        581.52,
+        556.56,
+        584.4
+      ]
+    },
+    {
+      "text": "Cautions et garanties en faveur de l'administration publique - -",
+      "bbox": [
+        312.72,
+        587.28,
+        556.56,
+        590.88
+      ]
+    },
+    {
+      "text": "Autres cautions et garanties données - -",
+      "bbox": [
+        312.72,
+        592.8,
+        556.56,
+        596.4
+      ]
+    },
+    {
+      "text": "Engagements en souffrance - -",
+      "bbox": [
+        312.96,
+        598.56,
+        556.56,
+        602.16
+      ]
+    },
+    {
+      "text": "ENGAGEMENTS DE FINANCEMENT ET DE GARANTIE RECUS 3 460 000 000 3 825 134 178",
+      "bbox": [
+        312.96,
+        604.0799999999999,
+        556.56,
+        607.4399999999999
+      ]
+    },
+    {
+      "text": "Engagements de financement reçus d'établissements de crédit et ass. 800 000 000 1 100 984 178",
+      "bbox": [
+        312.72,
+        609.84,
+        556.56,
+        613.4399999999999
+      ]
+    },
+    {
+      "text": "Ouvertures de crédit confirmés 800 000 000 1 100 984 178",
+      "bbox": [
+        312.72,
+        615.36,
+        556.56,
+        618.72
+      ]
+    },
+    {
+      "text": "Engagements de substitution sur émission de titres - -",
+      "bbox": [
+        312.96,
+        621.12,
+        556.56,
+        624.72
+      ]
+    },
+    {
+      "text": "Autres engagements de financement reçus - -",
+      "bbox": [
+        312.72,
+        626.88,
+        556.56,
+        630.48
+      ]
+    },
+    {
+      "text": "Engagements de garantie reçus d'établissements de crédit et ass. 2 660 000 000 2724 150 000",
+      "bbox": [
+        312.96,
+        632.64,
+        556.56,
+        636.24
+      ]
+    },
+    {
+      "text": "Garanties de crédits 2 660 000 000 2724 150 000",
+      "bbox": [
+        312.72,
+        638.16,
+        556.56,
+        641.28
+      ]
+    },
+    {
+      "text": "Autres garanties reçues - -",
+      "bbox": [
+        312.72,
+        643.92,
+        556.56,
+        647.52
+      ]
+    },
+    {
+      "text": "Engagements de garantie reçus de l'Etat et d'organismes de garantie divers = -",
+      "bbox": [
+        312.96,
+        649.4399999999999,
+        556.8,
+        653.04
+      ]
+    },
+    {
+      "text": "Garanties de crédits - -",
+      "bbox": [
+        312.72,
+        655.1999999999999,
+        556.56,
+        658.0799999999999
+      ]
+    },
+    {
+      "text": "Autres garanties reçues - -",
+      "bbox": [
+        312.72,
+        660.9599999999999,
+        556.56,
+        664.56
+      ]
+    },
+    {
+      "text": "DATATION ET ÉVÈNEMENTS POSTÉRIEURS",
+      "bbox": [
+        312.0,
+        668.4,
+        393.36,
+        672.0
+      ]
+    },
+    {
+      "text": "(1) Justification en cas de changement de la date de clôture de l'exercice",
+      "bbox": [
+        312.24,
+        698.16,
+        437.03999999999996,
+        701.76
+      ]
+    },
+    {
+      "text": "(2) Justification en cas de dépassement du délai réglementaire de trois mois prévu pour l'élaboration des états de synthèse.",
+      "bbox": [
+        312.24,
+        703.68,
+        523.92,
+        707.28
+      ]
+    },
+    {
+      "text": "Il, EVENEMENTS NES POSTERIEUREMENT A LA CLOTURE DE L'EXERCICE NON RATTACHABLES A",
+      "bbox": [
+        312.24,
+        707.52,
+        498.0,
+        714.72
+      ]
+    },
+    {
+      "text": "CET EXERCICE ET CONNUS AVANT LA 1€ COMMUNICATION EXTERNE DES ETATS DE SYNTHESE",
+      "bbox": [
+        312.24,
+        714.9599999999999,
+        497.03999999999996,
+        717.8399999999999
+      ]
+    },
+    {
+      "text": "NOTE ANNEXE",
+      "bbox": [
+        312.24,
+        726.24,
+        339.6,
+        729.12
+      ]
+    },
+    {
+      "text": "Mobilize Financial Services confirme une trajectoire de croissance maîtrisée, avec des financements nouveaux en progression",
+      "bbox": [
+        312.24,
+        732.0,
+        528.72,
+        735.6
+      ]
+    },
+    {
+      "text": "et un résultat avant impôts en hausse en 2025.",
+      "bbox": [
+        312.24,
+        737.76,
+        392.4,
+        741.36
+      ]
+    },
+    {
+      "text": "RCI Finance Maroc consolide ses performances avec un produit net bancaire en croissance et un encours soutenu,",
+      "bbox": [
+        312.24,
+        749.04,
+        510.24,
+        752.64
+      ]
+    },
+    {
+      "text": "tout en s'appuyant sur une stratégie tarifaire robuste et un contrôle rigoureux des risques.",
+      "bbox": [
+        312.0,
+        754.8,
+        465.36,
+        758.4
+      ]
+    }
+  ],
+  "amount_count": 81,
+  "multi_value_row_count": 36,
+  "labeled_row_count": 37
+}

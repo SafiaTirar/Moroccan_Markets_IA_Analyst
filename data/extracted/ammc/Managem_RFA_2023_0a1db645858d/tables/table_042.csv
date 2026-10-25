@@ -1,0 +1,20 @@
+NATURE ,Cumul d’amortissement début exercice,Dotation de l’exercice,Amortissements sur  immobilisations sorties,Cumul d’amortissement fin exercice
+,1 ,2 ,3 ,4 = 1 + 2 - 3
+IMMOBILISATIONS EN NON-VALEURS ,"46 085 219,67 ","772 705,08 ",,"46 857 924,75"
+* Frais préliminaires ,"34 787 141,25 ",,,"34 787 141,25"
+* Charges à répartir sur plusieurs exercices ,"11 298 078,42 ","772 705,08 ",,"12 070 783,50"
+* Primes de remboursement obligations,,,,
+IMMOBILISATIONS INCORPORELLES ,"198 805 269,18 ","2 600 315,77 ",,"201 405 584,95"
+* Immobilisation en recherche et développement ,"160 660 693,89 ",,,"160 660 693,87"
+"* Brevets, marques, droits et valeurs similaires ","38 144 575,29 ","2 600 315,77 ",,"40 744 891,08"
+* Fonds commercial,,,,
+* Autres immobilisations incorporelles,,,,
+IMMOBILISATIONS CORPORELLES ,"109 493 544,43 ","8 270 483,23 ",,"117 764 027,66"
+* Terrains,,,,
+* Constructions ,"21 801 939,34 ","3 614 033,42 ",,"25 415 972,76"
+"* Installations techniques, matériel et outillage ","4 252 415,64 ","515 171,76 ",,"4 767 587,40"
+* Matériel de transport ,"1 345 620,41 ","355 870,94 ",,"1 701 491,35"
+"* Mobilier, matériel de bureau et aménagement ","82 093 569,04 ","3 785 407,11 ",,"85 878 976,15"
+* Autres immobilisations corporelles Informa tique,,,,
+* Immobilisations corporelles en cours,,,,
+Total Général ,"354 384 033,28 ","11 643 504,08 ",,"366 027 537,36"

@@ -1,0 +1,10 @@
+INDICATEUR SST ,2023 ,2024 ,2025 ,DÉFINITION
+Accidents de travail (avec arrêt) ,3 ,2 ,2 ,Périmètre : collaborateurs directs
+Jours d’arrêt suite aux AT ,330 ,65 ,54 ,Évolution : -17% vs 2024
+Taux de fréquence des AT (TF) ,"0,33 ","0,24 ","0,23 ",(Nb AT × 10⁶) / heures travaillées
+Taux de gravité des AT (TG) ,"0,04 ","0,01 ","0,01 ",(Nb jours perdus × 10³) / heures  travaillées
+Maladies professionnelles reconnues ,0 ,0 ,0 ,GRI 403-10
+Incidents de sûreté ,1 ,1 ,2 ,Incidents mineurs
+Jours de formation SST (collaborateurs) ,1 172 ,538 ,55 ,Sessions certifiantes
+Jours de sensibilisation SST (sous traitants) ,12 196 ,15 374 ,20 724 ,Sensibilisations collectives
+Taux de satisfaction des formations SST ,NC ,NC ,99% ,Évaluation à chaud

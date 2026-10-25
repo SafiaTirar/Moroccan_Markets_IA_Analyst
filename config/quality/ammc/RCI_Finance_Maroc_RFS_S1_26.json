@@ -1,0 +1,75 @@
+{
+  "context_overrides": [
+    {
+      "page": 5,
+      "unit": "DH",
+      "periods": ["30/06/2026", "31/12/2025"],
+      "scope": "SOCIAL",
+      "reference": {
+        "reference_id": "rci-pdf-p5",
+        "source": "PDF AMMC original, page 5, mentions en Dirhams et en-têtes de colonnes"
+      }
+    },
+    {
+      "page": 6,
+      "unit": "DH",
+      "periods": ["30/06/2026", "31/12/2025"],
+      "scope": "SOCIAL",
+      "reference": {
+        "reference_id": "rci-pdf-p6",
+        "source": "PDF AMMC original, page 6, mentions en Dirhams et en-têtes de colonnes"
+      }
+    },
+    {
+      "page": 9,
+      "unit": "KDH",
+      "periods": ["31/12/2025"],
+      "scope": "CONSOLIDATED",
+      "reference": {
+        "reference_id": "rci-pdf-p9-consolidated-list",
+        "source": "PDF AMMC original, page 9, tableau en milliers de dirhams"
+      }
+    }
+  ],
+  "review_decisions": [
+    {
+      "name": "rci_concatenated_amounts_visual_review",
+      "selector": {
+        "reason_code": "SUSPICIOUS_CONCATENATED_AMOUNT"
+      },
+      "decision": "REJECTED",
+      "reliable": true,
+      "reference_id": "rci-pdf-pages-5-6-visual-review",
+      "source": "PDF AMMC original, pages 5 et 6",
+      "page": "5-6",
+      "justification": "La revue visuelle confirme que chaque cellule OCR fusionne plusieurs colonnes distinctes. Aucune valeur corrigée n'est déduite."
+    },
+    {
+      "name": "rci_duplicate_noisy_rows_visual_review",
+      "selector": {
+        "reason_code": "NOISY_ROW_LABEL"
+      },
+      "decision": "REJECTED",
+      "reliable": true,
+      "reference_id": "rci-pdf-page-6-participations-review",
+      "source": "PDF AMMC original, page 6, Titres de participation et emplois assimilés",
+      "page": 6,
+      "justification": "Les huit cellules proviennent de deux duplications OCR de la même ligne dont le libellé et les colonnes ne sont pas conservés de façon fiable."
+    }
+  ],
+  "references": [
+    {
+      "name": "rci_rdfm_result_net_prior",
+      "table_id": "OCR_page:9:left",
+      "label": "RDFM aanooena, | Soétéde | 2000 | 100% | 100% a1624 | 31/2/2025 | | | INTEGRATION",
+      "column": "value_3_extra",
+      "value": "45524",
+      "unit": "KDH",
+      "period": "31/12/2025",
+      "scope": "CONSOLIDATED",
+      "reliable": true,
+      "reference_id": "rci-pdf-p9-rdfm-result-net",
+      "source": "PDF AMMC original, page 9, Liste des entreprises consolidées"
+    }
+  ]
+}

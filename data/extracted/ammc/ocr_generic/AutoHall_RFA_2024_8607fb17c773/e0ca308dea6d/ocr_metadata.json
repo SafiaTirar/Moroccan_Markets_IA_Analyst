@@ -1,0 +1,477 @@
+{
+  "schema_version": "3.0",
+  "source_pdf": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/raw/ammc/pdfs/annual/auto_hall/2024/AutoHall_RFA_2024.pdf",
+  "source_sha256": "8607fb17c773ba52dab858b20a2c1f62ae28d1393ba8c53195d39083d9ff5f6c",
+  "parser_metadata": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/AutoHall_RFA_2024_8607fb17c773/metadata.json",
+  "config": {
+    "languages": [
+      "fra",
+      "eng"
+    ],
+    "psms": [
+      6,
+      11
+    ],
+    "render_dpi": 300,
+    "minimum_image_width": 400,
+    "minimum_image_height": 250,
+    "minimum_region_area_ratio": 0.03,
+    "minimum_amount_count": 5,
+    "column_tolerance": 0.045
+  },
+  "config_sha256": "e0ca308dea6d26eb838790781b5dfac293390b6ff28071a1ba75c2148bb02d4e",
+  "selection": {
+    "selected_pages": [
+      1,
+      3,
+      5,
+      6,
+      13,
+      37,
+      53,
+      59
+    ],
+    "regions_json_sha256": null
+  },
+  "selection_sha256": "4bbe6a097ff10a2f236a938e1e210adee1d9e9f82b50c5ccfc7f317b44137897",
+  "ocr_engine": "tesseract-cli",
+  "tesseract_version": "tesseract 5.5.3",
+  "selected_pages": [
+    1,
+    3,
+    5,
+    6,
+    13,
+    37,
+    53,
+    59
+  ],
+  "regions_examined": 11,
+  "tables_detected": 0,
+  "tables": [],
+  "rejected_regions": [
+    {
+      "page": 1,
+      "bbox": [
+        0.0,
+        0.000244140625,
+        595.2755737304688,
+        841.8899536132812
+      ],
+      "source": "embedded_image",
+      "source_id": "xref:2482:1",
+      "name": null,
+      "image_size": [
+        2481,
+        3508
+      ],
+      "attempts": [
+        {
+          "psm": 6,
+          "score": -6,
+          "amount_count": 0,
+          "keyword_count": 0,
+          "rows": 0,
+          "multi_value_rows": 0,
+          "labeled_rows": 0
+        },
+        {
+          "psm": 11,
+          "score": -15,
+          "amount_count": 0,
+          "keyword_count": 0,
+          "rows": 0,
+          "multi_value_rows": 0,
+          "labeled_rows": 0
+        }
+      ],
+      "selected_psm": 6,
+      "reason": "NOT_FINANCIAL_TABLE"
+    },
+    {
+      "page": 3,
+      "bbox": [
+        0.0,
+        0.00018310546875,
+        1190.550048828125,
+        841.889892578125
+      ],
+      "source": "embedded_image",
+      "source_id": "xref:63:1",
+      "name": null,
+      "image_size": [
+        4961,
+        3508
+      ],
+      "attempts": [
+        {
+          "psm": 6,
+          "score": -7,
+          "amount_count": 0,
+          "keyword_count": 0,
+          "rows": 0,
+          "multi_value_rows": 0,
+          "labeled_rows": 0
+        },
+        {
+          "psm": 11,
+          "score": -15,
+          "amount_count": 0,
+          "keyword_count": 0,
+          "rows": 0,
+          "multi_value_rows": 0,
+          "labeled_rows": 0
+        }
+      ],
+      "selected_psm": 6,
+      "reason": "NOT_FINANCIAL_TABLE"
+    },
+    {
+      "page": 5,
+      "bbox": [
+        0.0,
+        0.0,
+        1190.550048828125,
+        841.8900146484375
+      ],
+      "source": "rendered_page",
+      "source_id": "page:5",
+      "name": null,
+      "image_size": [
+        4961,
+        3508
+      ],
+      "attempts": [
+        {
+          "psm": 6,
+          "score": 60,
+          "amount_count": 6,
+          "keyword_count": 0,
+          "rows": 4,
+          "multi_value_rows": 2,
+          "labeled_rows": 4
+        },
+        {
+          "psm": 11,
+          "score": -65,
+          "amount_count": 4,
+          "keyword_count": 0,
+          "rows": 4,
+          "multi_value_rows": 0,
+          "labeled_rows": 4
+        }
+      ],
+      "selected_psm": 6,
+      "reason": "NOT_FINANCIAL_TABLE"
+    },
+    {
+      "page": 6,
+      "bbox": [
+        0.0,
+        268.9080810546875,
+        596.4415283203125,
+        786.3643188476562
+      ],
+      "source": "embedded_image",
+      "source_id": "xref:105:6",
+      "name": null,
+      "image_size": [
+        2486,
+        2157
+      ],
+      "attempts": [
+        {
+          "psm": 6,
+          "score": -9,
+          "amount_count": 0,
+          "keyword_count": 0,
+          "rows": 0,
+          "multi_value_rows": 0,
+          "labeled_rows": 0
+        },
+        {
+          "psm": 11,
+          "score": -23,
+          "amount_count": 0,
+          "keyword_count": 0,
+          "rows": 0,
+          "multi_value_rows": 0,
+          "labeled_rows": 0
+        }
+      ],
+      "selected_psm": 6,
+      "reason": "NOT_FINANCIAL_TABLE"
+    },
+    {
+      "page": 13,
+      "bbox": [
+        0.0,
+        0.00018310546875,
+        1190.550048828125,
+        841.889892578125
+      ],
+      "source": "embedded_image",
+      "source_id": "xref:593:1",
+      "name": null,
+      "image_size": [
+        4961,
+        3508
+      ],
+      "attempts": [
+        {
+          "psm": 6,
+          "score": -5,
+          "amount_count": 0,
+          "keyword_count": 0,
+          "rows": 0,
+          "multi_value_rows": 0,
+          "labeled_rows": 0
+        },
+        {
+          "psm": 11,
+          "score": -8,
+          "amount_count": 1,
+          "keyword_count": 0,
+          "rows": 1,
+          "multi_value_rows": 0,
+          "labeled_rows": 0
+        }
+      ],
+      "selected_psm": 6,
+      "reason": "NOT_FINANCIAL_TABLE"
+    },
+    {
+      "page": 37,
+      "bbox": [
+        0.0,
+        0.00018310546875,
+        1190.550048828125,
+        841.889892578125
+      ],
+      "source": "embedded_image",
+      "source_id": "xref:827:1",
+      "name": null,
+      "image_size": [
+        4961,
+        3508
+      ],
+      "attempts": [
+        {
+          "psm": 6,
+          "score": -6,
+          "amount_count": 0,
+          "keyword_count": 0,
+          "rows": 0,
+          "multi_value_rows": 0,
+          "labeled_rows": 0
+        },
+        {
+          "psm": 11,
+          "score": -23,
+          "amount_count": 0,
+          "keyword_count": 0,
+          "rows": 0,
+          "multi_value_rows": 0,
+          "labeled_rows": 0
+        }
+      ],
+      "selected_psm": 6,
+      "reason": "NOT_FINANCIAL_TABLE"
+    },
+    {
+      "page": 53,
+      "bbox": [
+        55.51554870605469,
+        84.000244140625,
+        539.5955200195312,
+        786.240234375
+      ],
+      "source": "embedded_image",
+      "source_id": "xref:933:6",
+      "name": null,
+      "image_size": [
+        2018,
+        2926
+      ],
+      "attempts": [
+        {
+          "psm": 6,
+          "score": -46,
+          "amount_count": 0,
+          "keyword_count": 0,
+          "rows": 0,
+          "multi_value_rows": 0,
+          "labeled_rows": 0
+        },
+        {
+          "psm": 11,
+          "score": -77,
+          "amount_count": 1,
+          "keyword_count": 0,
+          "rows": 1,
+          "multi_value_rows": 0,
+          "labeled_rows": 0
+        }
+      ],
+      "selected_psm": 6,
+      "reason": "NOT_FINANCIAL_TABLE"
+    },
+    {
+      "page": 53,
+      "bbox": [
+        650.7619018554688,
+        84.00027465820312,
+        1135.0819091796875,
+        590.6402587890625
+      ],
+      "source": "embedded_image",
+      "source_id": "xref:935:7",
+      "name": null,
+      "image_size": [
+        2019,
+        2111
+      ],
+      "attempts": [
+        {
+          "psm": 6,
+          "score": -33,
+          "amount_count": 0,
+          "keyword_count": 0,
+          "rows": 0,
+          "multi_value_rows": 0,
+          "labeled_rows": 0
+        },
+        {
+          "psm": 11,
+          "score": -64,
+          "amount_count": 3,
+          "keyword_count": 0,
+          "rows": 3,
+          "multi_value_rows": 0,
+          "labeled_rows": 1
+        }
+      ],
+      "selected_psm": 6,
+      "reason": "NOT_FINANCIAL_TABLE"
+    },
+    {
+      "page": 59,
+      "bbox": [
+        55.51554870605469,
+        83.94830322265625,
+        539.5955200195312,
+        730.0282592773438
+      ],
+      "source": "embedded_image",
+      "source_id": "xref:977:6",
+      "name": null,
+      "image_size": [
+        2018,
+        2693
+      ],
+      "attempts": [
+        {
+          "psm": 6,
+          "score": -46,
+          "amount_count": 0,
+          "keyword_count": 0,
+          "rows": 0,
+          "multi_value_rows": 0,
+          "labeled_rows": 0
+        },
+        {
+          "psm": 11,
+          "score": -72,
+          "amount_count": 1,
+          "keyword_count": 0,
+          "rows": 1,
+          "multi_value_rows": 0,
+          "labeled_rows": 0
+        }
+      ],
+      "selected_psm": 6,
+      "reason": "NOT_FINANCIAL_TABLE"
+    },
+    {
+      "page": 59,
+      "bbox": [
+        650.8572998046875,
+        83.89154052734375,
+        1134.937255859375,
+        352.2115478515625
+      ],
+      "source": "embedded_image",
+      "source_id": "xref:979:7",
+      "name": null,
+      "image_size": [
+        2018,
+        1119
+      ],
+      "attempts": [
+        {
+          "psm": 6,
+          "score": -20,
+          "amount_count": 0,
+          "keyword_count": 0,
+          "rows": 0,
+          "multi_value_rows": 0,
+          "labeled_rows": 0
+        },
+        {
+          "psm": 11,
+          "score": -80,
+          "amount_count": 0,
+          "keyword_count": 0,
+          "rows": 0,
+          "multi_value_rows": 0,
+          "labeled_rows": 0
+        }
+      ],
+      "selected_psm": 6,
+      "reason": "NOT_FINANCIAL_TABLE"
+    },
+    {
+      "page": 59,
+      "bbox": [
+        650.8837890625,
+        367.84088134765625,
+        1134.9637451171875,
+        573.0408935546875
+      ],
+      "source": "embedded_image",
+      "source_id": "xref:981:8",
+      "name": null,
+      "image_size": [
+        2018,
+        856
+      ],
+      "attempts": [
+        {
+          "psm": 6,
+          "score": 1,
+          "amount_count": 2,
+          "keyword_count": 0,
+          "rows": 2,
+          "multi_value_rows": 0,
+          "labeled_rows": 2
+        },
+        {
+          "psm": 11,
+          "score": -30,
+          "amount_count": 0,
+          "keyword_count": 0,
+          "rows": 0,
+          "multi_value_rows": 0,
+          "labeled_rows": 0
+        }
+      ],
+      "selected_psm": 6,
+      "reason": "NOT_FINANCIAL_TABLE"
+    }
+  ],
+  "duration_seconds": 69.202,
+  "financial_validation": "NOT_PERFORMED",
+  "status": "FAILED",
+  "cache_used": false,
+  "artifact_sha256": {}
+}

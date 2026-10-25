@@ -9,11 +9,20 @@ authors = [
 ]
 requires-python = ">=3.12,<3.13"
 dependencies = [
-    "numpy>=2.5.4",
+    "beautifulsoup4>=4.15.0",
+    "docling>=2.140.0",
+    "duckdb>=2.0.0",
+    "httpx>=0.28.1",
+    "numpy>=1.26.4,<2",
     "pandas>=3.0.6",
     "pydantic>=2.14.1",
     "pydantic-settings>=2.16.0",
+    "pymupdf<2",
     "python-dotenv>=1.2.4",
+    "requests>=2.34.2",
+    "torch==2.2.2",
+    "torchvision==0.17.2",
+    "transformers<5",
 ]
 
 [project.scripts]

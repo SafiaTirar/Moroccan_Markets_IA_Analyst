@@ -1,0 +1,574 @@
+{
+  "schema_version": "3.0",
+  "source_pdf": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/raw/ammc/pdfs/annual/marsa_maroc/2024/Marsa_Maroc_RFA_2024.pdf",
+  "source_sha256": "544ce1f6baeeb02c3ca69fcaa273bcaf365a78cab2a4f14e8aa45ff256adc4f3",
+  "parser_metadata": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Marsa_Maroc_RFA_2024_544ce1f6baee/metadata.json",
+  "config": {
+    "languages": [
+      "fra",
+      "eng"
+    ],
+    "psms": [
+      6,
+      11
+    ],
+    "render_dpi": 300,
+    "minimum_image_width": 400,
+    "minimum_image_height": 250,
+    "minimum_region_area_ratio": 0.03,
+    "minimum_amount_count": 5,
+    "column_tolerance": 0.045
+  },
+  "config_sha256": "e0ca308dea6d26eb838790781b5dfac293390b6ff28071a1ba75c2148bb02d4e",
+  "selection": {
+    "selected_pages": [
+      1,
+      27,
+      31,
+      39,
+      49,
+      56,
+      64,
+      80,
+      103,
+      105,
+      106,
+      107,
+      134
+    ],
+    "regions_json_sha256": null
+  },
+  "selection_sha256": "9fddda3b681db1846fd22a881c3a0125c567fecdce93a0bd41ee8121e68934c0",
+  "ocr_engine": "tesseract-cli",
+  "tesseract_version": "tesseract 5.5.3",
+  "selected_pages": [
+    1,
+    27,
+    31,
+    39,
+    49,
+    56,
+    64,
+    80,
+    103,
+    105,
+    106,
+    107,
+    134
+  ],
+  "regions_examined": 13,
+  "tables_detected": 1,
+  "tables": [
+    {
+      "table_id": "OCR_001",
+      "page": 134,
+      "bbox": [
+        0.0,
+        0.0,
+        841.8900146484375,
+        595.2760009765625
+      ],
+      "source": "rendered_page",
+      "source_id": "page:134",
+      "name": null,
+      "image_size": [
+        3508,
+        2481
+      ],
+      "attempts": [
+        {
+          "psm": 6,
+          "score": 150,
+          "amount_count": 9,
+          "keyword_count": 1,
+          "rows": 5,
+          "multi_value_rows": 4,
+          "labeled_rows": 5
+        },
+        {
+          "psm": 11,
+          "score": -38,
+          "amount_count": 9,
+          "keyword_count": 1,
+          "rows": 9,
+          "multi_value_rows": 0,
+          "labeled_rows": 0
+        }
+      ],
+      "selected_psm": 6,
+      "rows": 5,
+      "columns": 3,
+      "amount_count": 9,
+      "csv": "tables/ocr_table_001.csv",
+      "coordinates": "coordinates/ocr_table_001.json",
+      "quality_status": "TECHNICALLY_RECOVERED",
+      "financial_validation": "NOT_PERFORMED"
+    }
+  ],
+  "rejected_regions": [
+    {
+      "page": 1,
+      "bbox": [
+        0.0,
+        0.0,
+        841.8900146484375,
+        568.9138793945312
+      ],
+      "source": "embedded_image",
+      "source_id": "xref:11345:1",
+      "name": null,
+      "image_size": [
+        3508,
+        2371
+      ],
+      "attempts": [
+        {
+          "psm": 6,
+          "score": -8,
+          "amount_count": 0,
+          "keyword_count": 0,
+          "rows": 0,
+          "multi_value_rows": 0,
+          "labeled_rows": 0
+        },
+        {
+          "psm": 11,
+          "score": -34,
+          "amount_count": 0,
+          "keyword_count": 0,
+          "rows": 0,
+          "multi_value_rows": 0,
+          "labeled_rows": 0
+        }
+      ],
+      "selected_psm": 6,
+      "reason": "NOT_FINANCIAL_TABLE"
+    },
+    {
+      "page": 27,
+      "bbox": [
+        589.97900390625,
+        0.0,
+        841.8900146484375,
+        595.2760009765625
+      ],
+      "source": "embedded_image",
+      "source_id": "xref:672:1",
+      "name": null,
+      "image_size": [
+        1050,
+        2481
+      ],
+      "attempts": [
+        {
+          "psm": 6,
+          "score": -20,
+          "amount_count": 0,
+          "keyword_count": 0,
+          "rows": 0,
+          "multi_value_rows": 0,
+          "labeled_rows": 0
+        },
+        {
+          "psm": 11,
+          "score": -35,
+          "amount_count": 0,
+          "keyword_count": 0,
+          "rows": 0,
+          "multi_value_rows": 0,
+          "labeled_rows": 0
+        }
+      ],
+      "selected_psm": 6,
+      "reason": "NOT_FINANCIAL_TABLE"
+    },
+    {
+      "page": 31,
+      "bbox": [
+        331.8387756347656,
+        204.09432983398438,
+        841.8900146484375,
+        595.2760009765625
+      ],
+      "source": "embedded_image",
+      "source_id": "xref:702:1",
+      "name": null,
+      "image_size": [
+        2126,
+        1631
+      ],
+      "attempts": [
+        {
+          "psm": 6,
+          "score": -23,
+          "amount_count": 0,
+          "keyword_count": 0,
+          "rows": 0,
+          "multi_value_rows": 0,
+          "labeled_rows": 0
+        },
+        {
+          "psm": 11,
+          "score": -44,
+          "amount_count": 0,
+          "keyword_count": 0,
+          "rows": 0,
+          "multi_value_rows": 0,
+          "labeled_rows": 0
+        }
+      ],
+      "selected_psm": 6,
+      "reason": "NOT_FINANCIAL_TABLE"
+    },
+    {
+      "page": 39,
+      "bbox": [
+        588.56494140625,
+        0.0,
+        841.8900146484375,
+        595.2760009765625
+      ],
+      "source": "embedded_image",
+      "source_id": "xref:1694:1",
+      "name": null,
+      "image_size": [
+        1056,
+        2481
+      ],
+      "attempts": [
+        {
+          "psm": 6,
+          "score": -37,
+          "amount_count": 0,
+          "keyword_count": 0,
+          "rows": 0,
+          "multi_value_rows": 0,
+          "labeled_rows": 0
+        },
+        {
+          "psm": 11,
+          "score": -109,
+          "amount_count": 0,
+          "keyword_count": 0,
+          "rows": 0,
+          "multi_value_rows": 0,
+          "labeled_rows": 0
+        }
+      ],
+      "selected_psm": 6,
+      "reason": "NOT_FINANCIAL_TABLE"
+    },
+    {
+      "page": 49,
+      "bbox": [
+        588.3336181640625,
+        0.0025634765625,
+        841.8900146484375,
+        595.2760009765625
+      ],
+      "source": "embedded_image",
+      "source_id": "xref:2085:1",
+      "name": null,
+      "image_size": [
+        1057,
+        2481
+      ],
+      "attempts": [
+        {
+          "psm": 6,
+          "score": -31,
+          "amount_count": 0,
+          "keyword_count": 0,
+          "rows": 0,
+          "multi_value_rows": 0,
+          "labeled_rows": 0
+        },
+        {
+          "psm": 11,
+          "score": -58,
+          "amount_count": 0,
+          "keyword_count": 0,
+          "rows": 0,
+          "multi_value_rows": 0,
+          "labeled_rows": 0
+        }
+      ],
+      "selected_psm": 6,
+      "reason": "NOT_FINANCIAL_TABLE"
+    },
+    {
+      "page": 56,
+      "bbox": [
+        588.577392578125,
+        0.0003662109375,
+        841.8900146484375,
+        595.2760009765625
+      ],
+      "source": "embedded_image",
+      "source_id": "xref:2137:1",
+      "name": null,
+      "image_size": [
+        1056,
+        2481
+      ],
+      "attempts": [
+        {
+          "psm": 6,
+          "score": -10,
+          "amount_count": 0,
+          "keyword_count": 0,
+          "rows": 0,
+          "multi_value_rows": 0,
+          "labeled_rows": 0
+        },
+        {
+          "psm": 11,
+          "score": -40,
+          "amount_count": 0,
+          "keyword_count": 0,
+          "rows": 0,
+          "multi_value_rows": 0,
+          "labeled_rows": 0
+        }
+      ],
+      "selected_psm": 6,
+      "reason": "NOT_FINANCIAL_TABLE"
+    },
+    {
+      "page": 64,
+      "bbox": [
+        0.0,
+        0.0,
+        841.8900146484375,
+        595.2760009765625
+      ],
+      "source": "rendered_page",
+      "source_id": "page:64",
+      "name": null,
+      "image_size": [
+        3508,
+        2481
+      ],
+      "attempts": [
+        {
+          "psm": 6,
+          "score": -41,
+          "amount_count": 0,
+          "keyword_count": 0,
+          "rows": 0,
+          "multi_value_rows": 0,
+          "labeled_rows": 0
+        },
+        {
+          "psm": 11,
+          "score": -106,
+          "amount_count": 0,
+          "keyword_count": 0,
+          "rows": 0,
+          "multi_value_rows": 0,
+          "labeled_rows": 0
+        }
+      ],
+      "selected_psm": 6,
+      "reason": "NOT_FINANCIAL_TABLE"
+    },
+    {
+      "page": 80,
+      "bbox": [
+        64.65725708007812,
+        0.00042724609375,
+        841.8897705078125,
+        564.0949096679688
+      ],
+      "source": "embedded_image",
+      "source_id": "xref:2286:1",
+      "name": null,
+      "image_size": [
+        3239,
+        2351
+      ],
+      "attempts": [
+        {
+          "psm": 6,
+          "score": -7,
+          "amount_count": 0,
+          "keyword_count": 0,
+          "rows": 0,
+          "multi_value_rows": 0,
+          "labeled_rows": 0
+        },
+        {
+          "psm": 11,
+          "score": -54,
+          "amount_count": 0,
+          "keyword_count": 0,
+          "rows": 0,
+          "multi_value_rows": 0,
+          "labeled_rows": 0
+        }
+      ],
+      "selected_psm": 6,
+      "reason": "NOT_FINANCIAL_TABLE"
+    },
+    {
+      "page": 103,
+      "bbox": [
+        64.66219329833984,
+        0.0,
+        841.8900146484375,
+        595.2760009765625
+      ],
+      "source": "embedded_image",
+      "source_id": "xref:2592:1",
+      "name": null,
+      "image_size": [
+        3239,
+        2481
+      ],
+      "attempts": [
+        {
+          "psm": 6,
+          "score": -14,
+          "amount_count": 0,
+          "keyword_count": 0,
+          "rows": 0,
+          "multi_value_rows": 0,
+          "labeled_rows": 0
+        },
+        {
+          "psm": 11,
+          "score": -40,
+          "amount_count": 0,
+          "keyword_count": 0,
+          "rows": 0,
+          "multi_value_rows": 0,
+          "labeled_rows": 0
+        }
+      ],
+      "selected_psm": 6,
+      "reason": "NOT_FINANCIAL_TABLE"
+    },
+    {
+      "page": 105,
+      "bbox": [
+        616.0943603515625,
+        0.0,
+        841.8900146484375,
+        595.2760009765625
+      ],
+      "source": "embedded_image",
+      "source_id": "xref:2602:1",
+      "name": null,
+      "image_size": [
+        941,
+        2481
+      ],
+      "attempts": [
+        {
+          "psm": 6,
+          "score": -18,
+          "amount_count": 1,
+          "keyword_count": 0,
+          "rows": 1,
+          "multi_value_rows": 0,
+          "labeled_rows": 1
+        },
+        {
+          "psm": 11,
+          "score": -57,
+          "amount_count": 0,
+          "keyword_count": 0,
+          "rows": 0,
+          "multi_value_rows": 0,
+          "labeled_rows": 0
+        }
+      ],
+      "selected_psm": 6,
+      "reason": "NOT_FINANCIAL_TABLE"
+    },
+    {
+      "page": 106,
+      "bbox": [
+        614.5843505859375,
+        0.0,
+        841.8900146484375,
+        595.2760009765625
+      ],
+      "source": "embedded_image",
+      "source_id": "xref:2608:1",
+      "name": null,
+      "image_size": [
+        948,
+        2481
+      ],
+      "attempts": [
+        {
+          "psm": 6,
+          "score": -37,
+          "amount_count": 0,
+          "keyword_count": 0,
+          "rows": 0,
+          "multi_value_rows": 0,
+          "labeled_rows": 0
+        },
+        {
+          "psm": 11,
+          "score": -188,
+          "amount_count": 0,
+          "keyword_count": 0,
+          "rows": 0,
+          "multi_value_rows": 0,
+          "labeled_rows": 0
+        }
+      ],
+      "selected_psm": 6,
+      "reason": "NOT_FINANCIAL_TABLE"
+    },
+    {
+      "page": 107,
+      "bbox": [
+        336.2720642089844,
+        0.0,
+        841.8900146484375,
+        595.2760009765625
+      ],
+      "source": "embedded_image",
+      "source_id": "xref:2614:1",
+      "name": null,
+      "image_size": [
+        2107,
+        2481
+      ],
+      "attempts": [
+        {
+          "psm": 6,
+          "score": -17,
+          "amount_count": 0,
+          "keyword_count": 0,
+          "rows": 0,
+          "multi_value_rows": 0,
+          "labeled_rows": 0
+        },
+        {
+          "psm": 11,
+          "score": -125,
+          "amount_count": 0,
+          "keyword_count": 0,
+          "rows": 0,
+          "multi_value_rows": 0,
+          "labeled_rows": 0
+        }
+      ],
+      "selected_psm": 6,
+      "reason": "NOT_FINANCIAL_TABLE"
+    }
+  ],
+  "duration_seconds": 45.025,
+  "financial_validation": "NOT_PERFORMED",
+  "status": "PARSED",
+  "cache_used": false,
+  "artifact_sha256": {
+    "tables/ocr_table_001.csv": "3f2a9d26d620c636d8173e61cff6e98e11caef634a44d16c2d21c1a1eb151f56",
+    "coordinates/ocr_table_001.json": "5809e75300c6204186b9bcceafa15ddd998fcd6174b35f3f6579a41bfb2f72ac"
+  }
+}

@@ -1,0 +1,255 @@
+{
+  "schema_version": "1.0",
+  "dossiers": [
+    {
+      "company_id": "attijariwafa_bank",
+      "exercise_year": 2023,
+      "status": "REVIEW_REQUIRED",
+      "source_pdf": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/raw/ammc/pdfs/annual/attijariwafa_bank/2023/AWB_RFA_2023.pdf",
+      "page": [
+        9
+      ],
+      "table_id": "DOCLING_003",
+      "label": "",
+      "column": "PIB .2023E ",
+      "raw_value": "4,0 ",
+      "unit": null,
+      "period": "2023",
+      "accounting_perimeter": "UNKNOWN",
+      "bbox": null,
+      "reasons": [
+        {
+          "code": "MISSING_ROW_LABEL",
+          "message": "La valeur chiffrée ne possède aucun libellé de ligne.",
+          "severity": "ERROR"
+        }
+      ],
+      "decision": "Aucune validation humaine simulée; contrôle PDF requis."
+    },
+    {
+      "company_id": "cosumar",
+      "exercise_year": 2023,
+      "status": "REVIEW_REQUIRED",
+      "source_pdf": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/raw/ammc/pdfs/annual/cosumar/2023/COSUMAR_RFA_2023.pdf",
+      "page": [
+        61
+      ],
+      "table_id": "DOCLING_005",
+      "label": "",
+      "column": "2020 ",
+      "raw_value": "37 ",
+      "unit": null,
+      "period": "2020",
+      "accounting_perimeter": "UNKNOWN",
+      "bbox": null,
+      "reasons": [
+        {
+          "code": "MISSING_ROW_LABEL",
+          "message": "La valeur chiffrée ne possède aucun libellé de ligne.",
+          "severity": "ERROR"
+        }
+      ],
+      "decision": "Aucune validation humaine simulée; contrôle PDF requis."
+    },
+    {
+      "company_id": "cosumar",
+      "exercise_year": 2024,
+      "status": "REVIEW_REQUIRED",
+      "source_pdf": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/raw/ammc/pdfs/annual/cosumar/2024/COSUMAR_RFA_2024.pdf",
+      "page": [
+        72
+      ],
+      "table_id": "DOCLING_008",
+      "label": "",
+      "column": "2021 ",
+      "raw_value": "49 ",
+      "unit": null,
+      "period": "2021",
+      "accounting_perimeter": "UNKNOWN",
+      "bbox": null,
+      "reasons": [
+        {
+          "code": "MISSING_ROW_LABEL",
+          "message": "La valeur chiffrée ne possède aucun libellé de ligne.",
+          "severity": "ERROR"
+        }
+      ],
+      "decision": "Aucune validation humaine simulée; contrôle PDF requis."
+    },
+    {
+      "company_id": "lafargeholcim_maroc",
+      "exercise_year": 2023,
+      "status": "REVIEW_REQUIRED",
+      "source_pdf": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/raw/ammc/pdfs/annual/lafargeholcim_maroc/2023/LafargeHolcim_RFA_2023.pdf",
+      "page": [
+        41
+      ],
+      "table_id": "DOCLING_002",
+      "label": "",
+      "column": "2021 ",
+      "raw_value": "153 ",
+      "unit": null,
+      "period": "2021",
+      "accounting_perimeter": "UNKNOWN",
+      "bbox": null,
+      "reasons": [
+        {
+          "code": "MISSING_ROW_LABEL",
+          "message": "La valeur chiffrée ne possède aucun libellé de ligne.",
+          "severity": "ERROR"
+        }
+      ],
+      "decision": "Aucune validation humaine simulée; contrôle PDF requis."
+    },
+    {
+      "company_id": "lafargeholcim_maroc",
+      "exercise_year": 2024,
+      "status": "REVIEW_REQUIRED",
+      "source_pdf": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/raw/ammc/pdfs/annual/lafargeholcim_maroc/2024/LafargeHolcim_Maroc_RFA_2024.pdf",
+      "page": [
+        27
+      ],
+      "table_id": "DOCLING_001",
+      "label": "",
+      "column": "2022 ",
+      "raw_value": "151 ",
+      "unit": null,
+      "period": "2022",
+      "accounting_perimeter": "UNKNOWN",
+      "bbox": null,
+      "reasons": [
+        {
+          "code": "MISSING_ROW_LABEL",
+          "message": "La valeur chiffrée ne possède aucun libellé de ligne.",
+          "severity": "ERROR"
+        }
+      ],
+      "decision": "Aucune validation humaine simulée; contrôle PDF requis."
+    },
+    {
+      "company_id": "lafargeholcim_maroc",
+      "exercise_year": 2025,
+      "status": "REVIEW_REQUIRED",
+      "source_pdf": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/raw/ammc/pdfs/annual/lafargeholcim_maroc/2025/LafargeHolcim_RFA_2025.pdf",
+      "page": [
+        33
+      ],
+      "table_id": "DOCLING_001",
+      "label": "",
+      "column": "2023 ",
+      "raw_value": "152 ",
+      "unit": null,
+      "period": "2023",
+      "accounting_perimeter": "UNKNOWN",
+      "bbox": null,
+      "reasons": [
+        {
+          "code": "MISSING_ROW_LABEL",
+          "message": "La valeur chiffrée ne possède aucun libellé de ligne.",
+          "severity": "ERROR"
+        }
+      ],
+      "decision": "Aucune validation humaine simulée; contrôle PDF requis."
+    },
+    {
+      "company_id": "managem",
+      "exercise_year": 2023,
+      "status": "REVIEW_REQUIRED",
+      "source_pdf": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/raw/ammc/pdfs/annual/managem/2023/Managem_RFA_2023.pdf",
+      "page": [
+        25
+      ],
+      "table_id": "DOCLING_002",
+      "label": "",
+      "column": "Tonnage ",
+      "raw_value": "1 359 ",
+      "unit": null,
+      "period": null,
+      "accounting_perimeter": "UNKNOWN",
+      "bbox": null,
+      "reasons": [
+        {
+          "code": "MISSING_ROW_LABEL",
+          "message": "La valeur chiffrée ne possède aucun libellé de ligne.",
+          "severity": "ERROR"
+        }
+      ],
+      "decision": "Aucune validation humaine simulée; contrôle PDF requis."
+    },
+    {
+      "company_id": "managem",
+      "exercise_year": 2024,
+      "status": "REVIEW_REQUIRED",
+      "source_pdf": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/raw/ammc/pdfs/annual/managem/2024/Managem_RFA_2024.pdf",
+      "page": [
+        33
+      ],
+      "table_id": "DOCLING_001",
+      "label": "",
+      "column": "Tonnage ",
+      "raw_value": "1 677 ",
+      "unit": null,
+      "period": null,
+      "accounting_perimeter": "UNKNOWN",
+      "bbox": null,
+      "reasons": [
+        {
+          "code": "MISSING_ROW_LABEL",
+          "message": "La valeur chiffrée ne possède aucun libellé de ligne.",
+          "severity": "ERROR"
+        }
+      ],
+      "decision": "Aucune validation humaine simulée; contrôle PDF requis."
+    },
+    {
+      "company_id": "marsa_maroc",
+      "exercise_year": 2024,
+      "status": "REVIEW_REQUIRED",
+      "source_pdf": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/raw/ammc/pdfs/annual/marsa_maroc/2024/Marsa_Maroc_RFA_2024.pdf",
+      "page": [
+        110
+      ],
+      "table_id": "DOCLING_037",
+      "label": "Total actif",
+      "column": "31/12/2024 ",
+      "raw_value": "8 298 683 ",
+      "unit": "UNKNOWN",
+      "period": "2024",
+      "accounting_perimeter": "CONSOLIDATED",
+      "bbox": null,
+      "reasons": [
+        {
+          "code": "SOURCE_REVIEW_UNRESOLVED",
+          "message": "L'unité n'est pas imprimée sur la page 110 du bilan; l'unité de la page 112 ne peut pas être transférée automatiquement.",
+          "severity": "WARNING"
+        }
+      ],
+      "decision": "Aucune validation humaine simulée; contrôle PDF requis."
+    },
+    {
+      "company_id": "sonasid",
+      "exercise_year": 2025,
+      "status": "REVIEW_REQUIRED",
+      "source_pdf": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/raw/ammc/pdfs/annual/sonasid/2025/Sonasid_RFA_2025.pdf",
+      "page": [
+        26
+      ],
+      "table_id": "DOCLING_002",
+      "label": "02",
+      "column": "20 ",
+      "raw_value": "21 ",
+      "unit": null,
+      "period": null,
+      "accounting_perimeter": "UNKNOWN",
+      "bbox": null,
+      "reasons": [
+        {
+          "code": "NOISY_ROW_LABEL",
+          "message": "Le libellé contient trop peu de caractères alphabétiques.",
+          "severity": "WARNING"
+        }
+      ],
+      "decision": "Aucune validation humaine simulée; contrôle PDF requis."
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+DETAIL DES NON-VALEURS.COMPTE PRINCIPAL ,INTITULE ,MONTANT
+211 ,FRAIS PRELIMINAIRES,NEANT
+2112 ,Frais préalables au démarrage,NEANT
+2113 ,Frais d'augmentation du capital,NEANT
+2114 ,"Frais sur opérations de fusions, scissions et transformations",NEANT
+2116 ,Frais de prospection,NEANT
+2117 ,Frais de publicité,NEANT
+2118 ,Autres frais préliminaires,NEANT
+212 ,CHARGES A REPARTIR SUR PLUSIEURS EXERCICES,NEANT
+21210000 ,Frais d'acquisition des immobilisations JORF,NEANT
+21210000 ,Frais d'acquisition des Logements JORF,NEANT
+21210000 ,Frais d'acquisition des Logements ACIERIE,NEANT
+21210000 ,Frais d'acquisition des Logements,NEANT
+21210000 ,Frais d'acquisition terrains ,NEANT
+21210000 ,Frais d'acquisition des Plateaux TWIN CENT,NEANT
+213 ,CHARGES A REPARTIR SUR PLUSIEURS EXERCICES,NEANT
+2130 ,Primes de remboursement des obligations,NEANT
+,TOTAL,

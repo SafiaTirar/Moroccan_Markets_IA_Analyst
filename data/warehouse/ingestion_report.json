@@ -1,0 +1,147 @@
+{
+  "schema_version": "1.0",
+  "status": "COMMITTED",
+  "cache_used": false,
+  "started_at": "2026-10-23T22:34:42.105892+00:00",
+  "completed_at": "2026-10-23T22:34:42.632142+00:00",
+  "ingestion_fingerprint": "f52db979d87a918575672d7f12050f96843e0df8746612684419fe4c891e43e1",
+  "database": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/warehouse/moroccan_markets.duckdb",
+  "database_sha256": "c94ed17ec6e65196c53127ea8e904dfbb5ef3d5d17f8a659d341e5f7bd4a0089",
+  "runtime": {
+    "duckdb_version": "2.0.0",
+    "memory_limit": "1GB",
+    "threads": 1
+  },
+  "source_sha256": {
+    "hcp": "aa894c15bae477abad6d2484b998505bcf2bb651e3cf8918c5f016508d511efd",
+    "worldbank": "c0a505de98a528d144af3052d7d4933bdf26966ab89510af08063c78bdb36826",
+    "financial": "6faca0d18cf594bc286c29a10d376ed58c17c68ec51c5bacb611b49ab6849fc4",
+    "companies": "3b70fcaedd1d659c446bee5f6e7265884a0b3c1a8229b24ea4f12f57753649c0",
+    "references": "7a44903f95de35991db2bb82345145b14de52bd55548836e8bd08c8f90bd3d5f",
+    "manifest": "9f6fefb38b6e5539e3830d1cac144624f4903b18d398c63c7817f814958aaffc",
+    "schema": "0643db8563c3de87581e18665365c7c077b4d39063f036a655633f0f70a8dcb4",
+    "example_queries": "217ebae6a53e39537514bafd061ab3fc90a24eb3030d7103cf5845fff11a7f51",
+    "loader": "5670056b93a05ef42fbac787666954cbae58a1d7daa04b8afd6ae43474c55515"
+  },
+  "loaded_rows": {
+    "dim_company": 15,
+    "fact_financial_observations": 25,
+    "fact_hcp_monthly": 348,
+    "fact_worldbank_annual": 32
+  },
+  "audit": {
+    "dim_company": {
+      "row_count": 15,
+      "company_ids": [
+        "aradei_capital",
+        "attijariwafa_bank",
+        "auto_hall",
+        "cosumar",
+        "dari_couspate",
+        "lafargeholcim_maroc",
+        "lesieur_cristal",
+        "managem",
+        "marsa_maroc",
+        "s2m",
+        "sonasid",
+        "sothema",
+        "stroc",
+        "totalenergies_marketing_maroc",
+        "wafa_assurance"
+      ]
+    },
+    "financial": {
+      "columns": [
+        "company_id",
+        "exercise_year",
+        "indicator",
+        "normalized_value",
+        "currency",
+        "scale",
+        "accounting_perimeter",
+        "source_pdf_sha256",
+        "page_number",
+        "table_id",
+        "verification_reference_id",
+        "verification_status"
+      ],
+      "row_count": 25,
+      "missing_value_count": 0,
+      "verification_statuses": {
+        "VERIFIED": 25
+      },
+      "comparative_observation_count": 2,
+      "current_observation_count": 23,
+      "report_level_combination_count": 23,
+      "observation_level_key_count": 25,
+      "quarantined_rows": 0
+    },
+    "hcp": {
+      "columns": [
+        "date",
+        "indicator",
+        "category",
+        "value",
+        "unit",
+        "base_year",
+        "source",
+        "source_file",
+        "source_sha256",
+        "source_sheet",
+        "source_row"
+      ],
+      "row_count": 348,
+      "missing_value_count": 0,
+      "start_date": "2017-01-01",
+      "end_date": "2026-08-01",
+      "units": [
+        "index_points"
+      ],
+      "categories": [
+        "Alimentation",
+        "Indice Général",
+        "Produits Non Alimentaires"
+      ],
+      "quarantined_rows": 0
+    },
+    "worldbank": {
+      "columns": [
+        "country",
+        "year",
+        "indicator",
+        "value",
+        "unit",
+        "source",
+        "source_file",
+        "source_sha256"
+      ],
+      "row_count": 32,
+      "missing_value_count": 0,
+      "start_year": 2010,
+      "end_year": 2025,
+      "units": [
+        "percent"
+      ],
+      "indicators": [
+        "gdp_growth_annual_pct",
+        "inflation_consumer_prices_annual_pct"
+      ],
+      "quarantined_rows": 0
+    }
+  },
+  "quality": {
+    "critical_error_count": 0,
+    "total_quarantined_rows": 0,
+    "non_verified_financial_rows_loaded": 0,
+    "financial_combination_explanation": "Les 25 observations conservent à la fois l'exercice du rapport, la période observée et le marqueur comparatif. Une valeur comparative publiée dans un rapport ultérieur ne remplace donc pas silencieusement la valeur du rapport de l'exercice d'origine.",
+    "macro_semantic_separation": "L'IPC HCP mensuel en points d'indice et l'inflation World Bank annuelle en pourcentage restent dans deux faits et deux vues."
+  },
+  "views": [
+    "v_financial_observations",
+    "v_financial_coverage",
+    "v_hcp_monthly_trend",
+    "v_worldbank_annual_trend"
+  ],
+  "query_results": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/warehouse/example_query_results.json",
+  "query_results_sha256": "742512d52c4230e72e8a99cf8f5d42585ae7728467d790f4a4a39ddebb4233a6"
+}

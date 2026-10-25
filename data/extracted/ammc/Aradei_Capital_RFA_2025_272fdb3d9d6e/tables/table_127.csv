@@ -1,0 +1,29 @@
+RUBRIQUES,PRÉCÉDENT EXERCICE ACTUEL EXERCICE.,,RESSOURCES EMPLOIS RESSOURCES EMPLOIS
+(FLUX (EXERCICE'L DE STABLES RESSOURCE . I,,,
+,"437,94 506 56 - 373,23 480 158 - (A (Autofinancement",,
+"856,44 704 183 486,77 018 118 autofinancement'd Capacité .",,,
+"294,38 211 240 - 860,00 498 276 - bénéfices de Distribution .",,,
+"297,77 778 78 (B (immobilisations des réduction et Cession",,,- 
+.incorp immobilisations Cession .,,- - ,
+.corpor immobilisations Cession .,,,
+.financ immobilisations Cession .,,,- 
+"297,77 778 78 .immob créances/ Récupération .",,,- 
+"680,00 999 649 - (C (assim et propres capitaux des .Augment",,,
+"680,00 999 649 - apports ,capital de Augmentation .",,,
+investissements'd Subventions .,,,- 
+"401,13 433 664,15 857 1 (D (financement de dettes Des .Augment",,,
+"401,13 433 664,15 857 1 (remboursement de primes de nettes (.",,,
+"643,19 926 593 411,31 844 77 - (D+C+B+A (STABLES RESSOURCES - I TOTAL",,,
+( FLUX ( EXERCICE STABLES EMPLOIS . II,,,
+"756,74 041 453 918,88 795 452 (E (immobilisation'd augmentation ,Acquisitions",,,
+"647,73 52 667,00 231 incorporelles .immo'd Acquisitions .",,,
+"237,11 286 6 251,88 074 21 corporelles .immo'd Acquisitions .",,,
+"355,90 278 112 000,00 490 431 financières .immo'd Acquisitions .",,,
+"516,00 424 334 - .imm créances des Augmentation .",,,
+(F (propres capitaux des Remboursement,- ,,
+"805,94 044 150 301,85 196 245 (G (financement de dettes Remboursement",,,
+"307,44 105 13 - (H (valeurs non en Emplois",,,
+"870,12 191 616 - 220,73 992 697 (H+G+F+E (STABLES EMPLOIS - II TOTAL",,,- 
+"808,36 603 145 - 171,36 526 420 - GLOBAL FINANCE BESOIN .VAR .III",,,
+"581,43 338 123 460,68 310 355 - TRÉSORERIE LA DE VARIATION .IV",,,- 
+"451,55 530 739 451,55 530 739 220,73 992 697 220,73 992 697 GENERAL TOTAL",,,

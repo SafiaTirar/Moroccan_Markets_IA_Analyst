@@ -2,10 +2,12 @@ import argparse
 import hashlib
 import json
 import logging
+import time
 from datetime import UTC, datetime
 from pathlib import Path
 
 import docling
+from docling.backend.pypdfium2_backend import PyPdfiumDocumentBackend
 from docling.datamodel.base_models import InputFormat
 from docling.datamodel.pipeline_options import PdfPipelineOptions
 from docling.document_converter import (
@@ -28,6 +30,17 @@ logger = logging.getLogger(__name__)
 
 PROJECT_ROOT = Path(__file__).resolve().parents[4]
 OUTPUT_ROOT = PROJECT_ROOT / "data" / "extracted" / "ammc"
+BACKEND_NAME = (
+    "docling.backend.pypdfium2_backend.PyPdfiumDocumentBackend"
+)
+EXTRACTION_CONFIG = {
+    "backend": BACKEND_NAME,
+    "do_ocr": False,
+    "do_table_structure": True,
+}
+EXTRACTION_CONFIG_SHA256 = hashlib.sha256(
+    json.dumps(EXTRACTION_CONFIG, sort_keys=True).encode()
+).hexdigest()
 
 
 class ParsedDocument(BaseModel):
@@ -36,6 +49,10 @@ class ParsedDocument(BaseModel):
     parsed_at: str
     docling_version: str
     validation_schema_version: str
+    backend: str
+    extraction_config: dict[str, object]
+    extraction_config_sha256: str
+    conversion_seconds: float
     page_count: int
     table_count: int
     table_pages: list[list[int]] = Field(default_factory=list)
@@ -84,6 +101,7 @@ class AMMCPDFParser:
                 format_options={
                     InputFormat.PDF: PdfFormatOption(
                         pipeline_options=options,
+                        backend=PyPdfiumDocumentBackend,
                     )
                 },
             )
@@ -124,6 +142,7 @@ class AMMCPDFParser:
         markdown_path = output_dir / "document.md"
         json_path = output_dir / "document.json"
 
+        conversion_started = time.monotonic()
         try:
             result = self._get_converter().convert(str(pdf_path))
             document = result.document
@@ -135,6 +154,7 @@ class AMMCPDFParser:
                 markdown_path=markdown_path,
                 json_path=json_path,
                 error=exc,
+                conversion_seconds=time.monotonic() - conversion_started,
             )
             raise RuntimeError(
                 f"Échec de la conversion Docling : {pdf_path.name}"
@@ -197,6 +217,13 @@ class AMMCPDFParser:
             parsed_at=datetime.now(UTC).isoformat(),
             docling_version=docling.__version__,
             validation_schema_version=VALIDATION_SCHEMA_VERSION,
+            backend=BACKEND_NAME,
+            extraction_config=EXTRACTION_CONFIG,
+            extraction_config_sha256=EXTRACTION_CONFIG_SHA256,
+            conversion_seconds=round(
+                time.monotonic() - conversion_started,
+                3,
+            ),
             page_count=len(document.pages),
             table_count=len(document.tables),
             table_pages=table_pages,
@@ -249,6 +276,8 @@ class AMMCPDFParser:
             metadata=metadata,
             source_sha256=file_hash,
             docling_version=docling.__version__,
+            backend_name=BACKEND_NAME,
+            extraction_config_sha256=EXTRACTION_CONFIG_SHA256,
         ):
             logger.info("Cache invalide, reconversion nécessaire")
             return None
@@ -268,6 +297,7 @@ class AMMCPDFParser:
         markdown_path: Path,
         json_path: Path,
         error: Exception,
+        conversion_seconds: float,
     ) -> None:
         issue = ValidationIssue(
             code="CONVERSION_FAILED",
@@ -287,6 +317,10 @@ class AMMCPDFParser:
             parsed_at=datetime.now(UTC).isoformat(),
             docling_version=docling.__version__,
             validation_schema_version=VALIDATION_SCHEMA_VERSION,
+            backend=BACKEND_NAME,
+            extraction_config=EXTRACTION_CONFIG,
+            extraction_config_sha256=EXTRACTION_CONFIG_SHA256,
+            conversion_seconds=round(conversion_seconds, 3),
             page_count=0,
             table_count=0,
             markdown_path=str(markdown_path),

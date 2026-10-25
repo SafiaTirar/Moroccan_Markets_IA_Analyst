@@ -110,6 +110,8 @@ def test_empty_table_is_partial_when_another_table_is_valid(
     assert report.status == ParserStatus.PARTIAL
     assert report.valid_table_count == 1
     assert report.invalid_table_count == 1
+    assert report.ocr_required_pages == [2]
+    assert report.ocr_required_table_indexes == [2]
     assert {issue.code for issue in report.tables[1].issues} >= {
         "EMPTY_TABLE",
         "IMAGE_TABLE_REQUIRES_OCR",
@@ -257,6 +259,8 @@ def test_cache_checks_hashes_and_exact_csv_set(tmp_path: Path) -> None:
         "status": "PARSED",
         "table_count": 1,
         "validation": report.model_dump(mode="json"),
+        "backend": "backend-a",
+        "extraction_config_sha256": "config-a",
     }
 
     assert is_cache_valid(
@@ -264,6 +268,8 @@ def test_cache_checks_hashes_and_exact_csv_set(tmp_path: Path) -> None:
         metadata=metadata,
         source_sha256="source-hash",
         docling_version="2.140.0",
+        backend_name="backend-a",
+        extraction_config_sha256="config-a",
     )
 
     (tmp_path / "tables" / "table_002.csv").write_text(
@@ -275,6 +281,8 @@ def test_cache_checks_hashes_and_exact_csv_set(tmp_path: Path) -> None:
         metadata=metadata,
         source_sha256="source-hash",
         docling_version="2.140.0",
+        backend_name="backend-a",
+        extraction_config_sha256="config-a",
     )
 
     (tmp_path / "tables" / "table_002.csv").unlink()
@@ -287,4 +295,86 @@ def test_cache_checks_hashes_and_exact_csv_set(tmp_path: Path) -> None:
         metadata=metadata,
         source_sha256="source-hash",
         docling_version="2.140.0",
+        backend_name="backend-a",
+        extraction_config_sha256="config-a",
     )
+
+
+def test_cache_rejects_backend_or_configuration_change(tmp_path: Path) -> None:
+    prepare_document(tmp_path, page_count=1, table_count=1)
+    candidate = make_candidate(
+        tmp_path,
+        index=1,
+        dataframe=pd.DataFrame({"Indicateur": ["Résultat net"]}),
+    )
+    report = ParserValidator().validate(
+        output_dir=tmp_path,
+        page_count=1,
+        tables=[candidate],
+    )
+    metadata = {
+        "sha256": "source-hash",
+        "docling_version": "2.140.0",
+        "validation_schema_version": VALIDATION_SCHEMA_VERSION,
+        "backend": "backend-a",
+        "extraction_config_sha256": "config-a",
+        "status": "PARSED",
+        "table_count": 1,
+        "validation": report.model_dump(mode="json"),
+    }
+
+    assert not is_cache_valid(
+        output_dir=tmp_path,
+        metadata=metadata,
+        source_sha256="source-hash",
+        docling_version="2.140.0",
+        backend_name="backend-b",
+        extraction_config_sha256="config-a",
+    )
+    assert not is_cache_valid(
+        output_dir=tmp_path,
+        metadata=metadata,
+        source_sha256="source-hash",
+        docling_version="2.140.0",
+        backend_name="backend-a",
+        extraction_config_sha256="config-b",
+    )
+
+
+def test_cache_accepts_validation_failure_but_retries_conversion_failure(
+    tmp_path: Path,
+) -> None:
+    prepare_document(tmp_path, page_count=1, table_count=1)
+    candidate = make_candidate(
+        tmp_path,
+        index=1,
+        dataframe=pd.DataFrame(),
+    )
+    report = ParserValidator().validate(
+        output_dir=tmp_path,
+        page_count=1,
+        tables=[candidate],
+    )
+    metadata = {
+        "sha256": "source-hash",
+        "docling_version": "2.140.0",
+        "validation_schema_version": VALIDATION_SCHEMA_VERSION,
+        "backend": "backend-a",
+        "extraction_config_sha256": "config-a",
+        "status": "FAILED",
+        "error": None,
+        "table_count": 1,
+        "validation": report.model_dump(mode="json"),
+    }
+    arguments = {
+        "output_dir": tmp_path,
+        "metadata": metadata,
+        "source_sha256": "source-hash",
+        "docling_version": "2.140.0",
+        "backend_name": "backend-a",
+        "extraction_config_sha256": "config-a",
+    }
+
+    assert is_cache_valid(**arguments)
+    metadata["error"] = "Docling crashed"
+    assert not is_cache_valid(**arguments)

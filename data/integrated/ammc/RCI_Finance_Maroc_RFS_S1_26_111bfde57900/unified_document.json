@@ -1,0 +1,232 @@
+{
+  "schema_version": "2.2",
+  "source_pdf": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/raw/ammc/pdfs/RCI_Finance_Maroc_RFS_S1_26.pdf",
+  "source_sha256": "111bfde579001b4de546648bbc8e167b19a3220aba3139fa886d55798dd41f5f",
+  "docling_status": "NOT_RUN",
+  "ocr_status": "PARSED",
+  "integration_status": "PARTIAL",
+  "integration_fingerprint": "ebef320ffd956f21883c7cd521fca0872cf140beca8b031cb5ab6a39661e4f94",
+  "cache_used": false,
+  "active_table_count": 9,
+  "tables": [
+    {
+      "table_id": "OCR_001",
+      "source": "OCR",
+      "page": [
+        8
+      ],
+      "bbox": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "table_type": null,
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/ocr_generic/RCI_Finance_Maroc_RFS_S1_26_111bfde57900/e0ca308dea6d/tables/ocr_table_001.csv",
+      "coordinates_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/ocr_generic/RCI_Finance_Maroc_RFS_S1_26_111bfde57900/e0ca308dea6d/coordinates/ocr_table_001.json",
+      "coordinates_sha256": "db03277ffcebe10404ea833460dc6d888fbff34420e00537f5f1dcfd61b6b703",
+      "rows": 76,
+      "columns": 5,
+      "quality_status": "TECHNICALLY_RECOVERED",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "c74402da470cf88e51c5b06b897268d2603893c962660fbf4f38acbab9a98707"
+    },
+    {
+      "table_id": "OCR_page:4:left",
+      "source": "OCR",
+      "page": [
+        4
+      ],
+      "bbox": [
+        0.0,
+        0.0,
+        306.0,
+        792.0
+      ],
+      "table_type": "page:4:left",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/ocr_generic/RCI_Finance_Maroc_RFS_S1_26_111bfde57900/e0ca308dea6d/tables/ocr_table_002.csv",
+      "coordinates_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/ocr_generic/RCI_Finance_Maroc_RFS_S1_26_111bfde57900/e0ca308dea6d/coordinates/ocr_table_002.json",
+      "coordinates_sha256": "62c555984dcf39dd7d3ef905fc8d167517be8c7b7ec6f8153441a9ffe1eb2edd",
+      "rows": 58,
+      "columns": 3,
+      "quality_status": "TECHNICALLY_RECOVERED",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "bf6d3f0582aaeafd793ecf85c25f29374494f15ad74237354b11b7889f1a7877"
+    },
+    {
+      "table_id": "OCR_page:4:right",
+      "source": "OCR",
+      "page": [
+        4
+      ],
+      "bbox": [
+        306.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "table_type": "page:4:right",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/ocr_generic/RCI_Finance_Maroc_RFS_S1_26_111bfde57900/e0ca308dea6d/tables/ocr_table_003.csv",
+      "coordinates_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/ocr_generic/RCI_Finance_Maroc_RFS_S1_26_111bfde57900/e0ca308dea6d/coordinates/ocr_table_003.json",
+      "coordinates_sha256": "910c3a3e1be02bf075bee2561a6f92151ac0cc08e177382e28a5d196d9890e08",
+      "rows": 41,
+      "columns": 3,
+      "quality_status": "TECHNICALLY_RECOVERED",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "65645ee8fe6909f66397b257aad2bc8a1747aec9a9566a740e063eaa797a8bd2"
+    },
+    {
+      "table_id": "OCR_page:5:left",
+      "source": "OCR",
+      "page": [
+        5
+      ],
+      "bbox": [
+        0.0,
+        0.0,
+        306.0,
+        792.0
+      ],
+      "table_type": "page:5:left",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/ocr_generic/RCI_Finance_Maroc_RFS_S1_26_111bfde57900/e0ca308dea6d/tables/ocr_table_004.csv",
+      "coordinates_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/ocr_generic/RCI_Finance_Maroc_RFS_S1_26_111bfde57900/e0ca308dea6d/coordinates/ocr_table_004.json",
+      "coordinates_sha256": "285eb6eb7dec006cc7ffae0adb85e2512d432bc7bea3d26f6199d49f05c46aaf",
+      "rows": 40,
+      "columns": 6,
+      "quality_status": "TECHNICALLY_RECOVERED",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "8f177c641aa6aae95f2c45a0d945fd831126cd4545139ca7cd8771d817baf06f"
+    },
+    {
+      "table_id": "OCR_page:5:right",
+      "source": "OCR",
+      "page": [
+        5
+      ],
+      "bbox": [
+        306.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "table_type": "page:5:right",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/ocr_generic/RCI_Finance_Maroc_RFS_S1_26_111bfde57900/e0ca308dea6d/tables/ocr_table_005.csv",
+      "coordinates_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/ocr_generic/RCI_Finance_Maroc_RFS_S1_26_111bfde57900/e0ca308dea6d/coordinates/ocr_table_005.json",
+      "coordinates_sha256": "279435a29ee9e9405861c5792bf968fee5a8d461c8cd500a0c10f7af25fac754",
+      "rows": 37,
+      "columns": 6,
+      "quality_status": "TECHNICALLY_RECOVERED",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "7c9c87a1336a466837a937c5a00df6513c6b37e8dc436d6da3bb7b0ef720c357"
+    },
+    {
+      "table_id": "OCR_page:6:left",
+      "source": "OCR",
+      "page": [
+        6
+      ],
+      "bbox": [
+        0.0,
+        0.0,
+        306.0,
+        792.0
+      ],
+      "table_type": "page:6:left",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/ocr_generic/RCI_Finance_Maroc_RFS_S1_26_111bfde57900/e0ca308dea6d/tables/ocr_table_006.csv",
+      "coordinates_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/ocr_generic/RCI_Finance_Maroc_RFS_S1_26_111bfde57900/e0ca308dea6d/coordinates/ocr_table_006.json",
+      "coordinates_sha256": "58df957293fe57a0324219b63cfaf65cbcf34af7d01b45fc25d7458547cb333d",
+      "rows": 30,
+      "columns": 8,
+      "quality_status": "TECHNICALLY_RECOVERED",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "54aeebaeb139c01d25af2a00abba13d2c000a1878da27691e70148eba2ed63b9"
+    },
+    {
+      "table_id": "OCR_page:6:right",
+      "source": "OCR",
+      "page": [
+        6
+      ],
+      "bbox": [
+        306.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "table_type": "page:6:right",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/ocr_generic/RCI_Finance_Maroc_RFS_S1_26_111bfde57900/e0ca308dea6d/tables/ocr_table_007.csv",
+      "coordinates_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/ocr_generic/RCI_Finance_Maroc_RFS_S1_26_111bfde57900/e0ca308dea6d/coordinates/ocr_table_007.json",
+      "coordinates_sha256": "cc53b936b90cf1e1dd845a5260180664159b730a264c966a45fc87efa60b2c3d",
+      "rows": 30,
+      "columns": 9,
+      "quality_status": "TECHNICALLY_RECOVERED",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "77560572d6f86d187e07ac40716ef4555bf688b1d4e9071fedbcefcfc356f5c9"
+    },
+    {
+      "table_id": "OCR_page:9:left",
+      "source": "OCR",
+      "page": [
+        9
+      ],
+      "bbox": [
+        0.0,
+        0.0,
+        306.0,
+        792.0
+      ],
+      "table_type": "page:9:left",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/ocr_generic/RCI_Finance_Maroc_RFS_S1_26_111bfde57900/e0ca308dea6d/tables/ocr_table_008.csv",
+      "coordinates_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/ocr_generic/RCI_Finance_Maroc_RFS_S1_26_111bfde57900/e0ca308dea6d/coordinates/ocr_table_008.json",
+      "coordinates_sha256": "9e564ecdd822fd86d8ec41ecd440f15715fca4ad73c9e4ca5e567c758282168a",
+      "rows": 9,
+      "columns": 6,
+      "quality_status": "TECHNICALLY_RECOVERED",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "c15ce8fe77b74bc915381a59d765a7b2030d2b68c718f460b68d65a4470ecbd2"
+    },
+    {
+      "table_id": "OCR_page:9:right",
+      "source": "OCR",
+      "page": [
+        9
+      ],
+      "bbox": [
+        306.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "table_type": "page:9:right",
+      "reporting_scope": "UNKNOWN",
+      "unit": "UNKNOWN",
+      "csv_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/ocr_generic/RCI_Finance_Maroc_RFS_S1_26_111bfde57900/e0ca308dea6d/tables/ocr_table_009.csv",
+      "coordinates_path": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/ocr_generic/RCI_Finance_Maroc_RFS_S1_26_111bfde57900/e0ca308dea6d/coordinates/ocr_table_009.json",
+      "coordinates_sha256": "31708410d90b1f2e9faa35e14af4f9b1d0904f71ec4183d0fc27c8892b9291e0",
+      "rows": 19,
+      "columns": 9,
+      "quality_status": "TECHNICALLY_RECOVERED",
+      "financial_validation": "NOT_PERFORMED",
+      "sha256": "e9ec60991e144471826d3db1a12779274bbf59714bb8e1dbde8748d8490b5458"
+    }
+  ],
+  "replacements": [],
+  "remaining_docling_issues": [],
+  "financial_validation": "NOT_PERFORMED"
+}

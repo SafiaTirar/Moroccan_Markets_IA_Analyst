@@ -1,0 +1,518 @@
+{
+  "page": 117,
+  "bbox": [
+    590.391357421875,
+    0.1051025390625,
+    1185.471435546875,
+    841.78515625
+  ],
+  "source": "embedded_image",
+  "source_id": "xref:830:17",
+  "name": null,
+  "image_size": [
+    2481,
+    3508
+  ],
+  "attempts": [
+    {
+      "psm": 6,
+      "score": 13,
+      "amount_count": 8,
+      "keyword_count": 3,
+      "rows": 8,
+      "multi_value_rows": 0,
+      "labeled_rows": 8
+    },
+    {
+      "psm": 11,
+      "score": 7,
+      "amount_count": 8,
+      "keyword_count": 3,
+      "rows": 8,
+      "multi_value_rows": 0,
+      "labeled_rows": 8
+    }
+  ],
+  "selected_psm": 6,
+  "column_right_ratios": [
+    0.4600967351874244
+  ],
+  "rows": [
+    {
+      "label": "d'avances en comptes courants à hauteur de USD en 2020, dans le but de participer au",
+      "cells": [
+        {
+          "column": "value_1",
+          "value": "7 615 000,00",
+          "bbox": [
+            877.0179972281527,
+            198.0486727532938,
+            934.5831801181164,
+            207.4060051634211
+          ]
+        }
+      ]
+    },
+    {
+      "label": "USD en 2024, dans je but de participer au développement des projets aurifères de cefte",
+      "cells": [
+        {
+          "column": "value_1",
+          "value": "19 946 179,45",
+          "bbox": [
+            664.5065303927033,
+            430.7823250051779,
+            727.8282315716634,
+            439.41986261452615
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Ce prét est rémunéré au taux annuel de en 2025.",
+      "cells": [
+        {
+          "column": "value_1",
+          "value": "5,34",
+          "bbox": [
+            843.1984522802991,
+            486.9263194659417,
+            871.2614789391564,
+            495.56385707528995
+          ]
+        }
+      ]
+    },
+    {
+      "label": "cadre de cette convention, s'élèvent à KMAD Hors Taxes,",
+      "cells": [
+        {
+          "column": "value_1",
+          "value": "16 107",
+          "bbox": [
+            835.0433847042208,
+            521.4764699033348,
+            864.7853958640354,
+            528.674417911125
+          ]
+        }
+      ]
+    },
+    {
+      "label": "- Solde du orét au 31/12/2025 ; USD",
+      "cells": [
+        {
+          "column": "value_1",
+          "value": "19 940 178,46",
+          "bbox": [
+            799.0651453979935,
+            579.0600539656566,
+            862.6267015056617,
+            587.6975915750048
+          ]
+        }
+      ]
+    },
+    {
+      "label": "société, en 2024, un orêt de USD,",
+      "cells": [
+        {
+          "column": "value_1",
+          "value": "13 060 703,00",
+          "bbox": [
+            791.869497536748,
+            693.5074272895213,
+            854.7114888582918,
+            702.1449648988695
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Ce prêt est rémunéré au taux annuel de en 2025.",
+      "cells": [
+        {
+          "column": "value_1",
+          "value": "5,34",
+          "bbox": [
+            843.9180170664235,
+            739.5742945393787,
+            871.9810437252809,
+            748.211832148727
+          ]
+        }
+      ]
+    },
+    {
+      "label": "cadre de cette convention, s'élévent à KMAD Hors Taxes,",
+      "cells": [
+        {
+          "column": "value_1",
+          "value": "6 806",
+          "bbox": [
+            835.0433847042208,
+            774.1244449767718,
+            859.7484423611636,
+            781.322392984562
+          ]
+        }
+      ]
+    }
+  ],
+  "raw_lines": [
+    {
+      "text": "Comptes annuels et rapports",
+      "bbox": [
+        1027.8867473855994,
+        22.41874136321221,
+        1097.9243865683884,
+        28.177099769444393
+      ]
+    },
+    {
+      "text": "- Montant comptsbilisé en charoes ou produits : Néant",
+      "bbox": [
+        649.3956698840879,
+        72.0845826169648,
+        898.604940811889,
+        82.88150462865013
+      ]
+    },
+    {
+      "text": ". Montant encaissé ou déçaissé : Aucun montant n'a été encaissé ou décaissé, dans la cadre de cette",
+      "bbox": [
+        649.3956698840879,
+        93.67842664033547,
+        1136.0613202329896,
+        105.91493825357887
+      ]
+    },
+    {
+      "text": "convention, au cours de l'exercice 2025,",
+      "bbox": [
+        665.2260951788278,
+        106.6347330543579,
+        841.7593227080499,
+        116.7118602652642
+      ]
+    },
+    {
+      "text": "2.5 Convention de compte courant conclue entre MANAGEM SA et sa filiale Société des Mines de",
+      "bbox": [
+        649.3956698840879,
+        127.50878227694956,
+        1136.0613202329896,
+        139.74529389019295
+      ]
+    },
+    {
+      "text": "Mandiana « SMM »",
+      "bbox": [
+        668.104354323326,
+        142.62447309330904,
+        755.8912582305206,
+        150.54221590187828
+      ]
+    },
+    {
+      "text": "- Nature et oblet de la convention :",
+      "bbox": [
+        649.3956698840879,
+        164.93811191745874,
+        810.5781819759862,
+        175.01523912836507
+      ]
+    },
+    {
+      "text": "Cette convention prévoit la mise à la disposition de la société des mines de MANDIANA « SMM »",
+      "bbox": [
+        663.7869656065787,
+        185.81216114005042,
+        1136.0613202329896,
+        197.32887795251477
+      ]
+    },
+    {
+      "text": "d'avances en comptes courants à hauteur de 7 615 000,00 USD en 2020, dans le but de participer au",
+      "bbox": [
+        663.7869656065787,
+        197.32887795251477,
+        1136.0613202329896,
+        208.84559476497915
+      ]
+    },
+    {
+      "text": "développement des projeis de cette dernière.",
+      "bbox": [
+        663.7869656065787,
+        210.28518436653718,
+        862.6267015056617,
+        221.08210637822253
+      ]
+    },
+    {
+      "text": "- Modalités essentielles :",
+      "bbox": [
+        649.3956698840879,
+        234.03841279224494,
+        767.4042948085134,
+        244.11554000315127
+      ]
+    },
+    {
+      "text": "Ces avances de trésorerie sont rémunérées aux taux Libor USD majore de 7%.",
+      "bbox": [
+        663.7869656065787,
+        254.91246201483662,
+        1013.015741805692,
+        265.70938402652195
+      ]
+    },
+    {
+      "text": "- Montant comptabilisé : Cette convention n'a pas produit d'effets au titre de l'exercice 2025.",
+      "bbox": [
+        647.9565403118387,
+        277.94589563976535,
+        1062.6657120482857,
+        290.18240725300876
+      ]
+    },
+    {
+      "text": "- Montant encaissé ou décaissé : Aucun montant n'a été encaissé ou décaissé, dans la cadre de cette",
+      "bbox": [
+        645.7978459534651,
+        300.97932926469406,
+        1136.780885019114,
+        313.45577247819716
+      ]
+    },
+    {
+      "text": "convention, au cours de l'exercice 2025.",
+      "bbox": [
+        663.7869656065787,
+        313.9356356787165,
+        840.3201931358008,
+        324.0127628896228
+      ]
+    },
+    {
+      "text": "- Solde des avances au 31/12/2025 : Néant,",
+      "bbox": [
+        645.5579910247569,
+        336.9690693036452,
+        851.1136649276691,
+        348.00592291559025
+      ]
+    },
+    {
+      "text": "2.6 Convention de prêt conclue entre MANAGEM SA et sa filiale MANAGOLD",
+      "bbox": [
+        649.3956698840879,
+        370.3195617397399,
+        1013.015741805692,
+        381.8362785522043
+      ]
+    },
+    {
+      "text": "- Wature et objet de la convention |",
+      "bbox": [
+        650.8347994563369,
+        395.51237976700577,
+        810.5781819759862,
+        404.86971217713307
+      ]
+    },
+    {
+      "text": "Cette convention prévoit la mise à la disposition de la société MANAGOLD d'un prét à hauteur de",
+      "bbox": [
+        663.7869656065787,
+        415.6666341888184,
+        1136.780885019114,
+        427.9031458020618
+      ]
+    },
+    {
+      "text": "19.946.179,45 USD en 2024, dans je but de participer au développement des projets aurifères de cefte",
+      "bbox": [
+        664.5065303927033,
+        427.18335100128274,
+        1136.780885019114,
+        439.41986261452615
+      ]
+    },
+    {
+      "text": "dernière.",
+      "bbox": [
+        663.7869656065787,
+        442.29904181764226,
+        702.6434640573043,
+        450.2167846262115
+      ]
+    },
+    {
+      "text": "- Modalités essenticiles :",
+      "bbox": [
+        650.1152346702123,
+        464.61268064179194,
+        768.123859594638,
+        474.68980785269827
+      ]
+    },
+    {
+      "text": "Ce prét est rémunéré au taux annuel de 5,34% en 2025.",
+      "bbox": [
+        664.5065303927033,
+        486.20652466516265,
+        912.99623653438,
+        497.723241477627
+      ]
+    },
+    {
+      "text": "- Montant compiabilisé : Au titre de l'exercice 2025, les produits comptabilisés par MANAGEM S À. dans le",
+      "bbox": [
+        646.5174107395896,
+        507.80036868853335,
+        1137.5004498052385,
+        520.0368803017767
+      ]
+    },
+    {
+      "text": "cadre de cette convention, s'élèvent à 16.107 KMAD Hors Taxes,",
+      "bbox": [
+        664.5065303927033,
+        520.7566751025557,
+        952.5722997712301,
+        530.8338023134621
+      ]
+    },
+    {
+      "text": "- Montant encaissé des intérêts : Aucun montant n'a été encaissé, dans la cadre de cette convention, au",
+      "bbox": [
+        646.2775558108815,
+        542.3505191259264,
+        1136.780885019114,
+        554.5870307391698
+      ]
+    },
+    {
+      "text": "cours de l'exercice 2025.",
+      "bbox": [
+        664.5065303927033,
+        556.7464151415069,
+        773.1608130975098,
+        564.6641579500762
+      ]
+    },
+    {
+      "text": "- Solde du orét au 31/12/2025 ; 19.940 178,46 USD",
+      "bbox": [
+        646.2775558108815,
+        577.3805327638389,
+        885.6527746616473,
+        590.0969075776017
+      ]
+    },
+    {
+      "text": "2.7 Convention de prêt conclue entre MANAGEM SA et sa filiale MANA ENERGY LIMITED {Ex SOUND",
+      "bbox": [
+        650.1152346702123,
+        610.7310251999336,
+        1137.5004498052385,
+        623.687331613956
+      ]
+    },
+    {
+      "text": "ENERGY MOROCCO EAST LIMITED)",
+      "bbox": [
+        668.8239191094506,
+        624.407126414735,
+        841.0397579219253,
+        634.4842536256414
+      ]
+    },
+    {
+      "text": "- Nature et objet de la convention :",
+      "bbox": [
+        650.1152346702123,
+        648.1603548404428,
+        811.2977467621108,
+        658.2374820513492
+      ]
+    },
+    {
+      "text": "Afin de financer sa quote-part des frais de développement {back cost) des projets gaz Tendrara phase 1",
+      "bbox": [
+        664.5065303927033,
+        669.0344040630345,
+        1136.0613202329896,
+        680.5511208754988
+      ]
+    },
+    {
+      "text": "opérés par MANA ENERGY LIMITED à travers sa succursale marocaine, MANAGEM S.A. à consenti à la",
+      "bbox": [
+        664.5065303927033,
+        679.8313260747198,
+        1137.5004498052385,
+        692.7876324887422
+      ]
+    },
+    {
+      "text": "société, en 2024, un orêt de 13.060.703,00 USD,",
+      "bbox": [
+        664.5065303927033,
+        693.5074272895213,
+        880.6158211587754,
+        703.5845545004275
+      ]
+    },
+    {
+      "text": "- Modalités essentielles :",
+      "bbox": [
+        650.1152346702123,
+        717.260655715229,
+        768.8434243807626,
+        725.8981933245773
+      ]
+    },
+    {
+      "text": "Ce prêt est rémunéré au taux annuel de 5,34% en 2025.",
+      "bbox": [
+        664.5065303927033,
+        738.8544997385997,
+        913.7158013205046,
+        750.3712165510641
+      ]
+    },
+    {
+      "text": "- Montant comptabilisé : Au titre de l'exercice 2025, les produits comptabilisés par MANAGEM S_A. dans le",
+      "bbox": [
+        647.2369755257141,
+        760.4483437619704,
+        1138.220014591363,
+        772.6848553752137
+      ]
+    },
+    {
+      "text": "cadre de cette convention, s'élévent à 6 806 KMAD Hors Taxes,",
+      "bbox": [
+        664.5065303927033,
+        773.4046501759927,
+        948.2549110544828,
+        782.7619825861201
+      ]
+    },
+    {
+      "text": "233 - MANAGEM RAPPORT FINANCIER ANNUEL 2025",
+      "bbox": [
+        813.9361509779008,
+        811.3138430170213,
+        972.0005489965929,
+        816.1124750222148
+      ]
+    }
+  ],
+  "amount_count": 8,
+  "multi_value_row_count": 0,
+  "labeled_row_count": 8
+}

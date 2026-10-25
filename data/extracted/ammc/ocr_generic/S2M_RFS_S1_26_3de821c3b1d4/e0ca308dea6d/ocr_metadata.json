@@ -1,0 +1,189 @@
+{
+  "schema_version": "3.0",
+  "source_pdf": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/raw/ammc/pdfs/S2M_RFS_S1_26.pdf",
+  "source_sha256": "3de821c3b1d45bcff596ab2de623f7f169356e12b972fd33d1eb86c0d7f90baf",
+  "parser_metadata": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/S2M_RFS_S1_26_3de821c3b1d4/metadata.json",
+  "config": {
+    "languages": [
+      "fra",
+      "eng"
+    ],
+    "psms": [
+      6,
+      11
+    ],
+    "render_dpi": 300,
+    "minimum_image_width": 400,
+    "minimum_image_height": 250,
+    "minimum_region_area_ratio": 0.03,
+    "minimum_amount_count": 5,
+    "column_tolerance": 0.045
+  },
+  "config_sha256": "e0ca308dea6d26eb838790781b5dfac293390b6ff28071a1ba75c2148bb02d4e",
+  "ocr_engine": "tesseract-cli",
+  "tesseract_version": "tesseract 5.5.3",
+  "selected_pages": [
+    8,
+    9
+  ],
+  "regions_examined": 3,
+  "tables_detected": 3,
+  "tables": [
+    {
+      "table_id": "OCR_001",
+      "page": 8,
+      "bbox": [
+        62.656558990478516,
+        95.8167724609375,
+        532.5208740234375,
+        794.1519165039062
+      ],
+      "source": "embedded_image",
+      "source_id": "xref:43:4",
+      "name": null,
+      "image_size": [
+        1958,
+        2910
+      ],
+      "attempts": [
+        {
+          "psm": 6,
+          "score": 1680,
+          "amount_count": 122,
+          "keyword_count": 5,
+          "rows": 35,
+          "multi_value_rows": 35,
+          "labeled_rows": 35
+        },
+        {
+          "psm": 11,
+          "score": 264,
+          "amount_count": 122,
+          "keyword_count": 5,
+          "rows": 122,
+          "multi_value_rows": 0,
+          "labeled_rows": 0
+        }
+      ],
+      "selected_psm": 6,
+      "rows": 35,
+      "columns": 5,
+      "amount_count": 122,
+      "csv": "tables/ocr_table_001.csv",
+      "coordinates": "coordinates/ocr_table_001.json",
+      "quality_status": "TECHNICALLY_RECOVERED",
+      "financial_validation": "NOT_PERFORMED"
+    },
+    {
+      "table_id": "OCR_002",
+      "page": 8,
+      "bbox": [
+        671.1365356445312,
+        67.4852294921875,
+        1104.0645751953125,
+        793.2546997070312
+      ],
+      "source": "embedded_image",
+      "source_id": "xref:47:5",
+      "name": null,
+      "image_size": [
+        1805,
+        3025
+      ],
+      "attempts": [
+        {
+          "psm": 6,
+          "score": 919,
+          "amount_count": 50,
+          "keyword_count": 6,
+          "rows": 27,
+          "multi_value_rows": 22,
+          "labeled_rows": 27
+        },
+        {
+          "psm": 11,
+          "score": 120,
+          "amount_count": 48,
+          "keyword_count": 6,
+          "rows": 48,
+          "multi_value_rows": 0,
+          "labeled_rows": 1
+        }
+      ],
+      "selected_psm": 6,
+      "rows": 27,
+      "columns": 4,
+      "amount_count": 50,
+      "csv": "tables/ocr_table_002.csv",
+      "coordinates": "coordinates/ocr_table_002.json",
+      "quality_status": "TECHNICALLY_RECOVERED",
+      "financial_validation": "NOT_PERFORMED"
+    },
+    {
+      "table_id": "OCR_003",
+      "page": 9,
+      "bbox": [
+        125.67170715332031,
+        49.95379638671875,
+        468.18658447265625,
+        800.8577270507812
+      ],
+      "source": "embedded_image",
+      "source_id": "xref:52:2",
+      "name": null,
+      "image_size": [
+        1428,
+        3129
+      ],
+      "attempts": [
+        {
+          "psm": 6,
+          "score": 1418,
+          "amount_count": 71,
+          "keyword_count": 4,
+          "rows": 36,
+          "multi_value_rows": 35,
+          "labeled_rows": 36
+        },
+        {
+          "psm": 11,
+          "score": 234,
+          "amount_count": 71,
+          "keyword_count": 5,
+          "rows": 69,
+          "multi_value_rows": 2,
+          "labeled_rows": 0
+        }
+      ],
+      "selected_psm": 6,
+      "rows": 36,
+      "columns": 3,
+      "amount_count": 71,
+      "csv": "tables/ocr_table_003.csv",
+      "coordinates": "coordinates/ocr_table_003.json",
+      "quality_status": "TECHNICALLY_RECOVERED",
+      "financial_validation": "NOT_PERFORMED"
+    }
+  ],
+  "rejected_regions": [],
+  "duration_seconds": 20.067,
+  "financial_validation": "NOT_PERFORMED",
+  "status": "PARSED",
+  "cache_used": false,
+  "artifact_sha256": {
+    "tables/ocr_table_001.csv": "597fdfe6c9a1d8b1d468c57023eb9fd1b7c8f8cd1b9e83d171eb26ad1660880c",
+    "coordinates/ocr_table_001.json": "f8d850696e3c90b04a293990f327e7367a18854e388e5efdb01d6cace8bbda23",
+    "tables/ocr_table_002.csv": "0d2eae5135ff228215b03afcbbd5b8b94b230725722d79211e7c0a70b2a27458",
+    "coordinates/ocr_table_002.json": "33ea4c73484a1c9a7f1daf38aee18b746134bef63efabb29dd6464fdee54d944",
+    "tables/ocr_table_003.csv": "11fda2017810edd0646147ad25f7c2bd6b6e2e072cfd46ec07e0c8946822621e",
+    "coordinates/ocr_table_003.json": "79a6e082221020858f0f2bd8aa6449a32415f63dce85bbaa0b0684a7fb78b0db"
+  },
+  "selection": {
+    "selected_pages": [
+      8,
+      9
+    ],
+    "regions_json_sha256": null
+  },
+  "selection_sha256": "bfe590bfed50169a71edbcdf62aab7e3d58e71a7434cf91fc30fc5d0f8daa23b"
+}

@@ -1,0 +1,966 @@
+{
+  "schema_version": "1.0",
+  "reference_file": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/config/quality/ammc/annual_pilot_references.json",
+  "reference_file_sha256": "b837fafee4db84a773f3134dc2dc4b1cc68735b17d730a381d7e2a9d22e96e53",
+  "candidate_universe_audited": 9101,
+  "summary": {
+    "sample_candidates_examined": 20,
+    "reliable_references": 17,
+    "verified": 16,
+    "review_required": 3,
+    "rejected": 1,
+    "not_checked": 0,
+    "data05_admissible": 16
+  },
+  "downstream_contract": {
+    "allowed_statuses": [
+      "VERIFIED"
+    ],
+    "ambiguous_values_are_facts": false
+  },
+  "documents": [
+    {
+      "company_id": "s2m",
+      "exercise_year": 2025,
+      "source_pdf": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/raw/ammc/pdfs/annual/s2m/2025/S2M_RFA_2025.pdf",
+      "source_pdf_sha256": "81084c026ed0386c318271d9040e658f258888f6df1d57e150417244c90df12f",
+      "quality_report": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/quality/ammc/reference_pilot/quality_gate/S2M_RFA_2025_81084c026ed0/quality_report.json",
+      "quality_gate_cache_used": false,
+      "candidate_values": 1227,
+      "sample_observations": 9,
+      "sample_admissible": 7,
+      "quality_gate_total_admissible": 7
+    },
+    {
+      "company_id": "dari_couspate",
+      "exercise_year": 2023,
+      "source_pdf": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/raw/ammc/pdfs/annual/dari_couspate/2023/Dari_Couspate_RFA_2023.pdf",
+      "source_pdf_sha256": "e98a5ff007bef2599ab23c04a5196286d9db7f3e1a3fc1cc6bc9d5d10d5ae235",
+      "quality_report": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/quality/ammc/reference_pilot/quality_gate/Dari_Couspate_RFA_2023_e98a5ff007be/quality_report.json",
+      "quality_gate_cache_used": false,
+      "candidate_values": 277,
+      "sample_observations": 4,
+      "sample_admissible": 2,
+      "quality_gate_total_admissible": 2
+    },
+    {
+      "company_id": "attijariwafa_bank",
+      "exercise_year": 2025,
+      "source_pdf": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/raw/ammc/pdfs/annual/attijariwafa_bank/2025/AWB_RFA_2025.pdf",
+      "source_pdf_sha256": "766da5ac174bfd22e1a9aac59fd5465bb51b2249ed8143268afba5235f1e3afb",
+      "quality_report": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/quality/ammc/reference_pilot/quality_gate/AWB_RFA_2025_766da5ac174b/quality_report.json",
+      "quality_gate_cache_used": false,
+      "candidate_values": 4543,
+      "sample_observations": 2,
+      "sample_admissible": 2,
+      "quality_gate_total_admissible": 2
+    },
+    {
+      "company_id": "wafa_assurance",
+      "exercise_year": 2025,
+      "source_pdf": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/raw/ammc/pdfs/annual/wafa_assurance/2025/Wafa_Assurance_RFA_2025.pdf",
+      "source_pdf_sha256": "162f0a480d639cd9e19b6e44304d6170bd47f5c5ab899dc3260d7db0fc3b8ec6",
+      "quality_report": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/quality/ammc/reference_pilot/quality_gate/Wafa_Assurance_RFA_2025_162f0a480d63/quality_report.json",
+      "quality_gate_cache_used": false,
+      "candidate_values": 2301,
+      "sample_observations": 3,
+      "sample_admissible": 3,
+      "quality_gate_total_admissible": 3
+    },
+    {
+      "company_id": "aradei_capital",
+      "exercise_year": 2025,
+      "source_pdf": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/raw/ammc/pdfs/annual/aradei_capital/2025/Aradei_Capital_RFA_2025.pdf",
+      "source_pdf_sha256": "272fdb3d9d6ead47bee49030106ae671774421580c0e7f4f44cf8d8fe354e658",
+      "quality_report": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/quality/ammc/reference_pilot/quality_gate/Aradei_Capital_RFA_2025_272fdb3d9d6e/quality_report.json",
+      "quality_gate_cache_used": false,
+      "candidate_values": 753,
+      "sample_observations": 2,
+      "sample_admissible": 2,
+      "quality_gate_total_admissible": 2
+    }
+  ],
+  "concordance": [
+    {
+      "company_id": "s2m",
+      "exercise_year": 2025,
+      "indicator": "TOTAL_ASSETS",
+      "raw_value": "310 114 719",
+      "normalized_value": null,
+      "currency": null,
+      "scale": null,
+      "accounting_perimeter": "CONSOLIDATED",
+      "source_pdf_sha256": "81084c026ed0386c318271d9040e658f258888f6df1d57e150417244c90df12f",
+      "page_number": 25,
+      "table_id": "DOCLING_047",
+      "source_label": "Total de l'actif",
+      "verification_status": "REVIEW_REQUIRED",
+      "verification_evidence": [
+        {
+          "mode": "TEXT_SEARCH",
+          "page_number": 25,
+          "quote": "Total de l'actif"
+        },
+        {
+          "mode": "VISUAL_REGION",
+          "page_number": 25,
+          "bbox": [
+            60,
+            340,
+            422,
+            365
+          ],
+          "description": "Ligne Total de l'actif, colonne 31-déc.-25"
+        }
+      ],
+      "verification_method": "DIRECT_PDF_TEXT_AND_VISUAL_COMPARISON",
+      "reference_id": "s2m-2025-consolidated-total-assets",
+      "candidate_value_id": "DOCLING_047_table_047:r13:31-déc.-25 ",
+      "candidate_normalized_decimal": "310114719",
+      "candidate_bbox": null,
+      "comparison": "UNRESOLVED",
+      "downstream_eligible": false,
+      "reasons": [
+        {
+          "code": "SOURCE_REVIEW_UNRESOLVED",
+          "message": "Le montant et la période sont lisibles, mais l'unité MAD n'est pas explicitement portée par le tableau de bilan.",
+          "severity": "WARNING"
+        }
+      ]
+    },
+    {
+      "company_id": "s2m",
+      "exercise_year": 2025,
+      "indicator": "TOTAL_LIABILITIES_AND_EQUITY",
+      "raw_value": "310 114 719 ",
+      "normalized_value": null,
+      "currency": null,
+      "scale": null,
+      "accounting_perimeter": "CONSOLIDATED",
+      "source_pdf_sha256": "81084c026ed0386c318271d9040e658f258888f6df1d57e150417244c90df12f",
+      "page_number": 25,
+      "table_id": "DOCLING_048",
+      "source_label": "Total du passif",
+      "verification_status": "REVIEW_REQUIRED",
+      "verification_evidence": [
+        {
+          "mode": "TEXT_SEARCH",
+          "page_number": 25,
+          "quote": "Total du passif"
+        },
+        {
+          "mode": "VISUAL_REGION",
+          "page_number": 25,
+          "bbox": [
+            60,
+            658,
+            422,
+            681
+          ],
+          "description": "Ligne Total du passif, colonne 31-déc.-25"
+        }
+      ],
+      "verification_method": "DIRECT_PDF_TEXT_AND_VISUAL_COMPARISON",
+      "reference_id": "s2m-2025-consolidated-total-liabilities",
+      "candidate_value_id": "DOCLING_048_table_048:r16:31-déc.-25 ",
+      "candidate_normalized_decimal": "310114719",
+      "candidate_bbox": null,
+      "comparison": "UNRESOLVED",
+      "downstream_eligible": false,
+      "reasons": [
+        {
+          "code": "SOURCE_REVIEW_UNRESOLVED",
+          "message": "Le montant et la période sont lisibles, mais l'unité MAD n'est pas explicitement portée par le tableau de bilan.",
+          "severity": "WARNING"
+        }
+      ]
+    },
+    {
+      "company_id": "s2m",
+      "exercise_year": 2025,
+      "indicator": "EQUITY",
+      "raw_value": " 135 589 205 ",
+      "normalized_value": "135589205",
+      "currency": "MAD",
+      "scale": 1,
+      "accounting_perimeter": "CONSOLIDATED",
+      "source_pdf_sha256": "81084c026ed0386c318271d9040e658f258888f6df1d57e150417244c90df12f",
+      "page_number": 28,
+      "table_id": "DOCLING_058",
+      "source_label": "Capitaux propres part du groupe au 31 décembre 2025",
+      "verification_status": "VERIFIED",
+      "verification_evidence": [
+        {
+          "mode": "TEXT_SEARCH",
+          "page_number": 28,
+          "quote": "Capitaux propres part du groupe au 31 décembre 2025"
+        },
+        {
+          "mode": "VISUAL_REGION",
+          "page_number": 28,
+          "bbox": [
+            650,
+            188,
+            1148,
+            213
+          ],
+          "description": "Capitaux propres part du groupe au 31 décembre 2025"
+        },
+        {
+          "mode": "TEXT_SEARCH",
+          "page_number": 12,
+          "quote": "capitaux propres consolidés de 135 589 205 MAD"
+        }
+      ],
+      "verification_method": "DIRECT_PDF_TEXT_AND_VISUAL_COMPARISON",
+      "reference_id": "s2m-2025-consolidated-equity",
+      "candidate_value_id": "DOCLING_058_table_058:r7:1",
+      "candidate_normalized_decimal": "135589205",
+      "candidate_bbox": null,
+      "comparison": "MATCH",
+      "downstream_eligible": true,
+      "reasons": []
+    },
+    {
+      "company_id": "s2m",
+      "exercise_year": 2025,
+      "indicator": "REVENUE",
+      "raw_value": "366 845 581 ",
+      "normalized_value": "366845581",
+      "currency": "MAD",
+      "scale": 1,
+      "accounting_perimeter": "CONSOLIDATED",
+      "source_pdf_sha256": "81084c026ed0386c318271d9040e658f258888f6df1d57e150417244c90df12f",
+      "page_number": 25,
+      "table_id": "DOCLING_049",
+      "source_label": "Chiffre d ' affaires",
+      "verification_status": "VERIFIED",
+      "verification_evidence": [
+        {
+          "mode": "TEXT_SEARCH",
+          "page_number": 25,
+          "quote": "Chiffre d'affaires"
+        },
+        {
+          "mode": "VISUAL_REGION",
+          "page_number": 25,
+          "bbox": [
+            658,
+            182,
+            1022,
+            204
+          ],
+          "description": "Ligne Chiffre d'affaires du CPC consolidé 31-déc.-25"
+        }
+      ],
+      "verification_method": "DIRECT_PDF_TEXT_AND_VISUAL_COMPARISON",
+      "reference_id": "s2m-2025-consolidated-revenue",
+      "candidate_value_id": "DOCLING_049_table_049:r2:31-déc.-25 ",
+      "candidate_normalized_decimal": "366845581",
+      "candidate_bbox": null,
+      "comparison": "MATCH",
+      "downstream_eligible": true,
+      "reasons": []
+    },
+    {
+      "company_id": "s2m",
+      "exercise_year": 2025,
+      "indicator": "NET_INCOME",
+      "raw_value": "32 558 354 ",
+      "normalized_value": "32558354",
+      "currency": "MAD",
+      "scale": 1,
+      "accounting_perimeter": "CONSOLIDATED",
+      "source_pdf_sha256": "81084c026ed0386c318271d9040e658f258888f6df1d57e150417244c90df12f",
+      "page_number": 25,
+      "table_id": "DOCLING_049",
+      "source_label": "Résultat net de l'ensemble consolidé",
+      "verification_status": "VERIFIED",
+      "verification_evidence": [
+        {
+          "mode": "TEXT_SEARCH",
+          "page_number": 25,
+          "quote": "Résultat net de l'ensemble consolidé"
+        },
+        {
+          "mode": "VISUAL_REGION",
+          "page_number": 25,
+          "bbox": [
+            658,
+            530,
+            1022,
+            552
+          ],
+          "description": "Résultat net consolidé, colonne 31-déc.-25"
+        }
+      ],
+      "verification_method": "DIRECT_PDF_TEXT_AND_VISUAL_COMPARISON",
+      "reference_id": "s2m-2025-consolidated-net-income",
+      "candidate_value_id": "DOCLING_049_table_049:r17:31-déc.-25 ",
+      "candidate_normalized_decimal": "32558354",
+      "candidate_bbox": null,
+      "comparison": "MATCH",
+      "downstream_eligible": true,
+      "reasons": []
+    },
+    {
+      "company_id": "s2m",
+      "exercise_year": 2025,
+      "indicator": "NET_INCOME",
+      "raw_value": "28 464 006",
+      "normalized_value": "28464006",
+      "currency": "MAD",
+      "scale": 1,
+      "accounting_perimeter": "CONSOLIDATED",
+      "source_pdf_sha256": "81084c026ed0386c318271d9040e658f258888f6df1d57e150417244c90df12f",
+      "page_number": 25,
+      "table_id": "DOCLING_049",
+      "source_label": "Résultat net de l'ensemble consolidé",
+      "verification_status": "VERIFIED",
+      "verification_evidence": [
+        {
+          "mode": "TEXT_SEARCH",
+          "page_number": 25,
+          "quote": "Résultat net de l'ensemble consolidé"
+        },
+        {
+          "mode": "VISUAL_REGION",
+          "page_number": 25,
+          "bbox": [
+            1020,
+            530,
+            1155,
+            552
+          ],
+          "description": "Résultat net de l'ensemble consolidé, colonne 31-déc.-24, tableau En MAD"
+        }
+      ],
+      "verification_method": "DIRECT_PDF_TEXT_AND_VISUAL_COMPARISON",
+      "reference_id": "s2m-2024-consolidated-net-income",
+      "candidate_value_id": "DOCLING_049_table_049:r17:31-déc.-24",
+      "candidate_normalized_decimal": "28464006",
+      "candidate_bbox": null,
+      "comparison": "MATCH",
+      "downstream_eligible": true,
+      "reasons": []
+    },
+    {
+      "company_id": "s2m",
+      "exercise_year": 2025,
+      "indicator": "NET_INCOME_GROUP_SHARE",
+      "raw_value": "32 558 354 ",
+      "normalized_value": "32558354",
+      "currency": "MAD",
+      "scale": 1,
+      "accounting_perimeter": "CONSOLIDATED",
+      "source_pdf_sha256": "81084c026ed0386c318271d9040e658f258888f6df1d57e150417244c90df12f",
+      "page_number": 25,
+      "table_id": "DOCLING_049",
+      "source_label": "Résultat net part du Groupe",
+      "verification_status": "VERIFIED",
+      "verification_evidence": [
+        {
+          "mode": "TEXT_SEARCH",
+          "page_number": 25,
+          "quote": "Résultat net part du Groupe"
+        },
+        {
+          "mode": "VISUAL_REGION",
+          "page_number": 25,
+          "bbox": [
+            658,
+            552,
+            1022,
+            577
+          ],
+          "description": "Résultat net part du Groupe, colonne 31-déc.-25, tableau En MAD"
+        }
+      ],
+      "verification_method": "DIRECT_PDF_TEXT_AND_VISUAL_COMPARISON",
+      "reference_id": "s2m-2025-consolidated-net-income-group-share",
+      "candidate_value_id": "DOCLING_049_table_049:r18:31-déc.-25 ",
+      "candidate_normalized_decimal": "32558354",
+      "candidate_bbox": null,
+      "comparison": "MATCH",
+      "downstream_eligible": true,
+      "reasons": []
+    },
+    {
+      "company_id": "s2m",
+      "exercise_year": 2025,
+      "indicator": "NET_INCOME_GROUP_SHARE",
+      "raw_value": "29 413 844",
+      "normalized_value": "29413844",
+      "currency": "MAD",
+      "scale": 1,
+      "accounting_perimeter": "CONSOLIDATED",
+      "source_pdf_sha256": "81084c026ed0386c318271d9040e658f258888f6df1d57e150417244c90df12f",
+      "page_number": 25,
+      "table_id": "DOCLING_049",
+      "source_label": "Résultat net part du Groupe",
+      "verification_status": "VERIFIED",
+      "verification_evidence": [
+        {
+          "mode": "TEXT_SEARCH",
+          "page_number": 25,
+          "quote": "Résultat net part du Groupe"
+        },
+        {
+          "mode": "VISUAL_REGION",
+          "page_number": 25,
+          "bbox": [
+            1020,
+            552,
+            1155,
+            577
+          ],
+          "description": "Résultat net part du Groupe, colonne 31-déc.-24, tableau En MAD"
+        }
+      ],
+      "verification_method": "DIRECT_PDF_TEXT_AND_VISUAL_COMPARISON",
+      "reference_id": "s2m-2024-consolidated-net-income-group-share",
+      "candidate_value_id": "DOCLING_049_table_049:r18:31-déc.-24",
+      "candidate_normalized_decimal": "29413844",
+      "candidate_bbox": null,
+      "comparison": "MATCH",
+      "downstream_eligible": true,
+      "reasons": []
+    },
+    {
+      "company_id": "s2m",
+      "exercise_year": 2025,
+      "indicator": "OPERATING_INCOME",
+      "raw_value": "53 863 016 ",
+      "normalized_value": "53863016",
+      "currency": "MAD",
+      "scale": 1,
+      "accounting_perimeter": "CONSOLIDATED",
+      "source_pdf_sha256": "81084c026ed0386c318271d9040e658f258888f6df1d57e150417244c90df12f",
+      "page_number": 25,
+      "table_id": "DOCLING_049",
+      "source_label": "Résultat d ' exploitation",
+      "verification_status": "VERIFIED",
+      "verification_evidence": [
+        {
+          "mode": "TEXT_SEARCH",
+          "page_number": 25,
+          "quote": "Résultat d'exploitation"
+        },
+        {
+          "mode": "VISUAL_REGION",
+          "page_number": 25,
+          "bbox": [
+            658,
+            348,
+            1022,
+            370
+          ],
+          "description": "Résultat d'exploitation consolidé, colonne 31-déc.-25"
+        }
+      ],
+      "verification_method": "DIRECT_PDF_TEXT_AND_VISUAL_COMPARISON",
+      "reference_id": "s2m-2025-consolidated-operating-income",
+      "candidate_value_id": "DOCLING_049_table_049:r11:31-déc.-25 ",
+      "candidate_normalized_decimal": "53863016",
+      "candidate_bbox": null,
+      "comparison": "MATCH",
+      "downstream_eligible": true,
+      "reasons": []
+    },
+    {
+      "company_id": "dari_couspate",
+      "exercise_year": 2023,
+      "indicator": "SHARE_CAPITAL",
+      "raw_value": "29 837 500,00",
+      "normalized_value": "29837500.00",
+      "currency": "MAD",
+      "scale": 1,
+      "accounting_perimeter": "SOCIAL",
+      "source_pdf_sha256": "e98a5ff007bef2599ab23c04a5196286d9db7f3e1a3fc1cc6bc9d5d10d5ae235",
+      "page_number": 13,
+      "table_id": "OCR_002",
+      "source_label": "F | Capital social ou personnel (1)",
+      "verification_status": "VERIFIED",
+      "verification_evidence": [
+        {
+          "mode": "VISUAL_REGION",
+          "page_number": 13,
+          "bbox": [
+            70,
+            185,
+            535,
+            210
+          ],
+          "description": "Capital social, colonne EXERCICE du bilan passif"
+        },
+        {
+          "mode": "TEXT_SEARCH",
+          "page_number": 25,
+          "quote": "29.837.500 Dirhams"
+        }
+      ],
+      "verification_method": "DIRECT_PDF_VISUAL_COMPARISON",
+      "reference_id": "dari-2023-social-capital",
+      "candidate_value_id": "OCR_004_ocr_table_002:r1:value_1",
+      "candidate_normalized_decimal": "29837500.00",
+      "candidate_bbox": [
+        402.60908087008136,
+        194.63306781068496,
+        451.3156621672366,
+        200.872845570337
+      ],
+      "comparison": "MATCH",
+      "downstream_eligible": true,
+      "reasons": []
+    },
+    {
+      "company_id": "dari_couspate",
+      "exercise_year": 2023,
+      "indicator": "NET_INCOME",
+      "raw_value": "35 228 715,28",
+      "normalized_value": "35228715.28",
+      "currency": "MAD",
+      "scale": 1,
+      "accounting_perimeter": "SOCIAL",
+      "source_pdf_sha256": "e98a5ff007bef2599ab23c04a5196286d9db7f3e1a3fc1cc6bc9d5d10d5ae235",
+      "page_number": 13,
+      "table_id": "OCR_002",
+      "source_label": "Résultat net de l'exercice (2)",
+      "verification_status": "VERIFIED",
+      "verification_evidence": [
+        {
+          "mode": "VISUAL_REGION",
+          "page_number": 13,
+          "bbox": [
+            70,
+            310,
+            535,
+            332
+          ],
+          "description": "Résultat net, colonne EXERCICE du bilan passif"
+        },
+        {
+          "mode": "TEXT_SEARCH",
+          "page_number": 25,
+          "quote": "35.228.715,28 Dhs"
+        }
+      ],
+      "verification_method": "DIRECT_PDF_VISUAL_COMPARISON",
+      "reference_id": "dari-2023-social-net-income",
+      "candidate_value_id": "OCR_004_ocr_table_002:r7:value_1",
+      "candidate_normalized_decimal": "35228715.28",
+      "candidate_bbox": [
+        402.60908087008136,
+        319.4286230037259,
+        451.3156621672366,
+        325.6684007633779
+      ],
+      "comparison": "MATCH",
+      "downstream_eligible": true,
+      "reasons": []
+    },
+    {
+      "company_id": "dari_couspate",
+      "exercise_year": 2023,
+      "indicator": "TOTAL_ASSETS",
+      "raw_value": "291 766 706 500",
+      "normalized_value": null,
+      "currency": "MAD",
+      "scale": 1,
+      "accounting_perimeter": "SOCIAL",
+      "source_pdf_sha256": "e98a5ff007bef2599ab23c04a5196286d9db7f3e1a3fc1cc6bc9d5d10d5ae235",
+      "page_number": 12,
+      "table_id": "OCR_001",
+      "source_label": "[[roratceneratiaem | ras |",
+      "verification_status": "REJECTED",
+      "verification_evidence": [
+        {
+          "mode": "VISUAL_REGION",
+          "page_number": 12,
+          "bbox": [
+            70,
+            715,
+            550,
+            745
+          ],
+          "description": "Total général du bilan actif ; l'OCR a concaténé les colonnes"
+        }
+      ],
+      "verification_method": "DIRECT_PDF_VISUAL_COMPARISON",
+      "reference_id": "dari-2023-social-total-assets-corrupt-ocr",
+      "candidate_value_id": "OCR_003_ocr_table_001:r26:value_2",
+      "candidate_normalized_decimal": "291766706500",
+      "candidate_bbox": [
+        254.8097996925068,
+        718.5344081691625,
+        372.6173436181385,
+        739.893647423356
+      ],
+      "comparison": "MISMATCH",
+      "downstream_eligible": false,
+      "reasons": [
+        {
+          "code": "INCONSISTENT_DECIMAL_FORMAT",
+          "message": "Montant entier atypique dans un tableau majoritairement décimal ; le séparateur peut avoir été perdu.",
+          "severity": "WARNING"
+        },
+        {
+          "code": "REFERENCE_MISMATCH",
+          "message": "La valeur extraite ne correspond pas à la référence fiable.",
+          "severity": "ERROR"
+        }
+      ]
+    },
+    {
+      "company_id": "dari_couspate",
+      "exercise_year": 2023,
+      "indicator": "CONSUMED_PURCHASES",
+      "raw_value": "58 697 851 219",
+      "normalized_value": null,
+      "currency": "MAD",
+      "scale": 1,
+      "accounting_perimeter": "SOCIAL",
+      "source_pdf_sha256": "e98a5ff007bef2599ab23c04a5196286d9db7f3e1a3fc1cc6bc9d5d10d5ae235",
+      "page_number": 14,
+      "table_id": "OCR_003",
+      "source_label": "T achats consommés(2} de matières et",
+      "verification_status": "REVIEW_REQUIRED",
+      "verification_evidence": [
+        {
+          "mode": "VISUAL_REGION",
+          "page_number": 14,
+          "bbox": [
+            270,
+            387,
+            525,
+            405
+          ],
+          "description": "Ligne Achats consommés : la colonne intermédiaire est vide dans le PDF"
+        }
+      ],
+      "verification_method": "DIRECT_PDF_VISUAL_COMPARISON",
+      "reference_id": "dari-2023-social-consumed-purchases-ambiguous-ocr",
+      "candidate_value_id": "OCR_005_ocr_table_003:r5:value_2",
+      "candidate_normalized_decimal": "58697851219",
+      "candidate_bbox": [
+        407.1678249323767,
+        392.38602450119595,
+        455.8744062295319,
+        398.38581080855363
+      ],
+      "comparison": "UNRESOLVED",
+      "downstream_eligible": false,
+      "reasons": [
+        {
+          "code": "DECIMAL_SEPARATOR_AMBIGUITY",
+          "message": "La même suite de chiffres existe dans la ligne avec un séparateur décimal.",
+          "severity": "ERROR"
+        },
+        {
+          "code": "SOURCE_REVIEW_UNRESOLVED",
+          "message": "La cellule OCR ne respecte pas la structure des colonnes du CPC et ne peut pas être corrigée automatiquement.",
+          "severity": "WARNING"
+        }
+      ]
+    },
+    {
+      "company_id": "attijariwafa_bank",
+      "exercise_year": 2025,
+      "indicator": "BANKING_NET_REVENUE",
+      "raw_value": "34 921 384",
+      "normalized_value": "34921384000",
+      "currency": "MAD",
+      "scale": 1000,
+      "accounting_perimeter": "CONSOLIDATED",
+      "source_pdf_sha256": "766da5ac174bfd22e1a9aac59fd5465bb51b2249ed8143268afba5235f1e3afb",
+      "page_number": 108,
+      "table_id": "DOCLING_153",
+      "source_label": "Produit net bancaire",
+      "verification_status": "VERIFIED",
+      "verification_evidence": [
+        {
+          "mode": "TEXT_SEARCH",
+          "page_number": 108,
+          "quote": "Produit net bancaire"
+        },
+        {
+          "mode": "TEXT_SEARCH",
+          "page_number": 108,
+          "quote": "34 921 384"
+        },
+        {
+          "mode": "VISUAL_REGION",
+          "page_number": 108,
+          "bbox": [
+            35,
+            425,
+            560,
+            585
+          ],
+          "description": "Information sectorielle consolidée, PNB total, en milliers de dirhams"
+        }
+      ],
+      "verification_method": "DIRECT_PDF_TEXT_AND_VISUAL_COMPARISON",
+      "reference_id": "awb-2025-consolidated-banking-net-revenue",
+      "candidate_value_id": "DOCLING_153_table_153:r3:TOTAL",
+      "candidate_normalized_decimal": "34921384",
+      "candidate_bbox": null,
+      "comparison": "MATCH",
+      "downstream_eligible": true,
+      "reasons": []
+    },
+    {
+      "company_id": "attijariwafa_bank",
+      "exercise_year": 2025,
+      "indicator": "NET_INCOME",
+      "raw_value": "12 368 271 ",
+      "normalized_value": "12368271000",
+      "currency": "MAD",
+      "scale": 1000,
+      "accounting_perimeter": "CONSOLIDATED",
+      "source_pdf_sha256": "766da5ac174bfd22e1a9aac59fd5465bb51b2249ed8143268afba5235f1e3afb",
+      "page_number": 95,
+      "table_id": "DOCLING_084",
+      "source_label": "Résultat net de l’exercice",
+      "verification_status": "VERIFIED",
+      "verification_evidence": [
+        {
+          "mode": "TEXT_SEARCH",
+          "page_number": 95,
+          "quote": "Résultat net de l’exercice"
+        },
+        {
+          "mode": "VISUAL_REGION",
+          "page_number": 95,
+          "bbox": [
+            30,
+            650,
+            570,
+            735
+          ],
+          "description": "Bilan consolidé, résultat net 2025, en milliers de dirhams"
+        }
+      ],
+      "verification_method": "DIRECT_PDF_TEXT_AND_VISUAL_COMPARISON",
+      "reference_id": "awb-2025-consolidated-net-income",
+      "candidate_value_id": "DOCLING_084_table_084:r26:31/12/2025 ",
+      "candidate_normalized_decimal": "12368271",
+      "candidate_bbox": null,
+      "comparison": "MATCH",
+      "downstream_eligible": true,
+      "reasons": []
+    },
+    {
+      "company_id": "wafa_assurance",
+      "exercise_year": 2025,
+      "indicator": "INSURANCE_REVENUE",
+      "raw_value": "9 064 653",
+      "normalized_value": "9064653000",
+      "currency": "MAD",
+      "scale": 1000,
+      "accounting_perimeter": "CONSOLIDATED",
+      "source_pdf_sha256": "162f0a480d639cd9e19b6e44304d6170bd47f5c5ab899dc3260d7db0fc3b8ec6",
+      "page_number": 17,
+      "table_id": "DOCLING_027",
+      "source_label": "Produits des activités d'assurance",
+      "verification_status": "VERIFIED",
+      "verification_evidence": [
+        {
+          "mode": "TEXT_SEARCH",
+          "page_number": 17,
+          "quote": "Produits des activités d'assurance"
+        },
+        {
+          "mode": "VISUAL_REGION",
+          "page_number": 17,
+          "bbox": [
+            38,
+            180,
+            560,
+            475
+          ],
+          "description": "Compte de résultat consolidé, colonne 31/12/2025, en milliers de dirhams"
+        }
+      ],
+      "verification_method": "DIRECT_PDF_TEXT_AND_VISUAL_COMPARISON",
+      "reference_id": "wafa-2025-consolidated-insurance-revenue",
+      "candidate_value_id": "DOCLING_026_table_027:r1:31/12/2025 ",
+      "candidate_normalized_decimal": "9064653",
+      "candidate_bbox": null,
+      "comparison": "MATCH",
+      "downstream_eligible": true,
+      "reasons": []
+    },
+    {
+      "company_id": "wafa_assurance",
+      "exercise_year": 2025,
+      "indicator": "NET_INCOME",
+      "raw_value": "1 100 403",
+      "normalized_value": "1100403000",
+      "currency": "MAD",
+      "scale": 1000,
+      "accounting_perimeter": "CONSOLIDATED",
+      "source_pdf_sha256": "162f0a480d639cd9e19b6e44304d6170bd47f5c5ab899dc3260d7db0fc3b8ec6",
+      "page_number": 17,
+      "table_id": "DOCLING_027",
+      "source_label": "Résultat net consolidé",
+      "verification_status": "VERIFIED",
+      "verification_evidence": [
+        {
+          "mode": "TEXT_SEARCH",
+          "page_number": 17,
+          "quote": "Résultat net consolidé"
+        },
+        {
+          "mode": "VISUAL_REGION",
+          "page_number": 17,
+          "bbox": [
+            38,
+            180,
+            560,
+            475
+          ],
+          "description": "Résultat net consolidé 2025, en milliers de dirhams"
+        }
+      ],
+      "verification_method": "DIRECT_PDF_TEXT_AND_VISUAL_COMPARISON",
+      "reference_id": "wafa-2025-consolidated-net-income",
+      "candidate_value_id": "DOCLING_026_table_027:r20:31/12/2025 ",
+      "candidate_normalized_decimal": "1100403",
+      "candidate_bbox": null,
+      "comparison": "MATCH",
+      "downstream_eligible": true,
+      "reasons": []
+    },
+    {
+      "company_id": "wafa_assurance",
+      "exercise_year": 2025,
+      "indicator": "TOTAL_ASSETS",
+      "raw_value": "75 534 168 ",
+      "normalized_value": "75534168000",
+      "currency": "MAD",
+      "scale": 1000,
+      "accounting_perimeter": "CONSOLIDATED",
+      "source_pdf_sha256": "162f0a480d639cd9e19b6e44304d6170bd47f5c5ab899dc3260d7db0fc3b8ec6",
+      "page_number": 16,
+      "table_id": "DOCLING_025",
+      "source_label": "Total Actif",
+      "verification_status": "VERIFIED",
+      "verification_evidence": [
+        {
+          "mode": "TEXT_SEARCH",
+          "page_number": 16,
+          "quote": "Total Actif"
+        },
+        {
+          "mode": "VISUAL_REGION",
+          "page_number": 16,
+          "bbox": [
+            38,
+            175,
+            560,
+            690
+          ],
+          "description": "État consolidé de la situation financière, total actif 2025"
+        }
+      ],
+      "verification_method": "DIRECT_PDF_TEXT_AND_VISUAL_COMPARISON",
+      "reference_id": "wafa-2025-consolidated-total-assets",
+      "candidate_value_id": "DOCLING_024_table_025:r18:31/12/2025 ",
+      "candidate_normalized_decimal": "75534168",
+      "candidate_bbox": null,
+      "comparison": "MATCH",
+      "downstream_eligible": true,
+      "reasons": []
+    },
+    {
+      "company_id": "aradei_capital",
+      "exercise_year": 2025,
+      "indicator": "RENTAL_INCOME",
+      "raw_value": "609 918",
+      "normalized_value": "609918000",
+      "currency": "MAD",
+      "scale": 1000,
+      "accounting_perimeter": "CONSOLIDATED",
+      "source_pdf_sha256": "272fdb3d9d6ead47bee49030106ae671774421580c0e7f4f44cf8d8fe354e658",
+      "page_number": 114,
+      "table_id": "OCR_page:114:left",
+      "source_label": "Revenus locatifs",
+      "verification_status": "VERIFIED",
+      "verification_evidence": [
+        {
+          "mode": "VISUAL_REGION",
+          "page_number": 114,
+          "bbox": [
+            40,
+            195,
+            350,
+            220
+          ],
+          "description": "Tableau Comptes Consolidés IFRS, revenus locatifs 2025, En KMAD"
+        }
+      ],
+      "verification_method": "DIRECT_PDF_VISUAL_COMPARISON",
+      "reference_id": "aradei-2025-consolidated-rental-income",
+      "candidate_value_id": "OCR_175_ocr_table_001:r1:value_4",
+      "candidate_normalized_decimal": "609918",
+      "candidate_bbox": [
+        318.58558641354944,
+        208.79794790962342,
+        343.77495883329544,
+        213.83789837640742
+      ],
+      "comparison": "MATCH",
+      "downstream_eligible": true,
+      "reasons": []
+    },
+    {
+      "company_id": "aradei_capital",
+      "exercise_year": 2025,
+      "indicator": "REVENUE",
+      "raw_value": "646 897",
+      "normalized_value": "646897000",
+      "currency": "MAD",
+      "scale": 1000,
+      "accounting_perimeter": "CONSOLIDATED",
+      "source_pdf_sha256": "272fdb3d9d6ead47bee49030106ae671774421580c0e7f4f44cf8d8fe354e658",
+      "page_number": 114,
+      "table_id": "OCR_page:114:left",
+      "source_label": "Chiffre d’affaires",
+      "verification_status": "VERIFIED",
+      "verification_evidence": [
+        {
+          "mode": "VISUAL_REGION",
+          "page_number": 114,
+          "bbox": [
+            40,
+            220,
+            350,
+            240
+          ],
+          "description": "Tableau Comptes Consolidés IFRS, chiffre d’affaires 2025, En KMAD"
+        }
+      ],
+      "verification_method": "DIRECT_PDF_VISUAL_COMPARISON",
+      "reference_id": "aradei-2025-consolidated-revenue",
+      "candidate_value_id": "OCR_175_ocr_table_001:r3:value_4",
+      "candidate_normalized_decimal": "646897",
+      "candidate_bbox": [
+        315.22700342425,
+        228.2377568529332,
+        344.0148576182454,
+        233.51770496099263
+      ],
+      "comparison": "MATCH",
+      "downstream_eligible": true,
+      "reasons": []
+    }
+  ],
+  "outputs": {
+    "reference_sample": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/quality/ammc/reference_pilot/reference_sample.json",
+    "observations": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/quality/ammc/reference_pilot/reference_observations.jsonl",
+    "verified_observations": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/quality/ammc/reference_pilot/verified_observations.jsonl",
+    "review_queue": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/quality/ammc/reference_pilot/review_queue.jsonl",
+    "quality_gate_coverage": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/quality/ammc/reference_pilot/quality_gate_coverage.json"
+  }
+}

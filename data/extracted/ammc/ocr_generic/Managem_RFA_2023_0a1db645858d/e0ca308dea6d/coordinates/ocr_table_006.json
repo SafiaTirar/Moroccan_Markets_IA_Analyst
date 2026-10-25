@@ -1,0 +1,491 @@
+{
+  "page": 121,
+  "bbox": [
+    595.2755126953125,
+    0.000244140625,
+    1190.35546875,
+    841.6802978515625
+  ],
+  "source": "embedded_image",
+  "source_id": "xref:749:10",
+  "name": null,
+  "image_size": [
+    2480,
+    3508
+  ],
+  "attempts": [
+    {
+      "psm": 6,
+      "score": 12,
+      "amount_count": 8,
+      "keyword_count": 2,
+      "rows": 8,
+      "multi_value_rows": 0,
+      "labeled_rows": 7
+    },
+    {
+      "psm": 11,
+      "score": 11,
+      "amount_count": 8,
+      "keyword_count": 2,
+      "rows": 8,
+      "multi_value_rows": 0,
+      "labeled_rows": 7
+    }
+  ],
+  "selected_psm": 6,
+  "column_right_ratios": [
+    0.14059139784946237
+  ],
+  "rows": [
+    {
+      "label": "Convention de mise à disposition du personnel conclue avec la société Managem",
+      "cells": [
+        {
+          "column": "value_1",
+          "value": "2,14",
+          "bbox": [
+            655.0234598959646,
+            142.7595462951312,
+            678.7786678191154,
+            150.91722070396014
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Convention de mise a disposition de cadres conclue avec la société REMINEX filiale",
+      "cells": [
+        {
+          "column": "value_1",
+          "value": "2,15",
+          "bbox": [
+            655.263411491148,
+            371.17442974234115,
+            678.7786678191154,
+            379.0921725509104
+          ]
+        }
+      ]
+    },
+    {
+      "label": "S.A., dans le cadre de cette convention, s'élèvent à KMAD Hors Taxes.",
+      "cells": [
+        {
+          "column": "value_1",
+          "value": "4 783",
+          "bbox": [
+            922.3295369302073,
+            545.6047031311243,
+            949.2041155907416,
+            554.002309140213
+          ]
+        }
+      ]
+    },
+    {
+      "label": "convention, s'élève à KMAD.",
+      "cells": [
+        {
+          "column": "value_1",
+          "value": "5 150",
+          "bbox": [
+            775.2392090828188,
+            584.953485573711,
+            801.8738361481697,
+            593.1111599825399
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Convention d'acquisition des titres de participation de AGM auprès de CMG filiale de",
+      "cells": [
+        {
+          "column": "value_1",
+          "value": "2,16",
+          "bbox": [
+            655.263411491148,
+            611.1060300020155,
+            679.2585710094821,
+            619.0237728105847
+          ]
+        }
+      ]
+    },
+    {
+      "label": "CMG cède à MANAGEM S.A 2.999 actions de AGM représentant du capital de la",
+      "cells": [
+        {
+          "column": "value_1",
+          "value": "49,98",
+          "bbox": [
+            1019.5099329794607,
+            696.0418164939401,
+            1055.7426238521452,
+            706.1189437048465
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Le prix de cession total des actions cédées est égal à MAD.",
+      "cells": [
+        {
+          "column": "value_1",
+          "value": "935 000 000",
+          "bbox": [
+            933.367310308641,
+            759.8636221630135,
+            993.8351122948432,
+            768.5011597723618
+          ]
+        }
+      ]
+    },
+    {
+      "label": "",
+      "cells": [
+        {
+          "column": "value_1",
+          "value": "240 241",
+          "bbox": [
+            1116.6903290287141,
+            814.5680270222192,
+            1159.6416645665322,
+            822.4857698307885
+          ]
+        }
+      ]
+    }
+  ],
+  "raw_lines": [
+    {
+      "text": "O7- Comptes annuels & Rapports",
+      "bbox": [
+        801.393932957803,
+        38.869163382692236,
+        984.9569032730594,
+        58.78348620424521
+      ]
+    },
+    {
+      "text": "- Montant comptabilisé : Cette convention n’a pas produit d'effets au titre de l'exercice 2023.",
+      "bbox": [
+        652.1440407537644,
+        76.29849302320143,
+        1108.0520716021138,
+        88.53500463644482
+      ]
+    },
+    {
+      "text": "- Montant encaissé ou décaissé : Aucun montant n'a été encaissé ou décaissé, dans la cadre de",
+      "bbox": [
+        652.1440407537644,
+        101.49131105046723,
+        1141.165391737415,
+        112.76809626267192
+      ]
+    },
+    {
+      "text": "cette convention, au cours de l'exercice 2023.",
+      "bbox": [
+        669.6605072021484,
+        115.8872070660477,
+        890.6559263660062,
+        126.68412907773303
+      ]
+    },
+    {
+      "text": "2.14. Convention de mise à disposition du personnel conclue avec la société Managem",
+      "bbox": [
+        655.0234598959646,
+        139.64043549175545,
+        1141.165391737415,
+        151.63701550473917
+      ]
+    },
+    {
+      "text": "Gabon filiale du GROUPE MANAGEM",
+      "bbox": [
+        690.2963443879158,
+        153.55646830681656,
+        883.2174269153226,
+        163.39366391746321
+      ]
+    },
+    {
+      "text": "- Nature et objet de la convention :",
+      "bbox": [
+        655.5033630863313,
+        179.94894433538073,
+        830.907979165354,
+        189.06634514524836
+      ]
+    },
+    {
+      "text": "Cette convention prévoit la mise à disposition du personnel de MANAGEM S.A. au profit de la",
+      "bbox": [
+        669.6605072021484,
+        202.5025147597901,
+        1141.165391737415,
+        215.6987527740722
+      ]
+    },
+    {
+      "text": "société Managem Gabon.",
+      "bbox": [
+        669.4205556069651,
+        218.09806877666895,
+        793.9554335071194,
+        228.6550591880946
+      ]
+    },
+    {
+      "text": "- Modalités essentielles :",
+      "bbox": [
+        655.5033630863313,
+        243.29088680393474,
+        783.1576117238691,
+        252.40828761380237
+      ]
+    },
+    {
+      "text": "Cette prestation de mise à disposition du personnel est facturée au prix coûtant, toutes charges",
+      "bbox": [
+        669.6605072021484,
+        266.3243204288635,
+        1141.6452949277816,
+        279.2806268428859
+      ]
+    },
+    {
+      "text": "comprises.",
+      "bbox": [
+        669.4205556069651,
+        281.6799428454826,
+        721.0101485713835,
+        292.2369332569083
+      ]
+    },
+    {
+      "text": "- Montant comptabilisé : Cette convention n’a pas produit d'effets au titre de l'exercice 2023.",
+      "bbox": [
+        655.263411491148,
+        304.4734448701517,
+        1109.9716843635806,
+        316.7099564833951
+      ]
+    },
+    {
+      "text": "- Montant encaissé ou décaissé : Aucun montant n'a été encaissé ou décaissé, dans la cadre de",
+      "bbox": [
+        655.5033630863313,
+        329.18639969689815,
+        1141.6452949277816,
+        340.94304810962217
+      ]
+    },
+    {
+      "text": "cette convention, au cours de l'exercice 2023.",
+      "bbox": [
+        671.1002167732485,
+        343.5822957124786,
+        892.3355875322895,
+        354.61914932442363
+      ]
+    },
+    {
+      "text": "2.15. Convention de mise a disposition de cadres conclue avec la société REMINEX filiale",
+      "bbox": [
+        655.263411491148,
+        367.575455738446,
+        1141.6452949277816,
+        379.8119673516894
+      ]
+    },
+    {
+      "text": "de MANAGEM",
+      "bbox": [
+        690.7762475782826,
+        382.6911465548055,
+        763.4815809188351,
+        391.3286841641538
+      ]
+    },
+    {
+      "text": "- Nature et objet de la convention :",
+      "bbox": [
+        655.5033630863313,
+        407.8839645820713,
+        831.1479307605374,
+        418.20102339323734
+      ]
+    },
+    {
+      "text": "Cette convention prévoit la mise à disposition de cadres de REMINEX au profit de MANAGEM",
+      "bbox": [
+        669.6605072021484,
+        430.9173982070001,
+        1141.165391737415,
+        443.3938414205031
+      ]
+    },
+    {
+      "text": "S.A.",
+      "bbox": [
+        669.6605072021484,
+        446.75288382413856,
+        688.8566348168158,
+        454.9105582329675
+      ]
+    },
+    {
+      "text": "- Modalités essentielles :",
+      "bbox": [
+        655.263411491148,
+        471.2259070506253,
+        783.1576117238691,
+        480.1033762602333
+      ]
+    },
+    {
+      "text": "Cette prestation de mise à disposition de cadres est facturée au prix coûtant, toutes charges",
+      "bbox": [
+        669.6605072021484,
+        494.2593406755541,
+        1141.885246522965,
+        507.45557868983616
+      ]
+    },
+    {
+      "text": "comprises.",
+      "bbox": [
+        669.6605072021484,
+        509.61496309217324,
+        721.2501001665669,
+        520.1719535035988
+      ]
+    },
+    {
+      "text": "- Montant comptabilisé : Au titre de l'exercice 2023, les charges comptabilisées par MANAGEM",
+      "bbox": [
+        651.6641375633978,
+        531.6886703160633,
+        1141.6452949277816,
+        544.8849083303453
+      ]
+    },
+    {
+      "text": "S.A., dans le cadre de cette convention, s'élèvent à 4 783 KMAD Hors Taxes.",
+      "bbox": [
+        669.6605072021484,
+        544.8849083303453,
+        1046.1445600448117,
+        557.1214199435888
+      ]
+    },
+    {
+      "text": "- Montant décaissé : Au cours de l'exercice 2023, le montant décaissé, dans le cadre de cette",
+      "bbox": [
+        651.6641375633978,
+        568.8780683563127,
+        1141.885246522965,
+        582.7941011713739
+      ]
+    },
+    {
+      "text": "convention, s'élève à 5 150 KMAD.",
+      "bbox": [
+        669.6605072021484,
+        584.4736223731916,
+        839.3062849967711,
+        595.0306127846172
+      ]
+    },
+    {
+      "text": "2.16. Convention d'acquisition des titres de participation de AGM auprès de CMG filiale de",
+      "bbox": [
+        655.263411491148,
+        607.5070559981203,
+        1142.3651497133317,
+        620.2234308118831
+      ]
+    },
+    {
+      "text": "MANAGEM S.A",
+      "bbox": [
+        691.0161991734658,
+        623.1026100149992,
+        769.9602739887853,
+        631.7401476243474
+      ]
+    },
+    {
+      "text": "- Date de signature : 27 juin 2022",
+      "bbox": [
+        655.5033630863313,
+        647.8155648417456,
+        826.3488988568706,
+        658.6124868534309
+      ]
+    },
+    {
+      "text": "- Nature et objet de la convention :",
+      "bbox": [
+        655.5033630863313,
+        673.0083828690114,
+        831.3878823557208,
+        683.8053048806968
+      ]
+    },
+    {
+      "text": "CMG cède à MANAGEM S.A 2.999 actions de AGM représentant 49,98% du capital de la",
+      "bbox": [
+        670.1404103925152,
+        696.0418164939401,
+        1142.3651497133317,
+        707.5585333064046
+      ]
+    },
+    {
+      "text": "société.",
+      "bbox": [
+        669.9004587973318,
+        711.8773021110786,
+        706.1331496700163,
+        720.2749081201673
+      ]
+    },
+    {
+      "text": "- Modalités essentielles :",
+      "bbox": [
+        655.7433146815146,
+        736.3503253375654,
+        783.877466509419,
+        745.467726147433
+      ]
+    },
+    {
+      "text": "Le prix de cession total des actions cédées est égal à 935.000.000 MAD.",
+      "bbox": [
+        670.3803619876985,
+        759.3837589624942,
+        1024.069013287944,
+        772.819928577036
+      ]
+    },
+    {
+      "text": "240 241",
+      "bbox": [
+        1116.6903290287141,
+        814.5680270222192,
+        1159.6416645665322,
+        822.4857698307885
+      ]
+    }
+  ],
+  "amount_count": 8,
+  "multi_value_row_count": 0,
+  "labeled_row_count": 7
+}

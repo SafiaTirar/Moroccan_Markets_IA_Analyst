@@ -1,0 +1,12 @@
+Rubriques.Rubriques,Date de la 1ère échéance.Date de la 1ère échéance,Durée du contrat en  mois.Durée du contrat en  mois,Valeur  estimée du  bien à la date du contrat.Valeur  estimée du  bien à la date du contrat,Durée  théorique d’amortissement du bien.Durée  théorique d’amortissement du bien,Cumul des exercices précédents des redevances.Cumul des exercices précédents des redevances,Montant de l’exercice des redevances.Montant de l’exercice des redevances,Redevances restant à payer .À moins  d’un an,Redevances restant à payer .À plus d’un an,Prix d’achat résiduel en  fin de contrat.Prix d’achat résiduel en  fin de contrat,Observations .Observations 
+1 ,2 ,3 ,4 ,5 ,6 ,7 ,8 ,9 ,10 ,11
+1 ,2 ,3 ,4 ,5 ,6 ,7 ,8 ,9 ,10 ,11
+BMW ,20/08/2018 ,60 ,"599 999,99 ",5 ,"675 993,80 ","114 791,40 ","0,00 ","0,00 ","50 000,00 ",CONTRAT
+BMW ,01/07/2018 ,60 ,"599 999,99 ",5 ,"688 748,40 ","63 773,00 ","0,00 ","0,00 ","50 000,00 ",CONTRAT
+BMW ,01/07/2018 ,60 ,"599 999,99 ",5 ,"688 748,40 ","63 773,00 ","0,00 ","0,00 ","50 000,00 ",CONTRAT
+BMW ,15/04/2019 ,60 ,"599 999,99 ",5 ,"608 475,60 ","162 260,16 ","40 575,04 ","0,00 ","6 000,00 ",CONTRAT
+BMW ,15/04/2019 ,60 ,"599 999,99 ",5 ,"608 475,60 ","162 260,16 ","40 575,04 ","0,00 ","6 000,00 ",CONTRAT
+BMW ,01/09/2020 ,48 ,"599 999,96 ",4 ,"457 990,12 ","197 656,56 ","134 979,56 ","0,00 ","6 000,00 ",CONTRAT
+DS7 ,01/06/2021 ,60 ,"600 887,40 ",5 ,"190 281,01 ","120 177,48 ","120 177,48 ","170 251,43 ","4 443,88 ",CONTRAT
+CHEROKE ,25/02/2022 ,60 ,"554 990,10 ",5 ,"0,00 ","152 357,52 ","152 357,52 ","152 357,52 ","0,00",
+Total ,,,"4 755 877,41 ",-- ,"3 918 712,93 ","1 037 049,28 ","488 664,64 ","322 608,95 ","172 443,88 ",--

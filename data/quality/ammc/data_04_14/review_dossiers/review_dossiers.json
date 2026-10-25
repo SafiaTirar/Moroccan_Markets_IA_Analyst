@@ -1,0 +1,130 @@
+{
+  "schema_version": "1.0",
+  "dossiers": [
+    {
+      "company_id": "auto_hall",
+      "exercise_year": 2023,
+      "status": "REVIEW_REQUIRED",
+      "source_pdf": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/raw/ammc/pdfs/annual/auto_hall/2023/Auto_Hall_RFA_2023.pdf",
+      "page": [
+        17
+      ],
+      "table_id": "DOCLING_002",
+      "label": "",
+      "column": "2023",
+      "raw_value": "285",
+      "unit": null,
+      "period": "2023",
+      "accounting_perimeter": "UNKNOWN",
+      "bbox": null,
+      "reasons": [
+        {
+          "code": "MISSING_ROW_LABEL",
+          "message": "La valeur chiffrée ne possède aucun libellé de ligne.",
+          "severity": "ERROR"
+        }
+      ],
+      "decision": "Aucune validation humaine simulée; contrôle PDF requis."
+    },
+    {
+      "company_id": "lesieur_cristal",
+      "exercise_year": 2023,
+      "status": "REVIEW_REQUIRED",
+      "source_pdf": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/raw/ammc/pdfs/annual/lesieur_cristal/2023/Lesieur_Cristal_RFA_2023.pdf",
+      "page": [
+        36
+      ],
+      "table_id": "DOCLING_003",
+      "label": "",
+      "column": "2021 ",
+      "raw_value": "139 ",
+      "unit": null,
+      "period": "2021",
+      "accounting_perimeter": "UNKNOWN",
+      "bbox": null,
+      "reasons": [
+        {
+          "code": "MISSING_ROW_LABEL",
+          "message": "La valeur chiffrée ne possède aucun libellé de ligne.",
+          "severity": "ERROR"
+        }
+      ],
+      "decision": "Aucune validation humaine simulée; contrôle PDF requis."
+    },
+    {
+      "company_id": "lesieur_cristal",
+      "exercise_year": 2024,
+      "status": "REVIEW_REQUIRED",
+      "source_pdf": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/raw/ammc/pdfs/annual/lesieur_cristal/2024/LesieurCristal_RFA_2024.pdf",
+      "page": [
+        25
+      ],
+      "table_id": "DOCLING_001",
+      "label": "",
+      "column": "2023 ",
+      "raw_value": "4 033 ",
+      "unit": null,
+      "period": "2023",
+      "accounting_perimeter": "UNKNOWN",
+      "bbox": null,
+      "reasons": [
+        {
+          "code": "MISSING_ROW_LABEL",
+          "message": "La valeur chiffrée ne possède aucun libellé de ligne.",
+          "severity": "ERROR"
+        }
+      ],
+      "decision": "Aucune validation humaine simulée; contrôle PDF requis."
+    },
+    {
+      "company_id": "lesieur_cristal",
+      "exercise_year": 2025,
+      "status": "REVIEW_REQUIRED",
+      "source_pdf": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/raw/ammc/pdfs/annual/lesieur_cristal/2025/Lesieur_Cristal_RFA_2025.pdf",
+      "page": [
+        26
+      ],
+      "table_id": "DOCLING_001",
+      "label": "",
+      "column": "2024 ",
+      "raw_value": "3 480 ",
+      "unit": null,
+      "period": "2024",
+      "accounting_perimeter": "UNKNOWN",
+      "bbox": null,
+      "reasons": [
+        {
+          "code": "MISSING_ROW_LABEL",
+          "message": "La valeur chiffrée ne possède aucun libellé de ligne.",
+          "severity": "ERROR"
+        }
+      ],
+      "decision": "Aucune validation humaine simulée; contrôle PDF requis."
+    },
+    {
+      "company_id": "sothema",
+      "exercise_year": 2024,
+      "status": "REVIEW_REQUIRED",
+      "source_pdf": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/raw/ammc/pdfs/annual/sothema/2024/Sothema_RFA_2024.pdf",
+      "page": [
+        44
+      ],
+      "table_id": "DOCLING_001",
+      "label": "",
+      "column": "2022 ",
+      "raw_value": "580 ",
+      "unit": null,
+      "period": "2022",
+      "accounting_perimeter": "UNKNOWN",
+      "bbox": null,
+      "reasons": [
+        {
+          "code": "MISSING_ROW_LABEL",
+          "message": "La valeur chiffrée ne possède aucun libellé de ligne.",
+          "severity": "ERROR"
+        }
+      ],
+      "decision": "Aucune validation humaine simulée; contrôle PDF requis."
+    }
+  ]
+}

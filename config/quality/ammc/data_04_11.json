@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0",
+  "baseline_verified": 6,
+  "reviewed_high_candidates": [
+    {
+      "value_id": "DOCLING_049_table_049:r17:31-déc.-24",
+      "decision": "VERIFIED",
+      "reference_id": "s2m-2024-consolidated-net-income"
+    },
+    {
+      "value_id": "DOCLING_049_table_049:r18:31-déc.-25 ",
+      "decision": "VERIFIED",
+      "reference_id": "s2m-2025-consolidated-net-income-group-share"
+    },
+    {
+      "value_id": "DOCLING_049_table_049:r18:31-déc.-24",
+      "decision": "VERIFIED",
+      "reference_id": "s2m-2024-consolidated-net-income-group-share"
+    },
+    {
+      "value_id": "DOCLING_058_table_058:r1:1",
+      "decision": "REVIEW_REQUIRED",
+      "reason": "L'unité n'est pas explicitement rattachée à l'état T10 des capitaux propres 2023."
+    },
+    {
+      "value_id": "DOCLING_058_table_058:r4:1",
+      "decision": "REVIEW_REQUIRED",
+      "reason": "L'unité n'est pas explicitement rattachée à l'état T10 des capitaux propres 2024."
+    }
+  ],
+  "target_order": [
+    "attijariwafa_bank",
+    "wafa_assurance",
+    "aradei_capital"
+  ],
+  "exercise_year": 2025,
+  "max_peak_rss_bytes": 7516192768,
+  "downstream_allowed_statuses": ["VERIFIED"]
+}

@@ -1,0 +1,57 @@
+NATURE,OPÉRATIONS .Propres à l’exercice,OPÉRATIONS .Concernant  les exercices ,OPÉRATIONS .TOTAUX DE  L’EXERCICE,,TOTAUX DE  L’EXERCICE  PRÉCÉDENT
+,,,précédents,,
+,,(1) ,(2) ,3= 1 + 2 ,(4) 
+I ,Produits d’exploitation ,"14 311 625 220,56 ","54 793,95 ","14 311 680 014,51 ","12 724 963 282,40"
+,Ventes de marchandises (en l’état) ,- ,- ,- ,-
+,Ventes de biens et services produits ,"9 643 057 509,29 ","54 793,95 ","9 643 112 303,24 ","9 462 216 869,73"
+,Chiffre d’affaires ,"9 643 057 509,29 ","54 793,95 ","9 643 112 303,24 ","9 462 216 869,73"
+,Variation de stocks de produits (+ ou -) (1) ,"926 370 658,16 ",- ,"926 370 658,16 ","-82 367 022,38"
+,Immobilisations produites par l’entreprise pour elle-même ,- ,- ,- ,-
+,Subventions d’exploitation ,"3 704 143 374,48 ",- ,"3 704 143 374,48 ","3 303 330 556,25"
+,Autres produits d’exploitation ,"12 813 009,86 ",- ,"12 813 009,86 ","12 666 539,91"
+,Reprises d’exploitation : transferts de charges ,"25 240 668,77 ",- ,"25 240 668,77 ","29 116 338,89"
+EXPLOITATION,TOTAL I ,"14 311 625 220,56 ","54 793,95 ","14 311 680 014,51 ","12 724 963 282,40"
+II ,Charges d’exploitation ,"13 013 295 051,44 ",,"-107 203 580,67 12 906 091 470,77 ","11 326 972 391,55"
+,Achats revendus (2) de marchandises ,- ,- ,- ,-
+,Achats consommés (2) de matières,"11 897 166 846,01 ",,"-34 965 992,07 11 862 200 853,94 ","10 211 541 408,07"
+,et fournitures  Autres charges externes ,"505 503 272,49 ","-72 253 329,93 ","433 249 942,56 ","483 107 887,75"
+,Impôts et taxes ,"16 028 844,00 ",- ,"16 028 844,00 ","16 642 109,18"
+,Charges de personnel ,"369 424 656,70 ","15 741,33 ","369 440 398,03 ","368 690 532,85"
+,Autres charges d’exploitation ,"3 750 000,01 ",- ,"3 750 000,01 ","2 098 999,96"
+,Dotations d’exploitation ,"221 421 432,23 ",- ,"221 421 432,23 ","244 891 453,74"
+III ,TOTAL II ,"13 013 295 051,44 ",,"-107 203 580,67 12 906 091 470,77 ","11 326 972 391,55"
+IV ,RÉSULTAT D’EXPLOITATION (I-II)  PRODUITS FINANCIERS ,"1 298 330 169,12  24 888 968,46 ","107 258 374,62  - ","1 405 588 543,74 ","1 397 990 890,85 173 432 832,56"
+,Produits des titres de participation et autres titres financiers ,"430 199,00 ",- ,"24 888 968,46  430 199,00 ","121 619 225,00"
+,Gains de change ,"475 385,37 ",- ,"475 385,37 ","20 327 748,04"
+,Intérêts et autres produits financiers ,,,,
+,,"7 889 168,26 ",- ,"7 889 168,26 ","8 825 957,99"
+,Reprises financières : transferts de charges  TOTAL IV ,"16 094 215,83  24 888 968,46 ",- ,"16 094 215,83  24 888 968,46 ","22 659 901,53 173 432 832,56"
+FINANCIER V ,CHARGES FINANCIÈRES ,,- ,,
+,,"48 989 832,61 ",- ,"48 989 832,61 ","95 963 415,86"
+,Charges d’intérêts ,"40 107 296,39 ",- ,"40 107 296,39 ","57 955 334,52"
+,Pertes de change ,"1 210 878,39 ",- ,"1 210 878,39 ","21 913 866,33"
+,Autres charges financières ,"-  7 671 657,83 ",- ,"-  7 671 657,83 ","- 16 094 215,01"
+,Dotations financières  TOTAL V ,"48 989 832,61 ",-  - ,"48 989 832,61 ","95 963 415,86"
+VI ,RÉSULTAT FINANCIER (IV-V) ,"-24 100 864,15 ",- ,"-24 100 864,15 ","77 469 416,70"
+VII ,RÉSULTAT COURANT (III+VI) ,"1 274 229 304,97 ","107 258 374,62 ","1 381 487 679,59 ","1 475 460 307,55"
+VIII ,PRODUITS NON COURANTS ,"219 159 433,72 ","113 068,14 ","219 272 501,86 ","795 470 880,72"
+,Produits des cessions d’immobilisations ,"86 208 140,00 ",- ,"86 208 140,00 ","638 724 772,97"
+,Subvention d’équilibre ,- ,-  - ,"-  836 663,00 ","- 836 663,00"
+Reprises non courantes : transferts,Reprises sur subventions d’investissement  Autres produits non courants ,"836 663,00  13 489 821,50 ","113 068,14 ","13 602 889,64 ","26 260 532,52"
+,de charges  TOTAL VIII ,"118 624 809,22 ",- ,"118 624 809,22 ","129 648 912,23 795 470 880,72"
+,,"219 159 433,72 ","113 068,14 ","219 272 501,86 ",
+NON COURANT IX ,CHARGES NON COURANTES ,"175 330 664,34 ",- ,"175 330 664,34 ","625 770 691,06"
+,Valeurs nettes d’amortissement des  immobilisations cédées ,"10 000,00 ",- ,"10 000,00 ","447 449 211,54"
+Subventions accordées ,,"-  126 712 970,76 ",- ,- ,-
+,Autres charges non courantes  Dotations non courantes aux amortissements,"48 607 693,58 ",-  - ,"126 712 970,76  48 607 693,58 ","101 853 164,81 76 468 314,71"
+,et aux provisions  TOTAL IX ,"175 330 664,34 ",,"175 330 664,34  43 941 837,52 ","625 770 691,06 169 700 189,66"
+X  XI ,RÉSULTAT NON COURANT (VIII-IX) ,"43 828 769,38 ","-  113 068,14 ",,
+XII ,RÉSULTAT AVANT IMPÔTS (VII + ou - X) ,"1 318 058 074,35 ","107 371 442,76 ","1 425 429 517,11 ","1 645 160 497,21"
+,IMPÔTS SUR LES RÉSULTATS ,"487 874 939,00 ",- ,"487 874 939,00 ","508 273 674,00"
+,,,,"937 554 578,11 ","1 136 886 823,21"
+XIII RÉSULTAT NET (XI-XII) ,,,,,
+(1) Variation de stock : stock final - stock initial; augmentation (+); diminution (-).,,,"107 371 442,76 ",,
+,,"830 183 135,35 ",,,"13 693 866 995,68"
+(2) Achats revendus ou consommés : achats - variation de stocks.,XIV TOTAL DES PRODUITS (I+IV+VIII) ,"14 555 673 622,74  13 725 490 487,39  830 183 135,35 ","167 862,09 14 555 841 484,83  107 371 442,76 ","-107 203 580,67 13 618 286 906,72 ","12 556 980 172,47 1 136 886 823,21"
+,XV TOTAL DES CHARGES (II+V+IX+XII) ,,,"937 554 578,11 ",
+,XVI RÉSULTAT NET (XIV-XV) ,,,,

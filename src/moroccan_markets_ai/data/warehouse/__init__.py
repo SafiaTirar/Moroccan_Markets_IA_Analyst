@@ -1,0 +1,2 @@
+"""Entrepôt analytique local DuckDB."""
+

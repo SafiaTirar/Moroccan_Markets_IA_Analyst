@@ -1,0 +1,535 @@
+{
+  "page": 45,
+  "bbox": [
+    53.8582763671875,
+    70.3236083984375,
+    649.1182250976562,
+    912.7236938476562
+  ],
+  "source": "embedded_image",
+  "source_id": "xref:249:1",
+  "name": null,
+  "image_size": [
+    2481,
+    3511
+  ],
+  "attempts": [
+    {
+      "psm": 6,
+      "score": 297,
+      "amount_count": 17,
+      "keyword_count": 3,
+      "rows": 7,
+      "multi_value_rows": 7,
+      "labeled_rows": 7
+    },
+    {
+      "psm": 11,
+      "score": 68,
+      "amount_count": 28,
+      "keyword_count": 3,
+      "rows": 28,
+      "multi_value_rows": 0,
+      "labeled_rows": 0
+    }
+  ],
+  "selected_psm": 6,
+  "column_right_ratios": [
+    0.4381297863764611,
+    0.5521966948810964,
+    0.6373236598145908,
+    0.8041918581217251,
+    0.9048770656993148
+  ],
+  "rows": [
+    {
+      "label": "Impôts sur les bénéfices",
+      "cells": [
+        {
+          "column": "value_3",
+          "value": "59 744",
+          "bbox": [
+            399.3537726073628,
+            183.33142390586616,
+            433.18353994754665,
+            192.44882728013852
+          ]
+        },
+        {
+          "column": "value_4",
+          "value": "35 073",
+          "bbox": [
+            497.9639454925795,
+            183.33142390586616,
+            531.7937128327634,
+            192.44882728013852
+          ]
+        }
+      ]
+    },
+    {
+      "label": "_Impôts différés 7",
+      "cells": [
+        {
+          "column": "value_3",
+          "value": "42 601",
+          "bbox": [
+            372.00204582168226,
+            197.48739230276274,
+            433.18353994754665,
+            208.5242490189872
+          ]
+        },
+        {
+          "column": "value_4",
+          "value": "50 989",
+          "bbox": [
+            497.9639454925795,
+            197.48739230276274,
+            531.7937128327634,
+            206.60479567703513
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Charge d'impôt (a) (1)",
+      "cells": [
+        {
+          "column": "value_3",
+          "value": "102 345",
+          "bbox": [
+            397.91420803969544,
+            211.40342903191532,
+            433.4234673754912,
+            219.08124239972364
+          ]
+        },
+        {
+          "column": "value_4",
+          "value": "86 062",
+          "bbox": [
+            501.3229294838035,
+            211.16349736417132,
+            532.5134951165971,
+            218.84131073197963
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Variation des créances/dettes d'impôts (b (2)",
+      "cells": [
+        {
+          "column": "value_3",
+          "value": "53 653",
+          "bbox": [
+            405.5918857339216,
+            222.9201490836278,
+            433.18353994754665,
+            230.1180991159481
+          ]
+        },
+        {
+          "column": "value_4",
+          "value": "7 711",
+          "bbox": [
+            503.9621311911937,
+            222.9201490836278,
+            534.6728419680982,
+            232.99727912887622
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Impôts payés (a) + (b)",
+      "cells": [
+        {
+          "column": "value_3",
+          "value": "48 692",
+          "bbox": [
+            402.9526840265313,
+            235.87645914180433,
+            433.18353994754665,
+            243.79420417735665
+          ]
+        },
+        {
+          "column": "value_4",
+          "value": "38 351",
+          "bbox": [
+            501.3229294838035,
+            235.87645914180433,
+            532.0336402607079,
+            243.79420417735665
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Immeubles de placement en cours -",
+      "cells": [
+        {
+          "column": "value_1",
+          "value": "529 626",
+          "bbox": [
+            288.2673734690287,
+            412.7060982691396,
+            314.65939054293096,
+            418.70438996273987
+          ]
+        },
+        {
+          "column": "value_2",
+          "value": "357 525",
+          "bbox": [
+            356.1668355773409,
+            412.7060982691396,
+            382.55885265124317,
+            418.70438996273987
+          ]
+        },
+        {
+          "column": "value_5",
+          "value": "887 152",
+          "bbox": [
+            566.1033350288363,
+            412.7060982691396,
+            592.4953521027386,
+            418.70438996273987
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Immeubles de placement 6863",
+      "cells": [
+        {
+          "column": "value_1",
+          "value": "6 669 723",
+          "bbox": [
+            282.74904262630366,
+            459.73270514696554,
+            314.65939054293096,
+            465.7309968405658
+          ]
+        },
+        {
+          "column": "value_2",
+          "value": "162 529",
+          "bbox": [
+            356.64669043323005,
+            459.73270514696554,
+            382.55885265124317,
+            465.7309968405658
+          ]
+        },
+        {
+          "column": "value_4",
+          "value": "95 660",
+          "bbox": [
+            457.1762827420033,
+            459.73270514696554,
+            484.0481546717947,
+            467.1705868470299
+          ]
+        },
+        {
+          "column": "value_5",
+          "value": "-6 743 455",
+          "bbox": [
+            560.3450767581667,
+            459.73270514696554,
+            592.4953521027386,
+            465.7309968405658
+          ]
+        }
+      ]
+    }
+  ],
+  "raw_lines": [
+    {
+      "text": "Comptes consolidés IFRS Aradei Capital 31 Décembre 2023",
+      "bbox": [
+        135.91345672422915,
+        114.23110359559132,
+        569.2223915921157,
+        123.10857530211968
+      ]
+    },
+    {
+      "text": "| Note 16. Impôts et taxes payés = —= = === _ = |",
+      "bbox": [
+        136.15338415217371,
+        138.94406537322433,
+        559.625294474333,
+        154.29969210884096
+      ]
+    },
+    {
+      "text": "(En KMAD) 31/12/2023 31/12/2022",
+      "bbox": [
+        139.51236814339762,
+        168.45566050573754,
+        532.2735676886525,
+        178.29285888324193
+      ]
+    },
+    {
+      "text": "Impôts sur les bénéfices (59 744) (35 073)",
+      "bbox": [
+        139.51236814339762,
+        183.33142390586616,
+        531.7937128327634,
+        194.36828062209062
+      ]
+    },
+    {
+      "text": "_Impôts différés 7 (42601) (50 989)",
+      "bbox": [
+        135.67352929628458,
+        197.48739230276274,
+        531.7937128327634,
+        209.96383902545125
+      ]
+    },
+    {
+      "text": "Charge d'impôt (a) (1) (102 345) (86062)",
+      "bbox": [
+        139.0325132875085,
+        211.16349736417132,
+        532.5134951165971,
+        219.32117406746764
+      ]
+    },
+    {
+      "text": "Variation des créances/dettes d'impôts (b (2) 53 653 A7 711",
+      "bbox": [
+        138.79258585956393,
+        222.9201490836278,
+        534.6728419680982,
+        232.99727912887622
+      ]
+    },
+    {
+      "text": "Impôts payés (a) + (b) (48 692) (38351)",
+      "bbox": [
+        139.27244071545306,
+        235.87645914180433,
+        532.0336402607079,
+        244.51399918058868
+      ]
+    },
+    {
+      "text": "(1) Il s’agit de l'impôt sur les sociétés constaté dans l'exercice (Voir note 15).",
+      "bbox": [
+        169.98315149235754,
+        258.90989924522927,
+        465.5737427200631,
+        267.3075076162696
+      ]
+    },
+    {
+      "text": "(2) Le montant correspond à la variation des créances et dettes d'impôts.",
+      "bbox": [
+        169.98315149235754,
+        282.66313435188624,
+        451.65795189927826,
+        291.3006743906706
+      ]
+    },
+    {
+      "text": "Note 17. Immeubles de placement",
+      "bbox": [
+        142.39149727873243,
+        306.65630112628725,
+        280.5896957748025,
+        317.21329450702365
+      ]
+    },
+    {
+      "text": "Les variations de la période des immeubles de placement sont présentées ci-dessous :",
+      "bbox": [
+        135.67352929628458,
+        330.64946790068825,
+        466.53345243184134,
+        338.80714460398457
+      ]
+    },
+    {
+      "text": ". Variation de ; Mises en",
+      "bbox": [
+        365.0441504112899,
+        366.63921806228973,
+        526.0354545620937,
+        372.63750975589
+      ]
+    },
+    {
+      "text": "(En KMAD) 31/12/2022 Augmentations juste valeur Cessions service 31/12/2023",
+      "bbox": [
+        138.79258585956393,
+        370.4781247461939,
+        592.7352795306832,
+        382.9545714688824
+      ]
+    },
+    {
+      "text": "Immeubles de placement en cours 529 626 357 525 - 887 152",
+      "bbox": [
+        139.0325132875085,
+        412.7060982691396,
+        592.4953521027386,
+        420.3839116369479
+      ]
+    },
+    {
+      "text": "cours de construction À",
+      "bbox": [
+        138.79258585956393,
+        437.6589917145167,
+        567.0630447406146,
+        443.8972150758609
+      ]
+    },
+    {
+      "text": "Immeubles de placement 6 669 723 162 529 6863 (95 660) - 6 743 455",
+      "bbox": [
+        139.0325132875085,
+        459.73270514696554,
+        592.4953521027386,
+        467.1705868470299
+      ]
+    },
+    {
+      "text": "Il est rappelé que la société a recours à des experts indépendants (Colliers international, Dexa, Capital Realty) pour",
+      "bbox": [
+        135.19367444039545,
+        549.7070805509693,
+        569.2223915921157,
+        558.3446205897536
+      ]
+    },
+    {
+      "text": "évaluer la juste valeur de ses immeubles de placement.",
+      "bbox": [
+        134.9537470124509,
+        564.8227756188419,
+        346.08988360366914,
+        573.2203839898823
+      ]
+    },
+    {
+      "text": "Pour les immeubles de placement achevés, la méthode d'évaluation par le rendement ou d'actualisation des flux",
+      "bbox": [
+        135.43360186834002,
+        594.5743024190991,
+        568.2626818803375,
+        602.9719107901394
+      ]
+    },
+    {
+      "text": "futurs (DCF) a été retenue.",
+      "bbox": [
+        134.9537470124509,
+        609.4500658192277,
+        237.40275874478064,
+        617.8476741902681
+      ]
+    },
+    {
+      "text": "Pour les immeubles en cours de construction, la méthode de coût a été retenue jusqu'à l'achèvement de l'actif.",
+      "bbox": [
+        135.67352929628458,
+        639.2015926194849,
+        556.2663104831091,
+        647.5992009905253
+      ]
+    },
+    {
+      "text": "Conformément à la norme IAS 40, le Groupe comptabilise en résultat la variation d’une année sur l’autre de juste",
+      "bbox": [
+        135.19367444039545,
+        668.2333244165102,
+        568.502609308282,
+        677.3507277907826
+      ]
+    },
+    {
+      "text": "valeur de ses immeubles de placement.",
+      "bbox": [
+        135.19367444039545,
+        684.0688144876148,
+        286.10802661752757,
+        692.4664228586552
+      ]
+    },
+    {
+      "text": "Compte tenu du peu de données publiques disponibles, de la complexité des évaluations d'actifs immobiliers et du",
+      "bbox": [
+        135.19367444039545,
+        714.060272955616,
+        568.0227544523929,
+        722.6978129944005
+      ]
+    },
+    {
+      "text": "fait que les experts immobiliers utilisent pour leurs évaluations les états locatifs confidentiels du groupe, Aradei",
+      "bbox": [
+        135.19367444039545,
+        729.1759680234886,
+        568.502609308282,
+        737.573576394529
+      ]
+    },
+    {
+      "text": "Capital a considéré, en application d'IFRS 13, la classification en niveau 3 de ses actifs comme la mieux adaptée.",
+      "bbox": [
+        135.19367444039545,
+        743.8117997558733,
+        567.7828270244484,
+        752.4493397946576
+      ]
+    },
+    {
+      "text": "De plus, des données non observables publiquement comme les hypothèses de taux de croissance de loyers ou",
+      "bbox": [
+        135.67352929628458,
+        758.9274948237459,
+        568.0227544523929,
+        767.5650348625303
+      ]
+    },
+    {
+      "text": "les taux de capitalisation sont utilisées par les experts pour déterminer les justes valeurs des actifs du groupe.",
+      "bbox": [
+        135.43360186834002,
+        773.8032582238745,
+        552.6673990639406,
+        782.2008665949148
+      ]
+    },
+    {
+      "text": "MAZARS AUDIT ET CONSEIL |",
+      "bbox": [
+        226.60602448727516,
+        839.7844668534773,
+        448.7788227639435,
+        852.2609135761658
+      ]
+    },
+    {
+      "text": "Pour Identification L LUE | 4 20",
+      "bbox": [
+        241.9613798757274,
+        852.0209819084217,
+        568.7425367362266,
+        866.4168819730623
+      ]
+    }
+  ],
+  "amount_count": 17,
+  "multi_value_row_count": 7,
+  "labeled_row_count": 7
+}

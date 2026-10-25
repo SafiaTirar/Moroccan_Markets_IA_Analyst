@@ -1,0 +1,93 @@
+[
+  {
+    "company_id": "attijariwafa_bank",
+    "exercise_year": 2025,
+    "sector_objective": "BANKING",
+    "reason": "Valider le profil bancaire et empêcher l'assimilation du produit net bancaire au chiffre d'affaires industriel.",
+    "indicator_profile": {
+      "description": "Établissements de crédit ; le produit net bancaire ne doit pas être assimilé au chiffre d'affaires industriel.",
+      "priority_indicators": [
+        "BANKING_NET_REVENUE",
+        "NET_INCOME",
+        "TOTAL_ASSETS",
+        "TOTAL_LIABILITIES_AND_EQUITY",
+        "EQUITY",
+        "CUSTOMER_LOANS",
+        "CUSTOMER_DEPOSITS"
+      ]
+    },
+    "local_path": "data/raw/ammc/pdfs/annual/attijariwafa_bank/2025/AWB_RFA_2025.pdf",
+    "sha256": "766da5ac174bfd22e1a9aac59fd5465bb51b2249ed8143268afba5235f1e3afb",
+    "document_classification": "TEXT",
+    "recommended_strategy": "DOCLING",
+    "ocr_candidate_count": 4,
+    "estimated_workload_units": 172,
+    "execution_authorized": false,
+    "required_sequence": [
+      "Docling séquentiel avec cache",
+      "OCR ciblé uniquement sur les pages requises",
+      "constitution de références PDF",
+      "Quality Gate VERIFIED uniquement"
+    ]
+  },
+  {
+    "company_id": "wafa_assurance",
+    "exercise_year": 2025,
+    "sector_objective": "INSURANCE",
+    "reason": "Valider la distinction entre revenu d'assurance et primes émises ou acquises.",
+    "indicator_profile": {
+      "description": "Compagnies d'assurance ; primes, chiffre d'affaires et produits des activités d'assurance restent des concepts distincts.",
+      "priority_indicators": [
+        "INSURANCE_REVENUE",
+        "WRITTEN_PREMIUMS",
+        "NET_INCOME",
+        "TOTAL_ASSETS",
+        "TOTAL_LIABILITIES_AND_EQUITY",
+        "EQUITY"
+      ]
+    },
+    "local_path": "data/raw/ammc/pdfs/annual/wafa_assurance/2025/Wafa_Assurance_RFA_2025.pdf",
+    "sha256": "162f0a480d639cd9e19b6e44304d6170bd47f5c5ab899dc3260d7db0fc3b8ec6",
+    "document_classification": "TEXT",
+    "recommended_strategy": "DOCLING",
+    "ocr_candidate_count": 23,
+    "estimated_workload_units": 246,
+    "execution_authorized": false,
+    "required_sequence": [
+      "Docling séquentiel avec cache",
+      "OCR ciblé uniquement sur les pages requises",
+      "constitution de références PDF",
+      "Quality Gate VERIFIED uniquement"
+    ]
+  },
+  {
+    "company_id": "aradei_capital",
+    "exercise_year": 2025,
+    "sector_objective": "REAL_ESTATE",
+    "reason": "Valider le traitement des revenus locatifs sans les substituer automatiquement au chiffre d'affaires.",
+    "indicator_profile": {
+      "description": "Foncières et sociétés immobilières ; les revenus locatifs complètent le chiffre d'affaires sans lui être substitués automatiquement.",
+      "priority_indicators": [
+        "REVENUE",
+        "RENTAL_INCOME",
+        "NET_INCOME",
+        "TOTAL_ASSETS",
+        "TOTAL_LIABILITIES_AND_EQUITY",
+        "EQUITY"
+      ]
+    },
+    "local_path": "data/raw/ammc/pdfs/annual/aradei_capital/2025/Aradei_Capital_RFA_2025.pdf",
+    "sha256": "272fdb3d9d6ead47bee49030106ae671774421580c0e7f4f44cf8d8fe354e658",
+    "document_classification": "TEXT",
+    "recommended_strategy": "DOCLING",
+    "ocr_candidate_count": 15,
+    "estimated_workload_units": 259,
+    "execution_authorized": false,
+    "required_sequence": [
+      "Docling séquentiel avec cache",
+      "OCR ciblé uniquement sur les pages requises",
+      "constitution de références PDF",
+      "Quality Gate VERIFIED uniquement"
+    ]
+  }
+]

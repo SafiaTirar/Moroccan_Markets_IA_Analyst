@@ -1,0 +1,11 @@
+,MASSES .,Exercice (a).Exercice (a),Exercice précédent  (b).Exercice précédent  (b),Variations (a-b).emplois (c) ,ressources (d)
+1 ,Financement permanent (moins rubrique 16) ,"6 943 304 412,85 ","6 680 868 814,29 ",,"262 435 598,56"
+2 ,Moins Actif immobilisé (moins rubrique 26) ,"2 845 823 775,27 ","2 841 855 847,80 ","3 967 927,47",
+3 ,= Fonds de roulement fonctionnel (1-2) (A) ,"4 097 480 637,58 ","3 839 012 966,49 ",,"258 467 671,09"
+4 ,Provisions techniques nettes de cessions (16 – 32) ,"43 762 472 019,86 ","40 876 601 705,96 ",,"2 885 870 313,90"
+5 ,Placements moins dépôts des réassureurs (26 – 42) ,"44 316 871 100,59 ","40 371 630 425,96 ","3 945 240 674,63",
+6 ,= Besoin en couverture (4 – 5) (B) ,"-554 399 080,73 ","504 971 280,00 ","1 059 370 360,73",
+7 ,Actif circulant (moins rubrique 32) ,"6 663 162 436,18 ","7 024 014 585,52 ",,"360 852 149,34"
+8 ,Moins Passif circulant (moins rubrique 42) ,"3 593 101 344,22 ","3 190 729 405,71 ",,"402 371 938,51"
+9 ,= Besoin de financement (7-8) (C) ,"3 070 061 091,96 ","3 833 285 179,81 ",,"763 224 087,85"
+10 ,Trésorerie nette (actif - passif) = (A+ B - C) ,"473 020 464,89 ","510 699 066,68 ",,"37 678 601,79"

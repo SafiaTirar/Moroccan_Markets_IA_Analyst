@@ -1,0 +1,22 @@
+,RUBRIQUES 1.Ventes,Ensemble des produits 2.,Ensemble des  produits  correspondant à la base imposable 3.,Ensemble des  produits  correspondant au numérateur taxable 4.
+1 ,Ventes imposables ,"181 239 182,01 ","181 239 182,01 ","181 239 182,01"
+2 ,Ventes exports ,"285 918 202,91 ","285 918 202,91 ","285 918 202,91"
+3 ,Ventes exonérées à 50%,,,
+,Lotissement et promotion immobilière,,,
+4 ,Ventes et locations imposables,,,
+5 ,Ventes et locations exclues à 100%,,,
+6 ,Ventes et locations exclues à 50%,,,
+,Prestations de services,,,
+7 ,Imposables,,,
+8 ,Exonérées à 100%,,,
+9 ,Exonérées à 50%,,,
+10,"Produits accessoires, Produits financiers, dons & libéralités ","450 435 746,50 ","450 435 746,50 ","450 435 746,50"
+11 ,Subventions d'équipement,,,
+12 ,Subventions d'équilibre,,,
+12a ,Imposables,,,
+12b ,Exonérées à 100%,,,
+12c ,Exonérées à 50%,,,
+13 ,Totaux partiels ,"917 593 131,42 ","917 593 131,42 ","917 593 131,42"
+14,Profit net global des cessions après abattement pondéré,,,
+15 ,Autres profits exceptionnels,,,
+16 ,Total général (13+14+15) ,"917 593 131,42 ","917 593 131,42 ","917 593 131,42"

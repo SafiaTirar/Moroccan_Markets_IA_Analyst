@@ -1,0 +1,570 @@
+{
+  "page": 51,
+  "bbox": [
+    66.23999786376953,
+    77.760009765625,
+    532.7999877929688,
+    757.4400024414062
+  ],
+  "source": "embedded_image",
+  "source_id": "xref:1089:2",
+  "name": null,
+  "image_size": [
+    1944,
+    2832
+  ],
+  "attempts": [
+    {
+      "psm": 6,
+      "score": 127,
+      "amount_count": 12,
+      "keyword_count": 2,
+      "rows": 8,
+      "multi_value_rows": 3,
+      "labeled_rows": 8
+    },
+    {
+      "psm": 11,
+      "score": 79,
+      "amount_count": 12,
+      "keyword_count": 2,
+      "rows": 10,
+      "multi_value_rows": 2,
+      "labeled_rows": 8
+    }
+  ],
+  "selected_psm": 6,
+  "column_right_ratios": [
+    0.2366255144032922,
+    0.46656378600823045,
+    0.5951646090534979,
+    0.9814814814814815
+  ],
+  "rows": [
+    {
+      "label": "Au 31 décembre 2025 re)",
+      "cells": [
+        {
+          "column": "value_2",
+          "value": "296 860",
+          "bbox": [
+            221.0399945223773,
+            180.96000865354375,
+            260.399993672783,
+            191.04000854492188
+          ]
+        },
+        {
+          "column": "value_3",
+          "value": "4 187",
+          "bbox": [
+            316.3199924657374,
+            180.48000865871623,
+            340.7999919373312,
+            190.08000855526683
+          ]
+        },
+        {
+          "column": "value_3_extra",
+          "value": "88 711",
+          "bbox": [
+            396.9599907251052,
+            179.52000866906118,
+            425.75999010345083,
+            189.60000856043928
+          ]
+        }
+      ]
+    },
+    {
+      "label": "courant d'associés de MAD portant le compte courant à MAD",
+      "cells": [
+        {
+          "column": "value_2",
+          "value": "29 000 000",
+          "bbox": [
+            223.91999446021185,
+            503.5200051776433,
+            286.0799931184745,
+            511.2000050948838
+          ]
+        },
+        {
+          "column": "value_4",
+          "value": "65 000 600",
+          "bbox": [
+            463.19998929530016,
+            499.6800052190231,
+            524.1599879794651,
+            509.2800051155737
+          ]
+        }
+      ]
+    },
+    {
+      "label": "courant d’associés de MAD portant le compte courant à MAD",
+      "cells": [
+        {
+          "column": "value_2",
+          "value": "4 000 000",
+          "bbox": [
+            225.35999442912913,
+            539.5200047897081,
+            281.75999321172264,
+            547.680004701776
+          ]
+        },
+        {
+          "column": "value_4",
+          "value": "69 000 000",
+          "bbox": [
+            463.19998929530016,
+            536.1600048259154,
+            524.1599879794651,
+            545.760004722466
+          ]
+        }
+      ]
+    },
+    {
+      "label": "compte courant d’associés de MAD portant le compte courant à",
+      "cells": [
+        {
+          "column": "value_3",
+          "value": "3 000 000",
+          "bbox": [
+            291.83999299414364,
+            575.5200044017727,
+            347.0399918026394,
+            583.6800043138408
+          ]
+        }
+      ]
+    },
+    {
+      "label": "MAD suivant les mêmes modalités et les mêmes conditions.",
+      "cells": [
+        {
+          "column": "value_1",
+          "value": "72 000 000",
+          "bbox": [
+            113.99999683285937,
+            588.9600042569435,
+            174.95999551702428,
+            597.6000041638391
+          ]
+        }
+      ]
+    },
+    {
+      "label": "à MAD suivant les mêmes modalités et les mêmes conditions.",
+      "cells": [
+        {
+          "column": "value_1",
+          "value": "75 000 000",
+          "bbox": [
+            120.71999668780668,
+            612.96000399832,
+            178.31999544449795,
+            621.6000039052155
+          ]
+        }
+      ]
+    },
+    {
+      "label": "courant à MAD suivant les mêmes modalités et les mêmes conditions.",
+      "cells": [
+        {
+          "column": "value_1",
+          "value": "78 000 000",
+          "bbox": [
+            160.07999583821237,
+            636.0000037500414,
+            218.63999457418183,
+            645.600003646592
+          ]
+        }
+      ]
+    },
+    {
+      "label": "de Wafa Assurance soit d’un montant total de MAD",
+      "cells": [
+        {
+          "column": "value_3",
+          "value": "78 000 000",
+          "bbox": [
+            317.7599924346547,
+            682.5600032483118,
+            375.83999118098507,
+            692.6400031396898
+          ]
+        }
+      ]
+    }
+  ],
+  "raw_lines": [
+    {
+      "text": "Wafa Assurance S.A",
+      "bbox": [
+        69.83999778606274,
+        80.16000973976264,
+        161.51999580712965,
+        89.2800096414857
+      ]
+    },
+    {
+      "text": "Pages",
+      "bbox": [
+        68.87999780678454,
+        90.72000962596829,
+        100.07999713332565,
+        98.88000953803629
+      ]
+    },
+    {
+      "text": "Les flux générés par cette convention relatifs à l'exercice clos le 31 décembre 2025 sont les",
+      "bbox": [
+        69.83999778606274,
+        116.64000934665486,
+        524.1599879794651,
+        131.04000919148075
+      ]
+    },
+    {
+      "text": "suivants :",
+      "bbox": [
+        69.35999779642364,
+        132.48000917596332,
+        114.47999682249846,
+        141.12000908285884
+      ]
+    },
+    {
+      "text": "En KMAD Solde | Produits | Montant Montant _",
+      "bbox": [
+        107.27999697791205,
+        151.20000897423697,
+        532.7999877929688,
+        165.60000881906285
+      ]
+    },
+    {
+      "text": "|_ : | comptabilisés  __ décaissé encaissé _",
+      "bbox": [
+        72.7199977238973,
+        165.60000881906285,
+        531.8399878136906,
+        180.72000865613
+      ]
+    },
+    {
+      "text": "Au 31 décembre 2025 296 860 4 187 88 711 re)",
+      "bbox": [
+        74.15999769281458,
+        179.52000866906118,
+        495.83998859075854,
+        192.48000852940447
+      ]
+    },
+    {
+      "text": "2. CONVENTIONS CONCLUES AU COURS DES EXERCICES ANTERIEURS ET",
+      "bbox": [
+        69.83999778606274,
+        218.40000825009105,
+        524.1599879794651,
+        229.92000812595174
+      ]
+    },
+    {
+      "text": "DONT L’EXECUTION S’EST POURSUIVIE DURANT L’EXERCICE",
+      "bbox": [
+        90.47999734054378,
+        230.88000811560678,
+        448.3199896164882,
+        241.92000799663995
+      ]
+    },
+    {
+      "text": "2.1 Avenant n°5 relatif à la convention d’octroi d’avances en compte courant",
+      "bbox": [
+        69.83999778606274,
+        255.84000784663831,
+        524.1599879794651,
+        267.84000771732656
+      ]
+    },
+    {
+      "text": "d’associés par Wafa Assurance au profit de Panorama",
+      "bbox": [
+        89.51999736126558,
+        267.84000771732656,
+        400.31999065257884,
+        280.3200075828423
+      ]
+    },
+    {
+      "text": "Entités /personnes intéressées :",
+      "bbox": [
+        69.83999778606274,
+        293.2800074431856,
+        226.79999439804644,
+        304.5600073216325
+      ]
+    },
+    {
+      "text": "e Monsieur Boubker Jai, Président Directeur Général de Wafa Assurance S.A. et",
+      "bbox": [
+        69.83999778606274,
+        316.320007194907,
+        529.4399878654951,
+        328.3200070655952
+      ]
+    },
+    {
+      "text": "Président du Conseil d’administration de Panorama.",
+      "bbox": [
+        91.43999731982196,
+        329.7600070500778,
+        350.8799917197522,
+        339.8400069414559
+      ]
+    },
+    {
+      "text": "+ Wafa Assurance S.A, actionnaire unique de Panorama.",
+      "bbox": [
+        69.83999778606274,
+        342.7200069104211,
+        360.9599915021732,
+        353.76000679145426
+      ]
+    },
+    {
+      "text": "Nature et obiet de la convention :",
+      "bbox": [
+        69.83999778606274,
+        368.1600066362801,
+        234.47999423227193,
+        378.7200065224858
+      ]
+    },
+    {
+      "text": "Cette convention écrite a pour objet de fixer les modalités et les conditions des avances en",
+      "bbox": [
+        69.83999778606274,
+        390.24000639834645,
+        524.1599879794651,
+        403.20000625868977
+      ]
+    },
+    {
+      "text": "compte courant d’associés accordées par Wafa Assurance S.A à la société Panorama.",
+      "bbox": [
+        69.83999778606274,
+        402.7200062638622,
+        483.3599888601421,
+        416.160006119033
+      ]
+    },
+    {
+      "text": "Date de la convention :",
+      "bbox": [
+        69.83999778606274,
+        429.12000597937634,
+        181.6799953719716,
+        438.48000587851317
+      ]
+    },
+    {
+      "text": "La convention initiale en date du 19 janvier 2009 a fait l'objet au cours des exercices",
+      "bbox": [
+        70.31999777570184,
+        449.28000576213253,
+        524.1599879794651,
+        463.68000560695845
+      ]
+    },
+    {
+      "text": "précédents des avenants suivants :",
+      "bbox": [
+        69.83999778606274,
+        465.12000559144104,
+        240.71999409758016,
+        477.12000546212926
+      ]
+    },
+    {
+      "text": "+ Avenant n°1 : signé le 9 mars 2012 et ayant pour objet d’augmenter l’avance en compte",
+      "bbox": [
+        70.31999777570184,
+        487.2000053535074,
+        524.1599879794651,
+        500.16000521385064
+      ]
+    },
+    {
+      "text": "courant d'associés de MAD 29 000 000, portant le compte courant à MAD 65 000 600,",
+      "bbox": [
+        84.23999747523555,
+        499.6800052190231,
+        524.1599879794651,
+        511.2000050948838
+      ]
+    },
+    {
+      "text": "suivant les mémes modalités et les mémes conditions.",
+      "bbox": [
+        84.23999747523555,
+        512.1600050845389,
+        351.3599917093913,
+        523.200004965572
+      ]
+    },
+    {
+      "text": "+ Avenant n°2 : signé le 20 juin 2018 et ayant pour objet d'augmenter l’avance en compte",
+      "bbox": [
+        70.31999777570184,
+        523.6800049603996,
+        524.6399879691041,
+        536.6400048207429
+      ]
+    },
+    {
+      "text": "courant d’associés de MAD 4 000 000, portant le compte courant à MAD 69 000 000,",
+      "bbox": [
+        84.23999747523555,
+        535.6800048310878,
+        524.1599879794651,
+        547.680004701776
+      ]
+    },
+    {
+      "text": "suivant les mêmes modalités et les mêmes conditions.",
+      "bbox": [
+        84.23999747523555,
+        549.1200046862587,
+        351.3599917093913,
+        559.6800045724642
+      ]
+    },
+    {
+      "text": "+ Avenant n°2 : signé le 25 février 2020 et ayant pour objet d’augmenter l'avance en",
+      "bbox": [
+        70.79999776534092,
+        559.6800045724642,
+        524.6399879691041,
+        573.1200044276351
+      ]
+    },
+    {
+      "text": "compte courant d’associés de MAD 3 000000, portant le compte courant à",
+      "bbox": [
+        84.23999747523555,
+        571.6800044431525,
+        524.6399879691041,
+        586.0800042879783
+      ]
+    },
+    {
+      "text": "MAD 72 000 000, suivant les mêmes modalités et les mêmes conditions.",
+      "bbox": [
+        84.23999747523555,
+        584.1600043086682,
+        445.91998966829277,
+        597.6000041638391
+      ]
+    },
+    {
+      "text": "* Avenant n°4 : signé le 24 février 2023, et ayant pour objet de faire porter le compte courant",
+      "bbox": [
+        70.79999776534092,
+        596.1600041793565,
+        525.1199879587432,
+        609.1200040396998
+      ]
+    },
+    {
+      "text": "à MAD 75 000 000, suivant les mêmes modalités et les mêmes conditions.",
+      "bbox": [
+        84.23999747523555,
+        608.6400040448723,
+        436.3199898755109,
+        621.6000039052155
+      ]
+    },
+    {
+      "text": "+ Avenant n°5: signé le 10 septembre 2024, et ayant pour objet de faire porter le compte",
+      "bbox": [
+        70.79999776534092,
+        620.160003920733,
+        525.1199879587432,
+        633.6000037759037
+      ]
+    },
+    {
+      "text": "courant à MAD 78 000 000, suivant les mêmes modalités et les mêmes conditions.",
+      "bbox": [
+        84.71999746487464,
+        632.6400037862487,
+        476.63998900519476,
+        645.600003646592
+      ]
+    },
+    {
+      "text": "Au 25 décembre 2024 l’Assemblée Générale Extraordinaire de la société Panorama a décidé",
+      "bbox": [
+        69.83999778606274,
+        656.1600035327976,
+        525.1199879587432,
+        670.5600033776235
+      ]
+    },
+    {
+      "text": "l'augmentation de capital social par incorporation de l'intégralité du compte courant d’associé",
+      "bbox": [
+        70.31999777570184,
+        667.4400034112446,
+        525.1199879587432,
+        683.0400032431393
+      ]
+    },
+    {
+      "text": "de Wafa Assurance soit d’un montant total de MAD 78 000 000.",
+      "bbox": [
+        70.79999776534092,
+        682.5600032483118,
+        375.83999118098507,
+        692.6400031396898
+      ]
+    },
+    {
+      "text": "Modalités essentielles :",
+      "bbox": [
+        70.79999776534092,
+        708.0000029741708,
+        184.55999530980617,
+        717.1200028758938
+      ]
+    },
+    {
+      "text": "Cette convention est conclue pour une durée d’un an renouvelable par tacite reconduction",
+      "bbox": [
+        70.79999776534092,
+        729.120002746582,
+        525.1199879587432,
+        742.0800026069253
+      ]
+    },
+    {
+      "text": "moyennant un taux d'intérêt annuel HT de 5%, à majorer de la TVA en vigueur.",
+      "bbox": [
+        70.79999776534092,
+        740.8800026198566,
+        465.11998925385655,
+        755.5200024620962
+      ]
+    }
+  ],
+  "amount_count": 12,
+  "multi_value_row_count": 3,
+  "labeled_row_count": 8
+}

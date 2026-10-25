@@ -1,0 +1,156 @@
+{
+  "schema_version": "1.0",
+  "currency": "MAD",
+  "profiles": {
+    "GENERAL_CORPORATE": {
+      "description": "Sociétés industrielles, commerciales, technologiques et de services non financiers.",
+      "priority_indicators": ["REVENUE", "NET_INCOME", "TOTAL_ASSETS", "TOTAL_LIABILITIES_AND_EQUITY", "EQUITY", "OPERATING_INCOME", "EBITDA"]
+    },
+    "BANKING": {
+      "description": "Établissements de crédit ; le produit net bancaire ne doit pas être assimilé au chiffre d'affaires industriel.",
+      "priority_indicators": ["BANKING_NET_REVENUE", "NET_INCOME", "TOTAL_ASSETS", "TOTAL_LIABILITIES_AND_EQUITY", "EQUITY", "CUSTOMER_LOANS", "CUSTOMER_DEPOSITS"]
+    },
+    "INSURANCE": {
+      "description": "Compagnies d'assurance ; primes, chiffre d'affaires et produits des activités d'assurance restent des concepts distincts.",
+      "priority_indicators": ["INSURANCE_REVENUE", "WRITTEN_PREMIUMS", "NET_INCOME", "TOTAL_ASSETS", "TOTAL_LIABILITIES_AND_EQUITY", "EQUITY"]
+    },
+    "REAL_ESTATE": {
+      "description": "Foncières et sociétés immobilières ; les revenus locatifs complètent le chiffre d'affaires sans lui être substitués automatiquement.",
+      "priority_indicators": ["REVENUE", "RENTAL_INCOME", "NET_INCOME", "TOTAL_ASSETS", "TOTAL_LIABILITIES_AND_EQUITY", "EQUITY"]
+    }
+  },
+  "indicators": [
+    {
+      "indicator": "REVENUE",
+      "business_definition": "Produits des ventes de biens et services reconnus comme chiffre d'affaires pour une entreprise non financière.",
+      "synonyms": ["chiffre d'affaires", "chiffre d’affaires", "revenus des activités ordinaires"],
+      "applicable_profiles": ["GENERAL_CORPORATE", "REAL_ESTATE"],
+      "forbidden_profiles": ["BANKING", "INSURANCE"],
+      "priority": 100
+    },
+    {
+      "indicator": "BANKING_NET_REVENUE",
+      "business_definition": "Produit net bancaire après agrégation des produits et charges bancaires selon le référentiel applicable.",
+      "synonyms": ["produit net bancaire", "pnb"],
+      "applicable_profiles": ["BANKING"],
+      "forbidden_profiles": ["GENERAL_CORPORATE", "INSURANCE", "REAL_ESTATE"],
+      "priority": 100
+    },
+    {
+      "indicator": "INSURANCE_REVENUE",
+      "business_definition": "Produits des activités d'assurance présentés comme tels ; ils ne sont pas remplacés automatiquement par les primes émises.",
+      "synonyms": ["produits des activités d'assurance", "revenus d'assurance", "insurance revenue"],
+      "applicable_profiles": ["INSURANCE"],
+      "forbidden_profiles": ["GENERAL_CORPORATE", "BANKING", "REAL_ESTATE"],
+      "priority": 100
+    },
+    {
+      "indicator": "WRITTEN_PREMIUMS",
+      "business_definition": "Primes émises ou acquises telles que libellées dans les états de l'assureur ; distinctes du revenu d'assurance.",
+      "synonyms": ["primes émises", "primes acquises", "émissions de primes"],
+      "applicable_profiles": ["INSURANCE"],
+      "forbidden_profiles": ["GENERAL_CORPORATE", "BANKING", "REAL_ESTATE"],
+      "priority": 85
+    },
+    {
+      "indicator": "RENTAL_INCOME",
+      "business_definition": "Revenus locatifs bruts ou nets explicitement présentés par une société immobilière.",
+      "synonyms": ["revenus locatifs", "loyers", "rental income"],
+      "applicable_profiles": ["REAL_ESTATE"],
+      "forbidden_profiles": ["BANKING", "INSURANCE"],
+      "priority": 85
+    },
+    {
+      "indicator": "NET_INCOME",
+      "business_definition": "Résultat net de la période ; la part du groupe et le résultat de l'ensemble restent des variantes distinctes.",
+      "synonyms": ["résultat net", "resultat net", "bénéfice net", "benefice net"],
+      "excluded_label_terms": ["par action", "earnings per share"],
+      "applicable_profiles": ["GENERAL_CORPORATE", "BANKING", "INSURANCE", "REAL_ESTATE"],
+      "forbidden_profiles": [],
+      "priority": 100
+    },
+    {
+      "indicator": "NET_INCOME_GROUP_SHARE",
+      "business_definition": "Résultat net attribuable aux propriétaires de la société mère, distinct du résultat net de l'ensemble consolidé.",
+      "synonyms": ["résultat net part du groupe", "resultat net part du groupe", "résultat part du groupe", "resultat part du groupe"],
+      "excluded_label_terms": ["par action", "earnings per share"],
+      "applicable_profiles": ["GENERAL_CORPORATE", "BANKING", "INSURANCE", "REAL_ESTATE"],
+      "forbidden_profiles": [],
+      "priority": 100
+    },
+    {
+      "indicator": "TOTAL_ASSETS",
+      "business_definition": "Total de l'actif à la date de clôture, pour un périmètre et une unité déterminés.",
+      "synonyms": ["total de l'actif", "total actif", "total général actif", "total general actif"],
+      "applicable_profiles": ["GENERAL_CORPORATE", "BANKING", "INSURANCE", "REAL_ESTATE"],
+      "forbidden_profiles": [],
+      "priority": 100
+    },
+    {
+      "indicator": "TOTAL_LIABILITIES_AND_EQUITY",
+      "business_definition": "Total du passif au sens du bilan marocain, incluant capitaux propres et dettes ; ce n'est pas la dette seule.",
+      "synonyms": ["total du passif", "total passif", "total général passif", "total general passif"],
+      "applicable_profiles": ["GENERAL_CORPORATE", "BANKING", "INSURANCE", "REAL_ESTATE"],
+      "forbidden_profiles": [],
+      "priority": 100
+    },
+    {
+      "indicator": "EQUITY",
+      "business_definition": "Capitaux propres correspondant au périmètre indiqué ; part du groupe et ensemble consolidé ne sont pas fusionnés silencieusement.",
+      "synonyms": ["capitaux propres", "fonds propres", "situation nette"],
+      "excluded_label_terms": ["rendement", "rentabilité", "return on equity"],
+      "applicable_profiles": ["GENERAL_CORPORATE", "BANKING", "INSURANCE", "REAL_ESTATE"],
+      "forbidden_profiles": [],
+      "priority": 95
+    },
+    {
+      "indicator": "OPERATING_INCOME",
+      "business_definition": "Résultat d'exploitation avant résultat financier, non courant et impôts.",
+      "synonyms": ["résultat d'exploitation", "resultat d'exploitation", "résultat opérationnel", "resultat operationnel"],
+      "applicable_profiles": ["GENERAL_CORPORATE", "REAL_ESTATE"],
+      "forbidden_profiles": ["BANKING", "INSURANCE"],
+      "priority": 80
+    },
+    {
+      "indicator": "EBITDA",
+      "business_definition": "EBITDA explicitement publié par l'émetteur ; aucune reconstruction automatique depuis d'autres agrégats.",
+      "synonyms": ["ebitda", "excédent brut d'exploitation", "excedent brut d'exploitation"],
+      "applicable_profiles": ["GENERAL_CORPORATE", "REAL_ESTATE"],
+      "forbidden_profiles": ["BANKING", "INSURANCE"],
+      "priority": 70
+    },
+    {
+      "indicator": "CUSTOMER_LOANS",
+      "business_definition": "Créances ou prêts à la clientèle tels que présentés par une banque.",
+      "synonyms": ["créances sur la clientèle", "credits à la clientèle", "prêts à la clientèle"],
+      "applicable_profiles": ["BANKING"],
+      "forbidden_profiles": ["GENERAL_CORPORATE", "INSURANCE", "REAL_ESTATE"],
+      "priority": 80
+    },
+    {
+      "indicator": "CUSTOMER_DEPOSITS",
+      "business_definition": "Dépôts ou dettes envers la clientèle tels que présentés par une banque.",
+      "synonyms": ["dettes envers la clientèle", "dépôts de la clientèle", "dépôts clientèle"],
+      "applicable_profiles": ["BANKING"],
+      "forbidden_profiles": ["GENERAL_CORPORATE", "INSURANCE", "REAL_ESTATE"],
+      "priority": 80
+    }
+  ],
+  "company_profiles": {
+    "attijariwafa_bank": "BANKING",
+    "wafa_assurance": "INSURANCE",
+    "aradei_capital": "REAL_ESTATE",
+    "auto_hall": "GENERAL_CORPORATE",
+    "cosumar": "GENERAL_CORPORATE",
+    "dari_couspate": "GENERAL_CORPORATE",
+    "lafargeholcim_maroc": "GENERAL_CORPORATE",
+    "lesieur_cristal": "GENERAL_CORPORATE",
+    "managem": "GENERAL_CORPORATE",
+    "marsa_maroc": "GENERAL_CORPORATE",
+    "s2m": "GENERAL_CORPORATE",
+    "sonasid": "GENERAL_CORPORATE",
+    "sothema": "GENERAL_CORPORATE",
+    "stroc": "GENERAL_CORPORATE",
+    "totalenergies_marketing_maroc": "GENERAL_CORPORATE"
+  }
+}

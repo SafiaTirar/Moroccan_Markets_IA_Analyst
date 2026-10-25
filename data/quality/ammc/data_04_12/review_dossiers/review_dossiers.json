@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0",
+  "human_approval_claimed": false,
+  "dossiers": [
+    {
+      "review_id": "s2m-2024-total-assets-unit-review",
+      "company_id": "s2m",
+      "exercise_year": 2024,
+      "indicator": "TOTAL_ASSETS",
+      "status": "REVIEW_REQUIRED",
+      "source_pdf_sha256": "84d9b0c2f502e3a4224e8048049c44b255527b9dc0e5c24e740f5314a7b2af70",
+      "page_number": 27,
+      "table_id": "DOCLING_057",
+      "source_label": "Total de l'actif",
+      "raw_value": "236 962 060",
+      "source_region": [45, 300, 590, 515],
+      "ambiguity": "L'unité En MAD est imprimée au début du compte de résultat suivant, pas dans l'en-tête du bilan extrait. Son application au total actif ne doit pas être supposée.",
+      "required_action": "Confirmer manuellement l'unité du bilan à partir de la mise en page ou d'une note comptable explicite."
+    },
+    {
+      "review_id": "wafa-assurance-2023-written-premiums-unit-review",
+      "company_id": "wafa_assurance",
+      "exercise_year": 2023,
+      "indicator": "WRITTEN_PREMIUMS",
+      "status": "REVIEW_REQUIRED",
+      "source_pdf_sha256": "745ff7211e3b184db1380544b96bb9598fb8a5837b95054fbe616cdb8b666d9b",
+      "page_number": 17,
+      "table_id": "DOCLING_026",
+      "source_label": "Primes émises",
+      "raw_value": "12 724 122",
+      "source_region": [45, 105, 565, 440],
+      "ambiguity": "La page du compte de résultat consolidé n'affiche pas explicitement l'unité KDH dans son propre en-tête.",
+      "required_action": "Retrouver une déclaration d'unité explicitement applicable à ce tableau avant normalisation."
+    },
+    {
+      "review_id": "auto-hall-2025-revenue-merged-cell-review",
+      "company_id": "auto_hall",
+      "exercise_year": 2025,
+      "indicator": "REVENUE",
+      "status": "REVIEW_REQUIRED",
+      "source_pdf_sha256": "40e739bff27c1e9581c7c21188f837ba486de9c1e06aca89b49919cb2b39e302",
+      "page_number": 58,
+      "table_id": "DOCLING_068",
+      "source_label": "Chiffre d'affaires",
+      "raw_value": "31 décembre 2025  5 911 769 591,27",
+      "source_region": [635, 150, 1150, 230],
+      "ambiguity": "Docling a concaténé l'en-tête de période et le montant dans une seule cellule; cette cellule n'est pas un nombre déterministe pour le Quality Gate.",
+      "required_action": "Corriger ou confirmer manuellement la séparation période/valeur sans modifier l'artefact Docling original."
+    }
+  ]
+}

@@ -1,0 +1,2185 @@
+{
+  "page": 5,
+  "bbox": [
+    0.0,
+    0.0,
+    306.0,
+    792.0
+  ],
+  "source": "automatic_split",
+  "source_id": "page:5:left",
+  "name": "page:5:left",
+  "image_size": [
+    1275,
+    3300
+  ],
+  "attempts": [
+    {
+      "psm": 6,
+      "score": 1388,
+      "amount_count": 89,
+      "keyword_count": 10,
+      "rows": 40,
+      "multi_value_rows": 31,
+      "labeled_rows": 40
+    },
+    {
+      "psm": 11,
+      "score": 357,
+      "amount_count": 105,
+      "keyword_count": 10,
+      "rows": 98,
+      "multi_value_rows": 6,
+      "labeled_rows": 6
+    }
+  ],
+  "selected_psm": 6,
+  "column_right_ratios": [
+    0.5983600713012478,
+    0.6982352941176471,
+    0.7892549019607843,
+    0.8676003734827263,
+    0.9761197110423117
+  ],
+  "rows": [
+    {
+      "label": "DEBITEURS DIVERS",
+      "cells": [
+        {
+          "column": "value_4",
+          "value": "100 358 987",
+          "bbox": [
+            239.51999999999998,
+            77.75999999999999,
+            260.64,
+            80.64
+          ]
+        },
+        {
+          "column": "value_5",
+          "value": "165 676 129",
+          "bbox": [
+            278.15999999999997,
+            77.75999999999999,
+            299.28,
+            80.64
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Sommes dues par l'Etat",
+      "cells": [
+        {
+          "column": "value_4",
+          "value": "97 174 245",
+          "bbox": [
+            241.67999999999998,
+            83.52,
+            260.64,
+            86.39999999999999
+          ]
+        },
+        {
+          "column": "value_5",
+          "value": "114 282 393",
+          "bbox": [
+            278.64,
+            83.52,
+            299.28,
+            86.39999999999999
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Sommes diverses dues par le personnel",
+      "cells": [
+        {
+          "column": "value_4",
+          "value": "-127 102",
+          "bbox": [
+            245.76,
+            94.8,
+            260.88,
+            97.67999999999999
+          ]
+        },
+        {
+          "column": "value_5",
+          "value": "215 861",
+          "bbox": [
+            285.36,
+            94.8,
+            298.56,
+            97.67999999999999
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Divers autres débiteurs",
+      "cells": [
+        {
+          "column": "value_4",
+          "value": "3 311 843",
+          "bbox": [
+            244.07999999999998,
+            106.08,
+            260.64,
+            108.96
+          ]
+        },
+        {
+          "column": "value_5",
+          "value": "51 177 875",
+          "bbox": [
+            280.08,
+            106.08,
+            299.28,
+            108.96
+          ]
+        }
+      ]
+    },
+    {
+      "label": "VALEURS ET EMPLOIS DIVERS",
+      "cells": [
+        {
+          "column": "value_4",
+          "value": "46 150 868",
+          "bbox": [
+            241.44,
+            111.83999999999999,
+            260.64,
+            114.72
+          ]
+        },
+        {
+          "column": "value_5",
+          "value": "75 708 053",
+          "bbox": [
+            280.08,
+            111.83999999999999,
+            299.28,
+            114.72
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Produits à recevoir et charges constatées d'avance",
+      "cells": [
+        {
+          "column": "value_4",
+          "value": "6 091 001",
+          "bbox": [
+            243.6,
+            151.44,
+            260.15999999999997,
+            154.32
+          ]
+        },
+        {
+          "column": "value_5",
+          "value": "6 922 036",
+          "bbox": [
+            282.24,
+            151.44,
+            299.28,
+            154.32
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Autres comptes de régularisation",
+      "cells": [
+        {
+          "column": "value_4",
+          "value": "40 059 867",
+          "bbox": [
+            241.44,
+            157.2,
+            260.64,
+            160.07999999999998
+          ]
+        },
+        {
+          "column": "value_5",
+          "value": "68 786 017",
+          "bbox": [
+            280.08,
+            157.2,
+            299.28,
+            160.07999999999998
+          ]
+        }
+      ]
+    },
+    {
+      "label": "COMMISSIONS PERCUES :",
+      "cells": [
+        {
+          "column": "value_4",
+          "value": "80 983 402",
+          "bbox": [
+            241.67999999999998,
+            189.84,
+            260.64,
+            192.72
+          ]
+        },
+        {
+          "column": "value_5",
+          "value": "78 264 394",
+          "bbox": [
+            280.08,
+            189.84,
+            299.28,
+            192.72
+          ]
+        }
+      ]
+    },
+    {
+      "label": "sur autres prestations de service",
+      "cells": [
+        {
+          "column": "value_4",
+          "value": "80 983 402",
+          "bbox": [
+            241.67999999999998,
+            240.95999999999998,
+            260.64,
+            243.84
+          ]
+        },
+        {
+          "column": "value_5",
+          "value": "78 264 394",
+          "bbox": [
+            280.08,
+            240.95999999999998,
+            299.28,
+            243.84
+          ]
+        }
+      ]
+    },
+    {
+      "label": "COMMISSIONS VERSEES",
+      "cells": [
+        {
+          "column": "value_4",
+          "value": "12 759 655",
+          "bbox": [
+            241.67999999999998,
+            246.48,
+            260.64,
+            249.35999999999999
+          ]
+        },
+        {
+          "column": "value_5",
+          "value": "12 501 046",
+          "bbox": [
+            280.32,
+            246.48,
+            299.28,
+            249.35999999999999
+          ]
+        }
+      ]
+    },
+    {
+      "label": "sur autres prestations de service",
+      "cells": [
+        {
+          "column": "value_4",
+          "value": "12 759 655",
+          "bbox": [
+            241.92,
+            303.12,
+            260.64,
+            306.0
+          ]
+        },
+        {
+          "column": "value_5",
+          "value": "12 501 046",
+          "bbox": [
+            280.32,
+            303.12,
+            299.52,
+            306.0
+          ]
+        }
+      ]
+    },
+    {
+      "label": "| COMPTES ORDINAIRES CREDITEURS | = | z4ttoss | | | | |",
+      "cells": [
+        {
+          "column": "value_4",
+          "value": "-2 414 056",
+          "bbox": [
+            252.48,
+            350.64,
+            271.2,
+            360.0
+          ]
+        },
+        {
+          "column": "value_5",
+          "value": "46 343 516",
+          "bbox": [
+            278.15999999999997,
+            350.64,
+            297.84,
+            360.0
+          ]
+        }
+      ]
+    },
+    {
+      "label": "EMPRUNTS DE TRESORERIE |",
+      "cells": [
+        {
+          "column": "value_1",
+          "value": "3 700 000 000",
+          "bbox": [
+            162.0,
+            375.59999999999997,
+            186.48,
+            378.47999999999996
+          ]
+        },
+        {
+          "column": "value_4",
+          "value": "3 700 000 000",
+          "bbox": [
+            248.64,
+            375.59999999999997,
+            273.12,
+            378.47999999999996
+          ]
+        },
+        {
+          "column": "value_5",
+          "value": "3 876 262 977",
+          "bbox": [
+            276.24,
+            375.59999999999997,
+            300.71999999999997,
+            378.47999999999996
+          ]
+        }
+      ]
+    },
+    {
+      "label": "- à terme |",
+      "cells": [
+        {
+          "column": "value_1",
+          "value": "3 700 000 000",
+          "bbox": [
+            162.0,
+            386.88,
+            186.48,
+            389.76
+          ]
+        },
+        {
+          "column": "value_4",
+          "value": "3 700 000 000",
+          "bbox": [
+            248.64,
+            386.88,
+            273.12,
+            389.76
+          ]
+        },
+        {
+          "column": "value_5",
+          "value": "3 876 262 977",
+          "bbox": [
+            276.24,
+            386.88,
+            300.71999999999997,
+            389.76
+          ]
+        }
+      ]
+    },
+    {
+      "label": "INTERETS COURUS A PAYER |",
+      "cells": [
+        {
+          "column": "value_1",
+          "value": "33 148 564",
+          "bbox": [
+            164.64,
+            403.91999999999996,
+            183.84,
+            406.8
+          ]
+        },
+        {
+          "column": "value_4",
+          "value": "33 148 564",
+          "bbox": [
+            251.28,
+            403.91999999999996,
+            270.48,
+            406.8
+          ]
+        },
+        {
+          "column": "value_5",
+          "value": "30 382 463",
+          "bbox": [
+            278.88,
+            403.91999999999996,
+            297.84,
+            406.8
+          ]
+        }
+      ]
+    },
+    {
+      "label": "fom, |: evéssen] ©: |: ares | ose)",
+      "cells": [
+        {
+          "column": "value_4",
+          "value": "559 674",
+          "bbox": [
+            260.15999999999997,
+            404.64,
+            272.64,
+            416.15999999999997
+          ]
+        },
+        {
+          "column": "value_5",
+          "value": "3 952 986",
+          "bbox": [
+            276.48,
+            404.64,
+            292.8,
+            416.15999999999997
+          ]
+        }
+      ]
+    },
+    {
+      "label": "CREDITS DE TRESORERIE",
+      "cells": [
+        {
+          "column": "value_2",
+          "value": "3 888 809 945",
+          "bbox": [
+            190.32,
+            443.03999999999996,
+            214.79999999999998,
+            445.91999999999996
+          ]
+        },
+        {
+          "column": "value_5",
+          "value": "38 888 099 453 692 543 161",
+          "bbox": [
+            248.88,
+            443.03999999999996,
+            299.52,
+            445.91999999999996
+          ]
+        }
+      ]
+    },
+    {
+      "label": "- Créances commerciales sur le Maroc",
+      "cells": [
+        {
+          "column": "value_2",
+          "value": "3 888 809 945",
+          "bbox": [
+            190.32,
+            454.32,
+            214.79999999999998,
+            457.2
+          ]
+        },
+        {
+          "column": "value_5",
+          "value": "38 888 099 453 692 543 161",
+          "bbox": [
+            248.88,
+            454.32,
+            299.52,
+            457.2
+          ]
+        }
+      ]
+    },
+    {
+      "label": "| CREDITS À LA CONSOMMATION =|} | | || | |",
+      "cells": [
+        {
+          "column": "value_3",
+          "value": "4 439 083 114",
+          "bbox": [
+            220.79999999999998,
+            469.44,
+            245.04,
+            477.84
+          ]
+        },
+        {
+          "column": "value_5",
+          "value": "44 399 831 144 075 346 848",
+          "bbox": [
+            248.88,
+            469.44,
+            299.52,
+            477.84
+          ]
+        }
+      ]
+    },
+    {
+      "label": "LINTERETS COURUS A RECEVOIR | |: |: | | | |",
+      "cells": [
+        {
+          "column": "value_3",
+          "value": "13 430 485",
+          "bbox": [
+            222.48,
+            502.79999999999995,
+            243.35999999999999,
+            511.68
+          ]
+        },
+        {
+          "column": "value_4",
+          "value": "13 430 485",
+          "bbox": [
+            251.28,
+            502.79999999999995,
+            270.71999999999997,
+            511.68
+          ]
+        },
+        {
+          "column": "value_5",
+          "value": "12 748 257",
+          "bbox": [
+            277.92,
+            502.79999999999995,
+            297.36,
+            511.68
+          ]
+        }
+      ]
+    },
+    {
+      "label": "CREANCES EN SOUFFRANCE | |",
+      "cells": [
+        {
+          "column": "value_3",
+          "value": "90 705 825",
+          "bbox": [
+            223.44,
+            510.96,
+            242.64,
+            513.84
+          ]
+        },
+        {
+          "column": "value_4",
+          "value": "90 705 825",
+          "bbox": [
+            251.28,
+            510.96,
+            270.48,
+            513.84
+          ]
+        },
+        {
+          "column": "value_5",
+          "value": "105 944 083",
+          "bbox": [
+            277.2,
+            510.96,
+            298.32,
+            513.84
+          ]
+        }
+      ]
+    },
+    {
+      "label": "- Créances pré-douteuses | |",
+      "cells": [
+        {
+          "column": "value_3",
+          "value": "68 428 609",
+          "bbox": [
+            223.44,
+            516.72,
+            242.64,
+            519.6
+          ]
+        },
+        {
+          "column": "value_4",
+          "value": "68 428 609",
+          "bbox": [
+            251.51999999999998,
+            516.72,
+            270.48,
+            519.6
+          ]
+        },
+        {
+          "column": "value_5",
+          "value": "44 833 858",
+          "bbox": [
+            278.15999999999997,
+            516.72,
+            297.36,
+            519.6
+          ]
+        }
+      ]
+    },
+    {
+      "label": "- Créances douteuses | |",
+      "cells": [
+        {
+          "column": "value_3",
+          "value": "22 274 817",
+          "bbox": [
+            223.44,
+            522.24,
+            242.64,
+            525.12
+          ]
+        },
+        {
+          "column": "value_4",
+          "value": "22 274 817",
+          "bbox": [
+            251.28,
+            522.24,
+            270.48,
+            525.12
+          ]
+        },
+        {
+          "column": "value_5",
+          "value": "28 918 887",
+          "bbox": [
+            278.15999999999997,
+            522.24,
+            297.36,
+            525.12
+          ]
+        }
+      ]
+    },
+    {
+      "label": "- Créances compromises",
+      "cells": [
+        {
+          "column": "value_3",
+          "value": "2 399",
+          "bbox": [
+            228.23999999999998,
+            528.0,
+            237.6,
+            530.88
+          ]
+        },
+        {
+          "column": "value_4",
+          "value": "2 399",
+          "bbox": [
+            256.32,
+            528.0,
+            265.68,
+            530.88
+          ]
+        },
+        {
+          "column": "value_5",
+          "value": "32 191 337",
+          "bbox": [
+            278.15999999999997,
+            528.0,
+            297.36,
+            530.88
+          ]
+        }
+      ]
+    },
+    {
+      "label": "[Toran | | | | | |",
+      "cells": [
+        {
+          "column": "value_1",
+          "value": "6 035 063",
+          "bbox": [
+            133.44,
+            531.6,
+            152.16,
+            539.52
+          ]
+        },
+        {
+          "column": "value_2",
+          "value": "3 882 774 882",
+          "bbox": [
+            190.79999999999998,
+            531.6,
+            214.79999999999998,
+            539.52
+          ]
+        },
+        {
+          "column": "value_3",
+          "value": "4 544 119 424",
+          "bbox": [
+            220.56,
+            531.6,
+            245.04,
+            539.52
+          ]
+        },
+        {
+          "column": "value_5",
+          "value": "84 320 203 697 886 582 348",
+          "bbox": [
+            248.88,
+            531.6,
+            299.28,
+            539.52
+          ]
+        }
+      ]
+    },
+    {
+      "label": "PROVISIONS, DEDUITES DE L'ACTIF, SUR: |",
+      "cells": [
+        {
+          "column": "value_1",
+          "value": "646 438 651",
+          "bbox": [
+            164.4,
+            562.0799999999999,
+            185.04,
+            564.9599999999999
+          ]
+        },
+        {
+          "column": "value_2",
+          "value": "53 421 333",
+          "bbox": [
+            194.4,
+            562.0799999999999,
+            213.6,
+            564.9599999999999
+          ]
+        },
+        {
+          "column": "value_3",
+          "value": "640 035",
+          "bbox": [
+            225.35999999999999,
+            562.0799999999999,
+            239.04,
+            564.9599999999999
+          ]
+        },
+        {
+          "column": "value_5",
+          "value": "699 219 949",
+          "bbox": [
+            277.2,
+            562.0799999999999,
+            298.32,
+            564.9599999999999
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Créances sur la clientèle |",
+      "cells": [
+        {
+          "column": "value_1",
+          "value": "545 202 621",
+          "bbox": [
+            164.4,
+            573.36,
+            185.04,
+            576.24
+          ]
+        },
+        {
+          "column": "value_2",
+          "value": "42 366 032",
+          "bbox": [
+            194.4,
+            573.36,
+            213.6,
+            576.24
+          ]
+        },
+        {
+          "column": "value_3",
+          "value": "594 173",
+          "bbox": [
+            225.35999999999999,
+            573.36,
+            239.04,
+            576.24
+          ]
+        },
+        {
+          "column": "value_5",
+          "value": "586 974 480",
+          "bbox": [
+            277.2,
+            573.36,
+            298.32,
+            576.24
+          ]
+        }
+      ]
+    },
+    {
+      "label": "immobilisations en crédit-bail et en location |",
+      "cells": [
+        {
+          "column": "value_1",
+          "value": "101 236 030",
+          "bbox": [
+            164.64,
+            590.4,
+            185.51999999999998,
+            593.28
+          ]
+        },
+        {
+          "column": "value_2",
+          "value": "11 055 301",
+          "bbox": [
+            194.88,
+            590.4,
+            212.88,
+            593.28
+          ]
+        },
+        {
+          "column": "value_3",
+          "value": "45 862",
+          "bbox": [
+            226.32,
+            590.4,
+            238.07999999999998,
+            593.28
+          ]
+        },
+        {
+          "column": "value_5",
+          "value": "112 245 470",
+          "bbox": [
+            277.44,
+            590.4,
+            298.08,
+            593.28
+          ]
+        }
+      ]
+    },
+    {
+      "label": "PROVISIONS INSCRITES AU PASSIF |",
+      "cells": [
+        {
+          "column": "value_1",
+          "value": "132 892 943",
+          "bbox": [
+            164.4,
+            601.68,
+            185.51999999999998,
+            604.56
+          ]
+        },
+        {
+          "column": "value_2",
+          "value": "2 942 840",
+          "bbox": [
+            195.35999999999999,
+            601.68,
+            212.4,
+            604.56
+          ]
+        },
+        {
+          "column": "value_5",
+          "value": "135 835 783",
+          "bbox": [
+            277.2,
+            601.68,
+            298.32,
+            604.56
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Provisions pour risques généraux -",
+      "cells": [
+        {
+          "column": "value_1",
+          "value": "104 620 083",
+          "bbox": [
+            164.64,
+            618.72,
+            185.51999999999998,
+            621.6
+          ]
+        },
+        {
+          "column": "value_5",
+          "value": "104 620 083",
+          "bbox": [
+            277.44,
+            618.72,
+            298.32,
+            621.6
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Provisions pour autres risques et charges",
+      "cells": [
+        {
+          "column": "value_1",
+          "value": "28 272 860",
+          "bbox": [
+            165.35999999999999,
+            635.76,
+            184.56,
+            638.64
+          ]
+        },
+        {
+          "column": "value_2",
+          "value": "2 942 840",
+          "bbox": [
+            195.6,
+            635.76,
+            212.4,
+            638.64
+          ]
+        },
+        {
+          "column": "value_5",
+          "value": "31 215 700",
+          "bbox": [
+            278.15999999999997,
+            635.76,
+            297.36,
+            638.64
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Résultats nets en instance d'affectation Dividendes 0",
+      "cells": [
+        {
+          "column": "value_1",
+          "value": "426 486 822",
+          "bbox": [
+            151.68,
+            686.64,
+            173.04,
+            689.52
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Résultat net de l'exercice - Autres affectations",
+      "cells": [
+        {
+          "column": "value_5",
+          "value": "578 899 057",
+          "bbox": [
+            277.92,
+            692.16,
+            299.28,
+            695.04
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Prélèvements sur les bénéfices Report à nouveau -",
+      "cells": [
+        {
+          "column": "value_1",
+          "value": "152 412 235",
+          "bbox": [
+            151.92,
+            697.92,
+            173.04,
+            700.8
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Résultat courant d'après le compte de produits et charges",
+      "cells": [
+        {
+          "column": "value_5",
+          "value": "131 456 648",
+          "bbox": [
+            278.15999999999997,
+            730.3199999999999,
+            299.28,
+            733.1999999999999
+          ]
+        }
+      ]
+    },
+    {
+      "label": "(+) Réintégrations fiscales sur opérations courante",
+      "cells": [
+        {
+          "column": "value_5",
+          "value": "88 047 948",
+          "bbox": [
+            280.08,
+            736.0799999999999,
+            299.28,
+            738.9599999999999
+          ]
+        }
+      ]
+    },
+    {
+      "label": "(-) Déductions fiscales sur opérations courantes",
+      "cells": [
+        {
+          "column": "value_5",
+          "value": "75 719 775",
+          "bbox": [
+            280.08,
+            741.8399999999999,
+            299.28,
+            744.72
+          ]
+        }
+      ]
+    },
+    {
+      "label": "(=) Résultat courant théoriquement imposable",
+      "cells": [
+        {
+          "column": "value_5",
+          "value": "143 784 821",
+          "bbox": [
+            278.15999999999997,
+            747.36,
+            298.8,
+            750.24
+          ]
+        }
+      ]
+    },
+    {
+      "label": "(-) Impôt théorique sur résultat courant",
+      "cells": [
+        {
+          "column": "value_5",
+          "value": "56 435 542",
+          "bbox": [
+            280.08,
+            753.12,
+            299.28,
+            756.0
+          ]
+        }
+      ]
+    },
+    {
+      "label": "(=) Résultat courant après impôts",
+      "cells": [
+        {
+          "column": "value_5",
+          "value": "75 021 106",
+          "bbox": [
+            280.08,
+            758.64,
+            299.28,
+            761.52
+          ]
+        }
+      ]
+    }
+  ],
+  "raw_lines": [
+    {
+      "text": "COMMUNICATION FINANCIÈRE",
+      "bbox": [
+        192.0,
+        2.88,
+        300.96,
+        8.16
+      ]
+    },
+    {
+      "text": "RCI Finance Maroc M D 3",
+      "bbox": [
+        53.519999999999996,
+        15.12,
+        302.4,
+        32.16
+      ]
+    },
+    {
+      "text": "OPERANT SOUS LA MARQUE COMMERCIALE æ,",
+      "bbox": [
+        53.28,
+        20.64,
+        283.68,
+        35.28
+      ]
+    },
+    {
+      "text": "DÉTAIL DES AUTRES ACTIFS en Dirhams",
+      "bbox": [
+        54.48,
+        53.76,
+        299.76,
+        57.36
+      ]
+    },
+    {
+      "text": "DEBITEURS DIVERS 100 358 987 165 676 129",
+      "bbox": [
+        55.44,
+        77.52,
+        299.28,
+        80.64
+      ]
+    },
+    {
+      "text": "Sommes dues par l'Etat 97 174 245 114 282 393",
+      "bbox": [
+        55.199999999999996,
+        83.28,
+        299.28,
+        86.88
+      ]
+    },
+    {
+      "text": "Sommes dues par les organismes de prévoyance - -",
+      "bbox": [
+        55.199999999999996,
+        89.03999999999999,
+        299.28,
+        92.64
+      ]
+    },
+    {
+      "text": "Sommes diverses dues par le personnel -127 102 215 861",
+      "bbox": [
+        55.199999999999996,
+        94.56,
+        298.56,
+        98.16
+      ]
+    },
+    {
+      "text": "Comptes clients de prestations non bancaires - -",
+      "bbox": [
+        55.199999999999996,
+        100.32,
+        299.28,
+        103.92
+      ]
+    },
+    {
+      "text": "Divers autres débiteurs 3 311 843 51177875",
+      "bbox": [
+        55.44,
+        105.83999999999999,
+        299.28,
+        108.96
+      ]
+    },
+    {
+      "text": "VALEURS ET EMPLOIS DIVERS 46 150 868 75 708 053",
+      "bbox": [
+        55.199999999999996,
+        111.6,
+        299.28,
+        114.72
+      ]
+    },
+    {
+      "text": "COMPTES DE REGULARISATION",
+      "bbox": [
+        55.199999999999996,
+        117.36,
+        116.16,
+        120.24
+      ]
+    },
+    {
+      "text": "Comptes d'ajustement des opérations de hors bilan - -",
+      "bbox": [
+        55.199999999999996,
+        122.88,
+        299.28,
+        126.47999999999999
+      ]
+    },
+    {
+      "text": "Comptes d'écarts sur devises et titres - -",
+      "bbox": [
+        55.199999999999996,
+        128.64,
+        299.28,
+        132.24
+      ]
+    },
+    {
+      "text": "Résultats sur produits dérivés de couverture - -",
+      "bbox": [
+        55.44,
+        134.16,
+        299.28,
+        137.76
+      ]
+    },
+    {
+      "text": "Charges à répartir sur plusieurs exercices - -",
+      "bbox": [
+        55.199999999999996,
+        139.92,
+        299.28,
+        143.51999999999998
+      ]
+    },
+    {
+      "text": "Comptes de liaison entre siège, succursales et agences au Maroc - -",
+      "bbox": [
+        55.199999999999996,
+        145.68,
+        299.28,
+        149.28
+      ]
+    },
+    {
+      "text": "Produits à recevoir et charges constatées d'avance 6 091 001 6 922 036",
+      "bbox": [
+        55.44,
+        151.2,
+        299.28,
+        154.79999999999998
+      ]
+    },
+    {
+      "text": "Autres comptes de régularisation 40 059 867 68 786 017",
+      "bbox": [
+        55.199999999999996,
+        156.96,
+        299.28,
+        160.56
+      ]
+    },
+    {
+      "text": "COMMISSIONS en Dirhams",
+      "bbox": [
+        54.48,
+        178.32,
+        299.76,
+        181.2
+      ]
+    },
+    {
+      "text": "COMMISSIONS PERCUES : 80 983 402 78 264 394",
+      "bbox": [
+        55.199999999999996,
+        189.84,
+        299.28,
+        193.2
+      ]
+    },
+    {
+      "text": "sur opérations avec les établissements de crédit - -",
+      "bbox": [
+        55.199999999999996,
+        196.07999999999998,
+        299.28,
+        199.68
+      ]
+    },
+    {
+      "text": "sur opérations de change - -",
+      "bbox": [
+        55.199999999999996,
+        201.6,
+        299.28,
+        205.2
+      ]
+    },
+    {
+      "text": "relatives aux interventions sur les marchés primaires de titres - -",
+      "bbox": [
+        55.199999999999996,
+        207.35999999999999,
+        299.28,
+        210.95999999999998
+      ]
+    },
+    {
+      "text": "sur produits dérivés - -",
+      "bbox": [
+        55.199999999999996,
+        213.12,
+        299.28,
+        216.72
+      ]
+    },
+    {
+      "text": "opérations sur titres en gestion et en dépôt - -",
+      "bbox": [
+        55.199999999999996,
+        218.64,
+        299.28,
+        222.23999999999998
+      ]
+    },
+    {
+      "text": "sur moyens de paiement - -",
+      "bbox": [
+        55.199999999999996,
+        224.4,
+        299.28,
+        228.0
+      ]
+    },
+    {
+      "text": "sur activités de conseil et d'assistance - -",
+      "bbox": [
+        55.199999999999996,
+        229.92,
+        299.28,
+        232.79999999999998
+      ]
+    },
+    {
+      "text": "sur ventes de produits d'assurances - -",
+      "bbox": [
+        55.199999999999996,
+        235.67999999999998,
+        299.28,
+        239.28
+      ]
+    },
+    {
+      "text": "sur autres prestations de service 80 983 402 78 264 394",
+      "bbox": [
+        55.199999999999996,
+        240.95999999999998,
+        299.28,
+        245.04
+      ]
+    },
+    {
+      "text": "COMMISSIONS VERSEES 12759 655 12 501 046",
+      "bbox": [
+        55.199999999999996,
+        246.48,
+        299.28,
+        249.84
+      ]
+    },
+    {
+      "text": "sur opérations avec les établissements de crédit - -",
+      "bbox": [
+        55.199999999999996,
+        252.72,
+        299.28,
+        256.32
+      ]
+    },
+    {
+      "text": "sur opérations avec la clientèle - -",
+      "bbox": [
+        55.199999999999996,
+        258.24,
+        299.28,
+        261.84
+      ]
+    },
+    {
+      "text": "sur opérations de change - -",
+      "bbox": [
+        55.199999999999996,
+        264.0,
+        299.28,
+        267.59999999999997
+      ]
+    },
+    {
+      "text": "relatives aux interventions sur les marchés primaires de titres - -",
+      "bbox": [
+        55.199999999999996,
+        269.76,
+        299.28,
+        273.36
+      ]
+    },
+    {
+      "text": "sur produits dérivés - -",
+      "bbox": [
+        55.199999999999996,
+        275.28,
+        299.28,
+        278.88
+      ]
+    },
+    {
+      "text": "opérations sur titres en gestion et en dépôt - -",
+      "bbox": [
+        55.199999999999996,
+        281.03999999999996,
+        299.28,
+        284.64
+      ]
+    },
+    {
+      "text": "sur moyens de paiement - -",
+      "bbox": [
+        55.199999999999996,
+        286.56,
+        299.28,
+        290.15999999999997
+      ]
+    },
+    {
+      "text": "sur activités de conseil et d'assistance - -",
+      "bbox": [
+        55.199999999999996,
+        292.32,
+        299.28,
+        295.2
+      ]
+    },
+    {
+      "text": "sur ventes de produits d'assurances - -",
+      "bbox": [
+        55.199999999999996,
+        298.08,
+        299.28,
+        301.68
+      ]
+    },
+    {
+      "text": "sur autres prestations de service 12 759 655 12 501 046",
+      "bbox": [
+        55.199999999999996,
+        303.12,
+        299.52,
+        307.2
+      ]
+    },
+    {
+      "text": "DETTES ENVERS LES ÉTABLISSEMENTS DE CRÉDIT ET ASSIMILÉS en Dirhams",
+      "bbox": [
+        54.96,
+        312.0,
+        300.0,
+        315.59999999999997
+      ]
+    },
+    {
+      "text": "TOTAL TOTAL",
+      "bbox": [
+        254.88,
+        316.32,
+        293.76,
+        325.68
+      ]
+    },
+    {
+      "text": "Bank Al-Maghrib, Autres",
+      "bbox": [
+        126.96,
+        324.71999999999997,
+        208.79999999999998,
+        328.32
+      ]
+    },
+    {
+      "text": "Trésor Public établissements Etablissements",
+      "bbox": [
+        130.32,
+        330.24,
+        246.72,
+        333.12
+      ]
+    },
+    {
+      "text": "DETTES et Service Banques | decréditet | de crédit à 30/06/26 31/1225",
+      "bbox": [
+        55.68,
+        333.84,
+        294.71999999999997,
+        341.28
+      ]
+    },
+    {
+      "text": "des Chèques au Maroc | assimilés au | l'étranger",
+      "bbox": [
+        130.79999999999998,
+        339.36,
+        241.44,
+        346.8
+      ]
+    },
+    {
+      "text": "Postaux Maroc",
+      "bbox": [
+        135.35999999999999,
+        345.12,
+        208.32,
+        352.56
+      ]
+    },
+    {
+      "text": "| COMPTES ORDINAIRES CREDITEURS | = | z4ttoss | - | | 2 414 056 | 46343516 |",
+      "bbox": [
+        52.8,
+        350.64,
+        302.4,
+        360.0
+      ]
+    },
+    {
+      "text": "VALEURS DONNEES EN PENSION",
+      "bbox": [
+        55.44,
+        358.56,
+        118.56,
+        361.44
+      ]
+    },
+    {
+      "text": "- au jour le jour",
+      "bbox": [
+        60.96,
+        364.32,
+        86.64,
+        367.91999999999996
+      ]
+    },
+    {
+      "text": "- à terme",
+      "bbox": [
+        60.96,
+        369.84,
+        76.08,
+        372.71999999999997
+      ]
+    },
+    {
+      "text": "EMPRUNTS DE TRESORERIE 3 700 000 000 3700 000 000 | 3 876 262 977",
+      "bbox": [
+        55.68,
+        373.44,
+        300.71999999999997,
+        380.88
+      ]
+    },
+    {
+      "text": "- au jour le jour - - -",
+      "bbox": [
+        60.96,
+        381.36,
+        288.96,
+        384.96
+      ]
+    },
+    {
+      "text": "- à terme 3 700 000 000 3 700 000 000 | 3 876 262 977",
+      "bbox": [
+        60.96,
+        384.71999999999997,
+        300.71999999999997,
+        392.15999999999997
+      ]
+    },
+    {
+      "text": "EMPRUNTS FINANCIERS - - -",
+      "bbox": [
+        55.68,
+        392.64,
+        288.96,
+        395.52
+      ]
+    },
+    {
+      "text": "ne ne, eee",
+      "bbox": [
+        53.76,
+        383.28,
+        302.88,
+        415.2
+      ]
+    },
+    {
+      "text": "INTERETS COURUS A PAYER 33 148 564 33148564 | 30 382 463",
+      "bbox": [
+        55.68,
+        401.76,
+        297.84,
+        409.2
+      ]
+    },
+    {
+      "text": "fom, |: evéssen] ©: |: ares 559.674 | 3 952 986 ose)",
+      "bbox": [
+        52.8,
+        404.64,
+        302.4,
+        416.15999999999997
+      ]
+    },
+    {
+      "text": "CRÉANCES SUR LA CLIENTÈLE en Dirhams",
+      "bbox": [
+        54.48,
+        418.56,
+        299.76,
+        422.15999999999997
+      ]
+    },
+    {
+      "text": "TOTAL TOTAL",
+      "bbox": [
+        255.12,
+        423.12,
+        293.52,
+        432.47999999999996
+      ]
+    },
+    {
+      "text": "CREANCES Secteur public",
+      "bbox": [
+        55.44,
+        431.52,
+        155.51999999999998,
+        435.12
+      ]
+    },
+    {
+      "text": "financières _|non financières 30/06/26 34/12/25",
+      "bbox": [
+        163.68,
+        434.64,
+        294.47999999999996,
+        442.08
+      ]
+    },
+    {
+      "text": "CREDITS DE TRESORERIE 3 888 809 945 3 888 809 945|3 692 543 161",
+      "bbox": [
+        55.44,
+        442.8,
+        299.52,
+        445.91999999999996
+      ]
+    },
+    {
+      "text": "- Comptes à vue débiteurs - - -",
+      "bbox": [
+        57.36,
+        448.32,
+        288.24,
+        451.91999999999996
+      ]
+    },
+    {
+      "text": "- Créances commerciales sur le Maroc 3 888 809 945 3 888 809 945|3 692 543 161",
+      "bbox": [
+        57.36,
+        454.08,
+        299.52,
+        457.2
+      ]
+    },
+    {
+      "text": "- Crédits à l'exportation - - -",
+      "bbox": [
+        57.36,
+        459.84,
+        288.24,
+        463.44
+      ]
+    },
+    {
+      "text": "- Autres crédits de trésorerie - - -",
+      "bbox": [
+        57.36,
+        465.35999999999996,
+        288.24,
+        468.24
+      ]
+    },
+    {
+      "text": "| CREDITS À LA CONSOMMATION =|} | | || 4439 083 114 | 4 439 983 114 |4 075 346 848 |",
+      "bbox": [
+        52.32,
+        469.44,
+        302.4,
+        477.84
+      ]
+    },
+    {
+      "text": "[creomsavequrement [| SS",
+      "bbox": [
+        52.32,
+        471.84,
+        301.2,
+        483.84
+      ]
+    },
+    {
+      "text": "[CREDITSIMMOBILIERS |S",
+      "bbox": [
+        52.32,
+        478.56,
+        301.2,
+        488.64
+      ]
+    },
+    {
+      "text": "EE OS PS SP",
+      "bbox": [
+        52.32,
+        485.76,
+        203.28,
+        494.64
+      ]
+    },
+    {
+      "text": "RSS | DE",
+      "bbox": [
+        53.28,
+        486.47999999999996,
+        301.2,
+        510.71999999999997
+      ]
+    },
+    {
+      "text": "PAR AFFACTURAGE",
+      "bbox": [
+        55.44,
+        499.44,
+        93.11999999999999,
+        502.32
+      ]
+    },
+    {
+      "text": "LINTERETS COURUS A RECEVOIR | |: |: | 13430485 | 13430485 | 12748257 |",
+      "bbox": [
+        52.32,
+        502.79999999999995,
+        301.92,
+        511.68
+      ]
+    },
+    {
+      "text": "CREANCES EN SOUFFRANCE 90705825 | 90705825 | 105 944 083",
+      "bbox": [
+        55.44,
+        508.79999999999995,
+        298.32,
+        516.24
+      ]
+    },
+    {
+      "text": "- Créances pré-douteuses 68428 609 | 68428609 | 44 833 858",
+      "bbox": [
+        57.36,
+        514.56,
+        297.36,
+        522.0
+      ]
+    },
+    {
+      "text": "- Créances douteuses 22274817 | 22274817 | 28918 887",
+      "bbox": [
+        57.36,
+        520.0799999999999,
+        297.36,
+        527.52
+      ]
+    },
+    {
+      "text": "- Créances compromises 2 399 2 399 32 191 337",
+      "bbox": [
+        57.599999999999994,
+        527.76,
+        297.36,
+        531.36
+      ]
+    },
+    {
+      "text": "[Toran | 6035063 | | 3.882.774 882 | 4 544 119 424 | 8 432 020 369|7 886 582 348 |",
+      "bbox": [
+        52.32,
+        531.6,
+        301.92,
+        539.52
+      ]
+    },
+    {
+      "text": "PROVISIONS en Dirhams",
+      "bbox": [
+        54.48,
+        541.1999999999999,
+        299.76,
+        548.4
+      ]
+    },
+    {
+      "text": "| eme | tee US, | ce |",
+      "bbox": [
+        53.28,
+        546.96,
+        302.15999999999997,
+        563.52
+      ]
+    },
+    {
+      "text": "31/12/2025 variations | 30/06/2026",
+      "bbox": [
+        165.12,
+        552.72,
+        295.92,
+        560.16
+      ]
+    },
+    {
+      "text": "PROVISIONS, DEDUITES DE L'ACTIF, SUR: 646 438.651 | 53 421 333 640 035 699 219 949",
+      "bbox": [
+        55.44,
+        559.92,
+        298.32,
+        567.36
+      ]
+    },
+    {
+      "text": "Créances sur les établissements de crédits et assimilés - - - -",
+      "bbox": [
+        55.199999999999996,
+        567.84,
+        288.24,
+        570.72
+      ]
+    },
+    {
+      "text": "Créances sur la clientèle 545202 621 | 42 366 032 594 173 586 974 480",
+      "bbox": [
+        55.199999999999996,
+        571.1999999999999,
+        298.32,
+        578.64
+      ]
+    },
+    {
+      "text": "titres de placement - - - -",
+      "bbox": [
+        55.199999999999996,
+        579.12,
+        288.24,
+        582.72
+      ]
+    },
+    {
+      "text": "titres de participation et emplois assimilés - - - -",
+      "bbox": [
+        55.199999999999996,
+        584.88,
+        288.24,
+        588.48
+      ]
+    },
+    {
+      "text": "immobilisations en crédit-bail et en location 101 236030 | 11055 301 45 862 112 245 470",
+      "bbox": [
+        55.199999999999996,
+        588.24,
+        298.08,
+        595.68
+      ]
+    },
+    {
+      "text": "autres actifs : = = =",
+      "bbox": [
+        55.199999999999996,
+        596.16,
+        288.24,
+        599.04
+      ]
+    },
+    {
+      "text": "PROVISIONS INSCRITES AU PASSIF 132 892943 | 2942840 135 835 783",
+      "bbox": [
+        55.44,
+        599.52,
+        298.32,
+        606.9599999999999
+      ]
+    },
+    {
+      "text": "Provisions pour risques d'exécution d'engagements par signature - - -",
+      "bbox": [
+        55.44,
+        605.28,
+        288.24,
+        612.72
+      ]
+    },
+    {
+      "text": "Provisions pour risques de change - - -",
+      "bbox": [
+        55.44,
+        613.1999999999999,
+        288.24,
+        616.8
+      ]
+    },
+    {
+      "text": "Provisions pour risques généraux 104 620 083 - 104 620 083",
+      "bbox": [
+        55.44,
+        618.72,
+        298.32,
+        622.3199999999999
+      ]
+    },
+    {
+      "text": "Provisions pour pensions de retraite et obligations - - -",
+      "bbox": [
+        55.44,
+        624.48,
+        288.24,
+        628.0799999999999
+      ]
+    },
+    {
+      "text": "Similaires",
+      "bbox": [
+        55.199999999999996,
+        630.24,
+        71.03999999999999,
+        633.12
+      ]
+    },
+    {
+      "text": "Provisions pour autres risques et charges 28 272 860 2 942 840 31 215 700",
+      "bbox": [
+        55.44,
+        635.76,
+        297.36,
+        639.36
+      ]
+    },
+    {
+      "text": "Provisions réglementées : - -",
+      "bbox": [
+        55.44,
+        641.52,
+        288.24,
+        645.12
+      ]
+    },
+    {
+      "text": "[TOTAL GENERAL | mmemsree | ‘SST | eos |: SS TaD",
+      "bbox": [
+        52.32,
+        642.0,
+        302.15999999999997,
+        655.1999999999999
+      ]
+    },
+    {
+      "text": "AFFECTATION DES RÉSULTATS INTERVENUE AU COURS DE L'EXERCICE en Dirhams",
+      "bbox": [
+        54.72,
+        656.4,
+        300.0,
+        660.0
+      ]
+    },
+    {
+      "text": "A- Origine des résultats affectés B-Affectation des résultats",
+      "bbox": [
+        55.199999999999996,
+        668.88,
+        243.6,
+        672.48
+      ]
+    },
+    {
+      "text": "Décision de l'AGO du 29 Mai 2025",
+      "bbox": [
+        60.96,
+        674.4,
+        122.64,
+        677.28
+      ]
+    },
+    {
+      "text": "Report à nouveau 0 Réserve légale -",
+      "bbox": [
+        60.96,
+        680.16,
+        299.28,
+        683.76
+      ]
+    },
+    {
+      "text": "Résultats nets en instance d'affectation 426 486 822 Dividendes 0",
+      "bbox": [
+        60.96,
+        685.92,
+        299.28,
+        689.52
+      ]
+    },
+    {
+      "text": "Résultat net de l'exercice - Autres affectations 578 899 057",
+      "bbox": [
+        60.96,
+        691.4399999999999,
+        299.28,
+        695.04
+      ]
+    },
+    {
+      "text": "Prélèvements sur les bénéfices 152 412 235 Report à nouveau -",
+      "bbox": [
+        60.96,
+        696.9599999999999,
+        299.28,
+        700.8
+      ]
+    },
+    {
+      "text": "Autres prélèvements - -",
+      "bbox": [
+        60.72,
+        702.72,
+        299.28,
+        706.3199999999999
+      ]
+    },
+    {
+      "text": "DETERMINATION DU RESULTAT COURANT APRES IMPOTS en Dirhams",
+      "bbox": [
+        54.96,
+        717.8399999999999,
+        300.24,
+        721.4399999999999
+      ]
+    },
+    {
+      "text": "Résultat courant d'après le compte de produits et charges 131 456 648",
+      "bbox": [
+        55.68,
+        730.3199999999999,
+        299.28,
+        734.16
+      ]
+    },
+    {
+      "text": "(+) Réintégrations fiscales sur opérations courante 88 047 948",
+      "bbox": [
+        55.68,
+        736.0799999999999,
+        299.28,
+        739.92
+      ]
+    },
+    {
+      "text": "(-) Déductions fiscales sur opérations courantes 75719775",
+      "bbox": [
+        55.68,
+        741.8399999999999,
+        299.28,
+        745.4399999999999
+      ]
+    },
+    {
+      "text": "(=) Résultat courant théoriquement imposable 143 784 821",
+      "bbox": [
+        55.68,
+        747.36,
+        298.8,
+        751.1999999999999
+      ]
+    },
+    {
+      "text": "(-) Impôt théorique sur résultat courant 56 435 542",
+      "bbox": [
+        55.68,
+        753.12,
+        299.28,
+        756.72
+      ]
+    },
+    {
+      "text": "(=) Résultat courant après impôts 75 021 106",
+      "bbox": [
+        55.68,
+        758.64,
+        299.28,
+        762.48
+      ]
+    },
+    {
+      "text": "Il, INDICATIONS DU REGIME FISCAL ET DES AVANTAGES OCTROYES PAR LES CODES DES INVESTISSEMENTS",
+      "bbox": [
+        55.68,
+        764.4,
+        264.0,
+        767.28
+      ]
+    },
+    {
+      "text": "OU PAR DES DISPOSITIONS LEGALES SPECIFIQUES",
+      "bbox": [
+        55.68,
+        770.16,
+        154.32,
+        773.28
+      ]
+    }
+  ],
+  "amount_count": 89,
+  "multi_value_row_count": 31,
+  "labeled_row_count": 40
+}

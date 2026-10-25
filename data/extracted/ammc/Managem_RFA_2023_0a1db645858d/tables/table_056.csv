@@ -1,0 +1,6 @@
+NATURE,Solde au début de l’exercice 1,Opérations  comptables de l’exercice 2,Déclérations TVA de l’exercice 3,Exercice Clos le 31.12.2023.Solde fin d’exercice,Exercice Clos le 31.12.2023.(1 + 2 - 3 = 4)
+A. T V A Facturée ,"21 242 900,78 ","60 462 127,62 ","54 931 541,50 ",,"26 773 486,90"
+B. T V A Récuperable ,"4 277 042,74 ","13 267 114,98 ",,"14 419 557,34 ","3 124 600,38"
+* sur charges ,"4 277 042,54 ","13 173 937,96 ",,"14 326 492,64 ","3 124 487,86"
+* sur immobilisations ,"0,20 ","93 177,02 ",,"93 064,70 ","112,52"
+C. T V A dûe ou crédit de T V A = (A - B) ,"16 965 858,04 ",,,,"23 648 886,52"

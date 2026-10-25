@@ -1,0 +1,54 @@
+,(MONTANTS EN DHS) ,EXERCICE DU 1 JANVIER 2025 AU 31 DÉCEMBRE 2025,EXERCICE DU 1 JANVIER 2025 AU 31 DÉCEMBRE 2025,EXERCICE DU 1 JANVIER 2025 AU 31 DÉCEMBRE 2025
+,NATURE,OPÉRATIONS PROPRES À L’EXERCICE CONCERNANT  LES EXERCICES  PRÉCÉDENTS,Totaux de l’exercice,Totaux de l’exercice  précédent
+,,,3 = 1 + 2,
+I ,PRODUITS D’EXPLOITATION ,"(1)  (2)  3 091 562 233,96 ","3 091 562 233,96 ","2 732 369 065,23"
+,Ventes de marchandises (en l’état) ,"1 225 804 275,41 ","1 225 804 275,41 ","974 371 014,10"
+,Ventes de biens et services produits ,"1 813 022 124,40 ","1 813 022 124,40 ","1 669 700 635,78"
+,Chiffre d’affaires ,"3 038 826 399,81 ","3 038 826 399,81 ","2 644 071 649,88"
+,Variation de stocks de produits (+ ou -) (1)  Immobilisations produites par l’entreprise,"12 283 607,25 ","12 283 607,25 ","56 443 585,48"
+,pour elle-même  Subventions d’exploitation ,"263 240,00 ","263 240,00",
+,Autres produits d’exploitation ,"232 356,19 ","232 356,19 ","2 816 457,59"
+,Reprises d’exploitation : transferts de charges ,"39 956 630,71 ","39 956 630,71 ","29 037 372,28"
+,TOTAL I ,"3 091 562 233,96 ","3 091 562 233,96 ","2 732 369 065,23"
+EXPLOITATION II ,CHARGES D’EXPLOITATION ,"2 524 795 110,47 ",,"2 524 795 110,47 2 240 980 806,41"
+,Achats revendus (2) de marchandises ,"834 447 158,80 ","834 447 158,80 ","680 431 173,14"
+,Achats consommés (2) de matières et fournitures ,"725 457 254,51 ","725 457 254,51 ","746 924 974,97"
+,Autres charges externes ,"500 684 085,90 ","500 684 085,90 ","402 875 891,82"
+,Impôts et taxes ,"1 594 416,81 ","1 594 416,81 ","1 512 157,70"
+,Charges de personnel ,"353 930 967,00 ","353 930 967,00 ","334 781 497,76"
+,Autres charges d’exploitation ,"1 600 000,00 ","1 600 000,00 ","1 600 000,00"
+,Dotations d’exploitation ,"107 081 227,45 ","107 081 227,45 ","72 855 111,02"
+,TOTAL II ,"2 524 795 110,47 ","2 524 795 110,47 2 240 980 806,41",
+III ,RÉSULTAT D’EXPLOITATION (I - II) ,"566 767 123,49 ","566 767 123,49 ","491 388 258,82"
+IV ,PRODUITS FINANCIERS ,"29 983 788,25 ","29 983 788,25 ","28 662 233,29"
+,Produits des titres de participation et autres titres immobilisés Gains de change ,"21 229 010,24 ","21 229 010,24  3 151 873,64 ","21 688 872,59 4 347 108,18"
+,Intérêts et autres produits financiers  Reprises financières : transferts de charges ,"3 151 873,64  5 602 904,37 ","5 602 904,37 ","2 626 252,52"
+,,"29 983 788,25 ","29 983 788,25 ","28 662 233,29"
+,TOTAL IV ,,,
+V ,CHARGES FINANCIÈRES ,"28 841 227,23 ","28 841 227,23 ","32 747 852,30"
+FINANCIER,Charges d’intérêts ,"18 203 960,97 ","18 203 960,97 ","25 149 169,84"
+,Pertes de change ,"5 837 602,08 ","5 837 602,08 ","4 731 328,37"
+,Autres charges financières ,"334 106,76  4 465 557,42 ","334 106,76 ","278 137,72"
+,Dotations financières  TOTAL V ,"28 841 227,23 ","4 465 557,42  28 841 227,23 ","2 589 216,37 32 747 852,30"
+VI ,RÉSULTAT FINANCIER (IV - V) ,"1 142 561,02 ","1 142 561,02 ","-4 085 619,01"
+VII ,RÉSULTAT COURANT (III + VI) ,"567 909 684,51 ","567 909 684,51 ",
+VIII ,,,,"487 302 639,81"
+,PRODUITS NON COURANTS ,,"969 011,57 ",
+,,"969 011,57 ",,"18 244 683,83"
+,Produits de cessions d’immobilisations ,"881 000,00  88 011,57 ","881 000,00  88 011,57 ","17 353 814,85 881 000,00 9 868,98"
+NON COURANT IX ,Subvention d’équilibre Reprises sur subventions d’investissement  Autres produits non courants  Reprises non courantes : transferts de charges TOTAL VIII  CHARGES NON COURANTES ,"969 011,57  42 902 365,42 ","969 011,57 ","18 244 683,83"
+,Valeurs nettes d’amortissement des immobilisations cédées  Subventions accordées Autres charges non courantes ,"2 911 978,09 ","42 902 365,42  2 911 978,09 ","43 548 652,25"
+,,"30 607 387,33 ","30 607 387,33 ","25 784 208,80"
+,,"9 383 000,00 ",,"7 764 443,45"
+,Dotations non courantes aux amortissements et aux provisions ,"42 902 365,42 ","9 383 000,00 ","10 000 000,00"
+X  XI ,TOTAL IX  RÉSULTAT NON COURANT (VIII - IX)  RÉSULTAT AVANT IMPÔTS (VII+ OU - X) ,"-41 933 353,85 ","42 902 365,42  -41 933 353,85 ","43 548 652,25 -25 303 968,42"
+XII ,IMPÔTS SUR LES RÉSULTATS ,"525 976 330,66 ","525 976 330,66 ","461 998 671,39"
+XIII ,,"200 615 762,00 ","200 615 762,00 ","163 205 213,00"
+,RÉSULTAT NET (XI - XII) ,"325 360 568,66 ","325 360 568,66 ","298 793 458,39"
+,,"3 122 515 033,78 ",,"2 779 275 982,35"
+,,,"3 122 515 033,78 ",
+,XIV TOTAL DES PRODUITS (I + IV + VIII) ,"2 797 154 465,12 ",,
+XVI ,XV TOTAL DES CHARGES (II + V + IX + XII)  RÉSULTAT NET (TOTAL PRODUITS - TOTAL ,,,"2 797 154 465,12 2 480 482 523,96"
+,,"325 360 568,66 ","325 360 568,66 ",
+,,,,"298 793 458,39"
+,CHARGES) ,,,

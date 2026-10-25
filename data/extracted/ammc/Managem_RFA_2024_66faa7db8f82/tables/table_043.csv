@@ -1,0 +1,27 @@
+,,ÉLÉMENTS ,EXERCICE ,EXERCICE PRÉCÉDENT
+,1 ,Ventes de marchandises (en l’état),,
+,2 ,-  Achats revendus de marchandises,,
+I ,,=  MARGES BRUTES SUR VENTES EN L’ÉTAT,,
+II ,,+  PRODUCTION DE L’EXERCICE (3+4+5) ,"467 157 384,92 ","371 284 219,69"
+,3 ,Ventes de biens et services produits ,"467 157 384,92 ","368 232 379,69"
+,4 ,Variation de stocks de produits,,
+,5 ,Immobilisations produites par l’entreprise pour elle même ,,"3 051 840,00"
+III ,,-  CONSOMMATION DE L’EXERCICE (6+7) ,"150 548 256,94 ","104 683 517,33"
+,6 ,Achats consommes de matieres et fournitures ,"37 626 263,91 ","34 857 906,13"
+,7 ,Autres charges externes ,"112 921 993,03 ","69 825 611,20"
+IV ,,=  VALEUR AJOUTÉE ( I+II+III ) ,"316 609 127,98 ","266 600 702,36"
+,8 ,+  Subventions d’exploitation,,
+V ,9 ,-  Impôts et taxes ,"27 047 428,34 ","16 562 645,11"
+,10 ,-  Charges de personnel ,"127 089 276,83 ","106 703 507,32"
+,,=  EXCÉDENT BRUT D’EXPLOITATION ( E B E ) ,"162 472 422,81 ","143 334 549,93"
+,,=  INSUFFISANCE BRUT D’EXPLOITATION ( I B E ),,
+,11 ,+  Autres produits d’exploitation ,"8 025 000,00 ","300 000,00"
+,12 ,-  Autres charges d’exploitation ,"2 057 000,00 ","1 577 000,00"
+,13 ,+  Reprises d’exploitation: transfert de charges ,"17 926 096,41",
+,14 ,-  Dotations d’exploitation ,"15 227 677,86 ","11 643 504,08"
+VI ,,=  RÉSULTAT D’EXPLOITATION ( + ou - ) ,"171 138 841,36 ","130 414 045,85"
+VII ,,RÉSULTAT FINANCIER ,"228 923 769,64 ","204 281 978,29"
+VIII ,,=  RÉSULTAT COURANT ( + ou - ) ,"400 062 611,00 ","334 696 024,14"
+IX ,,RÉSULTAT NON COURANT ( + ou - ) ,"-148 719 407,77 ","-16 572 390,61"
+,15 ,-  Impôts sur les résultats ,"35 418 278,00 ","2 844 213,00"
+X ,,=  RÉSULTAT NET DE L’EXERCICE ( + ou - ) ,"215 924 925,23 ","315 279 420,53"

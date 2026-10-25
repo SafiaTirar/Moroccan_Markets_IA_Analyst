@@ -1,0 +1,416 @@
+{
+  "schema_version": "3.0",
+  "source_pdf": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/raw/ammc/pdfs/Stroc_industrie_S1_26_0.pdf",
+  "source_sha256": "af7310ce400370633401cc3ea57da2276898ac9be0a72f0adc2e9c3defb75774",
+  "parser_metadata": "/Users/safiatirar/Desktop/EMSI/5IIR/Projet_capstone/Moroccan_Markets_IA_Analyst/data/extracted/ammc/Stroc_industrie_S1_26_0_af7310ce4003/metadata.json",
+  "config": {
+    "languages": [
+      "fra",
+      "eng"
+    ],
+    "psms": [
+      6,
+      11
+    ],
+    "render_dpi": 300,
+    "minimum_image_width": 400,
+    "minimum_image_height": 250,
+    "minimum_region_area_ratio": 0.03,
+    "minimum_amount_count": 5,
+    "column_tolerance": 0.045
+  },
+  "config_sha256": "e0ca308dea6d26eb838790781b5dfac293390b6ff28071a1ba75c2148bb02d4e",
+  "ocr_engine": "tesseract-cli",
+  "tesseract_version": "tesseract 5.5.3",
+  "selected_pages": [
+    2,
+    3
+  ],
+  "regions_examined": 8,
+  "tables_detected": 7,
+  "tables": [
+    {
+      "table_id": "OCR_001",
+      "page": 2,
+      "bbox": [
+        320.8800048828125,
+        429.8399658203125,
+        576.47998046875,
+        696.719970703125
+      ],
+      "source": "embedded_image",
+      "source_id": "xref:3:1",
+      "name": null,
+      "image_size": [
+        1065,
+        1112
+      ],
+      "attempts": [
+        {
+          "psm": 6,
+          "score": 777,
+          "amount_count": 56,
+          "keyword_count": 5,
+          "rows": 17,
+          "multi_value_rows": 16,
+          "labeled_rows": 17
+        },
+        {
+          "psm": 11,
+          "score": 128,
+          "amount_count": 54,
+          "keyword_count": 5,
+          "rows": 54,
+          "multi_value_rows": 0,
+          "labeled_rows": 0
+        }
+      ],
+      "selected_psm": 6,
+      "rows": 17,
+      "columns": 5,
+      "amount_count": 56,
+      "csv": "tables/ocr_table_001.csv",
+      "coordinates": "coordinates/ocr_table_001.json",
+      "quality_status": "TECHNICALLY_RECOVERED",
+      "financial_validation": "NOT_PERFORMED"
+    },
+    {
+      "table_id": "OCR_002",
+      "page": 2,
+      "bbox": [
+        317.2799987792969,
+        57.60003662109375,
+        573.3599853515625,
+        386.4000244140625
+      ],
+      "source": "embedded_image",
+      "source_id": "xref:4:2",
+      "name": null,
+      "image_size": [
+        1067,
+        1370
+      ],
+      "attempts": [
+        {
+          "psm": 6,
+          "score": 516,
+          "amount_count": 36,
+          "keyword_count": 4,
+          "rows": 13,
+          "multi_value_rows": 11,
+          "labeled_rows": 13
+        },
+        {
+          "psm": 11,
+          "score": 186,
+          "amount_count": 83,
+          "keyword_count": 5,
+          "rows": 83,
+          "multi_value_rows": 0,
+          "labeled_rows": 0
+        }
+      ],
+      "selected_psm": 6,
+      "rows": 13,
+      "columns": 5,
+      "amount_count": 36,
+      "csv": "tables/ocr_table_002.csv",
+      "coordinates": "coordinates/ocr_table_002.json",
+      "quality_status": "TECHNICALLY_RECOVERED",
+      "financial_validation": "NOT_PERFORMED"
+    },
+    {
+      "table_id": "OCR_003",
+      "page": 2,
+      "bbox": [
+        37.68000030517578,
+        430.0799560546875,
+        292.79998779296875,
+        751.199951171875
+      ],
+      "source": "embedded_image",
+      "source_id": "xref:5:3",
+      "name": null,
+      "image_size": [
+        1063,
+        1338
+      ],
+      "attempts": [
+        {
+          "psm": 6,
+          "score": 700,
+          "amount_count": 34,
+          "keyword_count": 5,
+          "rows": 17,
+          "multi_value_rows": 17,
+          "labeled_rows": 17
+        },
+        {
+          "psm": 11,
+          "score": 132,
+          "amount_count": 54,
+          "keyword_count": 6,
+          "rows": 54,
+          "multi_value_rows": 0,
+          "labeled_rows": 0
+        }
+      ],
+      "selected_psm": 6,
+      "rows": 17,
+      "columns": 4,
+      "amount_count": 34,
+      "csv": "tables/ocr_table_003.csv",
+      "coordinates": "coordinates/ocr_table_003.json",
+      "quality_status": "TECHNICALLY_RECOVERED",
+      "financial_validation": "NOT_PERFORMED"
+    },
+    {
+      "table_id": "OCR_004",
+      "page": 2,
+      "bbox": [
+        37.68000030517578,
+        57.600006103515625,
+        293.5199890136719,
+        413.5199890136719
+      ],
+      "source": "embedded_image",
+      "source_id": "xref:6:4",
+      "name": null,
+      "image_size": [
+        1066,
+        1483
+      ],
+      "attempts": [
+        {
+          "psm": 6,
+          "score": 947,
+          "amount_count": 67,
+          "keyword_count": 3,
+          "rows": 20,
+          "multi_value_rows": 20,
+          "labeled_rows": 20
+        },
+        {
+          "psm": 11,
+          "score": 246,
+          "amount_count": 113,
+          "keyword_count": 5,
+          "rows": 113,
+          "multi_value_rows": 0,
+          "labeled_rows": 0
+        }
+      ],
+      "selected_psm": 6,
+      "rows": 20,
+      "columns": 5,
+      "amount_count": 67,
+      "csv": "tables/ocr_table_004.csv",
+      "coordinates": "coordinates/ocr_table_004.json",
+      "quality_status": "TECHNICALLY_RECOVERED",
+      "financial_validation": "NOT_PERFORMED"
+    },
+    {
+      "table_id": "OCR_005",
+      "page": 3,
+      "bbox": [
+        39.119998931884766,
+        434.6399841308594,
+        295.44000244140625,
+        769.6799926757812
+      ],
+      "source": "embedded_image",
+      "source_id": "xref:10:1",
+      "name": null,
+      "image_size": [
+        1068,
+        1396
+      ],
+      "attempts": [
+        {
+          "psm": 6,
+          "score": 386,
+          "amount_count": 23,
+          "keyword_count": 4,
+          "rows": 14,
+          "multi_value_rows": 9,
+          "labeled_rows": 14
+        },
+        {
+          "psm": 11,
+          "score": 124,
+          "amount_count": 52,
+          "keyword_count": 5,
+          "rows": 52,
+          "multi_value_rows": 0,
+          "labeled_rows": 1
+        }
+      ],
+      "selected_psm": 6,
+      "rows": 14,
+      "columns": 3,
+      "amount_count": 23,
+      "csv": "tables/ocr_table_005.csv",
+      "coordinates": "coordinates/ocr_table_005.json",
+      "quality_status": "TECHNICALLY_RECOVERED",
+      "financial_validation": "NOT_PERFORMED"
+    },
+    {
+      "table_id": "OCR_006",
+      "page": 3,
+      "bbox": [
+        319.91998291015625,
+        31.20001220703125,
+        575.760009765625,
+        332.1600036621094
+      ],
+      "source": "embedded_image",
+      "source_id": "xref:11:2",
+      "name": null,
+      "image_size": [
+        1066,
+        1254
+      ],
+      "attempts": [
+        {
+          "psm": 6,
+          "score": 106,
+          "amount_count": 6,
+          "keyword_count": 2,
+          "rows": 3,
+          "multi_value_rows": 3,
+          "labeled_rows": 3
+        },
+        {
+          "psm": 11,
+          "score": 41,
+          "amount_count": 20,
+          "keyword_count": 3,
+          "rows": 20,
+          "multi_value_rows": 0,
+          "labeled_rows": 0
+        }
+      ],
+      "selected_psm": 6,
+      "rows": 3,
+      "columns": 3,
+      "amount_count": 6,
+      "csv": "tables/ocr_table_006.csv",
+      "coordinates": "coordinates/ocr_table_006.json",
+      "quality_status": "TECHNICALLY_RECOVERED",
+      "financial_validation": "NOT_PERFORMED"
+    },
+    {
+      "table_id": "OCR_007",
+      "page": 3,
+      "bbox": [
+        37.92000198364258,
+        31.920013427734375,
+        293.760009765625,
+        393.36004638671875
+      ],
+      "source": "embedded_image",
+      "source_id": "xref:12:3",
+      "name": null,
+      "image_size": [
+        1066,
+        1506
+      ],
+      "attempts": [
+        {
+          "psm": 6,
+          "score": 736,
+          "amount_count": 38,
+          "keyword_count": 3,
+          "rows": 20,
+          "multi_value_rows": 18,
+          "labeled_rows": 20
+        },
+        {
+          "psm": 11,
+          "score": 136,
+          "amount_count": 62,
+          "keyword_count": 3,
+          "rows": 62,
+          "multi_value_rows": 0,
+          "labeled_rows": 0
+        }
+      ],
+      "selected_psm": 6,
+      "rows": 20,
+      "columns": 3,
+      "amount_count": 38,
+      "csv": "tables/ocr_table_007.csv",
+      "coordinates": "coordinates/ocr_table_007.json",
+      "quality_status": "TECHNICALLY_RECOVERED",
+      "financial_validation": "NOT_PERFORMED"
+    }
+  ],
+  "rejected_regions": [
+    {
+      "page": 3,
+      "bbox": [
+        325.20001220703125,
+        379.91998291015625,
+        569.280029296875,
+        769.6799926757812
+      ],
+      "source": "embedded_image",
+      "source_id": "xref:13:4",
+      "name": null,
+      "image_size": [
+        1017,
+        1624
+      ],
+      "attempts": [
+        {
+          "psm": 6,
+          "score": -7,
+          "amount_count": 4,
+          "keyword_count": 5,
+          "rows": 4,
+          "multi_value_rows": 0,
+          "labeled_rows": 4
+        },
+        {
+          "psm": 11,
+          "score": -63,
+          "amount_count": 4,
+          "keyword_count": 4,
+          "rows": 4,
+          "multi_value_rows": 0,
+          "labeled_rows": 3
+        }
+      ],
+      "selected_psm": 6,
+      "reason": "NOT_FINANCIAL_TABLE"
+    }
+  ],
+  "duration_seconds": 39.648,
+  "financial_validation": "NOT_PERFORMED",
+  "status": "PARSED",
+  "cache_used": false,
+  "artifact_sha256": {
+    "tables/ocr_table_001.csv": "21125cab3f8f2cbe4e4c884734c55b71e81482108798cf64a37218baa24ea117",
+    "coordinates/ocr_table_001.json": "bb3adb9122b74b68166cc70494cf9658a3a92b03ba4ad070ae455abb66eebc93",
+    "tables/ocr_table_002.csv": "5470907b9bfd1d759b22d771cd4a3f86d49c01e325240ebdd23ae033de2e1400",
+    "coordinates/ocr_table_002.json": "de52fcef17392cfc7310fd68eba34b66272b315d11b5ba79fe5bb1d40c30d59b",
+    "tables/ocr_table_003.csv": "c4fef9819cb0121932fe26111ef24e1719264a26086d82d519d188de0c3e9ebe",
+    "coordinates/ocr_table_003.json": "de3fa350e4eb95854d0f747363ea8e0eec224cce8b9ff12a911402e4d4127edf",
+    "tables/ocr_table_004.csv": "92d9edba3ff9a58f03ecd9c5c19cddd69fe597e608f99de3c1b5dbea9da0c513",
+    "coordinates/ocr_table_004.json": "1274f2d8173f1af144987c358d96e672822ce5d75a49b6eb54bdea434f7429a1",
+    "tables/ocr_table_005.csv": "fae4cf9814a871a74369b49fd2547473a6851b91edb848923a88d611ea3959ab",
+    "coordinates/ocr_table_005.json": "951e94f1b9e478267948d04d8bfcd230e437bd8dcccf3180214a2f844f1ed79c",
+    "tables/ocr_table_006.csv": "08dc04da738ae59702bc5c4e90150679a873c35076969e7105dbd3a59f5517f3",
+    "coordinates/ocr_table_006.json": "a4e5123d1275578729de4241d498dde792971521dae4a3829526fe5faa4f7c66",
+    "tables/ocr_table_007.csv": "162a58d8e99037a42d7e7855fc69f104dc49935cc89270163670b76752afdf42",
+    "coordinates/ocr_table_007.json": "049c362376d3c4a2a3f8b3f5eea46341decbac15905a3e670688abf76713183f"
+  },
+  "selection": {
+    "selected_pages": [
+      2,
+      3
+    ],
+    "regions_json_sha256": null
+  },
+  "selection_sha256": "a1577199a4a3ceb96cfa0dbc129fc88407717399e18fb2c48ee0c2a9b0d95d15"
+}
