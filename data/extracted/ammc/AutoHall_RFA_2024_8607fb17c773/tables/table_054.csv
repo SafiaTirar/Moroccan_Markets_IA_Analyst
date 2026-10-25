@@ -1,7 +1,0 @@
-0,1,2,3,4,5
-,(A) Montant  des dettes  fournisseurs à la clôture,(B)  Montant des dettes non échues,Montant des dettes échues,Montant des dettes échues,Montant des dettes échues
-,A = B+C+D+E+F ,(C) ,(D) ,(E) ,(F) 
-,"551 215 173,41",Dettes échues  de moins 30  jours ,Dettes échues  entre 31 et 60  jours ,Dettes échues  entre 61 et 90  jours ,Dettes échues  de plus de 90  jours 
-Date de clôture  exercice N-1 ,"525 410 223,28 ","585 534,00 ","2 834 483,76 ","1 449 876,60 ","10 757 177,65"
-Date de clôture  exercice N ,"544 612 608,83 ","480 081,06 ","249 820,30 ","43 057,52 ","5 829 605,70"
-,"544 612 608,83 ","480 081,06 ","249 820,30 ","43 057,52 ","5 829 605,70"

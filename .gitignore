@@ -37,6 +37,10 @@ htmlcov/
 # Local data and generated model artifacts
 data/raw/*
 data/processed/*
+data/extracted/
+data/integrated/
+data/quality/
+data/warehouse/*.duckdb
 !data/raw/.gitkeep
 !data/processed/.gitkeep
 artifacts/

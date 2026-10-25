@@ -1,7 +1,0 @@
-Impact financier moyen.Cotation ,Impact financier moyen.Niveau  d’impact ,Fréquence  d’occurrence.Cotation ,Fréquence  d’occurrence.Cotation ,Fréquence  d’occurrence.Niveau  de fréquence ,Echelle de cotation  nette.Cotation Nette RO,Echelle de cotation  nette.Cotation Nette RO
-1 ,Moins de 10 K dhs ,1 ,Extrêmement  Rare,Moins d’une fois  tous les 5 ans ,1 ,Faible
-2 ,De 10 K dhs à 100 K dhs ,2 ,Rare ,Moins d’une fois  par an ,2 ,Moyen
-3,De 100 K dhs à 1 M dhs ,3,Peu Fréquent,Quelques fois  par an (entre 1  et 15 fois par an),3 ,Fort
-4,De 1 M dhs à 10 M dhs ,4,Fréquent ,Quelques fois par  mois (entre 16  et 50 fois par an),4 ,Critique
-5,De 10 M dhs à 100 M dhs ,5,Très Fréquent,Quelques fois par  semaine (entre  51 et 350 fois  par an),5 ,Inacceptable
-6,Plus de 100 M dhs ,6,Permanent ,Quelques fois par  jour (au moins  350 fois par an),,

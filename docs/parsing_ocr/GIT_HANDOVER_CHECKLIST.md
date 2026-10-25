@@ -54,9 +54,9 @@ docs/parsing_ocr/
 
 Les manifestes, petits rapports de synthèse et références financières peuvent être publiés seulement après décision d'équipe sur la politique de données. Plusieurs JSON locaux contiennent des chemins absolus `/Users/...` : préférer des résumés portables ou un stockage d'artefacts externe.
 
-## Lacune `.gitignore` constatée
+## Protection `.gitignore`
 
-`data/raw/*` et `data/processed/*` sont ignorés, mais `data/extracted/`, `data/integrated/`, `data/quality/` et les fichiers DuckDB ne le sont pas. Proposition à faire relire avant application :
+L'audit initial avait constaté que `data/extracted/`, `data/integrated/`, `data/quality/` et les fichiers DuckDB n'étaient pas ignorés. Après le premier push, les règles suivantes ont été appliquées et les fichiers concernés ont été retirés du suivi sans suppression locale :
 
 ```gitignore
 data/extracted/
@@ -66,6 +66,8 @@ data/warehouse/*.duckdb
 ```
 
 Si l'équipe souhaite suivre quelques rapports de synthèse, ajouter ensuite des exceptions explicites, fichier par fichier, ou utiliser Git LFS / un stockage d'artefacts. Ne pas exempter récursivement tout `data/quality/`.
+
+Ce nettoyage non destructif empêche les prochains commits de suivre ces artefacts, mais les blobs du premier commit publié restent dans l'historique Git. Leur suppression de l'historique demanderait une réécriture coordonnée et un push forcé, volontairement exclus de ce correctif.
 
 ## Commandes recommandées
 

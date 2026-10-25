@@ -357,9 +357,11 @@ Le détail des fichiers, des exclusions, de la lacune `.gitignore`, des commande
 1. isoler les changements Parsing/OCR sur une branche dédiée ;
 2. faire relire `pyproject.toml`/`uv.lock`, partagés avec d'autres domaines ;
 3. décider où publier manifestes et petits rapports sans embarquer les artefacts volumineux ;
-4. compléter `.gitignore` pour `data/extracted`, `data/integrated`, `data/quality` et DuckDB ;
+4. vérifier les protections `.gitignore` pour `data/extracted`, `data/integrated`, `data/quality` et DuckDB ; elles ont été ajoutées dans un correctif non destructif après le premier push ;
 5. supprimer ou relativiser les chemins absolus des artefacts destinés à être partagés ;
 6. obtenir l'accord explicite avant tout commit ou push.
+
+Le premier push sur `main` avait inclus les artefacts générés et une base DuckDB. Le correctif suivant les retire du suivi tout en les conservant sur disque. Comme l'historique n'est pas réécrit, leurs blobs restent accessibles dans le commit antérieur ; cette limite est intentionnelle afin d'éviter un `push --force` non coordonné.
 
 Message proposé :
 
