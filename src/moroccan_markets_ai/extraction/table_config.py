@@ -1,12 +1,12 @@
 from .column_detector import detecter_colonnes
 
 CONFIG_TABLEAUX = {
-    "DOCLING_018": {
+    ("S2M", 2025, "DOCLING_018"): {
         "type": "CPC",
         "colonnes": {2025: 2, 2024: 4},
         "colonnes_signes": {2025: 1, 2024: 3}
     },
-    "DOCLING_020": {
+    ("S2M", 2025, "DOCLING_020"): {
         "type": "BILAN_PASSIF",
         "colonnes": {2025: 1, 2024: 2},
         "colonnes_signes": {}
@@ -15,18 +15,22 @@ CONFIG_TABLEAUX = {
 
 
 def obtenir_configuration(tableau):
-    table_id = tableau["table_id"]
+    cle = (
+        tableau.get("entreprise"),
+        tableau.get("annee"),
+        tableau["table_id"]
+    )
 
-    # Priorité aux configurations déjà vérifiées
-    if table_id in CONFIG_TABLEAUX:
-        return CONFIG_TABLEAUX[table_id]
+    # Utiliser uniquement les configurations vérifiées
+    if cle in CONFIG_TABLEAUX:
+        return CONFIG_TABLEAUX[cle]
 
-    # Détection automatique pour les autres tableaux
+    # Sinon, détecter automatiquement les colonnes
     colonnes = detecter_colonnes(tableau)
 
     if not colonnes:
         raise ValueError(
-            f"Colonnes non détectées pour {table_id}"
+            f"Colonnes non détectées pour {cle}"
         )
 
     return {

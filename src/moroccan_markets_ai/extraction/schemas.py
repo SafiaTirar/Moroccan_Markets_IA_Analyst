@@ -22,3 +22,4 @@ class CandidatFinancier(IndicateurFinancier):
     source_page: int
     source_ligne: int
     validation_status: str = "NOT_CHECKED"
+    indicator: str | None = None

@@ -5,6 +5,8 @@ from urllib.error import HTTPError, URLError
 
 from pydantic import BaseModel, Field, ValidationError
 
+from .candidate_mapper import associer_indicateurs
+from .column_validator import verifier_colonnes
 from .label_detector import detecter_colonne_libelle
 from .table_config import obtenir_configuration
 
@@ -44,6 +46,15 @@ def extraire_par_lignes(tableau):
 
     colonnes = config["colonnes"]
     colonnes_signes = config["colonnes_signes"]
+
+    # Vérifier que les colonnes contiennent des montants isolés
+    validation = verifier_colonnes(tableau, config)
+
+    if not validation["exploitable"]:
+        raise ValueError(
+            f"Tableau non exploitable : {tableau['table_id']} | "
+            f"Montants par année : {validation['montants_par_annee']}"
+        )
 
     if not colonnes:
         raise ValueError(
@@ -249,9 +260,9 @@ Structure attendue :
     # ------------------------------------------
 
     est_s2m_2025 = (
-        tableau.get("table_id") == "DOCLING_018"
-        and tableau.get("entreprise") == "S2M"
-        and tableau.get("annee") == 2025
+    tableau.get("table_id") == "DOCLING_018"
+    and str(tableau.get("entreprise", "")).strip().lower() == "s2m"
+    and tableau.get("annee") == 2025
     )
 
     corrections = (
@@ -410,5 +421,11 @@ Structure attendue :
                 annee,
                 montant,
             )
+
+    # Associer les candidats aux indicateurs officiels
+    candidats = associer_indicateurs(
+        candidats,
+        tableau["entreprise"]
+    )
 
     return candidats, anomalies
