@@ -3,54 +3,96 @@ import unicodedata
 
 
 def normaliser(texte):
-    texte = unicodedata.normalize("NFKD", texte)
+    texte = unicodedata.normalize("NFKD", str(texte))
     texte = "".join(
-        caractere for caractere in texte
-        if not unicodedata.combining(caractere)
+        c for c in texte
+        if not unicodedata.combining(c)
     )
-    return texte.upper().strip()
+    texte = texte.upper().replace("’", "'")
+    return re.sub(r"\s+", " ", texte).strip()
 
 
 def detecter_colonnes(tableau):
-    lignes = tableau["contenu"].splitlines()
+    lignes = tableau["contenu"].splitlines()[:5]
+    annee = tableau.get("annee")
 
     if not lignes:
         return {}
 
-    entete = lignes[0].split(" | ")
-    colonnes = {}
+    # 1. Dates explicites : 2025/2024 ou 31-déc-25
+    for ligne in lignes:
+        cellules = ligne.split("|")
+        colonnes = {}
 
-    # Année de référence du document, si elle est connue
-    annee_reference = tableau.get("annee")
+        for indice, cellule in enumerate(cellules):
+            texte = normaliser(cellule)
 
-    # 1. Rechercher les années explicites
-    for indice, cellule in enumerate(entete):
-        annees = re.findall(r"\b20\d{2}\b", cellule)
+            annees = re.findall(r"(?<!\d)20\d{2}(?!\d)", texte)
 
-        if annees:
-            # Une seule année dans la cellule :
-            # on peut identifier la colonne directement.
-            annees_uniques = set(annees)
+            # Dates abrégées : 31-déc-25 ou 31/12/25
+            if not annees:
+                dates = re.findall(
+                    r"\b\d{1,2}[-/](?:[A-Z]+|\d{1,2})[-/](\d{2})\b",
+                    texte,
+                )
+                annees = ["20" + a for a in dates]
 
-            if len(annees_uniques) == 1:
-                annee = int(annees[0])
-                colonnes[annee] = indice
+            if len(set(annees)) == 1 and annees:
+                colonnes[int(annees[0])] = indice
 
-    # 2. Reconnaître EXERCICE et EXERCICE PRECEDENT
-    for indice, cellule in enumerate(entete):
-        cellule_normale = normaliser(cellule)
+        if (
+            len(colonnes) >= 2
+            and len(set(colonnes.values())) == len(colonnes)
+        ):
+            return colonnes
 
-        # Retirer le préfixe éventuel ajouté par Docling
-        # Exemple : "...2025.EXERCICE PRECEDENT"
-        libelle = cellule_normale.split(".")[-1].strip()
+    if annee is None:
+        return {}
 
-        if annee_reference is None:
-            continue
+    annee = int(annee)
 
-        if libelle == "EXERCICE PRECEDENT":
-            colonnes[annee_reference - 1] = indice
+    # 2. Colonnes EXERCICE / EXERCICE PRECEDENT
+    for position, ligne in enumerate(lignes):
+        cellules = [normaliser(c) for c in ligne.split("|")]
 
-        elif libelle == "EXERCICE":
-            colonnes[annee_reference] = indice
+        precedent = []
+        courant = []
 
-    return colonnes
+        for indice, texte in enumerate(cellules):
+            if "EXERCICE PRECEDENT" in texte:
+                precedent.append(indice)
+
+            elif (
+                "TOTAUX DE L'EXERCICE" in texte
+                or texte == "EXERCICE"
+            ):
+                courant.append(indice)
+
+        # Bilan actif : plusieurs colonnes de l'exercice
+        # (Brut, Amortissements, Net)
+        if precedent and not courant:
+            if position + 1 < len(lignes):
+                sous_entete = [
+                    normaliser(c)
+                    for c in lignes[position + 1].split("|")
+                ]
+
+                net = [
+                    i for i, texte in enumerate(sous_entete)
+                    if texte == "NET" and i not in precedent
+                ]
+
+                if len(net) == 1:
+                    return {
+                        annee: net[0],
+                        annee - 1: precedent[-1],
+                    }
+
+        if len(courant) == 1 and len(precedent) == 1:
+            if courant[0] != precedent[0]:
+                return {
+                    annee: courant[0],
+                    annee - 1: precedent[0],
+                }
+
+    return {}
