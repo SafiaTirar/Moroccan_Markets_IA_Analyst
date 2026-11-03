@@ -43,7 +43,40 @@ def detecter_type_tableau(tableau):
     ):
         return None
 
-    # Détection du bilan actif
+    # Examiner les trois premières lignes pour trouver
+    # le véritable en-tête du tableau bancaire.
+    premiers_libelles = [
+        normaliser(ligne.split("|")[0])
+        for ligne in lignes[:3]
+    ]
+
+    est_actif_bancaire = "ACTIF" in premiers_libelles
+    est_passif_bancaire = "PASSIF" in premiers_libelles
+
+    # ----------------------------------------
+    # 1. Détection des bilans bancaires
+    # ----------------------------------------
+
+    # Bilan passif bancaire
+    if (
+        est_passif_bancaire
+        and "DETTES ENVERS LA CLIENTELE" in contenu_complet
+        and "CAPITAUX PROPRES" in contenu_complet
+        and "TOTAL PASSIF" in contenu_complet
+    ):
+        return "BILAN_PASSIF"
+
+    # Bilan actif bancaire
+    if (
+        est_actif_bancaire
+        and "PRETS ET CREANCES SUR LA CLIENTELE" in contenu_complet
+        and "TOTAL ACTIF" in contenu_complet
+    ):
+        return "BILAN_ACTIF"
+
+    # ----------------------------------------
+    # 2. Détection du bilan actif classique
+    # ----------------------------------------
     if (
         "ACTIF" in debut
         and "IMMOBILISATIONS" in debut
@@ -55,7 +88,9 @@ def detecter_type_tableau(tableau):
     ):
         return "BILAN_ACTIF"
 
-    # Détection du bilan passif
+    # ----------------------------------------
+    # 3. Détection du bilan passif classique
+    # ----------------------------------------
     if (
         (
             "PASSIF" in debut
@@ -78,7 +113,9 @@ def detecter_type_tableau(tableau):
     ):
         return "BILAN_PASSIF"
 
-    # Détection du compte de résultat IFRS
+    # ----------------------------------------
+    # 4. Détection du compte de résultat IFRS
+    # ----------------------------------------
     if (
         "OPERATIONNEL RESULTAT" in contenu_complet
         and "ENDETTEMENT'L DE COUT" in contenu_complet
@@ -87,7 +124,9 @@ def detecter_type_tableau(tableau):
     ):
         return "COMPTE_RESULTAT_IFRS"
 
-    # Détection du CPC marocain
+    # ----------------------------------------
+    # 5. Détection du CPC marocain
+    # ----------------------------------------
     if (
         (
             "PRODUITS D'EXPLOITATION" in debut

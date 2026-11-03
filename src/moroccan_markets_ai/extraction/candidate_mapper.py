@@ -1,49 +1,32 @@
-from .indicator_matcher import normaliser
-from .indicator_selector import obtenir_indicateurs
+from .indicator_matcher import trouver_indicateurs
 
 
 def associer_indicateurs(candidats, entreprise):
     """Associe les candidats aux indicateurs officiels."""
 
-    indicateurs = obtenir_indicateurs(entreprise)
     resultats = []
 
     for candidat in candidats:
-        libelle = normaliser(candidat["nom"])
-        correspondances = []
+        nouveau = candidat.copy()
 
-        for item in indicateurs:
-            for synonyme in item["synonyms"]:
-                synonyme_normalise = normaliser(synonyme)
+        tableau_temporaire = {
+            "entreprise": entreprise,
+            "table_id": candidat.get("source_table", ""),
+            "contenu": candidat["nom"],
+        }
 
-                if synonyme_normalise in libelle:
-                    correspondances.append(
-                        (item["indicator"], len(synonyme_normalise))
-                    )
+        correspondances = trouver_indicateurs(tableau_temporaire)
 
-        nouveau_candidat = candidat.copy()
-
-        if correspondances:
-            longueur_max = max(
-                longueur for _, longueur in correspondances
+        if len(correspondances) == 1:
+            nouveau["indicator"] = correspondances[0]["indicator"]
+            nouveau["mapping_status"] = "MATCHED"
+        else:
+            nouveau["indicator"] = None
+            nouveau["mapping_status"] = (
+                "AMBIGUOUS" if len(correspondances) > 1
+                else "UNMATCHED"
             )
 
-            meilleurs = {
-                indicator
-                for indicator, longueur in correspondances
-                if longueur == longueur_max
-            }
-
-            if len(meilleurs) == 1:
-                nouveau_candidat["indicator"] = next(iter(meilleurs))
-            else:
-                nouveau_candidat["indicator"] = None
-                nouveau_candidat["mapping_status"] = "AMBIGUOUS"
-
-        else:
-            nouveau_candidat["indicator"] = None
-            nouveau_candidat["mapping_status"] = "UNMATCHED"
-
-        resultats.append(nouveau_candidat)
+        resultats.append(nouveau)
 
     return resultats
