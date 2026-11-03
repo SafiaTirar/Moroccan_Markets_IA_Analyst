@@ -1,0 +1,1280 @@
+[
+  {
+    "entreprise": "attijariwafa_bank",
+    "report_year": 2023,
+    "table_id": "DOCLING_086",
+    "ligne": 28,
+    "indicator": "NET_INCOME",
+    "observation_year": 2022,
+    "cellule_source": "",
+    "raison": "MONTANT_A_VERIFIER"
+  },
+  {
+    "entreprise": "attijariwafa_bank",
+    "report_year": 2023,
+    "table_id": "DOCLING_089",
+    "ligne": 26,
+    "indicator": "NET_INCOME",
+    "observation_year": 2022,
+    "cellule_source": "",
+    "raison": "MONTANT_A_VERIFIER"
+  },
+  {
+    "entreprise": "wafa_assurance",
+    "report_year": 2023,
+    "table_id": "DOCLING_016",
+    "pages": [
+      13
+    ],
+    "raison": "TABLEAU_TO_REVIEW",
+    "detail": "Colonnes non détectées pour ('wafa_assurance', 2023, 'DOCLING_016')"
+  },
+  {
+    "entreprise": "wafa_assurance",
+    "report_year": 2024,
+    "table_id": "DOCLING_002",
+    "pages": [
+      4
+    ],
+    "raison": "TABLEAU_TO_REVIEW",
+    "detail": "Colonnes non détectées pour ('wafa_assurance', 2024, 'DOCLING_002')"
+  },
+  {
+    "entreprise": "wafa_assurance",
+    "report_year": 2024,
+    "table_id": "DOCLING_016",
+    "pages": [
+      13
+    ],
+    "raison": "TABLEAU_TO_REVIEW",
+    "detail": "Colonnes non détectées pour ('wafa_assurance', 2024, 'DOCLING_016')"
+  },
+  {
+    "entreprise": "wafa_assurance",
+    "report_year": 2025,
+    "table_id": "DOCLING_017",
+    "pages": [
+      13
+    ],
+    "raison": "TABLEAU_TO_REVIEW",
+    "detail": "Colonnes non détectées pour ('wafa_assurance', 2025, 'DOCLING_017')"
+  },
+  {
+    "entreprise": "wafa_assurance",
+    "report_year": 2025,
+    "table_id": "DOCLING_026",
+    "ligne": 5,
+    "indicator": "NET_INCOME_GROUP_SHARE",
+    "observation_year": 2025,
+    "cellule_source": "1 026 036",
+    "raison": "MONTANT_A_VERIFIER"
+  },
+  {
+    "entreprise": "wafa_assurance",
+    "report_year": 2025,
+    "table_id": "DOCLING_026",
+    "ligne": 5,
+    "indicator": "NET_INCOME_GROUP_SHARE",
+    "observation_year": 2024,
+    "cellule_source": "",
+    "raison": "MONTANT_A_VERIFIER"
+  },
+  {
+    "entreprise": "wafa_assurance",
+    "report_year": 2025,
+    "table_id": "DOCLING_026",
+    "ligne": 6,
+    "indicator": "EQUITY",
+    "observation_year": 2025,
+    "cellule_source": "14 960 337",
+    "raison": "MONTANT_A_VERIFIER"
+  },
+  {
+    "entreprise": "wafa_assurance",
+    "report_year": 2025,
+    "table_id": "DOCLING_026",
+    "ligne": 6,
+    "indicator": "EQUITY",
+    "observation_year": 2024,
+    "cellule_source": "10 894 830",
+    "raison": "MONTANT_A_VERIFIER"
+  },
+  {
+    "entreprise": "wafa_assurance",
+    "report_year": 2025,
+    "table_id": "DOCLING_026",
+    "ligne": 8,
+    "indicator": "EQUITY",
+    "observation_year": 2025,
+    "cellule_source": "15 231 066",
+    "raison": "MONTANT_A_VERIFIER"
+  },
+  {
+    "entreprise": "wafa_assurance",
+    "report_year": 2025,
+    "table_id": "DOCLING_026",
+    "ligne": 8,
+    "indicator": "EQUITY",
+    "observation_year": 2024,
+    "cellule_source": "11 063 554",
+    "raison": "MONTANT_A_VERIFIER"
+  },
+  {
+    "entreprise": "aradei_capital",
+    "report_year": 2023,
+    "table_id": "DOCLING_006",
+    "pages": [
+      6
+    ],
+    "raison": "TABLEAU_TO_REVIEW",
+    "detail": "Colonnes non détectées pour ('aradei_capital', 2023, 'DOCLING_006')"
+  },
+  {
+    "entreprise": "aradei_capital",
+    "report_year": 2023,
+    "table_id": "DOCLING_054",
+    "pages": [
+      14
+    ],
+    "raison": "TABLEAU_TO_REVIEW",
+    "detail": "Colonnes non détectées pour ('aradei_capital', 2023, 'DOCLING_054')"
+  },
+  {
+    "entreprise": "aradei_capital",
+    "report_year": 2023,
+    "table_id": "DOCLING_057",
+    "pages": [
+      14
+    ],
+    "raison": "TABLEAU_TO_REVIEW",
+    "detail": "Colonnes non détectées pour ('aradei_capital', 2023, 'DOCLING_057')"
+  },
+  {
+    "entreprise": "aradei_capital",
+    "report_year": 2023,
+    "table_id": "DOCLING_058",
+    "pages": [
+      14
+    ],
+    "raison": "TABLEAU_TO_REVIEW",
+    "detail": "Colonnes sans montants isolés"
+  },
+  {
+    "entreprise": "aradei_capital",
+    "report_year": 2023,
+    "table_id": "OCR_014",
+    "pages": [
+      66
+    ],
+    "raison": "TABLEAU_TO_REVIEW",
+    "detail": "Colonnes non détectées pour ('aradei_capital', 2023, 'OCR_014')"
+  },
+  {
+    "entreprise": "aradei_capital",
+    "report_year": 2023,
+    "raison": "AUCUN_CANDIDAT_EXTRAIT",
+    "detail": "Aucune observation exploitable produite par l'extraction structurée."
+  },
+  {
+    "entreprise": "aradei_capital",
+    "report_year": 2024,
+    "table_id": "DOCLING_003",
+    "pages": [
+      6
+    ],
+    "raison": "TABLEAU_TO_REVIEW",
+    "detail": "Colonnes non détectées pour ('aradei_capital', 2024, 'DOCLING_003')"
+  },
+  {
+    "entreprise": "aradei_capital",
+    "report_year": 2024,
+    "table_id": "DOCLING_054",
+    "pages": [
+      14
+    ],
+    "raison": "TABLEAU_TO_REVIEW",
+    "detail": "Colonnes non détectées pour ('aradei_capital', 2024, 'DOCLING_054')"
+  },
+  {
+    "entreprise": "aradei_capital",
+    "report_year": 2024,
+    "table_id": "DOCLING_056",
+    "pages": [
+      14
+    ],
+    "raison": "TABLEAU_TO_REVIEW",
+    "detail": "Colonnes non détectées pour ('aradei_capital', 2024, 'DOCLING_056')"
+  },
+  {
+    "entreprise": "aradei_capital",
+    "report_year": 2024,
+    "table_id": "DOCLING_058",
+    "pages": [
+      14
+    ],
+    "raison": "TABLEAU_TO_REVIEW",
+    "detail": "Colonnes non détectées pour ('aradei_capital', 2024, 'DOCLING_058')"
+  },
+  {
+    "entreprise": "aradei_capital",
+    "report_year": 2024,
+    "table_id": "DOCLING_083",
+    "pages": [
+      28
+    ],
+    "raison": "TABLEAU_TO_REVIEW",
+    "detail": "Colonnes non détectées pour ('aradei_capital', 2024, 'DOCLING_083')"
+  },
+  {
+    "entreprise": "aradei_capital",
+    "report_year": 2024,
+    "table_id": "OCR_001",
+    "pages": [
+      66
+    ],
+    "raison": "TABLEAU_TO_REVIEW",
+    "detail": "Colonnes non détectées pour ('aradei_capital', 2024, 'OCR_001')"
+  },
+  {
+    "entreprise": "aradei_capital",
+    "report_year": 2024,
+    "raison": "AUCUN_CANDIDAT_EXTRAIT",
+    "detail": "Aucune observation exploitable produite par l'extraction structurée."
+  },
+  {
+    "entreprise": "aradei_capital",
+    "report_year": 2025,
+    "table_id": "DOCLING_003",
+    "pages": [
+      6
+    ],
+    "raison": "TABLEAU_TO_REVIEW",
+    "detail": "Colonnes non détectées pour ('aradei_capital', 2025, 'DOCLING_003')"
+  },
+  {
+    "entreprise": "aradei_capital",
+    "report_year": 2025,
+    "table_id": "DOCLING_047",
+    "pages": [
+      14
+    ],
+    "raison": "TABLEAU_TO_REVIEW",
+    "detail": "Colonnes non détectées pour ('aradei_capital', 2025, 'DOCLING_047')"
+  },
+  {
+    "entreprise": "aradei_capital",
+    "report_year": 2025,
+    "table_id": "DOCLING_049",
+    "pages": [
+      14
+    ],
+    "raison": "TABLEAU_TO_REVIEW",
+    "detail": "Colonnes non détectées pour ('aradei_capital', 2025, 'DOCLING_049')"
+  },
+  {
+    "entreprise": "aradei_capital",
+    "report_year": 2025,
+    "table_id": "DOCLING_050",
+    "pages": [
+      14
+    ],
+    "raison": "TABLEAU_TO_REVIEW",
+    "detail": "Colonnes sans montants isolés"
+  },
+  {
+    "entreprise": "aradei_capital",
+    "report_year": 2025,
+    "table_id": "DOCLING_079",
+    "pages": [
+      28
+    ],
+    "raison": "TABLEAU_TO_REVIEW",
+    "detail": "Colonnes non détectées pour ('aradei_capital', 2025, 'DOCLING_079')"
+  },
+  {
+    "entreprise": "aradei_capital",
+    "report_year": 2025,
+    "table_id": "DOCLING_080",
+    "pages": [
+      29
+    ],
+    "raison": "TABLEAU_TO_REVIEW",
+    "detail": "Colonnes non détectées pour ('aradei_capital', 2025, 'DOCLING_080')"
+  },
+  {
+    "entreprise": "aradei_capital",
+    "report_year": 2025,
+    "table_id": "DOCLING_122",
+    "pages": [
+      64
+    ],
+    "raison": "TABLEAU_TO_REVIEW",
+    "detail": "Colonnes non détectées pour ('aradei_capital', 2025, 'DOCLING_122')"
+  },
+  {
+    "entreprise": "aradei_capital",
+    "report_year": 2025,
+    "table_id": "DOCLING_123",
+    "pages": [
+      65
+    ],
+    "raison": "TABLEAU_TO_REVIEW",
+    "detail": "Colonnes non détectées pour ('aradei_capital', 2025, 'DOCLING_123')"
+  },
+  {
+    "entreprise": "aradei_capital",
+    "report_year": 2025,
+    "table_id": "DOCLING_124",
+    "pages": [
+      66
+    ],
+    "raison": "TABLEAU_TO_REVIEW",
+    "detail": "Colonnes non détectées pour ('aradei_capital', 2025, 'DOCLING_124')"
+  },
+  {
+    "entreprise": "aradei_capital",
+    "report_year": 2025,
+    "raison": "AUCUN_CANDIDAT_EXTRAIT",
+    "detail": "Aucune observation exploitable produite par l'extraction structurée."
+  },
+  {
+    "entreprise": "auto_hall",
+    "report_year": 2023,
+    "table_id": "DOCLING_044",
+    "pages": [
+      37
+    ],
+    "raison": "TABLEAU_TO_REVIEW",
+    "detail": "Colonnes non détectées pour ('auto_hall', 2023, 'DOCLING_044')"
+  },
+  {
+    "entreprise": "auto_hall",
+    "report_year": 2023,
+    "table_id": "DOCLING_045",
+    "pages": [
+      37
+    ],
+    "raison": "TABLEAU_TO_REVIEW",
+    "detail": "Colonnes non détectées pour ('auto_hall', 2023, 'DOCLING_045')"
+  },
+  {
+    "entreprise": "auto_hall",
+    "report_year": 2023,
+    "table_id": "DOCLING_046",
+    "pages": [
+      38
+    ],
+    "raison": "TABLEAU_TO_REVIEW",
+    "detail": "Colonnes non détectées pour ('auto_hall', 2023, 'DOCLING_046')"
+  },
+  {
+    "entreprise": "auto_hall",
+    "report_year": 2023,
+    "table_id": "DOCLING_052",
+    "pages": [
+      40
+    ],
+    "raison": "TABLEAU_TO_REVIEW",
+    "detail": "Colonnes non détectées pour ('auto_hall', 2023, 'DOCLING_052')"
+  },
+  {
+    "entreprise": "auto_hall",
+    "report_year": 2024,
+    "table_id": "DOCLING_062",
+    "pages": [
+      44
+    ],
+    "raison": "TABLEAU_TO_REVIEW",
+    "detail": "Colonnes non détectées pour ('auto_hall', 2024, 'DOCLING_062')"
+  },
+  {
+    "entreprise": "auto_hall",
+    "report_year": 2024,
+    "table_id": "DOCLING_063",
+    "pages": [
+      44
+    ],
+    "raison": "TABLEAU_TO_REVIEW",
+    "detail": "Colonnes non détectées pour ('auto_hall', 2024, 'DOCLING_063')"
+  },
+  {
+    "entreprise": "auto_hall",
+    "report_year": 2024,
+    "table_id": "DOCLING_064",
+    "pages": [
+      45
+    ],
+    "raison": "TABLEAU_TO_REVIEW",
+    "detail": "Colonnes non détectées pour ('auto_hall', 2024, 'DOCLING_064')"
+  },
+  {
+    "entreprise": "auto_hall",
+    "report_year": 2024,
+    "table_id": "DOCLING_070",
+    "pages": [
+      47
+    ],
+    "raison": "TABLEAU_TO_REVIEW",
+    "detail": "Colonnes non détectées pour ('auto_hall', 2024, 'DOCLING_070')"
+  },
+  {
+    "entreprise": "auto_hall",
+    "report_year": 2025,
+    "table_id": "DOCLING_049",
+    "pages": [
+      46
+    ],
+    "raison": "TABLEAU_TO_REVIEW",
+    "detail": "Colonnes non détectées pour ('auto_hall', 2025, 'DOCLING_049')"
+  },
+  {
+    "entreprise": "auto_hall",
+    "report_year": 2025,
+    "table_id": "DOCLING_050",
+    "ligne": 3,
+    "indicator": "EQUITY",
+    "observation_year": 2025,
+    "cellule_source": "",
+    "raison": "MONTANT_A_VERIFIER"
+  },
+  {
+    "entreprise": "auto_hall",
+    "report_year": 2025,
+    "table_id": "DOCLING_050",
+    "ligne": 3,
+    "indicator": "EQUITY",
+    "observation_year": 2024,
+    "cellule_source": "",
+    "raison": "MONTANT_A_VERIFIER"
+  },
+  {
+    "entreprise": "auto_hall",
+    "report_year": 2025,
+    "table_id": "DOCLING_050",
+    "ligne": 11,
+    "indicator": "NET_INCOME",
+    "observation_year": 2025,
+    "cellule_source": "",
+    "raison": "MONTANT_A_VERIFIER"
+  },
+  {
+    "entreprise": "auto_hall",
+    "report_year": 2025,
+    "table_id": "DOCLING_050",
+    "ligne": 11,
+    "indicator": "NET_INCOME",
+    "observation_year": 2024,
+    "cellule_source": "",
+    "raison": "MONTANT_A_VERIFIER"
+  },
+  {
+    "entreprise": "auto_hall",
+    "report_year": 2025,
+    "table_id": "DOCLING_050",
+    "ligne": 14,
+    "indicator": "EQUITY",
+    "observation_year": 2025,
+    "cellule_source": "",
+    "raison": "MONTANT_A_VERIFIER"
+  },
+  {
+    "entreprise": "auto_hall",
+    "report_year": 2025,
+    "table_id": "DOCLING_050",
+    "ligne": 14,
+    "indicator": "EQUITY",
+    "observation_year": 2024,
+    "cellule_source": "1 659 905 010,86 1 656 057 720,66",
+    "raison": "MONTANT_A_VERIFIER"
+  },
+  {
+    "entreprise": "auto_hall",
+    "report_year": 2025,
+    "table_id": "DOCLING_051",
+    "pages": [
+      47
+    ],
+    "raison": "TABLEAU_TO_REVIEW",
+    "detail": "Colonnes non détectées pour ('auto_hall', 2025, 'DOCLING_051')"
+  },
+  {
+    "entreprise": "auto_hall",
+    "report_year": 2025,
+    "table_id": "DOCLING_057",
+    "pages": [
+      49
+    ],
+    "raison": "TABLEAU_TO_REVIEW",
+    "detail": "Colonnes non détectées pour ('auto_hall', 2025, 'DOCLING_057')"
+  },
+  {
+    "entreprise": "cosumar",
+    "report_year": 2023,
+    "table_id": "DOCLING_071",
+    "pages": [
+      97
+    ],
+    "raison": "TABLEAU_TO_REVIEW",
+    "detail": "Colonnes non détectées pour ('cosumar', 2023, 'DOCLING_071')"
+  },
+  {
+    "entreprise": "cosumar",
+    "report_year": 2023,
+    "table_id": "DOCLING_072",
+    "pages": [
+      97
+    ],
+    "raison": "TABLEAU_TO_REVIEW",
+    "detail": "Colonnes non détectées pour ('cosumar', 2023, 'DOCLING_072')"
+  },
+  {
+    "entreprise": "cosumar",
+    "report_year": 2023,
+    "raison": "AUCUN_CANDIDAT_EXTRAIT",
+    "detail": "Aucune observation exploitable produite par l'extraction structurée."
+  },
+  {
+    "entreprise": "cosumar",
+    "report_year": 2024,
+    "table_id": "DOCLING_069",
+    "pages": [
+      112
+    ],
+    "raison": "TABLEAU_TO_REVIEW",
+    "detail": "Colonnes non détectées pour ('cosumar', 2024, 'DOCLING_069')"
+  },
+  {
+    "entreprise": "cosumar",
+    "report_year": 2024,
+    "table_id": "DOCLING_071",
+    "ligne": 51,
+    "indicator": "NET_INCOME",
+    "observation_year": 2024,
+    "cellule_source": "",
+    "raison": "MONTANT_A_VERIFIER"
+  },
+  {
+    "entreprise": "cosumar",
+    "report_year": 2024,
+    "table_id": "DOCLING_071",
+    "ligne": 51,
+    "indicator": "NET_INCOME",
+    "observation_year": 2023,
+    "cellule_source": "",
+    "raison": "MONTANT_A_VERIFIER"
+  },
+  {
+    "entreprise": "dari_couspate",
+    "report_year": 2023,
+    "raison": "AUCUN_CANDIDAT_EXTRAIT",
+    "detail": "Aucune observation exploitable produite par l'extraction structurée."
+  },
+  {
+    "entreprise": "dari_couspate",
+    "report_year": 2024,
+    "table_id": "OCR_002",
+    "pages": [
+      15
+    ],
+    "raison": "TABLEAU_TO_REVIEW",
+    "detail": "Colonnes non détectées pour ('dari_couspate', 2024, 'OCR_002')"
+  },
+  {
+    "entreprise": "dari_couspate",
+    "report_year": 2024,
+    "table_id": "OCR_007",
+    "pages": [
+      33
+    ],
+    "raison": "TABLEAU_TO_REVIEW",
+    "detail": "Colonnes non détectées pour ('dari_couspate', 2024, 'OCR_007')"
+  },
+  {
+    "entreprise": "dari_couspate",
+    "report_year": 2024,
+    "table_id": "OCR_008",
+    "pages": [
+      34
+    ],
+    "raison": "TABLEAU_TO_REVIEW",
+    "detail": "Colonnes non détectées pour ('dari_couspate', 2024, 'OCR_008')"
+  },
+  {
+    "entreprise": "dari_couspate",
+    "report_year": 2024,
+    "raison": "AUCUN_CANDIDAT_EXTRAIT",
+    "detail": "Aucune observation exploitable produite par l'extraction structurée."
+  },
+  {
+    "entreprise": "dari_couspate",
+    "report_year": 2025,
+    "table_id": "OCR_008",
+    "pages": [
+      33
+    ],
+    "raison": "TABLEAU_TO_REVIEW",
+    "detail": "Colonnes non détectées pour ('dari_couspate', 2025, 'OCR_008')"
+  },
+  {
+    "entreprise": "dari_couspate",
+    "report_year": 2025,
+    "table_id": "OCR_009",
+    "pages": [
+      34
+    ],
+    "raison": "TABLEAU_TO_REVIEW",
+    "detail": "Colonnes non détectées pour ('dari_couspate', 2025, 'OCR_009')"
+  },
+  {
+    "entreprise": "dari_couspate",
+    "report_year": 2025,
+    "raison": "AUCUN_CANDIDAT_EXTRAIT",
+    "detail": "Aucune observation exploitable produite par l'extraction structurée."
+  },
+  {
+    "entreprise": "lafargeholcim_maroc",
+    "report_year": 2023,
+    "table_id": "DOCLING_025",
+    "pages": [
+      55
+    ],
+    "raison": "TABLEAU_TO_REVIEW",
+    "detail": "Colonnes non détectées pour ('lafargeholcim_maroc', 2023, 'DOCLING_025')"
+  },
+  {
+    "entreprise": "lafargeholcim_maroc",
+    "report_year": 2023,
+    "table_id": "DOCLING_026",
+    "ligne": 2,
+    "indicator": "EQUITY",
+    "observation_year": 2023,
+    "cellule_source": "",
+    "raison": "MONTANT_A_VERIFIER"
+  },
+  {
+    "entreprise": "lafargeholcim_maroc",
+    "report_year": 2023,
+    "table_id": "DOCLING_026",
+    "ligne": 2,
+    "indicator": "EQUITY",
+    "observation_year": 2022,
+    "cellule_source": "",
+    "raison": "MONTANT_A_VERIFIER"
+  },
+  {
+    "entreprise": "lafargeholcim_maroc",
+    "report_year": 2024,
+    "table_id": "DOCLING_025",
+    "pages": [
+      54
+    ],
+    "raison": "TABLEAU_TO_REVIEW",
+    "detail": "Colonnes non détectées pour ('lafargeholcim_maroc', 2024, 'DOCLING_025')"
+  },
+  {
+    "entreprise": "lafargeholcim_maroc",
+    "report_year": 2024,
+    "table_id": "DOCLING_026",
+    "ligne": 2,
+    "indicator": "EQUITY",
+    "observation_year": 2024,
+    "cellule_source": "",
+    "raison": "MONTANT_A_VERIFIER"
+  },
+  {
+    "entreprise": "lafargeholcim_maroc",
+    "report_year": 2024,
+    "table_id": "DOCLING_026",
+    "ligne": 2,
+    "indicator": "EQUITY",
+    "observation_year": 2023,
+    "cellule_source": "",
+    "raison": "MONTANT_A_VERIFIER"
+  },
+  {
+    "entreprise": "lafargeholcim_maroc",
+    "report_year": 2025,
+    "table_id": "DOCLING_025",
+    "pages": [
+      61
+    ],
+    "raison": "TABLEAU_TO_REVIEW",
+    "detail": "Colonnes non détectées pour ('lafargeholcim_maroc', 2025, 'DOCLING_025')"
+  },
+  {
+    "entreprise": "lafargeholcim_maroc",
+    "report_year": 2025,
+    "table_id": "DOCLING_026",
+    "ligne": 1,
+    "indicator": "EQUITY",
+    "observation_year": 2025,
+    "cellule_source": "",
+    "raison": "MONTANT_A_VERIFIER"
+  },
+  {
+    "entreprise": "lafargeholcim_maroc",
+    "report_year": 2025,
+    "table_id": "DOCLING_026",
+    "ligne": 1,
+    "indicator": "EQUITY",
+    "observation_year": 2024,
+    "cellule_source": "",
+    "raison": "MONTANT_A_VERIFIER"
+  },
+  {
+    "entreprise": "lafargeholcim_maroc",
+    "report_year": 2025,
+    "table_id": "DOCLING_027",
+    "pages": [
+      62
+    ],
+    "raison": "TABLEAU_TO_REVIEW",
+    "detail": "Colonnes non détectées pour ('lafargeholcim_maroc', 2025, 'DOCLING_027')"
+  },
+  {
+    "entreprise": "lesieur_cristal",
+    "report_year": 2024,
+    "table_id": "DOCLING_055",
+    "pages": [
+      69
+    ],
+    "raison": "TABLEAU_TO_REVIEW",
+    "detail": "Colonnes non détectées pour ('lesieur_cristal', 2024, 'DOCLING_055')"
+  },
+  {
+    "entreprise": "lesieur_cristal",
+    "report_year": 2025,
+    "table_id": "DOCLING_047",
+    "pages": [
+      70
+    ],
+    "raison": "TABLEAU_TO_REVIEW",
+    "detail": "Colonnes non détectées pour ('lesieur_cristal', 2025, 'DOCLING_047')"
+  },
+  {
+    "entreprise": "lesieur_cristal",
+    "report_year": 2025,
+    "table_id": "DOCLING_048",
+    "pages": [
+      70
+    ],
+    "raison": "TABLEAU_TO_REVIEW",
+    "detail": "Colonnes non détectées pour ('lesieur_cristal', 2025, 'DOCLING_048')"
+  },
+  {
+    "entreprise": "managem",
+    "report_year": 2023,
+    "table_id": "DOCLING_032",
+    "pages": [
+      68
+    ],
+    "raison": "TABLEAU_TO_REVIEW",
+    "detail": "Colonnes non détectées pour ('managem', 2023, 'DOCLING_032')"
+  },
+  {
+    "entreprise": "managem",
+    "report_year": 2023,
+    "table_id": "DOCLING_034",
+    "pages": [
+      69
+    ],
+    "raison": "TABLEAU_TO_REVIEW",
+    "detail": "Colonnes non détectées pour ('managem', 2023, 'DOCLING_034')"
+  },
+  {
+    "entreprise": "managem",
+    "report_year": 2023,
+    "table_id": "DOCLING_065",
+    "pages": [
+      84
+    ],
+    "raison": "TABLEAU_TO_REVIEW",
+    "detail": "Colonnes non détectées pour ('managem', 2023, 'DOCLING_065')"
+  },
+  {
+    "entreprise": "managem",
+    "report_year": 2023,
+    "table_id": "DOCLING_068",
+    "pages": [
+      86
+    ],
+    "raison": "TABLEAU_TO_REVIEW",
+    "detail": "Colonnes non détectées pour ('managem', 2023, 'DOCLING_068')"
+  },
+  {
+    "entreprise": "managem",
+    "report_year": 2024,
+    "table_id": "DOCLING_039",
+    "pages": [
+      67
+    ],
+    "raison": "TABLEAU_TO_REVIEW",
+    "detail": "Colonnes non détectées pour ('managem', 2024, 'DOCLING_039')"
+  },
+  {
+    "entreprise": "managem",
+    "report_year": 2024,
+    "table_id": "DOCLING_040",
+    "pages": [
+      67
+    ],
+    "raison": "TABLEAU_TO_REVIEW",
+    "detail": "Colonnes non détectées pour ('managem', 2024, 'DOCLING_040')"
+  },
+  {
+    "entreprise": "managem",
+    "report_year": 2024,
+    "table_id": "DOCLING_072",
+    "pages": [
+      84
+    ],
+    "raison": "TABLEAU_TO_REVIEW",
+    "detail": "Colonnes non détectées pour ('managem', 2024, 'DOCLING_072')"
+  },
+  {
+    "entreprise": "managem",
+    "report_year": 2024,
+    "table_id": "DOCLING_094",
+    "pages": [
+      97
+    ],
+    "raison": "TABLEAU_TO_REVIEW",
+    "detail": "Colonnes non détectées pour ('managem', 2024, 'DOCLING_094')"
+  },
+  {
+    "entreprise": "managem",
+    "report_year": 2025,
+    "table_id": "DOCLING_072",
+    "pages": [
+      88
+    ],
+    "raison": "TABLEAU_TO_REVIEW",
+    "detail": "Colonnes non détectées pour ('managem', 2025, 'DOCLING_072')"
+  },
+  {
+    "entreprise": "marsa_maroc",
+    "report_year": 2024,
+    "table_id": "DOCLING_069",
+    "ligne": 47,
+    "indicator": "NET_INCOME",
+    "observation_year": 2024,
+    "cellule_source": "",
+    "raison": "MONTANT_A_VERIFIER"
+  },
+  {
+    "entreprise": "marsa_maroc",
+    "report_year": 2025,
+    "table_id": "DOCLING_081",
+    "pages": [
+      136
+    ],
+    "raison": "TABLEAU_TO_REVIEW",
+    "detail": "Colonnes non détectées pour ('marsa_maroc', 2025, 'DOCLING_081')"
+  },
+  {
+    "entreprise": "marsa_maroc",
+    "report_year": 2025,
+    "table_id": "DOCLING_082",
+    "ligne": 46,
+    "indicator": "NET_INCOME",
+    "observation_year": 2024,
+    "cellule_source": "",
+    "raison": "MONTANT_A_VERIFIER"
+  },
+  {
+    "entreprise": "s2m",
+    "report_year": 2023,
+    "table_id": "DOCLING_014",
+    "ligne": 11,
+    "indicator": "NET_INCOME",
+    "observation_year": 2023,
+    "cellule_source": "",
+    "raison": "MONTANT_A_VERIFIER"
+  },
+  {
+    "entreprise": "s2m",
+    "report_year": 2023,
+    "table_id": "DOCLING_014",
+    "ligne": 11,
+    "indicator": "NET_INCOME",
+    "observation_year": 2022,
+    "cellule_source": "",
+    "raison": "MONTANT_A_VERIFIER"
+  },
+  {
+    "entreprise": "s2m",
+    "report_year": 2023,
+    "table_id": "DOCLING_015",
+    "ligne": 50,
+    "indicator": "NET_INCOME",
+    "observation_year": 2022,
+    "cellule_source": "",
+    "raison": "MONTANT_A_VERIFIER"
+  },
+  {
+    "entreprise": "s2m",
+    "report_year": 2023,
+    "table_id": "DOCLING_057",
+    "pages": [
+      46
+    ],
+    "raison": "TABLEAU_TO_REVIEW",
+    "detail": "Colonnes non détectées pour ('s2m', 2023, 'DOCLING_057')"
+  },
+  {
+    "entreprise": "s2m",
+    "report_year": 2023,
+    "table_id": "DOCLING_058",
+    "pages": [
+      46
+    ],
+    "raison": "TABLEAU_TO_REVIEW",
+    "detail": "Colonnes non détectées pour ('s2m', 2023, 'DOCLING_058')"
+  },
+  {
+    "entreprise": "s2m",
+    "report_year": 2023,
+    "table_id": "DOCLING_059",
+    "pages": [
+      47
+    ],
+    "raison": "TABLEAU_TO_REVIEW",
+    "detail": "Colonnes non détectées pour ('s2m', 2023, 'DOCLING_059')"
+  },
+  {
+    "entreprise": "s2m",
+    "report_year": 2024,
+    "table_id": "DOCLING_023",
+    "ligne": 4,
+    "indicator": "REVENUE",
+    "observation_year": 2023,
+    "cellule_source": "274 459 914,31 564 083,26",
+    "raison": "MONTANT_A_VERIFIER"
+  },
+  {
+    "entreprise": "s2m",
+    "report_year": 2024,
+    "table_id": "DOCLING_023",
+    "ligne": 11,
+    "indicator": "OPERATING_INCOME",
+    "observation_year": 2024,
+    "cellule_source": "",
+    "raison": "MONTANT_A_VERIFIER"
+  },
+  {
+    "entreprise": "s2m",
+    "report_year": 2024,
+    "table_id": "DOCLING_023",
+    "ligne": 11,
+    "indicator": "OPERATING_INCOME",
+    "observation_year": 2023,
+    "cellule_source": "",
+    "raison": "MONTANT_A_VERIFIER"
+  },
+  {
+    "entreprise": "s2m",
+    "report_year": 2024,
+    "table_id": "DOCLING_023",
+    "ligne": 37,
+    "indicator": "NET_INCOME",
+    "observation_year": 2024,
+    "cellule_source": "",
+    "raison": "MONTANT_A_VERIFIER"
+  },
+  {
+    "entreprise": "s2m",
+    "report_year": 2024,
+    "table_id": "DOCLING_023",
+    "ligne": 37,
+    "indicator": "NET_INCOME",
+    "observation_year": 2023,
+    "cellule_source": "",
+    "raison": "MONTANT_A_VERIFIER"
+  },
+  {
+    "entreprise": "s2m",
+    "report_year": 2024,
+    "table_id": "DOCLING_025",
+    "ligne": 11,
+    "indicator": "NET_INCOME",
+    "observation_year": 2024,
+    "cellule_source": "",
+    "raison": "MONTANT_A_VERIFIER"
+  },
+  {
+    "entreprise": "s2m",
+    "report_year": 2024,
+    "table_id": "DOCLING_025",
+    "ligne": 11,
+    "indicator": "NET_INCOME",
+    "observation_year": 2023,
+    "cellule_source": "",
+    "raison": "MONTANT_A_VERIFIER"
+  },
+  {
+    "entreprise": "s2m",
+    "report_year": 2024,
+    "table_id": "DOCLING_057",
+    "pages": [
+      27
+    ],
+    "raison": "TABLEAU_TO_REVIEW",
+    "detail": "Colonnes non détectées pour ('s2m', 2024, 'DOCLING_057')"
+  },
+  {
+    "entreprise": "s2m",
+    "report_year": 2024,
+    "table_id": "DOCLING_058",
+    "pages": [
+      27
+    ],
+    "raison": "TABLEAU_TO_REVIEW",
+    "detail": "Colonnes non détectées pour ('s2m', 2024, 'DOCLING_058')"
+  },
+  {
+    "entreprise": "s2m",
+    "report_year": 2024,
+    "table_id": "DOCLING_059",
+    "pages": [
+      27
+    ],
+    "raison": "TABLEAU_TO_REVIEW",
+    "detail": "Colonnes non détectées pour ('s2m', 2024, 'DOCLING_059')"
+  },
+  {
+    "entreprise": "s2m",
+    "report_year": 2025,
+    "table_id": "DOCLING_018",
+    "ligne": 19,
+    "indicator": "OPERATING_INCOME",
+    "observation_year": 2025,
+    "cellule_source": "",
+    "raison": "MONTANT_A_VERIFIER"
+  },
+  {
+    "entreprise": "s2m",
+    "report_year": 2025,
+    "table_id": "DOCLING_020",
+    "ligne": 11,
+    "indicator": "NET_INCOME",
+    "observation_year": 2025,
+    "cellule_source": "",
+    "raison": "MONTANT_A_VERIFIER"
+  },
+  {
+    "entreprise": "s2m",
+    "report_year": 2025,
+    "table_id": "DOCLING_020",
+    "ligne": 11,
+    "indicator": "NET_INCOME",
+    "observation_year": 2024,
+    "cellule_source": "",
+    "raison": "MONTANT_A_VERIFIER"
+  },
+  {
+    "entreprise": "s2m",
+    "report_year": 2025,
+    "table_id": "DOCLING_020",
+    "ligne": 12,
+    "indicator": "NET_INCOME",
+    "observation_year": 2025,
+    "cellule_source": "34 141 644 , 20",
+    "raison": "MONTANT_A_VERIFIER"
+  },
+  {
+    "entreprise": "s2m",
+    "report_year": 2025,
+    "table_id": "DOCLING_020",
+    "ligne": 12,
+    "indicator": "NET_INCOME",
+    "observation_year": 2024,
+    "cellule_source": "33 916 967 , 18",
+    "raison": "MONTANT_A_VERIFIER"
+  },
+  {
+    "entreprise": "s2m",
+    "report_year": 2025,
+    "table_id": "DOCLING_047",
+    "pages": [
+      25
+    ],
+    "raison": "TABLEAU_TO_REVIEW",
+    "detail": "Colonnes non détectées pour ('s2m', 2025, 'DOCLING_047')"
+  },
+  {
+    "entreprise": "s2m",
+    "report_year": 2025,
+    "table_id": "DOCLING_048",
+    "pages": [
+      25
+    ],
+    "raison": "TABLEAU_TO_REVIEW",
+    "detail": "Colonnes non détectées pour ('s2m', 2025, 'DOCLING_048')"
+  },
+  {
+    "entreprise": "s2m",
+    "report_year": 2025,
+    "table_id": "DOCLING_049",
+    "pages": [
+      25
+    ],
+    "raison": "TABLEAU_TO_REVIEW",
+    "detail": "Colonnes non détectées pour ('s2m', 2025, 'DOCLING_049')"
+  },
+  {
+    "entreprise": "sonasid",
+    "report_year": 2023,
+    "table_id": "DOCLING_016",
+    "pages": [
+      93
+    ],
+    "raison": "TABLEAU_TO_REVIEW",
+    "detail": "Colonnes non détectées pour ('sonasid', 2023, 'DOCLING_016')"
+  },
+  {
+    "entreprise": "sonasid",
+    "report_year": 2023,
+    "table_id": "DOCLING_017",
+    "pages": [
+      93
+    ],
+    "raison": "TABLEAU_TO_REVIEW",
+    "detail": "Colonnes non détectées pour ('sonasid', 2023, 'DOCLING_017')"
+  },
+  {
+    "entreprise": "sonasid",
+    "report_year": 2023,
+    "table_id": "DOCLING_018",
+    "pages": [
+      94
+    ],
+    "raison": "TABLEAU_TO_REVIEW",
+    "detail": "Colonnes non détectées pour ('sonasid', 2023, 'DOCLING_018')"
+  },
+  {
+    "entreprise": "sonasid",
+    "report_year": 2023,
+    "table_id": "DOCLING_027",
+    "pages": [
+      98
+    ],
+    "raison": "TABLEAU_TO_REVIEW",
+    "detail": "Colonnes non détectées pour ('sonasid', 2023, 'DOCLING_027')"
+  },
+  {
+    "entreprise": "sonasid",
+    "report_year": 2023,
+    "table_id": "DOCLING_038",
+    "pages": [
+      101
+    ],
+    "raison": "TABLEAU_TO_REVIEW",
+    "detail": "Colonnes non détectées pour ('sonasid', 2023, 'DOCLING_038')"
+  },
+  {
+    "entreprise": "sonasid",
+    "report_year": 2024,
+    "table_id": "DOCLING_032",
+    "pages": [
+      75
+    ],
+    "raison": "TABLEAU_TO_REVIEW",
+    "detail": "Colonnes non détectées pour ('sonasid', 2024, 'DOCLING_032')"
+  },
+  {
+    "entreprise": "sonasid",
+    "report_year": 2025,
+    "table_id": "DOCLING_015",
+    "pages": [
+      57
+    ],
+    "raison": "TABLEAU_TO_REVIEW",
+    "detail": "Colonnes non détectées pour ('sonasid', 2025, 'DOCLING_015')"
+  },
+  {
+    "entreprise": "sonasid",
+    "report_year": 2025,
+    "table_id": "DOCLING_020",
+    "pages": [
+      60
+    ],
+    "raison": "TABLEAU_TO_REVIEW",
+    "detail": "Colonnes non détectées pour ('sonasid', 2025, 'DOCLING_020')"
+  },
+  {
+    "entreprise": "sothema",
+    "report_year": 2023,
+    "table_id": "DOCLING_036",
+    "pages": [
+      102
+    ],
+    "raison": "TABLEAU_TO_REVIEW",
+    "detail": "Colonnes non détectées pour ('sothema', 2023, 'DOCLING_036')"
+  },
+  {
+    "entreprise": "sothema",
+    "report_year": 2024,
+    "table_id": "DOCLING_027",
+    "pages": [
+      60
+    ],
+    "raison": "TABLEAU_TO_REVIEW",
+    "detail": "Colonnes non détectées pour ('sothema', 2024, 'DOCLING_027')"
+  },
+  {
+    "entreprise": "sothema",
+    "report_year": 2025,
+    "table_id": "DOCLING_032",
+    "pages": [
+      52
+    ],
+    "raison": "TABLEAU_TO_REVIEW",
+    "detail": "Colonnes non détectées pour ('sothema', 2025, 'DOCLING_032')"
+  },
+  {
+    "entreprise": "sothema",
+    "report_year": 2025,
+    "table_id": "DOCLING_071",
+    "pages": [
+      71
+    ],
+    "raison": "TABLEAU_TO_REVIEW",
+    "detail": "Colonnes non détectées pour ('sothema', 2025, 'DOCLING_071')"
+  },
+  {
+    "entreprise": "stroc",
+    "report_year": 2023,
+    "raison": "AUCUN_CANDIDAT_EXTRAIT",
+    "detail": "Aucune observation exploitable produite par l'extraction structurée."
+  },
+  {
+    "entreprise": "stroc",
+    "report_year": 2024,
+    "raison": "AUCUN_CANDIDAT_EXTRAIT",
+    "detail": "Aucune observation exploitable produite par l'extraction structurée."
+  },
+  {
+    "entreprise": "stroc",
+    "report_year": 2025,
+    "raison": "AUCUN_CANDIDAT_EXTRAIT",
+    "detail": "Aucune observation exploitable produite par l'extraction structurée."
+  },
+  {
+    "entreprise": "totalenergies_marketing_maroc",
+    "report_year": 2023,
+    "raison": "AUCUN_CANDIDAT_EXTRAIT",
+    "detail": "Aucune observation exploitable produite par l'extraction structurée."
+  },
+  {
+    "entreprise": "totalenergies_marketing_maroc",
+    "report_year": 2024,
+    "raison": "AUCUN_CANDIDAT_EXTRAIT",
+    "detail": "Aucune observation exploitable produite par l'extraction structurée."
+  },
+  {
+    "entreprise": "totalenergies_marketing_maroc",
+    "report_year": 2025,
+    "raison": "AUCUN_CANDIDAT_EXTRAIT",
+    "detail": "Aucune observation exploitable produite par l'extraction structurée."
+  }
+]

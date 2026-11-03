@@ -1,0 +1,362 @@
+[
+  {
+    "entreprise": "attijariwafa_bank",
+    "annee": 2023,
+    "tableaux_financiers": 4,
+    "tableaux_ready": 4,
+    "candidats": 22,
+    "anomalies": 2
+  },
+  {
+    "entreprise": "attijariwafa_bank",
+    "annee": 2024,
+    "tableaux_financiers": 2,
+    "tableaux_ready": 2,
+    "candidats": 12,
+    "anomalies": 0
+  },
+  {
+    "entreprise": "attijariwafa_bank",
+    "annee": 2025,
+    "tableaux_financiers": 2,
+    "tableaux_ready": 2,
+    "candidats": 12,
+    "anomalies": 0
+  },
+  {
+    "entreprise": "wafa_assurance",
+    "annee": 2023,
+    "tableaux_financiers": 4,
+    "tableaux_ready": 3,
+    "candidats": 12,
+    "anomalies": 1
+  },
+  {
+    "entreprise": "wafa_assurance",
+    "annee": 2024,
+    "tableaux_financiers": 3,
+    "tableaux_ready": 1,
+    "candidats": 8,
+    "anomalies": 2
+  },
+  {
+    "entreprise": "wafa_assurance",
+    "annee": 2025,
+    "tableaux_financiers": 4,
+    "tableaux_ready": 3,
+    "candidats": 8,
+    "anomalies": 7
+  },
+  {
+    "entreprise": "aradei_capital",
+    "annee": 2023,
+    "tableaux_financiers": 5,
+    "tableaux_ready": 0,
+    "candidats": 0,
+    "anomalies": 6
+  },
+  {
+    "entreprise": "aradei_capital",
+    "annee": 2024,
+    "tableaux_financiers": 6,
+    "tableaux_ready": 0,
+    "candidats": 0,
+    "anomalies": 7
+  },
+  {
+    "entreprise": "aradei_capital",
+    "annee": 2025,
+    "tableaux_financiers": 9,
+    "tableaux_ready": 0,
+    "candidats": 0,
+    "anomalies": 10
+  },
+  {
+    "entreprise": "auto_hall",
+    "annee": 2023,
+    "tableaux_financiers": 5,
+    "tableaux_ready": 1,
+    "candidats": 6,
+    "anomalies": 4
+  },
+  {
+    "entreprise": "auto_hall",
+    "annee": 2024,
+    "tableaux_financiers": 5,
+    "tableaux_ready": 1,
+    "candidats": 6,
+    "anomalies": 4
+  },
+  {
+    "entreprise": "auto_hall",
+    "annee": 2025,
+    "tableaux_financiers": 5,
+    "tableaux_ready": 2,
+    "candidats": 8,
+    "anomalies": 9
+  },
+  {
+    "entreprise": "cosumar",
+    "annee": 2023,
+    "tableaux_financiers": 3,
+    "tableaux_ready": 1,
+    "candidats": 0,
+    "anomalies": 3
+  },
+  {
+    "entreprise": "cosumar",
+    "annee": 2024,
+    "tableaux_financiers": 4,
+    "tableaux_ready": 3,
+    "candidats": 16,
+    "anomalies": 3
+  },
+  {
+    "entreprise": "cosumar",
+    "annee": 2025,
+    "tableaux_financiers": 4,
+    "tableaux_ready": 4,
+    "candidats": 24,
+    "anomalies": 0
+  },
+  {
+    "entreprise": "dari_couspate",
+    "annee": 2023,
+    "tableaux_financiers": 0,
+    "tableaux_ready": 0,
+    "candidats": 0,
+    "anomalies": 1
+  },
+  {
+    "entreprise": "dari_couspate",
+    "annee": 2024,
+    "tableaux_financiers": 3,
+    "tableaux_ready": 0,
+    "candidats": 0,
+    "anomalies": 4
+  },
+  {
+    "entreprise": "dari_couspate",
+    "annee": 2025,
+    "tableaux_financiers": 2,
+    "tableaux_ready": 0,
+    "candidats": 0,
+    "anomalies": 3
+  },
+  {
+    "entreprise": "lafargeholcim_maroc",
+    "annee": 2023,
+    "tableaux_financiers": 3,
+    "tableaux_ready": 2,
+    "candidats": 4,
+    "anomalies": 3
+  },
+  {
+    "entreprise": "lafargeholcim_maroc",
+    "annee": 2024,
+    "tableaux_financiers": 3,
+    "tableaux_ready": 2,
+    "candidats": 4,
+    "anomalies": 3
+  },
+  {
+    "entreprise": "lafargeholcim_maroc",
+    "annee": 2025,
+    "tableaux_financiers": 3,
+    "tableaux_ready": 1,
+    "candidats": 4,
+    "anomalies": 4
+  },
+  {
+    "entreprise": "lesieur_cristal",
+    "annee": 2023,
+    "tableaux_financiers": 2,
+    "tableaux_ready": 2,
+    "candidats": 10,
+    "anomalies": 0
+  },
+  {
+    "entreprise": "lesieur_cristal",
+    "annee": 2024,
+    "tableaux_financiers": 4,
+    "tableaux_ready": 3,
+    "candidats": 18,
+    "anomalies": 1
+  },
+  {
+    "entreprise": "lesieur_cristal",
+    "annee": 2025,
+    "tableaux_financiers": 4,
+    "tableaux_ready": 2,
+    "candidats": 10,
+    "anomalies": 2
+  },
+  {
+    "entreprise": "managem",
+    "annee": 2023,
+    "tableaux_financiers": 5,
+    "tableaux_ready": 1,
+    "candidats": 6,
+    "anomalies": 4
+  },
+  {
+    "entreprise": "managem",
+    "annee": 2024,
+    "tableaux_financiers": 6,
+    "tableaux_ready": 2,
+    "candidats": 10,
+    "anomalies": 4
+  },
+  {
+    "entreprise": "managem",
+    "annee": 2025,
+    "tableaux_financiers": 3,
+    "tableaux_ready": 2,
+    "candidats": 8,
+    "anomalies": 1
+  },
+  {
+    "entreprise": "marsa_maroc",
+    "annee": 2023,
+    "tableaux_financiers": 6,
+    "tableaux_ready": 6,
+    "candidats": 22,
+    "anomalies": 0
+  },
+  {
+    "entreprise": "marsa_maroc",
+    "annee": 2024,
+    "tableaux_financiers": 6,
+    "tableaux_ready": 6,
+    "candidats": 23,
+    "anomalies": 1
+  },
+  {
+    "entreprise": "marsa_maroc",
+    "annee": 2025,
+    "tableaux_financiers": 6,
+    "tableaux_ready": 5,
+    "candidats": 19,
+    "anomalies": 2
+  },
+  {
+    "entreprise": "s2m",
+    "annee": 2023,
+    "tableaux_financiers": 6,
+    "tableaux_ready": 3,
+    "candidats": 9,
+    "anomalies": 6
+  },
+  {
+    "entreprise": "s2m",
+    "annee": 2024,
+    "tableaux_financiers": 6,
+    "tableaux_ready": 3,
+    "candidats": 5,
+    "anomalies": 10
+  },
+  {
+    "entreprise": "s2m",
+    "annee": 2025,
+    "tableaux_financiers": 6,
+    "tableaux_ready": 3,
+    "candidats": 7,
+    "anomalies": 8
+  },
+  {
+    "entreprise": "sonasid",
+    "annee": 2023,
+    "tableaux_financiers": 6,
+    "tableaux_ready": 1,
+    "candidats": 2,
+    "anomalies": 5
+  },
+  {
+    "entreprise": "sonasid",
+    "annee": 2024,
+    "tableaux_financiers": 4,
+    "tableaux_ready": 3,
+    "candidats": 8,
+    "anomalies": 1
+  },
+  {
+    "entreprise": "sonasid",
+    "annee": 2025,
+    "tableaux_financiers": 5,
+    "tableaux_ready": 3,
+    "candidats": 8,
+    "anomalies": 2
+  },
+  {
+    "entreprise": "sothema",
+    "annee": 2023,
+    "tableaux_financiers": 4,
+    "tableaux_ready": 3,
+    "candidats": 6,
+    "anomalies": 1
+  },
+  {
+    "entreprise": "sothema",
+    "annee": 2024,
+    "tableaux_financiers": 4,
+    "tableaux_ready": 3,
+    "candidats": 6,
+    "anomalies": 1
+  },
+  {
+    "entreprise": "sothema",
+    "annee": 2025,
+    "tableaux_financiers": 5,
+    "tableaux_ready": 3,
+    "candidats": 6,
+    "anomalies": 2
+  },
+  {
+    "entreprise": "stroc",
+    "annee": 2023,
+    "tableaux_financiers": 0,
+    "tableaux_ready": 0,
+    "candidats": 0,
+    "anomalies": 1
+  },
+  {
+    "entreprise": "stroc",
+    "annee": 2024,
+    "tableaux_financiers": 0,
+    "tableaux_ready": 0,
+    "candidats": 0,
+    "anomalies": 1
+  },
+  {
+    "entreprise": "stroc",
+    "annee": 2025,
+    "tableaux_financiers": 0,
+    "tableaux_ready": 0,
+    "candidats": 0,
+    "anomalies": 1
+  },
+  {
+    "entreprise": "totalenergies_marketing_maroc",
+    "annee": 2023,
+    "tableaux_financiers": 1,
+    "tableaux_ready": 1,
+    "candidats": 0,
+    "anomalies": 1
+  },
+  {
+    "entreprise": "totalenergies_marketing_maroc",
+    "annee": 2024,
+    "tableaux_financiers": 1,
+    "tableaux_ready": 1,
+    "candidats": 0,
+    "anomalies": 1
+  },
+  {
+    "entreprise": "totalenergies_marketing_maroc",
+    "annee": 2025,
+    "tableaux_financiers": 1,
+    "tableaux_ready": 1,
+    "candidats": 0,
+    "anomalies": 1
+  }
+]
