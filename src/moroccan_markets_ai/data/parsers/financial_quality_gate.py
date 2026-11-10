@@ -1233,12 +1233,23 @@ def load_admissible_values(report_path: Path) -> list[dict[str, Any]]:
     return records
 
 
-def main() -> None:
+def main(argv: list[str] | None = None) -> None:
+    import sys
+
+    argv = sys.argv[1:] if argv is None else argv
+    if any(arg == "--candidates" or arg.startswith("--candidates=") for arg in argv):
+        # Mode « handoff » : contrôle des candidats JSON de l'Extraction
+        # (voir docs/fqg_ammc_integration_contract.md).
+        from moroccan_markets_ai.data.parsers.fqg_pipeline import main as handoff_main
+
+        handoff_main(argv)
+        return
+
     cli = argparse.ArgumentParser(description="Financial Data Quality Gate")
     cli.add_argument("integrated_document", type=Path)
     cli.add_argument("--rules", type=Path)
     cli.add_argument("--output-root", type=Path, default=OUTPUT_ROOT)
-    args = cli.parse_args()
+    args = cli.parse_args(argv)
     result = evaluate_quality(
         args.integrated_document,
         rules_path=args.rules,
