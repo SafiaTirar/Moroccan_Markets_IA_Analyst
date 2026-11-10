@@ -1,0 +1,2026 @@
+[
+  {
+    "candidate_id": "15fae9022557dd7e",
+    "status": "VERIFIED",
+    "normalized": {
+      "company": "attijariwafa_bank",
+      "indicator": "CUSTOMER_LOANS",
+      "label": "Prêts et créances sur la clientèle, au coût amorti",
+      "observation_year": 2025,
+      "report_year": 2025,
+      "value": "447885567.0",
+      "unit": null,
+      "scope": null,
+      "source_table": "DOCLING_083",
+      "source_page": 95,
+      "source_row": 12,
+      "source_line_text": "Prêts et créances sur la clientèle, au coût amorti  | 2.4 / 2.17  | 447 885 567  | 413 590 717",
+      "profile": "BANKING"
+    },
+    "reasons": [
+      {
+        "code": "MISSING_UNIT",
+        "severity": "INFO",
+        "message": "unité absente : non inventée, à prouver sur le PDF"
+      },
+      {
+        "code": "MISSING_SCOPE",
+        "severity": "INFO",
+        "message": "périmètre absent : social/consolidé à prouver"
+      },
+      {
+        "code": "CURRENT_YEAR_VALUE",
+        "severity": "INFO",
+        "message": "valeur de l'exercice du rapport"
+      },
+      {
+        "code": "HUMAN_VERIFIED",
+        "severity": "HUMAN",
+        "message": "Lu p.95 : bilan consolidé (actif), ligne Prêts et créances sur la clientèle au coût amorti, colonne 31/12/2025 = 447 885 567, en milliers de dirhams."
+      }
+    ],
+    "evidence": {
+      "pdf_file": "AWB_RFA_2025.pdf",
+      "pdf_sha256": "766da5ac174bfd22e1a9aac59fd5465bb51b2249ed8143268afba5235f1e3afb",
+      "pdf_page": 95,
+      "printed_page": null,
+      "table_title": "Bilan consolidé au 31 décembre 2025",
+      "value_read": "447885567",
+      "sign": "+",
+      "unit": "KMAD",
+      "scope": "CONSOLIDE",
+      "column_year": 2025,
+      "currency": "MAD",
+      "checked_by": "Rihab",
+      "checked_at": "2026-11-10"
+    },
+    "conflict_group": null,
+    "original": {
+      "nom": "Prêts et créances sur la clientèle, au coût amorti",
+      "annee": 2025,
+      "valeur": 447885567.0,
+      "ligne_source": "Prêts et créances sur la clientèle, au coût amorti  | 2.4 / 2.17  | 447 885 567  | 413 590 717",
+      "entreprise": "attijariwafa_bank",
+      "unite": null,
+      "perimetre": null,
+      "source_table": "DOCLING_083",
+      "source_page": 95,
+      "source_ligne": 12,
+      "validation_status": "NOT_CHECKED",
+      "indicator": "CUSTOMER_LOANS",
+      "report_year": 2025
+    }
+  },
+  {
+    "candidate_id": "18b8fccb1143d23b",
+    "status": "VERIFIED",
+    "normalized": {
+      "company": "attijariwafa_bank",
+      "indicator": "NET_INCOME",
+      "label": "Résultat net de l’exercice",
+      "observation_year": 2025,
+      "report_year": 2025,
+      "value": "12368271.0",
+      "unit": null,
+      "scope": null,
+      "source_table": "DOCLING_084",
+      "source_page": 95,
+      "source_row": 26,
+      "source_line_text": "Résultat net de l’exercice  |  | 12 368 271  | 11 682 774",
+      "profile": "BANKING"
+    },
+    "reasons": [
+      {
+        "code": "MISSING_UNIT",
+        "severity": "INFO",
+        "message": "unité absente : non inventée, à prouver sur le PDF"
+      },
+      {
+        "code": "MISSING_SCOPE",
+        "severity": "INFO",
+        "message": "périmètre absent : social/consolidé à prouver"
+      },
+      {
+        "code": "CURRENT_YEAR_VALUE",
+        "severity": "INFO",
+        "message": "valeur de l'exercice du rapport"
+      },
+      {
+        "code": "HUMAN_VERIFIED",
+        "severity": "HUMAN",
+        "message": "Lu p.95 : bilan consolidé (passif), ligne Résultat net de l'exercice, colonne 31/12/2025 = 12 368 271, en milliers de dirhams."
+      }
+    ],
+    "evidence": {
+      "pdf_file": "AWB_RFA_2025.pdf",
+      "pdf_sha256": "766da5ac174bfd22e1a9aac59fd5465bb51b2249ed8143268afba5235f1e3afb",
+      "pdf_page": 95,
+      "printed_page": null,
+      "table_title": "PASSIF",
+      "value_read": "12368271",
+      "sign": "+",
+      "unit": "KMAD",
+      "scope": "CONSOLIDE",
+      "column_year": 2025,
+      "currency": "MAD",
+      "checked_by": "Rihab",
+      "checked_at": "2026-11-10"
+    },
+    "conflict_group": null,
+    "original": {
+      "nom": "Résultat net de l’exercice",
+      "annee": 2025,
+      "valeur": 12368271.0,
+      "ligne_source": "Résultat net de l’exercice  |  | 12 368 271  | 11 682 774",
+      "entreprise": "attijariwafa_bank",
+      "unite": null,
+      "perimetre": null,
+      "source_table": "DOCLING_084",
+      "source_page": 95,
+      "source_ligne": 26,
+      "validation_status": "NOT_CHECKED",
+      "indicator": "NET_INCOME",
+      "report_year": 2025
+    }
+  },
+  {
+    "candidate_id": "27477aac27dc9bfd",
+    "status": "VERIFIED",
+    "normalized": {
+      "company": "attijariwafa_bank",
+      "indicator": "EQUITY",
+      "label": "Capitaux propres",
+      "observation_year": 2024,
+      "report_year": 2025,
+      "value": "72502834.0",
+      "unit": null,
+      "scope": null,
+      "source_table": "DOCLING_084",
+      "source_page": 95,
+      "source_row": 18,
+      "source_line_text": "Capitaux propres  |  | 80 490 370  | 72 502 834",
+      "profile": "BANKING"
+    },
+    "reasons": [
+      {
+        "code": "MISSING_UNIT",
+        "severity": "INFO",
+        "message": "unité absente : non inventée, à prouver sur le PDF"
+      },
+      {
+        "code": "MISSING_SCOPE",
+        "severity": "INFO",
+        "message": "périmètre absent : social/consolidé à prouver"
+      },
+      {
+        "code": "COMPARATIVE_VALUE",
+        "severity": "INFO",
+        "message": "valeur comparative 2024 publiée dans le rapport 2025"
+      },
+      {
+        "code": "CORROBORATED_ELSEWHERE",
+        "severity": "INFO",
+        "message": "même valeur trouvée dans 2 sources"
+      },
+      {
+        "code": "HUMAN_VERIFIED",
+        "severity": "HUMAN",
+        "message": "Lu p.95 : bilan consolidé (passif), ligne Capitaux propres, colonne 31/12/2024 = 72 502 834, en milliers de dirhams."
+      }
+    ],
+    "evidence": {
+      "pdf_file": "AWB_RFA_2025.pdf",
+      "pdf_sha256": "766da5ac174bfd22e1a9aac59fd5465bb51b2249ed8143268afba5235f1e3afb",
+      "pdf_page": 95,
+      "printed_page": null,
+      "table_title": "PASSIF",
+      "value_read": "72502834",
+      "sign": "+",
+      "unit": "KMAD",
+      "scope": "CONSOLIDE",
+      "column_year": 2024,
+      "currency": "MAD",
+      "checked_by": "Rihab",
+      "checked_at": "2026-11-10"
+    },
+    "conflict_group": null,
+    "original": {
+      "nom": "Capitaux propres",
+      "annee": 2024,
+      "valeur": 72502834.0,
+      "ligne_source": "Capitaux propres  |  | 80 490 370  | 72 502 834",
+      "entreprise": "attijariwafa_bank",
+      "unite": null,
+      "perimetre": null,
+      "source_table": "DOCLING_084",
+      "source_page": 95,
+      "source_ligne": 18,
+      "validation_status": "NOT_CHECKED",
+      "indicator": "EQUITY",
+      "report_year": 2025
+    }
+  },
+  {
+    "candidate_id": "0d027a7e60905b91",
+    "status": "PDF_CONFIRMED",
+    "normalized": {
+      "company": "wafa_assurance",
+      "indicator": "EQUITY",
+      "label": "Capitaux propres",
+      "observation_year": 2023,
+      "report_year": 2023,
+      "value": "6601142524.37",
+      "unit": null,
+      "scope": null,
+      "source_table": "DOCLING_003",
+      "source_page": 4,
+      "source_row": 2,
+      "source_line_text": "Capitaux propres | 6 601 142 524,37 | 6 355 579 336,55",
+      "profile": "INSURANCE"
+    },
+    "reasons": [
+      {
+        "code": "MISSING_UNIT",
+        "severity": "INFO",
+        "message": "unité absente : non inventée, à prouver sur le PDF"
+      },
+      {
+        "code": "MISSING_SCOPE",
+        "severity": "INFO",
+        "message": "périmètre absent : social/consolidé à prouver"
+      },
+      {
+        "code": "CURRENT_YEAR_VALUE",
+        "severity": "INFO",
+        "message": "valeur de l'exercice du rapport"
+      },
+      {
+        "code": "VALUE_CONFLICT",
+        "severity": "REVIEW",
+        "message": "valeurs concurrentes entre rapports pour wafa_assurance 2023 EQUITY : 9232504.0, 9509089.0 (périmètre/version à départager)"
+      },
+      {
+        "code": "HUMAN_PDF_CONFIRMED",
+        "severity": "HUMAN",
+        "message": "Lu p.4 : bilan (format social CGNC, colonnes Brut/Amort./Net), passif, ligne Capitaux propres, colonne 31/12/2023 = 6 601 142 524,37. Unité non indiquée sur la page : non inventée."
+      }
+    ],
+    "evidence": {
+      "pdf_file": "Wafa_assurance_RFA_2023.pdf",
+      "pdf_sha256": "745ff7211e3b184db1380544b96bb9598fb8a5837b95054fbe616cdb8b666d9b",
+      "pdf_page": 4,
+      "printed_page": null,
+      "table_title": "PASSIF",
+      "value_read": "6601142524.37",
+      "sign": "+",
+      "unit": null,
+      "scope": null,
+      "column_year": 2023,
+      "currency": "MAD",
+      "checked_by": "Rihab",
+      "checked_at": "2026-11-10"
+    },
+    "conflict_group": "conflict-154",
+    "original": {
+      "nom": "Capitaux propres",
+      "annee": 2023,
+      "valeur": 6601142524.37,
+      "ligne_source": "Capitaux propres | 6 601 142 524,37 | 6 355 579 336,55",
+      "entreprise": "wafa_assurance",
+      "unite": null,
+      "perimetre": null,
+      "source_table": "DOCLING_003",
+      "source_page": 4,
+      "source_ligne": 2,
+      "validation_status": "NOT_CHECKED",
+      "indicator": "EQUITY",
+      "report_year": 2023
+    }
+  },
+  {
+    "candidate_id": "1d182e45cb813c85",
+    "status": "VERIFIED",
+    "normalized": {
+      "company": "wafa_assurance",
+      "indicator": "TOTAL_ASSETS",
+      "label": "Total Actif",
+      "observation_year": 2023,
+      "report_year": 2023,
+      "value": "64714974.0",
+      "unit": null,
+      "scope": null,
+      "source_table": "DOCLING_025",
+      "source_page": 16,
+      "source_row": 22,
+      "source_line_text": "Total Actif  | 64 714 974  | 59 427 790",
+      "profile": "INSURANCE"
+    },
+    "reasons": [
+      {
+        "code": "MISSING_UNIT",
+        "severity": "INFO",
+        "message": "unité absente : non inventée, à prouver sur le PDF"
+      },
+      {
+        "code": "MISSING_SCOPE",
+        "severity": "INFO",
+        "message": "périmètre absent : social/consolidé à prouver"
+      },
+      {
+        "code": "CURRENT_YEAR_VALUE",
+        "severity": "INFO",
+        "message": "valeur de l'exercice du rapport"
+      },
+      {
+        "code": "HUMAN_VERIFIED",
+        "severity": "HUMAN",
+        "message": "Lu p.16 : BILAN CONSOLIDÉ IFRS, ACTIF (en KDH), ligne Total Actif, colonne 31/12/2023 = 64 714 974."
+      }
+    ],
+    "evidence": {
+      "pdf_file": "Wafa_assurance_RFA_2023.pdf",
+      "pdf_sha256": "745ff7211e3b184db1380544b96bb9598fb8a5837b95054fbe616cdb8b666d9b",
+      "pdf_page": 16,
+      "printed_page": null,
+      "table_title": "BILAN CONSOLIDÉ IFRS - ACTIF (en KDH)",
+      "value_read": "64714974",
+      "sign": "+",
+      "unit": "KMAD",
+      "scope": "CONSOLIDE",
+      "column_year": 2023,
+      "currency": "MAD",
+      "checked_by": "Rihab",
+      "checked_at": "2026-11-10"
+    },
+    "conflict_group": null,
+    "original": {
+      "nom": "Total Actif",
+      "annee": 2023,
+      "valeur": 64714974.0,
+      "ligne_source": "Total Actif  | 64 714 974  | 59 427 790",
+      "entreprise": "wafa_assurance",
+      "unite": null,
+      "perimetre": null,
+      "source_table": "DOCLING_025",
+      "source_page": 16,
+      "source_ligne": 22,
+      "validation_status": "NOT_CHECKED",
+      "indicator": "TOTAL_ASSETS",
+      "report_year": 2023
+    }
+  },
+  {
+    "candidate_id": "4191fad7c618b083",
+    "status": "PDF_CONFIRMED",
+    "normalized": {
+      "company": "wafa_assurance",
+      "indicator": "NET_INCOME",
+      "label": "Résultat net de l'exercice (1)",
+      "observation_year": 2023,
+      "report_year": 2023,
+      "value": "700563187.82",
+      "unit": null,
+      "scope": null,
+      "source_table": "DOCLING_003",
+      "source_page": 4,
+      "source_row": 13,
+      "source_line_text": "Résultat net de l'exercice (1) | 700 563 187,82 | 607 146 335,29",
+      "profile": "INSURANCE"
+    },
+    "reasons": [
+      {
+        "code": "MISSING_UNIT",
+        "severity": "INFO",
+        "message": "unité absente : non inventée, à prouver sur le PDF"
+      },
+      {
+        "code": "MISSING_SCOPE",
+        "severity": "INFO",
+        "message": "périmètre absent : social/consolidé à prouver"
+      },
+      {
+        "code": "CURRENT_YEAR_VALUE",
+        "severity": "INFO",
+        "message": "valeur de l'exercice du rapport"
+      },
+      {
+        "code": "HUMAN_PDF_CONFIRMED",
+        "severity": "HUMAN",
+        "message": "Lu p.4 : bilan passif, ligne Résultat net de l'exercice (1), colonne 31/12/2023 = 700 563 187,82. Unité non indiquée sur la page : non inventée."
+      }
+    ],
+    "evidence": {
+      "pdf_file": "Wafa_assurance_RFA_2023.pdf",
+      "pdf_sha256": "745ff7211e3b184db1380544b96bb9598fb8a5837b95054fbe616cdb8b666d9b",
+      "pdf_page": 4,
+      "printed_page": null,
+      "table_title": "PASSIF",
+      "value_read": "700563187.82",
+      "sign": "+",
+      "unit": null,
+      "scope": null,
+      "column_year": 2023,
+      "currency": "MAD",
+      "checked_by": "Rihab",
+      "checked_at": "2026-11-10"
+    },
+    "conflict_group": null,
+    "original": {
+      "nom": "Résultat net de l'exercice (1)",
+      "annee": 2023,
+      "valeur": 700563187.82,
+      "ligne_source": "Résultat net de l'exercice (1) | 700 563 187,82 | 607 146 335,29",
+      "entreprise": "wafa_assurance",
+      "unite": null,
+      "perimetre": null,
+      "source_table": "DOCLING_003",
+      "source_page": 4,
+      "source_ligne": 13,
+      "validation_status": "NOT_CHECKED",
+      "indicator": "NET_INCOME",
+      "report_year": 2023
+    }
+  },
+  {
+    "candidate_id": "07271c3114aef11d",
+    "status": "VERIFIED",
+    "normalized": {
+      "company": "auto_hall",
+      "indicator": "TOTAL_LIABILITIES_AND_EQUITY",
+      "label": "TOTAL PASSIF",
+      "observation_year": 2023,
+      "report_year": 2024,
+      "value": "6258238739.95",
+      "unit": null,
+      "scope": null,
+      "source_table": "DOCLING_080",
+      "source_page": 55,
+      "source_row": 16,
+      "source_line_text": "TOTAL PASSIF  | 6 313 507 887,33  | 6 258 238 739,95",
+      "profile": "GENERAL_CORPORATE"
+    },
+    "reasons": [
+      {
+        "code": "MISSING_UNIT",
+        "severity": "INFO",
+        "message": "unité absente : non inventée, à prouver sur le PDF"
+      },
+      {
+        "code": "MISSING_SCOPE",
+        "severity": "INFO",
+        "message": "périmètre absent : social/consolidé à prouver"
+      },
+      {
+        "code": "COMPARATIVE_VALUE",
+        "severity": "INFO",
+        "message": "valeur comparative 2023 publiée dans le rapport 2024"
+      },
+      {
+        "code": "CORROBORATED_ELSEWHERE",
+        "severity": "INFO",
+        "message": "même valeur trouvée dans 2 sources"
+      },
+      {
+        "code": "HUMAN_VERIFIED",
+        "severity": "HUMAN",
+        "message": "Lu p.55 : Comptes consolidés, BILAN PASSIF (En dirhams), ligne TOTAL PASSIF, colonne 31 décembre 2023 = 6 258 238 739,95 (égal au TOTAL ACTIF)."
+      }
+    ],
+    "evidence": {
+      "pdf_file": "AutoHall_RFA_2024.pdf",
+      "pdf_sha256": "8607fb17c773ba52dab858b20a2c1f62ae28d1393ba8c53195d39083d9ff5f6c",
+      "pdf_page": 55,
+      "printed_page": null,
+      "table_title": "0",
+      "value_read": "6258238739.95",
+      "sign": "+",
+      "unit": "MAD",
+      "scope": "CONSOLIDE",
+      "column_year": 2023,
+      "currency": "MAD",
+      "checked_by": "Rihab",
+      "checked_at": "2026-11-10"
+    },
+    "conflict_group": null,
+    "original": {
+      "nom": "TOTAL PASSIF",
+      "annee": 2023,
+      "valeur": 6258238739.95,
+      "ligne_source": "TOTAL PASSIF  | 6 313 507 887,33  | 6 258 238 739,95",
+      "entreprise": "auto_hall",
+      "unite": null,
+      "perimetre": null,
+      "source_table": "DOCLING_080",
+      "source_page": 55,
+      "source_ligne": 16,
+      "validation_status": "NOT_CHECKED",
+      "indicator": "TOTAL_LIABILITIES_AND_EQUITY",
+      "report_year": 2024
+    }
+  },
+  {
+    "candidate_id": "2f36bc3f53daccb8",
+    "status": "VERIFIED",
+    "normalized": {
+      "company": "auto_hall",
+      "indicator": "TOTAL_LIABILITIES_AND_EQUITY",
+      "label": "TOTAL PASSIF",
+      "observation_year": 2024,
+      "report_year": 2024,
+      "value": "6313507887.33",
+      "unit": null,
+      "scope": null,
+      "source_table": "DOCLING_080",
+      "source_page": 55,
+      "source_row": 16,
+      "source_line_text": "TOTAL PASSIF  | 6 313 507 887,33  | 6 258 238 739,95",
+      "profile": "GENERAL_CORPORATE"
+    },
+    "reasons": [
+      {
+        "code": "MISSING_UNIT",
+        "severity": "INFO",
+        "message": "unité absente : non inventée, à prouver sur le PDF"
+      },
+      {
+        "code": "MISSING_SCOPE",
+        "severity": "INFO",
+        "message": "périmètre absent : social/consolidé à prouver"
+      },
+      {
+        "code": "CURRENT_YEAR_VALUE",
+        "severity": "INFO",
+        "message": "valeur de l'exercice du rapport"
+      },
+      {
+        "code": "CORROBORATED_ELSEWHERE",
+        "severity": "INFO",
+        "message": "même valeur trouvée dans 2 sources"
+      },
+      {
+        "code": "HUMAN_VERIFIED",
+        "severity": "HUMAN",
+        "message": "Lu p.55 : Comptes consolidés, BILAN PASSIF (En dirhams), ligne TOTAL PASSIF, colonne 31 décembre 2024 = 6 313 507 887,33 (égal au TOTAL ACTIF)."
+      }
+    ],
+    "evidence": {
+      "pdf_file": "AutoHall_RFA_2024.pdf",
+      "pdf_sha256": "8607fb17c773ba52dab858b20a2c1f62ae28d1393ba8c53195d39083d9ff5f6c",
+      "pdf_page": 55,
+      "printed_page": null,
+      "table_title": "0",
+      "value_read": "6313507887.33",
+      "sign": "+",
+      "unit": "MAD",
+      "scope": "CONSOLIDE",
+      "column_year": 2024,
+      "currency": "MAD",
+      "checked_by": "Rihab",
+      "checked_at": "2026-11-10"
+    },
+    "conflict_group": null,
+    "original": {
+      "nom": "TOTAL PASSIF",
+      "annee": 2024,
+      "valeur": 6313507887.33,
+      "ligne_source": "TOTAL PASSIF  | 6 313 507 887,33  | 6 258 238 739,95",
+      "entreprise": "auto_hall",
+      "unite": null,
+      "perimetre": null,
+      "source_table": "DOCLING_080",
+      "source_page": 55,
+      "source_ligne": 16,
+      "validation_status": "NOT_CHECKED",
+      "indicator": "TOTAL_LIABILITIES_AND_EQUITY",
+      "report_year": 2024
+    }
+  },
+  {
+    "candidate_id": "04d6fdfd4ba34371",
+    "status": "PDF_CONFIRMED",
+    "normalized": {
+      "company": "cosumar",
+      "indicator": "EQUITY",
+      "label": "FINANCEMENT PERMANENT Total des capitaux propres",
+      "observation_year": 2024,
+      "report_year": 2025,
+      "value": "4684807359.45",
+      "unit": null,
+      "scope": null,
+      "source_table": "DOCLING_113",
+      "source_page": 137,
+      "source_row": 13,
+      "source_line_text": "FINANCEMENT PERMANENT Total des capitaux propres  | (A)  | 4 434 619 383,71  | 4 684 807 359,45 ",
+      "profile": "GENERAL_CORPORATE"
+    },
+    "reasons": [
+      {
+        "code": "MISSING_UNIT",
+        "severity": "INFO",
+        "message": "unité absente : non inventée, à prouver sur le PDF"
+      },
+      {
+        "code": "MISSING_SCOPE",
+        "severity": "INFO",
+        "message": "périmètre absent : social/consolidé à prouver"
+      },
+      {
+        "code": "COMPARATIVE_VALUE",
+        "severity": "INFO",
+        "message": "valeur comparative 2024 publiée dans le rapport 2025"
+      },
+      {
+        "code": "VALUE_CONFLICT",
+        "severity": "REVIEW",
+        "message": "valeurs concurrentes entre rapports pour cosumar 2024 EQUITY : 12589.2, 5878.5, 5885.6 (périmètre/version à départager)"
+      },
+      {
+        "code": "HUMAN_PDF_CONFIRMED",
+        "severity": "HUMAN",
+        "message": "Lu p.137 : BILAN PASSIF (exercice du 01/01/2025 au 31/12/2025), ligne « Total des capitaux propres (A) », colonne EXERCICE PRÉCÉDENT (2024) = 4 684 807 359,45. Unité non indiquée sur la page : non inventée."
+      }
+    ],
+    "evidence": {
+      "pdf_file": "Cosumar_RFA_2025.pdf",
+      "pdf_sha256": "7da285e005cb965a42fbb8302087b277787015172a33aa1b70d48d9f4d415d90",
+      "pdf_page": 137,
+      "printed_page": null,
+      "table_title": "PASSIF",
+      "value_read": "4684807359.45",
+      "sign": "+",
+      "unit": null,
+      "scope": null,
+      "column_year": 2024,
+      "currency": "MAD",
+      "checked_by": "Rihab",
+      "checked_at": "2026-11-10"
+    },
+    "conflict_group": "conflict-44",
+    "original": {
+      "nom": "FINANCEMENT PERMANENT Total des capitaux propres",
+      "annee": 2024,
+      "valeur": 4684807359.45,
+      "ligne_source": "FINANCEMENT PERMANENT Total des capitaux propres  | (A)  | 4 434 619 383,71  | 4 684 807 359,45 ",
+      "entreprise": "cosumar",
+      "unite": null,
+      "perimetre": null,
+      "source_table": "DOCLING_113",
+      "source_page": 137,
+      "source_ligne": 13,
+      "validation_status": "NOT_CHECKED",
+      "indicator": "EQUITY",
+      "report_year": 2025
+    }
+  },
+  {
+    "candidate_id": "086aa22f21f63fbf",
+    "status": "VERIFIED",
+    "normalized": {
+      "company": "cosumar",
+      "indicator": "NET_INCOME_GROUP_SHARE",
+      "label": "Résultat net part du groupe",
+      "observation_year": 2025,
+      "report_year": 2025,
+      "value": "703.7",
+      "unit": null,
+      "scope": null,
+      "source_table": "DOCLING_145",
+      "source_page": 151,
+      "source_row": 5,
+      "source_line_text": "Résultat net part du groupe  | 703,7  | 850,4",
+      "profile": "GENERAL_CORPORATE"
+    },
+    "reasons": [
+      {
+        "code": "MISSING_UNIT",
+        "severity": "INFO",
+        "message": "unité absente : non inventée, à prouver sur le PDF"
+      },
+      {
+        "code": "MISSING_SCOPE",
+        "severity": "INFO",
+        "message": "périmètre absent : social/consolidé à prouver"
+      },
+      {
+        "code": "CURRENT_YEAR_VALUE",
+        "severity": "INFO",
+        "message": "valeur de l'exercice du rapport"
+      },
+      {
+        "code": "HUMAN_VERIFIED",
+        "severity": "HUMAN",
+        "message": "Lu p.151 : État de la situation financière consolidé, PASSIF (En millions de dirhams), ligne « Résultat net part du groupe », colonne 31-déc-25 = 703,7. Périmètre consolidé (intérêts minoritaires, capitaux propres de l'ensemble consolidé)."
+      }
+    ],
+    "evidence": {
+      "pdf_file": "Cosumar_RFA_2025.pdf",
+      "pdf_sha256": "7da285e005cb965a42fbb8302087b277787015172a33aa1b70d48d9f4d415d90",
+      "pdf_page": 151,
+      "printed_page": null,
+      "table_title": "ÉTAT DE LA SITUATION FINANCIÈRE - PASSIF (En millions de dirhams)",
+      "value_read": "703.7",
+      "sign": "+",
+      "unit": "MMAD",
+      "scope": "CONSOLIDE",
+      "column_year": 2025,
+      "currency": "MAD",
+      "checked_by": "Rihab",
+      "checked_at": "2026-11-10"
+    },
+    "conflict_group": null,
+    "original": {
+      "nom": "Résultat net part du groupe",
+      "annee": 2025,
+      "valeur": 703.7,
+      "ligne_source": "Résultat net part du groupe  | 703,7  | 850,4",
+      "entreprise": "cosumar",
+      "unite": null,
+      "perimetre": null,
+      "source_table": "DOCLING_145",
+      "source_page": 151,
+      "source_ligne": 5,
+      "validation_status": "NOT_CHECKED",
+      "indicator": "NET_INCOME_GROUP_SHARE",
+      "report_year": 2025
+    }
+  },
+  {
+    "candidate_id": "4e381f4a610fb0f6",
+    "status": "PDF_CONFIRMED",
+    "normalized": {
+      "company": "cosumar",
+      "indicator": "NET_INCOME",
+      "label": "Résultat net de l’exercice (2)",
+      "observation_year": 2025,
+      "report_year": 2025,
+      "value": "694683454.26",
+      "unit": null,
+      "scope": null,
+      "source_table": "DOCLING_113",
+      "source_page": 137,
+      "source_row": 12,
+      "source_line_text": "Résultat net de l’exercice (2)  |  | 694 683 454,26  | 937 554 578,11 ",
+      "profile": "GENERAL_CORPORATE"
+    },
+    "reasons": [
+      {
+        "code": "MISSING_UNIT",
+        "severity": "INFO",
+        "message": "unité absente : non inventée, à prouver sur le PDF"
+      },
+      {
+        "code": "MISSING_SCOPE",
+        "severity": "INFO",
+        "message": "périmètre absent : social/consolidé à prouver"
+      },
+      {
+        "code": "CURRENT_YEAR_VALUE",
+        "severity": "INFO",
+        "message": "valeur de l'exercice du rapport"
+      },
+      {
+        "code": "CORROBORATED_ELSEWHERE",
+        "severity": "INFO",
+        "message": "même valeur trouvée dans 3 sources"
+      },
+      {
+        "code": "HUMAN_PDF_CONFIRMED",
+        "severity": "HUMAN",
+        "message": "Lu p.137 : BILAN PASSIF, ligne « Résultat net de l'exercice (2) », colonne EXERCICE (2025) = 694 683 454,26. Unité non indiquée sur la page : non inventée."
+      }
+    ],
+    "evidence": {
+      "pdf_file": "Cosumar_RFA_2025.pdf",
+      "pdf_sha256": "7da285e005cb965a42fbb8302087b277787015172a33aa1b70d48d9f4d415d90",
+      "pdf_page": 137,
+      "printed_page": null,
+      "table_title": "PASSIF",
+      "value_read": "694683454.26",
+      "sign": "+",
+      "unit": null,
+      "scope": null,
+      "column_year": 2025,
+      "currency": "MAD",
+      "checked_by": "Rihab",
+      "checked_at": "2026-11-10"
+    },
+    "conflict_group": null,
+    "original": {
+      "nom": "Résultat net de l’exercice (2)",
+      "annee": 2025,
+      "valeur": 694683454.26,
+      "ligne_source": "Résultat net de l’exercice (2)  |  | 694 683 454,26  | 937 554 578,11 ",
+      "entreprise": "cosumar",
+      "unite": null,
+      "perimetre": null,
+      "source_table": "DOCLING_113",
+      "source_page": 137,
+      "source_ligne": 12,
+      "validation_status": "NOT_CHECKED",
+      "indicator": "NET_INCOME",
+      "report_year": 2025
+    }
+  },
+  {
+    "candidate_id": "6e3d77bfc7f19bc3",
+    "status": "VERIFIED",
+    "normalized": {
+      "company": "lafargeholcim_maroc",
+      "indicator": "NET_INCOME",
+      "label": "Résultat net de l’exercice (2)",
+      "observation_year": 2023,
+      "report_year": 2023,
+      "value": "1413116647.69",
+      "unit": null,
+      "scope": null,
+      "source_table": "DOCLING_026",
+      "source_page": 56,
+      "source_row": 11,
+      "source_line_text": "Résultat net de l’exercice (2)  | 1 413 116 647,69  | 1 327 471 257,82 ",
+      "profile": "GENERAL_CORPORATE"
+    },
+    "reasons": [
+      {
+        "code": "MISSING_UNIT",
+        "severity": "INFO",
+        "message": "unité absente : non inventée, à prouver sur le PDF"
+      },
+      {
+        "code": "MISSING_SCOPE",
+        "severity": "INFO",
+        "message": "périmètre absent : social/consolidé à prouver"
+      },
+      {
+        "code": "CURRENT_YEAR_VALUE",
+        "severity": "INFO",
+        "message": "valeur de l'exercice du rapport"
+      },
+      {
+        "code": "CORROBORATED_ELSEWHERE",
+        "severity": "INFO",
+        "message": "même valeur trouvée dans 2 sources"
+      },
+      {
+        "code": "HUMAN_VERIFIED",
+        "severity": "HUMAN",
+        "message": "Lu p.56 : BILAN PASSIF au 31 décembre 2023 (en dirhams), ligne « Résultat net de l'exercice (2) », colonne Exercice = 1 413 116 647,69. Périmètre social : section « SOCIAUX » (titre p.55) et p.51 « états de synthèse sociaux » ; le résultat consolidé (p.50) est différent (1 548 MDH)."
+      }
+    ],
+    "evidence": {
+      "pdf_file": "LafargeHolcim_RFA_2023.pdf",
+      "pdf_sha256": "315ac8f1631a43cb30ad92bc1cd27172752b158bec144a66c1457fbfd7ae0896",
+      "pdf_page": 56,
+      "printed_page": null,
+      "table_title": "BILAN PASSIF au 31 décembre 2023 (en dirhams)",
+      "value_read": "1413116647.69",
+      "sign": "+",
+      "unit": "MAD",
+      "scope": "SOCIAL",
+      "column_year": 2023,
+      "currency": "MAD",
+      "checked_by": "Rihab",
+      "checked_at": "2026-11-10"
+    },
+    "conflict_group": null,
+    "original": {
+      "nom": "Résultat net de l’exercice (2)",
+      "annee": 2023,
+      "valeur": 1413116647.69,
+      "ligne_source": "Résultat net de l’exercice (2)  | 1 413 116 647,69  | 1 327 471 257,82 ",
+      "entreprise": "lafargeholcim_maroc",
+      "unite": null,
+      "perimetre": null,
+      "source_table": "DOCLING_026",
+      "source_page": 56,
+      "source_ligne": 11,
+      "validation_status": "NOT_CHECKED",
+      "indicator": "NET_INCOME",
+      "report_year": 2023
+    }
+  },
+  {
+    "candidate_id": "9d681720728551c3",
+    "status": "VERIFIED",
+    "normalized": {
+      "company": "lafargeholcim_maroc",
+      "indicator": "EQUITY",
+      "label": "Total des capitaux propres (A)",
+      "observation_year": 2022,
+      "report_year": 2023,
+      "value": "10055047819.5",
+      "unit": null,
+      "scope": null,
+      "source_table": "DOCLING_026",
+      "source_page": 56,
+      "source_row": 12,
+      "source_line_text": "Total des capitaux propres (A)  | 9 929 063 151,76  | 10 055 047 819,50 ",
+      "profile": "GENERAL_CORPORATE"
+    },
+    "reasons": [
+      {
+        "code": "MISSING_UNIT",
+        "severity": "INFO",
+        "message": "unité absente : non inventée, à prouver sur le PDF"
+      },
+      {
+        "code": "MISSING_SCOPE",
+        "severity": "INFO",
+        "message": "périmètre absent : social/consolidé à prouver"
+      },
+      {
+        "code": "COMPARATIVE_VALUE",
+        "severity": "INFO",
+        "message": "valeur comparative 2022 publiée dans le rapport 2023"
+      },
+      {
+        "code": "HUMAN_VERIFIED",
+        "severity": "HUMAN",
+        "message": "Lu p.56 : BILAN PASSIF au 31 décembre 2023 (en dirhams), ligne « Total des capitaux propres (A) », colonne Exercice Précédent (2022) = 10 055 047 819,50. Périmètre social (section « SOCIAUX », p.55)."
+      }
+    ],
+    "evidence": {
+      "pdf_file": "LafargeHolcim_RFA_2023.pdf",
+      "pdf_sha256": "315ac8f1631a43cb30ad92bc1cd27172752b158bec144a66c1457fbfd7ae0896",
+      "pdf_page": 56,
+      "printed_page": null,
+      "table_title": "BILAN PASSIF au 31 décembre 2023 (en dirhams)",
+      "value_read": "10055047819.50",
+      "sign": "+",
+      "unit": "MAD",
+      "scope": "SOCIAL",
+      "column_year": 2022,
+      "currency": "MAD",
+      "checked_by": "Rihab",
+      "checked_at": "2026-11-10"
+    },
+    "conflict_group": null,
+    "original": {
+      "nom": "Total des capitaux propres (A)",
+      "annee": 2022,
+      "valeur": 10055047819.5,
+      "ligne_source": "Total des capitaux propres (A)  | 9 929 063 151,76  | 10 055 047 819,50 ",
+      "entreprise": "lafargeholcim_maroc",
+      "unite": null,
+      "perimetre": null,
+      "source_table": "DOCLING_026",
+      "source_page": 56,
+      "source_ligne": 12,
+      "validation_status": "NOT_CHECKED",
+      "indicator": "EQUITY",
+      "report_year": 2023
+    }
+  },
+  {
+    "candidate_id": "73d75efc06f4dba5",
+    "status": "VERIFIED",
+    "normalized": {
+      "company": "lafargeholcim_maroc",
+      "indicator": "NET_INCOME",
+      "label": "Résultat net de l’exercice (2)",
+      "observation_year": 2022,
+      "report_year": 2023,
+      "value": "1327471257.82",
+      "unit": null,
+      "scope": null,
+      "source_table": "DOCLING_026",
+      "source_page": 56,
+      "source_row": 11,
+      "source_line_text": "Résultat net de l’exercice (2)  | 1 413 116 647,69  | 1 327 471 257,82 ",
+      "profile": "GENERAL_CORPORATE"
+    },
+    "reasons": [
+      {
+        "code": "MISSING_UNIT",
+        "severity": "INFO",
+        "message": "unité absente : non inventée, à prouver sur le PDF"
+      },
+      {
+        "code": "MISSING_SCOPE",
+        "severity": "INFO",
+        "message": "périmètre absent : social/consolidé à prouver"
+      },
+      {
+        "code": "COMPARATIVE_VALUE",
+        "severity": "INFO",
+        "message": "valeur comparative 2022 publiée dans le rapport 2023"
+      },
+      {
+        "code": "HUMAN_VERIFIED",
+        "severity": "HUMAN",
+        "message": "Lu p.56 : BILAN PASSIF au 31 décembre 2023 (en dirhams), ligne « Résultat net de l'exercice (2) », colonne Exercice Précédent (2022) = 1 327 471 257,82. Périmètre social (section « SOCIAUX », p.55)."
+      }
+    ],
+    "evidence": {
+      "pdf_file": "LafargeHolcim_RFA_2023.pdf",
+      "pdf_sha256": "315ac8f1631a43cb30ad92bc1cd27172752b158bec144a66c1457fbfd7ae0896",
+      "pdf_page": 56,
+      "printed_page": null,
+      "table_title": "BILAN PASSIF au 31 décembre 2023 (en dirhams)",
+      "value_read": "1327471257.82",
+      "sign": "+",
+      "unit": "MAD",
+      "scope": "SOCIAL",
+      "column_year": 2022,
+      "currency": "MAD",
+      "checked_by": "Rihab",
+      "checked_at": "2026-11-10"
+    },
+    "conflict_group": null,
+    "original": {
+      "nom": "Résultat net de l’exercice (2)",
+      "annee": 2022,
+      "valeur": 1327471257.82,
+      "ligne_source": "Résultat net de l’exercice (2)  | 1 413 116 647,69  | 1 327 471 257,82 ",
+      "entreprise": "lafargeholcim_maroc",
+      "unite": null,
+      "perimetre": null,
+      "source_table": "DOCLING_026",
+      "source_page": 56,
+      "source_ligne": 11,
+      "validation_status": "NOT_CHECKED",
+      "indicator": "NET_INCOME",
+      "report_year": 2023
+    }
+  },
+  {
+    "candidate_id": "00c714cf0134dbf1",
+    "status": "PDF_CONFIRMED",
+    "normalized": {
+      "company": "lesieur_cristal",
+      "indicator": "EQUITY",
+      "label": "CAPITAUX PROPRES",
+      "observation_year": 2024,
+      "report_year": 2024,
+      "value": "1638326837.68",
+      "unit": null,
+      "scope": null,
+      "source_table": "DOCLING_056",
+      "source_page": 69,
+      "source_row": 1,
+      "source_line_text": "CAPITAUX PROPRES  | 1 638 326 837,68  | 1 656 124 468,47",
+      "profile": "GENERAL_CORPORATE"
+    },
+    "reasons": [
+      {
+        "code": "MISSING_UNIT",
+        "severity": "INFO",
+        "message": "unité absente : non inventée, à prouver sur le PDF"
+      },
+      {
+        "code": "MISSING_SCOPE",
+        "severity": "INFO",
+        "message": "périmètre absent : social/consolidé à prouver"
+      },
+      {
+        "code": "CURRENT_YEAR_VALUE",
+        "severity": "INFO",
+        "message": "valeur de l'exercice du rapport"
+      },
+      {
+        "code": "VALUE_CONFLICT",
+        "severity": "REVIEW",
+        "message": "valeurs concurrentes entre rapports pour lesieur_cristal 2024 EQUITY : 1753.0, 1768.0, 5314.0 (périmètre/version à départager)"
+      },
+      {
+        "code": "HUMAN_PDF_CONFIRMED",
+        "severity": "HUMAN",
+        "message": "Lu p.69 : Comptes Sociaux, BILAN PASSIF du 01/01/2024 au 31/12/2024, ligne CAPITAUX PROPRES, colonne Exercice = 1 638 326 837,68. Unité non indiquée sur la page : non inventée."
+      }
+    ],
+    "evidence": {
+      "pdf_file": "LesieurCristal_RFA_2024.pdf",
+      "pdf_sha256": "1fafb71c34eb0f5f70ab1f91cfb8f2306009e8fec26ad45d2914677902655f9f",
+      "pdf_page": 69,
+      "printed_page": null,
+      "table_title": "Comptes Sociaux - BILAN PASSIF du 01/01/2024 au 31/12/2024",
+      "value_read": "1638326837.68",
+      "sign": "+",
+      "unit": null,
+      "scope": "SOCIAL",
+      "column_year": 2024,
+      "currency": "MAD",
+      "checked_by": "Rihab",
+      "checked_at": "2026-11-10"
+    },
+    "conflict_group": "conflict-72",
+    "original": {
+      "nom": "CAPITAUX PROPRES",
+      "annee": 2024,
+      "valeur": 1638326837.68,
+      "ligne_source": "CAPITAUX PROPRES  | 1 638 326 837,68  | 1 656 124 468,47",
+      "entreprise": "lesieur_cristal",
+      "unite": null,
+      "perimetre": null,
+      "source_table": "DOCLING_056",
+      "source_page": 69,
+      "source_ligne": 1,
+      "validation_status": "NOT_CHECKED",
+      "indicator": "EQUITY",
+      "report_year": 2024
+    }
+  },
+  {
+    "candidate_id": "38f71996de156a54",
+    "status": "PDF_CONFIRMED",
+    "normalized": {
+      "company": "lesieur_cristal",
+      "indicator": "OPERATING_INCOME",
+      "label": "RÉSULTAT D’EXPLOITATION (I-II)",
+      "observation_year": 2024,
+      "report_year": 2024,
+      "value": "256331342.64",
+      "unit": null,
+      "scope": null,
+      "source_table": "DOCLING_057",
+      "source_page": 70,
+      "source_row": 19,
+      "source_line_text": "RÉSULTAT D’EXPLOITATION (I-II)  | 256 445 886,64  | -114 544,00  | 256 331 342,64  | 50 329 591,33",
+      "profile": "GENERAL_CORPORATE"
+    },
+    "reasons": [
+      {
+        "code": "MISSING_UNIT",
+        "severity": "INFO",
+        "message": "unité absente : non inventée, à prouver sur le PDF"
+      },
+      {
+        "code": "MISSING_SCOPE",
+        "severity": "INFO",
+        "message": "périmètre absent : social/consolidé à prouver"
+      },
+      {
+        "code": "CURRENT_YEAR_VALUE",
+        "severity": "INFO",
+        "message": "valeur de l'exercice du rapport"
+      },
+      {
+        "code": "HUMAN_PDF_CONFIRMED",
+        "severity": "HUMAN",
+        "message": "Lu p.70 : COMPTE DE PRODUITS ET CHARGES (hors taxes) du 01/01/2024 au 31/12/2024, ligne RÉSULTAT D'EXPLOITATION (I-II), colonne Totaux de l'exercice (3 = 1+2) = 256 331 342,64. Unité non indiquée sur la page : non inventée."
+      }
+    ],
+    "evidence": {
+      "pdf_file": "LesieurCristal_RFA_2024.pdf",
+      "pdf_sha256": "1fafb71c34eb0f5f70ab1f91cfb8f2306009e8fec26ad45d2914677902655f9f",
+      "pdf_page": 70,
+      "printed_page": null,
+      "table_title": "COMPTE DE PRODUITS ET CHARGES (hors taxes) du 01/01/2024 au 31/12/2024",
+      "value_read": "256331342.64",
+      "sign": "+",
+      "unit": null,
+      "scope": "SOCIAL",
+      "column_year": 2024,
+      "currency": "MAD",
+      "checked_by": "Rihab",
+      "checked_at": "2026-11-10"
+    },
+    "conflict_group": null,
+    "original": {
+      "nom": "RÉSULTAT D’EXPLOITATION (I-II)",
+      "annee": 2024,
+      "valeur": 256331342.64,
+      "ligne_source": "RÉSULTAT D’EXPLOITATION (I-II)  | 256 445 886,64  | -114 544,00  | 256 331 342,64  | 50 329 591,33",
+      "entreprise": "lesieur_cristal",
+      "unite": null,
+      "perimetre": null,
+      "source_table": "DOCLING_057",
+      "source_page": 70,
+      "source_ligne": 19,
+      "validation_status": "NOT_CHECKED",
+      "indicator": "OPERATING_INCOME",
+      "report_year": 2024
+    }
+  },
+  {
+    "candidate_id": "4cda9f770c117c18",
+    "status": "PDF_CONFIRMED",
+    "normalized": {
+      "company": "lesieur_cristal",
+      "indicator": "NET_INCOME",
+      "label": "Résultat net de l’exercice (2)",
+      "observation_year": 2023,
+      "report_year": 2024,
+      "value": "8872574.29",
+      "unit": null,
+      "scope": null,
+      "source_table": "DOCLING_056",
+      "source_page": 69,
+      "source_row": 12,
+      "source_line_text": "Résultat net de l’exercice (2)  | 37 465 389,30  | 8 872 574,29",
+      "profile": "GENERAL_CORPORATE"
+    },
+    "reasons": [
+      {
+        "code": "MISSING_UNIT",
+        "severity": "INFO",
+        "message": "unité absente : non inventée, à prouver sur le PDF"
+      },
+      {
+        "code": "MISSING_SCOPE",
+        "severity": "INFO",
+        "message": "périmètre absent : social/consolidé à prouver"
+      },
+      {
+        "code": "COMPARATIVE_VALUE",
+        "severity": "INFO",
+        "message": "valeur comparative 2023 publiée dans le rapport 2024"
+      },
+      {
+        "code": "HUMAN_PDF_CONFIRMED",
+        "severity": "HUMAN",
+        "message": "Lu p.69 : Comptes Sociaux, BILAN PASSIF, ligne « Résultat net de l'exercice (2) », colonne Exercice précédent (2023) = 8 872 574,29. Unité non indiquée sur la page : non inventée."
+      }
+    ],
+    "evidence": {
+      "pdf_file": "LesieurCristal_RFA_2024.pdf",
+      "pdf_sha256": "1fafb71c34eb0f5f70ab1f91cfb8f2306009e8fec26ad45d2914677902655f9f",
+      "pdf_page": 69,
+      "printed_page": null,
+      "table_title": "Comptes Sociaux - BILAN PASSIF du 01/01/2024 au 31/12/2024",
+      "value_read": "8872574.29",
+      "sign": "+",
+      "unit": null,
+      "scope": "SOCIAL",
+      "column_year": 2023,
+      "currency": "MAD",
+      "checked_by": "Rihab",
+      "checked_at": "2026-11-10"
+    },
+    "conflict_group": null,
+    "original": {
+      "nom": "Résultat net de l’exercice (2)",
+      "annee": 2023,
+      "valeur": 8872574.29,
+      "ligne_source": "Résultat net de l’exercice (2)  | 37 465 389,30  | 8 872 574,29",
+      "entreprise": "lesieur_cristal",
+      "unite": null,
+      "perimetre": null,
+      "source_table": "DOCLING_056",
+      "source_page": 69,
+      "source_ligne": 12,
+      "validation_status": "NOT_CHECKED",
+      "indicator": "NET_INCOME",
+      "report_year": 2024
+    }
+  },
+  {
+    "candidate_id": "1358a22cb22ad0ee",
+    "status": "PDF_CONFIRMED",
+    "normalized": {
+      "company": "managem",
+      "indicator": "EQUITY",
+      "label": "TOTAL DES CAPITAUX PROPRES (A)",
+      "observation_year": 2023,
+      "report_year": 2023,
+      "value": "3503119835.89",
+      "unit": null,
+      "scope": null,
+      "source_table": "DOCLING_033",
+      "source_page": 68,
+      "source_row": 13,
+      "source_line_text": "TOTAL DES CAPITAUX PROPRES (A)  | 3 503 119 835,89  | 3 487 579 655,36",
+      "profile": "GENERAL_CORPORATE"
+    },
+    "reasons": [
+      {
+        "code": "MISSING_UNIT",
+        "severity": "INFO",
+        "message": "unité absente : non inventée, à prouver sur le PDF"
+      },
+      {
+        "code": "MISSING_SCOPE",
+        "severity": "INFO",
+        "message": "périmètre absent : social/consolidé à prouver"
+      },
+      {
+        "code": "CURRENT_YEAR_VALUE",
+        "severity": "INFO",
+        "message": "valeur de l'exercice du rapport"
+      },
+      {
+        "code": "VALUE_CONFLICT",
+        "severity": "REVIEW",
+        "message": "valeurs concurrentes entre rapports pour managem 2023 EQUITY : 23242.2, 7565.0, 8227.7 (périmètre/version à départager)"
+      },
+      {
+        "code": "HUMAN_PDF_CONFIRMED",
+        "severity": "HUMAN",
+        "message": "Lu p.68 : Bilan Passif, exercice clos le 31 décembre 2023, ligne « TOTAL DES CAPITAUX PROPRES (A) », colonne Exercice = 3 503 119 835,89. Mention « Comptes sociaux » sur la page. Unité non indiquée : non inventée."
+      }
+    ],
+    "evidence": {
+      "pdf_file": "Managem_RFA_2023.pdf",
+      "pdf_sha256": "0a1db645858d0c22ecf11467816d15c257b520f13e9f7a44aff0f32b1f035c56",
+      "pdf_page": 68,
+      "printed_page": null,
+      "table_title": "Bilan Passif - Exercice clos le 31 décembre 2023",
+      "value_read": "3503119835.89",
+      "sign": "+",
+      "unit": null,
+      "scope": "SOCIAL",
+      "column_year": 2023,
+      "currency": "MAD",
+      "checked_by": "Rihab",
+      "checked_at": "2026-11-10"
+    },
+    "conflict_group": "conflict-82",
+    "original": {
+      "nom": "TOTAL DES CAPITAUX PROPRES (A)",
+      "annee": 2023,
+      "valeur": 3503119835.89,
+      "ligne_source": "TOTAL DES CAPITAUX PROPRES (A)  | 3 503 119 835,89  | 3 487 579 655,36",
+      "entreprise": "managem",
+      "unite": null,
+      "perimetre": null,
+      "source_table": "DOCLING_033",
+      "source_page": 68,
+      "source_ligne": 13,
+      "validation_status": "NOT_CHECKED",
+      "indicator": "EQUITY",
+      "report_year": 2023
+    }
+  },
+  {
+    "candidate_id": "4623711916a3077e",
+    "status": "PDF_CONFIRMED",
+    "normalized": {
+      "company": "managem",
+      "indicator": "NET_INCOME",
+      "label": "• Résultat net de l’exercice (2)",
+      "observation_year": 2023,
+      "report_year": 2023,
+      "value": "315279420.53",
+      "unit": null,
+      "scope": null,
+      "source_table": "DOCLING_033",
+      "source_page": 68,
+      "source_row": 12,
+      "source_line_text": "• Résultat net de l’exercice (2)  | 315 279 420,53  | 945 148 003,33",
+      "profile": "GENERAL_CORPORATE"
+    },
+    "reasons": [
+      {
+        "code": "MISSING_UNIT",
+        "severity": "INFO",
+        "message": "unité absente : non inventée, à prouver sur le PDF"
+      },
+      {
+        "code": "MISSING_SCOPE",
+        "severity": "INFO",
+        "message": "périmètre absent : social/consolidé à prouver"
+      },
+      {
+        "code": "CURRENT_YEAR_VALUE",
+        "severity": "INFO",
+        "message": "valeur de l'exercice du rapport"
+      },
+      {
+        "code": "HUMAN_PDF_CONFIRMED",
+        "severity": "HUMAN",
+        "message": "Lu p.68 : Bilan Passif, ligne « Résultat net de l'exercice (2) », colonne Exercice (2023) = 315 279 420,53. Mention « Comptes sociaux » sur la page. Unité non indiquée : non inventée."
+      }
+    ],
+    "evidence": {
+      "pdf_file": "Managem_RFA_2023.pdf",
+      "pdf_sha256": "0a1db645858d0c22ecf11467816d15c257b520f13e9f7a44aff0f32b1f035c56",
+      "pdf_page": 68,
+      "printed_page": null,
+      "table_title": "Bilan Passif - Exercice clos le 31 décembre 2023",
+      "value_read": "315279420.53",
+      "sign": "+",
+      "unit": null,
+      "scope": "SOCIAL",
+      "column_year": 2023,
+      "currency": "MAD",
+      "checked_by": "Rihab",
+      "checked_at": "2026-11-10"
+    },
+    "conflict_group": null,
+    "original": {
+      "nom": "• Résultat net de l’exercice (2)",
+      "annee": 2023,
+      "valeur": 315279420.53,
+      "ligne_source": "• Résultat net de l’exercice (2)  | 315 279 420,53  | 945 148 003,33",
+      "entreprise": "managem",
+      "unite": null,
+      "perimetre": null,
+      "source_table": "DOCLING_033",
+      "source_page": 68,
+      "source_ligne": 12,
+      "validation_status": "NOT_CHECKED",
+      "indicator": "NET_INCOME",
+      "report_year": 2023
+    }
+  },
+  {
+    "candidate_id": "4a0ebad2c7ff3396",
+    "status": "PDF_CONFIRMED",
+    "normalized": {
+      "company": "managem",
+      "indicator": "EQUITY",
+      "label": "CAPITAUX PROPRES",
+      "observation_year": 2022,
+      "report_year": 2023,
+      "value": "3487579655.36",
+      "unit": null,
+      "scope": null,
+      "source_table": "DOCLING_033",
+      "source_page": 68,
+      "source_row": 2,
+      "source_line_text": "CAPITAUX PROPRES  | 3 503 119 835,89  | 3 487 579 655,36",
+      "profile": "GENERAL_CORPORATE"
+    },
+    "reasons": [
+      {
+        "code": "MISSING_UNIT",
+        "severity": "INFO",
+        "message": "unité absente : non inventée, à prouver sur le PDF"
+      },
+      {
+        "code": "MISSING_SCOPE",
+        "severity": "INFO",
+        "message": "périmètre absent : social/consolidé à prouver"
+      },
+      {
+        "code": "COMPARATIVE_VALUE",
+        "severity": "INFO",
+        "message": "valeur comparative 2022 publiée dans le rapport 2023"
+      },
+      {
+        "code": "CORROBORATED_ELSEWHERE",
+        "severity": "INFO",
+        "message": "même valeur trouvée dans 2 sources"
+      },
+      {
+        "code": "HUMAN_PDF_CONFIRMED",
+        "severity": "HUMAN",
+        "message": "Lu p.68 : Bilan Passif, ligne CAPITAUX PROPRES, colonne Exercice Précédent (2022) = 3 487 579 655,36. Mention « Comptes sociaux » sur la page. Unité non indiquée : non inventée."
+      }
+    ],
+    "evidence": {
+      "pdf_file": "Managem_RFA_2023.pdf",
+      "pdf_sha256": "0a1db645858d0c22ecf11467816d15c257b520f13e9f7a44aff0f32b1f035c56",
+      "pdf_page": 68,
+      "printed_page": null,
+      "table_title": "Bilan Passif - Exercice clos le 31 décembre 2023",
+      "value_read": "3487579655.36",
+      "sign": "+",
+      "unit": null,
+      "scope": "SOCIAL",
+      "column_year": 2022,
+      "currency": "MAD",
+      "checked_by": "Rihab",
+      "checked_at": "2026-11-10"
+    },
+    "conflict_group": null,
+    "original": {
+      "nom": "CAPITAUX PROPRES",
+      "annee": 2022,
+      "valeur": 3487579655.36,
+      "ligne_source": "CAPITAUX PROPRES  | 3 503 119 835,89  | 3 487 579 655,36",
+      "entreprise": "managem",
+      "unite": null,
+      "perimetre": null,
+      "source_table": "DOCLING_033",
+      "source_page": 68,
+      "source_ligne": 2,
+      "validation_status": "NOT_CHECKED",
+      "indicator": "EQUITY",
+      "report_year": 2023
+    }
+  },
+  {
+    "candidate_id": "37c313b858a6cf00",
+    "status": "VERIFIED",
+    "normalized": {
+      "company": "marsa_maroc",
+      "indicator": "EQUITY",
+      "label": "Capitaux propres de l'ensemble consolidé",
+      "observation_year": 2023,
+      "report_year": 2023,
+      "value": "2983274.0",
+      "unit": null,
+      "scope": null,
+      "source_table": "DOCLING_040",
+      "source_page": 106,
+      "source_row": 5,
+      "source_line_text": "Capitaux propres de l'ensemble consolidé  | 2 983 274  | 2 685 460",
+      "profile": "GENERAL_CORPORATE"
+    },
+    "reasons": [
+      {
+        "code": "MISSING_UNIT",
+        "severity": "INFO",
+        "message": "unité absente : non inventée, à prouver sur le PDF"
+      },
+      {
+        "code": "MISSING_SCOPE",
+        "severity": "INFO",
+        "message": "périmètre absent : social/consolidé à prouver"
+      },
+      {
+        "code": "CURRENT_YEAR_VALUE",
+        "severity": "INFO",
+        "message": "valeur de l'exercice du rapport"
+      },
+      {
+        "code": "VALUE_CONFLICT",
+        "severity": "REVIEW",
+        "message": "valeurs concurrentes entre rapports pour marsa_maroc 2023 EQUITY : 1780830216.15 (périmètre/version à départager)"
+      },
+      {
+        "code": "HUMAN_VERIFIED",
+        "severity": "HUMAN",
+        "message": "Lu p.106 : 1. BILAN CONSOLIDÉ (en milliers de DHS), ligne « Capitaux propres de l'ensemble consolidé », colonne 31/12/2023 = 2 983 274."
+      }
+    ],
+    "evidence": {
+      "pdf_file": "Marsa_Maroc_RFA_2023.pdf",
+      "pdf_sha256": "e192beece3e68f539805ab0736169d476515b14cea954682c8768d5a10946dbd",
+      "pdf_page": 106,
+      "printed_page": null,
+      "table_title": "1. BILAN CONSOLIDÉ (en milliers de DHS)",
+      "value_read": "2983274",
+      "sign": "+",
+      "unit": "KMAD",
+      "scope": "CONSOLIDE",
+      "column_year": 2023,
+      "currency": "MAD",
+      "checked_by": "Rihab",
+      "checked_at": "2026-11-10"
+    },
+    "conflict_group": "conflict-98",
+    "original": {
+      "nom": "Capitaux propres de l'ensemble consolidé",
+      "annee": 2023,
+      "valeur": 2983274.0,
+      "ligne_source": "Capitaux propres de l'ensemble consolidé  | 2 983 274  | 2 685 460",
+      "entreprise": "marsa_maroc",
+      "unite": null,
+      "perimetre": null,
+      "source_table": "DOCLING_040",
+      "source_page": 106,
+      "source_ligne": 5,
+      "validation_status": "NOT_CHECKED",
+      "indicator": "EQUITY",
+      "report_year": 2023
+    }
+  },
+  {
+    "candidate_id": "065db7912c3acf89",
+    "status": "VERIFIED",
+    "normalized": {
+      "company": "marsa_maroc",
+      "indicator": "TOTAL_ASSETS",
+      "label": "Total Actif",
+      "observation_year": 2023,
+      "report_year": 2023,
+      "value": "7890780.0",
+      "unit": null,
+      "scope": null,
+      "source_table": "DOCLING_039",
+      "source_page": 106,
+      "source_row": 12,
+      "source_line_text": "Total Actif  | 7 890 780  | 8 059 852",
+      "profile": "GENERAL_CORPORATE"
+    },
+    "reasons": [
+      {
+        "code": "MISSING_UNIT",
+        "severity": "INFO",
+        "message": "unité absente : non inventée, à prouver sur le PDF"
+      },
+      {
+        "code": "MISSING_SCOPE",
+        "severity": "INFO",
+        "message": "périmètre absent : social/consolidé à prouver"
+      },
+      {
+        "code": "CURRENT_YEAR_VALUE",
+        "severity": "INFO",
+        "message": "valeur de l'exercice du rapport"
+      },
+      {
+        "code": "CORROBORATED_ELSEWHERE",
+        "severity": "INFO",
+        "message": "même valeur trouvée dans 2 sources"
+      },
+      {
+        "code": "BALANCE_OK",
+        "severity": "INFO",
+        "message": "total actif = total passif (indice, pas une preuve)"
+      },
+      {
+        "code": "HUMAN_VERIFIED",
+        "severity": "HUMAN",
+        "message": "Lu p.106 : 1. BILAN CONSOLIDÉ (en milliers de DHS), ligne « Total Actif », colonne 31/12/2023 = 7 890 780 (égal au Total Passif)."
+      }
+    ],
+    "evidence": {
+      "pdf_file": "Marsa_Maroc_RFA_2023.pdf",
+      "pdf_sha256": "e192beece3e68f539805ab0736169d476515b14cea954682c8768d5a10946dbd",
+      "pdf_page": 106,
+      "printed_page": null,
+      "table_title": "1. BILAN CONSOLIDÉ (en milliers de DHS)",
+      "value_read": "7890780",
+      "sign": "+",
+      "unit": "KMAD",
+      "scope": "CONSOLIDE",
+      "column_year": 2023,
+      "currency": "MAD",
+      "checked_by": "Rihab",
+      "checked_at": "2026-11-10"
+    },
+    "conflict_group": null,
+    "original": {
+      "nom": "Total Actif",
+      "annee": 2023,
+      "valeur": 7890780.0,
+      "ligne_source": "Total Actif  | 7 890 780  | 8 059 852",
+      "entreprise": "marsa_maroc",
+      "unite": null,
+      "perimetre": null,
+      "source_table": "DOCLING_039",
+      "source_page": 106,
+      "source_ligne": 12,
+      "validation_status": "NOT_CHECKED",
+      "indicator": "TOTAL_ASSETS",
+      "report_year": 2023
+    }
+  },
+  {
+    "candidate_id": "4e5803fd4ed5741e",
+    "status": "VERIFIED",
+    "normalized": {
+      "company": "marsa_maroc",
+      "indicator": "OPERATING_INCOME",
+      "label": "Résultat d’exploitation",
+      "observation_year": 2023,
+      "report_year": 2023,
+      "value": "1554657.0",
+      "unit": null,
+      "scope": null,
+      "source_table": "DOCLING_041",
+      "source_page": 107,
+      "source_row": 10,
+      "source_line_text": "Résultat d’exploitation  | 1 554 657  | 1 363 416",
+      "profile": "GENERAL_CORPORATE"
+    },
+    "reasons": [
+      {
+        "code": "MISSING_UNIT",
+        "severity": "INFO",
+        "message": "unité absente : non inventée, à prouver sur le PDF"
+      },
+      {
+        "code": "MISSING_SCOPE",
+        "severity": "INFO",
+        "message": "périmètre absent : social/consolidé à prouver"
+      },
+      {
+        "code": "CURRENT_YEAR_VALUE",
+        "severity": "INFO",
+        "message": "valeur de l'exercice du rapport"
+      },
+      {
+        "code": "VALUE_CONFLICT",
+        "severity": "REVIEW",
+        "message": "valeurs concurrentes entre rapports pour marsa_maroc 2023 OPERATING_INCOME : 940452245.9 (périmètre/version à départager)"
+      },
+      {
+        "code": "HUMAN_VERIFIED",
+        "severity": "HUMAN",
+        "message": "Lu p.107 : 2. CPC CONSOLIDÉ (en milliers de DHS), ligne « Résultat d'exploitation », colonne 31/12/2023 = 1 554 657."
+      }
+    ],
+    "evidence": {
+      "pdf_file": "Marsa_Maroc_RFA_2023.pdf",
+      "pdf_sha256": "e192beece3e68f539805ab0736169d476515b14cea954682c8768d5a10946dbd",
+      "pdf_page": 107,
+      "printed_page": null,
+      "table_title": "2. CPC CONSOLIDÉ (en milliers de DHS)",
+      "value_read": "1554657",
+      "sign": "+",
+      "unit": "KMAD",
+      "scope": "CONSOLIDE",
+      "column_year": 2023,
+      "currency": "MAD",
+      "checked_by": "Rihab",
+      "checked_at": "2026-11-10"
+    },
+    "conflict_group": "conflict-101",
+    "original": {
+      "nom": "Résultat d’exploitation",
+      "annee": 2023,
+      "valeur": 1554657.0,
+      "ligne_source": "Résultat d’exploitation  | 1 554 657  | 1 363 416",
+      "entreprise": "marsa_maroc",
+      "unite": null,
+      "perimetre": null,
+      "source_table": "DOCLING_041",
+      "source_page": 107,
+      "source_ligne": 10,
+      "validation_status": "NOT_CHECKED",
+      "indicator": "OPERATING_INCOME",
+      "report_year": 2023
+    }
+  },
+  {
+    "candidate_id": "4c3759a869c6fc19",
+    "status": "PDF_CONFIRMED",
+    "normalized": {
+      "company": "s2m",
+      "indicator": "OPERATING_INCOME",
+      "label": "III RESULTAT D'EXPLOITATION (I-II)",
+      "observation_year": 2024,
+      "report_year": 2025,
+      "value": "53649987.34",
+      "unit": null,
+      "scope": null,
+      "source_table": "DOCLING_018",
+      "source_page": 17,
+      "source_row": 19,
+      "source_line_text": "III RESULTAT D'EXPLOITATION (I-II)  |  |  |  | 53 649 987,34",
+      "profile": "GENERAL_CORPORATE"
+    },
+    "reasons": [
+      {
+        "code": "MISSING_UNIT",
+        "severity": "INFO",
+        "message": "unité absente : non inventée, à prouver sur le PDF"
+      },
+      {
+        "code": "MISSING_SCOPE",
+        "severity": "INFO",
+        "message": "périmètre absent : social/consolidé à prouver"
+      },
+      {
+        "code": "COMPARATIVE_VALUE",
+        "severity": "INFO",
+        "message": "valeur comparative 2024 publiée dans le rapport 2025"
+      },
+      {
+        "code": "LINKED_AMOUNT_ANOMALY",
+        "severity": "REVIEW",
+        "message": "anomalie MONTANT_A_VERIFIER sur cette ligne"
+      },
+      {
+        "code": "HUMAN_PDF_CONFIRMED",
+        "severity": "HUMAN",
+        "message": "Lu p.17 : COMPTE DE PRODUITS ET CHARGES, ligne « III RESULTAT D'EXPLOITATION (I-II) », colonne 31/12/2024 Net = 53 649 987,34. Contrôle : Total I 344 064 349,46 - Total II 290 414 362,12 = 53 649 987,34, l'anomalie automatique LINKED_AMOUNT_ANOMALY vient de la valeur 2025 (56 508 758,03) absente de la ligne CSV, pas de la valeur extraite. Unité et périmètre non indiqués sur la page : non inventés."
+      }
+    ],
+    "evidence": {
+      "pdf_file": "S2M_RFA_2025.pdf",
+      "pdf_sha256": "81084c026ed0386c318271d9040e658f258888f6df1d57e150417244c90df12f",
+      "pdf_page": 17,
+      "printed_page": null,
+      "table_title": "COMPTE DE PRODUITS ET CHARGES",
+      "value_read": "53649987.34",
+      "sign": "+",
+      "unit": null,
+      "scope": null,
+      "column_year": 2024,
+      "currency": "MAD",
+      "checked_by": "Rihab",
+      "checked_at": "2026-11-10"
+    },
+    "conflict_group": null,
+    "original": {
+      "nom": "III RESULTAT D'EXPLOITATION (I-II)",
+      "annee": 2024,
+      "valeur": 53649987.34,
+      "ligne_source": "III RESULTAT D'EXPLOITATION (I-II)  |  |  |  | 53 649 987,34",
+      "entreprise": "s2m",
+      "unite": null,
+      "perimetre": null,
+      "source_table": "DOCLING_018",
+      "source_page": 17,
+      "source_ligne": 19,
+      "validation_status": "NOT_CHECKED",
+      "indicator": "OPERATING_INCOME",
+      "report_year": 2025
+    }
+  },
+  {
+    "candidate_id": "476fc03eca8be819",
+    "status": "PDF_CONFIRMED",
+    "normalized": {
+      "company": "s2m",
+      "indicator": "REVENUE",
+      "label": "CHIFFRE D'AFFAIRES",
+      "observation_year": 2025,
+      "report_year": 2025,
+      "value": "366496287.39",
+      "unit": null,
+      "scope": null,
+      "source_table": "DOCLING_018",
+      "source_page": 17,
+      "source_row": 4,
+      "source_line_text": "CHIFFRE D'AFFAIRES  |  | 366 496 287,39 |  | 308 105 627,93",
+      "profile": "GENERAL_CORPORATE"
+    },
+    "reasons": [
+      {
+        "code": "MISSING_UNIT",
+        "severity": "INFO",
+        "message": "unité absente : non inventée, à prouver sur le PDF"
+      },
+      {
+        "code": "MISSING_SCOPE",
+        "severity": "INFO",
+        "message": "périmètre absent : social/consolidé à prouver"
+      },
+      {
+        "code": "CURRENT_YEAR_VALUE",
+        "severity": "INFO",
+        "message": "valeur de l'exercice du rapport"
+      },
+      {
+        "code": "HUMAN_PDF_CONFIRMED",
+        "severity": "HUMAN",
+        "message": "Lu p.17 : COMPTE DE PRODUITS ET CHARGES, ligne « CHIFFRE D'AFFAIRES », colonne 31/12/2025 Net = 366 496 287,39 (= 56 206 115,62 + 310 290 171,77). Unité et périmètre non indiqués sur la page : non inventés."
+      }
+    ],
+    "evidence": {
+      "pdf_file": "S2M_RFA_2025.pdf",
+      "pdf_sha256": "81084c026ed0386c318271d9040e658f258888f6df1d57e150417244c90df12f",
+      "pdf_page": 17,
+      "printed_page": null,
+      "table_title": "COMPTE DE PRODUITS ET CHARGES",
+      "value_read": "366496287.39",
+      "sign": "+",
+      "unit": null,
+      "scope": null,
+      "column_year": 2025,
+      "currency": "MAD",
+      "checked_by": "Rihab",
+      "checked_at": "2026-11-10"
+    },
+    "conflict_group": null,
+    "original": {
+      "nom": "CHIFFRE D'AFFAIRES",
+      "annee": 2025,
+      "valeur": 366496287.39,
+      "ligne_source": "CHIFFRE D'AFFAIRES  |  | 366 496 287,39 |  | 308 105 627,93",
+      "entreprise": "s2m",
+      "unite": null,
+      "perimetre": null,
+      "source_table": "DOCLING_018",
+      "source_page": 17,
+      "source_ligne": 4,
+      "validation_status": "NOT_CHECKED",
+      "indicator": "REVENUE",
+      "report_year": 2025
+    }
+  },
+  {
+    "candidate_id": "5fe39452610b6e36",
+    "status": "PDF_CONFIRMED",
+    "normalized": {
+      "company": "s2m",
+      "indicator": "EQUITY",
+      "label": "FONDS PROPRES (A)",
+      "observation_year": 2025,
+      "report_year": 2025,
+      "value": "134023110.29",
+      "unit": null,
+      "scope": null,
+      "source_table": "DOCLING_020",
+      "source_page": 18,
+      "source_row": 1,
+      "source_line_text": "FONDS PROPRES (A)  | 134 023 110,29  | 99 881 466,09",
+      "profile": "GENERAL_CORPORATE"
+    },
+    "reasons": [
+      {
+        "code": "MISSING_UNIT",
+        "severity": "INFO",
+        "message": "unité absente : non inventée, à prouver sur le PDF"
+      },
+      {
+        "code": "MISSING_SCOPE",
+        "severity": "INFO",
+        "message": "périmètre absent : social/consolidé à prouver"
+      },
+      {
+        "code": "CURRENT_YEAR_VALUE",
+        "severity": "INFO",
+        "message": "valeur de l'exercice du rapport"
+      },
+      {
+        "code": "HUMAN_PDF_CONFIRMED",
+        "severity": "HUMAN",
+        "message": "Lu p.18 : BILAN - PASSIF, ligne « FONDS PROPRES (A) », colonne 31/12/2025 Net = 134 023 110,29. Unité et périmètre non indiqués sur la page : non inventés."
+      }
+    ],
+    "evidence": {
+      "pdf_file": "S2M_RFA_2025.pdf",
+      "pdf_sha256": "81084c026ed0386c318271d9040e658f258888f6df1d57e150417244c90df12f",
+      "pdf_page": 18,
+      "printed_page": null,
+      "table_title": "BILAN - PASSIF",
+      "value_read": "134023110.29",
+      "sign": "+",
+      "unit": null,
+      "scope": null,
+      "column_year": 2025,
+      "currency": "MAD",
+      "checked_by": "Rihab",
+      "checked_at": "2026-11-10"
+    },
+    "conflict_group": null,
+    "original": {
+      "nom": "FONDS PROPRES (A)",
+      "annee": 2025,
+      "valeur": 134023110.29,
+      "ligne_source": "FONDS PROPRES (A)  | 134 023 110,29  | 99 881 466,09",
+      "entreprise": "s2m",
+      "unite": null,
+      "perimetre": null,
+      "source_table": "DOCLING_020",
+      "source_page": 18,
+      "source_ligne": 1,
+      "validation_status": "NOT_CHECKED",
+      "indicator": "EQUITY",
+      "report_year": 2025
+    }
+  },
+  {
+    "candidate_id": "6cb00bd91a9acb69",
+    "status": "PDF_CONFIRMED",
+    "normalized": {
+      "company": "sothema",
+      "indicator": "TOTAL_LIABILITIES_AND_EQUITY",
+      "label": "TOTAL PASSIF",
+      "observation_year": 2024,
+      "report_year": 2025,
+      "value": "3182052.0",
+      "unit": null,
+      "scope": null,
+      "source_table": "DOCLING_053",
+      "source_page": 63,
+      "source_row": 21,
+      "source_line_text": "TOTAL PASSIF  | 4 607 253  | 3 182 052 ",
+      "profile": "GENERAL_CORPORATE"
+    },
+    "reasons": [
+      {
+        "code": "MISSING_UNIT",
+        "severity": "INFO",
+        "message": "unité absente : non inventée, à prouver sur le PDF"
+      },
+      {
+        "code": "MISSING_SCOPE",
+        "severity": "INFO",
+        "message": "périmètre absent : social/consolidé à prouver"
+      },
+      {
+        "code": "COMPARATIVE_VALUE",
+        "severity": "INFO",
+        "message": "valeur comparative 2024 publiée dans le rapport 2025"
+      },
+      {
+        "code": "CORROBORATED_ELSEWHERE",
+        "severity": "INFO",
+        "message": "même valeur trouvée dans 2 sources"
+      },
+      {
+        "code": "HUMAN_PDF_CONFIRMED",
+        "severity": "HUMAN",
+        "message": "Lu p.63 : BILAN PASSIF (en milliers de dirhams), ligne « TOTAL PASSIF », colonne 31/12/2024 = 3 182 052 (égal au TOTAL ACTIF 2024). Unité indiquée ; périmètre (consolidé/social) non écrit sur la page : non inventé."
+      }
+    ],
+    "evidence": {
+      "pdf_file": "Sothema_RFA_2025.pdf",
+      "pdf_sha256": "80fe4f4e33994e623ea6e46680bec33b6dc8f183ef3724b13923af71b698dbc6",
+      "pdf_page": 63,
+      "printed_page": null,
+      "table_title": "BILAN PASSIF (en milliers de dirhams)",
+      "value_read": "3182052",
+      "sign": "+",
+      "unit": "KMAD",
+      "scope": null,
+      "column_year": 2024,
+      "currency": "MAD",
+      "checked_by": "Rihab",
+      "checked_at": "2026-11-10"
+    },
+    "conflict_group": null,
+    "original": {
+      "nom": "TOTAL PASSIF",
+      "annee": 2024,
+      "valeur": 3182052.0,
+      "ligne_source": "TOTAL PASSIF  | 4 607 253  | 3 182 052 ",
+      "entreprise": "sothema",
+      "unite": null,
+      "perimetre": null,
+      "source_table": "DOCLING_053",
+      "source_page": 63,
+      "source_ligne": 21,
+      "validation_status": "NOT_CHECKED",
+      "indicator": "TOTAL_LIABILITIES_AND_EQUITY",
+      "report_year": 2025
+    }
+  }
+]

@@ -1,0 +1,248 @@
+[
+  {
+    "candidate_id": "1c4f98aabe22535b",
+    "status": "REVIEW_REQUIRED",
+    "normalized": {
+      "company": "auto_hall",
+      "indicator": "EQUITY",
+      "label": "Capitaux propres part groupe",
+      "observation_year": 2024,
+      "report_year": 2024,
+      "value": "1458514079.08",
+      "unit": null,
+      "scope": null,
+      "source_table": "DOCLING_080",
+      "source_page": 55,
+      "source_row": 6,
+      "source_line_text": "Capitaux propres part groupe  | 1 458 514 079,08  | 1 542 989 683,63",
+      "profile": "GENERAL_CORPORATE"
+    },
+    "reasons": [
+      {
+        "code": "MISSING_UNIT",
+        "severity": "INFO",
+        "message": "unité absente : non inventée, à prouver sur le PDF"
+      },
+      {
+        "code": "MISSING_SCOPE",
+        "severity": "INFO",
+        "message": "périmètre absent : social/consolidé à prouver"
+      },
+      {
+        "code": "CURRENT_YEAR_VALUE",
+        "severity": "INFO",
+        "message": "valeur de l'exercice du rapport"
+      },
+      {
+        "code": "EQUITY_GROUP_SHARE",
+        "severity": "REVIEW",
+        "message": "capitaux propres part du groupe classés en EQUITY (total) : à distinguer"
+      },
+      {
+        "code": "ROUNDING_DIFFERENCE",
+        "severity": "INFO",
+        "message": "écart d'arrondi ≤ 1 entre sources : ['1458514079.08', '1458514079.09']"
+      },
+      {
+        "code": "HUMAN_REVIEW_REQUIRED",
+        "severity": "HUMAN",
+        "message": "Lu p.55 (Comptes consolidés, passif en dirhams) : ligne « Capitaux propres part groupe » 31/12/2024 = 1 458 514 079,08, montant identique. Mais c'est la part du groupe, pas le total des capitaux propres (EQUITY) : indicateur à reclasser en capitaux propres part du groupe (le total « Capitaux propres » est une ligne distincte, de même montant faute d'intérêts minoritaires)."
+      }
+    ],
+    "evidence": {
+      "pdf_file": "AutoHall_RFA_2024.pdf",
+      "pdf_sha256": "8607fb17c773ba52dab858b20a2c1f62ae28d1393ba8c53195d39083d9ff5f6c",
+      "pdf_page": 55,
+      "printed_page": null,
+      "table_title": "0",
+      "value_read": "1458514079.08",
+      "sign": "+",
+      "unit": "MAD",
+      "scope": "CONSOLIDE",
+      "column_year": 2024,
+      "currency": "MAD",
+      "checked_by": "Rihab",
+      "checked_at": "2026-11-10"
+    },
+    "conflict_group": "rounding-34",
+    "original": {
+      "nom": "Capitaux propres part groupe",
+      "annee": 2024,
+      "valeur": 1458514079.08,
+      "ligne_source": "Capitaux propres part groupe  | 1 458 514 079,08  | 1 542 989 683,63",
+      "entreprise": "auto_hall",
+      "unite": null,
+      "perimetre": null,
+      "source_table": "DOCLING_080",
+      "source_page": 55,
+      "source_ligne": 6,
+      "validation_status": "NOT_CHECKED",
+      "indicator": "EQUITY",
+      "report_year": 2024
+    }
+  },
+  {
+    "candidate_id": "3f83ba11f009e2cb",
+    "status": "REVIEW_REQUIRED",
+    "normalized": {
+      "company": "sothema",
+      "indicator": "EQUITY",
+      "label": "CAPITAUX PROPRES, PART DU GROUPE",
+      "observation_year": 2024,
+      "report_year": 2025,
+      "value": "1684172.0",
+      "unit": null,
+      "scope": null,
+      "source_table": "DOCLING_053",
+      "source_page": 63,
+      "source_row": 6,
+      "source_line_text": "CAPITAUX PROPRES, PART DU GROUPE  | 2 619 648  | 1 684 172 ",
+      "profile": "GENERAL_CORPORATE"
+    },
+    "reasons": [
+      {
+        "code": "MISSING_UNIT",
+        "severity": "INFO",
+        "message": "unité absente : non inventée, à prouver sur le PDF"
+      },
+      {
+        "code": "MISSING_SCOPE",
+        "severity": "INFO",
+        "message": "périmètre absent : social/consolidé à prouver"
+      },
+      {
+        "code": "COMPARATIVE_VALUE",
+        "severity": "INFO",
+        "message": "valeur comparative 2024 publiée dans le rapport 2025"
+      },
+      {
+        "code": "EQUITY_GROUP_SHARE",
+        "severity": "REVIEW",
+        "message": "capitaux propres part du groupe classés en EQUITY (total) : à distinguer"
+      },
+      {
+        "code": "VALUE_CONFLICT",
+        "severity": "REVIEW",
+        "message": "valeurs concurrentes entre rapports pour sothema 2024 EQUITY : 1707312.0 (périmètre/version à départager)"
+      },
+      {
+        "code": "HUMAN_REVIEW_REQUIRED",
+        "severity": "HUMAN",
+        "message": "Lu p.63 : BILAN PASSIF (en milliers de dirhams), ligne « CAPITAUX PROPRES, PART DU GROUPE », colonne 31/12/2024 = 1 684 172 : valeur exacte, mais c'est la part du groupe et non le total des capitaux propres (TOTAL DES CAPITAUX PROPRES 2024 = 1 707 312). Indicateur EQUITY à reclassifier (part du groupe) par l'équipe Extraction."
+      }
+    ],
+    "evidence": {
+      "pdf_file": "Sothema_RFA_2025.pdf",
+      "pdf_sha256": "80fe4f4e33994e623ea6e46680bec33b6dc8f183ef3724b13923af71b698dbc6",
+      "pdf_page": 63,
+      "printed_page": null,
+      "table_title": "BILAN PASSIF (en milliers de dirhams)",
+      "value_read": "1684172",
+      "sign": "+",
+      "unit": "KMAD",
+      "scope": null,
+      "column_year": 2024,
+      "currency": "MAD",
+      "checked_by": "Rihab",
+      "checked_at": "2026-11-10"
+    },
+    "conflict_group": "conflict-146",
+    "original": {
+      "nom": "CAPITAUX PROPRES, PART DU GROUPE",
+      "annee": 2024,
+      "valeur": 1684172.0,
+      "ligne_source": "CAPITAUX PROPRES, PART DU GROUPE  | 2 619 648  | 1 684 172 ",
+      "entreprise": "sothema",
+      "unite": null,
+      "perimetre": null,
+      "source_table": "DOCLING_053",
+      "source_page": 63,
+      "source_ligne": 6,
+      "validation_status": "NOT_CHECKED",
+      "indicator": "EQUITY",
+      "report_year": 2025
+    }
+  },
+  {
+    "candidate_id": "dc966b9dba1ceafe",
+    "status": "REVIEW_REQUIRED",
+    "normalized": {
+      "company": "sothema",
+      "indicator": "EQUITY",
+      "label": "CAPITAUX PROPRES, PART DU GROUPE",
+      "observation_year": 2025,
+      "report_year": 2025,
+      "value": "2619648.0",
+      "unit": null,
+      "scope": null,
+      "source_table": "DOCLING_053",
+      "source_page": 63,
+      "source_row": 6,
+      "source_line_text": "CAPITAUX PROPRES, PART DU GROUPE  | 2 619 648  | 1 684 172 ",
+      "profile": "GENERAL_CORPORATE"
+    },
+    "reasons": [
+      {
+        "code": "MISSING_UNIT",
+        "severity": "INFO",
+        "message": "unité absente : non inventée, à prouver sur le PDF"
+      },
+      {
+        "code": "MISSING_SCOPE",
+        "severity": "INFO",
+        "message": "périmètre absent : social/consolidé à prouver"
+      },
+      {
+        "code": "CURRENT_YEAR_VALUE",
+        "severity": "INFO",
+        "message": "valeur de l'exercice du rapport"
+      },
+      {
+        "code": "EQUITY_GROUP_SHARE",
+        "severity": "REVIEW",
+        "message": "capitaux propres part du groupe classés en EQUITY (total) : à distinguer"
+      },
+      {
+        "code": "VALUE_CONFLICT",
+        "severity": "REVIEW",
+        "message": "valeurs concurrentes dans le même rapport pour sothema 2025 EQUITY : 2649675.0 (périmètre/version à départager)"
+      },
+      {
+        "code": "HUMAN_REVIEW_REQUIRED",
+        "severity": "HUMAN",
+        "message": "Lu p.63 : BILAN PASSIF (en milliers de dirhams), ligne « CAPITAUX PROPRES, PART DU GROUPE », colonne 31/12/2025 = 2 619 648 : valeur exacte, mais c'est la part du groupe et non le total des capitaux propres (TOTAL DES CAPITAUX PROPRES 2025 = 2 649 675). Indicateur EQUITY à reclassifier (part du groupe) par l'équipe Extraction."
+      }
+    ],
+    "evidence": {
+      "pdf_file": "Sothema_RFA_2025.pdf",
+      "pdf_sha256": "80fe4f4e33994e623ea6e46680bec33b6dc8f183ef3724b13923af71b698dbc6",
+      "pdf_page": 63,
+      "printed_page": null,
+      "table_title": "BILAN PASSIF (en milliers de dirhams)",
+      "value_read": "2619648",
+      "sign": "+",
+      "unit": "KMAD",
+      "scope": null,
+      "column_year": 2025,
+      "currency": "MAD",
+      "checked_by": "Rihab",
+      "checked_at": "2026-11-10"
+    },
+    "conflict_group": "conflict-148",
+    "original": {
+      "nom": "CAPITAUX PROPRES, PART DU GROUPE",
+      "annee": 2025,
+      "valeur": 2619648.0,
+      "ligne_source": "CAPITAUX PROPRES, PART DU GROUPE  | 2 619 648  | 1 684 172 ",
+      "entreprise": "sothema",
+      "unite": null,
+      "perimetre": null,
+      "source_table": "DOCLING_053",
+      "source_page": 63,
+      "source_ligne": 6,
+      "validation_status": "NOT_CHECKED",
+      "indicator": "EQUITY",
+      "report_year": 2025
+    }
+  }
+]
