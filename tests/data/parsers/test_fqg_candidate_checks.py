@@ -296,3 +296,27 @@ def test_real_handoff_checks():
         and d.c.indicator == "NET_INCOME_GROUP_SHARE"
     ]
     assert sonasid and all("THOUSANDS_SEPARATOR_MISREAD" in codes(d) for d in sonasid)
+
+
+def test_note_references_are_not_amounts(tmp_path):
+    record = cand(
+        indicator="CUSTOMER_LOANS",
+        nom="Prêts et créances sur la clientèle",
+        valeur=447885567.0,
+        ligne_source="Prêts et créances  | 2.4 / 2.17  | 447 885 567  | 413 590 717",
+    )
+    (d,), _ = check(tmp_path, [record])
+    assert "MULTIPLE_AMOUNTS_IN_CELL" not in codes(d)
+    assert "VALUE_NOT_IN_SOURCE_LINE" not in codes(d)
+
+
+def test_small_integer_amounts_are_kept(tmp_path):
+    record = cand(
+        entreprise="lesieur_cristal",
+        indicator="NET_INCOME_GROUP_SHARE",
+        nom="Résultat net part du groupe",
+        valeur=24.0,
+        ligne_source="Résultat net part du groupe  | 24  | 2",
+    )
+    (d,), _ = check(tmp_path, [record])
+    assert "VALUE_NOT_IN_SOURCE_LINE" not in codes(d)

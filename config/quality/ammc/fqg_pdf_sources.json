@@ -1,0 +1,321 @@
+{
+  "schema_version": "1.0",
+  "source": "ocr_metadata.json (Parsing & OCR)",
+  "reports": [
+    {
+      "company": "aradei_capital",
+      "report_year": 2023,
+      "pdf_file": "Aradei_Capital_RFA_2023_0.pdf",
+      "pdf_relative_path": "data/raw/ammc/pdfs/annual/aradei_capital/2023/Aradei_Capital_RFA_2023_0.pdf",
+      "pdf_sha256": "061c5249a3595c9f6e52d1b47cdaae5f1dd741693967f036af970fd9251e0422"
+    },
+    {
+      "company": "aradei_capital",
+      "report_year": 2024,
+      "pdf_file": "Aradei_Capital_RFA_2024_0.pdf",
+      "pdf_relative_path": "data/raw/ammc/pdfs/annual/aradei_capital/2024/Aradei_Capital_RFA_2024_0.pdf",
+      "pdf_sha256": "a9c56f1a606c0f30802078ad4b5a5202c02506e3f8b0ae7353220c9070b09b13"
+    },
+    {
+      "company": "aradei_capital",
+      "report_year": 2025,
+      "pdf_file": "Aradei_Capital_RFA_2025.pdf",
+      "pdf_relative_path": "data/raw/ammc/pdfs/annual/aradei_capital/2025/Aradei_Capital_RFA_2025.pdf",
+      "pdf_sha256": "272fdb3d9d6ead47bee49030106ae671774421580c0e7f4f44cf8d8fe354e658"
+    },
+    {
+      "company": "auto_hall",
+      "report_year": 2023,
+      "pdf_file": "Auto_Hall_RFA_2023.pdf",
+      "pdf_relative_path": "data/raw/ammc/pdfs/annual/auto_hall/2023/Auto_Hall_RFA_2023.pdf",
+      "pdf_sha256": "103d6b830f642064fb187f6b6cf2555adc64303ea5057e0205dc46c02823f88f"
+    },
+    {
+      "company": "auto_hall",
+      "report_year": 2025,
+      "pdf_file": "Auto_Hall_RFA_2025_1.pdf",
+      "pdf_relative_path": "data/raw/ammc/pdfs/annual/auto_hall/2025/Auto_Hall_RFA_2025_1.pdf",
+      "pdf_sha256": "40e739bff27c1e9581c7c21188f837ba486de9c1e06aca89b49919cb2b39e302"
+    },
+    {
+      "company": "auto_hall",
+      "report_year": 2024,
+      "pdf_file": "AutoHall_RFA_2024.pdf",
+      "pdf_relative_path": "data/raw/ammc/pdfs/annual/auto_hall/2024/AutoHall_RFA_2024.pdf",
+      "pdf_sha256": "8607fb17c773ba52dab858b20a2c1f62ae28d1393ba8c53195d39083d9ff5f6c"
+    },
+    {
+      "company": "attijariwafa_bank",
+      "report_year": 2023,
+      "pdf_file": "AWB_RFA_2023.pdf",
+      "pdf_relative_path": "data/raw/ammc/pdfs/annual/attijariwafa_bank/2023/AWB_RFA_2023.pdf",
+      "pdf_sha256": "f0d3f35ca055722d3c33cabc473b34b8d40b0c6d788214fc1bafd474bbc0d3d8"
+    },
+    {
+      "company": "attijariwafa_bank",
+      "report_year": 2024,
+      "pdf_file": "AWB_RFA_2024_1.pdf",
+      "pdf_relative_path": "data/raw/ammc/pdfs/annual/attijariwafa_bank/2024/AWB_RFA_2024_1.pdf",
+      "pdf_sha256": "8ffe034d37ebfaab5a7c7171318f9e84aff8c383db97babb04b4274d7a78efe8"
+    },
+    {
+      "company": "attijariwafa_bank",
+      "report_year": 2025,
+      "pdf_file": "AWB_RFA_2025.pdf",
+      "pdf_relative_path": "data/raw/ammc/pdfs/annual/attijariwafa_bank/2025/AWB_RFA_2025.pdf",
+      "pdf_sha256": "766da5ac174bfd22e1a9aac59fd5465bb51b2249ed8143268afba5235f1e3afb"
+    },
+    {
+      "company": "cosumar",
+      "report_year": 2023,
+      "pdf_file": "COSUMAR_RFA_2023.pdf",
+      "pdf_relative_path": "data/raw/ammc/pdfs/annual/cosumar/2023/COSUMAR_RFA_2023.pdf",
+      "pdf_sha256": "37da671b9191eef4d5feeb6b8a47825e83ebe927e0988745eef8c2f157efaf20"
+    },
+    {
+      "company": "cosumar",
+      "report_year": 2024,
+      "pdf_file": "COSUMAR_RFA_2024.pdf",
+      "pdf_relative_path": "data/raw/ammc/pdfs/annual/cosumar/2024/COSUMAR_RFA_2024.pdf",
+      "pdf_sha256": "43a21829124fad0aa6e0fcd979cc5aa339104fa38161e9fcb356930574d8c0a9"
+    },
+    {
+      "company": "cosumar",
+      "report_year": 2025,
+      "pdf_file": "Cosumar_RFA_2025.pdf",
+      "pdf_relative_path": "data/raw/ammc/pdfs/annual/cosumar/2025/Cosumar_RFA_2025.pdf",
+      "pdf_sha256": "7da285e005cb965a42fbb8302087b277787015172a33aa1b70d48d9f4d415d90"
+    },
+    {
+      "company": "dari_couspate",
+      "report_year": 2023,
+      "pdf_file": "Dari_Couspate_RFA_2023.pdf",
+      "pdf_relative_path": "data/raw/ammc/pdfs/annual/dari_couspate/2023/Dari_Couspate_RFA_2023.pdf",
+      "pdf_sha256": "e98a5ff007bef2599ab23c04a5196286d9db7f3e1a3fc1cc6bc9d5d10d5ae235"
+    },
+    {
+      "company": "dari_couspate",
+      "report_year": 2024,
+      "pdf_file": "Dari_Couspate_RFA_2024.pdf",
+      "pdf_relative_path": "data/raw/ammc/pdfs/annual/dari_couspate/2024/Dari_Couspate_RFA_2024.pdf",
+      "pdf_sha256": "e266843578f05e510e54b18149764740876b7d9a412f7639758e0836c893dc6e"
+    },
+    {
+      "company": "dari_couspate",
+      "report_year": 2025,
+      "pdf_file": "Dari_Couspate_RFA_2025.pdf",
+      "pdf_relative_path": "data/raw/ammc/pdfs/annual/dari_couspate/2025/Dari_Couspate_RFA_2025.pdf",
+      "pdf_sha256": "111e33d82e0da5ce0eb1d6ac78438e57d9138371e858fb44cfa1904277cc4ec8"
+    },
+    {
+      "company": "lafargeholcim_maroc",
+      "report_year": 2024,
+      "pdf_file": "LafargeHolcim_Maroc_RFA_2024.pdf",
+      "pdf_relative_path": "data/raw/ammc/pdfs/annual/lafargeholcim_maroc/2024/LafargeHolcim_Maroc_RFA_2024.pdf",
+      "pdf_sha256": "f246c5d9357d6962afafbdeaf94c18b2329b20f5d2d4f8eca63de6ba7a4c6c1c"
+    },
+    {
+      "company": "lafargeholcim_maroc",
+      "report_year": 2023,
+      "pdf_file": "LafargeHolcim_RFA_2023.pdf",
+      "pdf_relative_path": "data/raw/ammc/pdfs/annual/lafargeholcim_maroc/2023/LafargeHolcim_RFA_2023.pdf",
+      "pdf_sha256": "315ac8f1631a43cb30ad92bc1cd27172752b158bec144a66c1457fbfd7ae0896"
+    },
+    {
+      "company": "lafargeholcim_maroc",
+      "report_year": 2025,
+      "pdf_file": "LafargeHolcim_RFA_2025.pdf",
+      "pdf_relative_path": "data/raw/ammc/pdfs/annual/lafargeholcim_maroc/2025/LafargeHolcim_RFA_2025.pdf",
+      "pdf_sha256": "889b39eaaa0a56050017a0c391395b991a9f7fcc330c579a4d598cd656b790bd"
+    },
+    {
+      "company": "lesieur_cristal",
+      "report_year": 2023,
+      "pdf_file": "Lesieur_Cristal_RFA_2023.pdf",
+      "pdf_relative_path": "data/raw/ammc/pdfs/annual/lesieur_cristal/2023/Lesieur_Cristal_RFA_2023.pdf",
+      "pdf_sha256": "f4d23c282404b2ca0b8b95407fdc1567ce1785b0a28633ca79ce17d20f5f61f0"
+    },
+    {
+      "company": "lesieur_cristal",
+      "report_year": 2025,
+      "pdf_file": "Lesieur_Cristal_RFA_2025.pdf",
+      "pdf_relative_path": "data/raw/ammc/pdfs/annual/lesieur_cristal/2025/Lesieur_Cristal_RFA_2025.pdf",
+      "pdf_sha256": "c6b658c29b0f2210414acc78511aab70bac1061b3a407581d14d47312c6a5b35"
+    },
+    {
+      "company": "lesieur_cristal",
+      "report_year": 2024,
+      "pdf_file": "LesieurCristal_RFA_2024.pdf",
+      "pdf_relative_path": "data/raw/ammc/pdfs/annual/lesieur_cristal/2024/LesieurCristal_RFA_2024.pdf",
+      "pdf_sha256": "1fafb71c34eb0f5f70ab1f91cfb8f2306009e8fec26ad45d2914677902655f9f"
+    },
+    {
+      "company": "managem",
+      "report_year": 2023,
+      "pdf_file": "Managem_RFA_2023.pdf",
+      "pdf_relative_path": "data/raw/ammc/pdfs/annual/managem/2023/Managem_RFA_2023.pdf",
+      "pdf_sha256": "0a1db645858d0c22ecf11467816d15c257b520f13e9f7a44aff0f32b1f035c56"
+    },
+    {
+      "company": "managem",
+      "report_year": 2024,
+      "pdf_file": "Managem_RFA_2024.pdf",
+      "pdf_relative_path": "data/raw/ammc/pdfs/annual/managem/2024/Managem_RFA_2024.pdf",
+      "pdf_sha256": "66faa7db8f82d5bd2f03f8fa1e7dcd2a841c7384e9897fbbdec6caa12779e6b9"
+    },
+    {
+      "company": "managem",
+      "report_year": 2025,
+      "pdf_file": "Managem_RFA_2025.pdf",
+      "pdf_relative_path": "data/raw/ammc/pdfs/annual/managem/2025/Managem_RFA_2025.pdf",
+      "pdf_sha256": "c55a5149908f04488db23af43ff3e952dbeb72126a7ec00836f7b7452f648506"
+    },
+    {
+      "company": "marsa_maroc",
+      "report_year": 2023,
+      "pdf_file": "Marsa_Maroc_RFA_2023.pdf",
+      "pdf_relative_path": "data/raw/ammc/pdfs/annual/marsa_maroc/2023/Marsa_Maroc_RFA_2023.pdf",
+      "pdf_sha256": "e192beece3e68f539805ab0736169d476515b14cea954682c8768d5a10946dbd"
+    },
+    {
+      "company": "marsa_maroc",
+      "report_year": 2024,
+      "pdf_file": "Marsa_Maroc_RFA_2024.pdf",
+      "pdf_relative_path": "data/raw/ammc/pdfs/annual/marsa_maroc/2024/Marsa_Maroc_RFA_2024.pdf",
+      "pdf_sha256": "544ce1f6baeeb02c3ca69fcaa273bcaf365a78cab2a4f14e8aa45ff256adc4f3"
+    },
+    {
+      "company": "marsa_maroc",
+      "report_year": 2025,
+      "pdf_file": "Marsa_RFA_2025.pdf",
+      "pdf_relative_path": "data/raw/ammc/pdfs/annual/marsa_maroc/2025/Marsa_RFA_2025.pdf",
+      "pdf_sha256": "545e6c26faedc5e93b21957c1e210908b1571670a00941c7ba168d2aacab67db"
+    },
+    {
+      "company": "s2m",
+      "report_year": 2023,
+      "pdf_file": "S2M_RFA_2023.pdf",
+      "pdf_relative_path": "data/raw/ammc/pdfs/annual/s2m/2023/S2M_RFA_2023.pdf",
+      "pdf_sha256": "68e56d7ffffb013dd7bdb8269f0a091c29c46fb5ee7036154824c0aba300c78b"
+    },
+    {
+      "company": "s2m",
+      "report_year": 2024,
+      "pdf_file": "S2M_RFA_2024.pdf",
+      "pdf_relative_path": "data/raw/ammc/pdfs/annual/s2m/2024/S2M_RFA_2024.pdf",
+      "pdf_sha256": "84d9b0c2f502e3a4224e8048049c44b255527b9dc0e5c24e740f5314a7b2af70"
+    },
+    {
+      "company": "s2m",
+      "report_year": 2025,
+      "pdf_file": "S2M_RFA_2025.pdf",
+      "pdf_relative_path": "data/raw/ammc/pdfs/annual/s2m/2025/S2M_RFA_2025.pdf",
+      "pdf_sha256": "81084c026ed0386c318271d9040e658f258888f6df1d57e150417244c90df12f"
+    },
+    {
+      "company": "sonasid",
+      "report_year": 2023,
+      "pdf_file": "Sonasid_RFA_2023.pdf",
+      "pdf_relative_path": "data/raw/ammc/pdfs/annual/sonasid/2023/Sonasid_RFA_2023.pdf",
+      "pdf_sha256": "8ec7d9f56cbab9471db45ff8aa694bda989c975dd3b3d1ea71bab0e7a7200acb"
+    },
+    {
+      "company": "sonasid",
+      "report_year": 2024,
+      "pdf_file": "Sonasid_RFA_2024.pdf",
+      "pdf_relative_path": "data/raw/ammc/pdfs/annual/sonasid/2024/Sonasid_RFA_2024.pdf",
+      "pdf_sha256": "923afdd69eaae6b59b36e353551e1aced8df1cdcf4a362bba4a4e3961dbcf68a"
+    },
+    {
+      "company": "sonasid",
+      "report_year": 2025,
+      "pdf_file": "Sonasid_RFA_2025.pdf",
+      "pdf_relative_path": "data/raw/ammc/pdfs/annual/sonasid/2025/Sonasid_RFA_2025.pdf",
+      "pdf_sha256": "10fa0d509660825664a52775b36512640e24f9e7b7f2ac84d4fe51ceaaa6ed47"
+    },
+    {
+      "company": "sothema",
+      "report_year": 2023,
+      "pdf_file": "Sothema_RFA_2023.pdf",
+      "pdf_relative_path": "data/raw/ammc/pdfs/annual/sothema/2023/Sothema_RFA_2023.pdf",
+      "pdf_sha256": "92e1245059d23d642af8ecfe8d82b8cd6a96dc781cbd0824435f32fdcf85e964"
+    },
+    {
+      "company": "sothema",
+      "report_year": 2024,
+      "pdf_file": "Sothema_RFA_2024.pdf",
+      "pdf_relative_path": "data/raw/ammc/pdfs/annual/sothema/2024/Sothema_RFA_2024.pdf",
+      "pdf_sha256": "9fcc99fda229b8a47c7fa58f9bc916dbb5893c5771a7c96d9433a4aae7337613"
+    },
+    {
+      "company": "sothema",
+      "report_year": 2025,
+      "pdf_file": "Sothema_RFA_2025.pdf",
+      "pdf_relative_path": "data/raw/ammc/pdfs/annual/sothema/2025/Sothema_RFA_2025.pdf",
+      "pdf_sha256": "80fe4f4e33994e623ea6e46680bec33b6dc8f183ef3724b13923af71b698dbc6"
+    },
+    {
+      "company": "stroc",
+      "report_year": 2023,
+      "pdf_file": "Stroc_RFA_2023.pdf",
+      "pdf_relative_path": "data/raw/ammc/pdfs/annual/stroc/2023/Stroc_RFA_2023.pdf",
+      "pdf_sha256": "6df7a90565c91f9a66b32132af59acfb4e5a9e9b70d680fea00904dd661c8faf"
+    },
+    {
+      "company": "stroc",
+      "report_year": 2024,
+      "pdf_file": "Stroc_RFA_2024.pdf",
+      "pdf_relative_path": "data/raw/ammc/pdfs/annual/stroc/2024/Stroc_RFA_2024.pdf",
+      "pdf_sha256": "6a5a05a3f6a36e7b913fa009c1726fdcbe3abbd2733aff8afdc2abecaa2e5ac6"
+    },
+    {
+      "company": "stroc",
+      "report_year": 2025,
+      "pdf_file": "Stroc_RFA_2025.pdf",
+      "pdf_relative_path": "data/raw/ammc/pdfs/annual/stroc/2025/Stroc_RFA_2025.pdf",
+      "pdf_sha256": "694046731cc6e8e43b72ee7a777c727393af72269d9643d31b68ebe3174666ee"
+    },
+    {
+      "company": "totalenergies_marketing_maroc",
+      "report_year": 2025,
+      "pdf_file": "TEMM_-_Rapport_Financier_Annuel_2025_VDEF.pdf",
+      "pdf_relative_path": "data/raw/ammc/pdfs/annual/totalenergies_marketing_maroc/2025/TEMM_-_Rapport_Financier_Annuel_2025_VDEF.pdf",
+      "pdf_sha256": "0bdafba1f31f78e1e5da952d9a5026ae19b343e256b6c32fee0ac39b18d27ded"
+    },
+    {
+      "company": "totalenergies_marketing_maroc",
+      "report_year": 2023,
+      "pdf_file": "TEMM_RFA_2023_0.pdf",
+      "pdf_relative_path": "data/raw/ammc/pdfs/annual/totalenergies_marketing_maroc/2023/TEMM_RFA_2023_0.pdf",
+      "pdf_sha256": "d7373ed93f72bf1b96656f6f335d7d5fbb9abcc3960e3c1c42a674c1fb7a06eb"
+    },
+    {
+      "company": "totalenergies_marketing_maroc",
+      "report_year": 2024,
+      "pdf_file": "Total_RFA_2024_0.pdf",
+      "pdf_relative_path": "data/raw/ammc/pdfs/annual/totalenergies_marketing_maroc/2024/Total_RFA_2024_0.pdf",
+      "pdf_sha256": "c284bfb03807181d36dd125f21d0ebdd0a289ade3679f18a9d19d295b179bc7b"
+    },
+    {
+      "company": "wafa_assurance",
+      "report_year": 2023,
+      "pdf_file": "Wafa_assurance_RFA_2023.pdf",
+      "pdf_relative_path": "data/raw/ammc/pdfs/annual/wafa_assurance/2023/Wafa_assurance_RFA_2023.pdf",
+      "pdf_sha256": "745ff7211e3b184db1380544b96bb9598fb8a5837b95054fbe616cdb8b666d9b"
+    },
+    {
+      "company": "wafa_assurance",
+      "report_year": 2024,
+      "pdf_file": "Wafa_Assurance_RFA_2024.pdf",
+      "pdf_relative_path": "data/raw/ammc/pdfs/annual/wafa_assurance/2024/Wafa_Assurance_RFA_2024.pdf",
+      "pdf_sha256": "bf88ab2b2e9e199120f59dadf2f786ddbd8abf5f6b37b05052ec40bc5574d30a"
+    },
+    {
+      "company": "wafa_assurance",
+      "report_year": 2025,
+      "pdf_file": "Wafa_Assurance_RFA_2025.pdf",
+      "pdf_relative_path": "data/raw/ammc/pdfs/annual/wafa_assurance/2025/Wafa_Assurance_RFA_2025.pdf",
+      "pdf_sha256": "162f0a480d639cd9e19b6e44304d6170bd47f5c5ab899dc3260d7db0fc3b8ec6"
+    }
+  ]
+}
