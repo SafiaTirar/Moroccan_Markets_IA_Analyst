@@ -5,12 +5,12 @@ from .line_extractor import convertir_montant
 from .table_config import obtenir_configuration
 
 
-def convertir_montant_financier(cellule):
-    """Convertit un montant isolé sans accepter de texte parasite."""
+def convertir_montant_financier(cellule, point_milliers=False):
+    """Convertit un montant financier en respectant son format."""
 
     texte = str(cellule).strip()
 
-    # Cas : 9.332.718 ou -1.588.764 ou 1.588.764,25
+    # Cas : 9.332.718, -1.588.764 ou 1.588.764,25
     format_points = re.fullmatch(
         r"([+-]?)(\d{1,3}(?:\.\d{3}){2,})(?:,(\d+))?",
         texte,
@@ -18,25 +18,30 @@ def convertir_montant_financier(cellule):
 
     if format_points:
         signe, partie_entiere, decimales = format_points.groups()
-
-        partie_entiere = partie_entiere.replace(".", "")
-        montant = signe + partie_entiere
+        montant = signe + partie_entiere.replace(".", "")
 
         if decimales is not None:
             montant += "." + decimales
 
         return float(montant)
 
-    # Autres formats : conserver le convertisseur existant.
+    # Cas : 85.712 (un seul point)
+    # À utiliser uniquement si le tableau emploie
+    # le point comme séparateur de milliers.
+    if point_milliers and re.fullmatch(
+        r"[+-]?\d{1,3}\.\d{3}",
+        texte,
+    ):
+        return float(texte.replace(".", ""))
+
+    # Autres formats : conserver le comportement existant.
     return convertir_montant(texte)
-
-
 def extraire_valeurs_indicateurs(tableau):
     """Extrait les montants candidats des indicateurs détectés."""
 
     config = obtenir_configuration(tableau)
     correspondances = trouver_indicateurs(tableau)
-
+    point_milliers = tableau.get("point_milliers", False)
     resultats = []
 
     for correspondance in correspondances:
@@ -47,7 +52,9 @@ def extraire_valeurs_indicateurs(tableau):
 
             if indice < len(cellules):
                 montant = convertir_montant_financier(
-                    cellules[indice]
+                    cellules[indice],
+                    point_milliers=point_milliers,
+
                 )
 
             resultats.append({

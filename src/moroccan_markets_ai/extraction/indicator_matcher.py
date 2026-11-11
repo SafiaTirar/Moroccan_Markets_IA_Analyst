@@ -49,15 +49,26 @@ def trouver_indicateurs(tableau):
         if (
             "capitaux propres assimiles" in texte
             or "gains et pertes comptabilises directement en capitaux propres" in texte
+            or (
+                "capitaux propres" in texte
+                and "part du groupe" in texte.replace("-", " ")
+            )
         ):
             continue
-
         # Distinguer le résultat net total
         # du résultat net part du groupe.
-        if "resultat net" in texte and "part du groupe" in texte:
+        codes_autorises = {
+    item["indicator"]
+    for item in indicateurs
+}
+
+        if (
+            "resultat net" in texte
+            and "part du groupe" in texte.replace("-", " ")
+            and "NET_INCOME_GROUP_SHARE" in codes_autorises
+        ):
             indicator = "NET_INCOME_GROUP_SHARE"
             synonyme = "résultat net ... part du groupe"
-
         elif "resultat net des entreprises integrees" in texte:
             # Ce poste nécessite une vérification comptable.
             continue
