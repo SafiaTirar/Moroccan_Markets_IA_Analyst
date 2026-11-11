@@ -10,13 +10,27 @@ from moroccan_markets_ai.extraction.table_config import obtenir_configuration
 from moroccan_markets_ai.extraction.table_detector import detecter_type_tableau
 from moroccan_markets_ai.extraction.table_diagnostic import diagnostiquer_tableau
 
-RACINE = Path(
-    r"C:\Users\pc\Desktop\AMMC_annual_45"
-    r"\artifacts\handover\AMMC_annual_45"
+RACINE = (
+    Path.home()
+    / "Desktop"
+    / "AMMC_annual_45"
+    / "artifacts"
+    / "handover"
+    / "AMMC_annual_45"
 )
 
 SORTIE = Path("data/quality/ammc/extraction_globale")
 
+# Ajouter ici uniquement les identifiants de tableaux Sonasid 2023
+# dont le format numérique a été confirmé dans le PDF original.
+#
+# Exemple, après vérification :
+# TABLEAUX_POINTS_MILLIERS = {
+#     ("sonasid", 2023, "DOCLING_XXX"),
+# }
+TABLEAUX_POINTS_MILLIERS = {
+    ("sonasid", 2023, "DOCLING_043"),
+}
 
 # Accepter uniquement les montants isolés.
 MONTANT = re.compile(
@@ -52,14 +66,12 @@ def traiter_rapport(entreprise, annee):
     tableaux_financiers = 0
     tableaux_ready = 0
 
-    # Vérifier la présence du dossier.
     if not dossier.exists():
         return [], [{
             "raison": "DOSSIER_ABSENT",
             "detail": str(dossier),
         }], 0, 0
 
-    # Charger les tableaux Docling.
     try:
         tableaux = charger_tableaux(dossier)
 
@@ -75,8 +87,16 @@ def traiter_rapport(entreprise, annee):
 
         table_id = tableau["table_id"]
 
+        # Utiliser le point comme séparateur de milliers uniquement
+        # pour un tableau explicitement confirmé.
+        tableau["point_milliers"] = (
+            entreprise,
+            annee,
+            table_id,
+        ) in TABLEAUX_POINTS_MILLIERS
+
         try:
-            # Identifier le type de tableau.
+            # 1. Identifier le type de tableau financier.
             type_tableau = detecter_type_tableau(tableau)
 
             if type_tableau is None:
@@ -84,7 +104,7 @@ def traiter_rapport(entreprise, annee):
 
             tableaux_financiers += 1
 
-            # Vérifier l'exploitabilité des colonnes.
+            # 2. Vérifier l'exploitabilité des colonnes.
             diagnostic = diagnostiquer_tableau(tableau)
 
             if diagnostic["statut"] != "READY":
@@ -98,11 +118,12 @@ def traiter_rapport(entreprise, annee):
 
             tableaux_ready += 1
 
+            # 3. Configurer les colonnes et extraire les valeurs.
             config = obtenir_configuration(tableau)
             resultats = extraire_valeurs_indicateurs(tableau)
             lignes = tableau["contenu"].splitlines()
 
-            # Parcourir les indicateurs extraits.
+            # 4. Parcourir les indicateurs extraits.
             for resultat in resultats:
                 annee_observation = resultat["observation_year"]
 
@@ -134,7 +155,7 @@ def traiter_rapport(entreprise, annee):
                     else ""
                 )
 
-                # Rejeter les cellules ambiguës.
+                # 5. Rejeter les cellules ambiguës.
                 if (
                     resultat["status"] != "CANDIDATE"
                     or resultat["value"] is None
@@ -150,7 +171,7 @@ def traiter_rapport(entreprise, annee):
                     })
                     continue
 
-                # Conserver l'observation candidate.
+                # 6. Conserver l'observation candidate.
                 candidats.append({
                     "entreprise": entreprise,
                     "report_year": annee,
@@ -176,7 +197,7 @@ def traiter_rapport(entreprise, annee):
                 "detail": str(erreur),
             })
 
-    # Signaler un rapport sans observation extraite.
+    # Signaler les rapports sans observation extraite.
     if not candidats:
         anomalies.append({
             "raison": "AUCUN_CANDIDAT_EXTRAIT",
@@ -195,7 +216,7 @@ def traiter_rapport(entreprise, annee):
 
 
 def main():
-    """Exécute l'extraction sur les 45 rapports du corpus."""
+    """Exécute l'extraction sur les 45 rapports AMMC."""
 
     configuration = json.loads(
         Path("config/data/ammc_corpus.json").read_text(
@@ -218,7 +239,7 @@ def main():
 
             tous_candidats.extend(candidats)
 
-            # Ajouter l'entreprise et l'année aux anomalies.
+            # Conserver l'entreprise et l'année pour les anomalies.
             for anomalie in anomalies:
                 toutes_anomalies.append({
                     "entreprise": entreprise,
