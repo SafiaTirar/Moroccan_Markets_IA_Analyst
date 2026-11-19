@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "status": "PASSED",
   "database": "data/warehouse/moroccan_markets_fqg.duckdb",
-  "database_sha256": "edaa185a0463ce44ea90f33cfd265c21795eebf60e58d36f8eb5f3b049281a0f",
+  "database_sha256": "c62738aa4803939d306338a6728312288cc174a6d76779ab1183dfad2fae247b",
   "checks": {
     "database_sha_matches_report": true,
     "ingestion_status": "COMMITTED",
@@ -18,9 +18,10 @@
     "companies_with_financial_data": 9,
     "hcp_rows": 348,
     "worldbank_rows": 32,
-    "conversion_issues": [],
     "analytic_queries": 8,
     "analytic_query_failures": [],
+    "query_names_match_report": true,
+    "counts_match_ingestion_report": true,
     "passed": true
   }
 }
