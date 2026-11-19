@@ -1,0 +1,80 @@
+{
+  "schema_version": "1.0",
+  "status": "PASSED",
+  "command": "uv run fqg-warehouse",
+  "stages": {
+    "fqg": {
+      "candidates_received": 329,
+      "verified": 13
+    },
+    "adapter": {
+      "schema_version": "1.0",
+      "status": "ADAPTED",
+      "fqg_input": "data/quality/ammc/fqg_pipeline_run/fqg_validation/admissible_values.jsonl",
+      "input_records": 13,
+      "emitted_records": 11,
+      "skipped_existing_duplicates": 2,
+      "skipped_reference_ids": [
+        "18b8fccb1143d23b",
+        "1d182e45cb813c85"
+      ],
+      "unit_counts": {
+        "MAD": 5,
+        "KMAD": 5,
+        "MMAD": 1
+      },
+      "financial_output": "data/quality/ammc/fqg_pipeline_run/fqg_warehouse/verified_financial_observations.csv",
+      "references_output": "data/quality/ammc/fqg_pipeline_run/fqg_warehouse/financial_references.json"
+    },
+    "merge": {
+      "base_rows": 25,
+      "increment_rows": 11,
+      "combined_rows": 36,
+      "statuses": [
+        "VERIFIED"
+      ],
+      "base_documents": 8,
+      "increment_documents": 5,
+      "combined_documents": 13,
+      "combined_references": 40,
+      "combined_financial_rows": 36
+    },
+    "warehouse": {
+      "status": "COMMITTED",
+      "cache_used": false,
+      "loaded_rows": {
+        "dim_company": 15,
+        "fact_financial_observations": 36,
+        "fact_hcp_monthly": 348,
+        "fact_worldbank_annual": 32
+      }
+    },
+    "validation": {
+      "schema_version": "1.0",
+      "status": "PASSED",
+      "database": "data/warehouse/moroccan_markets_fqg.duckdb",
+      "database_sha256": "c62738aa4803939d306338a6728312288cc174a6d76779ab1183dfad2fae247b",
+      "checks": {
+        "database_sha_matches_report": true,
+        "ingestion_status": "COMMITTED",
+        "financial_rows": 36,
+        "non_verified_rows": 0,
+        "duplicate_business_keys": 0,
+        "invalid_currency_rows": 0,
+        "invalid_scale_rows": 0,
+        "invalid_scope_rows": 0,
+        "missing_provenance_rows": 0,
+        "current_rows": 30,
+        "comparative_rows": 6,
+        "companies_with_financial_data": 9,
+        "hcp_rows": 348,
+        "worldbank_rows": 32,
+        "analytic_queries": 8,
+        "analytic_query_failures": [],
+        "query_names_match_report": true,
+        "counts_match_ingestion_report": true,
+        "passed": true
+      }
+    }
+  }
+}
