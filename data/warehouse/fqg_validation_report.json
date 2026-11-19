@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "status": "PASSED",
+  "database": "data/warehouse/moroccan_markets_fqg.duckdb",
+  "database_sha256": "edaa185a0463ce44ea90f33cfd265c21795eebf60e58d36f8eb5f3b049281a0f",
+  "checks": {
+    "database_sha_matches_report": true,
+    "ingestion_status": "COMMITTED",
+    "financial_rows": 36,
+    "non_verified_rows": 0,
+    "duplicate_business_keys": 0,
+    "invalid_currency_rows": 0,
+    "invalid_scale_rows": 0,
+    "invalid_scope_rows": 0,
+    "missing_provenance_rows": 0,
+    "current_rows": 30,
+    "comparative_rows": 6,
+    "companies_with_financial_data": 9,
+    "hcp_rows": 348,
+    "worldbank_rows": 32,
+    "conversion_issues": [],
+    "analytic_queries": 8,
+    "analytic_query_failures": [],
+    "passed": true
+  }
+}
