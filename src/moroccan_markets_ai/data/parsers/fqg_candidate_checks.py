@@ -45,7 +45,15 @@ NON_NEGATIVE_INDICATORS = frozenset(
     }
 )
 BALANCE_TOTAL_INDICATORS = frozenset({"TOTAL_ASSETS", "TOTAL_LIABILITIES_AND_EQUITY"})
-AMOUNT_RE = re.compile(r"\(?-?\d{1,3}(?:[ .\u00a0\u202f]\d{3})+(?:,\d+)?\)?|-?\d+(?:,\d+)?")
+# Renvoi aux notes annexes (« 2.4 », « 2.4 / 2.17 ») : ce ne sont pas des montants.
+# Un entier seul (« 2 », « 24 ») reste un montant possible (ex. en millions).
+NOTE_REF_RE = re.compile(
+    r"^\d{1,2}\.\d{1,2}(?:\s*/\s*\d{1,2}(?:\.\d{1,2})?)*$"
+    r"|^\d{1,2}(?:\.\d{1,2})?(?:\s*/\s*\d{1,2}(?:\.\d{1,2})?)+$"
+)
+AMOUNT_RE = re.compile(
+    r"\(?-?\d{1,3}(?:[ .\u00a0\u202f]\d{3})+(?:,\d+)?\)?|-?\d+(?:,\d+)?"
+)
 
 
 @dataclass
@@ -96,6 +104,8 @@ def _source_amounts(line: str) -> list[list[Decimal]]:
     cells = [cell.strip() for cell in line.split("|")[1:]]
     result = []
     for cell in cells:
+        if NOTE_REF_RE.match(cell):
+            continue
         amounts = []
         for token in AMOUNT_RE.findall(cell):
             negative = token.startswith(("(", "-"))

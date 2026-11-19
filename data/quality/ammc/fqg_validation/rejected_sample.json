@@ -1,0 +1,166 @@
+[
+  {
+    "candidate_id": "ce1ec94c585ae46b",
+    "status": "REJECTED",
+    "normalized": {
+      "company": "sonasid",
+      "indicator": "NET_INCOME_GROUP_SHARE",
+      "label": "RÉSULTAT NET - PART DU GROUPE",
+      "observation_year": 2022,
+      "report_year": 2023,
+      "value": "105.721",
+      "unit": null,
+      "scope": null,
+      "source_table": "DOCLING_043",
+      "source_page": 108,
+      "source_row": 13,
+      "source_line_text": "RÉSULTAT NET - PART DU GROUPE  | 85.712  | 105.721",
+      "profile": "GENERAL_CORPORATE"
+    },
+    "reasons": [
+      {
+        "code": "MISSING_UNIT",
+        "severity": "INFO",
+        "message": "unité absente : non inventée, à prouver sur le PDF"
+      },
+      {
+        "code": "MISSING_SCOPE",
+        "severity": "INFO",
+        "message": "périmètre absent : social/consolidé à prouver"
+      },
+      {
+        "code": "COMPARATIVE_VALUE",
+        "severity": "INFO",
+        "message": "valeur comparative 2022 publiée dans le rapport 2023"
+      },
+      {
+        "code": "VALUE_NOT_IN_SOURCE_LINE",
+        "severity": "REVIEW",
+        "message": "valeur 105.721 introuvable dans la ligne source"
+      },
+      {
+        "code": "THOUSANDS_SEPARATOR_MISREAD",
+        "severity": "REVIEW",
+        "message": "'105.721' probablement un séparateur de milliers (≈ 105721)"
+      },
+      {
+        "code": "HUMAN_REJECTED",
+        "severity": "HUMAN",
+        "message": "Lu p.108 : ETAT DU RESULTAT GLOBAL CONSOLIDE (EN MILLIERS DE MAD), colonne 2022.12 = 105.721, le point est un séparateur de milliers (105 721 KMAD) et non une décimale : la valeur extraite 105.721 est fausse d'un facteur 1000. De plus, cette ligne est la part du groupe du RESULTAT GLOBAL ; le résultat net part du groupe 2022 du compte de résultat consolidé est 85.930 KMAD : indicateur mal classé. Valeur d'origine conservée, non corrigée automatiquement."
+      }
+    ],
+    "evidence": {
+      "pdf_file": "Sonasid_RFA_2023.pdf",
+      "pdf_sha256": "8ec7d9f56cbab9471db45ff8aa694bda989c975dd3b3d1ea71bab0e7a7200acb",
+      "pdf_page": 108,
+      "printed_page": null,
+      "table_title": "ETAT DU RESULTAT GLOBAL CONSOLIDE - EN MILLIERS DE MAD",
+      "value_read": "105.721",
+      "sign": "+",
+      "unit": "KMAD",
+      "scope": "CONSOLIDE",
+      "column_year": 2022,
+      "currency": "MAD",
+      "checked_by": "Rihab",
+      "checked_at": "2026-11-10"
+    },
+    "conflict_group": null,
+    "original": {
+      "nom": "RÉSULTAT NET - PART DU GROUPE",
+      "annee": 2022,
+      "valeur": 105.721,
+      "ligne_source": "RÉSULTAT NET - PART DU GROUPE  | 85.712  | 105.721",
+      "entreprise": "sonasid",
+      "unite": null,
+      "perimetre": null,
+      "source_table": "DOCLING_043",
+      "source_page": 108,
+      "source_ligne": 13,
+      "validation_status": "NOT_CHECKED",
+      "indicator": "NET_INCOME_GROUP_SHARE",
+      "report_year": 2023
+    }
+  },
+  {
+    "candidate_id": "fbf20d29fb6f8048",
+    "status": "REJECTED",
+    "normalized": {
+      "company": "sonasid",
+      "indicator": "NET_INCOME_GROUP_SHARE",
+      "label": "RÉSULTAT NET - PART DU GROUPE",
+      "observation_year": 2023,
+      "report_year": 2023,
+      "value": "85.712",
+      "unit": null,
+      "scope": null,
+      "source_table": "DOCLING_043",
+      "source_page": 108,
+      "source_row": 13,
+      "source_line_text": "RÉSULTAT NET - PART DU GROUPE  | 85.712  | 105.721",
+      "profile": "GENERAL_CORPORATE"
+    },
+    "reasons": [
+      {
+        "code": "MISSING_UNIT",
+        "severity": "INFO",
+        "message": "unité absente : non inventée, à prouver sur le PDF"
+      },
+      {
+        "code": "MISSING_SCOPE",
+        "severity": "INFO",
+        "message": "périmètre absent : social/consolidé à prouver"
+      },
+      {
+        "code": "CURRENT_YEAR_VALUE",
+        "severity": "INFO",
+        "message": "valeur de l'exercice du rapport"
+      },
+      {
+        "code": "VALUE_NOT_IN_SOURCE_LINE",
+        "severity": "REVIEW",
+        "message": "valeur 85.712 introuvable dans la ligne source"
+      },
+      {
+        "code": "THOUSANDS_SEPARATOR_MISREAD",
+        "severity": "REVIEW",
+        "message": "'85.712' probablement un séparateur de milliers (≈ 85712)"
+      },
+      {
+        "code": "HUMAN_REJECTED",
+        "severity": "HUMAN",
+        "message": "Lu p.108 : ETAT DU RESULTAT GLOBAL CONSOLIDE (EN MILLIERS DE MAD), colonne 2023.12 = 85.712, le point est un séparateur de milliers (85 712 KMAD) et non une décimale : la valeur extraite 85.712 est fausse d'un facteur 1000. De plus, cette ligne est la part du groupe du RESULTAT GLOBAL ; le résultat net part du groupe 2023 du compte de résultat consolidé est 65.077 KMAD : indicateur mal classé. Valeur d'origine conservée, non corrigée automatiquement."
+      }
+    ],
+    "evidence": {
+      "pdf_file": "Sonasid_RFA_2023.pdf",
+      "pdf_sha256": "8ec7d9f56cbab9471db45ff8aa694bda989c975dd3b3d1ea71bab0e7a7200acb",
+      "pdf_page": 108,
+      "printed_page": null,
+      "table_title": "ETAT DU RESULTAT GLOBAL CONSOLIDE - EN MILLIERS DE MAD",
+      "value_read": "85.712",
+      "sign": "+",
+      "unit": "KMAD",
+      "scope": "CONSOLIDE",
+      "column_year": 2023,
+      "currency": "MAD",
+      "checked_by": "Rihab",
+      "checked_at": "2026-11-10"
+    },
+    "conflict_group": null,
+    "original": {
+      "nom": "RÉSULTAT NET - PART DU GROUPE",
+      "annee": 2023,
+      "valeur": 85.712,
+      "ligne_source": "RÉSULTAT NET - PART DU GROUPE  | 85.712  | 105.721",
+      "entreprise": "sonasid",
+      "unite": null,
+      "perimetre": null,
+      "source_table": "DOCLING_043",
+      "source_page": 108,
+      "source_ligne": 13,
+      "validation_status": "NOT_CHECKED",
+      "indicator": "NET_INCOME_GROUP_SHARE",
+      "report_year": 2023
+    }
+  }
+]

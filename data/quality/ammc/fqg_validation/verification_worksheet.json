@@ -1,0 +1,1474 @@
+[
+  {
+    "n": 1,
+    "candidate_id": "15fae9022557dd7e",
+    "company": "attijariwafa_bank",
+    "report_year": 2025,
+    "observation_year": 2025,
+    "indicator": "CUSTOMER_LOANS",
+    "label": "Prêts et créances sur la clientèle, au coût amorti",
+    "value_extracted": "447885567.0",
+    "source_table": "DOCLING_083",
+    "source_page": 95,
+    "source_row": 12,
+    "source_line_text": "Prêts et créances sur la clientèle, au coût amorti  | 2.4 / 2.17  | 447 885 567  | 413 590 717",
+    "automatic_status": "NOT_CHECKED",
+    "automatic_reasons": [],
+    "pdf_file": "AWB_RFA_2025.pdf",
+    "pdf_relative_path": "data/raw/ammc/pdfs/annual/attijariwafa_bank/2025/AWB_RFA_2025.pdf",
+    "pdf_sha256_expected": "766da5ac174bfd22e1a9aac59fd5465bb51b2249ed8143268afba5235f1e3afb",
+    "auto_check": {
+      "report_dir_found": true,
+      "pdf_sha256": "766da5ac174bfd22e1a9aac59fd5465bb51b2249ed8143268afba5235f1e3afb",
+      "pdf_sha256_ok": true,
+      "value_on_pdf_page": true,
+      "csv_row_found": true,
+      "csv_row": "Prêts et créances sur la clientèle, au coût amorti | 2.4 / 2.17 | 447 885 567 | 413 590 717",
+      "csv_column": 2,
+      "column_year": 2025,
+      "table_title": "Bilan consolidé au 31 décembre 2025",
+      "unified_table_found": true,
+      "unified_pages": [
+        95
+      ],
+      "unified_page_ok": true,
+      "unified_csv_sha256_ok": true,
+      "unit_hint": "KMAD",
+      "unit_candidates": [
+        "KMAD"
+      ],
+      "scope_hint": "CONSOLIDE",
+      "scope_candidates": [
+        "CONSOLIDE"
+      ],
+      "proposal": "PROPOSE_VERIFIED"
+    },
+    "what_to_check": "Ouvrir AWB_RFA_2025.pdf page 95 : trouver « Prêts et créances sur la clientèle, au coût amorti », colonne 2025. Relever montant, signe, unité (MAD/KMAD/MMAD) et périmètre (SOCIAL/CONSOLIDE)."
+  },
+  {
+    "n": 2,
+    "candidate_id": "18b8fccb1143d23b",
+    "company": "attijariwafa_bank",
+    "report_year": 2025,
+    "observation_year": 2025,
+    "indicator": "NET_INCOME",
+    "label": "Résultat net de l’exercice",
+    "value_extracted": "12368271.0",
+    "source_table": "DOCLING_084",
+    "source_page": 95,
+    "source_row": 26,
+    "source_line_text": "Résultat net de l’exercice  |  | 12 368 271  | 11 682 774",
+    "automatic_status": "NOT_CHECKED",
+    "automatic_reasons": [],
+    "pdf_file": "AWB_RFA_2025.pdf",
+    "pdf_relative_path": "data/raw/ammc/pdfs/annual/attijariwafa_bank/2025/AWB_RFA_2025.pdf",
+    "pdf_sha256_expected": "766da5ac174bfd22e1a9aac59fd5465bb51b2249ed8143268afba5235f1e3afb",
+    "auto_check": {
+      "report_dir_found": true,
+      "pdf_sha256": "766da5ac174bfd22e1a9aac59fd5465bb51b2249ed8143268afba5235f1e3afb",
+      "pdf_sha256_ok": true,
+      "value_on_pdf_page": true,
+      "csv_row_found": true,
+      "csv_row": "Résultat net de l’exercice |  | 12 368 271 | 11 682 774",
+      "csv_column": 2,
+      "column_year": 2025,
+      "table_title": "PASSIF",
+      "unified_table_found": true,
+      "unified_pages": [
+        95
+      ],
+      "unified_page_ok": true,
+      "unified_csv_sha256_ok": true,
+      "unit_hint": "KMAD",
+      "unit_candidates": [
+        "KMAD"
+      ],
+      "scope_hint": "CONSOLIDE",
+      "scope_candidates": [
+        "CONSOLIDE"
+      ],
+      "proposal": "PROPOSE_VERIFIED"
+    },
+    "what_to_check": "Ouvrir AWB_RFA_2025.pdf page 95 : trouver « Résultat net de l’exercice », colonne 2025. Relever montant, signe, unité (MAD/KMAD/MMAD) et périmètre (SOCIAL/CONSOLIDE)."
+  },
+  {
+    "n": 3,
+    "candidate_id": "27477aac27dc9bfd",
+    "company": "attijariwafa_bank",
+    "report_year": 2025,
+    "observation_year": 2024,
+    "indicator": "EQUITY",
+    "label": "Capitaux propres",
+    "value_extracted": "72502834.0",
+    "source_table": "DOCLING_084",
+    "source_page": 95,
+    "source_row": 18,
+    "source_line_text": "Capitaux propres  |  | 80 490 370  | 72 502 834",
+    "automatic_status": "NOT_CHECKED",
+    "automatic_reasons": [],
+    "pdf_file": "AWB_RFA_2025.pdf",
+    "pdf_relative_path": "data/raw/ammc/pdfs/annual/attijariwafa_bank/2025/AWB_RFA_2025.pdf",
+    "pdf_sha256_expected": "766da5ac174bfd22e1a9aac59fd5465bb51b2249ed8143268afba5235f1e3afb",
+    "auto_check": {
+      "report_dir_found": true,
+      "pdf_sha256": "766da5ac174bfd22e1a9aac59fd5465bb51b2249ed8143268afba5235f1e3afb",
+      "pdf_sha256_ok": true,
+      "value_on_pdf_page": true,
+      "csv_row_found": true,
+      "csv_row": "Capitaux propres |  | 80 490 370 | 72 502 834",
+      "csv_column": 3,
+      "column_year": 2024,
+      "table_title": "PASSIF",
+      "unified_table_found": true,
+      "unified_pages": [
+        95
+      ],
+      "unified_page_ok": true,
+      "unified_csv_sha256_ok": true,
+      "unit_hint": "KMAD",
+      "unit_candidates": [
+        "KMAD"
+      ],
+      "scope_hint": "CONSOLIDE",
+      "scope_candidates": [
+        "CONSOLIDE"
+      ],
+      "proposal": "PROPOSE_VERIFIED"
+    },
+    "what_to_check": "Ouvrir AWB_RFA_2025.pdf page 95 : trouver « Capitaux propres », colonne 2024. Relever montant, signe, unité (MAD/KMAD/MMAD) et périmètre (SOCIAL/CONSOLIDE)."
+  },
+  {
+    "n": 4,
+    "candidate_id": "0d027a7e60905b91",
+    "company": "wafa_assurance",
+    "report_year": 2023,
+    "observation_year": 2023,
+    "indicator": "EQUITY",
+    "label": "Capitaux propres",
+    "value_extracted": "6601142524.37",
+    "source_table": "DOCLING_003",
+    "source_page": 4,
+    "source_row": 2,
+    "source_line_text": "Capitaux propres | 6 601 142 524,37 | 6 355 579 336,55",
+    "automatic_status": "REVIEW_REQUIRED",
+    "automatic_reasons": [
+      "VALUE_CONFLICT"
+    ],
+    "pdf_file": "Wafa_assurance_RFA_2023.pdf",
+    "pdf_relative_path": "data/raw/ammc/pdfs/annual/wafa_assurance/2023/Wafa_assurance_RFA_2023.pdf",
+    "pdf_sha256_expected": "745ff7211e3b184db1380544b96bb9598fb8a5837b95054fbe616cdb8b666d9b",
+    "auto_check": {
+      "report_dir_found": true,
+      "pdf_sha256": "745ff7211e3b184db1380544b96bb9598fb8a5837b95054fbe616cdb8b666d9b",
+      "pdf_sha256_ok": true,
+      "value_on_pdf_page": true,
+      "csv_row_found": true,
+      "csv_row": "Capitaux propres | 6 601 142 524,37 | 6 355 579 336,55",
+      "csv_column": 1,
+      "column_year": 2023,
+      "table_title": "PASSIF",
+      "unified_table_found": true,
+      "unified_pages": [
+        4
+      ],
+      "unified_page_ok": true,
+      "unified_csv_sha256_ok": true,
+      "unit_hint": null,
+      "unit_candidates": [],
+      "scope_hint": null,
+      "scope_candidates": [],
+      "proposal": "PROPOSE_PDF_CONFIRMED"
+    },
+    "what_to_check": "Ouvrir Wafa_assurance_RFA_2023.pdf page 4 : trouver « Capitaux propres », colonne 2023. Relever montant, signe, unité (MAD/KMAD/MMAD) et périmètre (SOCIAL/CONSOLIDE)."
+  },
+  {
+    "n": 5,
+    "candidate_id": "1d182e45cb813c85",
+    "company": "wafa_assurance",
+    "report_year": 2023,
+    "observation_year": 2023,
+    "indicator": "TOTAL_ASSETS",
+    "label": "Total Actif",
+    "value_extracted": "64714974.0",
+    "source_table": "DOCLING_025",
+    "source_page": 16,
+    "source_row": 22,
+    "source_line_text": "Total Actif  | 64 714 974  | 59 427 790",
+    "automatic_status": "NOT_CHECKED",
+    "automatic_reasons": [],
+    "pdf_file": "Wafa_assurance_RFA_2023.pdf",
+    "pdf_relative_path": "data/raw/ammc/pdfs/annual/wafa_assurance/2023/Wafa_assurance_RFA_2023.pdf",
+    "pdf_sha256_expected": "745ff7211e3b184db1380544b96bb9598fb8a5837b95054fbe616cdb8b666d9b",
+    "auto_check": {
+      "report_dir_found": true,
+      "pdf_sha256": "745ff7211e3b184db1380544b96bb9598fb8a5837b95054fbe616cdb8b666d9b",
+      "pdf_sha256_ok": true,
+      "value_on_pdf_page": true,
+      "csv_row_found": true,
+      "csv_row": "Total Actif | 64 714 974 | 59 427 790",
+      "csv_column": 1,
+      "column_year": 2023,
+      "table_title": "PASSIF ( en KDH )",
+      "unified_table_found": true,
+      "unified_pages": [
+        16
+      ],
+      "unified_page_ok": true,
+      "unified_csv_sha256_ok": true,
+      "unit_hint": "KMAD",
+      "unit_candidates": [
+        "KMAD"
+      ],
+      "scope_hint": "CONSOLIDE",
+      "scope_candidates": [
+        "CONSOLIDE"
+      ],
+      "proposal": "PROPOSE_VERIFIED"
+    },
+    "what_to_check": "Ouvrir Wafa_assurance_RFA_2023.pdf page 16 : trouver « Total Actif », colonne 2023. Relever montant, signe, unité (MAD/KMAD/MMAD) et périmètre (SOCIAL/CONSOLIDE)."
+  },
+  {
+    "n": 6,
+    "candidate_id": "4191fad7c618b083",
+    "company": "wafa_assurance",
+    "report_year": 2023,
+    "observation_year": 2023,
+    "indicator": "NET_INCOME",
+    "label": "Résultat net de l'exercice (1)",
+    "value_extracted": "700563187.82",
+    "source_table": "DOCLING_003",
+    "source_page": 4,
+    "source_row": 13,
+    "source_line_text": "Résultat net de l'exercice (1) | 700 563 187,82 | 607 146 335,29",
+    "automatic_status": "NOT_CHECKED",
+    "automatic_reasons": [],
+    "pdf_file": "Wafa_assurance_RFA_2023.pdf",
+    "pdf_relative_path": "data/raw/ammc/pdfs/annual/wafa_assurance/2023/Wafa_assurance_RFA_2023.pdf",
+    "pdf_sha256_expected": "745ff7211e3b184db1380544b96bb9598fb8a5837b95054fbe616cdb8b666d9b",
+    "auto_check": {
+      "report_dir_found": true,
+      "pdf_sha256": "745ff7211e3b184db1380544b96bb9598fb8a5837b95054fbe616cdb8b666d9b",
+      "pdf_sha256_ok": true,
+      "value_on_pdf_page": true,
+      "csv_row_found": true,
+      "csv_row": "Résultat net de l'exercice (1) | 700 563 187,82 | 607 146 335,29",
+      "csv_column": 1,
+      "column_year": 2023,
+      "table_title": "PASSIF",
+      "unified_table_found": true,
+      "unified_pages": [
+        4
+      ],
+      "unified_page_ok": true,
+      "unified_csv_sha256_ok": true,
+      "unit_hint": null,
+      "unit_candidates": [],
+      "scope_hint": null,
+      "scope_candidates": [],
+      "proposal": "PROPOSE_PDF_CONFIRMED"
+    },
+    "what_to_check": "Ouvrir Wafa_assurance_RFA_2023.pdf page 4 : trouver « Résultat net de l'exercice (1) », colonne 2023. Relever montant, signe, unité (MAD/KMAD/MMAD) et périmètre (SOCIAL/CONSOLIDE)."
+  },
+  {
+    "n": 7,
+    "candidate_id": "1c4f98aabe22535b",
+    "company": "auto_hall",
+    "report_year": 2024,
+    "observation_year": 2024,
+    "indicator": "EQUITY",
+    "label": "Capitaux propres part groupe",
+    "value_extracted": "1458514079.08",
+    "source_table": "DOCLING_080",
+    "source_page": 55,
+    "source_row": 6,
+    "source_line_text": "Capitaux propres part groupe  | 1 458 514 079,08  | 1 542 989 683,63",
+    "automatic_status": "REVIEW_REQUIRED",
+    "automatic_reasons": [
+      "EQUITY_GROUP_SHARE"
+    ],
+    "pdf_file": "AutoHall_RFA_2024.pdf",
+    "pdf_relative_path": "data/raw/ammc/pdfs/annual/auto_hall/2024/AutoHall_RFA_2024.pdf",
+    "pdf_sha256_expected": "8607fb17c773ba52dab858b20a2c1f62ae28d1393ba8c53195d39083d9ff5f6c",
+    "auto_check": {
+      "report_dir_found": true,
+      "pdf_sha256": "8607fb17c773ba52dab858b20a2c1f62ae28d1393ba8c53195d39083d9ff5f6c",
+      "pdf_sha256_ok": true,
+      "value_on_pdf_page": true,
+      "csv_row_found": true,
+      "csv_row": "Capitaux propres part groupe | 1 458 514 079,08 | 1 542 989 683,63",
+      "csv_column": 1,
+      "column_year": 2024,
+      "table_title": "0",
+      "unified_table_found": true,
+      "unified_pages": [
+        55
+      ],
+      "unified_page_ok": true,
+      "unified_csv_sha256_ok": true,
+      "unit_hint": "MAD",
+      "unit_candidates": [
+        "MAD"
+      ],
+      "scope_hint": "CONSOLIDE",
+      "scope_candidates": [
+        "CONSOLIDE"
+      ],
+      "proposal": "PROPOSE_REVIEW_REQUIRED",
+      "proposal_note": "montant présent dans le PDF mais indicateur à reclasser : EQUITY_GROUP_SHARE"
+    },
+    "what_to_check": "Ouvrir AutoHall_RFA_2024.pdf page 55 : trouver « Capitaux propres part groupe », colonne 2024. Relever montant, signe, unité (MAD/KMAD/MMAD) et périmètre (SOCIAL/CONSOLIDE)."
+  },
+  {
+    "n": 8,
+    "candidate_id": "07271c3114aef11d",
+    "company": "auto_hall",
+    "report_year": 2024,
+    "observation_year": 2023,
+    "indicator": "TOTAL_LIABILITIES_AND_EQUITY",
+    "label": "TOTAL PASSIF",
+    "value_extracted": "6258238739.95",
+    "source_table": "DOCLING_080",
+    "source_page": 55,
+    "source_row": 16,
+    "source_line_text": "TOTAL PASSIF  | 6 313 507 887,33  | 6 258 238 739,95",
+    "automatic_status": "NOT_CHECKED",
+    "automatic_reasons": [],
+    "pdf_file": "AutoHall_RFA_2024.pdf",
+    "pdf_relative_path": "data/raw/ammc/pdfs/annual/auto_hall/2024/AutoHall_RFA_2024.pdf",
+    "pdf_sha256_expected": "8607fb17c773ba52dab858b20a2c1f62ae28d1393ba8c53195d39083d9ff5f6c",
+    "auto_check": {
+      "report_dir_found": true,
+      "pdf_sha256": "8607fb17c773ba52dab858b20a2c1f62ae28d1393ba8c53195d39083d9ff5f6c",
+      "pdf_sha256_ok": true,
+      "value_on_pdf_page": true,
+      "csv_row_found": true,
+      "csv_row": "TOTAL PASSIF | 6 313 507 887,33 | 6 258 238 739,95",
+      "csv_column": 2,
+      "column_year": 2023,
+      "table_title": "0",
+      "unified_table_found": true,
+      "unified_pages": [
+        55
+      ],
+      "unified_page_ok": true,
+      "unified_csv_sha256_ok": true,
+      "unit_hint": "MAD",
+      "unit_candidates": [
+        "MAD"
+      ],
+      "scope_hint": "CONSOLIDE",
+      "scope_candidates": [
+        "CONSOLIDE"
+      ],
+      "proposal": "PROPOSE_VERIFIED"
+    },
+    "what_to_check": "Ouvrir AutoHall_RFA_2024.pdf page 55 : trouver « TOTAL PASSIF », colonne 2023. Relever montant, signe, unité (MAD/KMAD/MMAD) et périmètre (SOCIAL/CONSOLIDE)."
+  },
+  {
+    "n": 9,
+    "candidate_id": "2f36bc3f53daccb8",
+    "company": "auto_hall",
+    "report_year": 2024,
+    "observation_year": 2024,
+    "indicator": "TOTAL_LIABILITIES_AND_EQUITY",
+    "label": "TOTAL PASSIF",
+    "value_extracted": "6313507887.33",
+    "source_table": "DOCLING_080",
+    "source_page": 55,
+    "source_row": 16,
+    "source_line_text": "TOTAL PASSIF  | 6 313 507 887,33  | 6 258 238 739,95",
+    "automatic_status": "NOT_CHECKED",
+    "automatic_reasons": [],
+    "pdf_file": "AutoHall_RFA_2024.pdf",
+    "pdf_relative_path": "data/raw/ammc/pdfs/annual/auto_hall/2024/AutoHall_RFA_2024.pdf",
+    "pdf_sha256_expected": "8607fb17c773ba52dab858b20a2c1f62ae28d1393ba8c53195d39083d9ff5f6c",
+    "auto_check": {
+      "report_dir_found": true,
+      "pdf_sha256": "8607fb17c773ba52dab858b20a2c1f62ae28d1393ba8c53195d39083d9ff5f6c",
+      "pdf_sha256_ok": true,
+      "value_on_pdf_page": true,
+      "csv_row_found": true,
+      "csv_row": "TOTAL PASSIF | 6 313 507 887,33 | 6 258 238 739,95",
+      "csv_column": 1,
+      "column_year": 2024,
+      "table_title": "0",
+      "unified_table_found": true,
+      "unified_pages": [
+        55
+      ],
+      "unified_page_ok": true,
+      "unified_csv_sha256_ok": true,
+      "unit_hint": "MAD",
+      "unit_candidates": [
+        "MAD"
+      ],
+      "scope_hint": "CONSOLIDE",
+      "scope_candidates": [
+        "CONSOLIDE"
+      ],
+      "proposal": "PROPOSE_VERIFIED"
+    },
+    "what_to_check": "Ouvrir AutoHall_RFA_2024.pdf page 55 : trouver « TOTAL PASSIF », colonne 2024. Relever montant, signe, unité (MAD/KMAD/MMAD) et périmètre (SOCIAL/CONSOLIDE)."
+  },
+  {
+    "n": 10,
+    "candidate_id": "04d6fdfd4ba34371",
+    "company": "cosumar",
+    "report_year": 2025,
+    "observation_year": 2024,
+    "indicator": "EQUITY",
+    "label": "FINANCEMENT PERMANENT Total des capitaux propres",
+    "value_extracted": "4684807359.45",
+    "source_table": "DOCLING_113",
+    "source_page": 137,
+    "source_row": 13,
+    "source_line_text": "FINANCEMENT PERMANENT Total des capitaux propres  | (A)  | 4 434 619 383,71  | 4 684 807 359,45 ",
+    "automatic_status": "REVIEW_REQUIRED",
+    "automatic_reasons": [
+      "VALUE_CONFLICT"
+    ],
+    "pdf_file": "Cosumar_RFA_2025.pdf",
+    "pdf_relative_path": "data/raw/ammc/pdfs/annual/cosumar/2025/Cosumar_RFA_2025.pdf",
+    "pdf_sha256_expected": "7da285e005cb965a42fbb8302087b277787015172a33aa1b70d48d9f4d415d90",
+    "auto_check": {
+      "report_dir_found": true,
+      "pdf_sha256": "7da285e005cb965a42fbb8302087b277787015172a33aa1b70d48d9f4d415d90",
+      "pdf_sha256_ok": true,
+      "value_on_pdf_page": true,
+      "csv_row_found": true,
+      "csv_row": "FINANCEMENT PERMANENT Total des capitaux propres | (A) | 4 434 619 383,71 | 4 684 807 359,45",
+      "csv_column": 3,
+      "column_year": 2024,
+      "table_title": "PASSIF",
+      "unified_table_found": true,
+      "unified_pages": [
+        137
+      ],
+      "unified_page_ok": true,
+      "unified_csv_sha256_ok": true,
+      "unit_hint": null,
+      "unit_candidates": [],
+      "scope_hint": "SOCIAL",
+      "scope_candidates": [
+        "SOCIAL"
+      ],
+      "proposal": "PROPOSE_PDF_CONFIRMED"
+    },
+    "what_to_check": "Ouvrir Cosumar_RFA_2025.pdf page 137 : trouver « FINANCEMENT PERMANENT Total des capitaux propres », colonne 2024. Relever montant, signe, unité (MAD/KMAD/MMAD) et périmètre (SOCIAL/CONSOLIDE)."
+  },
+  {
+    "n": 11,
+    "candidate_id": "086aa22f21f63fbf",
+    "company": "cosumar",
+    "report_year": 2025,
+    "observation_year": 2025,
+    "indicator": "NET_INCOME_GROUP_SHARE",
+    "label": "Résultat net part du groupe",
+    "value_extracted": "703.7",
+    "source_table": "DOCLING_145",
+    "source_page": 151,
+    "source_row": 5,
+    "source_line_text": "Résultat net part du groupe  | 703,7  | 850,4",
+    "automatic_status": "NOT_CHECKED",
+    "automatic_reasons": [],
+    "pdf_file": "Cosumar_RFA_2025.pdf",
+    "pdf_relative_path": "data/raw/ammc/pdfs/annual/cosumar/2025/Cosumar_RFA_2025.pdf",
+    "pdf_sha256_expected": "7da285e005cb965a42fbb8302087b277787015172a33aa1b70d48d9f4d415d90",
+    "auto_check": {
+      "report_dir_found": true,
+      "pdf_sha256": "7da285e005cb965a42fbb8302087b277787015172a33aa1b70d48d9f4d415d90",
+      "pdf_sha256_ok": true,
+      "value_on_pdf_page": true,
+      "csv_row_found": true,
+      "csv_row": "Résultat net part du groupe | 703,7 | 850,4",
+      "table_title": "PASSIF (En millions de dirhams)",
+      "unified_table_found": true,
+      "unified_pages": [
+        151
+      ],
+      "unified_page_ok": true,
+      "unified_csv_sha256_ok": true,
+      "unit_hint": "MMAD",
+      "unit_candidates": [
+        "MMAD"
+      ],
+      "scope_hint": "CONSOLIDE",
+      "scope_candidates": [
+        "CONSOLIDE"
+      ],
+      "proposal": "PROPOSE_PDF_CONFIRMED"
+    },
+    "what_to_check": "Ouvrir Cosumar_RFA_2025.pdf page 151 : trouver « Résultat net part du groupe », colonne 2025. Relever montant, signe, unité (MAD/KMAD/MMAD) et périmètre (SOCIAL/CONSOLIDE)."
+  },
+  {
+    "n": 12,
+    "candidate_id": "4e381f4a610fb0f6",
+    "company": "cosumar",
+    "report_year": 2025,
+    "observation_year": 2025,
+    "indicator": "NET_INCOME",
+    "label": "Résultat net de l’exercice (2)",
+    "value_extracted": "694683454.26",
+    "source_table": "DOCLING_113",
+    "source_page": 137,
+    "source_row": 12,
+    "source_line_text": "Résultat net de l’exercice (2)  |  | 694 683 454,26  | 937 554 578,11 ",
+    "automatic_status": "NOT_CHECKED",
+    "automatic_reasons": [],
+    "pdf_file": "Cosumar_RFA_2025.pdf",
+    "pdf_relative_path": "data/raw/ammc/pdfs/annual/cosumar/2025/Cosumar_RFA_2025.pdf",
+    "pdf_sha256_expected": "7da285e005cb965a42fbb8302087b277787015172a33aa1b70d48d9f4d415d90",
+    "auto_check": {
+      "report_dir_found": true,
+      "pdf_sha256": "7da285e005cb965a42fbb8302087b277787015172a33aa1b70d48d9f4d415d90",
+      "pdf_sha256_ok": true,
+      "value_on_pdf_page": true,
+      "csv_row_found": true,
+      "csv_row": "Résultat net de l’exercice (2) |  | 694 683 454,26 | 937 554 578,11",
+      "csv_column": 2,
+      "column_year": 2025,
+      "table_title": "PASSIF",
+      "unified_table_found": true,
+      "unified_pages": [
+        137
+      ],
+      "unified_page_ok": true,
+      "unified_csv_sha256_ok": true,
+      "unit_hint": null,
+      "unit_candidates": [],
+      "scope_hint": "SOCIAL",
+      "scope_candidates": [
+        "SOCIAL"
+      ],
+      "proposal": "PROPOSE_PDF_CONFIRMED"
+    },
+    "what_to_check": "Ouvrir Cosumar_RFA_2025.pdf page 137 : trouver « Résultat net de l’exercice (2) », colonne 2025. Relever montant, signe, unité (MAD/KMAD/MMAD) et périmètre (SOCIAL/CONSOLIDE)."
+  },
+  {
+    "n": 13,
+    "candidate_id": "6e3d77bfc7f19bc3",
+    "company": "lafargeholcim_maroc",
+    "report_year": 2023,
+    "observation_year": 2023,
+    "indicator": "NET_INCOME",
+    "label": "Résultat net de l’exercice (2)",
+    "value_extracted": "1413116647.69",
+    "source_table": "DOCLING_026",
+    "source_page": 56,
+    "source_row": 11,
+    "source_line_text": "Résultat net de l’exercice (2)  | 1 413 116 647,69  | 1 327 471 257,82 ",
+    "automatic_status": "NOT_CHECKED",
+    "automatic_reasons": [],
+    "pdf_file": "LafargeHolcim_RFA_2023.pdf",
+    "pdf_relative_path": "data/raw/ammc/pdfs/annual/lafargeholcim_maroc/2023/LafargeHolcim_RFA_2023.pdf",
+    "pdf_sha256_expected": "315ac8f1631a43cb30ad92bc1cd27172752b158bec144a66c1457fbfd7ae0896",
+    "auto_check": {
+      "report_dir_found": true,
+      "pdf_sha256": "315ac8f1631a43cb30ad92bc1cd27172752b158bec144a66c1457fbfd7ae0896",
+      "pdf_sha256_ok": true,
+      "value_on_pdf_page": true,
+      "csv_row_found": true,
+      "csv_row": "Résultat net de l’exercice (2) | 1 413 116 647,69 | 1 327 471 257,82",
+      "csv_column": 1,
+      "column_year": 2023,
+      "table_title": "(en dirhams)",
+      "unified_table_found": true,
+      "unified_pages": [
+        56
+      ],
+      "unified_page_ok": true,
+      "unified_csv_sha256_ok": true,
+      "unit_hint": "MAD",
+      "unit_candidates": [
+        "MAD"
+      ],
+      "scope_hint": "SOCIAL",
+      "scope_candidates": [
+        "SOCIAL"
+      ],
+      "proposal": "PROPOSE_VERIFIED"
+    },
+    "what_to_check": "Ouvrir LafargeHolcim_RFA_2023.pdf page 56 : trouver « Résultat net de l’exercice (2) », colonne 2023. Relever montant, signe, unité (MAD/KMAD/MMAD) et périmètre (SOCIAL/CONSOLIDE)."
+  },
+  {
+    "n": 14,
+    "candidate_id": "9d681720728551c3",
+    "company": "lafargeholcim_maroc",
+    "report_year": 2023,
+    "observation_year": 2022,
+    "indicator": "EQUITY",
+    "label": "Total des capitaux propres (A)",
+    "value_extracted": "10055047819.5",
+    "source_table": "DOCLING_026",
+    "source_page": 56,
+    "source_row": 12,
+    "source_line_text": "Total des capitaux propres (A)  | 9 929 063 151,76  | 10 055 047 819,50 ",
+    "automatic_status": "NOT_CHECKED",
+    "automatic_reasons": [],
+    "pdf_file": "LafargeHolcim_RFA_2023.pdf",
+    "pdf_relative_path": "data/raw/ammc/pdfs/annual/lafargeholcim_maroc/2023/LafargeHolcim_RFA_2023.pdf",
+    "pdf_sha256_expected": "315ac8f1631a43cb30ad92bc1cd27172752b158bec144a66c1457fbfd7ae0896",
+    "auto_check": {
+      "report_dir_found": true,
+      "pdf_sha256": "315ac8f1631a43cb30ad92bc1cd27172752b158bec144a66c1457fbfd7ae0896",
+      "pdf_sha256_ok": true,
+      "value_on_pdf_page": true,
+      "csv_row_found": true,
+      "csv_row": "Total des capitaux propres (A) | 9 929 063 151,76 | 10 055 047 819,50",
+      "csv_column": 2,
+      "column_year": 2022,
+      "table_title": "(en dirhams)",
+      "unified_table_found": true,
+      "unified_pages": [
+        56
+      ],
+      "unified_page_ok": true,
+      "unified_csv_sha256_ok": true,
+      "unit_hint": "MAD",
+      "unit_candidates": [
+        "MAD"
+      ],
+      "scope_hint": "SOCIAL",
+      "scope_candidates": [
+        "SOCIAL"
+      ],
+      "proposal": "PROPOSE_VERIFIED"
+    },
+    "what_to_check": "Ouvrir LafargeHolcim_RFA_2023.pdf page 56 : trouver « Total des capitaux propres (A) », colonne 2022. Relever montant, signe, unité (MAD/KMAD/MMAD) et périmètre (SOCIAL/CONSOLIDE)."
+  },
+  {
+    "n": 15,
+    "candidate_id": "73d75efc06f4dba5",
+    "company": "lafargeholcim_maroc",
+    "report_year": 2023,
+    "observation_year": 2022,
+    "indicator": "NET_INCOME",
+    "label": "Résultat net de l’exercice (2)",
+    "value_extracted": "1327471257.82",
+    "source_table": "DOCLING_026",
+    "source_page": 56,
+    "source_row": 11,
+    "source_line_text": "Résultat net de l’exercice (2)  | 1 413 116 647,69  | 1 327 471 257,82 ",
+    "automatic_status": "NOT_CHECKED",
+    "automatic_reasons": [],
+    "pdf_file": "LafargeHolcim_RFA_2023.pdf",
+    "pdf_relative_path": "data/raw/ammc/pdfs/annual/lafargeholcim_maroc/2023/LafargeHolcim_RFA_2023.pdf",
+    "pdf_sha256_expected": "315ac8f1631a43cb30ad92bc1cd27172752b158bec144a66c1457fbfd7ae0896",
+    "auto_check": {
+      "report_dir_found": true,
+      "pdf_sha256": "315ac8f1631a43cb30ad92bc1cd27172752b158bec144a66c1457fbfd7ae0896",
+      "pdf_sha256_ok": true,
+      "value_on_pdf_page": true,
+      "csv_row_found": true,
+      "csv_row": "Résultat net de l’exercice (2) | 1 413 116 647,69 | 1 327 471 257,82",
+      "csv_column": 2,
+      "column_year": 2022,
+      "table_title": "(en dirhams)",
+      "unified_table_found": true,
+      "unified_pages": [
+        56
+      ],
+      "unified_page_ok": true,
+      "unified_csv_sha256_ok": true,
+      "unit_hint": "MAD",
+      "unit_candidates": [
+        "MAD"
+      ],
+      "scope_hint": "SOCIAL",
+      "scope_candidates": [
+        "SOCIAL"
+      ],
+      "proposal": "PROPOSE_VERIFIED"
+    },
+    "what_to_check": "Ouvrir LafargeHolcim_RFA_2023.pdf page 56 : trouver « Résultat net de l’exercice (2) », colonne 2022. Relever montant, signe, unité (MAD/KMAD/MMAD) et périmètre (SOCIAL/CONSOLIDE)."
+  },
+  {
+    "n": 16,
+    "candidate_id": "00c714cf0134dbf1",
+    "company": "lesieur_cristal",
+    "report_year": 2024,
+    "observation_year": 2024,
+    "indicator": "EQUITY",
+    "label": "CAPITAUX PROPRES",
+    "value_extracted": "1638326837.68",
+    "source_table": "DOCLING_056",
+    "source_page": 69,
+    "source_row": 1,
+    "source_line_text": "CAPITAUX PROPRES  | 1 638 326 837,68  | 1 656 124 468,47",
+    "automatic_status": "REVIEW_REQUIRED",
+    "automatic_reasons": [
+      "VALUE_CONFLICT"
+    ],
+    "pdf_file": "LesieurCristal_RFA_2024.pdf",
+    "pdf_relative_path": "data/raw/ammc/pdfs/annual/lesieur_cristal/2024/LesieurCristal_RFA_2024.pdf",
+    "pdf_sha256_expected": "1fafb71c34eb0f5f70ab1f91cfb8f2306009e8fec26ad45d2914677902655f9f",
+    "auto_check": {
+      "report_dir_found": true,
+      "pdf_sha256": "1fafb71c34eb0f5f70ab1f91cfb8f2306009e8fec26ad45d2914677902655f9f",
+      "pdf_sha256_ok": true,
+      "value_on_pdf_page": true,
+      "csv_row_found": true,
+      "csv_row": "CAPITAUX PROPRES | 1 638 326 837,68 | 1 656 124 468,47",
+      "csv_column": 1,
+      "column_year": 2024,
+      "table_title": "PASSIF",
+      "unified_table_found": true,
+      "unified_pages": [
+        69
+      ],
+      "unified_page_ok": true,
+      "unified_csv_sha256_ok": true,
+      "unit_hint": null,
+      "unit_candidates": [],
+      "scope_hint": "SOCIAL",
+      "scope_candidates": [
+        "SOCIAL"
+      ],
+      "proposal": "PROPOSE_PDF_CONFIRMED"
+    },
+    "what_to_check": "Ouvrir LesieurCristal_RFA_2024.pdf page 69 : trouver « CAPITAUX PROPRES », colonne 2024. Relever montant, signe, unité (MAD/KMAD/MMAD) et périmètre (SOCIAL/CONSOLIDE)."
+  },
+  {
+    "n": 17,
+    "candidate_id": "38f71996de156a54",
+    "company": "lesieur_cristal",
+    "report_year": 2024,
+    "observation_year": 2024,
+    "indicator": "OPERATING_INCOME",
+    "label": "RÉSULTAT D’EXPLOITATION (I-II)",
+    "value_extracted": "256331342.64",
+    "source_table": "DOCLING_057",
+    "source_page": 70,
+    "source_row": 19,
+    "source_line_text": "RÉSULTAT D’EXPLOITATION (I-II)  | 256 445 886,64  | -114 544,00  | 256 331 342,64  | 50 329 591,33",
+    "automatic_status": "NOT_CHECKED",
+    "automatic_reasons": [],
+    "pdf_file": "LesieurCristal_RFA_2024.pdf",
+    "pdf_relative_path": "data/raw/ammc/pdfs/annual/lesieur_cristal/2024/LesieurCristal_RFA_2024.pdf",
+    "pdf_sha256_expected": "1fafb71c34eb0f5f70ab1f91cfb8f2306009e8fec26ad45d2914677902655f9f",
+    "auto_check": {
+      "report_dir_found": true,
+      "pdf_sha256": "1fafb71c34eb0f5f70ab1f91cfb8f2306009e8fec26ad45d2914677902655f9f",
+      "pdf_sha256_ok": true,
+      "value_on_pdf_page": true,
+      "csv_row_found": true,
+      "csv_row": "RÉSULTAT D’EXPLOITATION (I-II) | 256 445 886,64 | -114 544,00 | 256 331 342,64 | 50 329 591,33",
+      "csv_column": 3,
+      "column_year": 2024,
+      "table_title": "DÉSIGNATION",
+      "unified_table_found": true,
+      "unified_pages": [
+        70
+      ],
+      "unified_page_ok": true,
+      "unified_csv_sha256_ok": true,
+      "unit_hint": null,
+      "unit_candidates": [],
+      "scope_hint": "SOCIAL",
+      "scope_candidates": [
+        "SOCIAL"
+      ],
+      "proposal": "PROPOSE_PDF_CONFIRMED"
+    },
+    "what_to_check": "Ouvrir LesieurCristal_RFA_2024.pdf page 70 : trouver « RÉSULTAT D’EXPLOITATION (I-II) », colonne 2024. Relever montant, signe, unité (MAD/KMAD/MMAD) et périmètre (SOCIAL/CONSOLIDE)."
+  },
+  {
+    "n": 18,
+    "candidate_id": "4cda9f770c117c18",
+    "company": "lesieur_cristal",
+    "report_year": 2024,
+    "observation_year": 2023,
+    "indicator": "NET_INCOME",
+    "label": "Résultat net de l’exercice (2)",
+    "value_extracted": "8872574.29",
+    "source_table": "DOCLING_056",
+    "source_page": 69,
+    "source_row": 12,
+    "source_line_text": "Résultat net de l’exercice (2)  | 37 465 389,30  | 8 872 574,29",
+    "automatic_status": "NOT_CHECKED",
+    "automatic_reasons": [],
+    "pdf_file": "LesieurCristal_RFA_2024.pdf",
+    "pdf_relative_path": "data/raw/ammc/pdfs/annual/lesieur_cristal/2024/LesieurCristal_RFA_2024.pdf",
+    "pdf_sha256_expected": "1fafb71c34eb0f5f70ab1f91cfb8f2306009e8fec26ad45d2914677902655f9f",
+    "auto_check": {
+      "report_dir_found": true,
+      "pdf_sha256": "1fafb71c34eb0f5f70ab1f91cfb8f2306009e8fec26ad45d2914677902655f9f",
+      "pdf_sha256_ok": true,
+      "value_on_pdf_page": true,
+      "csv_row_found": true,
+      "csv_row": "Résultat net de l’exercice (2) | 37 465 389,30 | 8 872 574,29",
+      "csv_column": 2,
+      "column_year": 2023,
+      "table_title": "PASSIF",
+      "unified_table_found": true,
+      "unified_pages": [
+        69
+      ],
+      "unified_page_ok": true,
+      "unified_csv_sha256_ok": true,
+      "unit_hint": null,
+      "unit_candidates": [],
+      "scope_hint": "SOCIAL",
+      "scope_candidates": [
+        "SOCIAL"
+      ],
+      "proposal": "PROPOSE_PDF_CONFIRMED"
+    },
+    "what_to_check": "Ouvrir LesieurCristal_RFA_2024.pdf page 69 : trouver « Résultat net de l’exercice (2) », colonne 2023. Relever montant, signe, unité (MAD/KMAD/MMAD) et périmètre (SOCIAL/CONSOLIDE)."
+  },
+  {
+    "n": 19,
+    "candidate_id": "1358a22cb22ad0ee",
+    "company": "managem",
+    "report_year": 2023,
+    "observation_year": 2023,
+    "indicator": "EQUITY",
+    "label": "TOTAL DES CAPITAUX PROPRES (A)",
+    "value_extracted": "3503119835.89",
+    "source_table": "DOCLING_033",
+    "source_page": 68,
+    "source_row": 13,
+    "source_line_text": "TOTAL DES CAPITAUX PROPRES (A)  | 3 503 119 835,89  | 3 487 579 655,36",
+    "automatic_status": "REVIEW_REQUIRED",
+    "automatic_reasons": [
+      "VALUE_CONFLICT"
+    ],
+    "pdf_file": "Managem_RFA_2023.pdf",
+    "pdf_relative_path": "data/raw/ammc/pdfs/annual/managem/2023/Managem_RFA_2023.pdf",
+    "pdf_sha256_expected": "0a1db645858d0c22ecf11467816d15c257b520f13e9f7a44aff0f32b1f035c56",
+    "auto_check": {
+      "report_dir_found": true,
+      "pdf_sha256": "0a1db645858d0c22ecf11467816d15c257b520f13e9f7a44aff0f32b1f035c56",
+      "pdf_sha256_ok": true,
+      "value_on_pdf_page": true,
+      "csv_row_found": true,
+      "csv_row": "TOTAL DES CAPITAUX PROPRES (A) | 3 503 119 835,89 | 3 487 579 655,36",
+      "csv_column": 1,
+      "column_year": 2023,
+      "table_title": "",
+      "unified_table_found": true,
+      "unified_pages": [
+        68
+      ],
+      "unified_page_ok": true,
+      "unified_csv_sha256_ok": true,
+      "unit_hint": null,
+      "unit_candidates": [],
+      "scope_hint": "SOCIAL",
+      "scope_candidates": [
+        "SOCIAL"
+      ],
+      "proposal": "PROPOSE_PDF_CONFIRMED"
+    },
+    "what_to_check": "Ouvrir Managem_RFA_2023.pdf page 68 : trouver « TOTAL DES CAPITAUX PROPRES (A) », colonne 2023. Relever montant, signe, unité (MAD/KMAD/MMAD) et périmètre (SOCIAL/CONSOLIDE)."
+  },
+  {
+    "n": 20,
+    "candidate_id": "4623711916a3077e",
+    "company": "managem",
+    "report_year": 2023,
+    "observation_year": 2023,
+    "indicator": "NET_INCOME",
+    "label": "• Résultat net de l’exercice (2)",
+    "value_extracted": "315279420.53",
+    "source_table": "DOCLING_033",
+    "source_page": 68,
+    "source_row": 12,
+    "source_line_text": "• Résultat net de l’exercice (2)  | 315 279 420,53  | 945 148 003,33",
+    "automatic_status": "NOT_CHECKED",
+    "automatic_reasons": [],
+    "pdf_file": "Managem_RFA_2023.pdf",
+    "pdf_relative_path": "data/raw/ammc/pdfs/annual/managem/2023/Managem_RFA_2023.pdf",
+    "pdf_sha256_expected": "0a1db645858d0c22ecf11467816d15c257b520f13e9f7a44aff0f32b1f035c56",
+    "auto_check": {
+      "report_dir_found": true,
+      "pdf_sha256": "0a1db645858d0c22ecf11467816d15c257b520f13e9f7a44aff0f32b1f035c56",
+      "pdf_sha256_ok": true,
+      "value_on_pdf_page": true,
+      "csv_row_found": true,
+      "csv_row": "• Résultat net de l’exercice (2) | 315 279 420,53 | 945 148 003,33",
+      "csv_column": 1,
+      "column_year": 2023,
+      "table_title": "",
+      "unified_table_found": true,
+      "unified_pages": [
+        68
+      ],
+      "unified_page_ok": true,
+      "unified_csv_sha256_ok": true,
+      "unit_hint": null,
+      "unit_candidates": [],
+      "scope_hint": "SOCIAL",
+      "scope_candidates": [
+        "SOCIAL"
+      ],
+      "proposal": "PROPOSE_PDF_CONFIRMED"
+    },
+    "what_to_check": "Ouvrir Managem_RFA_2023.pdf page 68 : trouver « • Résultat net de l’exercice (2) », colonne 2023. Relever montant, signe, unité (MAD/KMAD/MMAD) et périmètre (SOCIAL/CONSOLIDE)."
+  },
+  {
+    "n": 21,
+    "candidate_id": "4a0ebad2c7ff3396",
+    "company": "managem",
+    "report_year": 2023,
+    "observation_year": 2022,
+    "indicator": "EQUITY",
+    "label": "CAPITAUX PROPRES",
+    "value_extracted": "3487579655.36",
+    "source_table": "DOCLING_033",
+    "source_page": 68,
+    "source_row": 2,
+    "source_line_text": "CAPITAUX PROPRES  | 3 503 119 835,89  | 3 487 579 655,36",
+    "automatic_status": "NOT_CHECKED",
+    "automatic_reasons": [],
+    "pdf_file": "Managem_RFA_2023.pdf",
+    "pdf_relative_path": "data/raw/ammc/pdfs/annual/managem/2023/Managem_RFA_2023.pdf",
+    "pdf_sha256_expected": "0a1db645858d0c22ecf11467816d15c257b520f13e9f7a44aff0f32b1f035c56",
+    "auto_check": {
+      "report_dir_found": true,
+      "pdf_sha256": "0a1db645858d0c22ecf11467816d15c257b520f13e9f7a44aff0f32b1f035c56",
+      "pdf_sha256_ok": true,
+      "value_on_pdf_page": true,
+      "csv_row_found": true,
+      "csv_row": "CAPITAUX PROPRES | 3 503 119 835,89 | 3 487 579 655,36",
+      "csv_column": 2,
+      "column_year": 2022,
+      "table_title": "",
+      "unified_table_found": true,
+      "unified_pages": [
+        68
+      ],
+      "unified_page_ok": true,
+      "unified_csv_sha256_ok": true,
+      "unit_hint": null,
+      "unit_candidates": [],
+      "scope_hint": "SOCIAL",
+      "scope_candidates": [
+        "SOCIAL"
+      ],
+      "proposal": "PROPOSE_PDF_CONFIRMED"
+    },
+    "what_to_check": "Ouvrir Managem_RFA_2023.pdf page 68 : trouver « CAPITAUX PROPRES », colonne 2022. Relever montant, signe, unité (MAD/KMAD/MMAD) et périmètre (SOCIAL/CONSOLIDE)."
+  },
+  {
+    "n": 22,
+    "candidate_id": "37c313b858a6cf00",
+    "company": "marsa_maroc",
+    "report_year": 2023,
+    "observation_year": 2023,
+    "indicator": "EQUITY",
+    "label": "Capitaux propres de l'ensemble consolidé",
+    "value_extracted": "2983274.0",
+    "source_table": "DOCLING_040",
+    "source_page": 106,
+    "source_row": 5,
+    "source_line_text": "Capitaux propres de l'ensemble consolidé  | 2 983 274  | 2 685 460",
+    "automatic_status": "REVIEW_REQUIRED",
+    "automatic_reasons": [
+      "VALUE_CONFLICT"
+    ],
+    "pdf_file": "Marsa_Maroc_RFA_2023.pdf",
+    "pdf_relative_path": "data/raw/ammc/pdfs/annual/marsa_maroc/2023/Marsa_Maroc_RFA_2023.pdf",
+    "pdf_sha256_expected": "e192beece3e68f539805ab0736169d476515b14cea954682c8768d5a10946dbd",
+    "auto_check": {
+      "report_dir_found": true,
+      "pdf_sha256": "e192beece3e68f539805ab0736169d476515b14cea954682c8768d5a10946dbd",
+      "pdf_sha256_ok": true,
+      "value_on_pdf_page": true,
+      "csv_row_found": true,
+      "csv_row": "Capitaux propres de l'ensemble consolidé | 2 983 274 | 2 685 460",
+      "csv_column": 1,
+      "column_year": 2023,
+      "table_title": "Passif",
+      "unified_table_found": true,
+      "unified_pages": [
+        106
+      ],
+      "unified_page_ok": true,
+      "unified_csv_sha256_ok": true,
+      "unit_hint": "KMAD",
+      "unit_candidates": [
+        "KMAD"
+      ],
+      "scope_hint": "CONSOLIDE",
+      "scope_candidates": [
+        "CONSOLIDE"
+      ],
+      "proposal": "PROPOSE_VERIFIED"
+    },
+    "what_to_check": "Ouvrir Marsa_Maroc_RFA_2023.pdf page 106 : trouver « Capitaux propres de l'ensemble consolidé », colonne 2023. Relever montant, signe, unité (MAD/KMAD/MMAD) et périmètre (SOCIAL/CONSOLIDE)."
+  },
+  {
+    "n": 23,
+    "candidate_id": "065db7912c3acf89",
+    "company": "marsa_maroc",
+    "report_year": 2023,
+    "observation_year": 2023,
+    "indicator": "TOTAL_ASSETS",
+    "label": "Total Actif",
+    "value_extracted": "7890780.0",
+    "source_table": "DOCLING_039",
+    "source_page": 106,
+    "source_row": 12,
+    "source_line_text": "Total Actif  | 7 890 780  | 8 059 852",
+    "automatic_status": "NOT_CHECKED",
+    "automatic_reasons": [],
+    "pdf_file": "Marsa_Maroc_RFA_2023.pdf",
+    "pdf_relative_path": "data/raw/ammc/pdfs/annual/marsa_maroc/2023/Marsa_Maroc_RFA_2023.pdf",
+    "pdf_sha256_expected": "e192beece3e68f539805ab0736169d476515b14cea954682c8768d5a10946dbd",
+    "auto_check": {
+      "report_dir_found": true,
+      "pdf_sha256": "e192beece3e68f539805ab0736169d476515b14cea954682c8768d5a10946dbd",
+      "pdf_sha256_ok": true,
+      "value_on_pdf_page": true,
+      "csv_row_found": true,
+      "csv_row": "Total Actif | 7 890 780 | 8 059 852",
+      "csv_column": 1,
+      "column_year": 2023,
+      "table_title": "Actif",
+      "unified_table_found": true,
+      "unified_pages": [
+        106
+      ],
+      "unified_page_ok": true,
+      "unified_csv_sha256_ok": true,
+      "unit_hint": "KMAD",
+      "unit_candidates": [
+        "KMAD"
+      ],
+      "scope_hint": "CONSOLIDE",
+      "scope_candidates": [
+        "CONSOLIDE"
+      ],
+      "proposal": "PROPOSE_VERIFIED"
+    },
+    "what_to_check": "Ouvrir Marsa_Maroc_RFA_2023.pdf page 106 : trouver « Total Actif », colonne 2023. Relever montant, signe, unité (MAD/KMAD/MMAD) et périmètre (SOCIAL/CONSOLIDE)."
+  },
+  {
+    "n": 24,
+    "candidate_id": "4e5803fd4ed5741e",
+    "company": "marsa_maroc",
+    "report_year": 2023,
+    "observation_year": 2023,
+    "indicator": "OPERATING_INCOME",
+    "label": "Résultat d’exploitation",
+    "value_extracted": "1554657.0",
+    "source_table": "DOCLING_041",
+    "source_page": 107,
+    "source_row": 10,
+    "source_line_text": "Résultat d’exploitation  | 1 554 657  | 1 363 416",
+    "automatic_status": "REVIEW_REQUIRED",
+    "automatic_reasons": [
+      "VALUE_CONFLICT"
+    ],
+    "pdf_file": "Marsa_Maroc_RFA_2023.pdf",
+    "pdf_relative_path": "data/raw/ammc/pdfs/annual/marsa_maroc/2023/Marsa_Maroc_RFA_2023.pdf",
+    "pdf_sha256_expected": "e192beece3e68f539805ab0736169d476515b14cea954682c8768d5a10946dbd",
+    "auto_check": {
+      "report_dir_found": true,
+      "pdf_sha256": "e192beece3e68f539805ab0736169d476515b14cea954682c8768d5a10946dbd",
+      "pdf_sha256_ok": true,
+      "value_on_pdf_page": true,
+      "csv_row_found": true,
+      "csv_row": "Résultat d’exploitation | 1 554 657 | 1 363 416",
+      "csv_column": 1,
+      "column_year": 2023,
+      "table_title": "",
+      "unified_table_found": true,
+      "unified_pages": [
+        107
+      ],
+      "unified_page_ok": true,
+      "unified_csv_sha256_ok": true,
+      "unit_hint": "KMAD",
+      "unit_candidates": [
+        "KMAD"
+      ],
+      "scope_hint": "CONSOLIDE",
+      "scope_candidates": [
+        "CONSOLIDE"
+      ],
+      "proposal": "PROPOSE_VERIFIED"
+    },
+    "what_to_check": "Ouvrir Marsa_Maroc_RFA_2023.pdf page 107 : trouver « Résultat d’exploitation », colonne 2023. Relever montant, signe, unité (MAD/KMAD/MMAD) et périmètre (SOCIAL/CONSOLIDE)."
+  },
+  {
+    "n": 25,
+    "candidate_id": "4c3759a869c6fc19",
+    "company": "s2m",
+    "report_year": 2025,
+    "observation_year": 2024,
+    "indicator": "OPERATING_INCOME",
+    "label": "III RESULTAT D'EXPLOITATION (I-II)",
+    "value_extracted": "53649987.34",
+    "source_table": "DOCLING_018",
+    "source_page": 17,
+    "source_row": 19,
+    "source_line_text": "III RESULTAT D'EXPLOITATION (I-II)  |  |  |  | 53 649 987,34",
+    "automatic_status": "REVIEW_REQUIRED",
+    "automatic_reasons": [
+      "LINKED_AMOUNT_ANOMALY"
+    ],
+    "pdf_file": "S2M_RFA_2025.pdf",
+    "pdf_relative_path": "data/raw/ammc/pdfs/annual/s2m/2025/S2M_RFA_2025.pdf",
+    "pdf_sha256_expected": "81084c026ed0386c318271d9040e658f258888f6df1d57e150417244c90df12f",
+    "auto_check": {
+      "report_dir_found": true,
+      "pdf_sha256": "81084c026ed0386c318271d9040e658f258888f6df1d57e150417244c90df12f",
+      "pdf_sha256_ok": true,
+      "value_on_pdf_page": true,
+      "csv_row_found": true,
+      "csv_row": "III RESULTAT D'EXPLOITATION (I-II) |  |  |  | 53 649 987,34",
+      "csv_column": 4,
+      "column_year": 2024,
+      "table_title": "COMPTE DE PRODUITS ET CHARGES.NATURE",
+      "unified_table_found": true,
+      "unified_pages": [
+        17
+      ],
+      "unified_page_ok": true,
+      "unified_csv_sha256_ok": true,
+      "unit_hint": null,
+      "unit_candidates": [],
+      "scope_hint": "SOCIAL",
+      "scope_candidates": [
+        "SOCIAL"
+      ],
+      "proposal": "PROPOSE_PDF_CONFIRMED"
+    },
+    "what_to_check": "Ouvrir S2M_RFA_2025.pdf page 17 : trouver « III RESULTAT D'EXPLOITATION (I-II) », colonne 2024. Relever montant, signe, unité (MAD/KMAD/MMAD) et périmètre (SOCIAL/CONSOLIDE)."
+  },
+  {
+    "n": 26,
+    "candidate_id": "476fc03eca8be819",
+    "company": "s2m",
+    "report_year": 2025,
+    "observation_year": 2025,
+    "indicator": "REVENUE",
+    "label": "CHIFFRE D'AFFAIRES",
+    "value_extracted": "366496287.39",
+    "source_table": "DOCLING_018",
+    "source_page": 17,
+    "source_row": 4,
+    "source_line_text": "CHIFFRE D'AFFAIRES  |  | 366 496 287,39 |  | 308 105 627,93",
+    "automatic_status": "NOT_CHECKED",
+    "automatic_reasons": [],
+    "pdf_file": "S2M_RFA_2025.pdf",
+    "pdf_relative_path": "data/raw/ammc/pdfs/annual/s2m/2025/S2M_RFA_2025.pdf",
+    "pdf_sha256_expected": "81084c026ed0386c318271d9040e658f258888f6df1d57e150417244c90df12f",
+    "auto_check": {
+      "report_dir_found": true,
+      "pdf_sha256": "81084c026ed0386c318271d9040e658f258888f6df1d57e150417244c90df12f",
+      "pdf_sha256_ok": true,
+      "value_on_pdf_page": true,
+      "csv_row_found": true,
+      "csv_row": "CHIFFRE D'AFFAIRES |  | 366 496 287,39 |  | 308 105 627,93",
+      "csv_column": 2,
+      "column_year": 2025,
+      "table_title": "COMPTE DE PRODUITS ET CHARGES.NATURE",
+      "unified_table_found": true,
+      "unified_pages": [
+        17
+      ],
+      "unified_page_ok": true,
+      "unified_csv_sha256_ok": true,
+      "unit_hint": null,
+      "unit_candidates": [],
+      "scope_hint": "SOCIAL",
+      "scope_candidates": [
+        "SOCIAL"
+      ],
+      "proposal": "PROPOSE_PDF_CONFIRMED"
+    },
+    "what_to_check": "Ouvrir S2M_RFA_2025.pdf page 17 : trouver « CHIFFRE D'AFFAIRES », colonne 2025. Relever montant, signe, unité (MAD/KMAD/MMAD) et périmètre (SOCIAL/CONSOLIDE)."
+  },
+  {
+    "n": 27,
+    "candidate_id": "5fe39452610b6e36",
+    "company": "s2m",
+    "report_year": 2025,
+    "observation_year": 2025,
+    "indicator": "EQUITY",
+    "label": "FONDS PROPRES (A)",
+    "value_extracted": "134023110.29",
+    "source_table": "DOCLING_020",
+    "source_page": 18,
+    "source_row": 1,
+    "source_line_text": "FONDS PROPRES (A)  | 134 023 110,29  | 99 881 466,09",
+    "automatic_status": "NOT_CHECKED",
+    "automatic_reasons": [],
+    "pdf_file": "S2M_RFA_2025.pdf",
+    "pdf_relative_path": "data/raw/ammc/pdfs/annual/s2m/2025/S2M_RFA_2025.pdf",
+    "pdf_sha256_expected": "81084c026ed0386c318271d9040e658f258888f6df1d57e150417244c90df12f",
+    "auto_check": {
+      "report_dir_found": true,
+      "pdf_sha256": "81084c026ed0386c318271d9040e658f258888f6df1d57e150417244c90df12f",
+      "pdf_sha256_ok": true,
+      "value_on_pdf_page": true,
+      "csv_row_found": true,
+      "csv_row": "FONDS PROPRES (A) | 134 023 110,29 | 99 881 466,09",
+      "csv_column": 1,
+      "column_year": 2025,
+      "table_title": "BILAN - PASSIF.RUBRIQUE",
+      "unified_table_found": true,
+      "unified_pages": [
+        18
+      ],
+      "unified_page_ok": true,
+      "unified_csv_sha256_ok": true,
+      "unit_hint": null,
+      "unit_candidates": [],
+      "scope_hint": "SOCIAL",
+      "scope_candidates": [
+        "SOCIAL"
+      ],
+      "proposal": "PROPOSE_PDF_CONFIRMED"
+    },
+    "what_to_check": "Ouvrir S2M_RFA_2025.pdf page 18 : trouver « FONDS PROPRES (A) », colonne 2025. Relever montant, signe, unité (MAD/KMAD/MMAD) et périmètre (SOCIAL/CONSOLIDE)."
+  },
+  {
+    "n": 28,
+    "candidate_id": "ce1ec94c585ae46b",
+    "company": "sonasid",
+    "report_year": 2023,
+    "observation_year": 2022,
+    "indicator": "NET_INCOME_GROUP_SHARE",
+    "label": "RÉSULTAT NET - PART DU GROUPE",
+    "value_extracted": "105.721",
+    "source_table": "DOCLING_043",
+    "source_page": 108,
+    "source_row": 13,
+    "source_line_text": "RÉSULTAT NET - PART DU GROUPE  | 85.712  | 105.721",
+    "automatic_status": "REVIEW_REQUIRED",
+    "automatic_reasons": [
+      "VALUE_NOT_IN_SOURCE_LINE",
+      "THOUSANDS_SEPARATOR_MISREAD"
+    ],
+    "pdf_file": "Sonasid_RFA_2023.pdf",
+    "pdf_relative_path": "data/raw/ammc/pdfs/annual/sonasid/2023/Sonasid_RFA_2023.pdf",
+    "pdf_sha256_expected": "8ec7d9f56cbab9471db45ff8aa694bda989c975dd3b3d1ea71bab0e7a7200acb",
+    "auto_check": {
+      "report_dir_found": true,
+      "pdf_sha256": "8ec7d9f56cbab9471db45ff8aa694bda989c975dd3b3d1ea71bab0e7a7200acb",
+      "pdf_sha256_ok": true,
+      "value_on_pdf_page": true,
+      "csv_row_found": true,
+      "csv_row": "RÉSULTAT NET - PART DU GROUPE | 85.712 | 105.721",
+      "table_title": "ETAT DU RÉSULTAT GLOBAL CONSOLIDÉ ..",
+      "unified_table_found": true,
+      "unified_pages": [
+        108
+      ],
+      "unified_page_ok": true,
+      "unified_csv_sha256_ok": true,
+      "unit_hint": "KMAD",
+      "unit_candidates": [
+        "KMAD"
+      ],
+      "scope_hint": "CONSOLIDE",
+      "scope_candidates": [
+        "CONSOLIDE"
+      ],
+      "proposal": "PROPOSE_REJECTED",
+      "proposal_note": "valeur mal convertie par l'extraction"
+    },
+    "what_to_check": "Ouvrir Sonasid_RFA_2023.pdf page 108 : trouver « RÉSULTAT NET - PART DU GROUPE », colonne 2022. Relever montant, signe, unité (MAD/KMAD/MMAD) et périmètre (SOCIAL/CONSOLIDE)."
+  },
+  {
+    "n": 29,
+    "candidate_id": "fbf20d29fb6f8048",
+    "company": "sonasid",
+    "report_year": 2023,
+    "observation_year": 2023,
+    "indicator": "NET_INCOME_GROUP_SHARE",
+    "label": "RÉSULTAT NET - PART DU GROUPE",
+    "value_extracted": "85.712",
+    "source_table": "DOCLING_043",
+    "source_page": 108,
+    "source_row": 13,
+    "source_line_text": "RÉSULTAT NET - PART DU GROUPE  | 85.712  | 105.721",
+    "automatic_status": "REVIEW_REQUIRED",
+    "automatic_reasons": [
+      "VALUE_NOT_IN_SOURCE_LINE",
+      "THOUSANDS_SEPARATOR_MISREAD"
+    ],
+    "pdf_file": "Sonasid_RFA_2023.pdf",
+    "pdf_relative_path": "data/raw/ammc/pdfs/annual/sonasid/2023/Sonasid_RFA_2023.pdf",
+    "pdf_sha256_expected": "8ec7d9f56cbab9471db45ff8aa694bda989c975dd3b3d1ea71bab0e7a7200acb",
+    "auto_check": {
+      "report_dir_found": true,
+      "pdf_sha256": "8ec7d9f56cbab9471db45ff8aa694bda989c975dd3b3d1ea71bab0e7a7200acb",
+      "pdf_sha256_ok": true,
+      "value_on_pdf_page": true,
+      "csv_row_found": true,
+      "csv_row": "RÉSULTAT NET - PART DU GROUPE | 85.712 | 105.721",
+      "table_title": "ETAT DU RÉSULTAT GLOBAL CONSOLIDÉ ..",
+      "unified_table_found": true,
+      "unified_pages": [
+        108
+      ],
+      "unified_page_ok": true,
+      "unified_csv_sha256_ok": true,
+      "unit_hint": "KMAD",
+      "unit_candidates": [
+        "KMAD"
+      ],
+      "scope_hint": "CONSOLIDE",
+      "scope_candidates": [
+        "CONSOLIDE"
+      ],
+      "proposal": "PROPOSE_REJECTED",
+      "proposal_note": "valeur mal convertie par l'extraction"
+    },
+    "what_to_check": "Ouvrir Sonasid_RFA_2023.pdf page 108 : trouver « RÉSULTAT NET - PART DU GROUPE », colonne 2023. Relever montant, signe, unité (MAD/KMAD/MMAD) et périmètre (SOCIAL/CONSOLIDE)."
+  },
+  {
+    "n": 30,
+    "candidate_id": "3f83ba11f009e2cb",
+    "company": "sothema",
+    "report_year": 2025,
+    "observation_year": 2024,
+    "indicator": "EQUITY",
+    "label": "CAPITAUX PROPRES, PART DU GROUPE",
+    "value_extracted": "1684172.0",
+    "source_table": "DOCLING_053",
+    "source_page": 63,
+    "source_row": 6,
+    "source_line_text": "CAPITAUX PROPRES, PART DU GROUPE  | 2 619 648  | 1 684 172 ",
+    "automatic_status": "REVIEW_REQUIRED",
+    "automatic_reasons": [
+      "EQUITY_GROUP_SHARE",
+      "VALUE_CONFLICT"
+    ],
+    "pdf_file": "Sothema_RFA_2025.pdf",
+    "pdf_relative_path": "data/raw/ammc/pdfs/annual/sothema/2025/Sothema_RFA_2025.pdf",
+    "pdf_sha256_expected": "80fe4f4e33994e623ea6e46680bec33b6dc8f183ef3724b13923af71b698dbc6",
+    "auto_check": {
+      "report_dir_found": true,
+      "pdf_sha256": "80fe4f4e33994e623ea6e46680bec33b6dc8f183ef3724b13923af71b698dbc6",
+      "pdf_sha256_ok": true,
+      "value_on_pdf_page": true,
+      "csv_row_found": true,
+      "csv_row": "CAPITAUX PROPRES, PART DU GROUPE | 2 619 648 | 1 684 172",
+      "csv_column": 2,
+      "column_year": 2024,
+      "table_title": "PASSIF",
+      "unified_table_found": true,
+      "unified_pages": [
+        63
+      ],
+      "unified_page_ok": true,
+      "unified_csv_sha256_ok": true,
+      "unit_hint": "KMAD",
+      "unit_candidates": [
+        "KMAD"
+      ],
+      "scope_hint": null,
+      "scope_candidates": [
+        "CONSOLIDE",
+        "SOCIAL"
+      ],
+      "proposal": "PROPOSE_REVIEW_REQUIRED",
+      "proposal_note": "montant présent dans le PDF mais indicateur à reclasser : EQUITY_GROUP_SHARE"
+    },
+    "what_to_check": "Ouvrir Sothema_RFA_2025.pdf page 63 : trouver « CAPITAUX PROPRES, PART DU GROUPE », colonne 2024. Relever montant, signe, unité (MAD/KMAD/MMAD) et périmètre (SOCIAL/CONSOLIDE)."
+  },
+  {
+    "n": 31,
+    "candidate_id": "6cb00bd91a9acb69",
+    "company": "sothema",
+    "report_year": 2025,
+    "observation_year": 2024,
+    "indicator": "TOTAL_LIABILITIES_AND_EQUITY",
+    "label": "TOTAL PASSIF",
+    "value_extracted": "3182052.0",
+    "source_table": "DOCLING_053",
+    "source_page": 63,
+    "source_row": 21,
+    "source_line_text": "TOTAL PASSIF  | 4 607 253  | 3 182 052 ",
+    "automatic_status": "NOT_CHECKED",
+    "automatic_reasons": [],
+    "pdf_file": "Sothema_RFA_2025.pdf",
+    "pdf_relative_path": "data/raw/ammc/pdfs/annual/sothema/2025/Sothema_RFA_2025.pdf",
+    "pdf_sha256_expected": "80fe4f4e33994e623ea6e46680bec33b6dc8f183ef3724b13923af71b698dbc6",
+    "auto_check": {
+      "report_dir_found": true,
+      "pdf_sha256": "80fe4f4e33994e623ea6e46680bec33b6dc8f183ef3724b13923af71b698dbc6",
+      "pdf_sha256_ok": true,
+      "value_on_pdf_page": true,
+      "csv_row_found": true,
+      "csv_row": "TOTAL PASSIF | 4 607 253 | 3 182 052",
+      "csv_column": 2,
+      "column_year": 2024,
+      "table_title": "PASSIF",
+      "unified_table_found": true,
+      "unified_pages": [
+        63
+      ],
+      "unified_page_ok": true,
+      "unified_csv_sha256_ok": true,
+      "unit_hint": "KMAD",
+      "unit_candidates": [
+        "KMAD"
+      ],
+      "scope_hint": null,
+      "scope_candidates": [
+        "CONSOLIDE",
+        "SOCIAL"
+      ],
+      "proposal": "PROPOSE_PDF_CONFIRMED"
+    },
+    "what_to_check": "Ouvrir Sothema_RFA_2025.pdf page 63 : trouver « TOTAL PASSIF », colonne 2024. Relever montant, signe, unité (MAD/KMAD/MMAD) et périmètre (SOCIAL/CONSOLIDE)."
+  },
+  {
+    "n": 32,
+    "candidate_id": "dc966b9dba1ceafe",
+    "company": "sothema",
+    "report_year": 2025,
+    "observation_year": 2025,
+    "indicator": "EQUITY",
+    "label": "CAPITAUX PROPRES, PART DU GROUPE",
+    "value_extracted": "2619648.0",
+    "source_table": "DOCLING_053",
+    "source_page": 63,
+    "source_row": 6,
+    "source_line_text": "CAPITAUX PROPRES, PART DU GROUPE  | 2 619 648  | 1 684 172 ",
+    "automatic_status": "REVIEW_REQUIRED",
+    "automatic_reasons": [
+      "EQUITY_GROUP_SHARE",
+      "VALUE_CONFLICT"
+    ],
+    "pdf_file": "Sothema_RFA_2025.pdf",
+    "pdf_relative_path": "data/raw/ammc/pdfs/annual/sothema/2025/Sothema_RFA_2025.pdf",
+    "pdf_sha256_expected": "80fe4f4e33994e623ea6e46680bec33b6dc8f183ef3724b13923af71b698dbc6",
+    "auto_check": {
+      "report_dir_found": true,
+      "pdf_sha256": "80fe4f4e33994e623ea6e46680bec33b6dc8f183ef3724b13923af71b698dbc6",
+      "pdf_sha256_ok": true,
+      "value_on_pdf_page": true,
+      "csv_row_found": true,
+      "csv_row": "CAPITAUX PROPRES, PART DU GROUPE | 2 619 648 | 1 684 172",
+      "csv_column": 1,
+      "column_year": 2025,
+      "table_title": "PASSIF",
+      "unified_table_found": true,
+      "unified_pages": [
+        63
+      ],
+      "unified_page_ok": true,
+      "unified_csv_sha256_ok": true,
+      "unit_hint": "KMAD",
+      "unit_candidates": [
+        "KMAD"
+      ],
+      "scope_hint": null,
+      "scope_candidates": [
+        "CONSOLIDE",
+        "SOCIAL"
+      ],
+      "proposal": "PROPOSE_REVIEW_REQUIRED",
+      "proposal_note": "montant présent dans le PDF mais indicateur à reclasser : EQUITY_GROUP_SHARE"
+    },
+    "what_to_check": "Ouvrir Sothema_RFA_2025.pdf page 63 : trouver « CAPITAUX PROPRES, PART DU GROUPE », colonne 2025. Relever montant, signe, unité (MAD/KMAD/MMAD) et périmètre (SOCIAL/CONSOLIDE)."
+  }
+]
