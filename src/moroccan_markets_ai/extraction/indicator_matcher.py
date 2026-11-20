@@ -39,11 +39,42 @@ def trouver_indicateurs(tableau):
     lignes = tableau["contenu"].splitlines()
     correspondances = []
 
+    # Par défaut, le libellé est dans la première colonne.
+    indice_libelle = 0
+
+    # Rechercher une colonne DESIGNATION dans les en-têtes.
+    for entete in lignes[:5]:
+        cellules_entete = entete.split("|")
+
+        for indice, cellule in enumerate(cellules_entete):
+            if normaliser(cellule) == "designation":
+                indice_libelle = indice
+                break
     for numero, ligne in enumerate(lignes):
-        # Ne rechercher que dans le libellé de la ligne.
-        libelle = ligne.split("|")[0]
+        cellules = ligne.split("|")
+
+        if indice_libelle >= len(cellules):
+            continue
+
+        libelle = cellules[indice_libelle]
         texte = normaliser(libelle)
 
+        # Harmoniser les variantes du chiffre d'affaires.
+        texte = texte.replace(
+            "chiffres d'affaires",
+            "chiffre d'affaires",
+        )
+        # Exclure les composantes des capitaux propres.
+        if (
+            "capitaux propres" in texte
+            and "attribuables aux actionnaires" in texte
+        ):
+            continue
+
+        # Éviter la confusion entre le total du passif
+        # et le total incluant les capitaux propres.
+        if tableau["entreprise"] == "sonasid" and texte == "total passif":
+            continue
         # Exclure les composantes qui ne représentent
         # pas le total des capitaux propres.
         if (
@@ -61,8 +92,11 @@ def trouver_indicateurs(tableau):
     item["indicator"]
     for item in indicateurs
 }
+        if texte == "total capitaux propres et passif":
+            indicator = "TOTAL_LIABILITIES_AND_EQUITY"
+            synonyme = "total capitaux propres et passif"
 
-        if (
+        elif (
             "resultat net" in texte
             and "part du groupe" in texte.replace("-", " ")
             and "NET_INCOME_GROUP_SHARE" in codes_autorises

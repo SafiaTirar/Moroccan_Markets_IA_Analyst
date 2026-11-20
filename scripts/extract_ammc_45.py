@@ -1,10 +1,14 @@
 import json
 import re
 from pathlib import Path
+from urllib.error import URLError
 
 from moroccan_markets_ai.extraction.csv_loader import charger_tableaux
 from moroccan_markets_ai.extraction.indicator_value_extractor import (
     extraire_valeurs_indicateurs,
+)
+from moroccan_markets_ai.extraction.narrative_extractor import (
+    extraire_narratif,
 )
 from moroccan_markets_ai.extraction.table_config import obtenir_configuration
 from moroccan_markets_ai.extraction.table_detector import detecter_type_tableau
@@ -75,8 +79,8 @@ def traiter_rapport(entreprise, annee):
     try:
         tableaux = charger_tableaux(dossier)
 
-    except Exception as erreur:
-        return [], [{
+    except (OSError, ValueError, KeyError) as erreur:
+            return [], [{
             "raison": "CHARGEMENT_IMPOSSIBLE",
             "detail": str(erreur),
         }], 0, 0
@@ -189,14 +193,55 @@ def traiter_rapport(entreprise, annee):
                     "validation_status": "REVIEW_REQUIRED",
                 })
 
-        except Exception as erreur:
-            anomalies.append({
+        except (ValueError, KeyError, IndexError, TypeError, ArithmeticError) as erreur:
+                anomalies.append({
                 "table_id": table_id,
                 "pages": tableau.get("pages", []),
                 "raison": "ERREUR_EXTRACTION",
                 "detail": str(erreur),
             })
+    # Fallback narratif pilote pour Stroc 2024.
+    if not candidats and entreprise == "stroc" and annee == 2024:
+        try:
+            fichier = dossier / "document.md"
 
+            lignes = fichier.read_text(
+                encoding="utf-8"
+            ).splitlines()
+
+            passage = "\n".join(lignes[83:91])
+
+            extraction = extraire_narratif(
+                passage,
+                entreprise,
+                annee,
+            )
+
+            for observation in extraction.indicateurs:
+                candidats.append({
+                    "entreprise": entreprise,
+                    "report_year": annee,
+                    "observation_year": observation.annee,
+                    "indicator": observation.indicator,
+                    "value": str(observation.valeur),
+                    "value_source": None,
+                    "unite": observation.unite,
+                    "perimetre": None,
+                    "type_tableau": "NARRATIVE",
+                    "source_table": None,
+                    "source_pages": [5],
+                    "source_ligne": lignes.index(
+                        observation.ligne_source
+                    ),
+                    "ligne_source": observation.ligne_source,
+                    "validation_status": "REVIEW_REQUIRED",
+                })
+
+        except (OSError, ValueError, KeyError, URLError, TimeoutError) as erreur:
+            anomalies.append({
+                "raison": "ERREUR_EXTRACTION_NARRATIVE",
+                "detail": str(erreur),
+            })
     # Signaler les rapports sans observation extraite.
     if not candidats:
         anomalies.append({
