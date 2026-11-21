@@ -1948,7 +1948,7 @@
   },
   {
     "candidate_id": "6cb00bd91a9acb69",
-    "status": "PDF_CONFIRMED",
+    "status": "VERIFIED",
     "normalized": {
       "company": "sothema",
       "indicator": "TOTAL_LIABILITIES_AND_EQUITY",
@@ -1986,9 +1986,9 @@
         "message": "même valeur trouvée dans 2 sources"
       },
       {
-        "code": "HUMAN_PDF_CONFIRMED",
+        "code": "HUMAN_VERIFIED",
         "severity": "HUMAN",
-        "message": "Lu p.63 : BILAN PASSIF (en milliers de dirhams), ligne « TOTAL PASSIF », colonne 31/12/2024 = 3 182 052 (égal au TOTAL ACTIF 2024). Unité indiquée ; périmètre (consolidé/social) non écrit sur la page : non inventé."
+        "message": "Lu p.63 : Comptes consolidés, bilan passif en milliers de dirhams (égal au total actif) ; titre COMPTES CONSOLIDÉS confirmé, ligne « TOTAL PASSIF », colonne 31/12/2024 = 3 182 052."
       }
     ],
     "evidence": {
@@ -1996,15 +1996,15 @@
       "pdf_sha256": "80fe4f4e33994e623ea6e46680bec33b6dc8f183ef3724b13923af71b698dbc6",
       "pdf_page": 63,
       "printed_page": null,
-      "table_title": "BILAN PASSIF (en milliers de dirhams)",
+      "table_title": "Comptes consolidés - Bilan passif (en milliers de dirhams)",
       "value_read": "3182052",
       "sign": "+",
       "unit": "KMAD",
-      "scope": null,
+      "scope": "CONSOLIDE",
       "column_year": 2024,
       "currency": "MAD",
       "checked_by": "Rihab",
-      "checked_at": "2026-11-10"
+      "checked_at": "2026-11-20"
     },
     "conflict_group": null,
     "original": {
