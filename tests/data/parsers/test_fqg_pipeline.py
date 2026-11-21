@@ -172,11 +172,15 @@ def test_real_handoff_report(tmp_path):
 REAL_HUMAN_DECISIONS = (
     DEFAULT_HANDOFF_DIR.parent / "fqg_validation" / "human_decisions.json"
 )
+REAL_WORKSHEET = (
+    DEFAULT_HANDOFF_DIR.parent / "fqg_validation" / "verification_worksheet.json"
+)
 
 
 @pytest.mark.skipif(
     not (DEFAULT_HANDOFF_DIR / "candidats_fqg.json").exists()
-    or not REAL_HUMAN_DECISIONS.exists(),
+    or not REAL_HUMAN_DECISIONS.exists()
+    or not REAL_WORKSHEET.exists(),
     reason="handoff_fqg_45 ou décisions humaines du jour 4 absents",
 )
 def test_sample_is_the_one_checked_on_day_4(tmp_path):
@@ -189,7 +193,15 @@ def test_sample_is_the_one_checked_on_day_4(tmp_path):
         tmp_path,
         human_decisions=REAL_HUMAN_DECISIONS,
     )
-    decided = [d["decision"] for d in human if d.get("decision")]
+    # L'échantillon du jour 4 est défini par la grille de vérification ;
+    # des décisions humaines peuvent aussi porter sur d'autres candidats.
+    worksheet = json.loads(REAL_WORKSHEET.read_text("utf-8"))
+    sample_ids = {row["candidate_id"] for row in worksheet}
+    decided = [
+        d["decision"]
+        for d in human
+        if d.get("decision") and d["candidate_id"] in sample_ids
+    ]
     counts = report["sample"]["status_counts"]
     assert report["sample"]["refused_human_decisions"] == 0
     for status in ("VERIFIED", "PDF_CONFIRMED", "REJECTED"):
