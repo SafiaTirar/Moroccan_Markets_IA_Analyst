@@ -58,7 +58,21 @@ def trouver_indicateurs(tableau):
 
         libelle = cellules[indice_libelle]
         texte = normaliser(libelle)
-
+        # Le résultat net par action (EPS) est différent
+        # du résultat net de l'entreprise.
+        if (
+            "resultat net par action" in texte
+            or "resultat par action" in texte
+        ):
+            continue
+        # Le résultat global inclut des éléments qui ne correspondent
+        # pas nécessairement au résultat net part du groupe.
+        # Ne pas le classer automatiquement comme NET_INCOME_GROUP_SHARE.
+        if tableau["entreprise"] == "sonasid" and (
+            "resultat global" in texte
+            or "resultat d'ensemble" in texte
+        ):
+            continue
         # Harmoniser les variantes du chiffre d'affaires.
         texte = texte.replace(
             "chiffres d'affaires",

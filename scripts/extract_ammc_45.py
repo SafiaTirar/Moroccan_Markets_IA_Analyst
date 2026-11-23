@@ -1,4 +1,5 @@
 import json
+import os
 import re
 from pathlib import Path
 from urllib.error import URLError
@@ -14,14 +15,12 @@ from moroccan_markets_ai.extraction.table_config import obtenir_configuration
 from moroccan_markets_ai.extraction.table_detector import detecter_type_tableau
 from moroccan_markets_ai.extraction.table_diagnostic import diagnostiquer_tableau
 
-RACINE = (
-    Path.home()
-    / "Desktop"
-    / "AMMC_annual_45"
-    / "artifacts"
-    / "handover"
-    / "AMMC_annual_45"
-)
+RACINE = Path(
+    os.environ.get(
+        "AMMC_CORPUS_ROOT",
+        "data/extracted/ammc",
+    )
+).expanduser()
 
 SORTIE = Path("data/quality/ammc/extraction_globale")
 
@@ -33,7 +32,7 @@ SORTIE = Path("data/quality/ammc/extraction_globale")
 #     ("sonasid", 2023, "DOCLING_XXX"),
 # }
 TABLEAUX_POINTS_MILLIERS = {
-    ("sonasid", 2023, "DOCLING_043"),
+    ("sonasid", 2023, "DOCLING_042"),
 }
 
 # Accepter uniquement les montants isolés.
@@ -90,6 +89,14 @@ def traiter_rapport(entreprise, annee):
         tableau["annee"] = annee
 
         table_id = tableau["table_id"]
+        # Exclure l'état du résultat global Sonasid 2023.
+        # Ses montants ne correspondent pas au résultat net part du groupe.
+        if (
+            entreprise == "sonasid"
+            and annee == 2023
+            and table_id == "DOCLING_043"
+        ):
+            continue
 
         # Utiliser le point comme séparateur de milliers uniquement
         # pour un tableau explicitement confirmé.
@@ -103,9 +110,17 @@ def traiter_rapport(entreprise, annee):
             # 1. Identifier le type de tableau financier.
             type_tableau = detecter_type_tableau(tableau)
 
+            # DOCLING_042 contient le compte de résultat consolidé
+            # de Sonasid 2023, mais sa détection automatique échoue.
+            if (
+                entreprise == "sonasid"
+                and annee == 2023
+                and table_id == "DOCLING_042"
+            ):
+                type_tableau = "COMPTE_RESULTAT"
+
             if type_tableau is None:
                 continue
-
             tableaux_financiers += 1
 
             # 2. Vérifier l'exploitabilité des colonnes.

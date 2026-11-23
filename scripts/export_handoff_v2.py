@@ -59,10 +59,11 @@ def main():
     print("Anomalies :", len(toutes_anomalies))
 
     exporter_handoff(
-        candidats=tous_candidats,
-        anomalies=toutes_anomalies,
-        bilan=bilan,
-        destination="data/quality/ammc/handoff_fqg_v2",
+    candidats=tous_candidats,
+    anomalies=toutes_anomalies,
+    bilan=bilan,
+    destination="data/quality/ammc/handoff_fqg_v2_final",
+    fichier_historique="data/quality/ammc/handoff_fqg_45/candidats_fqg.json",
     )
 
 

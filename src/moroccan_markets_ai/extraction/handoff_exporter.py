@@ -53,6 +53,61 @@ def convertir_candidat(candidat):
         "validation_status": "NOT_CHECKED",
     }
 
+def conserver_valeurs_historiques(candidats_v2, fichier_v1):
+    """Préserve les identifiants historiques des candidats inchangés."""
+
+    from moroccan_markets_ai.data.parsers.fqg_handoff_loader import (
+        candidate_id,
+    )
+
+    anciens = json.loads(
+        Path(fichier_v1).read_text(encoding="utf-8")
+    )
+
+    conserves = 0
+
+    for nouveau in candidats_v2:
+        correspondances = []
+
+        for ancien in anciens:
+            # Tous les champs doivent être identiques,
+            # sauf la représentation numérique et le statut.
+            champs = (set(nouveau) | set(ancien)) - {
+                "valeur",
+                "validation_status",
+            }
+
+            if not all(
+                nouveau.get(champ) == ancien.get(champ)
+                for champ in champs
+            ):
+                continue
+
+            if Decimal(str(nouveau["valeur"])) != Decimal(
+                str(ancien["valeur"])
+            ):
+                continue
+
+            correspondances.append(ancien)
+
+        # Aucune migration automatique en cas d'ambiguïté.
+        if len(correspondances) != 1:
+            continue
+
+        ancien = correspondances[0]
+
+        candidat_test = dict(nouveau)
+        candidat_test["valeur"] = ancien["valeur"]
+
+        # Vérifier que l'identifiant historique est bien restauré.
+        if candidate_id(candidat_test) == candidate_id(ancien):
+            nouveau["valeur"] = ancien["valeur"]
+            conserves += 1
+
+    print("Identifiants historiques conservés :", conserves)
+
+    return candidats_v2
+
 
 def enregistrer_json(chemin, donnees):
     """Enregistre les données JSON en UTF-8."""
@@ -63,20 +118,30 @@ def enregistrer_json(chemin, donnees):
     )
 
 
-def exporter_handoff(candidats, anomalies, bilan, destination):
+def exporter_handoff(
+    candidats,
+    anomalies,
+    bilan,
+    destination,
+    fichier_historique=None,
+):
     """Génère et contrôle un nouveau handoff FQG."""
 
     destination = Path(destination)
 
     destination.mkdir(parents=True, exist_ok=False)
-
     candidats_fqg = [
         convertir_candidat(candidat)
         for candidat in candidats
     ]
 
-    fichier = destination / "candidats_fqg.json"
+    if fichier_historique is not None:
+        candidats_fqg = conserver_valeurs_historiques(
+            candidats_fqg,
+            fichier_historique,
+        )
 
+    fichier = destination / "candidats_fqg.json"
     enregistrer_json(fichier, candidats_fqg)
 
     enregistrer_json(

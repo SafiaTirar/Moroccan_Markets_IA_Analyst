@@ -70,29 +70,31 @@ def detecter_colonnes(tableau):
 
         # Bilan actif : plusieurs colonnes de l'exercice
         # (Brut, Amortissements, Net)
-        if precedent and not courant:
-            if position + 1 < len(lignes):
-                sous_entete = [
-                    normaliser(c)
-                    for c in lignes[position + 1].split("|")
-                ]
+        if precedent and not courant and position + 1 < len(lignes):
+            sous_entete = [
+                normaliser(c)
+                for c in lignes[position + 1].split("|")
+            ]
 
-                net = [
-                    i for i, texte in enumerate(sous_entete)
-                    if texte == "NET" and i not in precedent
-                ]
+            net = [
+                i for i, texte in enumerate(sous_entete)
+                if texte == "NET" and i not in precedent
+            ]
 
-                if len(net) == 1:
-                    return {
-                        annee: net[0],
-                        annee - 1: precedent[-1],
-                    }
-
-        if len(courant) == 1 and len(precedent) == 1:
-            if courant[0] != precedent[0]:
+            if len(net) == 1:
                 return {
-                    annee: courant[0],
-                    annee - 1: precedent[0],
+                    annee: net[0],
+                    annee - 1: precedent[-1],
                 }
+
+        if (
+            len(courant) == 1
+            and len(precedent) == 1
+            and courant[0] != precedent[0]
+        ):
+            return {
+                annee: courant[0],
+                annee - 1: precedent[0],
+            }
 
     return {}
