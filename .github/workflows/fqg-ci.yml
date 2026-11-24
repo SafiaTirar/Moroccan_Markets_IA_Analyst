@@ -1,0 +1,29 @@
+name: FQG CI
+
+on:
+  push:
+    branches: [main, "feature/fqg-**"]
+  pull_request:
+    branches: [main, "integration/**"]
+  workflow_dispatch:
+
+jobs:
+  fqg:
+    name: Tests FQG et Ruff
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Installer uv
+        uses: astral-sh/setup-uv@v6
+        with:
+          python-version: "3.12"
+
+      - name: Installer les dépendances (uv.lock)
+        run: uv sync --locked
+
+      - name: Tests FQG
+        run: uv run pytest tests/data/parsers -k fqg -v
+
+      - name: Ruff (lint)
+        run: uv run ruff check src/ tests/
