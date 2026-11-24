@@ -117,3 +117,47 @@ uv run ruff check src/moroccan_markets_ai/data/parsers tests/data/parsers
   `data/quality/ammc/fqg_validation/` (petits JSON). `data/quality/` étant
   ignoré par `.gitignore`, les ajouter avec `git add -f`.
 - Non : PDF, `data/raw/`, `data/extracted/`, `data/integrated/`.
+
+## Passage au handoff v2 final
+
+Commande :
+
+```bash
+python -m moroccan_markets_ai.data.parsers.financial_quality_gate \
+  --candidates data/quality/ammc/handoff_fqg_v2_final/candidats_fqg.json \
+  --anomalies data/quality/ammc/handoff_fqg_v2_final/anomalies.json \
+  --output data/quality/ammc/fqg_validation
+```
+
+### Décisions humaines obsolètes
+
+Une décision de `human_decisions.json` dont le `candidate_id` n'existe plus
+dans le handoff courant n'est **ni refusée, ni réassociée** : elle reste dans
+`human_decisions.json` (historique) et est listée dans
+`obsolete_human_decisions.json` avec le statut `OBSOLETE_NOT_REASSOCIATED`.
+Le rapport donne leur nombre (`obsolete_human_decisions`) et leurs identifiants.
+
+Avec le handoff v2 final, 8 décisions sont obsolètes :
+
+| n° | Entreprise | Ancienne décision | Raison |
+|---|---|---|---|
+| 28, 29 | Sonasid 2023 | REJECTED (85.712 et 105.721 lus comme décimaux, ligne du résultat global) | L'Extraction a corrigé la source : nouveaux candidats 65 077 (2023) et 85 930 (2022), tableau DOCLING_042 |
+| 30, 32 | Sothema 2025 | REVIEW_REQUIRED (capitaux propres part du groupe classés EQUITY) | Le mapping EQUITY a été corrigé : ces candidats n'existent plus |
+| 54 à 57 | Sothema 2023 et 2024 | REVIEW_REQUIRED (même cas) | Idem |
+
+Les nouveaux candidats qui les remplacent sont vérifiés à part, avec leurs
+propres décisions : aucune décision n'est transférée automatiquement.
+
+### Montants narratifs
+
+Certains candidats viennent d'un texte (tableau `NARRATIVE_Pnnn`), avec des
+montants accolés à l'unité : `87MMAD`, `-14MMAD`, `- 12,5MMAD`. Pour une ligne
+source sans `|`, le contrôle `VALUE_NOT_IN_SOURCE_LINE` lit chaque montant
+suivi d'une unité (`MMAD`, `KMAD`, `MAD`, `MDH`, `KDH`, `DH`), avec son signe
+et sa virgule décimale. Le texte source n'est jamais modifié.
+
+### Échantillon du jour 4
+
+Si `verification_worksheet.json` existe dans le dossier de sortie,
+l'échantillon du rapport est celui de cette grille (les candidats encore
+présents dans le handoff), et non une nouvelle sélection.

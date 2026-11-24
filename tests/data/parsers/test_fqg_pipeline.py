@@ -206,3 +206,43 @@ def test_sample_is_the_one_checked_on_day_4(tmp_path):
     assert report["sample"]["refused_human_decisions"] == 0
     for status in ("VERIFIED", "PDF_CONFIRMED", "REJECTED"):
         assert counts[status] == decided.count(status), status
+
+
+HANDOFF_V2 = DEFAULT_HANDOFF_DIR.parent / "handoff_fqg_v2_final"
+
+
+@pytest.mark.skipif(
+    not (HANDOFF_V2 / "candidats_fqg.json").exists()
+    or not REAL_HUMAN_DECISIONS.exists(),
+    reason="handoff v2 final ou décisions humaines absents",
+)
+def test_handoff_v2_keeps_every_human_decision(tmp_path):
+    """Critères d'acceptation du passage au handoff v2."""
+    human = json.loads(REAL_HUMAN_DECISIONS.read_text("utf-8"))
+    (tmp_path / "human_decisions.json").write_text(
+        json.dumps(human, ensure_ascii=False), encoding="utf-8"
+    )
+    report = run(
+        HANDOFF_V2 / "candidats_fqg.json", HANDOFF_V2 / "anomalies.json", tmp_path
+    )
+    decisions = [
+        json.loads(line)
+        for line in (tmp_path / "decisions.jsonl").read_text("utf-8").splitlines()
+    ]
+    status = {d["candidate_id"]: d["status"] for d in decisions}
+    obsolete = set(report["obsolete_human_decision_ids"])
+
+    assert report["sample"]["refused_human_decisions"] == 0
+    for row in human:
+        if row.get("decision") and row["candidate_id"] not in obsolete:
+            # aucun candidat valide ne perd sa décision humaine
+            assert status[row["candidate_id"]] == row["decision"]
+    assert report["verified"] == sum(
+        1
+        for r in human
+        if r.get("decision") == "VERIFIED" and r["candidate_id"] in status
+    )
+    stroc = [d for d in decisions if d["original"]["entreprise"] == "stroc"]
+    assert len(stroc) == 6
+    for d in stroc:
+        assert "VALUE_NOT_IN_SOURCE_LINE" not in {r["code"] for r in d["reasons"]}

@@ -103,7 +103,9 @@ def build_report(
     sample: list[CandidateDecision],
     refused: list[dict[str, Any]],
     inputs: dict[str, str],
+    obsolete: list[dict[str, Any]] | None = None,
 ) -> dict[str, Any]:
+    obsolete = obsolete or []
     statuses = Counter(d.status for d in decisions)
     statuses["REJECTED"] += len(load_result.rejected)  # rejets structurels
     reason_codes = Counter(
@@ -156,6 +158,8 @@ def build_report(
             "status_counts": {s: sample_statuses[s] for s in STATUS_ORDER},
             "refused_human_decisions": len(refused),
         },
+        "obsolete_human_decisions": len(obsolete),
+        "obsolete_human_decision_ids": [o["candidate_id"] for o in obsolete],
         "status_by_company": {
             company: dict(
                 Counter(d.status for d in decisions if d.c.entreprise == company)
@@ -235,6 +239,11 @@ def report_markdown(report: dict[str, Any]) -> str:
             f"{sample['refused_human_decisions']}."
         ),
         "",
+        (
+            "Décisions humaines obsolètes (candidat absent du handoff courant, "
+            f"conservées et non réassociées) : {report['obsolete_human_decisions']}."
+        ),
+        "",
         "## Statuts par entreprise",
         "",
         "| Entreprise | " + " | ".join(STATUS_ORDER) + " |",
@@ -265,13 +274,28 @@ def run(
     # L'échantillon est choisi sur les statuts automatiques, AVANT d'appliquer
     # les décisions humaines : sinon la sélection (qui dépend du statut)
     # désignerait d'autres candidats que ceux vérifiés au jour 4.
-    sample = select_sample(decisions)
+    # Si la grille du jour 4 existe, l'échantillon reste celui qu'elle définit
+    # (stable d'un handoff à l'autre) ; sinon on le sélectionne.
+    worksheet_path = output / "verification_worksheet.json"
+    if worksheet_path.exists():
+        by_id = {d.loaded.candidate_id: d for d in decisions}
+        sample = [
+            by_id[row["candidate_id"]]
+            for row in read_json(worksheet_path)
+            if row["candidate_id"] in by_id
+        ]
+    else:
+        sample = select_sample(decisions)
 
     human_decisions = human_decisions or output / "human_decisions.json"
     sources = load_pdf_sources(pdf_sources)
     refused: list[dict[str, Any]] = []
+    obsolete: list[dict[str, Any]] = []
     if human_decisions.exists():
-        refused = apply_human_decisions(decisions, read_json(human_decisions), sources)
+        refused = apply_human_decisions(
+            decisions, read_json(human_decisions), sources, obsolete
+        )
+    write_json(output / "obsolete_human_decisions.json", obsolete)
 
     write_sample_outputs(output, sample, refused)
 
@@ -310,6 +334,7 @@ def run(
             "bilan": _relative(bilan_path),
             "human_decisions": _relative(human_decisions),
         },
+        obsolete=obsolete,
     )
     write_json(output / "fqg_report.json", report)
     (output / "fqg_report.md").write_text(report_markdown(report), encoding="utf-8")

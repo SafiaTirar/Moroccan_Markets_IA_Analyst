@@ -56,19 +56,19 @@
     },
     "conflict_group": null,
     "original": {
+      "entreprise": "attijariwafa_bank",
       "nom": "Prêts et créances sur la clientèle, au coût amorti",
+      "indicator": "CUSTOMER_LOANS",
       "annee": 2025,
+      "report_year": 2025,
       "valeur": 447885567.0,
       "ligne_source": "Prêts et créances sur la clientèle, au coût amorti  | 2.4 / 2.17  | 447 885 567  | 413 590 717",
-      "entreprise": "attijariwafa_bank",
       "unite": null,
       "perimetre": null,
       "source_table": "DOCLING_083",
       "source_page": 95,
       "source_ligne": 12,
-      "validation_status": "NOT_CHECKED",
-      "indicator": "CUSTOMER_LOANS",
-      "report_year": 2025
+      "validation_status": "NOT_CHECKED"
     }
   },
   {
@@ -128,19 +128,19 @@
     },
     "conflict_group": null,
     "original": {
+      "entreprise": "attijariwafa_bank",
       "nom": "Résultat net de l’exercice",
+      "indicator": "NET_INCOME",
       "annee": 2025,
+      "report_year": 2025,
       "valeur": 12368271.0,
       "ligne_source": "Résultat net de l’exercice  |  | 12 368 271  | 11 682 774",
-      "entreprise": "attijariwafa_bank",
       "unite": null,
       "perimetre": null,
       "source_table": "DOCLING_084",
       "source_page": 95,
       "source_ligne": 26,
-      "validation_status": "NOT_CHECKED",
-      "indicator": "NET_INCOME",
-      "report_year": 2025
+      "validation_status": "NOT_CHECKED"
     }
   },
   {
@@ -205,19 +205,19 @@
     },
     "conflict_group": null,
     "original": {
+      "entreprise": "attijariwafa_bank",
       "nom": "Capitaux propres",
+      "indicator": "EQUITY",
       "annee": 2024,
+      "report_year": 2025,
       "valeur": 72502834.0,
       "ligne_source": "Capitaux propres  |  | 80 490 370  | 72 502 834",
-      "entreprise": "attijariwafa_bank",
       "unite": null,
       "perimetre": null,
       "source_table": "DOCLING_084",
       "source_page": 95,
       "source_ligne": 18,
-      "validation_status": "NOT_CHECKED",
-      "indicator": "EQUITY",
-      "report_year": 2025
+      "validation_status": "NOT_CHECKED"
     }
   },
   {
@@ -257,7 +257,7 @@
       {
         "code": "VALUE_CONFLICT",
         "severity": "REVIEW",
-        "message": "valeurs concurrentes entre rapports pour wafa_assurance 2023 EQUITY : 9232504.0, 9509089.0 (périmètre/version à départager)"
+        "message": "valeurs concurrentes entre rapports pour wafa_assurance 2023 EQUITY : 9509089.0 (périmètre/version à départager)"
       },
       {
         "code": "HUMAN_PDF_CONFIRMED",
@@ -280,21 +280,21 @@
       "checked_by": "Rihab",
       "checked_at": "2026-11-10"
     },
-    "conflict_group": "conflict-154",
+    "conflict_group": "conflict-174",
     "original": {
+      "entreprise": "wafa_assurance",
       "nom": "Capitaux propres",
+      "indicator": "EQUITY",
       "annee": 2023,
+      "report_year": 2023,
       "valeur": 6601142524.37,
       "ligne_source": "Capitaux propres | 6 601 142 524,37 | 6 355 579 336,55",
-      "entreprise": "wafa_assurance",
       "unite": null,
       "perimetre": null,
       "source_table": "DOCLING_003",
       "source_page": 4,
       "source_ligne": 2,
-      "validation_status": "NOT_CHECKED",
-      "indicator": "EQUITY",
-      "report_year": 2023
+      "validation_status": "NOT_CHECKED"
     }
   },
   {
@@ -354,19 +354,19 @@
     },
     "conflict_group": null,
     "original": {
+      "entreprise": "wafa_assurance",
       "nom": "Total Actif",
+      "indicator": "TOTAL_ASSETS",
       "annee": 2023,
+      "report_year": 2023,
       "valeur": 64714974.0,
       "ligne_source": "Total Actif  | 64 714 974  | 59 427 790",
-      "entreprise": "wafa_assurance",
       "unite": null,
       "perimetre": null,
       "source_table": "DOCLING_025",
       "source_page": 16,
       "source_ligne": 22,
-      "validation_status": "NOT_CHECKED",
-      "indicator": "TOTAL_ASSETS",
-      "report_year": 2023
+      "validation_status": "NOT_CHECKED"
     }
   },
   {
@@ -426,19 +426,19 @@
     },
     "conflict_group": null,
     "original": {
+      "entreprise": "wafa_assurance",
       "nom": "Résultat net de l'exercice (1)",
+      "indicator": "NET_INCOME",
       "annee": 2023,
+      "report_year": 2023,
       "valeur": 700563187.82,
       "ligne_source": "Résultat net de l'exercice (1) | 700 563 187,82 | 607 146 335,29",
-      "entreprise": "wafa_assurance",
       "unite": null,
       "perimetre": null,
       "source_table": "DOCLING_003",
       "source_page": 4,
       "source_ligne": 13,
-      "validation_status": "NOT_CHECKED",
-      "indicator": "NET_INCOME",
-      "report_year": 2023
+      "validation_status": "NOT_CHECKED"
     }
   },
   {
@@ -503,19 +503,19 @@
     },
     "conflict_group": null,
     "original": {
+      "entreprise": "auto_hall",
       "nom": "TOTAL PASSIF",
+      "indicator": "TOTAL_LIABILITIES_AND_EQUITY",
       "annee": 2023,
+      "report_year": 2024,
       "valeur": 6258238739.95,
       "ligne_source": "TOTAL PASSIF  | 6 313 507 887,33  | 6 258 238 739,95",
-      "entreprise": "auto_hall",
       "unite": null,
       "perimetre": null,
       "source_table": "DOCLING_080",
       "source_page": 55,
       "source_ligne": 16,
-      "validation_status": "NOT_CHECKED",
-      "indicator": "TOTAL_LIABILITIES_AND_EQUITY",
-      "report_year": 2024
+      "validation_status": "NOT_CHECKED"
     }
   },
   {
@@ -580,19 +580,19 @@
     },
     "conflict_group": null,
     "original": {
+      "entreprise": "auto_hall",
       "nom": "TOTAL PASSIF",
+      "indicator": "TOTAL_LIABILITIES_AND_EQUITY",
       "annee": 2024,
+      "report_year": 2024,
       "valeur": 6313507887.33,
       "ligne_source": "TOTAL PASSIF  | 6 313 507 887,33  | 6 258 238 739,95",
-      "entreprise": "auto_hall",
       "unite": null,
       "perimetre": null,
       "source_table": "DOCLING_080",
       "source_page": 55,
       "source_ligne": 16,
-      "validation_status": "NOT_CHECKED",
-      "indicator": "TOTAL_LIABILITIES_AND_EQUITY",
-      "report_year": 2024
+      "validation_status": "NOT_CHECKED"
     }
   },
   {
@@ -632,7 +632,7 @@
       {
         "code": "VALUE_CONFLICT",
         "severity": "REVIEW",
-        "message": "valeurs concurrentes entre rapports pour cosumar 2024 EQUITY : 12589.2, 5878.5, 5885.6 (périmètre/version à départager)"
+        "message": "valeurs concurrentes entre rapports pour cosumar 2024 EQUITY : 5885.6 (périmètre/version à départager)"
       },
       {
         "code": "HUMAN_PDF_CONFIRMED",
@@ -657,19 +657,19 @@
     },
     "conflict_group": "conflict-44",
     "original": {
+      "entreprise": "cosumar",
       "nom": "FINANCEMENT PERMANENT Total des capitaux propres",
+      "indicator": "EQUITY",
       "annee": 2024,
+      "report_year": 2025,
       "valeur": 4684807359.45,
       "ligne_source": "FINANCEMENT PERMANENT Total des capitaux propres  | (A)  | 4 434 619 383,71  | 4 684 807 359,45 ",
-      "entreprise": "cosumar",
       "unite": null,
       "perimetre": null,
       "source_table": "DOCLING_113",
       "source_page": 137,
       "source_ligne": 13,
-      "validation_status": "NOT_CHECKED",
-      "indicator": "EQUITY",
-      "report_year": 2025
+      "validation_status": "NOT_CHECKED"
     }
   },
   {
@@ -729,19 +729,19 @@
     },
     "conflict_group": null,
     "original": {
+      "entreprise": "cosumar",
       "nom": "Résultat net part du groupe",
+      "indicator": "NET_INCOME_GROUP_SHARE",
       "annee": 2025,
+      "report_year": 2025,
       "valeur": 703.7,
       "ligne_source": "Résultat net part du groupe  | 703,7  | 850,4",
-      "entreprise": "cosumar",
       "unite": null,
       "perimetre": null,
       "source_table": "DOCLING_145",
       "source_page": 151,
       "source_ligne": 5,
-      "validation_status": "NOT_CHECKED",
-      "indicator": "NET_INCOME_GROUP_SHARE",
-      "report_year": 2025
+      "validation_status": "NOT_CHECKED"
     }
   },
   {
@@ -806,19 +806,19 @@
     },
     "conflict_group": null,
     "original": {
+      "entreprise": "cosumar",
       "nom": "Résultat net de l’exercice (2)",
+      "indicator": "NET_INCOME",
       "annee": 2025,
+      "report_year": 2025,
       "valeur": 694683454.26,
       "ligne_source": "Résultat net de l’exercice (2)  |  | 694 683 454,26  | 937 554 578,11 ",
-      "entreprise": "cosumar",
       "unite": null,
       "perimetre": null,
       "source_table": "DOCLING_113",
       "source_page": 137,
       "source_ligne": 12,
-      "validation_status": "NOT_CHECKED",
-      "indicator": "NET_INCOME",
-      "report_year": 2025
+      "validation_status": "NOT_CHECKED"
     }
   },
   {
@@ -883,19 +883,19 @@
     },
     "conflict_group": null,
     "original": {
+      "entreprise": "lafargeholcim_maroc",
       "nom": "Résultat net de l’exercice (2)",
+      "indicator": "NET_INCOME",
       "annee": 2023,
+      "report_year": 2023,
       "valeur": 1413116647.69,
       "ligne_source": "Résultat net de l’exercice (2)  | 1 413 116 647,69  | 1 327 471 257,82 ",
-      "entreprise": "lafargeholcim_maroc",
       "unite": null,
       "perimetre": null,
       "source_table": "DOCLING_026",
       "source_page": 56,
       "source_ligne": 11,
-      "validation_status": "NOT_CHECKED",
-      "indicator": "NET_INCOME",
-      "report_year": 2023
+      "validation_status": "NOT_CHECKED"
     }
   },
   {
@@ -955,19 +955,19 @@
     },
     "conflict_group": null,
     "original": {
+      "entreprise": "lafargeholcim_maroc",
       "nom": "Total des capitaux propres (A)",
+      "indicator": "EQUITY",
       "annee": 2022,
+      "report_year": 2023,
       "valeur": 10055047819.5,
       "ligne_source": "Total des capitaux propres (A)  | 9 929 063 151,76  | 10 055 047 819,50 ",
-      "entreprise": "lafargeholcim_maroc",
       "unite": null,
       "perimetre": null,
       "source_table": "DOCLING_026",
       "source_page": 56,
       "source_ligne": 12,
-      "validation_status": "NOT_CHECKED",
-      "indicator": "EQUITY",
-      "report_year": 2023
+      "validation_status": "NOT_CHECKED"
     }
   },
   {
@@ -1027,19 +1027,19 @@
     },
     "conflict_group": null,
     "original": {
+      "entreprise": "lafargeholcim_maroc",
       "nom": "Résultat net de l’exercice (2)",
+      "indicator": "NET_INCOME",
       "annee": 2022,
+      "report_year": 2023,
       "valeur": 1327471257.82,
       "ligne_source": "Résultat net de l’exercice (2)  | 1 413 116 647,69  | 1 327 471 257,82 ",
-      "entreprise": "lafargeholcim_maroc",
       "unite": null,
       "perimetre": null,
       "source_table": "DOCLING_026",
       "source_page": 56,
       "source_ligne": 11,
-      "validation_status": "NOT_CHECKED",
-      "indicator": "NET_INCOME",
-      "report_year": 2023
+      "validation_status": "NOT_CHECKED"
     }
   },
   {
@@ -1079,7 +1079,7 @@
       {
         "code": "VALUE_CONFLICT",
         "severity": "REVIEW",
-        "message": "valeurs concurrentes entre rapports pour lesieur_cristal 2024 EQUITY : 1753.0, 1768.0, 5314.0 (périmètre/version à départager)"
+        "message": "valeurs concurrentes entre rapports pour lesieur_cristal 2024 EQUITY : 1753.0 (périmètre/version à départager)"
       },
       {
         "code": "HUMAN_PDF_CONFIRMED",
@@ -1102,21 +1102,21 @@
       "checked_by": "Rihab",
       "checked_at": "2026-11-10"
     },
-    "conflict_group": "conflict-72",
+    "conflict_group": "conflict-73",
     "original": {
+      "entreprise": "lesieur_cristal",
       "nom": "CAPITAUX PROPRES",
+      "indicator": "EQUITY",
       "annee": 2024,
+      "report_year": 2024,
       "valeur": 1638326837.68,
       "ligne_source": "CAPITAUX PROPRES  | 1 638 326 837,68  | 1 656 124 468,47",
-      "entreprise": "lesieur_cristal",
       "unite": null,
       "perimetre": null,
       "source_table": "DOCLING_056",
       "source_page": 69,
       "source_ligne": 1,
-      "validation_status": "NOT_CHECKED",
-      "indicator": "EQUITY",
-      "report_year": 2024
+      "validation_status": "NOT_CHECKED"
     }
   },
   {
@@ -1176,19 +1176,19 @@
     },
     "conflict_group": null,
     "original": {
+      "entreprise": "lesieur_cristal",
       "nom": "RÉSULTAT D’EXPLOITATION (I-II)",
+      "indicator": "OPERATING_INCOME",
       "annee": 2024,
+      "report_year": 2024,
       "valeur": 256331342.64,
       "ligne_source": "RÉSULTAT D’EXPLOITATION (I-II)  | 256 445 886,64  | -114 544,00  | 256 331 342,64  | 50 329 591,33",
-      "entreprise": "lesieur_cristal",
       "unite": null,
       "perimetre": null,
       "source_table": "DOCLING_057",
       "source_page": 70,
       "source_ligne": 19,
-      "validation_status": "NOT_CHECKED",
-      "indicator": "OPERATING_INCOME",
-      "report_year": 2024
+      "validation_status": "NOT_CHECKED"
     }
   },
   {
@@ -1248,19 +1248,19 @@
     },
     "conflict_group": null,
     "original": {
+      "entreprise": "lesieur_cristal",
       "nom": "Résultat net de l’exercice (2)",
+      "indicator": "NET_INCOME",
       "annee": 2023,
+      "report_year": 2024,
       "valeur": 8872574.29,
       "ligne_source": "Résultat net de l’exercice (2)  | 37 465 389,30  | 8 872 574,29",
-      "entreprise": "lesieur_cristal",
       "unite": null,
       "perimetre": null,
       "source_table": "DOCLING_056",
       "source_page": 69,
       "source_ligne": 12,
-      "validation_status": "NOT_CHECKED",
-      "indicator": "NET_INCOME",
-      "report_year": 2024
+      "validation_status": "NOT_CHECKED"
     }
   },
   {
@@ -1300,7 +1300,7 @@
       {
         "code": "VALUE_CONFLICT",
         "severity": "REVIEW",
-        "message": "valeurs concurrentes entre rapports pour managem 2023 EQUITY : 23242.2, 7565.0, 8227.7 (périmètre/version à départager)"
+        "message": "valeurs concurrentes entre rapports pour managem 2023 EQUITY : 23242.2, 8227.7 (périmètre/version à départager)"
       },
       {
         "code": "HUMAN_PDF_CONFIRMED",
@@ -1323,21 +1323,21 @@
       "checked_by": "Rihab",
       "checked_at": "2026-11-10"
     },
-    "conflict_group": "conflict-82",
+    "conflict_group": "conflict-84",
     "original": {
+      "entreprise": "managem",
       "nom": "TOTAL DES CAPITAUX PROPRES (A)",
+      "indicator": "EQUITY",
       "annee": 2023,
+      "report_year": 2023,
       "valeur": 3503119835.89,
       "ligne_source": "TOTAL DES CAPITAUX PROPRES (A)  | 3 503 119 835,89  | 3 487 579 655,36",
-      "entreprise": "managem",
       "unite": null,
       "perimetre": null,
       "source_table": "DOCLING_033",
       "source_page": 68,
       "source_ligne": 13,
-      "validation_status": "NOT_CHECKED",
-      "indicator": "EQUITY",
-      "report_year": 2023
+      "validation_status": "NOT_CHECKED"
     }
   },
   {
@@ -1397,19 +1397,19 @@
     },
     "conflict_group": null,
     "original": {
+      "entreprise": "managem",
       "nom": "• Résultat net de l’exercice (2)",
+      "indicator": "NET_INCOME",
       "annee": 2023,
+      "report_year": 2023,
       "valeur": 315279420.53,
       "ligne_source": "• Résultat net de l’exercice (2)  | 315 279 420,53  | 945 148 003,33",
-      "entreprise": "managem",
       "unite": null,
       "perimetre": null,
       "source_table": "DOCLING_033",
       "source_page": 68,
       "source_ligne": 12,
-      "validation_status": "NOT_CHECKED",
-      "indicator": "NET_INCOME",
-      "report_year": 2023
+      "validation_status": "NOT_CHECKED"
     }
   },
   {
@@ -1474,19 +1474,19 @@
     },
     "conflict_group": null,
     "original": {
+      "entreprise": "managem",
       "nom": "CAPITAUX PROPRES",
+      "indicator": "EQUITY",
       "annee": 2022,
+      "report_year": 2023,
       "valeur": 3487579655.36,
       "ligne_source": "CAPITAUX PROPRES  | 3 503 119 835,89  | 3 487 579 655,36",
-      "entreprise": "managem",
       "unite": null,
       "perimetre": null,
       "source_table": "DOCLING_033",
       "source_page": 68,
       "source_ligne": 2,
-      "validation_status": "NOT_CHECKED",
-      "indicator": "EQUITY",
-      "report_year": 2023
+      "validation_status": "NOT_CHECKED"
     }
   },
   {
@@ -1549,21 +1549,21 @@
       "checked_by": "Rihab",
       "checked_at": "2026-11-10"
     },
-    "conflict_group": "conflict-98",
+    "conflict_group": "conflict-100",
     "original": {
+      "entreprise": "marsa_maroc",
       "nom": "Capitaux propres de l'ensemble consolidé",
+      "indicator": "EQUITY",
       "annee": 2023,
+      "report_year": 2023,
       "valeur": 2983274.0,
       "ligne_source": "Capitaux propres de l'ensemble consolidé  | 2 983 274  | 2 685 460",
-      "entreprise": "marsa_maroc",
       "unite": null,
       "perimetre": null,
       "source_table": "DOCLING_040",
       "source_page": 106,
       "source_ligne": 5,
-      "validation_status": "NOT_CHECKED",
-      "indicator": "EQUITY",
-      "report_year": 2023
+      "validation_status": "NOT_CHECKED"
     }
   },
   {
@@ -1633,19 +1633,19 @@
     },
     "conflict_group": null,
     "original": {
+      "entreprise": "marsa_maroc",
       "nom": "Total Actif",
+      "indicator": "TOTAL_ASSETS",
       "annee": 2023,
+      "report_year": 2023,
       "valeur": 7890780.0,
       "ligne_source": "Total Actif  | 7 890 780  | 8 059 852",
-      "entreprise": "marsa_maroc",
       "unite": null,
       "perimetre": null,
       "source_table": "DOCLING_039",
       "source_page": 106,
       "source_ligne": 12,
-      "validation_status": "NOT_CHECKED",
-      "indicator": "TOTAL_ASSETS",
-      "report_year": 2023
+      "validation_status": "NOT_CHECKED"
     }
   },
   {
@@ -1708,21 +1708,21 @@
       "checked_by": "Rihab",
       "checked_at": "2026-11-10"
     },
-    "conflict_group": "conflict-101",
+    "conflict_group": "conflict-103",
     "original": {
+      "entreprise": "marsa_maroc",
       "nom": "Résultat d’exploitation",
+      "indicator": "OPERATING_INCOME",
       "annee": 2023,
+      "report_year": 2023,
       "valeur": 1554657.0,
       "ligne_source": "Résultat d’exploitation  | 1 554 657  | 1 363 416",
-      "entreprise": "marsa_maroc",
       "unite": null,
       "perimetre": null,
       "source_table": "DOCLING_041",
       "source_page": 107,
       "source_ligne": 10,
-      "validation_status": "NOT_CHECKED",
-      "indicator": "OPERATING_INCOME",
-      "report_year": 2023
+      "validation_status": "NOT_CHECKED"
     }
   },
   {
@@ -1787,19 +1787,19 @@
     },
     "conflict_group": null,
     "original": {
+      "entreprise": "s2m",
       "nom": "III RESULTAT D'EXPLOITATION (I-II)",
+      "indicator": "OPERATING_INCOME",
       "annee": 2024,
+      "report_year": 2025,
       "valeur": 53649987.34,
       "ligne_source": "III RESULTAT D'EXPLOITATION (I-II)  |  |  |  | 53 649 987,34",
-      "entreprise": "s2m",
       "unite": null,
       "perimetre": null,
       "source_table": "DOCLING_018",
       "source_page": 17,
       "source_ligne": 19,
-      "validation_status": "NOT_CHECKED",
-      "indicator": "OPERATING_INCOME",
-      "report_year": 2025
+      "validation_status": "NOT_CHECKED"
     }
   },
   {
@@ -1859,19 +1859,19 @@
     },
     "conflict_group": null,
     "original": {
+      "entreprise": "s2m",
       "nom": "CHIFFRE D'AFFAIRES",
+      "indicator": "REVENUE",
       "annee": 2025,
+      "report_year": 2025,
       "valeur": 366496287.39,
       "ligne_source": "CHIFFRE D'AFFAIRES  |  | 366 496 287,39 |  | 308 105 627,93",
-      "entreprise": "s2m",
       "unite": null,
       "perimetre": null,
       "source_table": "DOCLING_018",
       "source_page": 17,
       "source_ligne": 4,
-      "validation_status": "NOT_CHECKED",
-      "indicator": "REVENUE",
-      "report_year": 2025
+      "validation_status": "NOT_CHECKED"
     }
   },
   {
@@ -1931,19 +1931,19 @@
     },
     "conflict_group": null,
     "original": {
+      "entreprise": "s2m",
       "nom": "FONDS PROPRES (A)",
+      "indicator": "EQUITY",
       "annee": 2025,
+      "report_year": 2025,
       "valeur": 134023110.29,
       "ligne_source": "FONDS PROPRES (A)  | 134 023 110,29  | 99 881 466,09",
-      "entreprise": "s2m",
       "unite": null,
       "perimetre": null,
       "source_table": "DOCLING_020",
       "source_page": 18,
       "source_ligne": 1,
-      "validation_status": "NOT_CHECKED",
-      "indicator": "EQUITY",
-      "report_year": 2025
+      "validation_status": "NOT_CHECKED"
     }
   },
   {
@@ -2008,19 +2008,19 @@
     },
     "conflict_group": null,
     "original": {
+      "entreprise": "sothema",
       "nom": "TOTAL PASSIF",
+      "indicator": "TOTAL_LIABILITIES_AND_EQUITY",
       "annee": 2024,
+      "report_year": 2025,
       "valeur": 3182052.0,
       "ligne_source": "TOTAL PASSIF  | 4 607 253  | 3 182 052 ",
-      "entreprise": "sothema",
       "unite": null,
       "perimetre": null,
       "source_table": "DOCLING_053",
       "source_page": 63,
       "source_ligne": 21,
-      "validation_status": "NOT_CHECKED",
-      "indicator": "TOTAL_LIABILITIES_AND_EQUITY",
-      "report_year": 2025
+      "validation_status": "NOT_CHECKED"
     }
   }
 ]

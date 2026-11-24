@@ -540,8 +540,14 @@ def apply_human_decisions(
     decisions: list[CandidateDecision],
     human_rows: list[dict[str, Any]],
     pdf_sources: dict[tuple[str, int], dict],
+    obsolete: list[dict[str, Any]] | None = None,
 ) -> list[dict[str, Any]]:
-    """Applique les décisions valides ; retourne les décisions refusées (avec motif)."""
+    """Applique les décisions valides ; retourne les décisions refusées (avec motif).
+
+    Si ``obsolete`` est fourni, une décision dont le candidat n'existe plus dans
+    le handoff courant y est rangée (conservée, jamais réassociée) au lieu
+    d'être comptée comme refusée.
+    """
     by_id = {d.loaded.candidate_id: d for d in decisions}
     refused: list[dict[str, Any]] = []
     for row in human_rows:
@@ -553,6 +559,19 @@ def apply_human_decisions(
             )
             continue
         d = by_id.get(human.candidate_id)
+        if d is None and obsolete is not None:
+            obsolete.append(
+                {
+                    "candidate_id": human.candidate_id,
+                    "n": row.get("n"),
+                    "reminder": row.get("reminder"),
+                    "decision": human.decision,
+                    "status": "OBSOLETE_NOT_REASSOCIATED",
+                    "note": "candidat absent du handoff courant : décision "
+                    "conservée dans human_decisions.json, non réassociée",
+                }
+            )
+            continue
         if d is None:
             refused.append(
                 {"candidate_id": human.candidate_id, "problems": ["candidat inconnu"]}

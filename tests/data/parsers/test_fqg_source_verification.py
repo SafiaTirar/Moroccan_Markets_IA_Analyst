@@ -253,3 +253,23 @@ def test_pdf_sources_built_from_ocr_metadata(tmp_path):
     )
     registry = build_pdf_sources(tmp_path)
     assert registry["reports"] == [SOURCES[("attijariwafa_bank", 2025)]]
+
+
+def test_unknown_candidate_is_obsolete_not_refused(tmp_path):
+    decisions = decisions_for(tmp_path)
+    row = human(decisions)
+    row["candidate_id"] = "0000000000000000"  # absent du handoff courant
+    obsolete: list = []
+    refused = apply_human_decisions(decisions, [row], SOURCES, obsolete)
+    assert refused == []
+    assert obsolete[0]["candidate_id"] == "0000000000000000"
+    assert obsolete[0]["status"] == "OBSOLETE_NOT_REASSOCIATED"
+    assert decisions[0].status == "NOT_CHECKED"  # aucune réassociation
+
+
+def test_unknown_candidate_is_refused_without_obsolete_list(tmp_path):
+    decisions = decisions_for(tmp_path)
+    row = human(decisions)
+    row["candidate_id"] = "0000000000000000"
+    refused = apply_human_decisions(decisions, [row], SOURCES)
+    assert refused[0]["problems"] == ["candidat inconnu"]
