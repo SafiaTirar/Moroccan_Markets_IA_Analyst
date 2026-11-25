@@ -1,0 +1,188 @@
+{
+  "schema_version": "fqg-handoff-1.0",
+  "generated_at": "2026-11-24T15:33:55+00:00",
+  "inputs": {
+    "candidates": "data/quality/ammc/handoff_fqg_v2_final/candidats_fqg.json",
+    "anomalies": "data/quality/ammc/handoff_fqg_v2_final/anomalies.json",
+    "bilan": "data/quality/ammc/handoff_fqg_v2_final/bilan.json",
+    "human_decisions": "data/quality/ammc/fqg_validation/human_decisions.json"
+  },
+  "downstream_allowed_statuses": [
+    "VERIFIED"
+  ],
+  "candidates_received": 327,
+  "structurally_valid": 327,
+  "structurally_rejected": 0,
+  "exact_duplicates": 0,
+  "value_conflict_groups": 34,
+  "candidates_in_conflict": 104,
+  "assets_liabilities_mismatches": 0,
+  "net_income_equal_group_share": 2,
+  "verified": 47,
+  "pdf_confirmed": 37,
+  "rejected": 0,
+  "review_required": 112,
+  "not_checked": 131,
+  "remaining_to_check": 280,
+  "status_counts": {
+    "VERIFIED": 47,
+    "PDF_CONFIRMED": 37,
+    "NOT_CHECKED": 131,
+    "REVIEW_REQUIRED": 112,
+    "REJECTED": 0
+  },
+  "anomalies_by_category": {
+    "AUCUN_CANDIDAT_EXTRAIT": 9,
+    "MONTANT_A_VERIFIER": 45,
+    "TABLEAU_TO_REVIEW": 81
+  },
+  "anomalies_total": 135,
+  "reports_without_candidate": [
+    {
+      "company": "aradei_capital",
+      "report_year": 2023
+    },
+    {
+      "company": "aradei_capital",
+      "report_year": 2024
+    },
+    {
+      "company": "aradei_capital",
+      "report_year": 2025
+    },
+    {
+      "company": "cosumar",
+      "report_year": 2023
+    },
+    {
+      "company": "dari_couspate",
+      "report_year": 2023
+    },
+    {
+      "company": "dari_couspate",
+      "report_year": 2024
+    },
+    {
+      "company": "dari_couspate",
+      "report_year": 2025
+    },
+    {
+      "company": "stroc",
+      "report_year": 2023
+    },
+    {
+      "company": "stroc",
+      "report_year": 2025
+    }
+  ],
+  "review_reasons": {
+    "VALUE_CONFLICT": 100,
+    "DISTANT_OBSERVATION_YEAR": 8,
+    "LINKED_AMOUNT_ANOMALY": 7,
+    "EQUITY_GROUP_SHARE": 6,
+    "MERGED_LABEL": 4,
+    "UNIT_SCALE_DIVERGENCE": 4,
+    "MULTIPLE_AMOUNTS_IN_CELL": 3,
+    "LABEL_INDICATOR_MISMATCH": 2
+  },
+  "sample": {
+    "size": 28,
+    "companies": 10,
+    "report_years": [
+      2023,
+      2024,
+      2025
+    ],
+    "indicators": [
+      "CUSTOMER_LOANS",
+      "EQUITY",
+      "NET_INCOME",
+      "NET_INCOME_GROUP_SHARE",
+      "OPERATING_INCOME",
+      "REVENUE",
+      "TOTAL_ASSETS",
+      "TOTAL_LIABILITIES_AND_EQUITY"
+    ],
+    "status_counts": {
+      "VERIFIED": 14,
+      "PDF_CONFIRMED": 13,
+      "NOT_CHECKED": 0,
+      "REVIEW_REQUIRED": 1,
+      "REJECTED": 0
+    },
+    "refused_human_decisions": 0
+  },
+  "obsolete_human_decisions": 8,
+  "obsolete_human_decision_ids": [
+    "ce1ec94c585ae46b",
+    "fbf20d29fb6f8048",
+    "3f83ba11f009e2cb",
+    "dc966b9dba1ceafe",
+    "83fe07a22046e53e",
+    "902a700f28ab6880",
+    "eae62710f75ac8bf",
+    "fdbfde617ce48ca7"
+  ],
+  "status_by_company": {
+    "attijariwafa_bank": {
+      "REVIEW_REQUIRED": 7,
+      "NOT_CHECKED": 36,
+      "VERIFIED": 3
+    },
+    "auto_hall": {
+      "REVIEW_REQUIRED": 6,
+      "NOT_CHECKED": 12,
+      "VERIFIED": 2
+    },
+    "cosumar": {
+      "REVIEW_REQUIRED": 19,
+      "NOT_CHECKED": 14,
+      "PDF_CONFIRMED": 2,
+      "VERIFIED": 1
+    },
+    "lafargeholcim_maroc": {
+      "VERIFIED": 3,
+      "NOT_CHECKED": 9
+    },
+    "lesieur_cristal": {
+      "VERIFIED": 6,
+      "REVIEW_REQUIRED": 19,
+      "NOT_CHECKED": 5,
+      "PDF_CONFIRMED": 4
+    },
+    "managem": {
+      "REVIEW_REQUIRED": 11,
+      "PDF_CONFIRMED": 4,
+      "NOT_CHECKED": 3,
+      "VERIFIED": 2
+    },
+    "marsa_maroc": {
+      "VERIFIED": 3,
+      "NOT_CHECKED": 28,
+      "REVIEW_REQUIRED": 37
+    },
+    "s2m": {
+      "NOT_CHECKED": 16,
+      "REVIEW_REQUIRED": 2,
+      "PDF_CONFIRMED": 3
+    },
+    "sonasid": {
+      "VERIFIED": 14
+    },
+    "sothema": {
+      "VERIFIED": 12
+    },
+    "stroc": {
+      "PDF_CONFIRMED": 6
+    },
+    "totalenergies_marketing_maroc": {
+      "PDF_CONFIRMED": 16
+    },
+    "wafa_assurance": {
+      "PDF_CONFIRMED": 2,
+      "REVIEW_REQUIRED": 11,
+      "NOT_CHECKED": 8,
+      "VERIFIED": 1
+    }
+  }
+}

@@ -54,6 +54,13 @@ NOTE_REF_RE = re.compile(
 AMOUNT_RE = re.compile(
     r"\(?-?\d{1,3}(?:[ .\u00a0\u202f]\d{3})+(?:,\d+)?\)?|-?\d+(?:,\d+)?"
 )
+# Montant d'un texte narratif, accolé à son unité : « 87MMAD », « -14MMAD »,
+# « - 12,5MMAD ». Le texte source n'est jamais modifié : on le lit seulement.
+NARRATIVE_AMOUNT_RE = re.compile(
+    r"(?<![\w,.])(-\s?)?(\d{1,3}(?:[ \u00a0\u202f]\d{3})+|\d+)(?:,(\d+))?"
+    r"\s?(?:MMAD|KMAD|MDH|KDH|MAD|DH)\b",
+    re.IGNORECASE,
+)
 
 
 @dataclass
@@ -99,8 +106,26 @@ def _fold(text: str) -> str:
     return re.sub(r"\s+", " ", text.replace("’", "'")).strip().upper()
 
 
+def _narrative_amounts(line: str) -> list[Decimal]:
+    """Montants accolés à une unité dans une phrase (ex. rapport de gestion)."""
+    amounts = []
+    for sign, integer, decimals in NARRATIVE_AMOUNT_RE.findall(line):
+        digits = re.sub(r"[ \u00a0\u202f]", "", integer)
+        if decimals:
+            digits = f"{digits}.{decimals}"
+        value = Decimal(digits)
+        amounts.append(-value if sign else value)
+    return amounts
+
+
 def _source_amounts(line: str) -> list[list[Decimal]]:
-    """Montants trouvés dans chaque cellule de ``ligne_source`` (hors libellé)."""
+    """Montants trouvés dans chaque cellule de ``ligne_source`` (hors libellé).
+
+    Une ligne narrative (sans ``|``) n'a pas de cellules : chaque montant
+    accolé à une unité y est traité comme une cellule à part.
+    """
+    if "|" not in line:
+        return [[amount] for amount in _narrative_amounts(line)]
     cells = [cell.strip() for cell in line.split("|")[1:]]
     result = []
     for cell in cells:

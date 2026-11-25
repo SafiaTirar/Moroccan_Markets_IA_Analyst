@@ -320,3 +320,55 @@ def test_small_integer_amounts_are_kept(tmp_path):
     )
     (d,), _ = check(tmp_path, [record])
     assert "VALUE_NOT_IN_SOURCE_LINE" not in codes(d)
+
+
+STROC_LINES = {
+    "REVENUE": "- Le Chiffre d'Affaires croit, de 87MMAD à 117MMAD, "
+    "la production passe de 88MMAD à 112MMAD sur la même période.",
+    "OPERATING_INCOME": "- Le Résultat d'Exploitation de -14MMAD 2024 contre "
+    "-22MMAD en 2023, impacté à hauteur de 6MMAD par les dotations.",
+    "NET_INCOME": "- Le Résultat Net s'élève ainsi à - 12,5MMAD contre "
+    "-39,7MMAD sur l'exercice précédent.",
+}
+
+
+def narrative(indicator, valeur, annee=2024):
+    return cand(
+        entreprise="stroc",
+        report_year=2024,
+        annee=annee,
+        indicator=indicator,
+        nom=indicator,
+        valeur=valeur,
+        unite="MMAD",
+        source_table="NARRATIVE_P005",
+        source_page=5,
+        source_ligne=85,
+        ligne_source=STROC_LINES[indicator],
+    )
+
+
+@pytest.mark.parametrize(
+    ("indicator", "valeur", "annee"),
+    [
+        ("REVENUE", "87", 2023),  # positif accolé : 87MMAD
+        ("REVENUE", "117", 2024),
+        ("OPERATING_INCOME", "-14", 2024),  # négatif accolé : -14MMAD
+        ("OPERATING_INCOME", "-22", 2023),
+        ("NET_INCOME", "-12.5", 2024),  # décimal à virgule : - 12,5MMAD
+        ("NET_INCOME", "-39.7", 2023),  # décimal à virgule : -39,7MMAD
+    ],
+)
+def test_narrative_amounts_glued_to_unit_are_found(tmp_path, indicator, valeur, annee):
+    record = narrative(indicator, valeur, annee)
+    (d,), _ = check(tmp_path, [record])
+    assert "VALUE_NOT_IN_SOURCE_LINE" not in codes(d)
+    assert "MULTIPLE_AMOUNTS_IN_CELL" not in codes(d)
+    assert d.c.ligne_source == STROC_LINES[indicator]  # texte source intact
+
+
+def test_narrative_wrong_value_or_sign_is_still_flagged(tmp_path):
+    wrong_sign = narrative("NET_INCOME", "12.5")  # le texte dit - 12,5MMAD
+    wrong_value = narrative("REVENUE", "870")
+    decisions, _ = check(tmp_path, [wrong_sign, wrong_value])
+    assert all("VALUE_NOT_IN_SOURCE_LINE" in codes(d) for d in decisions)

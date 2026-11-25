@@ -1,0 +1,66 @@
+[
+  {
+    "candidate_id": "ce1ec94c585ae46b",
+    "n": 28,
+    "reminder": "sonasid 2023 – RÉSULTAT NET - PART DU GROUPE (2022) = 105.721",
+    "decision": "REJECTED",
+    "status": "OBSOLETE_NOT_REASSOCIATED",
+    "note": "candidat absent du handoff courant : décision conservée dans human_decisions.json, non réassociée"
+  },
+  {
+    "candidate_id": "fbf20d29fb6f8048",
+    "n": 29,
+    "reminder": "sonasid 2023 – RÉSULTAT NET - PART DU GROUPE (2023) = 85.712",
+    "decision": "REJECTED",
+    "status": "OBSOLETE_NOT_REASSOCIATED",
+    "note": "candidat absent du handoff courant : décision conservée dans human_decisions.json, non réassociée"
+  },
+  {
+    "candidate_id": "3f83ba11f009e2cb",
+    "n": 30,
+    "reminder": "sothema 2025 – CAPITAUX PROPRES, PART DU GROUPE (2024) = 1684172.0",
+    "decision": "REVIEW_REQUIRED",
+    "status": "OBSOLETE_NOT_REASSOCIATED",
+    "note": "candidat absent du handoff courant : décision conservée dans human_decisions.json, non réassociée"
+  },
+  {
+    "candidate_id": "dc966b9dba1ceafe",
+    "n": 32,
+    "reminder": "sothema 2025 – CAPITAUX PROPRES, PART DU GROUPE (2025) = 2619648.0",
+    "decision": "REVIEW_REQUIRED",
+    "status": "OBSOLETE_NOT_REASSOCIATED",
+    "note": "candidat absent du handoff courant : décision conservée dans human_decisions.json, non réassociée"
+  },
+  {
+    "candidate_id": "83fe07a22046e53e",
+    "n": 54,
+    "reminder": "sothema 2023 – Capitaux propres, part du groupe (2022) = 1415326.0",
+    "decision": "REVIEW_REQUIRED",
+    "status": "OBSOLETE_NOT_REASSOCIATED",
+    "note": "candidat absent du handoff courant : décision conservée dans human_decisions.json, non réassociée"
+  },
+  {
+    "candidate_id": "902a700f28ab6880",
+    "n": 55,
+    "reminder": "sothema 2023 – Capitaux propres, part du groupe (2023) = 1499556.0",
+    "decision": "REVIEW_REQUIRED",
+    "status": "OBSOLETE_NOT_REASSOCIATED",
+    "note": "candidat absent du handoff courant : décision conservée dans human_decisions.json, non réassociée"
+  },
+  {
+    "candidate_id": "eae62710f75ac8bf",
+    "n": 56,
+    "reminder": "sothema 2024 – Capitaux propres, part du groupe (2023) = 1499556.0",
+    "decision": "REVIEW_REQUIRED",
+    "status": "OBSOLETE_NOT_REASSOCIATED",
+    "note": "candidat absent du handoff courant : décision conservée dans human_decisions.json, non réassociée"
+  },
+  {
+    "candidate_id": "fdbfde617ce48ca7",
+    "n": 57,
+    "reminder": "sothema 2024 – Capitaux propres, part du groupe (2024) = 1684172.0",
+    "decision": "REVIEW_REQUIRED",
+    "status": "OBSOLETE_NOT_REASSOCIATED",
+    "note": "candidat absent du handoff courant : décision conservée dans human_decisions.json, non réassociée"
+  }
+]
