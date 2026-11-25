@@ -8,7 +8,9 @@ import pytest
 
 from moroccan_markets_ai.data.warehouse import fqg_warehouse_pipeline as pipeline
 from moroccan_markets_ai.data.warehouse.fqg_warehouse_pipeline import (
+    DEFAULT_FQG_HANDOFF,
     PipelinePaths,
+    build_parser,
     run_pipeline,
     validate_database,
 )
@@ -102,6 +104,99 @@ def build_validation_fixture(tmp_path: Path) -> tuple[Path, Path, Path, Path]:
     )
     validation_report = tmp_path / "validation.json"
     return database, ingestion_report, query_results, validation_report
+
+
+def test_pipeline_defaults_to_final_fqg_handoff() -> None:
+    paths = PipelinePaths()
+
+    assert paths.candidates == DEFAULT_FQG_HANDOFF / "candidats_fqg.json"
+    assert paths.anomalies == DEFAULT_FQG_HANDOFF / "anomalies.json"
+    assert paths.bilan == DEFAULT_FQG_HANDOFF / "bilan.json"
+    assert DEFAULT_FQG_HANDOFF.name == "handoff_fqg_v2_final"
+
+
+def test_display_path_keeps_repository_reports_portable() -> None:
+    displayed = pipeline._display_path(
+        DEFAULT_FQG_HANDOFF / "candidats_fqg.json"
+    )
+
+    assert displayed == (
+        "data/quality/ammc/handoff_fqg_v2_final/candidats_fqg.json"
+    )
+    assert not displayed.startswith("/")
+
+
+def test_cli_accepts_explicit_fqg_inputs(tmp_path: Path) -> None:
+    candidates = tmp_path / "candidates.json"
+    anomalies = tmp_path / "anomalies.json"
+    bilan = tmp_path / "bilan.json"
+    database = tmp_path / "warehouse.duckdb"
+    ingestion = tmp_path / "ingestion.json"
+    failed = tmp_path / "failed.json"
+    queries = tmp_path / "queries.json"
+    validation = tmp_path / "validation.json"
+    pipeline_report = tmp_path / "pipeline.json"
+
+    args = build_parser().parse_args(
+        [
+            "--candidates",
+            str(candidates),
+            "--anomalies",
+            str(anomalies),
+            "--bilan",
+            str(bilan),
+            "--database",
+            str(database),
+            "--ingestion-report",
+            str(ingestion),
+            "--failed-report",
+            str(failed),
+            "--query-results",
+            str(queries),
+            "--validation-report",
+            str(validation),
+            "--pipeline-report",
+            str(pipeline_report),
+        ]
+    )
+
+    assert args.candidates == candidates
+    assert args.anomalies == anomalies
+    assert args.bilan == bilan
+    assert args.database == database
+    assert args.ingestion_report == ingestion
+    assert args.failed_report == failed
+    assert args.query_results == queries
+    assert args.validation_report == validation
+    assert args.pipeline_report == pipeline_report
+
+
+def test_final_handoff_contains_expected_fqg_volume() -> None:
+    candidates = json.loads(
+        (DEFAULT_FQG_HANDOFF / "candidats_fqg.json").read_text(encoding="utf-8")
+    )
+
+    assert len(candidates) == 327
+
+
+def test_final_handoff_produces_expected_fqg_contract(tmp_path: Path) -> None:
+    paths = PipelinePaths()
+
+    report = pipeline.run_fqg(
+        candidates=paths.candidates,
+        anomalies_path=paths.anomalies,
+        output=tmp_path / "fqg",
+        bilan_path=paths.bilan,
+        human_decisions=paths.human_decisions,
+        pdf_sources=paths.pdf_sources,
+    )
+
+    assert report["candidates_received"] == 327
+    assert report["structurally_valid"] == 327
+    assert report["verified"] == 47
+    assert report["pdf_confirmed"] == 37
+    assert report["rejected"] == 0
+    assert report["obsolete_human_decisions"] == 8
 
 
 def test_validate_database_accepts_consistent_transaction(tmp_path: Path) -> None:
