@@ -4,15 +4,15 @@
   "command": "uv run fqg-warehouse",
   "stages": {
     "fqg": {
-      "candidates_received": 329,
-      "verified": 13
+      "candidates_received": 327,
+      "verified": 47
     },
     "adapter": {
       "schema_version": "1.0",
       "status": "ADAPTED",
       "fqg_input": "data/quality/ammc/fqg_pipeline_run/fqg_validation/admissible_values.jsonl",
-      "input_records": 13,
-      "emitted_records": 11,
+      "input_records": 47,
+      "emitted_records": 45,
       "skipped_existing_duplicates": 2,
       "skipped_reference_ids": [
         "18b8fccb1143d23b",
@@ -20,32 +20,32 @@
       ],
       "unit_counts": {
         "MAD": 5,
-        "KMAD": 5,
-        "MMAD": 1
+        "KMAD": 27,
+        "MMAD": 13
       },
       "financial_output": "data/quality/ammc/fqg_pipeline_run/fqg_warehouse/verified_financial_observations.csv",
       "references_output": "data/quality/ammc/fqg_pipeline_run/fqg_warehouse/financial_references.json"
     },
     "merge": {
       "base_rows": 25,
-      "increment_rows": 11,
-      "combined_rows": 36,
+      "increment_rows": 45,
+      "combined_rows": 70,
       "statuses": [
         "VERIFIED"
       ],
       "base_documents": 8,
-      "increment_documents": 5,
-      "combined_documents": 13,
-      "combined_references": 40,
-      "combined_financial_rows": 36
+      "increment_documents": 15,
+      "combined_documents": 23,
+      "combined_references": 74,
+      "combined_financial_rows": 70
     },
     "warehouse": {
       "status": "COMMITTED",
       "cache_used": false,
       "loaded_rows": {
         "dim_company": 15,
-        "fact_financial_observations": 36,
-        "fact_hcp_monthly": 348,
+        "fact_financial_observations": 70,
+        "fact_hcp_monthly": 354,
         "fact_worldbank_annual": 32
       }
     },
@@ -53,21 +53,21 @@
       "schema_version": "1.0",
       "status": "PASSED",
       "database": "data/warehouse/moroccan_markets_fqg.duckdb",
-      "database_sha256": "c62738aa4803939d306338a6728312288cc174a6d76779ab1183dfad2fae247b",
+      "database_sha256": "a69f17bcffe96063ca81f0b81f26a9cb7d3da4fc9ccf2ce3694010b6d11769d0",
       "checks": {
         "database_sha_matches_report": true,
         "ingestion_status": "COMMITTED",
-        "financial_rows": 36,
+        "financial_rows": 70,
         "non_verified_rows": 0,
         "duplicate_business_keys": 0,
         "invalid_currency_rows": 0,
         "invalid_scale_rows": 0,
         "invalid_scope_rows": 0,
         "missing_provenance_rows": 0,
-        "current_rows": 30,
-        "comparative_rows": 6,
-        "companies_with_financial_data": 9,
-        "hcp_rows": 348,
+        "current_rows": 47,
+        "comparative_rows": 23,
+        "companies_with_financial_data": 13,
+        "hcp_rows": 354,
         "worldbank_rows": 32,
         "analytic_queries": 8,
         "analytic_query_failures": [],

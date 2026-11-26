@@ -9,7 +9,7 @@ on:
 
 jobs:
   fqg:
-    name: Tests FQG et Ruff
+    name: Tests FQG, Warehouse et Ruff
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -24,6 +24,9 @@ jobs:
 
       - name: Tests FQG
         run: uv run pytest tests/data/parsers -k fqg -v
+
+      - name: Tests Warehouse
+        run: uv run pytest tests/data/warehouse -q
 
       - name: Ruff (lint)
         run: uv run ruff check src/ tests/

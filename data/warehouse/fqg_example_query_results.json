@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "ingestion_fingerprint": "c1360980ec3e2dbb643fe811285a9678d9559654d5d50ea93ec60a80953c9908",
+  "ingestion_fingerprint": "31d96c2d9a262680133c461788d495399973ea7bdd416d5f6504a2bdb7a7708a",
   "queries": [
     {
       "name": "financial_coverage",
@@ -8,9 +8,24 @@
       "row_count": 15,
       "rows": [
         {
+          "company_id": "sonasid",
+          "verified_observation_count": 14,
+          "verified_indicator_count": 5
+        },
+        {
+          "company_id": "sothema",
+          "verified_observation_count": 12,
+          "verified_indicator_count": 2
+        },
+        {
           "company_id": "s2m",
           "verified_observation_count": 10,
           "verified_indicator_count": 5
+        },
+        {
+          "company_id": "lesieur_cristal",
+          "verified_observation_count": 6,
+          "verified_indicator_count": 1
         },
         {
           "company_id": "wafa_assurance",
@@ -48,29 +63,14 @@
           "verified_indicator_count": 2
         },
         {
-          "company_id": "cosumar",
-          "verified_observation_count": 1,
+          "company_id": "managem",
+          "verified_observation_count": 2,
           "verified_indicator_count": 1
         },
         {
-          "company_id": "lesieur_cristal",
-          "verified_observation_count": 0,
-          "verified_indicator_count": 0
-        },
-        {
-          "company_id": "managem",
-          "verified_observation_count": 0,
-          "verified_indicator_count": 0
-        },
-        {
-          "company_id": "sonasid",
-          "verified_observation_count": 0,
-          "verified_indicator_count": 0
-        },
-        {
-          "company_id": "sothema",
-          "verified_observation_count": 0,
-          "verified_indicator_count": 0
+          "company_id": "cosumar",
+          "verified_observation_count": 1,
+          "verified_indicator_count": 1
         },
         {
           "company_id": "stroc",
@@ -87,7 +87,7 @@
     {
       "name": "financial_current_and_comparative",
       "sql": "SELECT company_id, observation_year, indicator, accounting_perimeter, normalized_value, currency, is_comparative FROM v_financial_observations ORDER BY company_id, observation_year, indicator",
-      "row_count": 36,
+      "row_count": 70,
       "rows": [
         {
           "company_id": "aradei_capital",
@@ -243,6 +243,78 @@
           "is_comparative": false
         },
         {
+          "company_id": "lesieur_cristal",
+          "observation_year": 2022,
+          "indicator": "NET_INCOME_GROUP_SHARE",
+          "accounting_perimeter": "CONSOLIDATED",
+          "normalized_value": "206000000.000000",
+          "currency": "MAD",
+          "is_comparative": true
+        },
+        {
+          "company_id": "lesieur_cristal",
+          "observation_year": 2023,
+          "indicator": "NET_INCOME_GROUP_SHARE",
+          "accounting_perimeter": "CONSOLIDATED",
+          "normalized_value": "2000000.000000",
+          "currency": "MAD",
+          "is_comparative": false
+        },
+        {
+          "company_id": "lesieur_cristal",
+          "observation_year": 2023,
+          "indicator": "NET_INCOME_GROUP_SHARE",
+          "accounting_perimeter": "CONSOLIDATED",
+          "normalized_value": "2000000.000000",
+          "currency": "MAD",
+          "is_comparative": true
+        },
+        {
+          "company_id": "lesieur_cristal",
+          "observation_year": 2024,
+          "indicator": "NET_INCOME_GROUP_SHARE",
+          "accounting_perimeter": "CONSOLIDATED",
+          "normalized_value": "24000000.000000",
+          "currency": "MAD",
+          "is_comparative": false
+        },
+        {
+          "company_id": "lesieur_cristal",
+          "observation_year": 2024,
+          "indicator": "NET_INCOME_GROUP_SHARE",
+          "accounting_perimeter": "CONSOLIDATED",
+          "normalized_value": "24000000.000000",
+          "currency": "MAD",
+          "is_comparative": true
+        },
+        {
+          "company_id": "lesieur_cristal",
+          "observation_year": 2025,
+          "indicator": "NET_INCOME_GROUP_SHARE",
+          "accounting_perimeter": "CONSOLIDATED",
+          "normalized_value": "8000000.000000",
+          "currency": "MAD",
+          "is_comparative": false
+        },
+        {
+          "company_id": "managem",
+          "observation_year": 2023,
+          "indicator": "NET_INCOME_GROUP_SHARE",
+          "accounting_perimeter": "CONSOLIDATED",
+          "normalized_value": "514400000.000000",
+          "currency": "MAD",
+          "is_comparative": true
+        },
+        {
+          "company_id": "managem",
+          "observation_year": 2024,
+          "indicator": "NET_INCOME_GROUP_SHARE",
+          "accounting_perimeter": "CONSOLIDATED",
+          "normalized_value": "619800000.000000",
+          "currency": "MAD",
+          "is_comparative": false
+        },
+        {
           "company_id": "marsa_maroc",
           "observation_year": 2023,
           "indicator": "EQUITY",
@@ -274,18 +346,18 @@
           "observation_year": 2024,
           "indicator": "NET_INCOME",
           "accounting_perimeter": "CONSOLIDATED",
-          "normalized_value": "28464006.000000",
+          "normalized_value": "28463643.000000",
           "currency": "MAD",
-          "is_comparative": true
+          "is_comparative": false
         },
         {
           "company_id": "s2m",
           "observation_year": 2024,
           "indicator": "NET_INCOME",
           "accounting_perimeter": "CONSOLIDATED",
-          "normalized_value": "28463643.000000",
+          "normalized_value": "28464006.000000",
           "currency": "MAD",
-          "is_comparative": false
+          "is_comparative": true
         },
         {
           "company_id": "s2m",
@@ -360,6 +432,240 @@
           "is_comparative": false
         },
         {
+          "company_id": "sonasid",
+          "observation_year": 2022,
+          "indicator": "NET_INCOME_GROUP_SHARE",
+          "accounting_perimeter": "CONSOLIDATED",
+          "normalized_value": "85930000.000000",
+          "currency": "MAD",
+          "is_comparative": true
+        },
+        {
+          "company_id": "sonasid",
+          "observation_year": 2022,
+          "indicator": "OPERATING_INCOME",
+          "accounting_perimeter": "CONSOLIDATED",
+          "normalized_value": "162793000.000000",
+          "currency": "MAD",
+          "is_comparative": true
+        },
+        {
+          "company_id": "sonasid",
+          "observation_year": 2022,
+          "indicator": "REVENUE",
+          "accounting_perimeter": "CONSOLIDATED",
+          "normalized_value": "4888161000.000000",
+          "currency": "MAD",
+          "is_comparative": true
+        },
+        {
+          "company_id": "sonasid",
+          "observation_year": 2023,
+          "indicator": "EQUITY",
+          "accounting_perimeter": "CONSOLIDATED",
+          "normalized_value": "1816488000.000000",
+          "currency": "MAD",
+          "is_comparative": true
+        },
+        {
+          "company_id": "sonasid",
+          "observation_year": 2023,
+          "indicator": "NET_INCOME_GROUP_SHARE",
+          "accounting_perimeter": "CONSOLIDATED",
+          "normalized_value": "65077000.000000",
+          "currency": "MAD",
+          "is_comparative": false
+        },
+        {
+          "company_id": "sonasid",
+          "observation_year": 2023,
+          "indicator": "OPERATING_INCOME",
+          "accounting_perimeter": "CONSOLIDATED",
+          "normalized_value": "116941000.000000",
+          "currency": "MAD",
+          "is_comparative": false
+        },
+        {
+          "company_id": "sonasid",
+          "observation_year": 2023,
+          "indicator": "REVENUE",
+          "accounting_perimeter": "CONSOLIDATED",
+          "normalized_value": "4995795000.000000",
+          "currency": "MAD",
+          "is_comparative": false
+        },
+        {
+          "company_id": "sonasid",
+          "observation_year": 2023,
+          "indicator": "TOTAL_LIABILITIES_AND_EQUITY",
+          "accounting_perimeter": "CONSOLIDATED",
+          "normalized_value": "4883177000.000000",
+          "currency": "MAD",
+          "is_comparative": true
+        },
+        {
+          "company_id": "sonasid",
+          "observation_year": 2024,
+          "indicator": "EQUITY",
+          "accounting_perimeter": "CONSOLIDATED",
+          "normalized_value": "1879300000.000000",
+          "currency": "MAD",
+          "is_comparative": true
+        },
+        {
+          "company_id": "sonasid",
+          "observation_year": 2024,
+          "indicator": "EQUITY",
+          "accounting_perimeter": "CONSOLIDATED",
+          "normalized_value": "1879339000.000000",
+          "currency": "MAD",
+          "is_comparative": false
+        },
+        {
+          "company_id": "sonasid",
+          "observation_year": 2024,
+          "indicator": "TOTAL_LIABILITIES_AND_EQUITY",
+          "accounting_perimeter": "CONSOLIDATED",
+          "normalized_value": "5305765000.000000",
+          "currency": "MAD",
+          "is_comparative": false
+        },
+        {
+          "company_id": "sonasid",
+          "observation_year": 2024,
+          "indicator": "TOTAL_LIABILITIES_AND_EQUITY",
+          "accounting_perimeter": "CONSOLIDATED",
+          "normalized_value": "5305800000.000000",
+          "currency": "MAD",
+          "is_comparative": true
+        },
+        {
+          "company_id": "sonasid",
+          "observation_year": 2025,
+          "indicator": "EQUITY",
+          "accounting_perimeter": "CONSOLIDATED",
+          "normalized_value": "1993200000.000000",
+          "currency": "MAD",
+          "is_comparative": false
+        },
+        {
+          "company_id": "sonasid",
+          "observation_year": 2025,
+          "indicator": "TOTAL_LIABILITIES_AND_EQUITY",
+          "accounting_perimeter": "CONSOLIDATED",
+          "normalized_value": "5426900000.000000",
+          "currency": "MAD",
+          "is_comparative": false
+        },
+        {
+          "company_id": "sothema",
+          "observation_year": 2022,
+          "indicator": "EQUITY",
+          "accounting_perimeter": "CONSOLIDATED",
+          "normalized_value": "1433679000.000000",
+          "currency": "MAD",
+          "is_comparative": true
+        },
+        {
+          "company_id": "sothema",
+          "observation_year": 2022,
+          "indicator": "TOTAL_LIABILITIES_AND_EQUITY",
+          "accounting_perimeter": "CONSOLIDATED",
+          "normalized_value": "2471507000.000000",
+          "currency": "MAD",
+          "is_comparative": true
+        },
+        {
+          "company_id": "sothema",
+          "observation_year": 2023,
+          "indicator": "EQUITY",
+          "accounting_perimeter": "CONSOLIDATED",
+          "normalized_value": "1518510000.000000",
+          "currency": "MAD",
+          "is_comparative": false
+        },
+        {
+          "company_id": "sothema",
+          "observation_year": 2023,
+          "indicator": "EQUITY",
+          "accounting_perimeter": "CONSOLIDATED",
+          "normalized_value": "1518510000.000000",
+          "currency": "MAD",
+          "is_comparative": true
+        },
+        {
+          "company_id": "sothema",
+          "observation_year": 2023,
+          "indicator": "TOTAL_LIABILITIES_AND_EQUITY",
+          "accounting_perimeter": "CONSOLIDATED",
+          "normalized_value": "2749885000.000000",
+          "currency": "MAD",
+          "is_comparative": false
+        },
+        {
+          "company_id": "sothema",
+          "observation_year": 2023,
+          "indicator": "TOTAL_LIABILITIES_AND_EQUITY",
+          "accounting_perimeter": "CONSOLIDATED",
+          "normalized_value": "2749885000.000000",
+          "currency": "MAD",
+          "is_comparative": true
+        },
+        {
+          "company_id": "sothema",
+          "observation_year": 2024,
+          "indicator": "EQUITY",
+          "accounting_perimeter": "CONSOLIDATED",
+          "normalized_value": "1707312000.000000",
+          "currency": "MAD",
+          "is_comparative": false
+        },
+        {
+          "company_id": "sothema",
+          "observation_year": 2024,
+          "indicator": "EQUITY",
+          "accounting_perimeter": "CONSOLIDATED",
+          "normalized_value": "1707312000.000000",
+          "currency": "MAD",
+          "is_comparative": true
+        },
+        {
+          "company_id": "sothema",
+          "observation_year": 2024,
+          "indicator": "TOTAL_LIABILITIES_AND_EQUITY",
+          "accounting_perimeter": "CONSOLIDATED",
+          "normalized_value": "3182052000.000000",
+          "currency": "MAD",
+          "is_comparative": false
+        },
+        {
+          "company_id": "sothema",
+          "observation_year": 2024,
+          "indicator": "TOTAL_LIABILITIES_AND_EQUITY",
+          "accounting_perimeter": "CONSOLIDATED",
+          "normalized_value": "3182052000.000000",
+          "currency": "MAD",
+          "is_comparative": true
+        },
+        {
+          "company_id": "sothema",
+          "observation_year": 2025,
+          "indicator": "EQUITY",
+          "accounting_perimeter": "CONSOLIDATED",
+          "normalized_value": "2649675000.000000",
+          "currency": "MAD",
+          "is_comparative": false
+        },
+        {
+          "company_id": "sothema",
+          "observation_year": 2025,
+          "indicator": "TOTAL_LIABILITIES_AND_EQUITY",
+          "accounting_perimeter": "CONSOLIDATED",
+          "normalized_value": "4607253000.000000",
+          "currency": "MAD",
+          "is_comparative": false
+        },
+        {
           "company_id": "wafa_assurance",
           "observation_year": 2023,
           "indicator": "EQUITY",
@@ -421,6 +727,18 @@
       "row_count": 12,
       "rows": [
         {
+          "observation_date": "2026-10-01",
+          "value": "121.800000",
+          "unit": "index_points",
+          "base_year": 2017
+        },
+        {
+          "observation_date": "2026-09-01",
+          "value": "120.800000",
+          "unit": "index_points",
+          "base_year": 2017
+        },
+        {
           "observation_date": "2026-08-01",
           "value": "119.600000",
           "unit": "index_points",
@@ -479,18 +797,6 @@
           "value": "118.800000",
           "unit": "index_points",
           "base_year": 2017
-        },
-        {
-          "observation_date": "2025-10-01",
-          "value": "119.500000",
-          "unit": "index_points",
-          "base_year": 2017
-        },
-        {
-          "observation_date": "2025-09-01",
-          "value": "120.200000",
-          "unit": "index_points",
-          "base_year": 2017
         }
       ]
     },
@@ -544,7 +850,7 @@
       "rows": [
         {
           "series": "HCP_MONTHLY",
-          "observation_count": 348
+          "observation_count": 354
         },
         {
           "series": "WORLDBANK_ANNUAL",
@@ -552,7 +858,7 @@
         },
         {
           "series": "AMMC_VERIFIED",
-          "observation_count": 36
+          "observation_count": 70
         }
       ]
     },
@@ -621,7 +927,7 @@
     {
       "name": "financial_version_divergences",
       "sql": "SELECT company_id, observation_year, indicator, first_value, latest_value, absolute_difference, relative_difference_pct, comparison_status FROM v_financial_version_comparison WHERE comparison_status = 'DIVERGENT' ORDER BY company_id, observation_year, indicator",
-      "row_count": 2,
+      "row_count": 4,
       "rows": [
         {
           "company_id": "s2m",
@@ -641,6 +947,26 @@
           "latest_value": "29413844.000000",
           "absolute_difference": "364.000000",
           "relative_difference_pct": "0.001237527827",
+          "comparison_status": "DIVERGENT"
+        },
+        {
+          "company_id": "sonasid",
+          "observation_year": 2024,
+          "indicator": "EQUITY",
+          "first_value": "1879339000.000000",
+          "latest_value": "1879300000.000000",
+          "absolute_difference": "39000.000000",
+          "relative_difference_pct": "-0.002075197716",
+          "comparison_status": "DIVERGENT"
+        },
+        {
+          "company_id": "sonasid",
+          "observation_year": 2024,
+          "indicator": "TOTAL_LIABILITIES_AND_EQUITY",
+          "first_value": "5305765000.000000",
+          "latest_value": "5305800000.000000",
+          "absolute_difference": "35000.000000",
+          "relative_difference_pct": "0.000659659823",
           "comparison_status": "DIVERGENT"
         }
       ]

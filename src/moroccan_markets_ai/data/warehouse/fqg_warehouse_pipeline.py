@@ -16,9 +16,6 @@ from typing import Any
 
 import duckdb
 
-from moroccan_markets_ai.data.parsers.fqg_handoff_loader import (
-    DEFAULT_HANDOFF_DIR,
-)
 from moroccan_markets_ai.data.parsers.fqg_pipeline import run as run_fqg
 from moroccan_markets_ai.data.parsers.fqg_source_verification import (
     DEFAULT_PDF_SOURCES,
@@ -44,6 +41,9 @@ from moroccan_markets_ai.data.warehouse.loader import (
 
 DEFAULT_HUMAN_DECISIONS = (
     PROJECT_ROOT / "data/quality/ammc/fqg_validation/human_decisions.json"
+)
+DEFAULT_FQG_HANDOFF = (
+    PROJECT_ROOT / "data/quality/ammc/handoff_fqg_v2_final"
 )
 DEFAULT_BASE_FINANCIAL = (
     PROJECT_ROOT
@@ -71,9 +71,9 @@ DEFAULT_PIPELINE_REPORT = PROJECT_ROOT / "data/warehouse/fqg_pipeline_report.jso
 class PipelinePaths:
     """Entrées et sorties explicites du pipeline reproductible."""
 
-    candidates: Path = DEFAULT_HANDOFF_DIR / "candidats_fqg.json"
-    anomalies: Path = DEFAULT_HANDOFF_DIR / "anomalies.json"
-    bilan: Path = DEFAULT_HANDOFF_DIR / "bilan.json"
+    candidates: Path = DEFAULT_FQG_HANDOFF / "candidats_fqg.json"
+    anomalies: Path = DEFAULT_FQG_HANDOFF / "anomalies.json"
+    bilan: Path = DEFAULT_FQG_HANDOFF / "bilan.json"
     human_decisions: Path = DEFAULT_HUMAN_DECISIONS
     pdf_sources: Path = DEFAULT_PDF_SOURCES
     base_financial: Path = DEFAULT_BASE_FINANCIAL
@@ -298,8 +298,8 @@ def run_pipeline(paths: PipelinePaths | None = None) -> dict[str, Any]:
     os.replace(candidate_query_results, paths.query_results)
     warehouse_report = {
         **warehouse_report,
-        "database": str(paths.database.resolve()),
-        "query_results": str(paths.query_results.resolve()),
+        "database": _display_path(paths.database),
+        "query_results": _display_path(paths.query_results),
     }
     validation_report = {
         **validation_report,
@@ -340,10 +340,47 @@ def run_pipeline(paths: PipelinePaths | None = None) -> dict[str, Any]:
 
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument(
+        "--candidates",
+        type=Path,
+        default=DEFAULT_FQG_HANDOFF / "candidats_fqg.json",
+        help="Candidats du handoff FQG à intégrer.",
+    )
+    parser.add_argument(
+        "--anomalies",
+        type=Path,
+        default=DEFAULT_FQG_HANDOFF / "anomalies.json",
+        help="Anomalies associées aux candidats FQG.",
+    )
+    parser.add_argument(
+        "--bilan",
+        type=Path,
+        default=DEFAULT_FQG_HANDOFF / "bilan.json",
+        help="Bilan d'extraction associé au handoff FQG.",
+    )
     parser.add_argument("--database", type=Path, default=DEFAULT_DATABASE)
     parser.add_argument("--run-root", type=Path, default=DEFAULT_RUN_ROOT)
     parser.add_argument(
         "--human-decisions", type=Path, default=DEFAULT_HUMAN_DECISIONS
+    )
+    parser.add_argument("--pdf-sources", type=Path, default=DEFAULT_PDF_SOURCES)
+    parser.add_argument(
+        "--base-financial", type=Path, default=DEFAULT_BASE_FINANCIAL
+    )
+    parser.add_argument(
+        "--base-references", type=Path, default=DEFAULT_BASE_REFERENCES
+    )
+    parser.add_argument("--companies", type=Path, default=DEFAULT_COMPANIES)
+    parser.add_argument("--manifest", type=Path, default=DEFAULT_MANIFEST)
+    parser.add_argument("--hcp", type=Path, default=DEFAULT_HCP)
+    parser.add_argument("--worldbank", type=Path, default=DEFAULT_WORLDBANK)
+    parser.add_argument(
+        "--ingestion-report", type=Path, default=DEFAULT_INGESTION_REPORT
+    )
+    parser.add_argument("--failed-report", type=Path, default=DEFAULT_FAILED_REPORT)
+    parser.add_argument("--query-results", type=Path, default=DEFAULT_QUERY_RESULTS)
+    parser.add_argument(
+        "--validation-report", type=Path, default=DEFAULT_VALIDATION_REPORT
     )
     parser.add_argument(
         "--pipeline-report", type=Path, default=DEFAULT_PIPELINE_REPORT
@@ -355,9 +392,23 @@ def main() -> None:
     args = build_parser().parse_args()
     report = run_pipeline(
         PipelinePaths(
+            candidates=args.candidates,
+            anomalies=args.anomalies,
+            bilan=args.bilan,
+            pdf_sources=args.pdf_sources,
+            base_financial=args.base_financial,
+            base_references=args.base_references,
+            companies=args.companies,
+            manifest=args.manifest,
+            hcp=args.hcp,
+            worldbank=args.worldbank,
             database=args.database,
             run_root=args.run_root,
             human_decisions=args.human_decisions,
+            ingestion_report=args.ingestion_report,
+            failed_report=args.failed_report,
+            query_results=args.query_results,
+            validation_report=args.validation_report,
             pipeline_report=args.pipeline_report,
         )
     )
