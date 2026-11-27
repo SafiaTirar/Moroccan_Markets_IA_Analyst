@@ -83,6 +83,73 @@ def test_value_conflict_keeps_all_sources(tmp_path):
     assert decisions[0].conflict_group == decisions[1].conflict_group
 
 
+def test_different_values_in_two_reports_are_other_versions_not_a_conflict(tmp_path):
+    """Même observation (2024) publiée avec deux valeurs dans deux rapports."""
+    published = cand(
+        annee=2024,
+        report_year=2024,
+        valeur=726492948.0,
+        ligne_source="TOTAL ACTIF | 800 000 000 | 726 492 948",
+    )
+    restated = cand(
+        annee=2024,
+        report_year=2025,
+        valeur=800000000.0,
+        source_table="DOCLING_090",
+        ligne_source="TOTAL ACTIF | 795 461 302 | 800 000 000",
+    )
+    decisions, summary = check(tmp_path, [published, restated])
+    assert summary.conflict_groups == 0
+    assert all("VALUE_CONFLICT" not in codes(d) for d in decisions)
+    assert all(d.conflict_group is None for d in decisions)
+    assert [d.c.valeur for d in decisions] == [726492948.0, 800000000.0]
+    assert len(decisions) == 2  # rien n'est supprimé
+
+
+def test_same_value_in_two_reports_is_only_corroboration(tmp_path):
+    first = cand(annee=2024, report_year=2024)
+    other_report = cand(annee=2024, report_year=2025, source_table="DOCLING_090")
+    decisions, summary = check(tmp_path, [first, other_report])
+    assert summary.conflict_groups == 0
+    assert all("CORROBORATED_ELSEWHERE" in codes(d) for d in decisions)
+
+
+def test_conflict_in_same_report_stays_flagged_when_other_report_differs(tmp_path):
+    a = cand(annee=2024, report_year=2025)
+    b = cand(
+        annee=2024,
+        report_year=2025,
+        valeur=800000000.0,
+        source_table="DOCLING_090",
+        ligne_source="TOTAL ACTIF | 800 000 000",
+    )
+    c = cand(
+        annee=2024,
+        report_year=2024,
+        valeur=900000000.0,
+        source_table="DOCLING_091",
+        ligne_source="TOTAL ACTIF | 900 000 000",
+    )
+    decisions, summary = check(tmp_path, [a, b, c])
+    assert summary.conflict_groups == 1
+    assert "VALUE_CONFLICT" in codes(decisions[0])
+    assert "VALUE_CONFLICT" in codes(decisions[1])
+    assert "VALUE_CONFLICT" not in codes(decisions[2])
+
+
+def test_social_and_consolidated_are_never_merged(tmp_path):
+    social = cand(perimetre="SOCIAL")
+    consolidated = cand(
+        perimetre="CONSOLIDE",
+        valeur=800000000.0,
+        source_table="DOCLING_090",
+        ligne_source="TOTAL ACTIF | 800 000 000",
+    )
+    decisions, summary = check(tmp_path, [social, consolidated])
+    assert summary.conflict_groups == 0
+    assert all("VALUE_CONFLICT" not in codes(d) for d in decisions)
+
+
 def test_scale_divergence_is_named_as_such(tmp_path):
     other = cand(
         valeur=795461.302,
