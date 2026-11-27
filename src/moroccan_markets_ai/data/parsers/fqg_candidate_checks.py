@@ -298,14 +298,29 @@ def check_exact_duplicates(decisions: list[CandidateDecision]) -> int:
 
 
 def check_value_conflicts(decisions: list[CandidateDecision]) -> int:
-    """Même entreprise, année observée et indicateur, mais valeurs différentes.
+    """Valeurs différentes pour une même version d'observation.
+
+    Clé de version (``financial_version_policy.md``) : entreprise, exercice du
+    rapport, année observée, indicateur et périmètre. Un même chiffre publié
+    différemment dans deux rapports est une autre version, pas un conflit. Le
+    périmètre, quand il est renseigné, n'est jamais fusionné avec un autre. La
+    devise n'existe pas dans le candidat : elle n'est pas inventée.
 
     Toutes les sources sont conservées : chaque membre reçoit un conflict_group.
     Une différence d'un facteur 1 000 / 1 000 000 est signalée comme écart d'échelle.
     """
-    groups = _group(decisions, lambda d: (d.c.entreprise, d.c.annee, d.c.indicator))
+    groups = _group(
+        decisions,
+        lambda d: (
+            d.c.entreprise,
+            d.c.report_year,
+            d.c.annee,
+            d.c.indicator,
+            d.c.perimetre,
+        ),
+    )
     n_conflicts = 0
-    for n, (key, items) in enumerate(sorted(groups.items()), start=1):
+    for n, (key, items) in enumerate(sorted(groups.items(), key=str), start=1):
         values = {d.c.valeur for d in items}
         if len(values) < 2:
             if len(items) > 1:
@@ -329,7 +344,6 @@ def check_value_conflicts(decisions: list[CandidateDecision]) -> int:
             continue
         nonzero = sorted(abs(v) for v in values if v)
         scale_only = bool(nonzero) and _all_scale_multiples(nonzero)
-        same_report = len({d.c.report_year for d in items}) == 1
         for d in items:
             d.conflict_group = gid
             others = sorted(str(v) for v in values if v != d.c.valeur)
@@ -340,14 +354,35 @@ def check_value_conflicts(decisions: list[CandidateDecision]) -> int:
                     f"mêmes chiffres à une échelle près ({', '.join(others)}) : unités à confirmer",
                 )
             else:
-                where = "dans le même rapport" if same_report else "entre rapports"
                 d.add(
                     "VALUE_CONFLICT",
                     REVIEW,
-                    f"valeurs concurrentes {where} pour {key[0]} {key[1]} {key[2]} : "
-                    f"{', '.join(others)} (périmètre/version à départager)",
+                    f"valeurs concurrentes dans le rapport {key[1]} pour "
+                    f"{key[0]} {key[2]} {key[3]} : {', '.join(others)} "
+                    "(périmètre/version à départager)",
                 )
+    _corroborate_across_reports(decisions)
     return n_conflicts
+
+
+def _corroborate_across_reports(decisions: list[CandidateDecision]) -> None:
+    """Même valeur dans plusieurs rapports : indice de cohérence, jamais un conflit."""
+    wide = _group(
+        decisions,
+        lambda d: (d.c.entreprise, d.c.annee, d.c.indicator, d.c.perimetre),
+    )
+    for items in wide.values():
+        if len({d.c.report_year for d in items}) < 2:
+            continue
+        if len({d.c.valeur for d in items}) != 1:
+            continue  # autres versions : valeurs distinctes par rapport, sans conflit
+        for d in items:
+            if not any(r["code"] == "CORROBORATED_ELSEWHERE" for r in d.reasons):
+                d.add(
+                    "CORROBORATED_ELSEWHERE",
+                    INFO,
+                    f"même valeur trouvée dans {len(items)} sources",
+                )
 
 
 def _all_scale_multiples(values: list[Decimal]) -> bool:
